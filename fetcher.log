@@ -485,3 +485,15 @@
 [2024-04-16 00:28:45] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.88.tar.gz]
 [2024-04-16 00:28:45] INFO root fetch - main [MainThread]: End processing [DiadFit]: success
 [2024-04-16 00:28:45] INFO root fetch - main [MainThread]: Store serial: [22779843]
+[2024-04-16 00:30:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779843]
+[2024-04-16 00:30:54] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 00:30:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitoptim
+[2024-04-16 00:30:54] INFO root fetch - processPackages [gitoptim]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-04-16 00:30:54] INFO root fetch - processPackages [gitoptim]: Downloading https://files.pythonhosted.org/packages/45/6f/0f75b31a907c70dcedde994a3eba2781183474400bc622ed9ec1307d905d/gitoptim-0.1.0.dev8.tar.gz
+[2024-04-16 00:30:55] INFO root fetch - processPackages [gitoptim]: Downloading https://files.pythonhosted.org/packages/2d/7b/8189c9a337faab6ae94d38e0f71db1ec38377ec5391a00d135a942ee8b90/gitoptim-0.1.0.dev9.tar.gz
+[2024-04-16 00:30:55] INFO root fetch - processPackages [gitoptim]: executing diffoscope
+[2024-04-16 00:30:55] INFO root fetch - processPackages [gitoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitoptim-0.1.0.dev8.tar.gz tmp/gitoptim-0.1.0.dev9.tar.gz --markdown 20240416/g/gitoptim/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-04-16 00:30:55] INFO root fetch - processPackages [gitoptim]: Remove: archive file [/home/abi/fetcher/tmp/gitoptim-0.1.0.dev8.tar.gz]
+[2024-04-16 00:30:55] INFO root fetch - processPackages [gitoptim]: Remove: archive file [/home/abi/fetcher/tmp/gitoptim-0.1.0.dev9.tar.gz]
+[2024-04-16 00:30:55] INFO root fetch - main [MainThread]: End processing [gitoptim]: success
+[2024-04-16 00:30:55] INFO root fetch - main [MainThread]: Store serial: [22779846]
