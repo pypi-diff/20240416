@@ -1581,3 +1581,54 @@
 [2024-04-16 01:46:11] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-16 01:46:11] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2024-04-16 01:46:11] INFO root fetch - main [MainThread]: Store serial: [22780419]
+[2024-04-16 01:48:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780419]
+[2024-04-16 01:48:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 01:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mavsdk
+[2024-04-16 01:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elastic
+[2024-04-16 01:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: suql
+[2024-04-16 01:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zetascale
+[2024-04-16 01:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CryptMaster
+[2024-04-16 01:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pih-plb-rvw-auto
+[2024-04-16 01:48:36] INFO root fetch - processPackages [suql]: New version: [1.1.2] Old Version: [1.1.1a0]
+[2024-04-16 01:48:36] WARNING root fetch - processPackages [pih-plb-rvw-auto]: Skipping, unable to determine old version
+[2024-04-16 01:48:36] INFO root fetch - main [MainThread]: End processing [pih-plb-rvw-auto] error
+[2024-04-16 01:48:36] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 01:48:36] INFO root fetch - processPackages [elastic]: New version: [5.2.1.5] Old Version: [5.2.1.14]
+[2024-04-16 01:48:36] INFO root fetch - processPackages [zetascale]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-16 01:48:36] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/5a/f0/abf43ae0381578f462e9daf55d816fc7ca8661ff9500dfcef7c3bfcabe73/suql-1.1.1a0.tar.gz
+[2024-04-16 01:48:36] INFO root fetch - processPackages [mavsdk]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-16 01:48:36] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 01:48:36] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/48/e6/7b098e306e004e2b33d550f8b92f8f4786f4689c466e2dffc7db649e8fd9/zetascale-2.4.0.tar.gz
+[2024-04-16 01:48:36] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/d8/f6/f68374055b60478ad06fad7459123a1cea71f66944976a70e5afcb7b088f/elastic-5.2.1.14.tar.gz
+[2024-04-16 01:48:36] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 01:48:36] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/56/fc/c0d7f4a2e0620c1e824565c8b34ccdaedcdb11e189765a01f6b37d95f575/suql-1.1.2.tar.gz
+[2024-04-16 01:48:36] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/66/94/532f5a9b63e58c3d7f65b6db0f06581f7896eafda96c5c236f948cebf65b/mavsdk-2.3.0-py3-none-win_amd64.whl
+[2024-04-16 01:48:36] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 01:48:36] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 01:48:36] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/04/69/fb96cfc666f9ae3db13804210bc5937d5a3bfb4c43f3599e3474150b3cb9/zetascale-2.4.1.tar.gz
+[2024-04-16 01:48:36] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-04-16 01:48:36] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.1a0.tar.gz tmp/suql-1.1.2.tar.gz --markdown 20240416/s/suql/1.1.1a0-1.1.2/README.md --exclude *.pyd
+[2024-04-16 01:48:36] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/8e/a4/25f72b4c0da4f3c21f7a75b19c6c8a9aed46c569be0a74f375186152c372/elastic-5.2.1.5.tar.gz
+[2024-04-16 01:48:36] INFO root fetch - processPackages [elastic]: executing diffoscope
+[2024-04-16 01:48:36] INFO root fetch - processPackages [elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-5.2.1.14.tar.gz tmp/elastic-5.2.1.5.tar.gz --markdown 20240416/e/elastic/5.2.1.14-5.2.1.5/README.md --exclude *.pyd
+[2024-04-16 01:48:36] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/0e/6b/3b4f8414109ee9f3dca2ee1b16b7d26a848b2426b3b87d2830742f7eec85/mavsdk-2.4.0-py3-none-win_amd64.whl
+[2024-04-16 01:48:36] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2024-04-16 01:48:36] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-2.4.0.tar.gz tmp/zetascale-2.4.1.tar.gz --markdown 20240416/z/zetascale/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-16 01:48:36] INFO root fetch - processPackages [mavsdk]: executing diffoscope
+[2024-04-16 01:48:36] INFO root fetch - processPackages [mavsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavsdk-2.3.0-py3-none-win_amd64.whl.zip tmp/mavsdk-2.4.0-py3-none-win_amd64.whl.zip --markdown 20240416/m/mavsdk/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-16 01:48:37] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 01:48:37] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 01:48:37] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 01:48:37] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.1a0.tar.gz]
+[2024-04-16 01:48:37] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.2.tar.gz]
+[2024-04-16 01:48:37] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-04-16 01:48:37] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.3.0-py3-none-win_amd64.whl.zip]
+[2024-04-16 01:48:37] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.4.0-py3-none-win_amd64.whl.zip]
+[2024-04-16 01:48:37] INFO root fetch - main [MainThread]: End processing [mavsdk]: success
+[2024-04-16 01:48:38] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.1.14.tar.gz]
+[2024-04-16 01:48:38] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.1.5.tar.gz]
+[2024-04-16 01:48:38] INFO root fetch - main [MainThread]: End processing [elastic]: success
+[2024-04-16 01:48:38] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.4.0.tar.gz]
+[2024-04-16 01:48:38] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.4.1.tar.gz]
+[2024-04-16 01:48:38] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2024-04-16 01:48:38] INFO root fetch - main [MainThread]: Store serial: [22780443]
