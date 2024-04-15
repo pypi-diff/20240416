@@ -1473,3 +1473,69 @@
 [2024-04-16 01:39:36] ERROR root fetch - processPackages [pref-voting]: Timeout during execution of pkgdiff
 [2024-04-16 01:39:36] INFO root fetch - main [MainThread]: End processing [pref-voting] error
 [2024-04-16 01:39:36] INFO root fetch - main [MainThread]: Store serial: [22780344]
+[2024-04-16 01:41:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780344]
+[2024-04-16 01:41:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 01:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mystring
+[2024-04-16 01:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zetascale
+[2024-04-16 01:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CryptMaster
+[2024-04-16 01:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elifecleaner
+[2024-04-16 01:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyplotlib
+[2024-04-16 01:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evm-trace
+[2024-04-16 01:41:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spaceone-inventory
+[2024-04-16 01:41:45] INFO root fetch - processPackages [evm-trace]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 01:41:45] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 01:41:45] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 01:41:45] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-16 01:41:45] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-16 01:41:45] INFO root fetch - processPackages [zetascale]: New version: [2.4.0] Old Version: [2.3.9]
+[2024-04-16 01:41:45] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 01:41:45] INFO root fetch - processPackages [evm-trace]: Downloading https://files.pythonhosted.org/packages/1e/65/d5818da35d26d33f37ca0598329896eab785e84120354750ccfaa726fd36/evm-trace-0.1.3.tar.gz
+[2024-04-16 01:41:45] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-16 01:41:45] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-04-16 01:41:45] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 01:41:46] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-16 01:41:46] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/d8/0e/4046c55d79880da671663d71e149bd71481ded59f3d48fcdbcb00ba806d5/elifecleaner-0.9.0.tar.gz
+[2024-04-16 01:41:46] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/0f/54/a5adc8be27bcc61c821ba1c29314f472d486f04f152c3d6b765cb63fc6e6/zetascale-2.3.9.tar.gz
+[2024-04-16 01:41:46] INFO root fetch - processPackages [evm-trace]: Downloading https://files.pythonhosted.org/packages/90/99/d1f2c3eead1097c74ace0c6b4230d422a533d8df8845a0da3f9fee6043d3/evm-trace-0.1.4.tar.gz
+[2024-04-16 01:41:46] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-16 01:41:46] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 01:41:46] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-04-16 01:41:46] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-16 01:41:46] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240416/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 01:41:46] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 01:41:46] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 01:41:46] INFO root fetch - processPackages [evm-trace]: executing diffoscope
+[2024-04-16 01:41:46] INFO root fetch - processPackages [evm-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evm-trace-0.1.3.tar.gz tmp/evm-trace-0.1.4.tar.gz --markdown 20240416/e/evm-trace/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 01:41:46] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-04-16 01:41:46] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240416/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-16 01:41:46] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-16 01:41:46] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/48/e6/7b098e306e004e2b33d550f8b92f8f4786f4689c466e2dffc7db649e8fd9/zetascale-2.4.0.tar.gz
+[2024-04-16 01:41:46] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/ba/d9/f14856c509de287aec8a31e76808f681383e338462e051c31edcecd1527f/elifecleaner-0.9.1.tar.gz
+[2024-04-16 01:41:46] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-16 01:41:46] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240416/m/mystring/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-16 01:41:46] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2024-04-16 01:41:46] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20240416/e/elifecleaner/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 01:41:47] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2024-04-16 01:41:47] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-2.3.9.tar.gz tmp/zetascale-2.4.0.tar.gz --markdown 20240416/z/zetascale/2.3.9-2.4.0/README.md --exclude *.pyd
+[2024-04-16 01:41:47] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-16 01:41:47] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 01:41:47] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.0.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.1.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2024-04-16 01:41:47] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-16 01:41:47] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-16 01:41:47] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-16 01:41:47] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-04-16 01:41:47] INFO root fetch - processPackages [evm-trace]: Remove: archive file [/home/abi/fetcher/tmp/evm-trace-0.1.3.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - processPackages [evm-trace]: Remove: archive file [/home/abi/fetcher/tmp/evm-trace-0.1.4.tar.gz]
+[2024-04-16 01:41:47] INFO root fetch - main [MainThread]: End processing [evm-trace]: success
+[2024-04-16 01:41:48] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.3.9.tar.gz]
+[2024-04-16 01:41:48] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.4.0.tar.gz]
+[2024-04-16 01:41:48] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2024-04-16 01:41:48] INFO root fetch - main [MainThread]: Store serial: [22780366]
