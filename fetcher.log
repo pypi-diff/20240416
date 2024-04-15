@@ -742,3 +742,66 @@
 [2024-04-16 00:41:55] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.5-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2024-04-16 00:41:55] INFO root fetch - main [MainThread]: End processing [pystaleds]: success
 [2024-04-16 00:41:55] INFO root fetch - main [MainThread]: Store serial: [22780017]
+[2024-04-16 00:43:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780017]
+[2024-04-16 00:44:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 00:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agave-pyclient
+[2024-04-16 00:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taskara
+[2024-04-16 00:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymeos-cffi
+[2024-04-16 00:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: example-package-adragos
+[2024-04-16 00:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parsl
+[2024-04-16 00:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shareddata
+[2024-04-16 00:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sts-lib
+[2024-04-16 00:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: passport-snapchat
+[2024-04-16 00:44:04] INFO root fetch - processPackages [sts-lib]: New version: [0.24.0] Old Version: [0.23.0]
+[2024-04-16 00:44:04] INFO root fetch - processPackages [shareddata]: New version: [4.8.1] Old Version: [4.8.0]
+[2024-04-16 00:44:04] INFO root fetch - processPackages [taskara]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-16 00:44:04] INFO root fetch - processPackages [agave-pyclient]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-16 00:44:04] INFO root fetch - processPackages [parsl]: New version: [2024.4.8] Old Version: [2024.4.15]
+[2024-04-16 00:44:04] WARNING root fetch - processPackages [example-package-adragos]: Skipping, unable to determine old version
+[2024-04-16 00:44:04] INFO root fetch - main [MainThread]: End processing [example-package-adragos] error
+[2024-04-16 00:44:04] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/61/f3/a84d322237f082a5aa63a78726028f4e835f6786fbc2c81299b9bfdafa95/sts_lib-0.23.0.tar.gz
+[2024-04-16 00:44:04] WARNING root fetch - processPackages [passport-snapchat]: Skipping, unable to determine old version
+[2024-04-16 00:44:04] INFO root fetch - main [MainThread]: End processing [passport-snapchat] error
+[2024-04-16 00:44:04] INFO root fetch - processPackages [pymeos-cffi]: New version: [1.1.1] Old Version: [1.1.0rc2.post1]
+[2024-04-16 00:44:04] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/2a/58/c520979023190b895758bbc47d2ac3878b955c2553f080d3a5b8152c4219/shareddata-4.8.0.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/d6/1e/172ae85d48722a1e28b9526c0bb34465bd7920d0c8e6858e25a3f8c528a9/taskara-0.1.7.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/f5/eb/193d5be499975353d19a5a2b4447854cd818a4a830b9f9c2fe9ba7c47d76/parsl-2024.4.15.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/13/df/92f3b94f06b735d22b682353e9157974ef6b4359e08819eef2fe9be4aa0f/agave_pyclient-1.6.0.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [pymeos-cffi]: Downloading https://files.pythonhosted.org/packages/41/6e/3147c16ad2963d74e905f79135325f4d899643fc8431bda9015742d9d232/pymeos_cffi-1.1.0rc2.post1.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/47/e9/657e2c170c3c1d33047258b43f2ffcf2fe4a8022e3593f723df226416ea9/shareddata-4.8.1.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/bb/e9/19b2cb359cca720b65d55fdb1501a7880f36937394e46784101506e09437/sts_lib-0.24.0.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2024-04-16 00:44:04] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-4.8.0.tar.gz tmp/shareddata-4.8.1.tar.gz --markdown 20240416/s/shareddata/4.8.0-4.8.1/README.md --exclude *.pyd
+[2024-04-16 00:44:04] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-04-16 00:44:04] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_lib-0.23.0.tar.gz tmp/sts_lib-0.24.0.tar.gz --markdown 20240416/s/sts-lib/0.23.0-0.24.0/README.md --exclude *.pyd
+[2024-04-16 00:44:04] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/40/4c/af65a2fbb3e7f43b52f41f6a0c89c2fa9a4234d11050a72e67acbf1e8a48/agave_pyclient-1.6.1.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [taskara]: Downloading https://files.pythonhosted.org/packages/c0/4f/e9467a6dd755091e2fe2294b58569b289c5252fd70463791829fd99fbfd7/taskara-0.1.8.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [pymeos-cffi]: Downloading https://files.pythonhosted.org/packages/81/c2/137943e979f2af80a59c67ab9adda8a9f54da5e68d3116eed0bd699c0123/pymeos_cffi-1.1.1.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/94/de/893d796efa9e69eb525af6a6cc016f08b80bac955081b189080204720968/parsl-2024.4.8.tar.gz
+[2024-04-16 00:44:04] INFO root fetch - processPackages [agave-pyclient]: executing diffoscope
+[2024-04-16 00:44:04] INFO root fetch - processPackages [agave-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agave_pyclient-1.6.0.tar.gz tmp/agave_pyclient-1.6.1.tar.gz --markdown 20240416/a/agave-pyclient/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-16 00:44:04] INFO root fetch - processPackages [taskara]: executing diffoscope
+[2024-04-16 00:44:04] INFO root fetch - processPackages [taskara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskara-0.1.7.tar.gz tmp/taskara-0.1.8.tar.gz --markdown 20240416/t/taskara/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-16 00:44:05] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2024-04-16 00:44:05] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2024.4.15.tar.gz tmp/parsl-2024.4.8.tar.gz --markdown 20240416/p/parsl/2024.4.15-2024.4.8/README.md --exclude *.pyd
+[2024-04-16 00:44:05] INFO root fetch - processPackages [pymeos-cffi]: executing diffoscope
+[2024-04-16 00:44:05] INFO root fetch - processPackages [pymeos-cffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeos_cffi-1.1.0rc2.post1.tar.gz tmp/pymeos_cffi-1.1.1.tar.gz --markdown 20240416/p/pymeos-cffi/1.1.0rc2.post1-1.1.1/README.md --exclude *.pyd
+[2024-04-16 00:44:05] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.0.tar.gz]
+[2024-04-16 00:44:05] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.1.tar.gz]
+[2024-04-16 00:44:05] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2024-04-16 00:44:05] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.7.tar.gz]
+[2024-04-16 00:44:05] INFO root fetch - processPackages [taskara]: Remove: archive file [/home/abi/fetcher/tmp/taskara-0.1.8.tar.gz]
+[2024-04-16 00:44:05] INFO root fetch - main [MainThread]: End processing [taskara]: success
+[2024-04-16 00:44:05] INFO root fetch - processPackages [agave-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/agave_pyclient-1.6.0.tar.gz]
+[2024-04-16 00:44:05] INFO root fetch - processPackages [agave-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/agave_pyclient-1.6.1.tar.gz]
+[2024-04-16 00:44:05] INFO root fetch - main [MainThread]: End processing [agave-pyclient]: success
+[2024-04-16 00:44:06] INFO root fetch - processPackages [pymeos-cffi]: Remove: archive file [/home/abi/fetcher/tmp/pymeos_cffi-1.1.0rc2.post1.tar.gz]
+[2024-04-16 00:44:06] INFO root fetch - processPackages [pymeos-cffi]: Remove: archive file [/home/abi/fetcher/tmp/pymeos_cffi-1.1.1.tar.gz]
+[2024-04-16 00:44:06] INFO root fetch - main [MainThread]: End processing [pymeos-cffi]: success
+[2024-04-16 00:44:06] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.23.0.tar.gz]
+[2024-04-16 00:44:06] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.24.0.tar.gz]
+[2024-04-16 00:44:06] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-04-16 00:44:06] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.15.tar.gz]
+[2024-04-16 00:44:06] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.8.tar.gz]
+[2024-04-16 00:44:06] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2024-04-16 00:44:06] INFO root fetch - main [MainThread]: Store serial: [22780089]
