@@ -1632,3 +1632,24 @@
 [2024-04-16 01:48:38] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.4.1.tar.gz]
 [2024-04-16 01:48:38] INFO root fetch - main [MainThread]: End processing [zetascale]: success
 [2024-04-16 01:48:38] INFO root fetch - main [MainThread]: Store serial: [22780443]
+[2024-04-16 01:50:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780443]
+[2024-04-16 01:50:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 01:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CryptMaster
+[2024-04-16 01:50:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pympipool
+[2024-04-16 01:50:46] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 01:50:46] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 01:50:46] INFO root fetch - processPackages [pympipool]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-16 01:50:47] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 01:50:47] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/ff/1b/5a0f9afb3dc781ef3a42b228b9ea2da9ba1bb39a01e3bb652d43ba6f1ccc/pympipool-0.7.8.tar.gz
+[2024-04-16 01:50:47] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 01:50:47] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 01:50:47] INFO root fetch - processPackages [pympipool]: Downloading https://files.pythonhosted.org/packages/5b/67/74e1ea7d63ef735017d9511c00e7d5f55dc333cf88e7f9843a705463f76c/pympipool-0.7.9.tar.gz
+[2024-04-16 01:50:47] INFO root fetch - processPackages [pympipool]: executing diffoscope
+[2024-04-16 01:50:47] INFO root fetch - processPackages [pympipool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pympipool-0.7.8.tar.gz tmp/pympipool-0.7.9.tar.gz --markdown 20240416/p/pympipool/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-16 01:50:47] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 01:50:47] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 01:50:47] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 01:50:48] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.7.8.tar.gz]
+[2024-04-16 01:50:48] INFO root fetch - processPackages [pympipool]: Remove: archive file [/home/abi/fetcher/tmp/pympipool-0.7.9.tar.gz]
+[2024-04-16 01:50:48] INFO root fetch - main [MainThread]: End processing [pympipool]: success
+[2024-04-16 01:50:48] INFO root fetch - main [MainThread]: Store serial: [22780450]
