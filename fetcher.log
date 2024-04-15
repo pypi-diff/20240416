@@ -255,3 +255,33 @@
 [2024-04-16 00:15:40] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.9.tar.gz]
 [2024-04-16 00:15:40] INFO root fetch - main [MainThread]: End processing [blackneedles]: success
 [2024-04-16 00:15:40] INFO root fetch - main [MainThread]: Store serial: [22779744]
+[2024-04-16 00:17:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779744]
+[2024-04-16 00:17:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmaptools
+[2024-04-16 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rov-sent-api
+[2024-04-16 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trieve-py-client
+[2024-04-16 00:17:48] INFO root fetch - processPackages [trieve-py-client]: New version: [0.6.9] Old Version: [0.6.7]
+[2024-04-16 00:17:48] INFO root fetch - processPackages [rov-sent-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 00:17:48] INFO root fetch - processPackages [docmaptools]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 00:17:48] INFO root fetch - processPackages [rov-sent-api]: Downloading https://files.pythonhosted.org/packages/8c/0c/62dbf30f97c19a8a09fccabed8521efa480b6ab3c986806bdef8e89f88bc/rov_sent_api-0.1.8.tar.gz
+[2024-04-16 00:17:49] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/31/6f/08daa72287f63cf60ffc7962a2e73be6ca6c57c778306e6d5506b073b2c6/docmaptools-0.8.0.tar.gz
+[2024-04-16 00:17:49] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/f6/57/7e8ad08c4521f26cf037778af90c82c0ae95a10bd42c7ee3987af452f94d/trieve_py_client-0.6.7-py3-none-any.whl
+[2024-04-16 00:17:49] INFO root fetch - processPackages [trieve-py-client]: Downloading https://files.pythonhosted.org/packages/97/2f/b5cf7d24661e467b57c1a9986fa12cf6d9cd10bfbf3cdd524090086ee55b/trieve_py_client-0.6.9-py3-none-any.whl
+[2024-04-16 00:17:49] INFO root fetch - processPackages [docmaptools]: Downloading https://files.pythonhosted.org/packages/de/00/2f57c47c8af057a6ed15db8c947d94ab89ddba218a4b81aecf669e4eae22/docmaptools-0.9.0.tar.gz
+[2024-04-16 00:17:49] INFO root fetch - processPackages [rov-sent-api]: Downloading https://files.pythonhosted.org/packages/5f/7f/9a3c7b196ff72985a4dc11bd1a847f729f3d7a6347011b2c869584fa2758/rov_sent_api-0.1.9.tar.gz
+[2024-04-16 00:17:49] INFO root fetch - processPackages [trieve-py-client]: executing diffoscope
+[2024-04-16 00:17:49] INFO root fetch - processPackages [trieve-py-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trieve_py_client-0.6.7-py3-none-any.whl.zip tmp/trieve_py_client-0.6.9-py3-none-any.whl.zip --markdown 20240416/t/trieve-py-client/0.6.7-0.6.9/README.md --exclude *.pyd
+[2024-04-16 00:17:49] INFO root fetch - processPackages [docmaptools]: executing diffoscope
+[2024-04-16 00:17:49] INFO root fetch - processPackages [docmaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmaptools-0.8.0.tar.gz tmp/docmaptools-0.9.0.tar.gz --markdown 20240416/d/docmaptools/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 00:17:49] INFO root fetch - processPackages [rov-sent-api]: executing diffoscope
+[2024-04-16 00:17:49] INFO root fetch - processPackages [rov-sent-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rov_sent_api-0.1.8.tar.gz tmp/rov_sent_api-0.1.9.tar.gz --markdown 20240416/r/rov-sent-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 00:17:50] INFO root fetch - processPackages [docmaptools]: Remove: archive file [/home/abi/fetcher/tmp/docmaptools-0.8.0.tar.gz]
+[2024-04-16 00:17:50] INFO root fetch - processPackages [docmaptools]: Remove: archive file [/home/abi/fetcher/tmp/docmaptools-0.9.0.tar.gz]
+[2024-04-16 00:17:50] INFO root fetch - main [MainThread]: End processing [docmaptools]: success
+[2024-04-16 00:17:50] INFO root fetch - processPackages [rov-sent-api]: Remove: archive file [/home/abi/fetcher/tmp/rov_sent_api-0.1.8.tar.gz]
+[2024-04-16 00:17:50] INFO root fetch - processPackages [rov-sent-api]: Remove: archive file [/home/abi/fetcher/tmp/rov_sent_api-0.1.9.tar.gz]
+[2024-04-16 00:17:50] INFO root fetch - main [MainThread]: End processing [rov-sent-api]: success
+[2024-04-16 00:17:51] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.6.7-py3-none-any.whl.zip]
+[2024-04-16 00:17:51] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.6.9-py3-none-any.whl.zip]
+[2024-04-16 00:17:51] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
+[2024-04-16 00:17:51] INFO root fetch - main [MainThread]: Store serial: [22779752]
