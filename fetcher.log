@@ -679,3 +679,66 @@
 [2024-04-16 00:39:44] INFO root fetch - processPackages [roguewavespectrum]: Remove: archive file [/home/abi/fetcher/tmp/roguewavespectrum-0.2.7.tar.gz]
 [2024-04-16 00:39:44] INFO root fetch - main [MainThread]: End processing [roguewavespectrum]: success
 [2024-04-16 00:39:44] INFO root fetch - main [MainThread]: Store serial: [22779962]
+[2024-04-16 00:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779962]
+[2024-04-16 00:41:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anstrip
+[2024-04-16 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydcapi
+[2024-04-16 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jksandbox
+[2024-04-16 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystaleds
+[2024-04-16 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal
+[2024-04-16 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal-client
+[2024-04-16 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threadmem
+[2024-04-16 00:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minis-sdk
+[2024-04-16 00:41:53] INFO root fetch - processPackages [anstrip]: New version: [0.2.0] Old Version: [0.1.0.post1]
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 00:41:53] WARNING root fetch - processPackages [jksandbox]: Skipping, unable to determine old version
+[2024-04-16 00:41:53] INFO root fetch - main [MainThread]: End processing [jksandbox] error
+[2024-04-16 00:41:53] INFO root fetch - processPackages [threadmem]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 00:41:53] INFO root fetch - processPackages [anstrip]: Downloading https://files.pythonhosted.org/packages/4a/88/bb31c996d896789b27d311a1fcf98bbc61062729dd3d112c7cdc555e7774/anstrip-0.1.0.post1.tar.gz
+[2024-04-16 00:41:53] INFO root fetch - processPackages [pydcapi]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 00:41:53] WARNING root fetch - processPackages [minis-sdk]: Skipping, unable to determine old version
+[2024-04-16 00:41:53] INFO root fetch - main [MainThread]: End processing [minis-sdk] error
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-16 00:41:53] INFO root fetch - processPackages [pystaleds]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 00:41:53] INFO root fetch - processPackages [anstrip]: Downloading https://files.pythonhosted.org/packages/1d/77/634ec06fdb72d1ba5c6e222d341cf13788f3b377820d3b05718523164943/anstrip-0.2.0.tar.gz
+[2024-04-16 00:41:53] INFO root fetch - processPackages [pydcapi]: Downloading https://files.pythonhosted.org/packages/ab/1d/1166d045a52d0db434f95e8a64c782ed0253a468b98dd07af45b19642a72/pydcapi-0.1.4.tar.gz
+[2024-04-16 00:41:53] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/d1/30/a9cf7f0975ba0079eb4b0074823ecadf7175a720835daa0dfe3c4994eb7a/threadmem-0.2.8.tar.gz
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-16 00:41:53] INFO root fetch - processPackages [pystaleds]: Downloading https://files.pythonhosted.org/packages/2a/b3/110685e1dd5be02579e9b538e29a91a6ce0e9ae1d6f1171891c6f377d489/pystaleds-0.1.4.tar.gz
+[2024-04-16 00:41:53] INFO root fetch - processPackages [anstrip]: executing diffoscope
+[2024-04-16 00:41:53] INFO root fetch - processPackages [anstrip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anstrip-0.1.0.post1.tar.gz tmp/anstrip-0.2.0.tar.gz --markdown 20240416/a/anstrip/0.1.0.post1-0.2.0/README.md --exclude *.pyd
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-16 00:41:53] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 00:41:54] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/87/25/85a9dacfcff4df9fa520c1badc3111f837a0e83a4abc57ead714a4c4b42b/threadmem-0.2.9.tar.gz
+[2024-04-16 00:41:54] INFO root fetch - processPackages [pydcapi]: Downloading https://files.pythonhosted.org/packages/14/a8/9b0f302c13f564f6480ec57c13c5a82e399ef4e911e99455835afa037c69/pydcapi-0.1.5.tar.gz
+[2024-04-16 00:41:54] INFO root fetch - processPackages [pystaleds]: Downloading https://files.pythonhosted.org/packages/bb/93/a9bdc10a1111fe85e958fdea799811e8f6e8abfc1186ce3bb8fcbcacc7db/pystaleds-0.1.5-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-04-16 00:41:54] INFO root fetch - processPackages [threadmem]: executing diffoscope
+[2024-04-16 00:41:54] INFO root fetch - processPackages [threadmem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadmem-0.2.8.tar.gz tmp/threadmem-0.2.9.tar.gz --markdown 20240416/t/threadmem/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 00:41:54] INFO root fetch - processPackages [anstrip]: Remove: archive file [/home/abi/fetcher/tmp/anstrip-0.1.0.post1.tar.gz]
+[2024-04-16 00:41:54] INFO root fetch - processPackages [anstrip]: Remove: archive file [/home/abi/fetcher/tmp/anstrip-0.2.0.tar.gz]
+[2024-04-16 00:41:54] INFO root fetch - main [MainThread]: End processing [anstrip]: success
+[2024-04-16 00:41:54] INFO root fetch - processPackages [pydcapi]: executing diffoscope
+[2024-04-16 00:41:54] INFO root fetch - processPackages [pydcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydcapi-0.1.4.tar.gz tmp/pydcapi-0.1.5.tar.gz --markdown 20240416/p/pydcapi/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 00:41:54] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 00:41:54] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 00:41:54] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-16 00:41:54] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.8.tar.gz]
+[2024-04-16 00:41:54] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.9.tar.gz]
+[2024-04-16 00:41:54] INFO root fetch - main [MainThread]: End processing [threadmem]: success
+[2024-04-16 00:41:54] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 00:41:54] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 00:41:54] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-16 00:41:55] INFO root fetch - processPackages [pystaleds]: executing diffoscope
+[2024-04-16 00:41:55] INFO root fetch - processPackages [pystaleds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystaleds-0.1.4.tar.gz tmp/pystaleds-0.1.5-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240416/p/pystaleds/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 00:41:55] INFO root fetch - processPackages [pydcapi]: Remove: archive file [/home/abi/fetcher/tmp/pydcapi-0.1.4.tar.gz]
+[2024-04-16 00:41:55] INFO root fetch - processPackages [pydcapi]: Remove: archive file [/home/abi/fetcher/tmp/pydcapi-0.1.5.tar.gz]
+[2024-04-16 00:41:55] INFO root fetch - main [MainThread]: End processing [pydcapi]: success
+[2024-04-16 00:41:55] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.4.tar.gz]
+[2024-04-16 00:41:55] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.5-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-04-16 00:41:55] INFO root fetch - main [MainThread]: End processing [pystaleds]: success
+[2024-04-16 00:41:55] INFO root fetch - main [MainThread]: Store serial: [22780017]
