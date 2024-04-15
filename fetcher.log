@@ -1447,3 +1447,29 @@
 [2024-04-16 01:34:26] INFO root fetch - processPackages [simplesingletable]: Remove: archive file [/home/abi/fetcher/tmp/simplesingletable-3.4.0.tar.gz]
 [2024-04-16 01:34:26] INFO root fetch - main [MainThread]: End processing [simplesingletable]: success
 [2024-04-16 01:34:26] INFO root fetch - main [MainThread]: Store serial: [22780337]
+[2024-04-16 01:36:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780337]
+[2024-04-16 01:36:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 01:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geowatch
+[2024-04-16 01:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pref-voting
+[2024-04-16 01:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaturbate-poller
+[2024-04-16 01:36:35] INFO root fetch - processPackages [chaturbate-poller]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-16 01:36:35] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/64/48/957a0df43412092e866e5e523b18cf75d4fa4b9d95a9a1f9a68879d3809e/chaturbate_poller-0.3.8.tar.gz
+[2024-04-16 01:36:35] INFO root fetch - processPackages [geowatch]: New version: [0.9.4] Old Version: [0.6.6]
+[2024-04-16 01:36:35] INFO root fetch - processPackages [pref-voting]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-16 01:36:35] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/24/4c/4cbbefc73e5ac98d680f84b904f97d849a2d7561aed323b93c5501e0a78c/chaturbate_poller-0.3.9.tar.gz
+[2024-04-16 01:36:35] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/e5/98/0b12043cae598b4153a8967d62b76dd57c0ea9d2d19c1b7f737b4b71f6f5/pref_voting-0.9.5.tar.gz
+[2024-04-16 01:36:35] INFO root fetch - processPackages [chaturbate-poller]: executing diffoscope
+[2024-04-16 01:36:35] INFO root fetch - processPackages [chaturbate-poller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaturbate_poller-0.3.8.tar.gz tmp/chaturbate_poller-0.3.9.tar.gz --markdown 20240416/c/chaturbate-poller/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-16 01:36:35] INFO root fetch - processPackages [geowatch]: Downloading https://files.pythonhosted.org/packages/06/4b/42cee06c586627ebc79e3571991c2f9bca74e28e7a7d409dd95ba215f0c1/geowatch-0.6.6.tar.gz
+[2024-04-16 01:36:35] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/a2/e2/f541348bc8056e487cd16e6632e2b0093d211c159e1c55dadc4d2f7fc6db/pref_voting-0.9.6.tar.gz
+[2024-04-16 01:36:36] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2024-04-16 01:36:36] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.9.5.tar.gz tmp/pref_voting-0.9.6.tar.gz --markdown 20240416/p/pref-voting/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-16 01:36:36] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.8.tar.gz]
+[2024-04-16 01:36:36] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.9.tar.gz]
+[2024-04-16 01:36:36] INFO root fetch - main [MainThread]: End processing [chaturbate-poller]: success
+[2024-04-16 01:36:36] INFO root fetch - processPackages [geowatch]: Downloading https://files.pythonhosted.org/packages/79/0c/8e7af8a1bd9af0365e30bf0e13018b9ac8d37cf064f768afda5eb01fcfd0/geowatch-0.9.4.tar.gz
+[2024-04-16 01:36:37] WARNING root fetch - processPackages [geowatch]: Skipping package: exceeds size limit 25707235>=10485760
+[2024-04-16 01:36:37] INFO root fetch - main [MainThread]: End processing [geowatch] error
+[2024-04-16 01:39:36] ERROR root fetch - processPackages [pref-voting]: Timeout during execution of pkgdiff
+[2024-04-16 01:39:36] INFO root fetch - main [MainThread]: End processing [pref-voting] error
+[2024-04-16 01:39:36] INFO root fetch - main [MainThread]: Store serial: [22780344]
