@@ -1164,3 +1164,46 @@
 [2024-04-16 01:12:47] INFO root fetch - processPackages [hutch-python]: Remove: archive file [/home/abi/fetcher/tmp/hutch-python-1.9.1.tar.gz]
 [2024-04-16 01:12:47] INFO root fetch - main [MainThread]: End processing [hutch-python]: success
 [2024-04-16 01:12:47] INFO root fetch - main [MainThread]: Store serial: [22780227]
+[2024-04-16 01:14:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780227]
+[2024-04-16 01:14:56] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-16 01:16:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780228]
+[2024-04-16 01:17:01] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-16 01:19:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780231]
+[2024-04-16 01:19:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 01:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rushd
+[2024-04-16 01:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarms
+[2024-04-16 01:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thepipe-api
+[2024-04-16 01:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stickersbot
+[2024-04-16 01:19:07] INFO root fetch - processPackages [thepipe-api]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-16 01:19:07] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/13/e8/f0fec646646dd65257ad691c899d834b3889d349ba2a67b9af7a5501a39f/thepipe_api-0.1.7.tar.gz
+[2024-04-16 01:19:07] INFO root fetch - processPackages [stickersbot]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-16 01:19:07] INFO root fetch - processPackages [rushd]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-16 01:19:07] INFO root fetch - processPackages [swarms]: New version: [4.8.2] Old Version: [4.8.1]
+[2024-04-16 01:19:07] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/f3/ab/c339cda365542f789b22b966ff0587535ab2b4d0578f8ed2d8851288d70f/thepipe_api-0.1.8.tar.gz
+[2024-04-16 01:19:07] INFO root fetch - processPackages [stickersbot]: Downloading https://files.pythonhosted.org/packages/4e/91/4bb39d88c0ff45b803d026a4c8c7bbafc82d85116a76cadb1f6367e038f6/stickersbot-3.0.0.tar.gz
+[2024-04-16 01:19:07] INFO root fetch - processPackages [rushd]: Downloading https://files.pythonhosted.org/packages/f2/7e/55326b4a448239a27d93d3b54449c0ad0967f03ad6d17a88ad6827578a2e/rushd-0.4.2.tar.gz
+[2024-04-16 01:19:07] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/d8/8c/315bbc926e9a633853930afdf3172fe6ceea35e7f8d51928a1c9fc33d4cd/swarms-4.8.1.tar.gz
+[2024-04-16 01:19:07] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-04-16 01:19:07] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.1.7.tar.gz tmp/thepipe_api-0.1.8.tar.gz --markdown 20240416/t/thepipe-api/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-16 01:19:08] INFO root fetch - processPackages [stickersbot]: Downloading https://files.pythonhosted.org/packages/7b/f2/caa762048ff9049324a96a44289e2a3b1fdddac95ca8e7177bdd1e759af6/stickersbot-4.0.0.tar.gz
+[2024-04-16 01:19:08] INFO root fetch - processPackages [rushd]: Downloading https://files.pythonhosted.org/packages/2d/1f/60f9ed37f2ee75d152cece71bbd8e6b9aa9f88c92dbee8620a5f441b5ed1/rushd-0.5.0.tar.gz
+[2024-04-16 01:19:08] INFO root fetch - processPackages [stickersbot]: executing diffoscope
+[2024-04-16 01:19:08] INFO root fetch - processPackages [stickersbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stickersbot-3.0.0.tar.gz tmp/stickersbot-4.0.0.tar.gz --markdown 20240416/s/stickersbot/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-16 01:19:08] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/ab/e0/c8bd285a02972251b62715216a227b92fa2e690e3de24e9063b625843a53/swarms-4.8.2.tar.gz
+[2024-04-16 01:19:08] INFO root fetch - processPackages [rushd]: executing diffoscope
+[2024-04-16 01:19:08] INFO root fetch - processPackages [rushd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rushd-0.4.2.tar.gz tmp/rushd-0.5.0.tar.gz --markdown 20240416/r/rushd/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-16 01:19:08] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-04-16 01:19:08] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.8.1.tar.gz tmp/swarms-4.8.2.tar.gz --markdown 20240416/s/swarms/4.8.1-4.8.2/README.md --exclude *.pyd
+[2024-04-16 01:19:08] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.1.7.tar.gz]
+[2024-04-16 01:19:08] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.1.8.tar.gz]
+[2024-04-16 01:19:08] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-04-16 01:19:08] INFO root fetch - processPackages [stickersbot]: Remove: archive file [/home/abi/fetcher/tmp/stickersbot-3.0.0.tar.gz]
+[2024-04-16 01:19:08] INFO root fetch - processPackages [stickersbot]: Remove: archive file [/home/abi/fetcher/tmp/stickersbot-4.0.0.tar.gz]
+[2024-04-16 01:19:08] INFO root fetch - main [MainThread]: End processing [stickersbot]: success
+[2024-04-16 01:19:08] INFO root fetch - processPackages [rushd]: Remove: archive file [/home/abi/fetcher/tmp/rushd-0.4.2.tar.gz]
+[2024-04-16 01:19:08] INFO root fetch - processPackages [rushd]: Remove: archive file [/home/abi/fetcher/tmp/rushd-0.5.0.tar.gz]
+[2024-04-16 01:19:08] INFO root fetch - main [MainThread]: End processing [rushd]: success
+[2024-04-16 01:19:09] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.8.1.tar.gz]
+[2024-04-16 01:19:09] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.8.2.tar.gz]
+[2024-04-16 01:19:09] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-04-16 01:19:09] INFO root fetch - main [MainThread]: Store serial: [22780243]
