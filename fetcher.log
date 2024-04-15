@@ -533,3 +533,30 @@
 [2024-04-16 00:33:10] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.89-cp39-cp39-win_amd64.whl.zip]
 [2024-04-16 00:33:10] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
 [2024-04-16 00:33:10] INFO root fetch - main [MainThread]: Store serial: [22779897]
+[2024-04-16 00:35:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779897]
+[2024-04-16 00:35:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 00:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: preoccupied.proxytype
+[2024-04-16 00:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: camera-kit
+[2024-04-16 00:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gitizi
+[2024-04-16 00:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doot
+[2024-04-16 00:35:18] WARNING root fetch - processPackages [preoccupied.proxytype]: Skipping, unable to determine old version
+[2024-04-16 00:35:18] INFO root fetch - main [MainThread]: End processing [preoccupied.proxytype] error
+[2024-04-16 00:35:18] WARNING root fetch - processPackages [camera-kit]: Skipping, unable to determine old version
+[2024-04-16 00:35:18] INFO root fetch - main [MainThread]: End processing [camera-kit] error
+[2024-04-16 00:35:18] INFO root fetch - processPackages [gitizi]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-16 00:35:18] INFO root fetch - processPackages [doot]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-16 00:35:19] INFO root fetch - processPackages [gitizi]: Downloading https://files.pythonhosted.org/packages/cd/c6/051802786445dfb9d147bf38411f505b95654999ee6f443678f0f2527b07/gitizi-0.2.6.tar.gz
+[2024-04-16 00:35:19] INFO root fetch - processPackages [doot]: Downloading https://files.pythonhosted.org/packages/3d/5c/59de3b6d4243fec2fdf44688279bca5bde6a5f9cef794b6e9eb05afe9572/doot-0.6.1.tar.gz
+[2024-04-16 00:35:19] INFO root fetch - processPackages [gitizi]: Downloading https://files.pythonhosted.org/packages/65/29/09a3a8439ea807ddeaf96b89e4a681629ccc3b3ff55457ef1fae801ee10a/gitizi-0.2.7.tar.gz
+[2024-04-16 00:35:19] INFO root fetch - processPackages [doot]: Downloading https://files.pythonhosted.org/packages/ad/67/10ce731167f10ceeca751c7f3676d07441e8f644232d7071bc666a2a2bbf/doot-0.7.0.tar.gz
+[2024-04-16 00:35:19] INFO root fetch - processPackages [gitizi]: executing diffoscope
+[2024-04-16 00:35:19] INFO root fetch - processPackages [gitizi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitizi-0.2.6.tar.gz tmp/gitizi-0.2.7.tar.gz --markdown 20240416/g/gitizi/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-16 00:35:19] INFO root fetch - processPackages [doot]: executing diffoscope
+[2024-04-16 00:35:19] INFO root fetch - processPackages [doot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doot-0.6.1.tar.gz tmp/doot-0.7.0.tar.gz --markdown 20240416/d/doot/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-16 00:35:20] INFO root fetch - processPackages [gitizi]: Remove: archive file [/home/abi/fetcher/tmp/gitizi-0.2.6.tar.gz]
+[2024-04-16 00:35:20] INFO root fetch - processPackages [gitizi]: Remove: archive file [/home/abi/fetcher/tmp/gitizi-0.2.7.tar.gz]
+[2024-04-16 00:35:20] INFO root fetch - main [MainThread]: End processing [gitizi]: success
+[2024-04-16 00:35:21] INFO root fetch - processPackages [doot]: Remove: archive file [/home/abi/fetcher/tmp/doot-0.6.1.tar.gz]
+[2024-04-16 00:35:21] INFO root fetch - processPackages [doot]: Remove: archive file [/home/abi/fetcher/tmp/doot-0.7.0.tar.gz]
+[2024-04-16 00:35:21] INFO root fetch - main [MainThread]: End processing [doot]: success
+[2024-04-16 00:35:21] INFO root fetch - main [MainThread]: Store serial: [22779911]
