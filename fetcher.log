@@ -652,3 +652,30 @@
 [2024-04-16 00:37:33] INFO root fetch - processPackages [aevmod]: Remove: archive file [/home/abi/fetcher/tmp/aevmod-1.0.1.tar.gz]
 [2024-04-16 00:37:33] INFO root fetch - main [MainThread]: End processing [aevmod]: success
 [2024-04-16 00:37:33] INFO root fetch - main [MainThread]: Store serial: [22779946]
+[2024-04-16 00:39:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779946]
+[2024-04-16 00:39:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 00:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anstrip
+[2024-04-16 00:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exporter-stackdriver
+[2024-04-16 00:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roguewavespectrum
+[2024-04-16 00:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: generator-meeseeks
+[2024-04-16 00:39:43] INFO root fetch - processPackages [anstrip]: New version: [0.2.0] Old Version: [0.1.0.post1]
+[2024-04-16 00:39:43] INFO root fetch - processPackages [roguewavespectrum]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-16 00:39:43] WARNING root fetch - processPackages [exporter-stackdriver]: Skipping, unable to determine old version
+[2024-04-16 00:39:43] INFO root fetch - main [MainThread]: End processing [exporter-stackdriver] error
+[2024-04-16 00:39:43] WARNING root fetch - processPackages [generator-meeseeks]: Skipping, unable to determine old version
+[2024-04-16 00:39:43] INFO root fetch - main [MainThread]: End processing [generator-meeseeks] error
+[2024-04-16 00:39:43] INFO root fetch - processPackages [anstrip]: Downloading https://files.pythonhosted.org/packages/4a/88/bb31c996d896789b27d311a1fcf98bbc61062729dd3d112c7cdc555e7774/anstrip-0.1.0.post1.tar.gz
+[2024-04-16 00:39:43] INFO root fetch - processPackages [roguewavespectrum]: Downloading https://files.pythonhosted.org/packages/75/f1/97140663347436fe4834ada6a8abcaf4c416b3109a1111a8580b66e8bae1/roguewavespectrum-0.2.6.tar.gz
+[2024-04-16 00:39:43] INFO root fetch - processPackages [anstrip]: Downloading https://files.pythonhosted.org/packages/1d/77/634ec06fdb72d1ba5c6e222d341cf13788f3b377820d3b05718523164943/anstrip-0.2.0.tar.gz
+[2024-04-16 00:39:43] INFO root fetch - processPackages [roguewavespectrum]: Downloading https://files.pythonhosted.org/packages/09/5d/6be00ad009f7924d090b82a9dc48f9ec0d903ba42e28d9218244f3b6c03f/roguewavespectrum-0.2.7.tar.gz
+[2024-04-16 00:39:43] INFO root fetch - processPackages [anstrip]: executing diffoscope
+[2024-04-16 00:39:43] INFO root fetch - processPackages [anstrip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anstrip-0.1.0.post1.tar.gz tmp/anstrip-0.2.0.tar.gz --markdown 20240416/a/anstrip/0.1.0.post1-0.2.0/README.md --exclude *.pyd
+[2024-04-16 00:39:44] INFO root fetch - processPackages [roguewavespectrum]: executing diffoscope
+[2024-04-16 00:39:44] INFO root fetch - processPackages [roguewavespectrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roguewavespectrum-0.2.6.tar.gz tmp/roguewavespectrum-0.2.7.tar.gz --markdown 20240416/r/roguewavespectrum/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-16 00:39:44] INFO root fetch - processPackages [anstrip]: Remove: archive file [/home/abi/fetcher/tmp/anstrip-0.1.0.post1.tar.gz]
+[2024-04-16 00:39:44] INFO root fetch - processPackages [anstrip]: Remove: archive file [/home/abi/fetcher/tmp/anstrip-0.2.0.tar.gz]
+[2024-04-16 00:39:44] INFO root fetch - main [MainThread]: End processing [anstrip]: success
+[2024-04-16 00:39:44] INFO root fetch - processPackages [roguewavespectrum]: Remove: archive file [/home/abi/fetcher/tmp/roguewavespectrum-0.2.6.tar.gz]
+[2024-04-16 00:39:44] INFO root fetch - processPackages [roguewavespectrum]: Remove: archive file [/home/abi/fetcher/tmp/roguewavespectrum-0.2.7.tar.gz]
+[2024-04-16 00:39:44] INFO root fetch - main [MainThread]: End processing [roguewavespectrum]: success
+[2024-04-16 00:39:44] INFO root fetch - main [MainThread]: Store serial: [22779962]
