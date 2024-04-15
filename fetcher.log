@@ -1065,3 +1065,42 @@
 [2024-04-16 01:06:12] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240414.tar.gz]
 [2024-04-16 01:06:12] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-04-16 01:06:12] INFO root fetch - main [MainThread]: Store serial: [22780197]
+[2024-04-16 01:08:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780197]
+[2024-04-16 01:08:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snapshooter
+[2024-04-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dukes
+[2024-04-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thepipe-api
+[2024-04-16 01:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vision-agent
+[2024-04-16 01:08:21] INFO root fetch - processPackages [snapshooter]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 01:08:21] INFO root fetch - processPackages [vision-agent]: New version: [0.0.53] Old Version: [0.0.52]
+[2024-04-16 01:08:21] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/1c/2e/1a295e7901ee19590d1b3f58afab53f70fa0392b17f4164457c4e41784b2/vision_agent-0.0.52.tar.gz
+[2024-04-16 01:08:21] INFO root fetch - processPackages [thepipe-api]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-16 01:08:21] INFO root fetch - processPackages [dukes]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-16 01:08:21] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/13/e8/f0fec646646dd65257ad691c899d834b3889d349ba2a67b9af7a5501a39f/thepipe_api-0.1.7.tar.gz
+[2024-04-16 01:08:21] INFO root fetch - processPackages [snapshooter]: Downloading https://files.pythonhosted.org/packages/96/9d/f6dbabfbf14f1fc2d48cb81320c3413ad02e9f7b4d114abe59199e33e7e3/snapshooter-1.0.4.tar.gz
+[2024-04-16 01:08:21] INFO root fetch - processPackages [dukes]: Downloading https://files.pythonhosted.org/packages/61/b2/54b58825c8755c9ef48b6b2b168e979201ec9c2ee3d52660684aed5ca2ad/dukes-1.3.0.tar.gz
+[2024-04-16 01:08:21] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/9c/48/0705d3fd5e0e467b87b2b89b8d0098503fc2c790bbfe98bc01f2e9ce102e/vision_agent-0.0.53.tar.gz
+[2024-04-16 01:08:21] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/f3/ab/c339cda365542f789b22b966ff0587535ab2b4d0578f8ed2d8851288d70f/thepipe_api-0.1.8.tar.gz
+[2024-04-16 01:08:21] INFO root fetch - processPackages [snapshooter]: Downloading https://files.pythonhosted.org/packages/68/77/0f194a7219ee6415e1eb4614c630241f5b1c3a1d4750ea535fb5cd8a4988/snapshooter-1.0.5.tar.gz
+[2024-04-16 01:08:21] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-04-16 01:08:21] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.1.7.tar.gz tmp/thepipe_api-0.1.8.tar.gz --markdown 20240416/t/thepipe-api/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-16 01:08:21] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-04-16 01:08:21] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.0.52.tar.gz tmp/vision_agent-0.0.53.tar.gz --markdown 20240416/v/vision-agent/0.0.52-0.0.53/README.md --exclude *.pyd
+[2024-04-16 01:08:21] INFO root fetch - processPackages [snapshooter]: executing diffoscope
+[2024-04-16 01:08:21] INFO root fetch - processPackages [snapshooter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapshooter-1.0.4.tar.gz tmp/snapshooter-1.0.5.tar.gz --markdown 20240416/s/snapshooter/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-16 01:08:21] INFO root fetch - processPackages [dukes]: Downloading https://files.pythonhosted.org/packages/bb/e9/a9545b9f6662144b8ed2710c5e27a8268daf06e65a7474fc1fb97fdb3fff/dukes-1.3.1.tar.gz
+[2024-04-16 01:08:22] INFO root fetch - processPackages [dukes]: executing diffoscope
+[2024-04-16 01:08:22] INFO root fetch - processPackages [dukes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dukes-1.3.0.tar.gz tmp/dukes-1.3.1.tar.gz --markdown 20240416/d/dukes/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-16 01:08:22] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.1.7.tar.gz]
+[2024-04-16 01:08:22] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.1.8.tar.gz]
+[2024-04-16 01:08:22] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-04-16 01:08:22] INFO root fetch - processPackages [snapshooter]: Remove: archive file [/home/abi/fetcher/tmp/snapshooter-1.0.4.tar.gz]
+[2024-04-16 01:08:22] INFO root fetch - processPackages [snapshooter]: Remove: archive file [/home/abi/fetcher/tmp/snapshooter-1.0.5.tar.gz]
+[2024-04-16 01:08:22] INFO root fetch - main [MainThread]: End processing [snapshooter]: success
+[2024-04-16 01:08:22] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.52.tar.gz]
+[2024-04-16 01:08:22] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.53.tar.gz]
+[2024-04-16 01:08:22] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-04-16 01:08:22] INFO root fetch - processPackages [dukes]: Remove: archive file [/home/abi/fetcher/tmp/dukes-1.3.0.tar.gz]
+[2024-04-16 01:08:22] INFO root fetch - processPackages [dukes]: Remove: archive file [/home/abi/fetcher/tmp/dukes-1.3.1.tar.gz]
+[2024-04-16 01:08:22] INFO root fetch - main [MainThread]: End processing [dukes]: success
+[2024-04-16 01:08:22] INFO root fetch - main [MainThread]: Store serial: [22780209]
