@@ -1014,3 +1014,33 @@
 [2024-04-16 01:01:52] INFO root fetch - processPackages [pan-ztp-patcher]: Remove: archive file [/home/abi/fetcher/tmp/pan_ztp_patcher-0.1.2.tar.gz]
 [2024-04-16 01:01:52] INFO root fetch - main [MainThread]: End processing [pan-ztp-patcher]: success
 [2024-04-16 01:01:52] INFO root fetch - main [MainThread]: Store serial: [22780182]
+[2024-04-16 01:03:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780182]
+[2024-04-16 01:04:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 01:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: domainize
+[2024-04-16 01:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Augmented-Matrix-Solver
+[2024-04-16 01:04:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deployfish
+[2024-04-16 01:04:00] INFO root fetch - processPackages [Augmented-Matrix-Solver]: New version: [0.2] Old Version: [0.1]
+[2024-04-16 01:04:00] INFO root fetch - processPackages [domainize]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-16 01:04:00] INFO root fetch - processPackages [deployfish]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-16 01:04:00] INFO root fetch - processPackages [domainize]: Downloading https://files.pythonhosted.org/packages/a8/b3/0abde6c7c015972ea4625d4c9d489313ea079f9a224240fcde1a8fce593d/domainize-1.1.2.tar.gz
+[2024-04-16 01:04:01] INFO root fetch - processPackages [Augmented-Matrix-Solver]: Downloading https://files.pythonhosted.org/packages/c2/8d/c8b75285662a9b0e916b2639c7db4aecc4406e0d24749a447b534e501b44/augmented_matrix_solver-0.1.tar.gz
+[2024-04-16 01:04:01] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/9d/d7/c6216956d9be271f193368959212bc2df2a2991f5f538fc6949a9ffb5cf1/deployfish-1.9.5.tar.gz
+[2024-04-16 01:04:01] INFO root fetch - processPackages [Augmented-Matrix-Solver]: Downloading https://files.pythonhosted.org/packages/d4/b6/8cab79749137d4cbe9ab565cb4dccb76d866fc069a6016eff00b4791287e/augmented_matrix_solver-0.2.tar.gz
+[2024-04-16 01:04:01] INFO root fetch - processPackages [domainize]: Downloading https://files.pythonhosted.org/packages/6b/f8/25d98aa9938af4a10d10ed3a2ce4983f439acaf5b34ef03ceeab23d61b66/domainize-1.2.0.tar.gz
+[2024-04-16 01:04:01] INFO root fetch - processPackages [Augmented-Matrix-Solver]: executing diffoscope
+[2024-04-16 01:04:01] INFO root fetch - processPackages [Augmented-Matrix-Solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augmented_matrix_solver-0.1.tar.gz tmp/augmented_matrix_solver-0.2.tar.gz --markdown 20240416/A/Augmented-Matrix-Solver/0.1-0.2/README.md --exclude *.pyd
+[2024-04-16 01:04:01] INFO root fetch - processPackages [domainize]: executing diffoscope
+[2024-04-16 01:04:01] INFO root fetch - processPackages [domainize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domainize-1.1.2.tar.gz tmp/domainize-1.2.0.tar.gz --markdown 20240416/d/domainize/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-16 01:04:01] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/52/7d/9a175e9cf46a38849c3d62138417864d11754e457d39f248e23a1aa39c79/deployfish-1.9.6.tar.gz
+[2024-04-16 01:04:01] INFO root fetch - processPackages [deployfish]: executing diffoscope
+[2024-04-16 01:04:01] INFO root fetch - processPackages [deployfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployfish-1.9.5.tar.gz tmp/deployfish-1.9.6.tar.gz --markdown 20240416/d/deployfish/1.9.5-1.9.6/README.md --exclude *.pyd
+[2024-04-16 01:04:02] INFO root fetch - processPackages [domainize]: Remove: archive file [/home/abi/fetcher/tmp/domainize-1.1.2.tar.gz]
+[2024-04-16 01:04:02] INFO root fetch - processPackages [domainize]: Remove: archive file [/home/abi/fetcher/tmp/domainize-1.2.0.tar.gz]
+[2024-04-16 01:04:02] INFO root fetch - main [MainThread]: End processing [domainize]: success
+[2024-04-16 01:04:02] INFO root fetch - processPackages [Augmented-Matrix-Solver]: Remove: archive file [/home/abi/fetcher/tmp/augmented_matrix_solver-0.1.tar.gz]
+[2024-04-16 01:04:02] INFO root fetch - processPackages [Augmented-Matrix-Solver]: Remove: archive file [/home/abi/fetcher/tmp/augmented_matrix_solver-0.2.tar.gz]
+[2024-04-16 01:04:02] INFO root fetch - main [MainThread]: End processing [Augmented-Matrix-Solver]: success
+[2024-04-16 01:04:02] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.5.tar.gz]
+[2024-04-16 01:04:02] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.6.tar.gz]
+[2024-04-16 01:04:02] INFO root fetch - main [MainThread]: End processing [deployfish]: success
+[2024-04-16 01:04:02] INFO root fetch - main [MainThread]: Store serial: [22780191]
