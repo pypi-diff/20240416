@@ -1417,3 +1417,33 @@
 [2024-04-16 01:32:16] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.7.tar.gz]
 [2024-04-16 01:32:16] INFO root fetch - main [MainThread]: End processing [masscube]: success
 [2024-04-16 01:32:16] INFO root fetch - main [MainThread]: Store serial: [22780329]
+[2024-04-16 01:34:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780329]
+[2024-04-16 01:34:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 01:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplesingletable
+[2024-04-16 01:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: handwriting-sample
+[2024-04-16 01:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oso-cloud
+[2024-04-16 01:34:24] INFO root fetch - processPackages [oso-cloud]: New version: [1.4.0.dev0] Old Version: [1.4.0]
+[2024-04-16 01:34:24] INFO root fetch - processPackages [handwriting-sample]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 01:34:24] INFO root fetch - processPackages [simplesingletable]: New version: [3.4.0] Old Version: [3.3.1]
+[2024-04-16 01:34:24] INFO root fetch - processPackages [oso-cloud]: Downloading https://files.pythonhosted.org/packages/82/09/2960e7efdae78a1654193c8b76b614ff4de79d3f74e49dce826db1d49728/oso_cloud-1.4.0-py3-none-any.whl
+[2024-04-16 01:34:25] INFO root fetch - processPackages [simplesingletable]: Downloading https://files.pythonhosted.org/packages/e8/ee/8868dd1f1049dd148e1699c6cba9b3c4f44f1cb96ac1137c6e77f929179d/simplesingletable-3.3.1.tar.gz
+[2024-04-16 01:34:25] INFO root fetch - processPackages [handwriting-sample]: Downloading https://files.pythonhosted.org/packages/38/cf/ca3c90d54cb9e43b4cfd3bf1fd6ec24ec0881509f3105ededc217bdbe686/handwriting-sample-1.0.3.tar.gz
+[2024-04-16 01:34:25] INFO root fetch - processPackages [simplesingletable]: Downloading https://files.pythonhosted.org/packages/55/8f/4cc97631d4363d7e5bca9c0a0a8216881c40901caecda2d3fd64e8ffe544/simplesingletable-3.4.0.tar.gz
+[2024-04-16 01:34:25] INFO root fetch - processPackages [oso-cloud]: Downloading https://files.pythonhosted.org/packages/27/a7/d0491f1b5cd0c7997fdf7fb9106062f2007a996eb31cb14678060f237036/oso-cloud-1.4.0.dev0.tar.gz
+[2024-04-16 01:34:25] INFO root fetch - processPackages [handwriting-sample]: Downloading https://files.pythonhosted.org/packages/c1/79/7646a043cd83a6c9df088ae6cd72d137f582bfe068bc99572bbc85ec6a8f/handwriting-sample-1.0.4.tar.gz
+[2024-04-16 01:34:25] INFO root fetch - processPackages [oso-cloud]: executing diffoscope
+[2024-04-16 01:34:25] INFO root fetch - processPackages [oso-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oso_cloud-1.4.0-py3-none-any.whl.zip tmp/oso-cloud-1.4.0.dev0.tar.gz --markdown 20240416/o/oso-cloud/1.4.0-1.4.0.dev0/README.md --exclude *.pyd
+[2024-04-16 01:34:25] INFO root fetch - processPackages [simplesingletable]: executing diffoscope
+[2024-04-16 01:34:25] INFO root fetch - processPackages [simplesingletable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplesingletable-3.3.1.tar.gz tmp/simplesingletable-3.4.0.tar.gz --markdown 20240416/s/simplesingletable/3.3.1-3.4.0/README.md --exclude *.pyd
+[2024-04-16 01:34:25] INFO root fetch - processPackages [handwriting-sample]: executing diffoscope
+[2024-04-16 01:34:25] INFO root fetch - processPackages [handwriting-sample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handwriting-sample-1.0.3.tar.gz tmp/handwriting-sample-1.0.4.tar.gz --markdown 20240416/h/handwriting-sample/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-16 01:34:26] INFO root fetch - processPackages [oso-cloud]: Remove: archive file [/home/abi/fetcher/tmp/oso_cloud-1.4.0-py3-none-any.whl.zip]
+[2024-04-16 01:34:26] INFO root fetch - processPackages [oso-cloud]: Remove: archive file [/home/abi/fetcher/tmp/oso-cloud-1.4.0.dev0.tar.gz]
+[2024-04-16 01:34:26] INFO root fetch - main [MainThread]: End processing [oso-cloud]: success
+[2024-04-16 01:34:26] INFO root fetch - processPackages [handwriting-sample]: Remove: archive file [/home/abi/fetcher/tmp/handwriting-sample-1.0.3.tar.gz]
+[2024-04-16 01:34:26] INFO root fetch - processPackages [handwriting-sample]: Remove: archive file [/home/abi/fetcher/tmp/handwriting-sample-1.0.4.tar.gz]
+[2024-04-16 01:34:26] INFO root fetch - main [MainThread]: End processing [handwriting-sample]: success
+[2024-04-16 01:34:26] INFO root fetch - processPackages [simplesingletable]: Remove: archive file [/home/abi/fetcher/tmp/simplesingletable-3.3.1.tar.gz]
+[2024-04-16 01:34:26] INFO root fetch - processPackages [simplesingletable]: Remove: archive file [/home/abi/fetcher/tmp/simplesingletable-3.4.0.tar.gz]
+[2024-04-16 01:34:26] INFO root fetch - main [MainThread]: End processing [simplesingletable]: success
+[2024-04-16 01:34:26] INFO root fetch - main [MainThread]: Store serial: [22780337]
