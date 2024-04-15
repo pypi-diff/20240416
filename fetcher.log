@@ -1539,3 +1539,45 @@
 [2024-04-16 01:41:48] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.4.0.tar.gz]
 [2024-04-16 01:41:48] INFO root fetch - main [MainThread]: End processing [zetascale]: success
 [2024-04-16 01:41:48] INFO root fetch - main [MainThread]: Store serial: [22780366]
+[2024-04-16 01:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780366]
+[2024-04-16 01:43:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcs-sdk-python
+[2024-04-16 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qcs-sdk-python-grpc-web
+[2024-04-16 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: api-fluid-0738
+[2024-04-16 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyticker
+[2024-04-16 01:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zetascale
+[2024-04-16 01:43:57] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: New version: [0.17.5rc0] Old Version: [0.17.4rc1]
+[2024-04-16 01:43:57] INFO root fetch - processPackages [tinyticker]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-16 01:43:57] INFO root fetch - processPackages [zetascale]: New version: [2.4.0] Old Version: [2.3.9]
+[2024-04-16 01:43:57] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.9.1rc0] Old Version: [0.9.1]
+[2024-04-16 01:43:57] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/ed/bb/35a28dfeebe45fd9cec07fd3b7975f578619b6f17a6c98d4e0458af230e1/qcs_sdk_python_grpc_web-0.17.4rc1.tar.gz
+[2024-04-16 01:43:57] WARNING root fetch - processPackages [api-fluid-0738]: Skipping, unable to determine old version
+[2024-04-16 01:43:57] INFO root fetch - main [MainThread]: End processing [api-fluid-0738] error
+[2024-04-16 01:43:57] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/ae/01/0fb2c446d87f5050c97d355db924cb5d1550c365f87131b08c8d55030eec/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 01:43:57] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/04/28/95adc132ff748a71251ea4da889bc0b3f04d9d05340dd858d0e91a46b862/tinyticker-0.4.8.tar.gz
+[2024-04-16 01:43:57] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/0f/54/a5adc8be27bcc61c821ba1c29314f472d486f04f152c3d6b765cb63fc6e6/zetascale-2.3.9.tar.gz
+[2024-04-16 01:43:57] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Downloading https://files.pythonhosted.org/packages/cc/67/b8929d7c260613419a9746e7ba9555fd4475f8f033494637c7bcb3de7ca6/qcs_sdk_python_grpc_web-0.17.5rc0.tar.gz
+[2024-04-16 01:43:57] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/9e/95/bc6f02167fd098fa6814f72222fab337fe13814e1b02c20f9302f729569e/tinyticker-0.4.9.tar.gz
+[2024-04-16 01:43:57] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/48/e6/7b098e306e004e2b33d550f8b92f8f4786f4689c466e2dffc7db649e8fd9/zetascale-2.4.0.tar.gz
+[2024-04-16 01:43:58] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: executing diffoscope
+[2024-04-16 01:43:58] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python_grpc_web-0.17.4rc1.tar.gz tmp/qcs_sdk_python_grpc_web-0.17.5rc0.tar.gz --markdown 20240416/q/qcs-sdk-python-grpc-web/0.17.4rc1-0.17.5rc0/README.md --exclude *.pyd
+[2024-04-16 01:43:58] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-04-16 01:43:58] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.4.8.tar.gz tmp/tinyticker-0.4.9.tar.gz --markdown 20240416/t/tinyticker/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-16 01:43:58] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2024-04-16 01:43:58] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-2.3.9.tar.gz tmp/zetascale-2.4.0.tar.gz --markdown 20240416/z/zetascale/2.3.9-2.4.0/README.md --exclude *.pyd
+[2024-04-16 01:43:58] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/2e/f1/272ed4b50250474a48d15284cb78d9fa628df46edf6e61cbe635ff067749/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 01:43:58] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2024-04-16 01:43:58] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/q/qcs-sdk-python/0.9.1-0.9.1rc0/README.md --exclude *.pyd
+[2024-04-16 01:43:58] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.4.8.tar.gz]
+[2024-04-16 01:43:58] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.4.9.tar.gz]
+[2024-04-16 01:43:58] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-04-16 01:43:59] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.4rc1.tar.gz]
+[2024-04-16 01:43:59] INFO root fetch - processPackages [qcs-sdk-python-grpc-web]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python_grpc_web-0.17.5rc0.tar.gz]
+[2024-04-16 01:43:59] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python-grpc-web]: success
+[2024-04-16 01:43:59] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.3.9.tar.gz]
+[2024-04-16 01:43:59] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.4.0.tar.gz]
+[2024-04-16 01:43:59] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2024-04-16 01:46:11] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 01:46:11] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 01:46:11] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2024-04-16 01:46:11] INFO root fetch - main [MainThread]: Store serial: [22780419]
