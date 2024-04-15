@@ -805,3 +805,42 @@
 [2024-04-16 00:44:06] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.8.tar.gz]
 [2024-04-16 00:44:06] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2024-04-16 00:44:06] INFO root fetch - main [MainThread]: Store serial: [22780089]
+[2024-04-16 00:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780089]
+[2024-04-16 00:46:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 00:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geodesic-api
+[2024-04-16 00:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfa-nightly
+[2024-04-16 00:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danielutils
+[2024-04-16 00:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: push2web
+[2024-04-16 00:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rhermann
+[2024-04-16 00:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rhermann-ct
+[2024-04-16 00:46:15] WARNING root fetch - processPackages [push2web]: Skipping, unable to determine old version
+[2024-04-16 00:46:15] INFO root fetch - main [MainThread]: End processing [push2web] error
+[2024-04-16 00:46:15] WARNING root fetch - processPackages [rhermann]: Skipping, unable to determine old version
+[2024-04-16 00:46:15] INFO root fetch - main [MainThread]: End processing [rhermann] error
+[2024-04-16 00:46:15] INFO root fetch - processPackages [danielutils]: New version: [0.9.73] Old Version: [0.9.72]
+[2024-04-16 00:46:15] INFO root fetch - processPackages [geodesic-api]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-04-16 00:46:15] WARNING root fetch - processPackages [rhermann-ct]: Skipping, unable to determine old version
+[2024-04-16 00:46:15] INFO root fetch - main [MainThread]: End processing [rhermann-ct] error
+[2024-04-16 00:46:15] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/a3/74/5e2c92ee53d958775c1a90e37f7cba7c0833261a3ba06fa4162d1cf3f248/danielutils-0.9.72.tar.gz
+[2024-04-16 00:46:15] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/6a/a8/14dfb83cda43cbac659279db5f70de1b36c3e82ad69a56b069a6770e1bc8/geodesic_api-0.8.7-py3-none-any.whl
+[2024-04-16 00:46:15] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/04/d5/fe365448bf76ae7f3c9a07f44067bd196162c61e2a330f420dafcb7f8d5e/danielutils-0.9.73.tar.gz
+[2024-04-16 00:46:16] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/b5/87/6f6437e716fb0cb26a0c09ae9e51e19882b0f84a7d7d8e55aaeca7125838/geodesic_api-0.9.0-py3-none-any.whl
+[2024-04-16 00:46:16] INFO root fetch - processPackages [danielutils]: executing diffoscope
+[2024-04-16 00:46:16] INFO root fetch - processPackages [danielutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danielutils-0.9.72.tar.gz tmp/danielutils-0.9.73.tar.gz --markdown 20240416/d/danielutils/0.9.72-0.9.73/README.md --exclude *.pyd
+[2024-04-16 00:46:16] INFO root fetch - processPackages [geodesic-api]: executing diffoscope
+[2024-04-16 00:46:16] INFO root fetch - processPackages [geodesic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodesic_api-0.8.7-py3-none-any.whl.zip tmp/geodesic_api-0.9.0-py3-none-any.whl.zip --markdown 20240416/g/geodesic-api/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-04-16 00:46:16] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.72.tar.gz]
+[2024-04-16 00:46:16] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.73.tar.gz]
+[2024-04-16 00:46:16] INFO root fetch - main [MainThread]: End processing [danielutils]: success
+[2024-04-16 00:46:16] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.8.7-py3-none-any.whl.zip]
+[2024-04-16 00:46:16] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.9.0-py3-none-any.whl.zip]
+[2024-04-16 00:46:16] INFO root fetch - main [MainThread]: End processing [geodesic-api]: success
+[2024-04-16 00:46:17] INFO root fetch - processPackages [tfa-nightly]: New version: [0.9.0.dev20200409113748] Old Version: [0.9.0.dev20200409113542]
+[2024-04-16 00:46:17] INFO root fetch - processPackages [tfa-nightly]: Downloading https://files.pythonhosted.org/packages/34/17/7b8002ef7fdb4182d1c44a881b9ad71684473435ed0c14f28809a844d906/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl
+[2024-04-16 00:46:18] INFO root fetch - processPackages [tfa-nightly]: Downloading https://files.pythonhosted.org/packages/40/b1/b86ad1d7db615313b9a26fcbfe48caaef6470ddde4eba57af69fdb7f0841/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl
+[2024-04-16 00:46:18] INFO root fetch - processPackages [tfa-nightly]: executing diffoscope
+[2024-04-16 00:46:18] INFO root fetch - processPackages [tfa-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl.zip tmp/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl.zip --markdown 20240416/t/tfa-nightly/0.9.0.dev20200409113542-0.9.0.dev20200409113748/README.md --exclude *.pyd
+[2024-04-16 00:46:19] INFO root fetch - processPackages [tfa-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl.zip]
+[2024-04-16 00:46:19] INFO root fetch - processPackages [tfa-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl.zip]
+[2024-04-16 00:46:19] INFO root fetch - main [MainThread]: End processing [tfa-nightly]: success
+[2024-04-16 00:46:19] INFO root fetch - main [MainThread]: Store serial: [22780116]
