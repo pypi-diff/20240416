@@ -1348,3 +1348,51 @@
 [2024-04-16 01:27:54] INFO root fetch - processPackages [openpipe]: Remove: archive file [/home/abi/fetcher/tmp/openpipe-4.8.0.tar.gz]
 [2024-04-16 01:27:54] INFO root fetch - main [MainThread]: End processing [openpipe]: success
 [2024-04-16 01:27:54] INFO root fetch - main [MainThread]: Store serial: [22780288]
+[2024-04-16 01:29:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780288]
+[2024-04-16 01:30:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 01:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langkit
+[2024-04-16 01:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: servicing
+[2024-04-16 01:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systema
+[2024-04-16 01:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinyticker
+[2024-04-16 01:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chaturbate-poller
+[2024-04-16 01:30:04] INFO root fetch - processPackages [tinyticker]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-16 01:30:04] INFO root fetch - processPackages [chaturbate-poller]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-16 01:30:04] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/04/28/95adc132ff748a71251ea4da889bc0b3f04d9d05340dd858d0e91a46b862/tinyticker-0.4.8.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/64/48/957a0df43412092e866e5e523b18cf75d4fa4b9d95a9a1f9a68879d3809e/chaturbate_poller-0.3.8.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [langkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 01:30:04] INFO root fetch - processPackages [systema]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-16 01:30:04] INFO root fetch - processPackages [servicing]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 01:30:04] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/9e/95/bc6f02167fd098fa6814f72222fab337fe13814e1b02c20f9302f729569e/tinyticker-0.4.9.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/24/4c/4cbbefc73e5ac98d680f84b904f97d849a2d7561aed323b93c5501e0a78c/chaturbate_poller-0.3.9.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/ce/e3/7969ef4cda66f7a8d2dc2a61af3bb067c395b8fc3c8bf9e6777139afa351/langkit-0.0.8.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/06/cd/fd72896cca6d4d6e257bb076142df393d7941e772281408754f954ac4432/servicing-0.0.3.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/8e/12/3ea864b91e6ace29d986b77a9abdafaa765d4cde0dddfcf21db1fee57b4b/systema-0.0.1a8.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-04-16 01:30:04] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.4.8.tar.gz tmp/tinyticker-0.4.9.tar.gz --markdown 20240416/t/tinyticker/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-16 01:30:04] INFO root fetch - processPackages [chaturbate-poller]: executing diffoscope
+[2024-04-16 01:30:04] INFO root fetch - processPackages [chaturbate-poller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaturbate_poller-0.3.8.tar.gz tmp/chaturbate_poller-0.3.9.tar.gz --markdown 20240416/c/chaturbate-poller/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-16 01:30:04] INFO root fetch - processPackages [servicing]: Downloading https://files.pythonhosted.org/packages/7e/49/efc4eac7cfa2717118df15f0b456fbf3104aae5d9b6ea31f2ca2b54d4a47/servicing-0.0.4.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [systema]: Downloading https://files.pythonhosted.org/packages/f7/0c/34874be8791c7f4db6ea26318b29e34bb786e061416ab2691b4dfb05276e/systema-0.0.1a9.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [systema]: executing diffoscope
+[2024-04-16 01:30:04] INFO root fetch - processPackages [systema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systema-0.0.1a8.tar.gz tmp/systema-0.0.1a9.tar.gz --markdown 20240416/s/systema/0.0.1a8-0.0.1a9/README.md --exclude *.pyd
+[2024-04-16 01:30:04] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/32/28/704a6d98bd58a324050772e6b9dc1479ab2f09c77c3a83a38e3697af8ef3/langkit-0.0.9.tar.gz
+[2024-04-16 01:30:04] INFO root fetch - processPackages [servicing]: executing diffoscope
+[2024-04-16 01:30:04] INFO root fetch - processPackages [servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicing-0.0.3.tar.gz tmp/servicing-0.0.4.tar.gz --markdown 20240416/s/servicing/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 01:30:05] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2024-04-16 01:30:05] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.8.tar.gz tmp/langkit-0.0.9.tar.gz --markdown 20240416/l/langkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 01:30:05] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.4.8.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.4.9.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-04-16 01:30:05] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.8.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.9.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - main [MainThread]: End processing [chaturbate-poller]: success
+[2024-04-16 01:30:05] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a8.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - processPackages [systema]: Remove: archive file [/home/abi/fetcher/tmp/systema-0.0.1a9.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - main [MainThread]: End processing [systema]: success
+[2024-04-16 01:30:05] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.3.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - processPackages [servicing]: Remove: archive file [/home/abi/fetcher/tmp/servicing-0.0.4.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - main [MainThread]: End processing [servicing]: success
+[2024-04-16 01:30:05] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.8.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
+[2024-04-16 01:30:05] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2024-04-16 01:30:05] INFO root fetch - main [MainThread]: Store serial: [22780322]
