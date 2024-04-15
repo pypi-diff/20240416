@@ -195,3 +195,48 @@
 [2024-04-16 00:11:17] INFO root fetch - processPackages [trading-backend]: Remove: archive file [/home/abi/fetcher/tmp/trading-backend-1.2.9.tar.gz]
 [2024-04-16 00:11:17] INFO root fetch - main [MainThread]: End processing [trading-backend]: success
 [2024-04-16 00:11:17] INFO root fetch - main [MainThread]: Store serial: [22779716]
+[2024-04-16 00:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779716]
+[2024-04-16 00:13:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tecton
+[2024-04-16 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OctoBot-Trading
+[2024-04-16 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monacopy
+[2024-04-16 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinkhippodirty
+[2024-04-16 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: npc_lims
+[2024-04-16 00:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reflex
+[2024-04-16 00:13:27] INFO root fetch - processPackages [tecton]: New version: [0.9.0rc4] Old Version: [0.9.0rc3]
+[2024-04-16 00:13:27] WARNING root fetch - processPackages [pinkhippodirty]: Skipping, unable to determine old version
+[2024-04-16 00:13:27] INFO root fetch - main [MainThread]: End processing [pinkhippodirty] error
+[2024-04-16 00:13:27] WARNING root fetch - processPackages [monacopy]: Skipping, unable to determine old version
+[2024-04-16 00:13:27] INFO root fetch - main [MainThread]: End processing [monacopy] error
+[2024-04-16 00:13:27] INFO root fetch - processPackages [npc_lims]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 00:13:27] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/56/67/d7d5672a602250dee16a33e4280e55d3be0c150a59371333cefcc171fab7/tecton-0.9.0rc3.tar.gz
+[2024-04-16 00:13:27] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-16 00:13:27] INFO root fetch - processPackages [reflex]: New version: [0.4.8a1] Old Version: [0.4.8]
+[2024-04-16 00:13:27] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/eb/6a/921304451b70c2440bf239875dcd1fb6cbf84935d87ee45de417c04c2be4/reflex-0.4.8.tar.gz
+[2024-04-16 00:13:27] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/eb/a3/a72478dcef25d9b46c35b7730c5c9a426e07354369fb652045cc1befbe7e/npc_lims-0.1.98.tar.gz
+[2024-04-16 00:13:27] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/73/23/c1d7881529a8c9625e383e42f1dc81df6232f45c2ceb32da5ce75194f893/OctoBot-Trading-2.4.8.tar.gz
+[2024-04-16 00:13:28] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/ee/f8/5fe3af4429cd4d8c6e3c285d58e482c6e4a15f2ffd28bd9c32075939d341/tecton-0.9.0rc4.tar.gz
+[2024-04-16 00:13:28] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/20/8f/2a3ef0e71c09fd01ba3685a9f92c448766eab8a9e83f1e03e62e90091e0a/npc_lims-0.1.99.tar.gz
+[2024-04-16 00:13:28] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/77/bc/ecdb68086de1f382830bf4a54be7e64fdcf11183cbc9e6485fe1c829615e/OctoBot-Trading-2.4.9.tar.gz
+[2024-04-16 00:13:28] INFO root fetch - processPackages [npc_lims]: executing diffoscope
+[2024-04-16 00:13:28] INFO root fetch - processPackages [npc_lims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_lims-0.1.98.tar.gz tmp/npc_lims-0.1.99.tar.gz --markdown 20240416/n/npc_lims/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 00:13:28] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2024-04-16 00:13:28] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.9.0rc3.tar.gz tmp/tecton-0.9.0rc4.tar.gz --markdown 20240416/t/tecton/0.9.0rc3-0.9.0rc4/README.md --exclude *.pyd
+[2024-04-16 00:13:28] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2024-04-16 00:13:28] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.8.tar.gz tmp/OctoBot-Trading-2.4.9.tar.gz --markdown 20240416/O/OctoBot-Trading/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-16 00:13:28] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/92/3d/9c7723cbe5d40f55eb66a02a45d480309d7c7969de433081679a0377d4a9/reflex-0.4.8a1.tar.gz
+[2024-04-16 00:13:28] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2024-04-16 00:13:28] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.4.8.tar.gz tmp/reflex-0.4.8a1.tar.gz --markdown 20240416/r/reflex/0.4.8-0.4.8a1/README.md --exclude *.pyd
+[2024-04-16 00:13:28] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.98.tar.gz]
+[2024-04-16 00:13:28] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.99.tar.gz]
+[2024-04-16 00:13:28] INFO root fetch - main [MainThread]: End processing [npc_lims]: success
+[2024-04-16 00:13:30] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.8.tar.gz]
+[2024-04-16 00:13:30] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.8a1.tar.gz]
+[2024-04-16 00:13:30] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2024-04-16 00:13:30] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.8.tar.gz]
+[2024-04-16 00:13:30] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
+[2024-04-16 00:13:30] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2024-04-16 00:13:30] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc3.tar.gz]
+[2024-04-16 00:13:30] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc4.tar.gz]
+[2024-04-16 00:13:30] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2024-04-16 00:13:30] INFO root fetch - main [MainThread]: Store serial: [22779736]
