@@ -497,3 +497,39 @@
 [2024-04-16 00:30:55] INFO root fetch - processPackages [gitoptim]: Remove: archive file [/home/abi/fetcher/tmp/gitoptim-0.1.0.dev9.tar.gz]
 [2024-04-16 00:30:55] INFO root fetch - main [MainThread]: End processing [gitoptim]: success
 [2024-04-16 00:30:55] INFO root fetch - main [MainThread]: Store serial: [22779846]
+[2024-04-16 00:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779846]
+[2024-04-16 00:33:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 00:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proyectojhanel
+[2024-04-16 00:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aviatrix-discovery
+[2024-04-16 00:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aviatrix-migration
+[2024-04-16 00:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitoptim
+[2024-04-16 00:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ascii-chillah
+[2024-04-16 00:33:05] INFO root fetch - processPackages [gitoptim]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-04-16 00:33:05] INFO root fetch - processPackages [gitoptim]: Downloading https://files.pythonhosted.org/packages/45/6f/0f75b31a907c70dcedde994a3eba2781183474400bc622ed9ec1307d905d/gitoptim-0.1.0.dev8.tar.gz
+[2024-04-16 00:33:05] WARNING root fetch - processPackages [proyectojhanel]: Skipping, unable to determine old version
+[2024-04-16 00:33:05] INFO root fetch - main [MainThread]: End processing [proyectojhanel] error
+[2024-04-16 00:33:05] WARNING root fetch - processPackages [ascii-chillah]: Skipping, unable to determine old version
+[2024-04-16 00:33:05] INFO root fetch - main [MainThread]: End processing [ascii-chillah] error
+[2024-04-16 00:33:05] INFO root fetch - processPackages [aviatrix-discovery]: New version: [0.2.9] Old Version: [0.2.89]
+[2024-04-16 00:33:05] INFO root fetch - processPackages [aviatrix-migration]: New version: [0.2.89] Old Version: [0.2.88]
+[2024-04-16 00:33:05] INFO root fetch - processPackages [gitoptim]: Downloading https://files.pythonhosted.org/packages/2d/7b/8189c9a337faab6ae94d38e0f71db1ec38377ec5391a00d135a942ee8b90/gitoptim-0.1.0.dev9.tar.gz
+[2024-04-16 00:33:05] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/df/df/76bf7801ff72cfbff0a4c2c6136f289e9268c9779b8456af430045ff72c3/aviatrix_discovery-0.2.89-cp39-cp39-win_amd64.whl
+[2024-04-16 00:33:05] INFO root fetch - processPackages [gitoptim]: executing diffoscope
+[2024-04-16 00:33:05] INFO root fetch - processPackages [gitoptim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitoptim-0.1.0.dev8.tar.gz tmp/gitoptim-0.1.0.dev9.tar.gz --markdown 20240416/g/gitoptim/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-04-16 00:33:05] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/4a/da/03c8a04c712f117b71ca6d50e48baa72fe1da966a14af64b812dfa068d15/aviatrix_migration-0.2.88-cp39-cp39-win_amd64.whl
+[2024-04-16 00:33:06] INFO root fetch - processPackages [aviatrix-migration]: Downloading https://files.pythonhosted.org/packages/c0/e5/e74b6761cea0a565b7ac0cee7646075ff644b9bb0c89257b5e0ece1ef8d7/aviatrix_migration-0.2.89-cp39-cp39-win_amd64.whl
+[2024-04-16 00:33:06] INFO root fetch - processPackages [gitoptim]: Remove: archive file [/home/abi/fetcher/tmp/gitoptim-0.1.0.dev8.tar.gz]
+[2024-04-16 00:33:06] INFO root fetch - processPackages [gitoptim]: Remove: archive file [/home/abi/fetcher/tmp/gitoptim-0.1.0.dev9.tar.gz]
+[2024-04-16 00:33:06] INFO root fetch - main [MainThread]: End processing [gitoptim]: success
+[2024-04-16 00:33:06] INFO root fetch - processPackages [aviatrix-discovery]: Downloading https://files.pythonhosted.org/packages/18/ef/7d0c0938fbb6fab82da833245ac82adaa5314e519d3506c2a7972a598fe5/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl
+[2024-04-16 00:33:06] INFO root fetch - processPackages [aviatrix-discovery]: executing diffoscope
+[2024-04-16 00:33:06] INFO root fetch - processPackages [aviatrix-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_discovery-0.2.89-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20240416/a/aviatrix-discovery/0.2.89-0.2.9/README.md --exclude *.pyd
+[2024-04-16 00:33:06] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.89-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 00:33:06] INFO root fetch - processPackages [aviatrix-discovery]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_discovery-0.2.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 00:33:06] INFO root fetch - main [MainThread]: End processing [aviatrix-discovery]: success
+[2024-04-16 00:33:09] INFO root fetch - processPackages [aviatrix-migration]: executing diffoscope
+[2024-04-16 00:33:09] INFO root fetch - processPackages [aviatrix-migration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration-0.2.88-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration-0.2.89-cp39-cp39-win_amd64.whl.zip --markdown 20240416/a/aviatrix-migration/0.2.88-0.2.89/README.md --exclude *.pyd
+[2024-04-16 00:33:10] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.88-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 00:33:10] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.89-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 00:33:10] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
+[2024-04-16 00:33:10] INFO root fetch - main [MainThread]: Store serial: [22779897]
