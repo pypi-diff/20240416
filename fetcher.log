@@ -60,3 +60,63 @@
 [2024-04-16 00:02:20] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.9-py3-none-any.whl.zip]
 [2024-04-16 00:02:20] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-04-16 00:02:20] INFO root fetch - main [MainThread]: Store serial: [22779586]
+[2024-04-16 00:04:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779586]
+[2024-04-16 00:04:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 00:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zonevu
+[2024-04-16 00:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: montepy
+[2024-04-16 00:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embedchain
+[2024-04-16 00:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nn-wrapper
+[2024-04-16 00:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feeed
+[2024-04-16 00:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awscrt
+[2024-04-16 00:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plasticswampbubble
+[2024-04-16 00:04:30] INFO root fetch - processPackages [zonevu]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-16 00:04:30] INFO root fetch - processPackages [embedchain]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 00:04:30] INFO root fetch - processPackages [nn-wrapper]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 00:04:30] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/dd/78/f8c7f8a8b8fbbeae171f1d2d4483c540feff9344ab4d5f00f2493ea748b0/zonevu-1.1.8-py3-none-any.whl
+[2024-04-16 00:04:30] INFO root fetch - processPackages [montepy]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-16 00:04:30] WARNING root fetch - processPackages [plasticswampbubble]: Skipping, unable to determine old version
+[2024-04-16 00:04:30] INFO root fetch - main [MainThread]: End processing [plasticswampbubble] error
+[2024-04-16 00:04:30] INFO root fetch - processPackages [feeed]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-16 00:04:30] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/f2/0a/0533e02b852a707aa8322566681194dc15d055019eefb6c0f35cedc99a94/embedchain-0.1.98.tar.gz
+[2024-04-16 00:04:30] INFO root fetch - processPackages [nn-wrapper]: Downloading https://files.pythonhosted.org/packages/13/bf/6cf6da5c703067beed853e68afa091641a1470429aed320eba303a6f4a16/nn_wrapper-1.0.4.tar.gz
+[2024-04-16 00:04:30] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/0d/2d/2739eceecbbc32ad3687e1c8993737657b4cafa08f9b6712546852a21c74/embedchain-0.1.99.tar.gz
+[2024-04-16 00:04:30] INFO root fetch - processPackages [montepy]: Downloading https://files.pythonhosted.org/packages/74/d4/8b0da93eab2fc79a236c634d33eb4963410cc668fb7d73d5e09073e7a8d6/montepy-0.2.5.tar.gz
+[2024-04-16 00:04:30] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/3f/95/cbef00c16a0168426c567b557087898b259fe5b0127d3c5a135490c8f18e/zonevu-1.1.9-py3-none-any.whl
+[2024-04-16 00:04:30] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2024-04-16 00:04:30] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.1.98.tar.gz tmp/embedchain-0.1.99.tar.gz --markdown 20240416/e/embedchain/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 00:04:30] INFO root fetch - processPackages [feeed]: Downloading https://files.pythonhosted.org/packages/26/e7/91254193d29f75cee76cc62a5e10fcffc6ebf21e0df845dcda7af5866060/feeed-1.1.0.tar.gz
+[2024-04-16 00:04:30] INFO root fetch - processPackages [nn-wrapper]: Downloading https://files.pythonhosted.org/packages/09/07/c2e0cffe7e06db6f6cd5256641bc024c25755b7ad3232c81cc81e73a0a90/nn_wrapper-1.0.5.tar.gz
+[2024-04-16 00:04:31] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-16 00:04:31] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.8-py3-none-any.whl.zip tmp/zonevu-1.1.9-py3-none-any.whl.zip --markdown 20240416/z/zonevu/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-16 00:04:31] INFO root fetch - processPackages [montepy]: Downloading https://files.pythonhosted.org/packages/3b/70/cbee277783e22fe14cb588a1f71219d41379e54676a6e373870d6064f4b1/montepy-0.2.6.tar.gz
+[2024-04-16 00:04:31] INFO root fetch - processPackages [nn-wrapper]: executing diffoscope
+[2024-04-16 00:04:31] INFO root fetch - processPackages [nn-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nn_wrapper-1.0.4.tar.gz tmp/nn_wrapper-1.0.5.tar.gz --markdown 20240416/n/nn-wrapper/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-16 00:04:31] INFO root fetch - processPackages [feeed]: Downloading https://files.pythonhosted.org/packages/9d/95/504a4b4add30a09871911d9504f515eb7fc4560b6b1f3ff19fd8b1cf4425/feeed-1.2.0.tar.gz
+[2024-04-16 00:04:31] INFO root fetch - processPackages [feeed]: executing diffoscope
+[2024-04-16 00:04:31] INFO root fetch - processPackages [feeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feeed-1.1.0.tar.gz tmp/feeed-1.2.0.tar.gz --markdown 20240416/f/feeed/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-16 00:04:31] INFO root fetch - processPackages [montepy]: executing diffoscope
+[2024-04-16 00:04:31] INFO root fetch - processPackages [montepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/montepy-0.2.5.tar.gz tmp/montepy-0.2.6.tar.gz --markdown 20240416/m/montepy/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-16 00:04:31] INFO root fetch - processPackages [nn-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/nn_wrapper-1.0.4.tar.gz]
+[2024-04-16 00:04:31] INFO root fetch - processPackages [nn-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/nn_wrapper-1.0.5.tar.gz]
+[2024-04-16 00:04:31] INFO root fetch - main [MainThread]: End processing [nn-wrapper]: success
+[2024-04-16 00:04:31] INFO root fetch - processPackages [feeed]: Remove: archive file [/home/abi/fetcher/tmp/feeed-1.1.0.tar.gz]
+[2024-04-16 00:04:31] INFO root fetch - processPackages [feeed]: Remove: archive file [/home/abi/fetcher/tmp/feeed-1.2.0.tar.gz]
+[2024-04-16 00:04:31] INFO root fetch - main [MainThread]: End processing [feeed]: success
+[2024-04-16 00:04:32] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.1.98.tar.gz]
+[2024-04-16 00:04:32] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.1.99.tar.gz]
+[2024-04-16 00:04:32] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2024-04-16 00:04:32] INFO root fetch - processPackages [montepy]: Remove: archive file [/home/abi/fetcher/tmp/montepy-0.2.5.tar.gz]
+[2024-04-16 00:04:32] INFO root fetch - processPackages [montepy]: Remove: archive file [/home/abi/fetcher/tmp/montepy-0.2.6.tar.gz]
+[2024-04-16 00:04:32] INFO root fetch - main [MainThread]: End processing [montepy]: success
+[2024-04-16 00:04:32] INFO root fetch - processPackages [awscrt]: New version: [0.9.7] Old Version: [0.9.4]
+[2024-04-16 00:04:32] INFO root fetch - processPackages [awscrt]: Downloading https://files.pythonhosted.org/packages/46/ab/3b367ec448a5241c543d4a096c957bc6d605ecb4f04eac8ea7f4e2281631/awscrt-0.9.4.tar.gz
+[2024-04-16 00:04:33] INFO root fetch - processPackages [awscrt]: Downloading https://files.pythonhosted.org/packages/2d/10/34168b8c690dce4b17faad06ffe89dad923da028b93d8379c2b2eb8d6d0a/awscrt-0.9.7.tar.gz
+[2024-04-16 00:04:33] INFO root fetch - processPackages [awscrt]: executing diffoscope
+[2024-04-16 00:04:33] INFO root fetch - processPackages [awscrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscrt-0.9.4.tar.gz tmp/awscrt-0.9.7.tar.gz --markdown 20240416/a/awscrt/0.9.4-0.9.7/README.md --exclude *.pyd
+[2024-04-16 00:04:34] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.8-py3-none-any.whl.zip]
+[2024-04-16 00:04:34] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.9-py3-none-any.whl.zip]
+[2024-04-16 00:04:34] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-16 00:04:43] INFO root fetch - processPackages [awscrt]: Remove: archive file [/home/abi/fetcher/tmp/awscrt-0.9.4.tar.gz]
+[2024-04-16 00:04:43] INFO root fetch - processPackages [awscrt]: Remove: archive file [/home/abi/fetcher/tmp/awscrt-0.9.7.tar.gz]
+[2024-04-16 00:04:43] INFO root fetch - main [MainThread]: End processing [awscrt]: success
+[2024-04-16 00:04:43] INFO root fetch - main [MainThread]: Store serial: [22779624]
