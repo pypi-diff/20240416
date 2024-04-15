@@ -1791,3 +1791,42 @@
 [2024-04-16 01:53:00] INFO root fetch - processPackages [opentelemetry-instrumentation-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_weaviate-0.9.4.tar.gz]
 [2024-04-16 01:53:00] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-weaviate]: success
 [2024-04-16 01:53:00] INFO root fetch - main [MainThread]: Store serial: [22780492]
+[2024-04-16 01:55:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780492]
+[2024-04-16 01:55:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 01:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CryptMaster
+[2024-04-16 01:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cognite-sdk
+[2024-04-16 01:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wwpdb.apps.editormodule
+[2024-04-16 01:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: traceloop-sdk
+[2024-04-16 01:55:09] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 01:55:09] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-16 01:55:09] INFO root fetch - processPackages [wwpdb.apps.editormodule]: New version: [0.18.1] Old Version: [0.18]
+[2024-04-16 01:55:09] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 01:55:09] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/71/52/a865ce901951f5201da24334b1278104b1b370b18ce9595ea9035a6c3a0e/traceloop_sdk-0.9.3.tar.gz
+[2024-04-16 01:55:09] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-04-16 01:55:09] INFO root fetch - processPackages [wwpdb.apps.editormodule]: Downloading https://files.pythonhosted.org/packages/8a/d1/af50cde315dced1e76fcf180f2d2e71da2b83812271147b736b37887eaf2/wwpdb.apps.editormodule-0.18.tar.gz
+[2024-04-16 01:55:09] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/ae/ca/192dff20dadbfa74c05ff4b865462f41b6cb019752812778ed2fbe2b45db/traceloop_sdk-0.9.4.tar.gz
+[2024-04-16 01:55:09] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 01:55:10] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2024-04-16 01:55:10] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.9.3.tar.gz tmp/traceloop_sdk-0.9.4.tar.gz --markdown 20240416/t/traceloop-sdk/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-16 01:55:10] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 01:55:10] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 01:55:10] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-04-16 01:55:10] INFO root fetch - processPackages [wwpdb.apps.editormodule]: Downloading https://files.pythonhosted.org/packages/c2/dd/4c57be01a58f88327d3013dab7eb7e27ef6e13d2faed81d72c86b7462094/wwpdb_apps_editormodule-0.18.1.tar.gz
+[2024-04-16 01:55:10] INFO root fetch - processPackages [wwpdb.apps.editormodule]: executing diffoscope
+[2024-04-16 01:55:10] INFO root fetch - processPackages [wwpdb.apps.editormodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.editormodule-0.18.tar.gz tmp/wwpdb_apps_editormodule-0.18.1.tar.gz --markdown 20240416/w/wwpdb.apps.editormodule/0.18-0.18.1/README.md --exclude *.pyd
+[2024-04-16 01:55:10] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-04-16 01:55:10] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.3.tar.gz]
+[2024-04-16 01:55:10] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
+[2024-04-16 01:55:10] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2024-04-16 01:55:10] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-04-16 01:55:10] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240416/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-04-16 01:55:10] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 01:55:10] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 01:55:10] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 01:55:11] INFO root fetch - processPackages [wwpdb.apps.editormodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.editormodule-0.18.tar.gz]
+[2024-04-16 01:55:11] INFO root fetch - processPackages [wwpdb.apps.editormodule]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_apps_editormodule-0.18.1.tar.gz]
+[2024-04-16 01:55:11] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.editormodule]: success
+[2024-04-16 01:55:11] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-04-16 01:55:11] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-04-16 01:55:11] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-04-16 01:55:11] INFO root fetch - main [MainThread]: Store serial: [22780506]
