@@ -240,3 +240,18 @@
 [2024-04-16 00:13:30] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc4.tar.gz]
 [2024-04-16 00:13:30] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2024-04-16 00:13:30] INFO root fetch - main [MainThread]: Store serial: [22779736]
+[2024-04-16 00:15:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779736]
+[2024-04-16 00:15:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 00:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-express
+[2024-04-16 00:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blackneedles
+[2024-04-16 00:15:39] INFO root fetch - processPackages [blackneedles]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 00:15:39] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/ec/9d/ee615da2e08d55cffa321df13a6f31bc03bf983b225242a4ee0acb30e875/blackneedles-0.1.8.tar.gz
+[2024-04-16 00:15:39] WARNING root fetch - processPackages [lusid-express]: Skipping, unable to determine old version
+[2024-04-16 00:15:39] INFO root fetch - main [MainThread]: End processing [lusid-express] error
+[2024-04-16 00:15:39] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/0e/af/82aea9abe010b6688457221a0dafd547829c6cab39e3ccfb54c751fbb1f4/blackneedles-0.1.9.tar.gz
+[2024-04-16 00:15:39] INFO root fetch - processPackages [blackneedles]: executing diffoscope
+[2024-04-16 00:15:39] INFO root fetch - processPackages [blackneedles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackneedles-0.1.8.tar.gz tmp/blackneedles-0.1.9.tar.gz --markdown 20240416/b/blackneedles/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 00:15:40] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.8.tar.gz]
+[2024-04-16 00:15:40] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.9.tar.gz]
+[2024-04-16 00:15:40] INFO root fetch - main [MainThread]: End processing [blackneedles]: success
+[2024-04-16 00:15:40] INFO root fetch - main [MainThread]: Store serial: [22779744]
