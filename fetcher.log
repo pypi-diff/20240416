@@ -1,0 +1,62 @@
+[2024-04-16 00:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779564]
+[2024-04-16 00:02:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyiikocloudapi
+[2024-04-16 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: traffic
+[2024-04-16 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sdmc-adhoc-processing
+[2024-04-16 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfp-kubernetes
+[2024-04-16 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qstress
+[2024-04-16 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blackneedles
+[2024-04-16 00:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zonevu
+[2024-04-16 00:02:15] INFO root fetch - processPackages [qstress]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-16 00:02:15] INFO root fetch - processPackages [pyiikocloudapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 00:02:15] INFO root fetch - processPackages [sdmc-adhoc-processing]: New version: [0.1.45] Old Version: [0.1.44]
+[2024-04-16 00:02:15] INFO root fetch - processPackages [blackneedles]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-16 00:02:16] INFO root fetch - processPackages [traffic]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-04-16 00:02:16] INFO root fetch - processPackages [qstress]: Downloading https://files.pythonhosted.org/packages/0b/68/e79d36d7ba2efda730c474815b1ee6769ce66fda07aefaac32e21ea5e7d3/qstress-0.3.2.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [kfp-kubernetes]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-16 00:02:16] INFO root fetch - processPackages [pyiikocloudapi]: Downloading https://files.pythonhosted.org/packages/f0/3a/371e1b3dd4c1bf52e1000573613090bcf019055b6290c334a7630734c310/pyiikocloudapi-0.0.8.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [sdmc-adhoc-processing]: Downloading https://files.pythonhosted.org/packages/b8/c5/6a45f1201e3f476ff265c4b43220e32f7d5986c8deec7091c46a8a2bcb18/sdmc_adhoc_processing-0.1.44.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/a2/80/c73fedd595e2030e5aa7118afb9b83242d46cc8266517320cdd61fc5ceee/blackneedles-0.1.7.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [zonevu]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-16 00:02:16] INFO root fetch - processPackages [qstress]: Downloading https://files.pythonhosted.org/packages/8f/5d/5734db6025e2ae046e13fca4d0e83cb4768a5554347de8ca2dd73bd4f5e0/qstress-0.3.3.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [traffic]: Downloading https://files.pythonhosted.org/packages/de/2d/b4c5ac8b61fea49d9d52ceae133658eb388263943a669fc00200a3165688/traffic-2.8.1.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [kfp-kubernetes]: Downloading https://files.pythonhosted.org/packages/9f/0f/cf3239627085ac8a2c03bf94d70ea2a2dcfc4f1f54f76eaf386222ee2101/kfp-kubernetes-1.1.0.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [pyiikocloudapi]: Downloading https://files.pythonhosted.org/packages/ab/41/cc95a6ef2e69f1ef364a14736cbef98b48713a5c0cdb5f949837e76f369d/pyiikocloudapi-0.0.9.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/dd/78/f8c7f8a8b8fbbeae171f1d2d4483c540feff9344ab4d5f00f2493ea748b0/zonevu-1.1.8-py3-none-any.whl
+[2024-04-16 00:02:16] INFO root fetch - processPackages [sdmc-adhoc-processing]: Downloading https://files.pythonhosted.org/packages/1e/76/c1d5892ed3acdc00fe6fb1d49782f14f59c4cd2cf68ffb70a9b9043aa277/sdmc_adhoc_processing-0.1.45.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/ec/9d/ee615da2e08d55cffa321df13a6f31bc03bf983b225242a4ee0acb30e875/blackneedles-0.1.8.tar.gz
+[2024-04-16 00:02:16] WARNING root fetch - processPackages [traffic]: Skipping package: exceeds size limit 21340763>=10485760
+[2024-04-16 00:02:16] INFO root fetch - main [MainThread]: End processing [traffic] error
+[2024-04-16 00:02:16] INFO root fetch - processPackages [qstress]: executing diffoscope
+[2024-04-16 00:02:16] INFO root fetch - processPackages [qstress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qstress-0.3.2.tar.gz tmp/qstress-0.3.3.tar.gz --markdown 20240416/q/qstress/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-16 00:02:16] INFO root fetch - processPackages [pyiikocloudapi]: executing diffoscope
+[2024-04-16 00:02:16] INFO root fetch - processPackages [pyiikocloudapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiikocloudapi-0.0.8.tar.gz tmp/pyiikocloudapi-0.0.9.tar.gz --markdown 20240416/p/pyiikocloudapi/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 00:02:16] INFO root fetch - processPackages [blackneedles]: executing diffoscope
+[2024-04-16 00:02:16] INFO root fetch - processPackages [blackneedles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackneedles-0.1.7.tar.gz tmp/blackneedles-0.1.8.tar.gz --markdown 20240416/b/blackneedles/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-16 00:02:16] INFO root fetch - processPackages [sdmc-adhoc-processing]: executing diffoscope
+[2024-04-16 00:02:16] INFO root fetch - processPackages [sdmc-adhoc-processing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdmc_adhoc_processing-0.1.44.tar.gz tmp/sdmc_adhoc_processing-0.1.45.tar.gz --markdown 20240416/s/sdmc-adhoc-processing/0.1.44-0.1.45/README.md --exclude *.pyd
+[2024-04-16 00:02:16] INFO root fetch - processPackages [kfp-kubernetes]: Downloading https://files.pythonhosted.org/packages/f5/f9/71b0c6d14b3990c058b1495e0a66cfecf8770cc1b77337786cc746763aea/kfp-kubernetes-1.2.0.tar.gz
+[2024-04-16 00:02:16] INFO root fetch - processPackages [kfp-kubernetes]: executing diffoscope
+[2024-04-16 00:02:16] INFO root fetch - processPackages [kfp-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfp-kubernetes-1.1.0.tar.gz tmp/kfp-kubernetes-1.2.0.tar.gz --markdown 20240416/k/kfp-kubernetes/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-16 00:02:16] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/3f/95/cbef00c16a0168426c567b557087898b259fe5b0127d3c5a135490c8f18e/zonevu-1.1.9-py3-none-any.whl
+[2024-04-16 00:02:17] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-16 00:02:17] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.8-py3-none-any.whl.zip tmp/zonevu-1.1.9-py3-none-any.whl.zip --markdown 20240416/z/zonevu/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-16 00:02:17] INFO root fetch - processPackages [kfp-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kfp-kubernetes-1.1.0.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - processPackages [kfp-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kfp-kubernetes-1.2.0.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - main [MainThread]: End processing [kfp-kubernetes]: success
+[2024-04-16 00:02:17] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.7.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.8.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - processPackages [sdmc-adhoc-processing]: Remove: archive file [/home/abi/fetcher/tmp/sdmc_adhoc_processing-0.1.44.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - main [MainThread]: End processing [blackneedles]: success
+[2024-04-16 00:02:17] INFO root fetch - processPackages [sdmc-adhoc-processing]: Remove: archive file [/home/abi/fetcher/tmp/sdmc_adhoc_processing-0.1.45.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - main [MainThread]: End processing [sdmc-adhoc-processing]: success
+[2024-04-16 00:02:17] INFO root fetch - processPackages [pyiikocloudapi]: Remove: archive file [/home/abi/fetcher/tmp/pyiikocloudapi-0.0.8.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - processPackages [pyiikocloudapi]: Remove: archive file [/home/abi/fetcher/tmp/pyiikocloudapi-0.0.9.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - main [MainThread]: End processing [pyiikocloudapi]: success
+[2024-04-16 00:02:17] INFO root fetch - processPackages [qstress]: Remove: archive file [/home/abi/fetcher/tmp/qstress-0.3.2.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - processPackages [qstress]: Remove: archive file [/home/abi/fetcher/tmp/qstress-0.3.3.tar.gz]
+[2024-04-16 00:02:17] INFO root fetch - main [MainThread]: End processing [qstress]: success
+[2024-04-16 00:02:20] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.8-py3-none-any.whl.zip]
+[2024-04-16 00:02:20] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.9-py3-none-any.whl.zip]
+[2024-04-16 00:02:20] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-16 00:02:20] INFO root fetch - main [MainThread]: Store serial: [22779586]
