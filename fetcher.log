@@ -1396,3 +1396,24 @@
 [2024-04-16 01:30:05] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
 [2024-04-16 01:30:05] INFO root fetch - main [MainThread]: End processing [langkit]: success
 [2024-04-16 01:30:05] INFO root fetch - main [MainThread]: Store serial: [22780322]
+[2024-04-16 01:32:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780322]
+[2024-04-16 01:32:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 01:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcdr
+[2024-04-16 01:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: masscube
+[2024-04-16 01:32:14] INFO root fetch - processPackages [masscube]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 01:32:14] INFO root fetch - processPackages [pcdr]: New version: [1.0.0a1] Old Version: [0.4.8b1]
+[2024-04-16 01:32:14] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/ee/a7/014ebd22474aa696215ff4634dbfefefee7be2d8586b4aa797241dce099b/masscube-0.0.6.tar.gz
+[2024-04-16 01:32:14] INFO root fetch - processPackages [pcdr]: Downloading https://files.pythonhosted.org/packages/f3/2a/71fa83b7bb505336610694e6e0f95a8131f400858c39774de17811e8fa9d/pcdr-0.4.8b1.tar.gz
+[2024-04-16 01:32:15] INFO root fetch - processPackages [masscube]: Downloading https://files.pythonhosted.org/packages/95/2b/1269c6c749248f7cb1653f7491226247b3cc799c9e420a133004c54a6bb1/masscube-0.0.7.tar.gz
+[2024-04-16 01:32:15] INFO root fetch - processPackages [pcdr]: Downloading https://files.pythonhosted.org/packages/19/24/caefd75e205373d2bbd102efc58eb0e335b011defe8a5e6c6d4993fb1fda/pcdr-1.0.0a1.tar.gz
+[2024-04-16 01:32:15] INFO root fetch - processPackages [masscube]: executing diffoscope
+[2024-04-16 01:32:15] INFO root fetch - processPackages [masscube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masscube-0.0.6.tar.gz tmp/masscube-0.0.7.tar.gz --markdown 20240416/m/masscube/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 01:32:15] INFO root fetch - processPackages [pcdr]: executing diffoscope
+[2024-04-16 01:32:15] INFO root fetch - processPackages [pcdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcdr-0.4.8b1.tar.gz tmp/pcdr-1.0.0a1.tar.gz --markdown 20240416/p/pcdr/0.4.8b1-1.0.0a1/README.md --exclude *.pyd
+[2024-04-16 01:32:16] INFO root fetch - processPackages [pcdr]: Remove: archive file [/home/abi/fetcher/tmp/pcdr-0.4.8b1.tar.gz]
+[2024-04-16 01:32:16] INFO root fetch - processPackages [pcdr]: Remove: archive file [/home/abi/fetcher/tmp/pcdr-1.0.0a1.tar.gz]
+[2024-04-16 01:32:16] INFO root fetch - main [MainThread]: End processing [pcdr]: success
+[2024-04-16 01:32:16] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.6.tar.gz]
+[2024-04-16 01:32:16] INFO root fetch - processPackages [masscube]: Remove: archive file [/home/abi/fetcher/tmp/masscube-0.0.7.tar.gz]
+[2024-04-16 01:32:16] INFO root fetch - main [MainThread]: End processing [masscube]: success
+[2024-04-16 01:32:16] INFO root fetch - main [MainThread]: Store serial: [22780329]
