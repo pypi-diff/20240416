@@ -865,3 +865,18 @@
 [2024-04-16 00:48:30] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.73.tar.gz]
 [2024-04-16 00:48:30] INFO root fetch - main [MainThread]: End processing [danielutils]: success
 [2024-04-16 00:48:30] INFO root fetch - main [MainThread]: Store serial: [22780130]
+[2024-04-16 00:50:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780130]
+[2024-04-16 00:50:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 00:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sc-oauth2
+[2024-04-16 00:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-cfdi
+[2024-04-16 00:50:39] INFO root fetch - processPackages [django-cfdi]: New version: [2.99] Old Version: [2.98]
+[2024-04-16 00:50:39] WARNING root fetch - processPackages [sc-oauth2]: Skipping, unable to determine old version
+[2024-04-16 00:50:39] INFO root fetch - main [MainThread]: End processing [sc-oauth2] error
+[2024-04-16 00:50:39] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/d8/7d/d99ae3e7add96c4909780286d44633880055d97463ac4470484411b34ba8/django_cfdi-2.98-py3-none-any.whl
+[2024-04-16 00:50:39] INFO root fetch - processPackages [django-cfdi]: Downloading https://files.pythonhosted.org/packages/68/29/ce9ebc4855819720b4e8fb4fee0d3d7ed2dd66bd0e56db087e971e65b112/django_cfdi-2.99-py3-none-any.whl
+[2024-04-16 00:50:40] INFO root fetch - processPackages [django-cfdi]: executing diffoscope
+[2024-04-16 00:50:40] INFO root fetch - processPackages [django-cfdi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cfdi-2.98-py3-none-any.whl.zip tmp/django_cfdi-2.99-py3-none-any.whl.zip --markdown 20240416/d/django-cfdi/2.98-2.99/README.md --exclude *.pyd
+[2024-04-16 00:50:42] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.98-py3-none-any.whl.zip]
+[2024-04-16 00:50:42] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
+[2024-04-16 00:50:42] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
+[2024-04-16 00:50:42] INFO root fetch - main [MainThread]: Store serial: [22780136]
