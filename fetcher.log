@@ -844,3 +844,24 @@
 [2024-04-16 00:46:19] INFO root fetch - processPackages [tfa-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl.zip]
 [2024-04-16 00:46:19] INFO root fetch - main [MainThread]: End processing [tfa-nightly]: success
 [2024-04-16 00:46:19] INFO root fetch - main [MainThread]: Store serial: [22780116]
+[2024-04-16 00:48:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780116]
+[2024-04-16 00:48:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 00:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rhermann-ct
+[2024-04-16 00:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rhermann-sds
+[2024-04-16 00:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rhermann-sdsm
+[2024-04-16 00:48:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danielutils
+[2024-04-16 00:48:29] WARNING root fetch - processPackages [rhermann-ct]: Skipping, unable to determine old version
+[2024-04-16 00:48:29] INFO root fetch - main [MainThread]: End processing [rhermann-ct] error
+[2024-04-16 00:48:29] INFO root fetch - processPackages [danielutils]: New version: [0.9.73] Old Version: [0.9.72]
+[2024-04-16 00:48:29] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/a3/74/5e2c92ee53d958775c1a90e37f7cba7c0833261a3ba06fa4162d1cf3f248/danielutils-0.9.72.tar.gz
+[2024-04-16 00:48:29] WARNING root fetch - processPackages [rhermann-sdsm]: Skipping, unable to determine old version
+[2024-04-16 00:48:29] INFO root fetch - main [MainThread]: End processing [rhermann-sdsm] error
+[2024-04-16 00:48:29] WARNING root fetch - processPackages [rhermann-sds]: Skipping, unable to determine old version
+[2024-04-16 00:48:29] INFO root fetch - main [MainThread]: End processing [rhermann-sds] error
+[2024-04-16 00:48:29] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/04/d5/fe365448bf76ae7f3c9a07f44067bd196162c61e2a330f420dafcb7f8d5e/danielutils-0.9.73.tar.gz
+[2024-04-16 00:48:29] INFO root fetch - processPackages [danielutils]: executing diffoscope
+[2024-04-16 00:48:29] INFO root fetch - processPackages [danielutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danielutils-0.9.72.tar.gz tmp/danielutils-0.9.73.tar.gz --markdown 20240416/d/danielutils/0.9.72-0.9.73/README.md --exclude *.pyd
+[2024-04-16 00:48:30] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.72.tar.gz]
+[2024-04-16 00:48:30] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.73.tar.gz]
+[2024-04-16 00:48:30] INFO root fetch - main [MainThread]: End processing [danielutils]: success
+[2024-04-16 00:48:30] INFO root fetch - main [MainThread]: Store serial: [22780130]
