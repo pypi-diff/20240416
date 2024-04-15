@@ -1309,3 +1309,42 @@
 [2024-04-16 01:25:44] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.8.tar.gz]
 [2024-04-16 01:25:44] INFO root fetch - main [MainThread]: End processing [ob-dj-store]: success
 [2024-04-16 01:25:44] INFO root fetch - main [MainThread]: Store serial: [22780276]
+[2024-04-16 01:27:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780276]
+[2024-04-16 01:27:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 01:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openpipe
+[2024-04-16 01:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stickersbot
+[2024-04-16 01:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: staging
+[2024-04-16 01:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: web3db
+[2024-04-16 01:27:52] INFO root fetch - processPackages [stickersbot]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-16 01:27:52] INFO root fetch - processPackages [stickersbot]: Downloading https://files.pythonhosted.org/packages/4e/91/4bb39d88c0ff45b803d026a4c8c7bbafc82d85116a76cadb1f6367e038f6/stickersbot-3.0.0.tar.gz
+[2024-04-16 01:27:52] INFO root fetch - processPackages [web3db]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 01:27:52] INFO root fetch - processPackages [staging]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 01:27:52] INFO root fetch - processPackages [openpipe]: New version: [4.8.0] Old Version: [4.7.0]
+[2024-04-16 01:27:53] INFO root fetch - processPackages [stickersbot]: Downloading https://files.pythonhosted.org/packages/7b/f2/caa762048ff9049324a96a44289e2a3b1fdddac95ca8e7177bdd1e759af6/stickersbot-4.0.0.tar.gz
+[2024-04-16 01:27:53] INFO root fetch - processPackages [web3db]: Downloading https://files.pythonhosted.org/packages/47/77/03256b77e63887c17842f7a686a28c969e2a645fa3304330ea4cf8d84054/web3db-1.0.0.tar.gz
+[2024-04-16 01:27:53] INFO root fetch - processPackages [staging]: Downloading https://files.pythonhosted.org/packages/8b/d0/9b86ed965fd74d2ce2d5322eb9e4569652ec221f92ea994eb138ee6c9156/staging-0.0.1.tar.gz
+[2024-04-16 01:27:53] INFO root fetch - processPackages [openpipe]: Downloading https://files.pythonhosted.org/packages/ac/84/488fac8627d8a07e6fde10d992982189a838e2e31057c1aa422202eef2eb/openpipe-4.7.0.tar.gz
+[2024-04-16 01:27:53] INFO root fetch - processPackages [stickersbot]: executing diffoscope
+[2024-04-16 01:27:53] INFO root fetch - processPackages [stickersbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stickersbot-3.0.0.tar.gz tmp/stickersbot-4.0.0.tar.gz --markdown 20240416/s/stickersbot/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-16 01:27:53] INFO root fetch - processPackages [web3db]: Downloading https://files.pythonhosted.org/packages/34/d5/4d00ebe316c43c6e9cb3f0196bbe12728f45e5f7e306602be40bf787f63a/web3db-1.0.1.tar.gz
+[2024-04-16 01:27:53] INFO root fetch - processPackages [openpipe]: Downloading https://files.pythonhosted.org/packages/aa/ac/3377b8683a6b74eeaae21b3dc176941cf8377013fa9c77bcdc422781de0d/openpipe-4.8.0.tar.gz
+[2024-04-16 01:27:53] INFO root fetch - processPackages [staging]: Downloading https://files.pythonhosted.org/packages/22/fb/1c4bd619dde709edd1647658d47dc159dc889287f2cc21b476cd3eda7eef/staging-0.0.2.tar.gz
+[2024-04-16 01:27:53] INFO root fetch - processPackages [openpipe]: executing diffoscope
+[2024-04-16 01:27:53] INFO root fetch - processPackages [openpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpipe-4.7.0.tar.gz tmp/openpipe-4.8.0.tar.gz --markdown 20240416/o/openpipe/4.7.0-4.8.0/README.md --exclude *.pyd
+[2024-04-16 01:27:53] INFO root fetch - processPackages [web3db]: executing diffoscope
+[2024-04-16 01:27:53] INFO root fetch - processPackages [web3db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3db-1.0.0.tar.gz tmp/web3db-1.0.1.tar.gz --markdown 20240416/w/web3db/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 01:27:53] INFO root fetch - processPackages [staging]: executing diffoscope
+[2024-04-16 01:27:53] INFO root fetch - processPackages [staging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staging-0.0.1.tar.gz tmp/staging-0.0.2.tar.gz --markdown 20240416/s/staging/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 01:27:53] INFO root fetch - processPackages [stickersbot]: Remove: archive file [/home/abi/fetcher/tmp/stickersbot-3.0.0.tar.gz]
+[2024-04-16 01:27:53] INFO root fetch - processPackages [stickersbot]: Remove: archive file [/home/abi/fetcher/tmp/stickersbot-4.0.0.tar.gz]
+[2024-04-16 01:27:53] INFO root fetch - main [MainThread]: End processing [stickersbot]: success
+[2024-04-16 01:27:54] INFO root fetch - processPackages [web3db]: Remove: archive file [/home/abi/fetcher/tmp/web3db-1.0.0.tar.gz]
+[2024-04-16 01:27:54] INFO root fetch - processPackages [web3db]: Remove: archive file [/home/abi/fetcher/tmp/web3db-1.0.1.tar.gz]
+[2024-04-16 01:27:54] INFO root fetch - main [MainThread]: End processing [web3db]: success
+[2024-04-16 01:27:54] INFO root fetch - processPackages [staging]: Remove: archive file [/home/abi/fetcher/tmp/staging-0.0.1.tar.gz]
+[2024-04-16 01:27:54] INFO root fetch - processPackages [staging]: Remove: archive file [/home/abi/fetcher/tmp/staging-0.0.2.tar.gz]
+[2024-04-16 01:27:54] INFO root fetch - main [MainThread]: End processing [staging]: success
+[2024-04-16 01:27:54] INFO root fetch - processPackages [openpipe]: Remove: archive file [/home/abi/fetcher/tmp/openpipe-4.7.0.tar.gz]
+[2024-04-16 01:27:54] INFO root fetch - processPackages [openpipe]: Remove: archive file [/home/abi/fetcher/tmp/openpipe-4.8.0.tar.gz]
+[2024-04-16 01:27:54] INFO root fetch - main [MainThread]: End processing [openpipe]: success
+[2024-04-16 01:27:54] INFO root fetch - main [MainThread]: Store serial: [22780288]
