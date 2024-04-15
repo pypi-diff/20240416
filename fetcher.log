@@ -901,3 +901,35 @@
 [2024-04-16 00:52:52] INFO root fetch - processPackages [zcached.py]: Remove: archive file [/home/abi/fetcher/tmp/zcached.py-1.1.1.tar.gz]
 [2024-04-16 00:52:52] INFO root fetch - main [MainThread]: End processing [zcached.py]: success
 [2024-04-16 00:52:52] INFO root fetch - main [MainThread]: Store serial: [22780142]
+[2024-04-16 00:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780142]
+[2024-04-16 00:55:01] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-16 00:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780142]
+[2024-04-16 00:57:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 00:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinyticker
+[2024-04-16 00:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlflow-by-ckl
+[2024-04-16 00:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aevmod
+[2024-04-16 00:57:06] INFO root fetch - processPackages [aevmod]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 00:57:06] INFO root fetch - processPackages [aevmod]: Downloading https://files.pythonhosted.org/packages/d2/69/1dd5af7741f29d2c593187b0c1919376908e04892a11642d060286d72e2c/aevmod-1.0.0.tar.gz
+[2024-04-16 00:57:06] INFO root fetch - processPackages [tinyticker]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-16 00:57:06] INFO root fetch - processPackages [mlflow-by-ckl]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-04-16 00:57:06] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/04/28/95adc132ff748a71251ea4da889bc0b3f04d9d05340dd858d0e91a46b862/tinyticker-0.4.8.tar.gz
+[2024-04-16 00:57:06] INFO root fetch - processPackages [mlflow-by-ckl]: Downloading https://files.pythonhosted.org/packages/52/9b/e6c8943f2bcd064b66ca0d0a2fdc12808ca6d64359f41f820e569abf832d/mlflow_by_ckl-2.8.2.tar.gz
+[2024-04-16 00:57:07] INFO root fetch - processPackages [aevmod]: Downloading https://files.pythonhosted.org/packages/f2/0a/611101e7be33817c9f62cf9b4bb542d6b04e8d3843faefdb8700454be536/aevmod-1.0.1.tar.gz
+[2024-04-16 00:57:07] INFO root fetch - processPackages [aevmod]: executing diffoscope
+[2024-04-16 00:57:07] INFO root fetch - processPackages [aevmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aevmod-1.0.0.tar.gz tmp/aevmod-1.0.1.tar.gz --markdown 20240416/a/aevmod/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 00:57:07] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/9e/95/bc6f02167fd098fa6814f72222fab337fe13814e1b02c20f9302f729569e/tinyticker-0.4.9.tar.gz
+[2024-04-16 00:57:07] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-04-16 00:57:07] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.4.8.tar.gz tmp/tinyticker-0.4.9.tar.gz --markdown 20240416/t/tinyticker/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-16 00:57:08] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.4.8.tar.gz]
+[2024-04-16 00:57:08] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.4.9.tar.gz]
+[2024-04-16 00:57:08] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-04-16 00:57:08] INFO root fetch - processPackages [aevmod]: Remove: archive file [/home/abi/fetcher/tmp/aevmod-1.0.0.tar.gz]
+[2024-04-16 00:57:08] INFO root fetch - processPackages [aevmod]: Remove: archive file [/home/abi/fetcher/tmp/aevmod-1.0.1.tar.gz]
+[2024-04-16 00:57:08] INFO root fetch - main [MainThread]: End processing [aevmod]: success
+[2024-04-16 00:57:09] INFO root fetch - processPackages [mlflow-by-ckl]: Downloading https://files.pythonhosted.org/packages/2e/75/4fafb074b7224b5bc3c3070a694278901be300ebb0318d43d3402e2bc31b/mlflow_by_ckl-2.8.3.tar.gz
+[2024-04-16 00:57:11] INFO root fetch - processPackages [mlflow-by-ckl]: executing diffoscope
+[2024-04-16 00:57:11] INFO root fetch - processPackages [mlflow-by-ckl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow_by_ckl-2.8.2.tar.gz tmp/mlflow_by_ckl-2.8.3.tar.gz --markdown 20240416/m/mlflow-by-ckl/2.8.2-2.8.3/README.md --exclude *.pyd
+[2024-04-16 00:57:13] INFO root fetch - processPackages [mlflow-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_by_ckl-2.8.2.tar.gz]
+[2024-04-16 00:57:13] INFO root fetch - processPackages [mlflow-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_by_ckl-2.8.3.tar.gz]
+[2024-04-16 00:57:13] INFO root fetch - main [MainThread]: End processing [mlflow-by-ckl]: success
+[2024-04-16 00:57:13] INFO root fetch - main [MainThread]: Store serial: [22780154]
