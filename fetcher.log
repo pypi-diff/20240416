@@ -390,3 +390,27 @@
 [2024-04-16 00:22:13] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.1.0.tar.gz]
 [2024-04-16 00:22:13] INFO root fetch - main [MainThread]: End processing [swebench]: success
 [2024-04-16 00:22:13] INFO root fetch - main [MainThread]: Store serial: [22779790]
+[2024-04-16 00:24:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779790]
+[2024-04-16 00:24:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 00:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-ts
+[2024-04-16 00:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freediscovery-stabilizer
+[2024-04-16 00:24:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dividedinkedwarpdrive
+[2024-04-16 00:24:22] INFO root fetch - processPackages [polars-ts]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 00:24:22] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/d4/b0/898e8dce81b61d9fe5e3d260f3fb19b52449a62bf14d5a5e4c34a6063c60/polars_ts-0.0.2.tar.gz
+[2024-04-16 00:24:22] WARNING root fetch - processPackages [dividedinkedwarpdrive]: Skipping, unable to determine old version
+[2024-04-16 00:24:22] INFO root fetch - main [MainThread]: End processing [dividedinkedwarpdrive] error
+[2024-04-16 00:24:22] INFO root fetch - processPackages [freediscovery-stabilizer]: New version: [1.5.dev0] Old Version: [1.4.dev0]
+[2024-04-16 00:24:22] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/5a/60/add90529c35d6638f29d314eb1e84f7661a0631e3399bd38373d9c448d22/polars_ts-0.0.3.tar.gz
+[2024-04-16 00:24:22] INFO root fetch - processPackages [freediscovery-stabilizer]: Downloading https://files.pythonhosted.org/packages/53/b0/c5e3e30be0f3e57cdbc50dc5d648fa652684060edf563bf75b707b38b088/freediscovery_stabilizer-1.4.dev0-py3-none-any.whl
+[2024-04-16 00:24:22] INFO root fetch - processPackages [polars-ts]: executing diffoscope
+[2024-04-16 00:24:22] INFO root fetch - processPackages [polars-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ts-0.0.2.tar.gz tmp/polars_ts-0.0.3.tar.gz --markdown 20240416/p/polars-ts/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 00:24:23] INFO root fetch - processPackages [freediscovery-stabilizer]: Downloading https://files.pythonhosted.org/packages/c5/a4/38cdd9bfb00c358c3cdd275a6ddb0a9ec074bfe629c3b04f3e714714af5a/freediscovery_stabilizer-1.5.dev0-py3-none-any.whl
+[2024-04-16 00:24:23] INFO root fetch - processPackages [freediscovery-stabilizer]: executing diffoscope
+[2024-04-16 00:24:23] INFO root fetch - processPackages [freediscovery-stabilizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freediscovery_stabilizer-1.4.dev0-py3-none-any.whl.zip tmp/freediscovery_stabilizer-1.5.dev0-py3-none-any.whl.zip --markdown 20240416/f/freediscovery-stabilizer/1.4.dev0-1.5.dev0/README.md --exclude *.pyd
+[2024-04-16 00:24:23] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.2.tar.gz]
+[2024-04-16 00:24:23] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.3.tar.gz]
+[2024-04-16 00:24:23] INFO root fetch - main [MainThread]: End processing [polars-ts]: success
+[2024-04-16 00:24:24] INFO root fetch - processPackages [freediscovery-stabilizer]: Remove: archive file [/home/abi/fetcher/tmp/freediscovery_stabilizer-1.4.dev0-py3-none-any.whl.zip]
+[2024-04-16 00:24:24] INFO root fetch - processPackages [freediscovery-stabilizer]: Remove: archive file [/home/abi/fetcher/tmp/freediscovery_stabilizer-1.5.dev0-py3-none-any.whl.zip]
+[2024-04-16 00:24:24] INFO root fetch - main [MainThread]: End processing [freediscovery-stabilizer]: success
+[2024-04-16 00:24:24] INFO root fetch - main [MainThread]: Store serial: [22779803]
