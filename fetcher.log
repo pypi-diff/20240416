@@ -1830,3 +1830,63 @@
 [2024-04-16 01:55:11] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
 [2024-04-16 01:55:11] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2024-04-16 01:55:11] INFO root fetch - main [MainThread]: Store serial: [22780506]
+[2024-04-16 01:57:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780506]
+[2024-04-16 01:57:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agave-pyclient
+[2024-04-16 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmeter
+[2024-04-16 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperdrivepy
+[2024-04-16 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoto-api
+[2024-04-16 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: epidemik
+[2024-04-16 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lunaticoastro-dragonfly-controller
+[2024-04-16 01:57:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imageryclient
+[2024-04-16 01:57:20] INFO root fetch - processPackages [yoto-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 01:57:20] INFO root fetch - processPackages [agave-pyclient]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-16 01:57:20] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/de/f4/5ee0600af4a566d3f479406bf7395f04ea324d4c920e0a5443915f286413/yoto_api-1.0.8.tar.gz
+[2024-04-16 01:57:20] INFO root fetch - processPackages [epidemik]: New version: [0.0.21] Old Version: [0.0.20]
+[2024-04-16 01:57:20] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/13/df/92f3b94f06b735d22b682353e9157974ef6b4359e08819eef2fe9be4aa0f/agave_pyclient-1.6.0.tar.gz
+[2024-04-16 01:57:20] WARNING root fetch - processPackages [lunaticoastro-dragonfly-controller]: Skipping, unable to determine old version
+[2024-04-16 01:57:20] INFO root fetch - main [MainThread]: End processing [lunaticoastro-dragonfly-controller] error
+[2024-04-16 01:57:20] INFO root fetch - processPackages [imageryclient]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 01:57:20] INFO root fetch - processPackages [hyperdrivepy]: New version: [1.0.1] Old Version: [0.9.2]
+[2024-04-16 01:57:20] INFO root fetch - processPackages [openmeter]: New version: [1.0.0b61] Old Version: [1.0.0b60]
+[2024-04-16 01:57:20] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/29/29/1b344cc343dfdd31eed135d8da17d3752522853f41f4af8843665d80102f/yoto_api-1.0.9.tar.gz
+[2024-04-16 01:57:20] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/40/4c/af65a2fbb3e7f43b52f41f6a0c89c2fa9a4234d11050a72e67acbf1e8a48/agave_pyclient-1.6.1.tar.gz
+[2024-04-16 01:57:20] INFO root fetch - processPackages [epidemik]: Downloading https://files.pythonhosted.org/packages/57/f5/90c67b2174cb0fa5f983fbde7f58d938133bae335c9f23cc7d743bcbaf2c/epidemik-0.0.20.tar.gz
+[2024-04-16 01:57:20] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/a0/b7/f050a5e507d96c22e5849b7e5176592df92d11322bfba03620194fab9664/openmeter-1.0.0b60.tar.gz
+[2024-04-16 01:57:20] INFO root fetch - processPackages [imageryclient]: Downloading https://files.pythonhosted.org/packages/82/a3/6c98dfaf3d5a670ecc2b52d654090b3867191d8e580dd3e2dd89fe3e5c1c/imageryclient-1.0.3.tar.gz
+[2024-04-16 01:57:20] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/6b/7c/c15799fc76eb63dbfd0bf2e6b43dcc670a47241c5bed9368175be841be11/hyperdrivepy-0.9.2.tar.gz
+[2024-04-16 01:57:20] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-16 01:57:20] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.0.8.tar.gz tmp/yoto_api-1.0.9.tar.gz --markdown 20240416/y/yoto-api/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 01:57:20] INFO root fetch - processPackages [agave-pyclient]: executing diffoscope
+[2024-04-16 01:57:20] INFO root fetch - processPackages [agave-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agave_pyclient-1.6.0.tar.gz tmp/agave_pyclient-1.6.1.tar.gz --markdown 20240416/a/agave-pyclient/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-16 01:57:21] INFO root fetch - processPackages [epidemik]: Downloading https://files.pythonhosted.org/packages/1c/1e/8fe2aa61cdbf03a6ffdc7459933e78e0afc051b5989d3fc27b768a34ec05/epidemik-0.0.21.tar.gz
+[2024-04-16 01:57:21] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/09/42/ee22bc32ada3ded2d08087130c99b5aa560e708618ecc6be7c2c0b0afefa/openmeter-1.0.0b61.tar.gz
+[2024-04-16 01:57:21] INFO root fetch - processPackages [hyperdrivepy]: Downloading https://files.pythonhosted.org/packages/38/48/d6f2d2fb00a765b39240bd79fa4a6079fa70cbf99ebeda99d9a65b85d848/hyperdrivepy-1.0.1.tar.gz
+[2024-04-16 01:57:21] INFO root fetch - processPackages [imageryclient]: Downloading https://files.pythonhosted.org/packages/96/91/7028fc5625c3074351b20163a23ce361d554af4b9d1ada49e10dfc7400a4/imageryclient-1.0.4.tar.gz
+[2024-04-16 01:57:21] INFO root fetch - processPackages [epidemik]: executing diffoscope
+[2024-04-16 01:57:21] INFO root fetch - processPackages [epidemik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epidemik-0.0.20.tar.gz tmp/epidemik-0.0.21.tar.gz --markdown 20240416/e/epidemik/0.0.20-0.0.21/README.md --exclude *.pyd
+[2024-04-16 01:57:21] INFO root fetch - processPackages [hyperdrivepy]: executing diffoscope
+[2024-04-16 01:57:21] INFO root fetch - processPackages [hyperdrivepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperdrivepy-0.9.2.tar.gz tmp/hyperdrivepy-1.0.1.tar.gz --markdown 20240416/h/hyperdrivepy/0.9.2-1.0.1/README.md --exclude *.pyd
+[2024-04-16 01:57:21] INFO root fetch - processPackages [openmeter]: executing diffoscope
+[2024-04-16 01:57:21] INFO root fetch - processPackages [openmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmeter-1.0.0b60.tar.gz tmp/openmeter-1.0.0b61.tar.gz --markdown 20240416/o/openmeter/1.0.0b60-1.0.0b61/README.md --exclude *.pyd
+[2024-04-16 01:57:21] INFO root fetch - processPackages [imageryclient]: executing diffoscope
+[2024-04-16 01:57:21] INFO root fetch - processPackages [imageryclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imageryclient-1.0.3.tar.gz tmp/imageryclient-1.0.4.tar.gz --markdown 20240416/i/imageryclient/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-16 01:57:21] INFO root fetch - processPackages [agave-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/agave_pyclient-1.6.0.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - processPackages [agave-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/agave_pyclient-1.6.1.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - main [MainThread]: End processing [agave-pyclient]: success
+[2024-04-16 01:57:21] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.8.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.9.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-16 01:57:21] INFO root fetch - processPackages [epidemik]: Remove: archive file [/home/abi/fetcher/tmp/epidemik-0.0.20.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - processPackages [epidemik]: Remove: archive file [/home/abi/fetcher/tmp/epidemik-0.0.21.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - main [MainThread]: End processing [epidemik]: success
+[2024-04-16 01:57:21] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b60.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b61.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - main [MainThread]: End processing [openmeter]: success
+[2024-04-16 01:57:21] INFO root fetch - processPackages [imageryclient]: Remove: archive file [/home/abi/fetcher/tmp/imageryclient-1.0.3.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - processPackages [imageryclient]: Remove: archive file [/home/abi/fetcher/tmp/imageryclient-1.0.4.tar.gz]
+[2024-04-16 01:57:21] INFO root fetch - main [MainThread]: End processing [imageryclient]: success
+[2024-04-16 01:57:22] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-0.9.2.tar.gz]
+[2024-04-16 01:57:22] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-1.0.1.tar.gz]
+[2024-04-16 01:57:22] INFO root fetch - main [MainThread]: End processing [hyperdrivepy]: success
+[2024-04-16 01:57:22] INFO root fetch - main [MainThread]: Store serial: [22780535]
