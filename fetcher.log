@@ -880,3 +880,24 @@
 [2024-04-16 00:50:42] INFO root fetch - processPackages [django-cfdi]: Remove: archive file [/home/abi/fetcher/tmp/django_cfdi-2.99-py3-none-any.whl.zip]
 [2024-04-16 00:50:42] INFO root fetch - main [MainThread]: End processing [django-cfdi]: success
 [2024-04-16 00:50:42] INFO root fetch - main [MainThread]: Store serial: [22780136]
+[2024-04-16 00:52:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780136]
+[2024-04-16 00:52:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 00:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcached.py
+[2024-04-16 00:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thepipe-api
+[2024-04-16 00:52:51] INFO root fetch - processPackages [thepipe-api]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-16 00:52:51] INFO root fetch - processPackages [zcached.py]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-04-16 00:52:51] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/1a/1a/5976a53288802dce987c44d2ec7ff30e8786845b5a496b7d3f45f2683d27/thepipe_api-0.1.6.tar.gz
+[2024-04-16 00:52:51] INFO root fetch - processPackages [zcached.py]: Downloading https://files.pythonhosted.org/packages/c5/64/c069b66a10f27f487f03648b01bb7953169dcc828067d3802dd6217f88e6/zcached.py-1.0.1.tar.gz
+[2024-04-16 00:52:51] INFO root fetch - processPackages [zcached.py]: Downloading https://files.pythonhosted.org/packages/8f/b6/dbada4b57963c92986af7802f4c36611adac172624ebeb29b4c1edd1e416/zcached.py-1.1.1.tar.gz
+[2024-04-16 00:52:51] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/13/e8/f0fec646646dd65257ad691c899d834b3889d349ba2a67b9af7a5501a39f/thepipe_api-0.1.7.tar.gz
+[2024-04-16 00:52:51] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-04-16 00:52:51] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.1.6.tar.gz tmp/thepipe_api-0.1.7.tar.gz --markdown 20240416/t/thepipe-api/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-16 00:52:52] INFO root fetch - processPackages [zcached.py]: executing diffoscope
+[2024-04-16 00:52:52] INFO root fetch - processPackages [zcached.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcached.py-1.0.1.tar.gz tmp/zcached.py-1.1.1.tar.gz --markdown 20240416/z/zcached.py/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-04-16 00:52:52] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.1.6.tar.gz]
+[2024-04-16 00:52:52] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.1.7.tar.gz]
+[2024-04-16 00:52:52] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-04-16 00:52:52] INFO root fetch - processPackages [zcached.py]: Remove: archive file [/home/abi/fetcher/tmp/zcached.py-1.0.1.tar.gz]
+[2024-04-16 00:52:52] INFO root fetch - processPackages [zcached.py]: Remove: archive file [/home/abi/fetcher/tmp/zcached.py-1.1.1.tar.gz]
+[2024-04-16 00:52:52] INFO root fetch - main [MainThread]: End processing [zcached.py]: success
+[2024-04-16 00:52:52] INFO root fetch - main [MainThread]: Store serial: [22780142]
