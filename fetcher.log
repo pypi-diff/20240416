@@ -933,3 +933,27 @@
 [2024-04-16 00:57:13] INFO root fetch - processPackages [mlflow-by-ckl]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_by_ckl-2.8.3.tar.gz]
 [2024-04-16 00:57:13] INFO root fetch - main [MainThread]: End processing [mlflow-by-ckl]: success
 [2024-04-16 00:57:13] INFO root fetch - main [MainThread]: Store serial: [22780154]
+[2024-04-16 00:59:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780154]
+[2024-04-16 00:59:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: berremueller
+[2024-04-16 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CryptMaster
+[2024-04-16 00:59:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws
+[2024-04-16 00:59:22] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 00:59:22] WARNING root fetch - processPackages [berremueller]: Skipping, unable to determine old version
+[2024-04-16 00:59:22] INFO root fetch - main [MainThread]: End processing [berremueller] error
+[2024-04-16 00:59:22] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-16 00:59:22] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 00:59:22] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-16 00:59:23] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 00:59:23] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 00:59:23] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 00:59:23] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-16 00:59:23] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-16 00:59:23] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240416/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-16 00:59:23] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 00:59:23] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 00:59:23] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 00:59:40] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-16 00:59:40] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-16 00:59:40] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-16 00:59:40] INFO root fetch - main [MainThread]: Store serial: [22780165]
