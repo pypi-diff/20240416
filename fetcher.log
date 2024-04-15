@@ -1044,3 +1044,24 @@
 [2024-04-16 01:04:02] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.6.tar.gz]
 [2024-04-16 01:04:02] INFO root fetch - main [MainThread]: End processing [deployfish]: success
 [2024-04-16 01:04:02] INFO root fetch - main [MainThread]: Store serial: [22780191]
+[2024-04-16 01:06:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780191]
+[2024-04-16 01:06:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 01:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2024-04-16 01:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flwr-nightly
+[2024-04-16 01:06:11] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240414] Old Version: [1.9.0.dev20240412]
+[2024-04-16 01:06:11] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240414] Old Version: [0.7.52b20240413]
+[2024-04-16 01:06:11] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/4a/3f/2225da10d5b7159134f7ca4995d72598b1357bf9e5a4eb9dea6818bda240/flwr_nightly-1.9.0.dev20240412.tar.gz
+[2024-04-16 01:06:11] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/4d/d4/990dd5a09c77bef2503950aa2712c407515f7206980732bb1de23b8b80f5/tmnt-0.7.52b20240413.tar.gz
+[2024-04-16 01:06:11] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/d4/50/d5aa191a1d48e70947966a94b65b4cd6d327864f0927a8671897e65087ce/tmnt-0.7.52b20240414.tar.gz
+[2024-04-16 01:06:11] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/dc/3d/b0889985025a310e1259e0550ee1d5c548a7b064a898aa66164bf2ea126d/flwr_nightly-1.9.0.dev20240414.tar.gz
+[2024-04-16 01:06:11] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-16 01:06:11] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240413.tar.gz tmp/tmnt-0.7.52b20240414.tar.gz --markdown 20240416/t/tmnt/0.7.52b20240413-0.7.52b20240414/README.md --exclude *.pyd
+[2024-04-16 01:06:11] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-16 01:06:11] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240412.tar.gz tmp/flwr_nightly-1.9.0.dev20240414.tar.gz --markdown 20240416/f/flwr-nightly/1.9.0.dev20240412-1.9.0.dev20240414/README.md --exclude *.pyd
+[2024-04-16 01:06:12] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240413.tar.gz]
+[2024-04-16 01:06:12] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240414.tar.gz]
+[2024-04-16 01:06:12] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-16 01:06:12] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240412.tar.gz]
+[2024-04-16 01:06:12] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240414.tar.gz]
+[2024-04-16 01:06:12] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-16 01:06:12] INFO root fetch - main [MainThread]: Store serial: [22780197]
