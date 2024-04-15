@@ -285,3 +285,63 @@
 [2024-04-16 00:17:51] INFO root fetch - processPackages [trieve-py-client]: Remove: archive file [/home/abi/fetcher/tmp/trieve_py_client-0.6.9-py3-none-any.whl.zip]
 [2024-04-16 00:17:51] INFO root fetch - main [MainThread]: End processing [trieve-py-client]: success
 [2024-04-16 00:17:51] INFO root fetch - main [MainThread]: Store serial: [22779752]
+[2024-04-16 00:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779752]
+[2024-04-16 00:19:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 00:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vrchatapi
+[2024-04-16 00:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelscan
+[2024-04-16 00:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dank-mids
+[2024-04-16 00:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fc-pruning
+[2024-04-16 00:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synchronicity
+[2024-04-16 00:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blackneedles
+[2024-04-16 00:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyapi-server
+[2024-04-16 00:19:59] INFO root fetch - processPackages [blackneedles]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 00:19:59] INFO root fetch - processPackages [vrchatapi]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 00:19:59] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.87]
+[2024-04-16 00:19:59] INFO root fetch - processPackages [synchronicity]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-16 00:19:59] INFO root fetch - processPackages [vrchatapi]: Downloading https://files.pythonhosted.org/packages/ff/8b/88945a19e189b1baa0e126c157beab97590c6faf2c036b3fe1207854fd98/vrchatapi-1.9.0.tar.gz
+[2024-04-16 00:19:59] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/ec/9d/ee615da2e08d55cffa321df13a6f31bc03bf983b225242a4ee0acb30e875/blackneedles-0.1.8.tar.gz
+[2024-04-16 00:19:59] WARNING root fetch - processPackages [fc-pruning]: Skipping, unable to determine old version
+[2024-04-16 00:19:59] INFO root fetch - main [MainThread]: End processing [fc-pruning] error
+[2024-04-16 00:19:59] INFO root fetch - processPackages [pyapi-server]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-16 00:19:59] INFO root fetch - processPackages [modelscan]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-16 00:20:00] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/2c/91/c8a3ad3361f0d5b254831411c4dbf2a785a617427993e53caa6248f466eb/dank_mids-4.20.87.tar.gz
+[2024-04-16 00:20:00] INFO root fetch - processPackages [synchronicity]: Downloading https://files.pythonhosted.org/packages/b7/68/ec72b55c73b3c7a2edba4860714e3589ed51f3d9e096082981f9486a2c3c/synchronicity-0.6.6-py3-none-any.whl
+[2024-04-16 00:20:00] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/0e/af/82aea9abe010b6688457221a0dafd547829c6cab39e3ccfb54c751fbb1f4/blackneedles-0.1.9.tar.gz
+[2024-04-16 00:20:00] INFO root fetch - processPackages [vrchatapi]: Downloading https://files.pythonhosted.org/packages/4c/cc/4f4d3d2b865f5784be60e8ee4c993538bac9e5dde7647891cd68fee27fb3/vrchatapi-1.9.1.tar.gz
+[2024-04-16 00:20:00] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2024-04-16 00:20:00] INFO root fetch - processPackages [modelscan]: Downloading https://files.pythonhosted.org/packages/7c/80/0fc8b7a09708b995f8ad44fa8f6499f0c01ca56b78ec6657839fd77d62cf/modelscan-0.7.0.tar.gz
+[2024-04-16 00:20:00] INFO root fetch - processPackages [pyapi-server]: Downloading https://files.pythonhosted.org/packages/30/c6/98a1de7f74988d900dd78634643030fe0f6d018dd72f7ff36e9443cd97d2/pyapi_server-0.5.0.tar.gz
+[2024-04-16 00:20:00] INFO root fetch - processPackages [blackneedles]: executing diffoscope
+[2024-04-16 00:20:00] INFO root fetch - processPackages [blackneedles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackneedles-0.1.8.tar.gz tmp/blackneedles-0.1.9.tar.gz --markdown 20240416/b/blackneedles/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 00:20:00] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2024-04-16 00:20:00] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.87.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20240416/d/dank-mids/4.20.87-4.20.9/README.md --exclude *.pyd
+[2024-04-16 00:20:00] INFO root fetch - processPackages [vrchatapi]: executing diffoscope
+[2024-04-16 00:20:00] INFO root fetch - processPackages [vrchatapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrchatapi-1.9.0.tar.gz tmp/vrchatapi-1.9.1.tar.gz --markdown 20240416/v/vrchatapi/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 00:20:00] INFO root fetch - processPackages [synchronicity]: Downloading https://files.pythonhosted.org/packages/38/50/086ae48369f1d6339b0ee8e48d4fb4a6f441988d877e37bf1dbee2638bc8/synchronicity-0.6.7-py3-none-any.whl
+[2024-04-16 00:20:00] INFO root fetch - processPackages [pyapi-server]: Downloading https://files.pythonhosted.org/packages/6a/70/116e27d6b28f82f8b78874ac44bb0e18e832aaa564da0f89845d35dbd56a/pyapi_server-0.6.0.tar.gz
+[2024-04-16 00:20:00] INFO root fetch - processPackages [modelscan]: Downloading https://files.pythonhosted.org/packages/4d/d7/d17e17600ac321be96b7bde57466136ba930a7f9cead1dad148718b04bdb/modelscan-0.7.1.tar.gz
+[2024-04-16 00:20:00] INFO root fetch - processPackages [synchronicity]: executing diffoscope
+[2024-04-16 00:20:00] INFO root fetch - processPackages [synchronicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synchronicity-0.6.6-py3-none-any.whl.zip tmp/synchronicity-0.6.7-py3-none-any.whl.zip --markdown 20240416/s/synchronicity/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-04-16 00:20:00] INFO root fetch - processPackages [pyapi-server]: executing diffoscope
+[2024-04-16 00:20:00] INFO root fetch - processPackages [pyapi-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyapi_server-0.5.0.tar.gz tmp/pyapi_server-0.6.0.tar.gz --markdown 20240416/p/pyapi-server/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-16 00:20:00] INFO root fetch - processPackages [modelscan]: executing diffoscope
+[2024-04-16 00:20:00] INFO root fetch - processPackages [modelscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelscan-0.7.0.tar.gz tmp/modelscan-0.7.1.tar.gz --markdown 20240416/m/modelscan/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-16 00:20:01] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.87.tar.gz]
+[2024-04-16 00:20:01] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2024-04-16 00:20:01] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2024-04-16 00:20:01] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.8.tar.gz]
+[2024-04-16 00:20:01] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.9.tar.gz]
+[2024-04-16 00:20:01] INFO root fetch - main [MainThread]: End processing [blackneedles]: success
+[2024-04-16 00:20:01] INFO root fetch - processPackages [synchronicity]: Remove: archive file [/home/abi/fetcher/tmp/synchronicity-0.6.6-py3-none-any.whl.zip]
+[2024-04-16 00:20:01] INFO root fetch - processPackages [synchronicity]: Remove: archive file [/home/abi/fetcher/tmp/synchronicity-0.6.7-py3-none-any.whl.zip]
+[2024-04-16 00:20:01] INFO root fetch - main [MainThread]: End processing [synchronicity]: success
+[2024-04-16 00:20:01] INFO root fetch - processPackages [pyapi-server]: Remove: archive file [/home/abi/fetcher/tmp/pyapi_server-0.5.0.tar.gz]
+[2024-04-16 00:20:01] INFO root fetch - processPackages [pyapi-server]: Remove: archive file [/home/abi/fetcher/tmp/pyapi_server-0.6.0.tar.gz]
+[2024-04-16 00:20:01] INFO root fetch - main [MainThread]: End processing [pyapi-server]: success
+[2024-04-16 00:20:01] INFO root fetch - processPackages [modelscan]: Remove: archive file [/home/abi/fetcher/tmp/modelscan-0.7.0.tar.gz]
+[2024-04-16 00:20:01] INFO root fetch - processPackages [modelscan]: Remove: archive file [/home/abi/fetcher/tmp/modelscan-0.7.1.tar.gz]
+[2024-04-16 00:20:01] INFO root fetch - main [MainThread]: End processing [modelscan]: success
+[2024-04-16 00:20:02] INFO root fetch - processPackages [vrchatapi]: Remove: archive file [/home/abi/fetcher/tmp/vrchatapi-1.9.0.tar.gz]
+[2024-04-16 00:20:02] INFO root fetch - processPackages [vrchatapi]: Remove: archive file [/home/abi/fetcher/tmp/vrchatapi-1.9.1.tar.gz]
+[2024-04-16 00:20:02] INFO root fetch - main [MainThread]: End processing [vrchatapi]: success
+[2024-04-16 00:20:02] INFO root fetch - main [MainThread]: Store serial: [22779771]
