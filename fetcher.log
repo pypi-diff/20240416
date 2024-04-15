@@ -1152,3 +1152,15 @@
 [2024-04-16 01:10:37] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-64.2.0.tar.gz]
 [2024-04-16 01:10:37] INFO root fetch - main [MainThread]: End processing [seeq]: success
 [2024-04-16 01:10:37] INFO root fetch - main [MainThread]: Store serial: [22780224]
+[2024-04-16 01:12:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780224]
+[2024-04-16 01:12:46] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 01:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hutch-python
+[2024-04-16 01:12:46] INFO root fetch - processPackages [hutch-python]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 01:12:46] INFO root fetch - processPackages [hutch-python]: Downloading https://files.pythonhosted.org/packages/9b/f1/6fab845b1152a2a035aa5c48e523f00aa9012107d60a736b892cee9f5794/hutch_python-1.9.0-py3-none-any.whl
+[2024-04-16 01:12:47] INFO root fetch - processPackages [hutch-python]: Downloading https://files.pythonhosted.org/packages/7f/8b/6256e706d4b826878c45479eb9d0f8762cf969084febe4a84badc930a535/hutch-python-1.9.1.tar.gz
+[2024-04-16 01:12:47] INFO root fetch - processPackages [hutch-python]: executing diffoscope
+[2024-04-16 01:12:47] INFO root fetch - processPackages [hutch-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hutch_python-1.9.0-py3-none-any.whl.zip tmp/hutch-python-1.9.1.tar.gz --markdown 20240416/h/hutch-python/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 01:12:47] INFO root fetch - processPackages [hutch-python]: Remove: archive file [/home/abi/fetcher/tmp/hutch_python-1.9.0-py3-none-any.whl.zip]
+[2024-04-16 01:12:47] INFO root fetch - processPackages [hutch-python]: Remove: archive file [/home/abi/fetcher/tmp/hutch-python-1.9.1.tar.gz]
+[2024-04-16 01:12:47] INFO root fetch - main [MainThread]: End processing [hutch-python]: success
+[2024-04-16 01:12:47] INFO root fetch - main [MainThread]: Store serial: [22780227]
