@@ -414,3 +414,41 @@
 [2024-04-16 00:24:24] INFO root fetch - processPackages [freediscovery-stabilizer]: Remove: archive file [/home/abi/fetcher/tmp/freediscovery_stabilizer-1.5.dev0-py3-none-any.whl.zip]
 [2024-04-16 00:24:24] INFO root fetch - main [MainThread]: End processing [freediscovery-stabilizer]: success
 [2024-04-16 00:24:24] INFO root fetch - main [MainThread]: Store serial: [22779803]
+[2024-04-16 00:26:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22779803]
+[2024-04-16 00:26:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stabilizer-timelime
+[2024-04-16 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blackneedles
+[2024-04-16 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-express
+[2024-04-16 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shareddata
+[2024-04-16 00:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyMieSim
+[2024-04-16 00:26:33] INFO root fetch - processPackages [blackneedles]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 00:26:33] WARNING root fetch - processPackages [lusid-express]: Skipping, unable to determine old version
+[2024-04-16 00:26:33] INFO root fetch - processPackages [stabilizer-timelime]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 00:26:33] INFO root fetch - main [MainThread]: End processing [lusid-express] error
+[2024-04-16 00:26:33] INFO root fetch - processPackages [shareddata]: New version: [4.8.1] Old Version: [4.8.0]
+[2024-04-16 00:26:33] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/ec/9d/ee615da2e08d55cffa321df13a6f31bc03bf983b225242a4ee0acb30e875/blackneedles-0.1.8.tar.gz
+[2024-04-16 00:26:33] INFO root fetch - processPackages [stabilizer-timelime]: Downloading https://files.pythonhosted.org/packages/d1/cb/907536328fe19401070b808a221f4e3aa3184821e4a5f173c8702310c0e9/stabilizer_timelime-0.1.2.tar.gz
+[2024-04-16 00:26:33] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/2a/58/c520979023190b895758bbc47d2ac3878b955c2553f080d3a5b8152c4219/shareddata-4.8.0.tar.gz
+[2024-04-16 00:26:33] INFO root fetch - processPackages [blackneedles]: Downloading https://files.pythonhosted.org/packages/0e/af/82aea9abe010b6688457221a0dafd547829c6cab39e3ccfb54c751fbb1f4/blackneedles-0.1.9.tar.gz
+[2024-04-16 00:26:33] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/47/e9/657e2c170c3c1d33047258b43f2ffcf2fe4a8022e3593f723df226416ea9/shareddata-4.8.1.tar.gz
+[2024-04-16 00:26:33] INFO root fetch - processPackages [PyMieSim]: New version: [1.8.0] Old Version: [1.7.4]
+[2024-04-16 00:26:33] INFO root fetch - processPackages [blackneedles]: executing diffoscope
+[2024-04-16 00:26:33] INFO root fetch - processPackages [blackneedles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackneedles-0.1.8.tar.gz tmp/blackneedles-0.1.9.tar.gz --markdown 20240416/b/blackneedles/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 00:26:33] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2024-04-16 00:26:33] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-4.8.0.tar.gz tmp/shareddata-4.8.1.tar.gz --markdown 20240416/s/shareddata/4.8.0-4.8.1/README.md --exclude *.pyd
+[2024-04-16 00:26:33] INFO root fetch - processPackages [stabilizer-timelime]: Downloading https://files.pythonhosted.org/packages/4e/b0/ec40c5e4a5bb4b1b3c32e5ba074ed88f2687220106ef8527c03dad1208ad/stabilizer_timelime-0.1.3.tar.gz
+[2024-04-16 00:26:33] INFO root fetch - processPackages [PyMieSim]: Downloading https://files.pythonhosted.org/packages/d3/4a/a528f1f86aa63a5a195ea06424ef06b94a47946eac1e83990d34e1c43ba4/PyMieSim-1.7.4-cp312-cp312-win_amd64.whl
+[2024-04-16 00:26:33] INFO root fetch - processPackages [stabilizer-timelime]: executing diffoscope
+[2024-04-16 00:26:33] INFO root fetch - processPackages [stabilizer-timelime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stabilizer_timelime-0.1.2.tar.gz tmp/stabilizer_timelime-0.1.3.tar.gz --markdown 20240416/s/stabilizer-timelime/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 00:26:33] WARNING root fetch - processPackages [PyMieSim]: Skipping package: exceeds size limit 36823472>=10485760
+[2024-04-16 00:26:34] INFO root fetch - main [MainThread]: End processing [PyMieSim] error
+[2024-04-16 00:26:34] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.8.tar.gz]
+[2024-04-16 00:26:34] INFO root fetch - processPackages [blackneedles]: Remove: archive file [/home/abi/fetcher/tmp/blackneedles-0.1.9.tar.gz]
+[2024-04-16 00:26:34] INFO root fetch - main [MainThread]: End processing [blackneedles]: success
+[2024-04-16 00:26:34] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.0.tar.gz]
+[2024-04-16 00:26:34] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.1.tar.gz]
+[2024-04-16 00:26:34] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2024-04-16 00:26:34] INFO root fetch - processPackages [stabilizer-timelime]: Remove: archive file [/home/abi/fetcher/tmp/stabilizer_timelime-0.1.2.tar.gz]
+[2024-04-16 00:26:34] INFO root fetch - processPackages [stabilizer-timelime]: Remove: archive file [/home/abi/fetcher/tmp/stabilizer_timelime-0.1.3.tar.gz]
+[2024-04-16 00:26:34] INFO root fetch - main [MainThread]: End processing [stabilizer-timelime]: success
+[2024-04-16 00:26:34] INFO root fetch - main [MainThread]: Store serial: [22779830]
