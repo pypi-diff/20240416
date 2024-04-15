@@ -1890,3 +1890,45 @@
 [2024-04-16 01:57:22] INFO root fetch - processPackages [hyperdrivepy]: Remove: archive file [/home/abi/fetcher/tmp/hyperdrivepy-1.0.1.tar.gz]
 [2024-04-16 01:57:22] INFO root fetch - main [MainThread]: End processing [hyperdrivepy]: success
 [2024-04-16 01:57:22] INFO root fetch - main [MainThread]: Store serial: [22780535]
+[2024-04-16 01:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780535]
+[2024-04-16 01:59:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 01:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: missim-config
+[2024-04-16 01:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: missim-cli
+[2024-04-16 01:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dydantic
+[2024-04-16 01:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-deployment
+[2024-04-16 01:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-ntfc-auto
+[2024-04-16 01:59:31] WARNING root fetch - processPackages [pih-ntfc-auto]: Skipping, unable to determine old version
+[2024-04-16 01:59:31] INFO root fetch - processPackages [dydantic]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-cli]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-config]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 01:59:31] INFO root fetch - main [MainThread]: End processing [pih-ntfc-auto] error
+[2024-04-16 01:59:31] INFO root fetch - processPackages [sphinx-deployment]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-config]: Downloading https://files.pythonhosted.org/packages/2c/d0/96aa5ba35f0909b116501a617ece8c928985c1668b2c669ce57fa725a1e1/missim_config-1.8.0.tar.gz
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-cli]: Downloading https://files.pythonhosted.org/packages/a2/1c/313f0af347cc848f0a8c6bf7c8a126ee3a91295891740d64826553219d25/missim_cli-1.8.0.tar.gz
+[2024-04-16 01:59:31] INFO root fetch - processPackages [sphinx-deployment]: Downloading https://files.pythonhosted.org/packages/12/83/9f4dc763926f91cf7add9d058e1518fc4dc16c973f7f3f70a6fe7e92940b/sphinx-deployment-0.0.8.tar.gz
+[2024-04-16 01:59:31] INFO root fetch - processPackages [dydantic]: Downloading https://files.pythonhosted.org/packages/03/04/d4a84f6bd8bd0290f1c4e587d44a7bb7cf96819f285809010c89f2e87a5b/dydantic-0.0.4.tar.gz
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-config]: Downloading https://files.pythonhosted.org/packages/b3/b8/505e55114353f7623a5245dfa18b72bd8859a6bc72def81f2cb9f0b78e04/missim_config-1.9.0.tar.gz
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-cli]: Downloading https://files.pythonhosted.org/packages/63/96/32eec13dffcaced98f3b5f700d2d5168a4132f1b854edb70c453e03597b7/missim_cli-1.9.0.tar.gz
+[2024-04-16 01:59:31] INFO root fetch - processPackages [dydantic]: Downloading https://files.pythonhosted.org/packages/ae/f0/2ef18ddc8fda71c1b3c44930a15e0035c837599012eb75ac0695022a4228/dydantic-0.0.5.tar.gz
+[2024-04-16 01:59:31] INFO root fetch - processPackages [sphinx-deployment]: Downloading https://files.pythonhosted.org/packages/40/bb/fafac3d74a06527ce2251806cc3dd286da63ba64282466869f14a02a5de5/sphinx-deployment-0.0.9.tar.gz
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-config]: executing diffoscope
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missim_config-1.8.0.tar.gz tmp/missim_config-1.9.0.tar.gz --markdown 20240416/m/missim-config/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-cli]: executing diffoscope
+[2024-04-16 01:59:31] INFO root fetch - processPackages [missim-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missim_cli-1.8.0.tar.gz tmp/missim_cli-1.9.0.tar.gz --markdown 20240416/m/missim-cli/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-16 01:59:31] INFO root fetch - processPackages [sphinx-deployment]: executing diffoscope
+[2024-04-16 01:59:31] INFO root fetch - processPackages [sphinx-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-deployment-0.0.8.tar.gz tmp/sphinx-deployment-0.0.9.tar.gz --markdown 20240416/s/sphinx-deployment/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 01:59:31] INFO root fetch - processPackages [dydantic]: executing diffoscope
+[2024-04-16 01:59:31] INFO root fetch - processPackages [dydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dydantic-0.0.4.tar.gz tmp/dydantic-0.0.5.tar.gz --markdown 20240416/d/dydantic/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 01:59:32] INFO root fetch - processPackages [missim-config]: Remove: archive file [/home/abi/fetcher/tmp/missim_config-1.8.0.tar.gz]
+[2024-04-16 01:59:32] INFO root fetch - processPackages [missim-config]: Remove: archive file [/home/abi/fetcher/tmp/missim_config-1.9.0.tar.gz]
+[2024-04-16 01:59:32] INFO root fetch - main [MainThread]: End processing [missim-config]: success
+[2024-04-16 01:59:32] INFO root fetch - processPackages [dydantic]: Remove: archive file [/home/abi/fetcher/tmp/dydantic-0.0.4.tar.gz]
+[2024-04-16 01:59:32] INFO root fetch - processPackages [dydantic]: Remove: archive file [/home/abi/fetcher/tmp/dydantic-0.0.5.tar.gz]
+[2024-04-16 01:59:32] INFO root fetch - main [MainThread]: End processing [dydantic]: success
+[2024-04-16 01:59:32] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.8.0.tar.gz]
+[2024-04-16 01:59:32] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.9.0.tar.gz]
+[2024-04-16 01:59:32] INFO root fetch - main [MainThread]: End processing [missim-cli]: success
+[2024-04-16 01:59:32] INFO root fetch - processPackages [sphinx-deployment]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-deployment-0.0.8.tar.gz]
+[2024-04-16 01:59:32] INFO root fetch - processPackages [sphinx-deployment]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-deployment-0.0.9.tar.gz]
+[2024-04-16 01:59:32] INFO root fetch - main [MainThread]: End processing [sphinx-deployment]: success
+[2024-04-16 01:59:32] INFO root fetch - main [MainThread]: Store serial: [22780552]
