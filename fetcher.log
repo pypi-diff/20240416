@@ -1207,3 +1207,54 @@
 [2024-04-16 01:19:09] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.8.2.tar.gz]
 [2024-04-16 01:19:09] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-04-16 01:19:09] INFO root fetch - main [MainThread]: Store serial: [22780243]
+[2024-04-16 01:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780243]
+[2024-04-16 01:21:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydcapi
+[2024-04-16 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpg-workflows
+[2024-04-16 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes
+[2024-04-16 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyOPath
+[2024-04-16 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momoa
+[2024-04-16 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decor8ai
+[2024-04-16 01:21:18] INFO root fetch - processPackages [pydcapi]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 01:21:18] INFO root fetch - processPackages [pydcapi]: Downloading https://files.pythonhosted.org/packages/ab/1d/1166d045a52d0db434f95e8a64c782ed0253a468b98dd07af45b19642a72/pydcapi-0.1.4.tar.gz
+[2024-04-16 01:21:18] INFO root fetch - processPackages [decor8ai]: New version: [0.21] Old Version: [0.20]
+[2024-04-16 01:21:18] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 01:21:18] INFO root fetch - processPackages [momoa]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-04-16 01:21:18] WARNING root fetch - processPackages [PyOPath]: Skipping, unable to determine old version
+[2024-04-16 01:21:18] INFO root fetch - main [MainThread]: End processing [PyOPath] error
+[2024-04-16 01:21:18] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.9.1] Old Version: [4.9.0a1709600505]
+[2024-04-16 01:21:18] INFO root fetch - processPackages [decor8ai]: Downloading https://files.pythonhosted.org/packages/4e/81/b336983bedcbefe9b699a3bbaf455cfbf0f20b2a7a430e6bc7d933fc2c08/decor8ai-0.20.tar.gz
+[2024-04-16 01:21:18] INFO root fetch - processPackages [pydcapi]: Downloading https://files.pythonhosted.org/packages/14/a8/9b0f302c13f564f6480ec57c13c5a82e399ef4e911e99455835afa037c69/pydcapi-0.1.5.tar.gz
+[2024-04-16 01:21:18] INFO root fetch - processPackages [momoa]: Downloading https://files.pythonhosted.org/packages/58/0b/2643531545f460384e327574a64a2e97417bf3ca6d5ce6892e5752602f37/momoa-0.2.1.tar.gz
+[2024-04-16 01:21:18] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-16 01:21:18] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/f5/70/02e4a8984b201b842988e123d98828a8b1023a0fe6f592c98fdebdca7506/pulumi_kubernetes-4.9.0a1709600505.tar.gz
+[2024-04-16 01:21:18] INFO root fetch - processPackages [pydcapi]: executing diffoscope
+[2024-04-16 01:21:18] INFO root fetch - processPackages [pydcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydcapi-0.1.4.tar.gz tmp/pydcapi-0.1.5.tar.gz --markdown 20240416/p/pydcapi/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 01:21:18] INFO root fetch - processPackages [decor8ai]: Downloading https://files.pythonhosted.org/packages/90/37/bc9c7deb2898af06e1cf6fa1740b3e2cefbb65400b14b4f93399524c4a2a/decor8ai-0.21.tar.gz
+[2024-04-16 01:21:18] INFO root fetch - processPackages [momoa]: Downloading https://files.pythonhosted.org/packages/47/26/327564787eb63a4e4131363023e8f22c02bf464759ae25524eac039c6464/momoa-0.2.3.tar.gz
+[2024-04-16 01:21:19] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-16 01:21:19] INFO root fetch - processPackages [decor8ai]: executing diffoscope
+[2024-04-16 01:21:19] INFO root fetch - processPackages [decor8ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decor8ai-0.20.tar.gz tmp/decor8ai-0.21.tar.gz --markdown 20240416/d/decor8ai/0.20-0.21/README.md --exclude *.pyd
+[2024-04-16 01:21:19] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ae/8c/e58bd57f74c8cbc29a99be666c50a014e5a311981c62ce715186a4c80d41/pulumi_kubernetes-4.9.1.tar.gz
+[2024-04-16 01:21:19] INFO root fetch - processPackages [momoa]: executing diffoscope
+[2024-04-16 01:21:19] INFO root fetch - processPackages [momoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momoa-0.2.1.tar.gz tmp/momoa-0.2.3.tar.gz --markdown 20240416/m/momoa/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-04-16 01:21:19] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-16 01:21:19] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240416/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 01:21:19] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2024-04-16 01:21:19] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz tmp/pulumi_kubernetes-4.9.1.tar.gz --markdown 20240416/p/pulumi-kubernetes/4.9.0a1709600505-4.9.1/README.md --exclude *.pyd
+[2024-04-16 01:21:19] INFO root fetch - processPackages [pydcapi]: Remove: archive file [/home/abi/fetcher/tmp/pydcapi-0.1.4.tar.gz]
+[2024-04-16 01:21:19] INFO root fetch - processPackages [pydcapi]: Remove: archive file [/home/abi/fetcher/tmp/pydcapi-0.1.5.tar.gz]
+[2024-04-16 01:21:19] INFO root fetch - main [MainThread]: End processing [pydcapi]: success
+[2024-04-16 01:21:19] INFO root fetch - processPackages [momoa]: Remove: archive file [/home/abi/fetcher/tmp/momoa-0.2.1.tar.gz]
+[2024-04-16 01:21:19] INFO root fetch - processPackages [momoa]: Remove: archive file [/home/abi/fetcher/tmp/momoa-0.2.3.tar.gz]
+[2024-04-16 01:21:19] INFO root fetch - main [MainThread]: End processing [momoa]: success
+[2024-04-16 01:21:19] INFO root fetch - processPackages [decor8ai]: Remove: archive file [/home/abi/fetcher/tmp/decor8ai-0.20.tar.gz]
+[2024-04-16 01:21:19] INFO root fetch - processPackages [decor8ai]: Remove: archive file [/home/abi/fetcher/tmp/decor8ai-0.21.tar.gz]
+[2024-04-16 01:21:19] INFO root fetch - main [MainThread]: End processing [decor8ai]: success
+[2024-04-16 01:21:20] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-16 01:21:20] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-16 01:21:20] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-16 01:21:22] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz]
+[2024-04-16 01:21:22] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
+[2024-04-16 01:21:22] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2024-04-16 01:21:22] INFO root fetch - main [MainThread]: Store serial: [22780262]
