@@ -1288,3 +1288,24 @@
 [2024-04-16 01:23:32] INFO root fetch - processPackages [sqlmodel-filters]: Remove: archive file [/home/abi/fetcher/tmp/sqlmodel_filters-0.0.5.tar.gz]
 [2024-04-16 01:23:32] INFO root fetch - main [MainThread]: End processing [sqlmodel-filters]: success
 [2024-04-16 01:23:32] INFO root fetch - main [MainThread]: Store serial: [22780271]
+[2024-04-16 01:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780271]
+[2024-04-16 01:25:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 01:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langbank
+[2024-04-16 01:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ob-dj-store
+[2024-04-16 01:25:42] INFO root fetch - processPackages [langbank]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 01:25:42] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/ea/97/b1662c64b1ae3dcfe01a7cb56472c28612cb4db555c5be17fe01f3d319a8/langbank-0.1.3.tar.gz
+[2024-04-16 01:25:42] INFO root fetch - processPackages [ob-dj-store]: New version: [0.0.9.8] Old Version: [0.0.9.7]
+[2024-04-16 01:25:42] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/0c/a8/fd8fc20d9e25ffdfa38a5915686c016f42b533aaa82d359ff30484814ada/ob-dj-store-0.0.9.7.tar.gz
+[2024-04-16 01:25:42] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/1b/09/0ccdc1a892f702c51dcae3c2fe0ab4e91cba9cf24346879a22fcb951c92e/langbank-0.1.4.tar.gz
+[2024-04-16 01:25:42] INFO root fetch - processPackages [langbank]: executing diffoscope
+[2024-04-16 01:25:42] INFO root fetch - processPackages [langbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langbank-0.1.3.tar.gz tmp/langbank-0.1.4.tar.gz --markdown 20240416/l/langbank/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 01:25:43] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/10/95/20bbd86eb725e4c9efaf8686a43df4977f38c591c117280967801b2d331f/ob-dj-store-0.0.9.8.tar.gz
+[2024-04-16 01:25:43] INFO root fetch - processPackages [ob-dj-store]: executing diffoscope
+[2024-04-16 01:25:43] INFO root fetch - processPackages [ob-dj-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-dj-store-0.0.9.7.tar.gz tmp/ob-dj-store-0.0.9.8.tar.gz --markdown 20240416/o/ob-dj-store/0.0.9.7-0.0.9.8/README.md --exclude *.pyd
+[2024-04-16 01:25:43] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.1.3.tar.gz]
+[2024-04-16 01:25:43] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.1.4.tar.gz]
+[2024-04-16 01:25:43] INFO root fetch - main [MainThread]: End processing [langbank]: success
+[2024-04-16 01:25:44] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.7.tar.gz]
+[2024-04-16 01:25:44] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.8.tar.gz]
+[2024-04-16 01:25:44] INFO root fetch - main [MainThread]: End processing [ob-dj-store]: success
+[2024-04-16 01:25:44] INFO root fetch - main [MainThread]: Store serial: [22780276]
