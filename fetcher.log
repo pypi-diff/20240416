@@ -4192,3 +4192,15 @@
 [2024-04-16 04:30:13] INFO root fetch - processPackages [ships]: Remove: archive file [/home/abi/fetcher/tmp/ships-1.2.7.tar.gz]
 [2024-04-16 04:30:13] INFO root fetch - main [MainThread]: End processing [ships]: success
 [2024-04-16 04:30:13] INFO root fetch - main [MainThread]: Store serial: [22781688]
+[2024-04-16 04:32:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781688]
+[2024-04-16 04:32:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 04:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ths-mongo-training-tools
+[2024-04-16 04:32:21] INFO root fetch - processPackages [ths-mongo-training-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-16 04:32:21] INFO root fetch - processPackages [ths-mongo-training-tools]: Downloading https://files.pythonhosted.org/packages/52/95/6fb0102cfae25541348f2776898df591567882931a2fde6dbf4dfa5935e1/ths_mongo_training_tools-0.1.7.tar.gz
+[2024-04-16 04:32:22] INFO root fetch - processPackages [ths-mongo-training-tools]: Downloading https://files.pythonhosted.org/packages/04/c4/ae0f1cb701655a4c9fbb3c0698f66713a7068553f5f4c1da816fd69d4763/ths_mongo_training_tools-0.1.8.tar.gz
+[2024-04-16 04:32:22] INFO root fetch - processPackages [ths-mongo-training-tools]: executing diffoscope
+[2024-04-16 04:32:22] INFO root fetch - processPackages [ths-mongo-training-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ths_mongo_training_tools-0.1.7.tar.gz tmp/ths_mongo_training_tools-0.1.8.tar.gz --markdown 20240416/t/ths-mongo-training-tools/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-16 04:32:22] INFO root fetch - processPackages [ths-mongo-training-tools]: Remove: archive file [/home/abi/fetcher/tmp/ths_mongo_training_tools-0.1.7.tar.gz]
+[2024-04-16 04:32:22] INFO root fetch - processPackages [ths-mongo-training-tools]: Remove: archive file [/home/abi/fetcher/tmp/ths_mongo_training_tools-0.1.8.tar.gz]
+[2024-04-16 04:32:22] INFO root fetch - main [MainThread]: End processing [ths-mongo-training-tools]: success
+[2024-04-16 04:32:22] INFO root fetch - main [MainThread]: Store serial: [22781691]
