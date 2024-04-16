@@ -22533,3 +22533,115 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:11:56] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240415-py3-none-win_amd64.whl.zip]
 [2024-04-16 17:11:56] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-04-16 17:11:56] INFO root fetch - main [MainThread]: Store serial: [22789683]
+[2024-04-16 17:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789683]
+[2024-04-16 17:14:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bibiinstaller
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saer
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal-client
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irispie
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: substrait
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simple-config-sync
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ministryofjustice-data-platform-catalogue
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Velkoz
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-drive-sdk
+[2024-04-16 17:14:05] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [Velkoz]: New version: [0.0.5] Old Version: [0.0.46]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-16 17:14:05] WARNING root fetch - processPackages [saer]: Skipping, unable to determine old version
+[2024-04-16 17:14:05] INFO root fetch - processPackages [saer]: Start processing: simple-config-sync
+[2024-04-16 17:14:05] INFO root fetch - main [MainThread]: End processing [saer] error
+[2024-04-16 17:14:05] INFO root fetch - processPackages [substrait]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [bibiinstaller]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [Velkoz]: Downloading https://files.pythonhosted.org/packages/98/fe/6397ec807bb3ee8533956d569d0eaee9e4cb42b1bcecf00261a351c95fe2/Velkoz-0.0.46.tar.gz
+[2024-04-16 17:14:05] INFO root fetch - processPackages [simple-config-sync]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [simple-config-sync]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:14:05] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-16 17:14:05] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/2d/05/645557c73bff21d5897e592cb628bac543157b732cc99c9905fe334695b9/lusid_drive_sdk-2.1.1.tar.gz
+[2024-04-16 17:14:05] INFO root fetch - processPackages [bibiinstaller]: Downloading https://files.pythonhosted.org/packages/3f/a4/2b9be66da490ae8019637635e249e5e7bebc3b001b274286c883d8ac8060/bibiinstaller-0.1.0.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [substrait]: Downloading https://files.pythonhosted.org/packages/25/1f/d1fe867c7ee733bf5979f9c1037869e9c8495863e8635d0f3eebc2eb0b61/substrait-0.8.0.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [simple-config-sync]: Downloading https://files.pythonhosted.org/packages/4a/87/26c0eec7851a9796685af147c6bdcff2abc707060959a75ff055bc96aef9/simple_config_sync-0.1.8.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [simple-config-sync]: Downloading https://files.pythonhosted.org/packages/4a/87/26c0eec7851a9796685af147c6bdcff2abc707060959a75ff055bc96aef9/simple_config_sync-0.1.8.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Downloading https://files.pythonhosted.org/packages/17/12/58683cde79a1acca71392639c77739657285134078e33a62f49eebf63d69/ministryofjustice_data_platform_catalogue-0.8.1.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [Velkoz]: Downloading https://files.pythonhosted.org/packages/df/c7/23c444b89a81fd2c82c77689b8f2450b870096e15e6ff436c9ac1f897543/Velkoz-0.0.5.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-16 17:14:06] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-16 17:14:06] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/26/8e/456c23ab94fd2cc9f6ac79d6621fa1cc0bbbafb2ab4ec1b7090eb465328e/lusid_drive_sdk-2.1.2.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [Velkoz]: executing diffoscope
+[2024-04-16 17:14:06] INFO root fetch - processPackages [Velkoz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Velkoz-0.0.46.tar.gz tmp/Velkoz-0.0.5.tar.gz --markdown 20240416/V/Velkoz/0.0.46-0.0.5/README.md --exclude *.pyd
+[2024-04-16 17:14:06] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-16 17:14:06] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 17:14:06] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-16 17:14:06] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 17:14:06] INFO root fetch - processPackages [substrait]: Downloading https://files.pythonhosted.org/packages/03/29/718ec41d96771e5f9d93b20c4255e3e389046972d3013ac8ea1927edcff3/substrait-0.9.0.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-04-16 17:14:06] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.1.tar.gz tmp/lusid_drive_sdk-2.1.2.tar.gz --markdown 20240416/l/lusid-drive-sdk/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-16 17:14:06] INFO root fetch - processPackages [simple-config-sync]: Downloading https://files.pythonhosted.org/packages/03/1c/0821c23eee75c8ff58731c00b516cfbad80a98407610a80c78d2538fcb9f/simple_config_sync-0.1.9.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Downloading https://files.pythonhosted.org/packages/75/9f/397792792afd0fa8dcccfefd91c3d82f0141d25e0e4598229d9229f11efd/ministryofjustice_data_platform_catalogue-0.9.0.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [simple-config-sync]: Downloading https://files.pythonhosted.org/packages/03/1c/0821c23eee75c8ff58731c00b516cfbad80a98407610a80c78d2538fcb9f/simple_config_sync-0.1.9.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [substrait]: executing diffoscope
+[2024-04-16 17:14:06] INFO root fetch - processPackages [substrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrait-0.8.0.tar.gz tmp/substrait-0.9.0.tar.gz --markdown 20240416/s/substrait/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 17:14:06] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: executing diffoscope
+[2024-04-16 17:14:06] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ministryofjustice_data_platform_catalogue-0.8.1.tar.gz tmp/ministryofjustice_data_platform_catalogue-0.9.0.tar.gz --markdown 20240416/m/ministryofjustice-data-platform-catalogue/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-16 17:14:06] INFO root fetch - processPackages [bibiinstaller]: Downloading https://files.pythonhosted.org/packages/ab/2a/00fa28a2db1d7e5940b20577d670c0b1ab30f0d8de04b529692963275d1b/bibiinstaller-0.1.1.tar.gz
+[2024-04-16 17:14:06] INFO root fetch - processPackages [simple-config-sync]: executing diffoscope
+[2024-04-16 17:14:06] INFO root fetch - processPackages [simple-config-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_config_sync-0.1.8.tar.gz tmp/simple_config_sync-0.1.9.tar.gz --markdown 20240416/s/simple-config-sync/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:14:06] INFO root fetch - processPackages [simple-config-sync]: executing diffoscope
+[2024-04-16 17:14:06] INFO root fetch - processPackages [simple-config-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_config_sync-0.1.8.tar.gz tmp/simple_config_sync-0.1.9.tar.gz --markdown 20240416/s/simple-config-sync/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:14:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [modal-client]: Start processing: social-interaction-cloud
+[2024-04-16 17:14:07] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-16 17:14:07] INFO root fetch - processPackages [Velkoz]: Remove: archive file [/home/abi/fetcher/tmp/Velkoz-0.0.46.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [Velkoz]: Remove: archive file [/home/abi/fetcher/tmp/Velkoz-0.0.5.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [Velkoz]: Start processing: bicleaner-ai
+[2024-04-16 17:14:07] INFO root fetch - main [MainThread]: End processing [Velkoz]: success
+[2024-04-16 17:14:07] INFO root fetch - processPackages [social-interaction-cloud]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [bicleaner-ai]: New version: [3.0.0] Old Version: [2.3.2]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [social-interaction-cloud]: Downloading https://files.pythonhosted.org/packages/6d/3f/02ccc4f63594b8723e1c0d7f4a996afc33c9043b223d8b234679f674d736/social_interaction_cloud-1.2.5.tar.gz
+[2024-04-16 17:14:07] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.1.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.2.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-04-16 17:14:07] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/59/df/54b659b4910ee46312c384ec665abb3417905d7cf8ca60b2134af537173d/bicleaner-ai-2.3.2.tar.gz
+[2024-04-16 17:14:07] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Remove: archive file [/home/abi/fetcher/tmp/ministryofjustice_data_platform_catalogue-0.8.1.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [ministryofjustice-data-platform-catalogue]: Remove: archive file [/home/abi/fetcher/tmp/ministryofjustice_data_platform_catalogue-0.9.0.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - main [MainThread]: End processing [ministryofjustice-data-platform-catalogue]: success
+[2024-04-16 17:14:07] INFO root fetch - processPackages [social-interaction-cloud]: Downloading https://files.pythonhosted.org/packages/f8/0d/7cc9ad9fbe0e277c5dda9701283de454232ed3ce9f76cd0a4831852095ff/social_interaction_cloud-1.2.6.tar.gz
+[2024-04-16 17:14:07] INFO root fetch - processPackages [substrait]: Remove: archive file [/home/abi/fetcher/tmp/substrait-0.8.0.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [substrait]: Remove: archive file [/home/abi/fetcher/tmp/substrait-0.9.0.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - main [MainThread]: End processing [substrait]: success
+[2024-04-16 17:14:07] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/11/c7/4652f403d6a9e5fdcac981ca152385dd61132e4ea3b7919a0c2e5461efa7/bicleaner_ai-3.0.0.tar.gz
+[2024-04-16 17:14:07] INFO root fetch - processPackages [simple-config-sync]: Remove: archive file [/home/abi/fetcher/tmp/simple_config_sync-0.1.8.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [simple-config-sync]: Remove: archive file [/home/abi/fetcher/tmp/simple_config_sync-0.1.9.tar.gz]
+[2024-04-16 17:14:07] INFO root fetch - main [MainThread]: End processing [simple-config-sync]: success
+[2024-04-16 17:14:07] INFO root fetch - main [MainThread]: End processing [simple-config-sync]: success
+[2024-04-16 17:14:07] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-16 17:14:07] INFO root fetch - processPackages [social-interaction-cloud]: executing diffoscope
+[2024-04-16 17:14:07] INFO root fetch - processPackages [social-interaction-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_interaction_cloud-1.2.5.tar.gz tmp/social_interaction_cloud-1.2.6.tar.gz --markdown 20240416/s/social-interaction-cloud/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-16 17:14:07] INFO root fetch - processPackages [bicleaner-ai]: executing diffoscope
+[2024-04-16 17:14:07] INFO root fetch - processPackages [bicleaner-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bicleaner-ai-2.3.2.tar.gz tmp/bicleaner_ai-3.0.0.tar.gz --markdown 20240416/b/bicleaner-ai/2.3.2-3.0.0/README.md --exclude *.pyd
+[2024-04-16 17:14:07] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 17:14:07] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 17:14:07] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-16 17:14:08] INFO root fetch - processPackages [bibiinstaller]: executing diffoscope
+[2024-04-16 17:14:08] INFO root fetch - processPackages [bibiinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bibiinstaller-0.1.0.tar.gz tmp/bibiinstaller-0.1.1.tar.gz --markdown 20240416/b/bibiinstaller/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 17:14:08] INFO root fetch - processPackages [social-interaction-cloud]: Remove: archive file [/home/abi/fetcher/tmp/social_interaction_cloud-1.2.5.tar.gz]
+[2024-04-16 17:14:08] INFO root fetch - processPackages [social-interaction-cloud]: Remove: archive file [/home/abi/fetcher/tmp/social_interaction_cloud-1.2.6.tar.gz]
+[2024-04-16 17:14:08] INFO root fetch - main [MainThread]: End processing [social-interaction-cloud]: success
+[2024-04-16 17:14:08] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner-ai-2.3.2.tar.gz]
+[2024-04-16 17:14:08] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner_ai-3.0.0.tar.gz]
+[2024-04-16 17:14:08] INFO root fetch - main [MainThread]: End processing [bicleaner-ai]: success
+[2024-04-16 17:14:09] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-16 17:14:09] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240416/i/irispie/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-16 17:14:09] INFO root fetch - processPackages [bibiinstaller]: Remove: archive file [/home/abi/fetcher/tmp/bibiinstaller-0.1.0.tar.gz]
+[2024-04-16 17:14:09] INFO root fetch - processPackages [bibiinstaller]: Remove: archive file [/home/abi/fetcher/tmp/bibiinstaller-0.1.1.tar.gz]
+[2024-04-16 17:14:09] INFO root fetch - main [MainThread]: End processing [bibiinstaller]: success
+[2024-04-16 17:14:10] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-16 17:14:10] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-16 17:14:10] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-16 17:14:10] INFO root fetch - main [MainThread]: Store serial: [22789720]
