@@ -3487,3 +3487,33 @@
 [2024-04-16 03:43:45] INFO root fetch - processPackages [shotgun-api3]: Remove: archive file [/home/abi/fetcher/tmp/shotgun_api3-3.5.0.tar.gz]
 [2024-04-16 03:43:45] INFO root fetch - main [MainThread]: End processing [shotgun-api3]: success
 [2024-04-16 03:43:45] INFO root fetch - main [MainThread]: Store serial: [22781348]
+[2024-04-16 03:45:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781348]
+[2024-04-16 03:45:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blackduck-lutils
+[2024-04-16 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shotgun-api3
+[2024-04-16 03:45:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genomeshader
+[2024-04-16 03:45:54] INFO root fetch - processPackages [shotgun-api3]: New version: [3.5.0] Old Version: [3.4.2]
+[2024-04-16 03:45:54] INFO root fetch - processPackages [blackduck-lutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 03:45:54] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 03:45:54] INFO root fetch - processPackages [blackduck-lutils]: Downloading https://files.pythonhosted.org/packages/39/08/f334e3efa45504e006f351b90712c749618b49770b1e46b2db0261e5d59d/blackduck_lutils-0.0.8.tar.gz
+[2024-04-16 03:45:54] INFO root fetch - processPackages [shotgun-api3]: Downloading https://files.pythonhosted.org/packages/d2/b6/ac238c830c6d803bf8e0661c7e10e4e97c7fb2aeb04286aa5b36e76f090a/shotgun_api3-3.4.2.tar.gz
+[2024-04-16 03:45:54] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-04-16 03:45:54] INFO root fetch - processPackages [shotgun-api3]: Downloading https://files.pythonhosted.org/packages/13/dd/ac9c45cf877affb2df66c32d907a745e3cf8359c0e6eaab8c41334f447ca/shotgun_api3-3.5.0.tar.gz
+[2024-04-16 03:45:54] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-04-16 03:45:55] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-04-16 03:45:55] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240416/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 03:45:55] INFO root fetch - processPackages [shotgun-api3]: executing diffoscope
+[2024-04-16 03:45:55] INFO root fetch - processPackages [shotgun-api3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shotgun_api3-3.4.2.tar.gz tmp/shotgun_api3-3.5.0.tar.gz --markdown 20240416/s/shotgun-api3/3.4.2-3.5.0/README.md --exclude *.pyd
+[2024-04-16 03:45:55] INFO root fetch - processPackages [blackduck-lutils]: Downloading https://files.pythonhosted.org/packages/e6/7f/f93bad8911ac23d9c711a03c7c14196de3e651d6173e0dbc411dd1e68601/blackduck_lutils-0.0.9.tar.gz
+[2024-04-16 03:45:55] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-04-16 03:45:55] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-04-16 03:45:55] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-04-16 03:45:55] INFO root fetch - processPackages [shotgun-api3]: Remove: archive file [/home/abi/fetcher/tmp/shotgun_api3-3.4.2.tar.gz]
+[2024-04-16 03:45:55] INFO root fetch - processPackages [shotgun-api3]: Remove: archive file [/home/abi/fetcher/tmp/shotgun_api3-3.5.0.tar.gz]
+[2024-04-16 03:45:55] INFO root fetch - main [MainThread]: End processing [shotgun-api3]: success
+[2024-04-16 03:45:56] INFO root fetch - processPackages [blackduck-lutils]: executing diffoscope
+[2024-04-16 03:45:56] INFO root fetch - processPackages [blackduck-lutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackduck_lutils-0.0.8.tar.gz tmp/blackduck_lutils-0.0.9.tar.gz --markdown 20240416/b/blackduck-lutils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 03:46:16] INFO root fetch - processPackages [blackduck-lutils]: Remove: archive file [/home/abi/fetcher/tmp/blackduck_lutils-0.0.8.tar.gz]
+[2024-04-16 03:46:16] INFO root fetch - processPackages [blackduck-lutils]: Remove: archive file [/home/abi/fetcher/tmp/blackduck_lutils-0.0.9.tar.gz]
+[2024-04-16 03:46:16] INFO root fetch - main [MainThread]: End processing [blackduck-lutils]: success
+[2024-04-16 03:46:16] INFO root fetch - main [MainThread]: Store serial: [22781359]
