@@ -6984,3 +6984,48 @@
 [2024-04-16 07:44:45] INFO root fetch - processPackages [deepfos]: Remove: archive file [/home/abi/fetcher/tmp/deepfos-1.1.9.tar.gz]
 [2024-04-16 07:44:45] INFO root fetch - main [MainThread]: End processing [deepfos]: success
 [2024-04-16 07:44:45] INFO root fetch - main [MainThread]: Store serial: [22782964]
+[2024-04-16 07:46:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782964]
+[2024-04-16 07:46:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 07:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-mxgnxs
+[2024-04-16 07:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pre5g
+[2024-04-16 07:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drawdraw
+[2024-04-16 07:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparrowSql
+[2024-04-16 07:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EasyMath1
+[2024-04-16 07:46:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aistudio-cognition
+[2024-04-16 07:46:54] INFO root fetch - processPackages [example-package-mxgnxs]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 07:46:54] INFO root fetch - processPackages [sparrowSql]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-16 07:46:54] INFO root fetch - processPackages [pre5g]: New version: [3.7] Old Version: [3.6]
+[2024-04-16 07:46:54] INFO root fetch - processPackages [example-package-mxgnxs]: Downloading https://files.pythonhosted.org/packages/7b/69/b52418509bb4e932a4470030905f6905771810634c4547ed68cc8df09f7f/example_package_mxgnxs-0.0.3.tar.gz
+[2024-04-16 07:46:54] WARNING root fetch - processPackages [EasyMath1]: Skipping, unable to determine old version
+[2024-04-16 07:46:54] INFO root fetch - main [MainThread]: End processing [EasyMath1] error
+[2024-04-16 07:46:54] WARNING root fetch - processPackages [drawdraw]: Skipping, unable to determine old version
+[2024-04-16 07:46:54] INFO root fetch - main [MainThread]: End processing [drawdraw] error
+[2024-04-16 07:46:54] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/83/90/83715f0fe34473861801e01c4edeac35b7edc4c078c8ee2ec329b09de928/pre5g-3.6.tar.gz
+[2024-04-16 07:46:54] INFO root fetch - processPackages [aistudio-cognition]: New version: [3.4.1.3a0] Old Version: [3.4.1.2]
+[2024-04-16 07:46:54] INFO root fetch - processPackages [sparrowSql]: Downloading https://files.pythonhosted.org/packages/0c/e3/d72f724e1a3ef6e4f15102c972806adefce1365a217c9c435e015d8614ed/sparrowSql-0.1.tar.gz
+[2024-04-16 07:46:54] INFO root fetch - processPackages [example-package-mxgnxs]: Downloading https://files.pythonhosted.org/packages/c1/43/afd88fd6100f4efb7f70a7798f2aeab8aa64dcf6ac26b27bb67c0e1a9522/example_package_mxgnxs-0.0.4.tar.gz
+[2024-04-16 07:46:54] INFO root fetch - processPackages [aistudio-cognition]: Downloading https://files.pythonhosted.org/packages/38/65/6a27485fdef158944d4f4da363f1b477787cd31da2b4eba49b124d37f1aa/aistudio_cognition-3.4.1.2.tar.gz
+[2024-04-16 07:46:54] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/01/c8/78d208638cab0ef5bd1662042c5b8fcc3413ec85e7f716995e782d8031cd/pre5g-3.7.tar.gz
+[2024-04-16 07:46:54] INFO root fetch - processPackages [example-package-mxgnxs]: executing diffoscope
+[2024-04-16 07:46:54] INFO root fetch - processPackages [example-package-mxgnxs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_mxgnxs-0.0.3.tar.gz tmp/example_package_mxgnxs-0.0.4.tar.gz --markdown 20240416/e/example-package-mxgnxs/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 07:46:54] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-16 07:46:54] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-3.6.tar.gz tmp/pre5g-3.7.tar.gz --markdown 20240416/p/pre5g/3.6-3.7/README.md --exclude *.pyd
+[2024-04-16 07:46:54] INFO root fetch - processPackages [sparrowSql]: Downloading https://files.pythonhosted.org/packages/6c/af/75516d64bd89b5927b19de7bd40e7b0edc211ba3dbb1fb34567c11fb4414/sparrowSql-0.1.1.tar.gz
+[2024-04-16 07:46:54] INFO root fetch - processPackages [sparrowSql]: executing diffoscope
+[2024-04-16 07:46:54] INFO root fetch - processPackages [sparrowSql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrowSql-0.1.tar.gz tmp/sparrowSql-0.1.1.tar.gz --markdown 20240416/s/sparrowSql/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-16 07:46:54] INFO root fetch - processPackages [aistudio-cognition]: Downloading https://files.pythonhosted.org/packages/47/35/bc27f076a50bd881ebd86b7cae1f1ddc6e48acab24af98e5ddc6ba910361/aistudio_cognition-3.4.1.3a0.tar.gz
+[2024-04-16 07:46:54] INFO root fetch - processPackages [aistudio-cognition]: executing diffoscope
+[2024-04-16 07:46:54] INFO root fetch - processPackages [aistudio-cognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistudio_cognition-3.4.1.2.tar.gz tmp/aistudio_cognition-3.4.1.3a0.tar.gz --markdown 20240416/a/aistudio-cognition/3.4.1.2-3.4.1.3a0/README.md --exclude *.pyd
+[2024-04-16 07:46:55] INFO root fetch - processPackages [example-package-mxgnxs]: Remove: archive file [/home/abi/fetcher/tmp/example_package_mxgnxs-0.0.3.tar.gz]
+[2024-04-16 07:46:55] INFO root fetch - processPackages [example-package-mxgnxs]: Remove: archive file [/home/abi/fetcher/tmp/example_package_mxgnxs-0.0.4.tar.gz]
+[2024-04-16 07:46:55] INFO root fetch - main [MainThread]: End processing [example-package-mxgnxs]: success
+[2024-04-16 07:46:55] INFO root fetch - processPackages [sparrowSql]: Remove: archive file [/home/abi/fetcher/tmp/sparrowSql-0.1.tar.gz]
+[2024-04-16 07:46:55] INFO root fetch - processPackages [sparrowSql]: Remove: archive file [/home/abi/fetcher/tmp/sparrowSql-0.1.1.tar.gz]
+[2024-04-16 07:46:55] INFO root fetch - main [MainThread]: End processing [sparrowSql]: success
+[2024-04-16 07:46:55] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.6.tar.gz]
+[2024-04-16 07:46:55] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.7.tar.gz]
+[2024-04-16 07:46:55] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-16 07:46:55] INFO root fetch - processPackages [aistudio-cognition]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_cognition-3.4.1.2.tar.gz]
+[2024-04-16 07:46:55] INFO root fetch - processPackages [aistudio-cognition]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_cognition-3.4.1.3a0.tar.gz]
+[2024-04-16 07:46:55] INFO root fetch - main [MainThread]: End processing [aistudio-cognition]: success
+[2024-04-16 07:46:55] INFO root fetch - main [MainThread]: Store serial: [22782986]
