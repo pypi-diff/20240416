@@ -10113,3 +10113,107 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:08:20] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.8.tar.gz]
 [2024-04-16 10:08:20] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
 [2024-04-16 10:08:20] INFO root fetch - main [MainThread]: Store serial: [22784194]
+[2024-04-16 10:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784194]
+[2024-04-16 10:10:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prusek-spheroid
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ts-soup
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: validio-sdk
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reviutils
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: validio-cli
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rosys
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tekra
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openseries
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: html-tree-shaking
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdmxthon
+[2024-04-16 10:10:29] INFO root fetch - processPackages [prusek-spheroid]: New version: [5.6] Old Version: [5.5]
+[2024-04-16 10:10:29] INFO root fetch - processPackages [ts-soup]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 10:10:29] INFO root fetch - processPackages [html-tree-shaking]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-16 10:10:29] INFO root fetch - processPackages [reviutils]: New version: [1.4.0a1] Old Version: [1.3.4]
+[2024-04-16 10:10:29] WARNING root fetch - processPackages [tekra]: Skipping, unable to determine old version
+[2024-04-16 10:10:29] INFO root fetch - processPackages [tekra]: Start processing: rp_python_sdk
+[2024-04-16 10:10:29] INFO root fetch - main [MainThread]: End processing [tekra] error
+[2024-04-16 10:10:29] INFO root fetch - processPackages [validio-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 10:10:29] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/61/0f/f7bc90584d99be1ae8f1feafaa2fb932f353b079f59ad4584837d6765f15/prusek_spheroid-5.5.tar.gz
+[2024-04-16 10:10:29] INFO root fetch - processPackages [validio-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 10:10:30] INFO root fetch - processPackages [sdmxthon]: New version: [2.6.6] Old Version: [2.6.5]
+[2024-04-16 10:10:30] INFO root fetch - processPackages [rosys]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 10:10:30] INFO root fetch - processPackages [openseries]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-16 10:10:30] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/c7/ef/914cd18a5a107ec08753bd6c3d9b49ba9d375a3a4645a5dc8057d0e9707b/reviutils-1.3.4.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/51/ce/21cccdcc0b7d2cfba058d9eaeb31cc3a3a860260737af842a850caf1a413/ts_soup-0.1.8.tar.gz
+[2024-04-16 10:10:30] WARNING root fetch - processPackages [rp_python_sdk]: Skipping, unable to determine old version
+[2024-04-16 10:10:30] INFO root fetch - processPackages [rp_python_sdk]: Start processing: EDAspy
+[2024-04-16 10:10:30] INFO root fetch - main [MainThread]: End processing [rp_python_sdk] error
+[2024-04-16 10:10:30] INFO root fetch - processPackages [html-tree-shaking]: Downloading https://files.pythonhosted.org/packages/de/b7/50b159fe9ff49b3172b77a61f2ce282c1aebd99875ca48b47793ad11796e/html_tree_shaking-1.0.6-py3-none-any.whl
+[2024-04-16 10:10:30] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/50/ef/bee0fbe9261ca2e2fd646048a6c24877fb616066e64d61d6f2b42d9e1faf/validio_cli-0.8.0.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/94/70/6947c0ccdffe9c8607f04bd8432d095d8f4c19e643b3c5e023db491e3fbd/validio_sdk-0.8.0.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [sdmxthon]: Downloading https://files.pythonhosted.org/packages/a3/ae/6f7dc2aa9e4bd2f6d284c1e1ea4022a01b2b4abfd696d44f11f192503dd3/sdmxthon-2.6.5.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [EDAspy]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-16 10:10:30] INFO root fetch - processPackages [rosys]: Downloading https://files.pythonhosted.org/packages/da/e2/de3c3136e9459a73cd513ecf6313cb5ead44c7fbc3666139e19ec61abe6a/rosys-0.9.8.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/62/f2/c87f61886f4a30a8a4f39ef34288c6654a01d2a0b06104bc1e82db0eaaf1/openseries-1.5.1.tar.gz
+[2024-04-16 10:10:30] WARNING root fetch - processPackages [html-tree-shaking]: Skipping package: exceeds size limit 38279543>=10485760
+[2024-04-16 10:10:30] INFO root fetch - processPackages [html-tree-shaking]: Start processing: cloudcix
+[2024-04-16 10:10:30] INFO root fetch - main [MainThread]: End processing [html-tree-shaking] error
+[2024-04-16 10:10:30] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/42/ac/f16a0fcf2533487cfa157e289a0646be406e2e8f9cd7caff5c09bb2a7c59/reviutils-1.4.0a1.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/66/5e/d2f785baa90bce498aae1da46a3201b0ba36376e789e3daad4ef599b4e07/ts_soup-0.1.9.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [cloudcix]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-16 10:10:30] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/07/53/e17d303c29aecb72609131adfa26481b32bff941f76bd3849da5521e4faf/prusek_spheroid-5.6.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [EDAspy]: Downloading https://files.pythonhosted.org/packages/1c/93/c17f143737e6394fce9ce2d4d71b04ad9920a6aabffacdec5cf713d62986/EDAspy-1.1.3.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/cc/cc/13d28a5efdd4e496bafa1fd6d1a99c8d16600cc337a964e77d0a23ecac9d/cloudcix-0.9.6.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [ts-soup]: executing diffoscope
+[2024-04-16 10:10:30] INFO root fetch - processPackages [ts-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_soup-0.1.8.tar.gz tmp/ts_soup-0.1.9.tar.gz --markdown 20240416/t/ts-soup/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 10:10:30] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-16 10:10:30] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.3.4.tar.gz tmp/reviutils-1.4.0a1.tar.gz --markdown 20240416/r/reviutils/1.3.4-1.4.0a1/README.md --exclude *.pyd
+[2024-04-16 10:10:30] INFO root fetch - processPackages [validio-cli]: Downloading https://files.pythonhosted.org/packages/fb/8b/71e38f220651f67974b3c38f5b2c6d0c5f513a5631fbc842c063d386dda4/validio_cli-0.9.0.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [validio-sdk]: Downloading https://files.pythonhosted.org/packages/db/91/e39c8107f98699b979e164ef962827501361573e283df30edc9d182ac594/validio_sdk-0.9.0.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-16 10:10:30] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-5.5.tar.gz tmp/prusek_spheroid-5.6.tar.gz --markdown 20240416/p/prusek-spheroid/5.5-5.6/README.md --exclude *.pyd
+[2024-04-16 10:10:30] INFO root fetch - processPackages [sdmxthon]: Downloading https://files.pythonhosted.org/packages/4d/53/67c3d95fdf21d3817d71da9a086d505b60923993bdf6b6ab8f7db8ba6dfd/sdmxthon-2.6.6.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/b0/b9/6178d3818047aba00f4e36af477663ceb0a362ecb4ebdf02f7efedbfb421/openseries-1.5.2.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [validio-cli]: executing diffoscope
+[2024-04-16 10:10:30] INFO root fetch - processPackages [validio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_cli-0.8.0.tar.gz tmp/validio_cli-0.9.0.tar.gz --markdown 20240416/v/validio-cli/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 10:10:30] INFO root fetch - processPackages [rosys]: Downloading https://files.pythonhosted.org/packages/ad/c1/cbeaa843e8e3af0ad4a37e2c1c8228dd0aa120e41743431f65ab0704ca64/rosys-0.9.9.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [cloudcix]: Downloading https://files.pythonhosted.org/packages/23/91/e2a19ba7fccf414f054cc4ff387b792fe6a964e617de11b0af3707683850/cloudcix-0.9.7.tar.gz
+[2024-04-16 10:10:30] INFO root fetch - processPackages [validio-sdk]: executing diffoscope
+[2024-04-16 10:10:30] INFO root fetch - processPackages [validio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_sdk-0.8.0.tar.gz tmp/validio_sdk-0.9.0.tar.gz --markdown 20240416/v/validio-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 10:10:30] INFO root fetch - processPackages [openseries]: executing diffoscope
+[2024-04-16 10:10:30] INFO root fetch - processPackages [openseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseries-1.5.1.tar.gz tmp/openseries-1.5.2.tar.gz --markdown 20240416/o/openseries/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-16 10:10:30] INFO root fetch - processPackages [sdmxthon]: executing diffoscope
+[2024-04-16 10:10:30] INFO root fetch - processPackages [sdmxthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdmxthon-2.6.5.tar.gz tmp/sdmxthon-2.6.6.tar.gz --markdown 20240416/s/sdmxthon/2.6.5-2.6.6/README.md --exclude *.pyd
+[2024-04-16 10:10:30] INFO root fetch - processPackages [rosys]: executing diffoscope
+[2024-04-16 10:10:30] INFO root fetch - processPackages [rosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosys-0.9.8.tar.gz tmp/rosys-0.9.9.tar.gz --markdown 20240416/r/rosys/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 10:10:30] INFO root fetch - processPackages [cloudcix]: executing diffoscope
+[2024-04-16 10:10:30] INFO root fetch - processPackages [cloudcix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcix-0.9.6.tar.gz tmp/cloudcix-0.9.7.tar.gz --markdown 20240416/c/cloudcix/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-16 10:10:31] INFO root fetch - processPackages [EDAspy]: Downloading https://files.pythonhosted.org/packages/f8/76/234a5f5ebd250edf0b8cc2ce02d885c5aa8c36431a6404b5cbfe3730f7ad/EDAspy-1.1.4.tar.gz
+[2024-04-16 10:10:31] INFO root fetch - processPackages [EDAspy]: executing diffoscope
+[2024-04-16 10:10:31] INFO root fetch - processPackages [EDAspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EDAspy-1.1.3.tar.gz tmp/EDAspy-1.1.4.tar.gz --markdown 20240416/E/EDAspy/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-16 10:10:31] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.4.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a1.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-16 10:10:31] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts_soup-0.1.8.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts_soup-0.1.9.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
+[2024-04-16 10:10:31] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-5.5.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-5.6.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-16 10:10:31] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.8.0.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - processPackages [validio-cli]: Remove: archive file [/home/abi/fetcher/tmp/validio_cli-0.9.0.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - main [MainThread]: End processing [validio-cli]: success
+[2024-04-16 10:10:31] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-1.5.1.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-1.5.2.tar.gz]
+[2024-04-16 10:10:31] INFO root fetch - main [MainThread]: End processing [openseries]: success
+[2024-04-16 10:10:32] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.6.tar.gz]
+[2024-04-16 10:10:32] INFO root fetch - processPackages [cloudcix]: Remove: archive file [/home/abi/fetcher/tmp/cloudcix-0.9.7.tar.gz]
+[2024-04-16 10:10:32] INFO root fetch - main [MainThread]: End processing [cloudcix]: success
+[2024-04-16 10:10:32] INFO root fetch - processPackages [rosys]: Remove: archive file [/home/abi/fetcher/tmp/rosys-0.9.8.tar.gz]
+[2024-04-16 10:10:32] INFO root fetch - processPackages [rosys]: Remove: archive file [/home/abi/fetcher/tmp/rosys-0.9.9.tar.gz]
+[2024-04-16 10:10:32] INFO root fetch - main [MainThread]: End processing [rosys]: success
+[2024-04-16 10:10:32] INFO root fetch - processPackages [sdmxthon]: Remove: archive file [/home/abi/fetcher/tmp/sdmxthon-2.6.5.tar.gz]
+[2024-04-16 10:10:32] INFO root fetch - processPackages [sdmxthon]: Remove: archive file [/home/abi/fetcher/tmp/sdmxthon-2.6.6.tar.gz]
+[2024-04-16 10:10:32] INFO root fetch - main [MainThread]: End processing [sdmxthon]: success
+[2024-04-16 10:10:32] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.8.0.tar.gz]
+[2024-04-16 10:10:32] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.9.0.tar.gz]
+[2024-04-16 10:10:32] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
+[2024-04-16 10:10:33] INFO root fetch - processPackages [EDAspy]: Remove: archive file [/home/abi/fetcher/tmp/EDAspy-1.1.3.tar.gz]
+[2024-04-16 10:10:33] INFO root fetch - processPackages [EDAspy]: Remove: archive file [/home/abi/fetcher/tmp/EDAspy-1.1.4.tar.gz]
+[2024-04-16 10:10:33] INFO root fetch - main [MainThread]: End processing [EDAspy]: success
+[2024-04-16 10:10:33] INFO root fetch - main [MainThread]: Store serial: [22784235]
