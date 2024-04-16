@@ -22099,3 +22099,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:00:29] INFO root fetch - processPackages [itkdb]: Remove: archive file [/home/abi/fetcher/tmp/itkdb-0.6.0.tar.gz]
 [2024-04-16 17:00:29] INFO root fetch - main [MainThread]: End processing [itkdb]: success
 [2024-04-16 17:00:29] INFO root fetch - main [MainThread]: Store serial: [22789495]
+[2024-04-16 17:02:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789495]
+[2024-04-16 17:02:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 17:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dtcv2-util
+[2024-04-16 17:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json_write
+[2024-04-16 17:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: original-metaplex
+[2024-04-16 17:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torrent_tool
+[2024-04-16 17:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymonday
+[2024-04-16 17:02:39] INFO root fetch - processPackages [dtcv2-util]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 17:02:39] INFO root fetch - processPackages [json_write]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2024-04-16 17:02:39] WARNING root fetch - processPackages [original-metaplex]: Skipping, unable to determine old version
+[2024-04-16 17:02:39] INFO root fetch - main [MainThread]: End processing [original-metaplex] error
+[2024-04-16 17:02:39] INFO root fetch - processPackages [torrent_tool]: New version: [0.0.3.2] Old Version: [0.0.3.1]
+[2024-04-16 17:02:39] INFO root fetch - processPackages [dtcv2-util]: Downloading https://files.pythonhosted.org/packages/37/8b/ae222d8373d30564035d07a6843fb79857a8b80bfa991c5d2a10a949d5be/dtcv2_util-0.1.3.tar.gz
+[2024-04-16 17:02:39] INFO root fetch - processPackages [pymonday]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-16 17:02:39] INFO root fetch - processPackages [json_write]: Downloading https://files.pythonhosted.org/packages/da/a3/d52c4f79992dfe17a5434d295337b5e45aaa19b1b2322c2e2beff4caa26f/json_write-0.0.1.tar.gz
+[2024-04-16 17:02:39] INFO root fetch - processPackages [dtcv2-util]: Downloading https://files.pythonhosted.org/packages/c9/8e/902d9992c91ae973204c3b99b668080dde311302a66f650343b557b467dd/dtcv2_util-0.1.4.tar.gz
+[2024-04-16 17:02:39] INFO root fetch - processPackages [torrent_tool]: Downloading https://files.pythonhosted.org/packages/ac/48/7fa5a239fd1514c96171e2593d5545c39d82e60c26543771831ca29bf5e9/torrent_tool-0.0.3.1.tar.gz
+[2024-04-16 17:02:39] INFO root fetch - processPackages [dtcv2-util]: executing diffoscope
+[2024-04-16 17:02:39] INFO root fetch - processPackages [dtcv2-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtcv2_util-0.1.3.tar.gz tmp/dtcv2_util-0.1.4.tar.gz --markdown 20240416/d/dtcv2-util/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 17:02:39] INFO root fetch - processPackages [json_write]: Downloading https://files.pythonhosted.org/packages/a4/06/7921171a6cd7d702d678e9361d3ae9b27b203fd62894d1d137585a8f49cd/json_write-0.0.1.1.tar.gz
+[2024-04-16 17:02:39] INFO root fetch - processPackages [json_write]: executing diffoscope
+[2024-04-16 17:02:39] INFO root fetch - processPackages [json_write]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_write-0.0.1.tar.gz tmp/json_write-0.0.1.1.tar.gz --markdown 20240416/j/json_write/0.0.1-0.0.1.1/README.md --exclude *.pyd
+[2024-04-16 17:02:39] INFO root fetch - processPackages [torrent_tool]: Downloading https://files.pythonhosted.org/packages/ff/62/8c25d61a31467dde735851a1164bacc377a539285cc80de89c194ee8bad2/torrent_tool-0.0.3.2.tar.gz
+[2024-04-16 17:02:39] INFO root fetch - processPackages [pymonday]: Downloading https://files.pythonhosted.org/packages/df/bd/e5702f528a54b217be55e8415e4a4113da717d21209b67e6760606af8996/pymonday-2.1.1.tar.gz
+[2024-04-16 17:02:39] INFO root fetch - processPackages [torrent_tool]: executing diffoscope
+[2024-04-16 17:02:39] INFO root fetch - processPackages [torrent_tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torrent_tool-0.0.3.1.tar.gz tmp/torrent_tool-0.0.3.2.tar.gz --markdown 20240416/t/torrent_tool/0.0.3.1-0.0.3.2/README.md --exclude *.pyd
+[2024-04-16 17:02:40] INFO root fetch - processPackages [dtcv2-util]: Remove: archive file [/home/abi/fetcher/tmp/dtcv2_util-0.1.3.tar.gz]
+[2024-04-16 17:02:40] INFO root fetch - processPackages [dtcv2-util]: Remove: archive file [/home/abi/fetcher/tmp/dtcv2_util-0.1.4.tar.gz]
+[2024-04-16 17:02:40] INFO root fetch - main [MainThread]: End processing [dtcv2-util]: success
+[2024-04-16 17:02:40] INFO root fetch - processPackages [pymonday]: Downloading https://files.pythonhosted.org/packages/c8/37/cb698033398adf67c129940affe6f4ac7beb4bad1baf270c7031c0b94a11/pymonday-2.1.2.tar.gz
+[2024-04-16 17:02:40] INFO root fetch - processPackages [json_write]: Remove: archive file [/home/abi/fetcher/tmp/json_write-0.0.1.tar.gz]
+[2024-04-16 17:02:40] INFO root fetch - processPackages [json_write]: Remove: archive file [/home/abi/fetcher/tmp/json_write-0.0.1.1.tar.gz]
+[2024-04-16 17:02:40] INFO root fetch - main [MainThread]: End processing [json_write]: success
+[2024-04-16 17:02:40] INFO root fetch - processPackages [torrent_tool]: Remove: archive file [/home/abi/fetcher/tmp/torrent_tool-0.0.3.1.tar.gz]
+[2024-04-16 17:02:40] INFO root fetch - processPackages [torrent_tool]: Remove: archive file [/home/abi/fetcher/tmp/torrent_tool-0.0.3.2.tar.gz]
+[2024-04-16 17:02:40] INFO root fetch - main [MainThread]: End processing [torrent_tool]: success
+[2024-04-16 17:02:40] INFO root fetch - processPackages [pymonday]: executing diffoscope
+[2024-04-16 17:02:40] INFO root fetch - processPackages [pymonday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonday-2.1.1.tar.gz tmp/pymonday-2.1.2.tar.gz --markdown 20240416/p/pymonday/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-16 17:02:41] INFO root fetch - processPackages [pymonday]: Remove: archive file [/home/abi/fetcher/tmp/pymonday-2.1.1.tar.gz]
+[2024-04-16 17:02:41] INFO root fetch - processPackages [pymonday]: Remove: archive file [/home/abi/fetcher/tmp/pymonday-2.1.2.tar.gz]
+[2024-04-16 17:02:41] INFO root fetch - main [MainThread]: End processing [pymonday]: success
+[2024-04-16 17:02:41] INFO root fetch - main [MainThread]: Store serial: [22789514]
