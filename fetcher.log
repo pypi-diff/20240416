@@ -6933,3 +6933,54 @@
 [2024-04-16 07:42:34] INFO root fetch - processPackages [edit-distance-correction]: Remove: archive file [/home/abi/fetcher/tmp/edit_distance_correction-1.1.6-py3-none-any.whl.zip]
 [2024-04-16 07:42:34] INFO root fetch - main [MainThread]: End processing [edit-distance-correction]: success
 [2024-04-16 07:42:34] INFO root fetch - main [MainThread]: Store serial: [22782946]
+[2024-04-16 07:44:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782946]
+[2024-04-16 07:44:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 07:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-04-16 07:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepfos
+[2024-04-16 07:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arch-flow
+[2024-04-16 07:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rai-core-flask
+[2024-04-16 07:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iroha
+[2024-04-16 07:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jcci
+[2024-04-16 07:44:43] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-16 07:44:43] INFO root fetch - processPackages [deepfos]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-16 07:44:43] INFO root fetch - processPackages [rai-core-flask]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-16 07:44:43] INFO root fetch - processPackages [iroha]: New version: [1.6.0] Old Version: [1.4.1.1]
+[2024-04-16 07:44:43] INFO root fetch - processPackages [jcci]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 07:44:43] WARNING root fetch - processPackages [arch-flow]: Skipping, unable to determine old version
+[2024-04-16 07:44:43] INFO root fetch - main [MainThread]: End processing [arch-flow] error
+[2024-04-16 07:44:43] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-16 07:44:43] INFO root fetch - processPackages [deepfos]: Downloading https://files.pythonhosted.org/packages/6c/b9/ab1c6d8eeab69fea66b16089ccb4bf1f1ea6b6329aa5f4b454166e22c8eb/deepfos-1.1.8.tar.gz
+[2024-04-16 07:44:43] INFO root fetch - processPackages [rai-core-flask]: Downloading https://files.pythonhosted.org/packages/92/b5/fd21974795c47bbc478eeed11277771175defaaf3c62092aeec22ebaf269/rai_core_flask-0.7.4.tar.gz
+[2024-04-16 07:44:43] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/b2/67/9ee89d8bea10a2dca8ffafaef2c03cc528c2a2925bdcfc69634ce39e8e6a/jcci-0.1.4.tar.gz
+[2024-04-16 07:44:43] INFO root fetch - processPackages [iroha]: Downloading https://files.pythonhosted.org/packages/09/a9/9512ed2c43231b74fb80d9d1a34567d2d515225d0f0e4afd211d4d917082/iroha-1.4.1.1-py3-none-any.whl
+[2024-04-16 07:44:43] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-16 07:44:43] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-16 07:44:43] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240416/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-16 07:44:43] INFO root fetch - processPackages [rai-core-flask]: Downloading https://files.pythonhosted.org/packages/d3/b3/90007fc836622904a6282e33f955c77c7bbc72abdbd697e1f5ab49e5185e/rai_core_flask-0.7.5.tar.gz
+[2024-04-16 07:44:43] INFO root fetch - processPackages [deepfos]: Downloading https://files.pythonhosted.org/packages/1c/7e/e2a63a40bfcbce55924df8339621c31f502551f86e9e3ba4a6bc74f91f9b/deepfos-1.1.9.tar.gz
+[2024-04-16 07:44:43] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/d4/80/1068dee4f93a6d6a1b76845d862087d6fcbfa62f87d8504299e9259cfee4/jcci-0.1.5.tar.gz
+[2024-04-16 07:44:43] INFO root fetch - processPackages [iroha]: Downloading https://files.pythonhosted.org/packages/42/c5/7a604549f3bff486bc268b8d7ece86ee1bfc572a841c1d9bbc2471c5b39a/iroha-1.6.0.tar.gz
+[2024-04-16 07:44:43] INFO root fetch - processPackages [rai-core-flask]: executing diffoscope
+[2024-04-16 07:44:43] INFO root fetch - processPackages [rai-core-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_core_flask-0.7.4.tar.gz tmp/rai_core_flask-0.7.5.tar.gz --markdown 20240416/r/rai-core-flask/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-16 07:44:44] INFO root fetch - processPackages [iroha]: executing diffoscope
+[2024-04-16 07:44:44] INFO root fetch - processPackages [iroha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iroha-1.4.1.1-py3-none-any.whl.zip tmp/iroha-1.6.0.tar.gz --markdown 20240416/i/iroha/1.4.1.1-1.6.0/README.md --exclude *.pyd
+[2024-04-16 07:44:44] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2024-04-16 07:44:44] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.1.4.tar.gz tmp/jcci-0.1.5.tar.gz --markdown 20240416/j/jcci/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 07:44:44] INFO root fetch - processPackages [deepfos]: executing diffoscope
+[2024-04-16 07:44:44] INFO root fetch - processPackages [deepfos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfos-1.1.8.tar.gz tmp/deepfos-1.1.9.tar.gz --markdown 20240416/d/deepfos/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-16 07:44:44] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-16 07:44:44] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-16 07:44:44] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-16 07:44:44] INFO root fetch - processPackages [rai-core-flask]: Remove: archive file [/home/abi/fetcher/tmp/rai_core_flask-0.7.4.tar.gz]
+[2024-04-16 07:44:44] INFO root fetch - processPackages [rai-core-flask]: Remove: archive file [/home/abi/fetcher/tmp/rai_core_flask-0.7.5.tar.gz]
+[2024-04-16 07:44:44] INFO root fetch - main [MainThread]: End processing [rai-core-flask]: success
+[2024-04-16 07:44:44] INFO root fetch - processPackages [iroha]: Remove: archive file [/home/abi/fetcher/tmp/iroha-1.4.1.1-py3-none-any.whl.zip]
+[2024-04-16 07:44:44] INFO root fetch - processPackages [iroha]: Remove: archive file [/home/abi/fetcher/tmp/iroha-1.6.0.tar.gz]
+[2024-04-16 07:44:44] INFO root fetch - main [MainThread]: End processing [iroha]: success
+[2024-04-16 07:44:44] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.1.4.tar.gz]
+[2024-04-16 07:44:44] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.1.5.tar.gz]
+[2024-04-16 07:44:44] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2024-04-16 07:44:45] INFO root fetch - processPackages [deepfos]: Remove: archive file [/home/abi/fetcher/tmp/deepfos-1.1.8.tar.gz]
+[2024-04-16 07:44:45] INFO root fetch - processPackages [deepfos]: Remove: archive file [/home/abi/fetcher/tmp/deepfos-1.1.9.tar.gz]
+[2024-04-16 07:44:45] INFO root fetch - main [MainThread]: End processing [deepfos]: success
+[2024-04-16 07:44:45] INFO root fetch - main [MainThread]: Store serial: [22782964]
