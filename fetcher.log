@@ -1932,3 +1932,57 @@
 [2024-04-16 01:59:32] INFO root fetch - processPackages [sphinx-deployment]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-deployment-0.0.9.tar.gz]
 [2024-04-16 01:59:32] INFO root fetch - main [MainThread]: End processing [sphinx-deployment]: success
 [2024-04-16 01:59:32] INFO root fetch - main [MainThread]: Store serial: [22780552]
+[2024-04-16 02:01:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780552]
+[2024-04-16 02:01:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 02:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scriptconfig
+[2024-04-16 02:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CryptMaster
+[2024-04-16 02:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: api-fluid-0738
+[2024-04-16 02:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-minio-mock
+[2024-04-16 02:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-rvw-auto
+[2024-04-16 02:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QEasyWidgets
+[2024-04-16 02:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trame-components
+[2024-04-16 02:01:41] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 02:01:41] WARNING root fetch - processPackages [api-fluid-0738]: Skipping, unable to determine old version
+[2024-04-16 02:01:41] INFO root fetch - main [MainThread]: End processing [api-fluid-0738] error
+[2024-04-16 02:01:41] INFO root fetch - processPackages [QEasyWidgets]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 02:01:41] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 02:01:41] INFO root fetch - processPackages [scriptconfig]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-16 02:01:41] INFO root fetch - processPackages [pytest-minio-mock]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 02:01:41] INFO root fetch - processPackages [trame-components]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-04-16 02:01:41] WARNING root fetch - processPackages [pih-rvw-auto]: Skipping, unable to determine old version
+[2024-04-16 02:01:41] INFO root fetch - main [MainThread]: End processing [pih-rvw-auto] error
+[2024-04-16 02:01:41] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/03/93/8a1dda94d9caa48daf58bebed12913ac52e3ab778a1e074691cc0f5e3951/QEasyWidgets-0.1.2.tar.gz
+[2024-04-16 02:01:41] INFO root fetch - processPackages [scriptconfig]: Downloading https://files.pythonhosted.org/packages/f1/5b/b62be232c4105ace83e4ae54febe6dd0edb5abe8344b508a0c38a954de88/scriptconfig-0.7.8-py3-none-any.whl
+[2024-04-16 02:01:41] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 02:01:41] INFO root fetch - processPackages [pytest-minio-mock]: Downloading https://files.pythonhosted.org/packages/12/4e/9b4124be8815c8cd26025b05a4ea9f666edd980a67730ba11e9650a757b5/pytest-minio-mock-0.1.8.tar.gz
+[2024-04-16 02:01:41] INFO root fetch - processPackages [trame-components]: Downloading https://files.pythonhosted.org/packages/af/90/3f67e86d2c73e6ec9aefed7b2aad21d0c2bf0b532afdb461fa41ac06959f/trame-components-2.2.1.tar.gz
+[2024-04-16 02:01:41] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 02:01:41] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 02:01:41] INFO root fetch - processPackages [QEasyWidgets]: Downloading https://files.pythonhosted.org/packages/a1/ad/dbaecad66523171e59485e31c7b4eabacb5d698d91206615475c503c756c/QEasyWidgets-0.1.3.tar.gz
+[2024-04-16 02:01:41] INFO root fetch - processPackages [scriptconfig]: Downloading https://files.pythonhosted.org/packages/81/48/6da8122cd2fb10c22d2bfdbece7368c88ffbbde6d4d3d2d421f98c79e51a/scriptconfig-0.7.9-py3-none-any.whl
+[2024-04-16 02:01:41] INFO root fetch - processPackages [pytest-minio-mock]: Downloading https://files.pythonhosted.org/packages/ab/92/4a628e1f13367ff09fa7105aed9ce58fd1f7fbcf623966b99830a06df701/pytest-minio-mock-0.1.9.tar.gz
+[2024-04-16 02:01:41] INFO root fetch - processPackages [trame-components]: Downloading https://files.pythonhosted.org/packages/8e/db/43be3a5095dedc9a6a00746a25353f5011e793c2cbbfca0bed439ea48142/trame-components-2.3.0.tar.gz
+[2024-04-16 02:01:41] INFO root fetch - processPackages [scriptconfig]: executing diffoscope
+[2024-04-16 02:01:41] INFO root fetch - processPackages [scriptconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scriptconfig-0.7.8-py3-none-any.whl.zip tmp/scriptconfig-0.7.9-py3-none-any.whl.zip --markdown 20240416/s/scriptconfig/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-16 02:01:42] INFO root fetch - processPackages [pytest-minio-mock]: executing diffoscope
+[2024-04-16 02:01:42] INFO root fetch - processPackages [pytest-minio-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-minio-mock-0.1.8.tar.gz tmp/pytest-minio-mock-0.1.9.tar.gz --markdown 20240416/p/pytest-minio-mock/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 02:01:42] INFO root fetch - processPackages [QEasyWidgets]: executing diffoscope
+[2024-04-16 02:01:42] INFO root fetch - processPackages [QEasyWidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QEasyWidgets-0.1.2.tar.gz tmp/QEasyWidgets-0.1.3.tar.gz --markdown 20240416/Q/QEasyWidgets/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 02:01:42] INFO root fetch - processPackages [trame-components]: executing diffoscope
+[2024-04-16 02:01:42] INFO root fetch - processPackages [trame-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-components-2.2.1.tar.gz tmp/trame-components-2.3.0.tar.gz --markdown 20240416/t/trame-components/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-04-16 02:01:42] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 02:01:42] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 02:01:42] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 02:01:42] INFO root fetch - processPackages [pytest-minio-mock]: Remove: archive file [/home/abi/fetcher/tmp/pytest-minio-mock-0.1.8.tar.gz]
+[2024-04-16 02:01:42] INFO root fetch - processPackages [pytest-minio-mock]: Remove: archive file [/home/abi/fetcher/tmp/pytest-minio-mock-0.1.9.tar.gz]
+[2024-04-16 02:01:42] INFO root fetch - main [MainThread]: End processing [pytest-minio-mock]: success
+[2024-04-16 02:01:42] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.1.2.tar.gz]
+[2024-04-16 02:01:42] INFO root fetch - processPackages [QEasyWidgets]: Remove: archive file [/home/abi/fetcher/tmp/QEasyWidgets-0.1.3.tar.gz]
+[2024-04-16 02:01:42] INFO root fetch - main [MainThread]: End processing [QEasyWidgets]: success
+[2024-04-16 02:01:42] INFO root fetch - processPackages [scriptconfig]: Remove: archive file [/home/abi/fetcher/tmp/scriptconfig-0.7.8-py3-none-any.whl.zip]
+[2024-04-16 02:01:42] INFO root fetch - processPackages [scriptconfig]: Remove: archive file [/home/abi/fetcher/tmp/scriptconfig-0.7.9-py3-none-any.whl.zip]
+[2024-04-16 02:01:42] INFO root fetch - main [MainThread]: End processing [scriptconfig]: success
+[2024-04-16 02:01:44] INFO root fetch - processPackages [trame-components]: Remove: archive file [/home/abi/fetcher/tmp/trame-components-2.2.1.tar.gz]
+[2024-04-16 02:01:44] INFO root fetch - processPackages [trame-components]: Remove: archive file [/home/abi/fetcher/tmp/trame-components-2.3.0.tar.gz]
+[2024-04-16 02:01:44] INFO root fetch - main [MainThread]: End processing [trame-components]: success
+[2024-04-16 02:01:44] INFO root fetch - main [MainThread]: Store serial: [22780573]
