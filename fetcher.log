@@ -21768,3 +21768,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:50:34] INFO root fetch - processPackages [kailo-beewell-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/kailo-beewell-dashboard-0.3.3.tar.gz]
 [2024-04-16 16:50:34] INFO root fetch - main [MainThread]: End processing [kailo-beewell-dashboard]: success
 [2024-04-16 16:50:34] INFO root fetch - main [MainThread]: Store serial: [22789366]
+[2024-04-16 16:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789366]
+[2024-04-16 16:52:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: galmoss
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openvisuspy
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itkwasm-morphological-contour-interpolation-wasi
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onlinepayments-sdk-python2
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: itkwasm-morphological-contour-interpolation-emscripten
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: giant-redirect-import
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: itkwasm-morphological-contour-interpolation
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hashboard-cli
+[2024-04-16 16:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yeref
+[2024-04-16 16:52:44] INFO root fetch - processPackages [giant-redirect-import]: New version: [0.6] Old Version: [0.5]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240416132824] Old Version: [3.3.1.dev20240416083129]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [onlinepayments-sdk-python2]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [galmoss]: New version: [20240216.5] Old Version: [20240216.4]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-emscripten]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [hashboard-cli]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-wasi]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/7b/4c/d9489b5151a2aa3b8531c42fded40c7096ea45b1df9eb725dcf4f088e943/giant_redirect_import-0.5.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-16 16:52:44] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/68/0d/0c0a8eb05a4398bc5fe0ae57772253322da33575a76be17f7abca21e23ae/localstack_core-3.3.1.dev20240416083129.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/43/c7/7ad08f50743b8a1bcdcbeec11af7b20b4393a657c09a98069fd77af21b4c/onlinepayments-sdk-python2-4.8.0.zip
+[2024-04-16 16:52:44] INFO root fetch - processPackages [hashboard-cli]: Downloading https://files.pythonhosted.org/packages/f8/7c/31daa5f8e278a881db6d584b8c14f7258e4de658b3686e78c88c483bf0de/hashboard-cli-1.0.7.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-emscripten]: Downloading https://files.pythonhosted.org/packages/d6/5b/fccdd4f4dbf58b4a77ad3b1806f836fe1494ae594875c8b9960a10f7894b/itkwasm_morphological_contour_interpolation_emscripten-1.0.1.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/b0/d9/2beb92d505396d836dfa5f3e5da1672e30a0795d20b21b932be407898836/openvisuspy-1.0.8-py3-none-any.whl
+[2024-04-16 16:52:44] INFO root fetch - processPackages [galmoss]: Downloading https://files.pythonhosted.org/packages/c4/4c/518da7a7fa013dbf75cea7da07688dede4d1cc8c390ddb7c47aa727b0b00/galmoss-20240216.4.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation]: Downloading https://files.pythonhosted.org/packages/cd/23/7112d297a17b4dbb8cc2674e166718d9b448f6a5a5914a1566b7f782db6e/itkwasm_morphological_contour_interpolation-1.0.1.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-wasi]: Downloading https://files.pythonhosted.org/packages/04/9e/715939834973f8880f8626c7e6d318e189a8994b4832c98c7eadf0b98a3c/itkwasm_morphological_contour_interpolation_wasi-1.0.1.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/e0/b1/965470f0be6c146b106c608dd2bb5e2d46b50823f9b0b7a07dc1b6a98709/giant_redirect_import-0.6.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [giant-redirect-import]: executing diffoscope
+[2024-04-16 16:52:44] INFO root fetch - processPackages [giant-redirect-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant_redirect_import-0.5.tar.gz tmp/giant_redirect_import-0.6.tar.gz --markdown 20240416/g/giant-redirect-import/0.5-0.6/README.md --exclude *.pyd
+[2024-04-16 16:52:44] INFO root fetch - processPackages [hashboard-cli]: Downloading https://files.pythonhosted.org/packages/16/ff/668eb6e3ceadf9688859e0c4d70c2d51ab82140aaecf8436b5cbd2b5f1f5/hashboard_cli-1.0.8.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-16 16:52:44] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240416/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 16:52:44] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/76/33/2a7a818fea912f1354d65d0e959108baf4be55e1a1bcd773277f12b26582/openvisuspy-1.0.9-py3-none-any.whl
+[2024-04-16 16:52:44] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ee/45/a9499b9aab315c56b48d1465258af0c2595e11a610b7178ad9fb223351fe/localstack_core-3.3.1.dev20240416132824.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Downloading https://files.pythonhosted.org/packages/cc/33/2f415c744846f4834d26c13b66ec4921a450327e503ec7dac50ae61999de/onlinepayments-sdk-python2-4.9.0.zip
+[2024-04-16 16:52:44] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-emscripten]: Downloading https://files.pythonhosted.org/packages/d3/d2/61286d1a5bc83ce2268db36c9f5dc5d5c4d338a7f144d591318a4572ca01/itkwasm_morphological_contour_interpolation_emscripten-1.1.0.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation]: Downloading https://files.pythonhosted.org/packages/b4/6f/044a43737a94b60b0a71bffe085d23d4200a4342f8c8f694889cbf97907c/itkwasm_morphological_contour_interpolation-1.1.0.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [galmoss]: Downloading https://files.pythonhosted.org/packages/99/86/fcc967238b9cd47e986a018d07926dab44ea0d825a4361d9c3353280b493/galmoss-20240216.5.tar.gz
+[2024-04-16 16:52:44] INFO root fetch - processPackages [hashboard-cli]: executing diffoscope
+[2024-04-16 16:52:44] INFO root fetch - processPackages [hashboard-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashboard-cli-1.0.7.tar.gz tmp/hashboard_cli-1.0.8.tar.gz --markdown 20240416/h/hashboard-cli/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-16 16:52:44] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-wasi]: Downloading https://files.pythonhosted.org/packages/af/b3/690ea8a0181ad094fb48ce44ba39e3635b73afcbb214a2447d42a341c654/itkwasm_morphological_contour_interpolation_wasi-1.1.0.tar.gz
+[2024-04-16 16:52:45] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2024-04-16 16:52:45] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-1.0.8-py3-none-any.whl.zip tmp/openvisuspy-1.0.9-py3-none-any.whl.zip --markdown 20240416/o/openvisuspy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 16:52:45] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation]: executing diffoscope
+[2024-04-16 16:52:45] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_morphological_contour_interpolation-1.0.1.tar.gz tmp/itkwasm_morphological_contour_interpolation-1.1.0.tar.gz --markdown 20240416/i/itkwasm-morphological-contour-interpolation/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-16 16:52:45] INFO root fetch - processPackages [galmoss]: executing diffoscope
+[2024-04-16 16:52:45] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-emscripten]: executing diffoscope
+[2024-04-16 16:52:45] INFO root fetch - processPackages [galmoss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galmoss-20240216.4.tar.gz tmp/galmoss-20240216.5.tar.gz --markdown 20240416/g/galmoss/20240216.4-20240216.5/README.md --exclude *.pyd
+[2024-04-16 16:52:45] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_morphological_contour_interpolation_emscripten-1.0.1.tar.gz tmp/itkwasm_morphological_contour_interpolation_emscripten-1.1.0.tar.gz --markdown 20240416/i/itkwasm-morphological-contour-interpolation-emscripten/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-16 16:52:45] INFO root fetch - processPackages [onlinepayments-sdk-python2]: executing diffoscope
+[2024-04-16 16:52:45] INFO root fetch - processPackages [onlinepayments-sdk-python2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python2-4.8.0.zip tmp/onlinepayments-sdk-python2-4.9.0.zip --markdown 20240416/o/onlinepayments-sdk-python2/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-16 16:52:45] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-16 16:52:45] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240416083129.tar.gz tmp/localstack_core-3.3.1.dev20240416132824.tar.gz --markdown 20240416/l/localstack-core/3.3.1.dev20240416083129-3.3.1.dev20240416132824/README.md --exclude *.pyd
+[2024-04-16 16:52:45] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-wasi]: executing diffoscope
+[2024-04-16 16:52:45] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-wasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_morphological_contour_interpolation_wasi-1.0.1.tar.gz tmp/itkwasm_morphological_contour_interpolation_wasi-1.1.0.tar.gz --markdown 20240416/i/itkwasm-morphological-contour-interpolation-wasi/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-16 16:52:45] INFO root fetch - processPackages [giant-redirect-import]: Remove: archive file [/home/abi/fetcher/tmp/giant_redirect_import-0.5.tar.gz]
+[2024-04-16 16:52:45] INFO root fetch - processPackages [giant-redirect-import]: Remove: archive file [/home/abi/fetcher/tmp/giant_redirect_import-0.6.tar.gz]
+[2024-04-16 16:52:45] INFO root fetch - processPackages [giant-redirect-import]: Start processing: django-find-similar
+[2024-04-16 16:52:45] INFO root fetch - main [MainThread]: End processing [giant-redirect-import]: success
+[2024-04-16 16:52:45] INFO root fetch - processPackages [django-find-similar]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-16 16:52:45] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-16 16:52:45] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-16 16:52:45] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-16 16:52:45] INFO root fetch - processPackages [django-find-similar]: Downloading https://files.pythonhosted.org/packages/84/76/20394fc606fe41b2107603a1afdb2c5001835937e57141322b2efa038812/django-find-similar-1.3.0.tar.gz
+[2024-04-16 16:52:46] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.8-py3-none-any.whl.zip]
+[2024-04-16 16:52:46] INFO root fetch - processPackages [openvisuspy]: Remove: archive file [/home/abi/fetcher/tmp/openvisuspy-1.0.9-py3-none-any.whl.zip]
+[2024-04-16 16:52:46] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2024-04-16 16:52:46] INFO root fetch - processPackages [galmoss]: Remove: archive file [/home/abi/fetcher/tmp/galmoss-20240216.4.tar.gz]
+[2024-04-16 16:52:46] INFO root fetch - processPackages [galmoss]: Remove: archive file [/home/abi/fetcher/tmp/galmoss-20240216.5.tar.gz]
+[2024-04-16 16:52:46] INFO root fetch - main [MainThread]: End processing [galmoss]: success
+[2024-04-16 16:52:46] INFO root fetch - processPackages [hashboard-cli]: Remove: archive file [/home/abi/fetcher/tmp/hashboard-cli-1.0.7.tar.gz]
+[2024-04-16 16:52:46] INFO root fetch - processPackages [hashboard-cli]: Remove: archive file [/home/abi/fetcher/tmp/hashboard_cli-1.0.8.tar.gz]
+[2024-04-16 16:52:46] INFO root fetch - main [MainThread]: End processing [hashboard-cli]: success
+[2024-04-16 16:52:46] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_morphological_contour_interpolation-1.0.1.tar.gz]
+[2024-04-16 16:52:46] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_morphological_contour_interpolation-1.1.0.tar.gz]
+[2024-04-16 16:52:46] INFO root fetch - main [MainThread]: End processing [itkwasm-morphological-contour-interpolation]: success
+[2024-04-16 16:52:46] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_morphological_contour_interpolation_emscripten-1.0.1.tar.gz]
+[2024-04-16 16:52:46] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_morphological_contour_interpolation_emscripten-1.1.0.tar.gz]
+[2024-04-16 16:52:46] INFO root fetch - main [MainThread]: End processing [itkwasm-morphological-contour-interpolation-emscripten]: success
+[2024-04-16 16:52:46] INFO root fetch - processPackages [django-find-similar]: Downloading https://files.pythonhosted.org/packages/cb/5a/60ed22026f578b4add1b333130c2ad56cc2f69f854bec97b8f1c20b3711d/django_find_similar-1.4.0.tar.gz
+[2024-04-16 16:52:46] INFO root fetch - processPackages [django-find-similar]: executing diffoscope
+[2024-04-16 16:52:46] INFO root fetch - processPackages [django-find-similar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-find-similar-1.3.0.tar.gz tmp/django_find_similar-1.4.0.tar.gz --markdown 20240416/d/django-find-similar/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-16 16:52:47] INFO root fetch - processPackages [django-find-similar]: Remove: archive file [/home/abi/fetcher/tmp/django-find-similar-1.3.0.tar.gz]
+[2024-04-16 16:52:47] INFO root fetch - processPackages [django-find-similar]: Remove: archive file [/home/abi/fetcher/tmp/django_find_similar-1.4.0.tar.gz]
+[2024-04-16 16:52:47] INFO root fetch - main [MainThread]: End processing [django-find-similar]: success
+[2024-04-16 16:52:47] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Remove: archive file [/home/abi/fetcher/tmp/onlinepayments-sdk-python2-4.8.0.zip]
+[2024-04-16 16:52:47] INFO root fetch - processPackages [onlinepayments-sdk-python2]: Remove: archive file [/home/abi/fetcher/tmp/onlinepayments-sdk-python2-4.9.0.zip]
+[2024-04-16 16:52:47] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python2]: success
+[2024-04-16 16:52:49] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416083129.tar.gz]
+[2024-04-16 16:52:49] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416132824.tar.gz]
+[2024-04-16 16:52:49] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-16 16:53:04] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_morphological_contour_interpolation_wasi-1.0.1.tar.gz]
+[2024-04-16 16:53:04] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_morphological_contour_interpolation_wasi-1.1.0.tar.gz]
+[2024-04-16 16:53:04] INFO root fetch - main [MainThread]: End processing [itkwasm-morphological-contour-interpolation-wasi]: success
+[2024-04-16 16:53:04] INFO root fetch - main [MainThread]: Store serial: [22789399]
