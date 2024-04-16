@@ -10821,3 +10821,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:23:53] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.3.0.tar.gz]
 [2024-04-16 10:23:53] INFO root fetch - main [MainThread]: End processing [dol]: success
 [2024-04-16 10:23:53] INFO root fetch - main [MainThread]: Store serial: [22784450]
+[2024-04-16 10:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784450]
+[2024-04-16 10:26:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 10:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbacoordinationclient
+[2024-04-16 10:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calculator-practice
+[2024-04-16 10:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmauri
+[2024-04-16 10:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NESTML
+[2024-04-16 10:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bap-elk-backends
+[2024-04-16 10:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mobio-admin-sdk-test
+[2024-04-16 10:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eli-utils
+[2024-04-16 10:26:03] WARNING root fetch - processPackages [dbacoordinationclient]: Skipping, unable to determine old version
+[2024-04-16 10:26:03] INFO root fetch - main [MainThread]: End processing [dbacoordinationclient] error
+[2024-04-16 10:26:03] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 10:26:03] INFO root fetch - processPackages [NESTML]: New version: [7.0.2] Old Version: [7.0.1rc1]
+[2024-04-16 10:26:03] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-16 10:26:03] INFO root fetch - processPackages [bap-elk-backends]: New version: [0.5.2rc1] Old Version: [0.5.1rc1]
+[2024-04-16 10:26:03] INFO root fetch - processPackages [mobio-admin-sdk-test]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 10:26:03] WARNING root fetch - processPackages [calculator-practice]: Skipping, unable to determine old version
+[2024-04-16 10:26:03] INFO root fetch - main [MainThread]: End processing [calculator-practice] error
+[2024-04-16 10:26:03] INFO root fetch - processPackages [eli-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 10:26:03] INFO root fetch - processPackages [NESTML]: Downloading https://files.pythonhosted.org/packages/b2/6d/0811b937e6a45ecfac194f35b12182ef0e6de7437f63a75a83687d8e424b/NESTML-7.0.1rc1-py3-none-any.whl
+[2024-04-16 10:26:03] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-16 10:26:03] INFO root fetch - processPackages [mobio-admin-sdk-test]: Downloading https://files.pythonhosted.org/packages/4a/af/66d5c1ad16ae3c0f6f49fc358f93be1a8709de9f4be6cad1b95d0be51f3a/mobio-admin-sdk-test-1.0.8.tar.gz
+[2024-04-16 10:26:03] INFO root fetch - processPackages [bap-elk-backends]: Downloading https://files.pythonhosted.org/packages/41/c2/50923a25ca54251fff03c810fab92d5f5d07a30961382cd9739ff8cb349f/bap_elk_backends-0.5.1rc1.tar.gz
+[2024-04-16 10:26:03] INFO root fetch - processPackages [eli-utils]: Downloading https://files.pythonhosted.org/packages/96/fd/76b60702d262a3e21b7e5a2c0ad15c4dd42efcf4d555a04a945e1ccd3801/eli_utils-0.0.8.tar.gz
+[2024-04-16 10:26:03] WARNING root fetch - processPackages [NESTML]: Skipping package: exceeds size limit 38065359>=10485760
+[2024-04-16 10:26:03] INFO root fetch - main [MainThread]: End processing [NESTML] error
+[2024-04-16 10:26:03] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-16 10:26:03] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240416/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 10:26:03] INFO root fetch - processPackages [bap-elk-backends]: Downloading https://files.pythonhosted.org/packages/fe/be/891e0a107db74bf73fe2ef39fcd9d3ea4dc8e4245320ce86fffabc988acb/bap_elk_backends-0.5.2rc1.tar.gz
+[2024-04-16 10:26:04] INFO root fetch - processPackages [eli-utils]: Downloading https://files.pythonhosted.org/packages/73/2a/74ec53f957b2e7c07b8cb2f0fc15a6d2fded4f8a4100e708e5f0a5789774/eli_utils-0.0.9.tar.gz
+[2024-04-16 10:26:04] INFO root fetch - processPackages [eli-utils]: executing diffoscope
+[2024-04-16 10:26:04] INFO root fetch - processPackages [eli-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eli_utils-0.0.8.tar.gz tmp/eli_utils-0.0.9.tar.gz --markdown 20240416/e/eli-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 10:26:04] INFO root fetch - processPackages [bap-elk-backends]: executing diffoscope
+[2024-04-16 10:26:04] INFO root fetch - processPackages [bap-elk-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bap_elk_backends-0.5.1rc1.tar.gz tmp/bap_elk_backends-0.5.2rc1.tar.gz --markdown 20240416/b/bap-elk-backends/0.5.1rc1-0.5.2rc1/README.md --exclude *.pyd
+[2024-04-16 10:26:04] INFO root fetch - processPackages [eli-utils]: Remove: archive file [/home/abi/fetcher/tmp/eli_utils-0.0.8.tar.gz]
+[2024-04-16 10:26:04] INFO root fetch - processPackages [eli-utils]: Remove: archive file [/home/abi/fetcher/tmp/eli_utils-0.0.9.tar.gz]
+[2024-04-16 10:26:04] INFO root fetch - main [MainThread]: End processing [eli-utils]: success
+[2024-04-16 10:26:04] INFO root fetch - processPackages [bap-elk-backends]: Remove: archive file [/home/abi/fetcher/tmp/bap_elk_backends-0.5.1rc1.tar.gz]
+[2024-04-16 10:26:04] INFO root fetch - processPackages [bap-elk-backends]: Remove: archive file [/home/abi/fetcher/tmp/bap_elk_backends-0.5.2rc1.tar.gz]
+[2024-04-16 10:26:04] INFO root fetch - main [MainThread]: End processing [bap-elk-backends]: success
+[2024-04-16 10:26:04] INFO root fetch - processPackages [mobio-admin-sdk-test]: Downloading https://files.pythonhosted.org/packages/cd/85/b29cc567d91d8185c68d7aa5b10e350376ea92ce33443fd1b570f9badee3/mobio-admin-sdk-test-1.0.9.tar.gz
+[2024-04-16 10:26:05] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-16 10:26:05] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-16 10:26:05] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-16 10:26:05] INFO root fetch - processPackages [mobio-admin-sdk-test]: executing diffoscope
+[2024-04-16 10:26:05] INFO root fetch - processPackages [mobio-admin-sdk-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-admin-sdk-test-1.0.8.tar.gz tmp/mobio-admin-sdk-test-1.0.9.tar.gz --markdown 20240416/m/mobio-admin-sdk-test/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 10:26:05] INFO root fetch - processPackages [mobio-admin-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-admin-sdk-test-1.0.8.tar.gz]
+[2024-04-16 10:26:05] INFO root fetch - processPackages [mobio-admin-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-admin-sdk-test-1.0.9.tar.gz]
+[2024-04-16 10:26:05] INFO root fetch - main [MainThread]: End processing [mobio-admin-sdk-test]: success
+[2024-04-16 10:26:05] INFO root fetch - main [MainThread]: Store serial: [22784475]
