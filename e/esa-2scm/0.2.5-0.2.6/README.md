@@ -1,4 +1,4 @@
-# Comparing `tmp/esa-2scm-0.2.5.tar.gz` & `tmp/esa_2scm-0.2.6-py3-none-any.whl.zip`
+# Comparing `tmp/esa-2scm-0.2.5.tar.gz` & `tmp/esa-2scm-0.2.6.tar.gz`
 
 ## filetype from file(1)
 

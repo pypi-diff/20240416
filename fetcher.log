@@ -16148,3 +16148,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:50:11] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.5.0a2-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-16 13:50:11] INFO root fetch - main [MainThread]: End processing [secretflow]: success
 [2024-04-16 13:50:11] INFO root fetch - main [MainThread]: Store serial: [22787024]
+[2024-04-16 13:52:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787024]
+[2024-04-16 13:52:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esa-2scm
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prophecy-libs
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utubes
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-game-collection
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scisuit
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: octomy-batch
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sunholo
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ssht
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: musicscan
+[2024-04-16 13:52:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opensesame-plugin-audio-low-latency
+[2024-04-16 13:52:27] INFO root fetch - processPackages [esa-2scm]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-16 13:52:27] INFO root fetch - processPackages [octomy-batch]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-16 13:52:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-16 13:52:28] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-16 13:52:28] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-16 13:52:28] INFO root fetch - processPackages [utubes]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 13:52:28] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: New version: [9.3.0] Old Version: [9.2.0]
+[2024-04-16 13:52:28] INFO root fetch - processPackages [scisuit]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-16 13:52:28] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/33/26/9029d11976a4b8570f003251a72805d06369ddd85999adc54c425a3c630b/esa-2scm-0.2.5.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [ssht]: New version: [1.0.0] Old Version: [0.9.1]
+[2024-04-16 13:52:28] INFO root fetch - processPackages [musicscan]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 13:52:28] INFO root fetch - processPackages [octomy-batch]: Downloading https://files.pythonhosted.org/packages/94/47/c883d858c6fca9c4efe4851960b5a30ece94b1301a9d2da0526389b9ed21/octomy-batch-2.0.6.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/41/fe/52dcc5ddf7bbd5da7fd4e415962792716f7544a09edd76c3fca9d734d3d2/nonebot_plugin_game_collection-3.0.0.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/d9/77/2f88eb20ff75526f9d02a6c1304673f71bbb522f12e09b9b98b37ba09a91/utubes-0.0.4.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [scisuit]: Downloading https://files.pythonhosted.org/packages/d8/f1/570d065c5aaa2aeb7a584f86dac0fe5e505579619934815d3148c79506b1/scisuit-1.2.4.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [musicscan]: Downloading https://files.pythonhosted.org/packages/63/0c/b0a29747c10584fe98b028c186184213ca8cada2242ebd755ac7a5d2db24/musicscan-0.1.2.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: Downloading https://files.pythonhosted.org/packages/89/65/30528d7e94cd3c53202333f7bcd61c93f722b66f0e969a23d86790cdef58/opensesame-plugin-audio_low_latency-9.2.0.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [ssht]: Downloading https://files.pythonhosted.org/packages/1f/8b/71bc5bc4db193a10b315c51d48a482915cb2b1ab8af030c3431cbd94413a/ssht-0.9.1.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/75/f6/fc2065597cbb9a161d48505c51adf76092df6356e176c677a2a5478cca63/esa_2scm-0.2.6-py3-none-any.whl
+[2024-04-16 13:52:28] INFO root fetch - processPackages [octomy-batch]: Downloading https://files.pythonhosted.org/packages/a4/9b/e04e0afe93d79ee265726734d2a9f774a60811f1fd135b4e8abab83ab13c/octomy-batch-2.0.7.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/86/2a/1d872ec6436607fa5b010be0e4523c3c09498615b5ca9060975d55264097/nonebot_plugin_game_collection-3.0.1.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [esa-2scm]: executing diffoscope
+[2024-04-16 13:52:28] INFO root fetch - processPackages [esa-2scm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esa-2scm-0.2.5.tar.gz tmp/esa-2scm-0.2.6.tar.gz --markdown 20240416/e/esa-2scm/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-16 13:52:28] INFO root fetch - processPackages [octomy-batch]: executing diffoscope
+[2024-04-16 13:52:28] INFO root fetch - processPackages [octomy-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octomy-batch-2.0.6.tar.gz tmp/octomy-batch-2.0.7.tar.gz --markdown 20240416/o/octomy-batch/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-04-16 13:52:28] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-04-16 13:52:28] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240416/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-16 13:52:28] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/13/28/36f54e1fe793c6dbcb8c95cf17892a28f4ceeae1bdc675df1c455d917386/utubes-0.0.5.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-16 13:52:28] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240416/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-16 13:52:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2024-04-16 13:52:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-3.0.0.tar.gz tmp/nonebot_plugin_game_collection-3.0.1.tar.gz --markdown 20240416/n/nonebot-plugin-game-collection/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-16 13:52:28] INFO root fetch - processPackages [musicscan]: Downloading https://files.pythonhosted.org/packages/41/d9/fd58213aa93bcd6fe8fdade4e8f274829f0cce2268b630da7b07ae6cb4bf/musicscan-0.1.3.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [ssht]: Downloading https://files.pythonhosted.org/packages/fe/cc/662ca8affbbca532898e5131f05895199f66cde2056e018679f48baaa363/ssht-1.0.0.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: Downloading https://files.pythonhosted.org/packages/db/51/a0cb912827da0844dd8436ef0499fc72cbc018f4b50b78f57829e7ccb75f/opensesame-plugin-audio_low_latency-9.3.0.tar.gz
+[2024-04-16 13:52:28] INFO root fetch - processPackages [utubes]: executing diffoscope
+[2024-04-16 13:52:28] INFO root fetch - processPackages [utubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utubes-0.0.4.tar.gz tmp/utubes-0.0.5.tar.gz --markdown 20240416/u/utubes/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 13:52:29] INFO root fetch - processPackages [ssht]: executing diffoscope
+[2024-04-16 13:52:29] INFO root fetch - processPackages [ssht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssht-0.9.1.tar.gz tmp/ssht-1.0.0.tar.gz --markdown 20240416/s/ssht/0.9.1-1.0.0/README.md --exclude *.pyd
+[2024-04-16 13:52:29] INFO root fetch - processPackages [musicscan]: executing diffoscope
+[2024-04-16 13:52:29] INFO root fetch - processPackages [musicscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicscan-0.1.2.tar.gz tmp/musicscan-0.1.3.tar.gz --markdown 20240416/m/musicscan/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 13:52:29] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: executing diffoscope
+[2024-04-16 13:52:29] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame-plugin-audio_low_latency-9.2.0.tar.gz tmp/opensesame-plugin-audio_low_latency-9.3.0.tar.gz --markdown 20240416/o/opensesame-plugin-audio-low-latency/9.2.0-9.3.0/README.md --exclude *.pyd
+[2024-04-16 13:52:29] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa-2scm-0.2.5.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa-2scm-0.2.6.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - main [MainThread]: End processing [esa-2scm]: success
+[2024-04-16 13:52:29] INFO root fetch - processPackages [scisuit]: Downloading https://files.pythonhosted.org/packages/a2/d3/2a2b2d124f3e192504fb8198509d04f8205df19e2e90cd451c67153714fb/scisuit-1.2.5.tar.gz
+[2024-04-16 13:52:29] INFO root fetch - processPackages [octomy-batch]: Remove: archive file [/home/abi/fetcher/tmp/octomy-batch-2.0.6.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - processPackages [octomy-batch]: Remove: archive file [/home/abi/fetcher/tmp/octomy-batch-2.0.7.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - main [MainThread]: End processing [octomy-batch]: success
+[2024-04-16 13:52:29] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-04-16 13:52:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-3.0.0.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-3.0.1.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2024-04-16 13:52:29] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.4.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.5.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - main [MainThread]: End processing [utubes]: success
+[2024-04-16 13:52:29] INFO root fetch - processPackages [ssht]: Remove: archive file [/home/abi/fetcher/tmp/ssht-0.9.1.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - processPackages [ssht]: Remove: archive file [/home/abi/fetcher/tmp/ssht-1.0.0.tar.gz]
+[2024-04-16 13:52:29] INFO root fetch - main [MainThread]: End processing [ssht]: success
+[2024-04-16 13:52:30] INFO root fetch - processPackages [scisuit]: executing diffoscope
+[2024-04-16 13:52:30] INFO root fetch - processPackages [scisuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scisuit-1.2.4.tar.gz tmp/scisuit-1.2.5.tar.gz --markdown 20240416/s/scisuit/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-04-16 13:52:30] INFO root fetch - processPackages [musicscan]: Remove: archive file [/home/abi/fetcher/tmp/musicscan-0.1.2.tar.gz]
+[2024-04-16 13:52:30] INFO root fetch - processPackages [musicscan]: Remove: archive file [/home/abi/fetcher/tmp/musicscan-0.1.3.tar.gz]
+[2024-04-16 13:52:30] INFO root fetch - main [MainThread]: End processing [musicscan]: success
+[2024-04-16 13:52:30] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-16 13:52:30] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-16 13:52:30] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-16 13:52:30] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: Remove: archive file [/home/abi/fetcher/tmp/opensesame-plugin-audio_low_latency-9.2.0.tar.gz]
+[2024-04-16 13:52:30] INFO root fetch - processPackages [opensesame-plugin-audio-low-latency]: Remove: archive file [/home/abi/fetcher/tmp/opensesame-plugin-audio_low_latency-9.3.0.tar.gz]
+[2024-04-16 13:52:30] INFO root fetch - main [MainThread]: End processing [opensesame-plugin-audio-low-latency]: success
+[2024-04-16 13:52:41] INFO root fetch - processPackages [scisuit]: Remove: archive file [/home/abi/fetcher/tmp/scisuit-1.2.4.tar.gz]
+[2024-04-16 13:52:41] INFO root fetch - processPackages [scisuit]: Remove: archive file [/home/abi/fetcher/tmp/scisuit-1.2.5.tar.gz]
+[2024-04-16 13:52:41] INFO root fetch - main [MainThread]: End processing [scisuit]: success
+[2024-04-16 13:52:41] INFO root fetch - main [MainThread]: Store serial: [22787074]
