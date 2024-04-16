@@ -15361,3 +15361,98 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:20:37] INFO root fetch - processPackages [fritzbox-tray]: Remove: archive file [/home/abi/fetcher/tmp/fritzbox-tray-1.0.69.tar.gz]
 [2024-04-16 13:20:37] INFO root fetch - main [MainThread]: End processing [fritzbox-tray]: success
 [2024-04-16 13:20:37] INFO root fetch - main [MainThread]: Store serial: [22786714]
+[2024-04-16 13:22:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786714]
+[2024-04-16 13:22:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-21
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YYJ
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KUtil-jakubaugustyn
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sentry-ophio
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thulearn2018
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anedya-dev-sdk
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WindowManager
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nio-bot
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sbcli-dev
+[2024-04-16 13:22:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spine-segmentation
+[2024-04-16 13:22:46] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-16 13:22:46] INFO root fetch - processPackages [thulearn2018]: New version: [2.4.5] Old Version: [2.4.4]
+[2024-04-16 13:22:46] INFO root fetch - processPackages [KUtil-jakubaugustyn]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 13:22:46] INFO root fetch - processPackages [spine-segmentation]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 13:22:46] INFO root fetch - processPackages [sbcli-dev]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-16 13:22:46] WARNING root fetch - processPackages [YYJ]: Skipping, unable to determine old version
+[2024-04-16 13:22:46] INFO root fetch - processPackages [YYJ]: Start processing: polars
+[2024-04-16 13:22:46] INFO root fetch - main [MainThread]: End processing [YYJ] error
+[2024-04-16 13:22:46] INFO root fetch - processPackages [anedya-dev-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 13:22:46] WARNING root fetch - processPackages [WindowManager]: Skipping, unable to determine old version
+[2024-04-16 13:22:46] INFO root fetch - processPackages [sentry-ophio]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-16 13:22:46] INFO root fetch - processPackages [nio-bot]: New version: [1.1.0b1.post1] Old Version: [1.1.0b1]
+[2024-04-16 13:22:46] INFO root fetch - processPackages [WindowManager]: Start processing: bzt
+[2024-04-16 13:22:46] INFO root fetch - main [MainThread]: End processing [WindowManager] error
+[2024-04-16 13:22:46] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/14/f1/68d7fdf01fcd850d74be3518dafe4e07bf480c67ecdafb7811bcabf7859b/bigdl_core_xe_21-2.5.0b20240414-cp39-cp39-win_amd64.whl
+[2024-04-16 13:22:46] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/25/5d/5fad160535a7411afed56e4994de1e15ffc2eb6f02d8f54039ba10b12edf/sbcli_dev-2.1.3.zip
+[2024-04-16 13:22:47] INFO root fetch - processPackages [thulearn2018]: Downloading https://files.pythonhosted.org/packages/f9/30/dc533ce12ee40e47c2246b6d3b4c0ae0cffe8efc6017e918c512b0ae170d/thulearn2018-2.4.4.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 13:22:47] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/0d/11/4e9dc9054c9bd26c474073b03949f8529919b49df39bf065c8eee310acfc/spine_segmentation-0.2.8.tar.gz
+[2024-04-16 13:22:47] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 25708564>=10485760
+[2024-04-16 13:22:47] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-16 13:22:47] INFO root fetch - processPackages [KUtil-jakubaugustyn]: Downloading https://files.pythonhosted.org/packages/93/d6/312882d5ebe23346ed6fcba0d30e798087496c86e39764ff0d92069a47f6/KUtil-jakubaugustyn-0.0.3.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [anedya-dev-sdk]: Downloading https://files.pythonhosted.org/packages/ad/e7/5021a86af0950b15f52f08e563625bb26b250ec38ae11956916d4566cb9b/anedya-dev-sdk-0.1.2.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [sentry-ophio]: Downloading https://files.pythonhosted.org/packages/dd/c2/fb29a3b1caeb3bd4053a8ada1ee0f592d89ade42420a9d5f1327792baf3d/sentry_ophio-0.2.6.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [bzt]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-16 13:22:47] INFO root fetch - processPackages [nio-bot]: Downloading https://files.pythonhosted.org/packages/bc/25/d663994ab9fa6d613a7a7c2215f00a508f6607f815b92f9afb7167a71f62/nio-bot-1.1.0b1.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/35/e6/c978d3a1845462d2d7cd5b28c252671fa04b46a945a269bcb636ca2d080d/spine_segmentation-0.2.9.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [KUtil-jakubaugustyn]: Downloading https://files.pythonhosted.org/packages/c9/32/8b2a25e31ec7d1360867302a43a8f573936b9972ddecfd9901705d213a14/kutil_jakubaugustyn-0.0.4.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [thulearn2018]: Downloading https://files.pythonhosted.org/packages/7a/98/9e390714f6d02b20494c314bda314a21e06a23a7c83b462f22b90d9d2536/thulearn2018-2.4.5-py3-none-any.whl
+[2024-04-16 13:22:47] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/2a/c9/da3c52c9d027675984987e7995e6e00f7f9728e5958b4f1bcb8ca1e7fa31/sbcli_dev-2.1.4.zip
+[2024-04-16 13:22:47] INFO root fetch - processPackages [bzt]: Downloading https://files.pythonhosted.org/packages/4f/85/3730bf6788e9d22a430324fef9dc81b7b65718ab1d6e2485d1eb12fc8d4f/bzt-1.9.5.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [anedya-dev-sdk]: Downloading https://files.pythonhosted.org/packages/61/09/e079572dd06e11c4f99de06e23f37f0c33312bb469d0477fcce7997469d8/anedya_dev_sdk-0.1.3.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-16 13:22:47] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.2.8.tar.gz tmp/spine_segmentation-0.2.9.tar.gz --markdown 20240416/s/spine-segmentation/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 13:22:47] INFO root fetch - processPackages [sentry-ophio]: Downloading https://files.pythonhosted.org/packages/2c/08/73631b04d563b7cc3570d313d1cfb3985aa36bc9c8822948f1b2591dd8f4/sentry_ophio-0.2.7.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [thulearn2018]: executing diffoscope
+[2024-04-16 13:22:47] INFO root fetch - processPackages [thulearn2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thulearn2018-2.4.4.tar.gz tmp/thulearn2018-2.4.5-py3-none-any.whl.zip --markdown 20240416/t/thulearn2018/2.4.4-2.4.5/README.md --exclude *.pyd
+[2024-04-16 13:22:47] INFO root fetch - processPackages [KUtil-jakubaugustyn]: executing diffoscope
+[2024-04-16 13:22:47] INFO root fetch - processPackages [KUtil-jakubaugustyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KUtil-jakubaugustyn-0.0.3.tar.gz tmp/kutil_jakubaugustyn-0.0.4.tar.gz --markdown 20240416/K/KUtil-jakubaugustyn/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 13:22:47] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-16 13:22:47] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.1.3.zip tmp/sbcli_dev-2.1.4.zip --markdown 20240416/s/sbcli-dev/2.1.3-2.1.4/README.md --exclude *.pyd
+[2024-04-16 13:22:47] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2024-04-16 13:22:47] INFO root fetch - processPackages [anedya-dev-sdk]: executing diffoscope
+[2024-04-16 13:22:47] INFO root fetch - processPackages [anedya-dev-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anedya-dev-sdk-0.1.2.tar.gz tmp/anedya_dev_sdk-0.1.3.tar.gz --markdown 20240416/a/anedya-dev-sdk/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 13:22:47] INFO root fetch - processPackages [sentry-ophio]: executing diffoscope
+[2024-04-16 13:22:47] INFO root fetch - processPackages [sentry-ophio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_ophio-0.2.6.tar.gz tmp/sentry_ophio-0.2.7.tar.gz --markdown 20240416/s/sentry-ophio/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-16 13:22:48] INFO root fetch - processPackages [polars]: executing diffoscope
+[2024-04-16 13:22:48] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20240416/p/polars/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 13:22:48] INFO root fetch - processPackages [bzt]: Downloading https://files.pythonhosted.org/packages/76/3f/b2005924277461ac74c83a6ae6ec9235dcf2374c551d3494a6866139dfb8/bzt-1.9.6.tar.gz
+[2024-04-16 13:22:48] INFO root fetch - processPackages [bzt]: executing diffoscope
+[2024-04-16 13:22:48] INFO root fetch - processPackages [bzt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bzt-1.9.5.tar.gz tmp/bzt-1.9.6.tar.gz --markdown 20240416/b/bzt/1.9.5-1.9.6/README.md --exclude *.pyd
+[2024-04-16 13:22:48] INFO root fetch - processPackages [thulearn2018]: Remove: archive file [/home/abi/fetcher/tmp/thulearn2018-2.4.4.tar.gz]
+[2024-04-16 13:22:48] INFO root fetch - processPackages [thulearn2018]: Remove: archive file [/home/abi/fetcher/tmp/thulearn2018-2.4.5-py3-none-any.whl.zip]
+[2024-04-16 13:22:48] INFO root fetch - main [MainThread]: End processing [thulearn2018]: success
+[2024-04-16 13:22:48] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.8.tar.gz]
+[2024-04-16 13:22:48] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.9.tar.gz]
+[2024-04-16 13:22:48] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-16 13:22:48] INFO root fetch - processPackages [anedya-dev-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anedya-dev-sdk-0.1.2.tar.gz]
+[2024-04-16 13:22:48] INFO root fetch - processPackages [anedya-dev-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anedya_dev_sdk-0.1.3.tar.gz]
+[2024-04-16 13:22:48] INFO root fetch - main [MainThread]: End processing [anedya-dev-sdk]: success
+[2024-04-16 13:22:48] INFO root fetch - processPackages [KUtil-jakubaugustyn]: Remove: archive file [/home/abi/fetcher/tmp/KUtil-jakubaugustyn-0.0.3.tar.gz]
+[2024-04-16 13:22:48] INFO root fetch - processPackages [KUtil-jakubaugustyn]: Remove: archive file [/home/abi/fetcher/tmp/kutil_jakubaugustyn-0.0.4.tar.gz]
+[2024-04-16 13:22:48] INFO root fetch - main [MainThread]: End processing [KUtil-jakubaugustyn]: success
+[2024-04-16 13:22:48] INFO root fetch - processPackages [sentry-ophio]: Remove: archive file [/home/abi/fetcher/tmp/sentry_ophio-0.2.6.tar.gz]
+[2024-04-16 13:22:48] INFO root fetch - processPackages [sentry-ophio]: Remove: archive file [/home/abi/fetcher/tmp/sentry_ophio-0.2.7.tar.gz]
+[2024-04-16 13:22:48] INFO root fetch - main [MainThread]: End processing [sentry-ophio]: success
+[2024-04-16 13:22:48] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.1.3.zip]
+[2024-04-16 13:22:48] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.1.4.zip]
+[2024-04-16 13:22:48] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-16 13:22:49] INFO root fetch - processPackages [nio-bot]: Downloading https://files.pythonhosted.org/packages/c6/3f/c93bf6ed952e2fb6ba6df3a288511ec72df6fb169464b7c332dfaed6ae57/nio-bot-1.1.0b1.post1.tar.gz
+[2024-04-16 13:22:49] INFO root fetch - processPackages [nio-bot]: executing diffoscope
+[2024-04-16 13:22:49] INFO root fetch - processPackages [nio-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nio-bot-1.1.0b1.tar.gz tmp/nio-bot-1.1.0b1.post1.tar.gz --markdown 20240416/n/nio-bot/1.1.0b1-1.1.0b1.post1/README.md --exclude *.pyd
+[2024-04-16 13:22:49] INFO root fetch - processPackages [bzt]: Remove: archive file [/home/abi/fetcher/tmp/bzt-1.9.5.tar.gz]
+[2024-04-16 13:22:49] INFO root fetch - processPackages [bzt]: Remove: archive file [/home/abi/fetcher/tmp/bzt-1.9.6.tar.gz]
+[2024-04-16 13:22:49] INFO root fetch - main [MainThread]: End processing [bzt]: success
+[2024-04-16 13:22:50] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.8.tar.gz]
+[2024-04-16 13:22:50] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.9.tar.gz]
+[2024-04-16 13:22:50] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2024-04-16 13:22:50] INFO root fetch - processPackages [nio-bot]: Remove: archive file [/home/abi/fetcher/tmp/nio-bot-1.1.0b1.tar.gz]
+[2024-04-16 13:22:50] INFO root fetch - processPackages [nio-bot]: Remove: archive file [/home/abi/fetcher/tmp/nio-bot-1.1.0b1.post1.tar.gz]
+[2024-04-16 13:22:50] INFO root fetch - main [MainThread]: End processing [nio-bot]: success
+[2024-04-16 13:22:50] INFO root fetch - main [MainThread]: Store serial: [22786755]
