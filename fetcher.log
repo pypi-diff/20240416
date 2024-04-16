@@ -7621,3 +7621,30 @@
 [2024-04-16 08:26:56] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-04-16 08:26:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-sale-price]: success
 [2024-04-16 08:26:56] INFO root fetch - main [MainThread]: Store serial: [22783207]
+[2024-04-16 08:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783207]
+[2024-04-16 08:29:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 08:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sophia-opt
+[2024-04-16 08:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-collector
+[2024-04-16 08:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sophia-opt
+[2024-04-16 08:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvtag
+[2024-04-16 08:29:06] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 08:29:06] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/26/79/c4c890517d308b5d636c920eba6837683bd2b6ccc8a3198e85972fe68399/telegram_collector-0.2.8.tar.gz
+[2024-04-16 08:29:06] WARNING root fetch - processPackages [sophia-opt]: Skipping, unable to determine old version
+[2024-04-16 08:29:06] INFO root fetch - main [MainThread]: End processing [sophia-opt] error
+[2024-04-16 08:29:06] WARNING root fetch - processPackages [sophia-opt]: Skipping, unable to determine old version
+[2024-04-16 08:29:06] INFO root fetch - main [MainThread]: End processing [sophia-opt] error
+[2024-04-16 08:29:06] INFO root fetch - processPackages [dvtag]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-16 08:29:06] INFO root fetch - processPackages [dvtag]: Downloading https://files.pythonhosted.org/packages/b0/e9/1a9f962366d2e846ec21e213d7cb85356a9abdd197f521019887f44fd798/dvtag-0.6.4-py3-none-any.whl
+[2024-04-16 08:29:06] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/0e/62/1828912e5e192f4be063b427eb3b26519d05a73fa112d81b9d661d767a26/telegram_collector-0.2.9.tar.gz
+[2024-04-16 08:29:06] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-16 08:29:06] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.8.tar.gz tmp/telegram_collector-0.2.9.tar.gz --markdown 20240416/t/telegram-collector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 08:29:06] INFO root fetch - processPackages [dvtag]: Downloading https://files.pythonhosted.org/packages/e5/9f/9c1c16831d3ef32663b9907b8924e6ae7e5878deff0dfcb6a16f8f09cc8c/dvtag-0.6.5.tar.gz
+[2024-04-16 08:29:06] INFO root fetch - processPackages [dvtag]: executing diffoscope
+[2024-04-16 08:29:06] INFO root fetch - processPackages [dvtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvtag-0.6.4-py3-none-any.whl.zip tmp/dvtag-0.6.5.tar.gz --markdown 20240416/d/dvtag/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-16 08:29:07] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.8.tar.gz]
+[2024-04-16 08:29:07] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.9.tar.gz]
+[2024-04-16 08:29:07] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-16 08:29:07] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.6.4-py3-none-any.whl.zip]
+[2024-04-16 08:29:07] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.6.5.tar.gz]
+[2024-04-16 08:29:07] INFO root fetch - main [MainThread]: End processing [dvtag]: success
+[2024-04-16 08:29:07] INFO root fetch - main [MainThread]: Store serial: [22783222]
