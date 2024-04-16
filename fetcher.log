@@ -16729,3 +16729,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:11:58] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.9.1.tar.gz]
 [2024-04-16 14:11:58] INFO root fetch - main [MainThread]: End processing [niceml]: success
 [2024-04-16 14:11:58] INFO root fetch - main [MainThread]: Store serial: [22787290]
+[2024-04-16 14:14:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787290]
+[2024-04-16 14:14:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 14:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wiwb
+[2024-04-16 14:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meshed
+[2024-04-16 14:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atomID
+[2024-04-16 14:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coolML
+[2024-04-16 14:14:07] WARNING root fetch - processPackages [atomID]: Skipping, unable to determine old version
+[2024-04-16 14:14:07] INFO root fetch - main [MainThread]: End processing [atomID] error
+[2024-04-16 14:14:07] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 14:14:07] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/ec/66/ec18e469de7a31199ec17594f774aa629498f1f4b963deea16117918bef2/meshed-0.1.98.tar.gz
+[2024-04-16 14:14:07] INFO root fetch - processPackages [wiwb]: New version: [2024.4.0] Old Version: [2024.3.0]
+[2024-04-16 14:14:07] WARNING root fetch - processPackages [coolML]: Skipping, unable to determine old version
+[2024-04-16 14:14:07] INFO root fetch - main [MainThread]: End processing [coolML] error
+[2024-04-16 14:14:07] INFO root fetch - processPackages [wiwb]: Downloading https://files.pythonhosted.org/packages/9f/00/6a66db3bb0b622a1ffd241d0acb1ac63667be2475bd47bd344263ec8898b/wiwb-2024.3.0.tar.gz
+[2024-04-16 14:14:07] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/52/c3/21e2c03ab6607bd25fb9f6efb994798b3e75db906daf491bf961ee733450/meshed-0.1.99.tar.gz
+[2024-04-16 14:14:07] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2024-04-16 14:14:07] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20240416/m/meshed/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 14:14:07] INFO root fetch - processPackages [wiwb]: Downloading https://files.pythonhosted.org/packages/5a/91/2a57567b21d6315ad466de6906f8c6e3e16d14a5df7c8fa6815e1bcef12e/wiwb-2024.4.0.tar.gz
+[2024-04-16 14:14:07] INFO root fetch - processPackages [wiwb]: executing diffoscope
+[2024-04-16 14:14:07] INFO root fetch - processPackages [wiwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiwb-2024.3.0.tar.gz tmp/wiwb-2024.4.0.tar.gz --markdown 20240416/w/wiwb/2024.3.0-2024.4.0/README.md --exclude *.pyd
+[2024-04-16 14:14:08] INFO root fetch - processPackages [wiwb]: Remove: archive file [/home/abi/fetcher/tmp/wiwb-2024.3.0.tar.gz]
+[2024-04-16 14:14:08] INFO root fetch - processPackages [wiwb]: Remove: archive file [/home/abi/fetcher/tmp/wiwb-2024.4.0.tar.gz]
+[2024-04-16 14:14:08] INFO root fetch - main [MainThread]: End processing [wiwb]: success
+[2024-04-16 14:14:08] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.98.tar.gz]
+[2024-04-16 14:14:08] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.99.tar.gz]
+[2024-04-16 14:14:08] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2024-04-16 14:14:08] INFO root fetch - main [MainThread]: Store serial: [22787307]
