@@ -3620,3 +3620,18 @@
 [2024-04-16 03:50:41] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
 [2024-04-16 03:50:41] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-04-16 03:50:41] INFO root fetch - main [MainThread]: Store serial: [22781388]
+[2024-04-16 03:52:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781388]
+[2024-04-16 03:52:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 03:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mattmazda
+[2024-04-16 03:52:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: immanuel
+[2024-04-16 03:52:49] INFO root fetch - processPackages [immanuel]: New version: [1.3.1] Old Version: [1.2.4]
+[2024-04-16 03:52:49] WARNING root fetch - processPackages [mattmazda]: Skipping, unable to determine old version
+[2024-04-16 03:52:49] INFO root fetch - main [MainThread]: End processing [mattmazda] error
+[2024-04-16 03:52:49] INFO root fetch - processPackages [immanuel]: Downloading https://files.pythonhosted.org/packages/0d/8b/bea29884b488aeaec8de88163329032e02ef183e8891ddd21ac2669f4f6e/immanuel-1.2.4.tar.gz
+[2024-04-16 03:52:50] INFO root fetch - processPackages [immanuel]: Downloading https://files.pythonhosted.org/packages/ae/98/1e7cce7cda4b99aa52d656b1746f82bc2e380834d786587112bbcbee465e/immanuel-1.3.1.tar.gz
+[2024-04-16 03:52:50] INFO root fetch - processPackages [immanuel]: executing diffoscope
+[2024-04-16 03:52:50] INFO root fetch - processPackages [immanuel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immanuel-1.2.4.tar.gz tmp/immanuel-1.3.1.tar.gz --markdown 20240416/i/immanuel/1.2.4-1.3.1/README.md --exclude *.pyd
+[2024-04-16 03:52:52] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.2.4.tar.gz]
+[2024-04-16 03:52:52] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.3.1.tar.gz]
+[2024-04-16 03:52:52] INFO root fetch - main [MainThread]: End processing [immanuel]: success
+[2024-04-16 03:52:52] INFO root fetch - main [MainThread]: Store serial: [22781396]
