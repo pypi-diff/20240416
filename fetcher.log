@@ -11283,3 +11283,102 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:40:08] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.74.0.tar.gz]
 [2024-04-16 10:40:08] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-04-16 10:40:08] INFO root fetch - main [MainThread]: Store serial: [22784690]
+[2024-04-16 10:42:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784690]
+[2024-04-16 10:42:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: katcp-codec
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toolforge-weld
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synch2jira
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iterdir
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geoinsight
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: virgo-modules
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nanoCEM
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: twinn-ml-interface
+[2024-04-16 10:42:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chipstream
+[2024-04-16 10:42:17] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.5.6] Old Version: [0.0.5.5]
+[2024-04-16 10:42:17] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-16 10:42:17] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-16 10:42:17] WARNING root fetch - processPackages [iterdir]: Skipping, unable to determine old version
+[2024-04-16 10:42:17] INFO root fetch - processPackages [iterdir]: Start processing: pcffont
+[2024-04-16 10:42:17] INFO root fetch - main [MainThread]: End processing [iterdir] error
+[2024-04-16 10:42:17] WARNING root fetch - processPackages [katcp-codec]: Skipping, unable to determine old version
+[2024-04-16 10:42:17] INFO root fetch - processPackages [katcp-codec]: Start processing: kuzu
+[2024-04-16 10:42:17] INFO root fetch - main [MainThread]: End processing [katcp-codec] error
+[2024-04-16 10:42:17] INFO root fetch - processPackages [toolforge-weld]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-16 10:42:17] INFO root fetch - processPackages [chipstream]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 10:42:17] INFO root fetch - processPackages [geoinsight]: New version: [0.8.1] Old Version: [0.7.0]
+[2024-04-16 10:42:17] INFO root fetch - processPackages [twinn-ml-interface]: New version: [0.3.2] Old Version: [0.3.1.dev0]
+[2024-04-16 10:42:17] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/54/d4/2d84a752b75ada677f105d10a35e7407344ecc889078c710400ee5a51549/nanoCEM-0.0.5.5.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [virgo-modules]: New version: [0.0.79] Old Version: [0.0.78]
+[2024-04-16 10:42:17] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [pcffont]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 10:42:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev35] Old Version: [0.3.3.dev34]
+[2024-04-16 10:42:17] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/ad/78/2a9a567045e6354786918c00cd19955229c9088c0af5e645a5a94639694c/pcffont-0.0.3.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [toolforge-weld]: Downloading https://files.pythonhosted.org/packages/a9/2c/ab706bbf5eadc6d246c3e8c284cdd1d6bcbe7790bf931a351b62e6bc0e9b/toolforge-weld-1.4.0.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/9c/25/ecb56ca0807a6916cec8856309cb2173eb180f96e59c8927683b3e46c75e/virgo_modules-0.0.78.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/98/dc/0aa29722d435507f139ee353e1dd17a4f7f5aa6937fbd93b2255c7d6871d/kuzu-0.3.3.dev34.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [geoinsight]: Downloading https://files.pythonhosted.org/packages/7b/8f/95c99728f914c7a40edae8a43cbc37f1535d4d865982ced064847770583a/geoinsight-0.7.0.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [chipstream]: Downloading https://files.pythonhosted.org/packages/58/1d/d0e675309c93e279aaee45a42650491e9a78b2d876d07e37f19cfe9283ac/chipstream-0.2.1.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [twinn-ml-interface]: Downloading https://files.pythonhosted.org/packages/8e/74/4dbc27b420bbba1ebd7e95792a453661f2127b9247a975236286e574742a/twinn-ml-interface-0.3.1.dev0.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-16 10:42:17] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/fd/3d/cb6464fccddbe572868c7ac53652ca7afe9fc62334db723c2b694c3fbb1d/nanoCEM-0.0.5.6.tar.gz
+[2024-04-16 10:42:18] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-16 10:42:18] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240416/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-16 10:42:18] INFO root fetch - processPackages [toolforge-weld]: Downloading https://files.pythonhosted.org/packages/91/c4/2a741cdcad18f3d7de28bc7816c445caf8cc81f235644c1bb4cf7d4094eb/toolforge_weld-1.5.0.tar.gz
+[2024-04-16 10:42:18] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-16 10:42:18] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/66/4c/945e4cb8967af9e63993d489d00238ebe7605bc8200de6bbff1689b0eba8/virgo_modules-0.0.79.tar.gz
+[2024-04-16 10:42:18] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2024-04-16 10:42:18] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.5.5.tar.gz tmp/nanoCEM-0.0.5.6.tar.gz --markdown 20240416/n/nanoCEM/0.0.5.5-0.0.5.6/README.md --exclude *.pyd
+[2024-04-16 10:42:18] INFO root fetch - processPackages [geoinsight]: Downloading https://files.pythonhosted.org/packages/d7/11/18febd533199013c6922e872644d9266bd86294576d1c3b4edd70bd11fca/geoinsight-0.8.1.tar.gz
+[2024-04-16 10:42:18] INFO root fetch - processPackages [twinn-ml-interface]: Downloading https://files.pythonhosted.org/packages/47/38/96eb5613bcaff129135cebaa8f490cb1d0e759eba96ca1c9f160297b89ec/twinn_ml_interface-0.3.2.tar.gz
+[2024-04-16 10:42:18] INFO root fetch - processPackages [chipstream]: Downloading https://files.pythonhosted.org/packages/0c/06/1a5cad7d8de2f35f7ca927b4d128de5abab3aae1ec73fc07b0206a0e1801/chipstream-0.2.2.tar.gz
+[2024-04-16 10:42:18] INFO root fetch - processPackages [virgo-modules]: executing diffoscope
+[2024-04-16 10:42:18] INFO root fetch - processPackages [virgo-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virgo_modules-0.0.78.tar.gz tmp/virgo_modules-0.0.79.tar.gz --markdown 20240416/v/virgo-modules/0.0.78-0.0.79/README.md --exclude *.pyd
+[2024-04-16 10:42:18] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/47/8c/f9a9b5e0377db09235c1e4a967509019912f490e88211a645cc136555835/pcffont-0.0.4.tar.gz
+[2024-04-16 10:42:18] INFO root fetch - processPackages [toolforge-weld]: executing diffoscope
+[2024-04-16 10:42:18] INFO root fetch - processPackages [toolforge-weld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolforge-weld-1.4.0.tar.gz tmp/toolforge_weld-1.5.0.tar.gz --markdown 20240416/t/toolforge-weld/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-16 10:42:18] INFO root fetch - processPackages [twinn-ml-interface]: executing diffoscope
+[2024-04-16 10:42:18] INFO root fetch - processPackages [twinn-ml-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinn-ml-interface-0.3.1.dev0.tar.gz tmp/twinn_ml_interface-0.3.2.tar.gz --markdown 20240416/t/twinn-ml-interface/0.3.1.dev0-0.3.2/README.md --exclude *.pyd
+[2024-04-16 10:42:18] INFO root fetch - processPackages [chipstream]: executing diffoscope
+[2024-04-16 10:42:18] INFO root fetch - processPackages [chipstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chipstream-0.2.1.tar.gz tmp/chipstream-0.2.2.tar.gz --markdown 20240416/c/chipstream/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-16 10:42:18] INFO root fetch - processPackages [geoinsight]: executing diffoscope
+[2024-04-16 10:42:18] INFO root fetch - processPackages [geoinsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoinsight-0.7.0.tar.gz tmp/geoinsight-0.8.1.tar.gz --markdown 20240416/g/geoinsight/0.7.0-0.8.1/README.md --exclude *.pyd
+[2024-04-16 10:42:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-16 10:42:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240416/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-16 10:42:18] INFO root fetch - processPackages [pcffont]: executing diffoscope
+[2024-04-16 10:42:18] INFO root fetch - processPackages [pcffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcffont-0.0.3.tar.gz tmp/pcffont-0.0.4.tar.gz --markdown 20240416/p/pcffont/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 10:42:18] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/5d/91/299508d9e56c5a69893273adf2cecbdd1a0f129d70e65578adf7601e31a7/kuzu-0.3.3.dev35.tar.gz
+[2024-04-16 10:42:18] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-16 10:42:18] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-16 10:42:19] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-16 10:42:19] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev34.tar.gz tmp/kuzu-0.3.3.dev35.tar.gz --markdown 20240416/k/kuzu/0.3.3.dev34-0.3.3.dev35/README.md --exclude *.pyd
+[2024-04-16 10:42:19] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.5.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.6.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2024-04-16 10:42:19] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.78.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.79.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - main [MainThread]: End processing [virgo-modules]: success
+[2024-04-16 10:42:19] INFO root fetch - processPackages [twinn-ml-interface]: Remove: archive file [/home/abi/fetcher/tmp/twinn-ml-interface-0.3.1.dev0.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - processPackages [twinn-ml-interface]: Remove: archive file [/home/abi/fetcher/tmp/twinn_ml_interface-0.3.2.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - main [MainThread]: End processing [twinn-ml-interface]: success
+[2024-04-16 10:42:19] INFO root fetch - processPackages [toolforge-weld]: Remove: archive file [/home/abi/fetcher/tmp/toolforge-weld-1.4.0.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - processPackages [toolforge-weld]: Remove: archive file [/home/abi/fetcher/tmp/toolforge_weld-1.5.0.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - processPackages [geoinsight]: Remove: archive file [/home/abi/fetcher/tmp/geoinsight-0.7.0.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - main [MainThread]: End processing [toolforge-weld]: success
+[2024-04-16 10:42:19] INFO root fetch - processPackages [geoinsight]: Remove: archive file [/home/abi/fetcher/tmp/geoinsight-0.8.1.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - main [MainThread]: End processing [geoinsight]: success
+[2024-04-16 10:42:19] INFO root fetch - processPackages [chipstream]: Remove: archive file [/home/abi/fetcher/tmp/chipstream-0.2.1.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - processPackages [chipstream]: Remove: archive file [/home/abi/fetcher/tmp/chipstream-0.2.2.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - main [MainThread]: End processing [chipstream]: success
+[2024-04-16 10:42:19] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.3.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.4.tar.gz]
+[2024-04-16 10:42:19] INFO root fetch - main [MainThread]: End processing [pcffont]: success
+[2024-04-16 10:42:23] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-16 10:42:23] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-16 10:42:23] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-16 10:42:25] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev34.tar.gz]
+[2024-04-16 10:42:25] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev35.tar.gz]
+[2024-04-16 10:42:25] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-16 10:42:25] INFO root fetch - main [MainThread]: Store serial: [22784731]
