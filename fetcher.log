@@ -20180,3 +20180,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:59:24] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b0.tar.gz]
 [2024-04-16 15:59:24] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
 [2024-04-16 15:59:24] INFO root fetch - main [MainThread]: Store serial: [22788598]
+[2024-04-16 16:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788598]
+[2024-04-16 16:01:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-jm
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opensr-model
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyProfQueue
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyoptinterface
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: octarine3d
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ourJWT
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hypatorch
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spine-segmentation
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rustfrecord
+[2024-04-16 16:01:34] INFO root fetch - processPackages [opensr-model]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-16 16:01:34] INFO root fetch - processPackages [PyProfQueue]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ourJWT]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-04-16 16:01:34] INFO root fetch - processPackages [sbcli-jm]: New version: [3.0.0] Old Version: [2.1.3]
+[2024-04-16 16:01:34] INFO root fetch - processPackages [spine-segmentation]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 16:01:34] INFO root fetch - processPackages [rustfrecord]: New version: [0.1.4] Old Version: [0.1.0]
+[2024-04-16 16:01:34] INFO root fetch - processPackages [opensr-model]: Downloading https://files.pythonhosted.org/packages/78/e0/167fb61d475fb7532e42f938ae52ab86347ca699cdbcb82f7cd8bdb06df6/opensr-model-0.2.7.tar.gz
+[2024-04-16 16:01:34] INFO root fetch - processPackages [hypatorch]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 16:01:34] INFO root fetch - processPackages [pyoptinterface]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 16:01:34] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/a8/d3/de4b4bdcbbe0507543bd419b80c797f11cd1d64ec0805529a43e1489ad3c/PyProfQueue-0.1.8.tar.gz
+[2024-04-16 16:01:34] INFO root fetch - processPackages [octarine3d]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 16:01:34] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/78/b8/ae47fc6a805a17bfae00c5e2079924b74d706496efe968df9a9211fe29d5/sbcli-jm-2.1.3.zip
+[2024-04-16 16:01:34] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/0d/11/4e9dc9054c9bd26c474073b03949f8529919b49df39bf065c8eee310acfc/spine_segmentation-0.2.8.tar.gz
+[2024-04-16 16:01:34] INFO root fetch - processPackages [ourJWT]: Downloading https://files.pythonhosted.org/packages/57/6b/38fe3c94320bcaa69dd92c816b13dde1232a8ba1033cc076723d301b7729/ourJWT-0.0.6.tar.gz
+[2024-04-16 16:01:34] INFO root fetch - processPackages [rustfrecord]: Downloading https://files.pythonhosted.org/packages/77/52/1952105ddebc16703465ef8cb6caa786017b8cd65a01252f2293bdb7ff13/rustfrecord-0.1.0.tar.gz
+[2024-04-16 16:01:34] INFO root fetch - processPackages [hypatorch]: Downloading https://files.pythonhosted.org/packages/0d/2d/0fa5b24e7109f6373e6f37970160deb67e911342bf09bea261a454470723/hypatorch-0.2.8.tar.gz
+[2024-04-16 16:01:34] INFO root fetch - processPackages [pyoptinterface]: Downloading https://files.pythonhosted.org/packages/fd/60/cfe875b4439e8bc8d6d311e7006326cac962a64d6b13ff8dde54c74e03f8/pyoptinterface-0.1.0-cp39-cp39-win_amd64.whl
+[2024-04-16 16:01:34] INFO root fetch - processPackages [octarine3d]: Downloading https://files.pythonhosted.org/packages/40/22/c79ede3020949a75b3e9478bee9499a65df4cb199437a8338b3e1adbc23e/octarine3d-0.1.1.tar.gz
+[2024-04-16 16:01:34] INFO root fetch - processPackages [opensr-model]: Downloading https://files.pythonhosted.org/packages/d2/39/8c99ea65521f36152ad0e5cc01b2b183973c6680e8fef68e216e830e1b88/opensr_model-0.2.8.tar.gz
+[2024-04-16 16:01:34] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/35/e6/c978d3a1845462d2d7cd5b28c252671fa04b46a945a269bcb636ca2d080d/spine_segmentation-0.2.9.tar.gz
+[2024-04-16 16:01:34] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/8e/e9/5489943a79e83cbcae18cfd795062cc1a4b30dea1b109d1bf581a5756406/PyProfQueue-0.1.9.tar.gz
+[2024-04-16 16:01:35] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/46/77/2d4c30b44fb04a32655aab0c23dbb99c046b772e20cbb1fcc9ed147844bf/sbcli_jm-3.0.0.zip
+[2024-04-16 16:01:35] INFO root fetch - processPackages [opensr-model]: executing diffoscope
+[2024-04-16 16:01:35] INFO root fetch - processPackages [opensr-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-model-0.2.7.tar.gz tmp/opensr_model-0.2.8.tar.gz --markdown 20240416/o/opensr-model/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-16 16:01:35] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-16 16:01:35] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.2.8.tar.gz tmp/spine_segmentation-0.2.9.tar.gz --markdown 20240416/s/spine-segmentation/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 16:01:35] INFO root fetch - processPackages [ourJWT]: Downloading https://files.pythonhosted.org/packages/84/2b/f538b16f6c2a921028d3cd06eea3c2304b4f1d7c06fb9a1bf7eb16d02b28/ourJWT-0.1.0.tar.gz
+[2024-04-16 16:01:35] INFO root fetch - processPackages [PyProfQueue]: executing diffoscope
+[2024-04-16 16:01:35] INFO root fetch - processPackages [PyProfQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProfQueue-0.1.8.tar.gz tmp/PyProfQueue-0.1.9.tar.gz --markdown 20240416/P/PyProfQueue/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 16:01:35] INFO root fetch - processPackages [rustfrecord]: Downloading https://files.pythonhosted.org/packages/58/93/6e2a198792f1408e53845e004c1e7b2b9180b317f40baa2b5233a8419745/rustfrecord-0.1.4.tar.gz
+[2024-04-16 16:01:35] INFO root fetch - processPackages [hypatorch]: Downloading https://files.pythonhosted.org/packages/b5/f8/6d4d62c50691058b4f141658ee7a20aca4a4f9963702b8e3b28f525a6c0f/hypatorch-0.2.9.tar.gz
+[2024-04-16 16:01:35] INFO root fetch - processPackages [octarine3d]: Downloading https://files.pythonhosted.org/packages/db/3c/994dcc5dec8f1871c7de21776954919cfa8cf7651282678b3e6d83d136ab/octarine3d-0.1.2.tar.gz
+[2024-04-16 16:01:35] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-16 16:01:35] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-jm-2.1.3.zip tmp/sbcli_jm-3.0.0.zip --markdown 20240416/s/sbcli-jm/2.1.3-3.0.0/README.md --exclude *.pyd
+[2024-04-16 16:01:35] INFO root fetch - processPackages [ourJWT]: executing diffoscope
+[2024-04-16 16:01:35] INFO root fetch - processPackages [ourJWT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourJWT-0.0.6.tar.gz tmp/ourJWT-0.1.0.tar.gz --markdown 20240416/o/ourJWT/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-04-16 16:01:35] INFO root fetch - processPackages [rustfrecord]: executing diffoscope
+[2024-04-16 16:01:35] INFO root fetch - processPackages [rustfrecord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustfrecord-0.1.0.tar.gz tmp/rustfrecord-0.1.4.tar.gz --markdown 20240416/r/rustfrecord/0.1.0-0.1.4/README.md --exclude *.pyd
+[2024-04-16 16:01:35] INFO root fetch - processPackages [pyoptinterface]: Downloading https://files.pythonhosted.org/packages/4a/14/9c11a2a96b38b268d9aab6b6a3deaa871283770a82ab5856367c03effdb1/pyoptinterface-0.1.1-cp39-cp39-win_amd64.whl
+[2024-04-16 16:01:35] INFO root fetch - processPackages [hypatorch]: executing diffoscope
+[2024-04-16 16:01:35] INFO root fetch - processPackages [hypatorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypatorch-0.2.8.tar.gz tmp/hypatorch-0.2.9.tar.gz --markdown 20240416/h/hypatorch/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 16:01:35] INFO root fetch - processPackages [octarine3d]: executing diffoscope
+[2024-04-16 16:01:35] INFO root fetch - processPackages [octarine3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octarine3d-0.1.1.tar.gz tmp/octarine3d-0.1.2.tar.gz --markdown 20240416/o/octarine3d/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 16:01:35] INFO root fetch - processPackages [pyoptinterface]: executing diffoscope
+[2024-04-16 16:01:35] INFO root fetch - processPackages [pyoptinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoptinterface-0.1.0-cp39-cp39-win_amd64.whl.zip tmp/pyoptinterface-0.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20240416/p/pyoptinterface/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 16:01:35] INFO root fetch - processPackages [opensr-model]: Remove: archive file [/home/abi/fetcher/tmp/opensr-model-0.2.7.tar.gz]
+[2024-04-16 16:01:35] INFO root fetch - processPackages [opensr-model]: Remove: archive file [/home/abi/fetcher/tmp/opensr_model-0.2.8.tar.gz]
+[2024-04-16 16:01:35] INFO root fetch - main [MainThread]: End processing [opensr-model]: success
+[2024-04-16 16:01:36] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.8.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.9.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - main [MainThread]: End processing [PyProfQueue]: success
+[2024-04-16 16:01:36] INFO root fetch - processPackages [ourJWT]: Remove: archive file [/home/abi/fetcher/tmp/ourJWT-0.0.6.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - processPackages [ourJWT]: Remove: archive file [/home/abi/fetcher/tmp/ourJWT-0.1.0.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - main [MainThread]: End processing [ourJWT]: success
+[2024-04-16 16:01:36] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.8.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.9.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-16 16:01:36] INFO root fetch - processPackages [rustfrecord]: Remove: archive file [/home/abi/fetcher/tmp/rustfrecord-0.1.0.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - processPackages [rustfrecord]: Remove: archive file [/home/abi/fetcher/tmp/rustfrecord-0.1.4.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - main [MainThread]: End processing [rustfrecord]: success
+[2024-04-16 16:01:36] INFO root fetch - processPackages [hypatorch]: Remove: archive file [/home/abi/fetcher/tmp/hypatorch-0.2.8.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - processPackages [hypatorch]: Remove: archive file [/home/abi/fetcher/tmp/hypatorch-0.2.9.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - main [MainThread]: End processing [hypatorch]: success
+[2024-04-16 16:01:36] INFO root fetch - processPackages [octarine3d]: Remove: archive file [/home/abi/fetcher/tmp/octarine3d-0.1.1.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - processPackages [octarine3d]: Remove: archive file [/home/abi/fetcher/tmp/octarine3d-0.1.2.tar.gz]
+[2024-04-16 16:01:36] INFO root fetch - main [MainThread]: End processing [octarine3d]: success
+[2024-04-16 16:01:36] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-jm-2.1.3.zip]
+[2024-04-16 16:01:36] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-3.0.0.zip]
+[2024-04-16 16:01:36] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-16 16:01:36] INFO root fetch - processPackages [pyoptinterface]: Remove: archive file [/home/abi/fetcher/tmp/pyoptinterface-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 16:01:36] INFO root fetch - processPackages [pyoptinterface]: Remove: archive file [/home/abi/fetcher/tmp/pyoptinterface-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 16:01:36] INFO root fetch - main [MainThread]: End processing [pyoptinterface]: success
+[2024-04-16 16:01:36] INFO root fetch - main [MainThread]: Store serial: [22788639]
