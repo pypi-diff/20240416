@@ -4047,3 +4047,24 @@
 [2024-04-16 04:21:13] INFO root fetch - processPackages [LabGym]: Remove: archive file [/home/abi/fetcher/tmp/labgym-2.4.4.tar.gz]
 [2024-04-16 04:21:13] INFO root fetch - main [MainThread]: End processing [LabGym]: success
 [2024-04-16 04:21:13] INFO root fetch - main [MainThread]: Store serial: [22781565]
+[2024-04-16 04:23:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781565]
+[2024-04-16 04:23:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 04:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ligo.skymap
+[2024-04-16 04:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdod
+[2024-04-16 04:23:22] INFO root fetch - processPackages [mdod]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 04:23:22] INFO root fetch - processPackages [ligo.skymap]: New version: [2.0.0rc4] Old Version: [2.0.0rc3]
+[2024-04-16 04:23:22] INFO root fetch - processPackages [mdod]: Downloading https://files.pythonhosted.org/packages/47/91/7bf4a2183f79a5002b6e484cb9e9a2c31ea5f5e1b80a139ed4c3aa42aba8/mdod-0.1.0.tar.gz
+[2024-04-16 04:23:22] INFO root fetch - processPackages [ligo.skymap]: Downloading https://files.pythonhosted.org/packages/b8/3b/ec9d4e5ee5cf78914a606d2b86dad95b2f0731442b0b2161a2a2ebe109c7/ligo.skymap-2.0.0rc3.tar.gz
+[2024-04-16 04:23:22] INFO root fetch - processPackages [mdod]: Downloading https://files.pythonhosted.org/packages/11/e5/7d38b44746e4517f63ab859d9e96483017c76ff587b909f8e2b6a4fd3d22/mdod-0.1.1.tar.gz
+[2024-04-16 04:23:22] INFO root fetch - processPackages [mdod]: executing diffoscope
+[2024-04-16 04:23:22] INFO root fetch - processPackages [mdod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdod-0.1.0.tar.gz tmp/mdod-0.1.1.tar.gz --markdown 20240416/m/mdod/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 04:23:22] INFO root fetch - processPackages [ligo.skymap]: Downloading https://files.pythonhosted.org/packages/1c/5c/54f46ee41a660863082a56308118cb884daf40f752f3150827c54aa0428d/ligo.skymap-2.0.0rc4.tar.gz
+[2024-04-16 04:23:23] INFO root fetch - processPackages [ligo.skymap]: executing diffoscope
+[2024-04-16 04:23:23] INFO root fetch - processPackages [ligo.skymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo.skymap-2.0.0rc3.tar.gz tmp/ligo.skymap-2.0.0rc4.tar.gz --markdown 20240416/l/ligo.skymap/2.0.0rc3-2.0.0rc4/README.md --exclude *.pyd
+[2024-04-16 04:23:23] INFO root fetch - processPackages [mdod]: Remove: archive file [/home/abi/fetcher/tmp/mdod-0.1.0.tar.gz]
+[2024-04-16 04:23:23] INFO root fetch - processPackages [mdod]: Remove: archive file [/home/abi/fetcher/tmp/mdod-0.1.1.tar.gz]
+[2024-04-16 04:23:23] INFO root fetch - main [MainThread]: End processing [mdod]: success
+[2024-04-16 04:23:24] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo.skymap-2.0.0rc3.tar.gz]
+[2024-04-16 04:23:24] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo.skymap-2.0.0rc4.tar.gz]
+[2024-04-16 04:23:24] INFO root fetch - main [MainThread]: End processing [ligo.skymap]: success
+[2024-04-16 04:23:24] INFO root fetch - main [MainThread]: Store serial: [22781575]
