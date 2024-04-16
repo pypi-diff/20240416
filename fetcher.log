@@ -12137,3 +12137,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:10:30] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.2-pp39-pypy39_pp73-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
 [2024-04-16 11:10:30] INFO root fetch - main [MainThread]: End processing [ccdexplorer-schema-parser]: success
 [2024-04-16 11:10:30] INFO root fetch - main [MainThread]: Store serial: [22785115]
+[2024-04-16 11:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785115]
+[2024-04-16 11:12:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eyes17
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipython-ngql
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrp-invenio-client
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bap-elk-backends
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-nebulagraph
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meteor
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyE2
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eyes17
+[2024-04-16 11:12:39] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-16 11:12:39] INFO root fetch - processPackages [nrp-invenio-client]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-16 11:12:39] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.11.1]
+[2024-04-16 11:12:39] INFO root fetch - processPackages [meteor]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-16 11:12:39] INFO root fetch - processPackages [eyes17]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 11:12:39] INFO root fetch - processPackages [eyes17]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 11:12:39] INFO root fetch - processPackages [bap-elk-backends]: New version: [0.5.2rc1] Old Version: [0.5.2]
+[2024-04-16 11:12:39] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-04-16 11:12:39] INFO root fetch - processPackages [nrp-invenio-client]: Downloading https://files.pythonhosted.org/packages/70/c5/78a20faaa7630e692bb610cb20a28737e87471b3d5bd3db0b14d962f1261/nrp_invenio_client-0.3.0.tar.gz
+[2024-04-16 11:12:39] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/c7/dc/7bf4524e5604b717a805d0a4b86a3a876d3dcda9a974348b9c8870221915/jupyter_nebulagraph-0.11.1.tar.gz
+[2024-04-16 11:12:39] INFO root fetch - processPackages [bap-elk-backends]: Downloading https://files.pythonhosted.org/packages/0c/84/1497495ae1a22bfcaa19b57e85e50782246de13a8850e6b5f17aae1a2f5d/bap_elk_backends-0.5.2.tar.gz
+[2024-04-16 11:12:39] INFO root fetch - processPackages [meteor]: Downloading https://files.pythonhosted.org/packages/3c/00/dcdc6aeff6041dad73bc26ae0d441b05b1efdb21ffcbd99b1196377024e4/meteor-2.0.8.tar.gz
+[2024-04-16 11:12:39] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/de/3d/3d6998b934f55a028e30c4f6e8a6ccb5bf1315d89bcd1b8caaf3d867e3c7/eyes17-1.0.8.tar.gz
+[2024-04-16 11:12:39] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-04-16 11:12:39] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/de/3d/3d6998b934f55a028e30c4f6e8a6ccb5bf1315d89bcd1b8caaf3d867e3c7/eyes17-1.0.8.tar.gz
+[2024-04-16 11:12:39] WARNING root fetch - processPackages [meteor]: Skipping package: exceeds size limit 64959858>=10485760
+[2024-04-16 11:12:39] INFO root fetch - main [MainThread]: End processing [meteor] error
+[2024-04-16 11:12:39] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-04-16 11:12:39] INFO root fetch - processPackages [nrp-invenio-client]: Downloading https://files.pythonhosted.org/packages/9e/df/4c5911603d15e0c134844c2ba890fc0a3f591c226cd783274bdfec2095cb/nrp_invenio_client-0.3.1.tar.gz
+[2024-04-16 11:12:39] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-04-16 11:12:39] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240416/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-16 11:12:40] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-04-16 11:12:40] INFO root fetch - processPackages [nrp-invenio-client]: executing diffoscope
+[2024-04-16 11:12:40] INFO root fetch - processPackages [nrp-invenio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrp_invenio_client-0.3.0.tar.gz tmp/nrp_invenio_client-0.3.1.tar.gz --markdown 20240416/n/nrp-invenio-client/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-16 11:12:40] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/6b/c4/71e2c3544ce45f549a59c74ee3f327ede9a5b9168005bc0c577b9b309bc3/eyes17-1.0.9.tar.gz
+[2024-04-16 11:12:40] INFO root fetch - processPackages [eyes17]: Downloading https://files.pythonhosted.org/packages/6b/c4/71e2c3544ce45f549a59c74ee3f327ede9a5b9168005bc0c577b9b309bc3/eyes17-1.0.9.tar.gz
+[2024-04-16 11:12:40] INFO root fetch - processPackages [bap-elk-backends]: Downloading https://files.pythonhosted.org/packages/fe/be/891e0a107db74bf73fe2ef39fcd9d3ea4dc8e4245320ce86fffabc988acb/bap_elk_backends-0.5.2rc1.tar.gz
+[2024-04-16 11:12:40] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-04-16 11:12:40] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-04-16 11:12:40] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.11.1.tar.gz tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240416/j/jupyter-nebulagraph/0.11.1-0.9.1/README.md --exclude *.pyd
+[2024-04-16 11:12:40] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-04-16 11:12:40] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240416/i/ipython-ngql/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 11:12:40] INFO root fetch - processPackages [eyes17]: executing diffoscope
+[2024-04-16 11:12:40] INFO root fetch - processPackages [eyes17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes17-1.0.8.tar.gz tmp/eyes17-1.0.9.tar.gz --markdown 20240416/e/eyes17/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 11:12:40] INFO root fetch - processPackages [bap-elk-backends]: executing diffoscope
+[2024-04-16 11:12:40] INFO root fetch - processPackages [bap-elk-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bap_elk_backends-0.5.2.tar.gz tmp/bap_elk_backends-0.5.2rc1.tar.gz --markdown 20240416/b/bap-elk-backends/0.5.2-0.5.2rc1/README.md --exclude *.pyd
+[2024-04-16 11:12:40] INFO root fetch - processPackages [eyes17]: executing diffoscope
+[2024-04-16 11:12:40] INFO root fetch - processPackages [eyes17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes17-1.0.8.tar.gz tmp/eyes17-1.0.9.tar.gz --markdown 20240416/e/eyes17/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 11:12:41] INFO root fetch - processPackages [nrp-invenio-client]: Remove: archive file [/home/abi/fetcher/tmp/nrp_invenio_client-0.3.0.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - processPackages [nrp-invenio-client]: Remove: archive file [/home/abi/fetcher/tmp/nrp_invenio_client-0.3.1.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - main [MainThread]: End processing [nrp-invenio-client]: success
+[2024-04-16 11:12:41] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.11.1.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-04-16 11:12:41] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-04-16 11:12:41] INFO root fetch - processPackages [bap-elk-backends]: Remove: archive file [/home/abi/fetcher/tmp/bap_elk_backends-0.5.2.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - processPackages [bap-elk-backends]: Remove: archive file [/home/abi/fetcher/tmp/bap_elk_backends-0.5.2rc1.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - main [MainThread]: End processing [bap-elk-backends]: success
+[2024-04-16 11:12:41] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-04-16 11:12:41] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.8.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - processPackages [eyes17]: Remove: archive file [/home/abi/fetcher/tmp/eyes17-1.0.9.tar.gz]
+[2024-04-16 11:12:41] INFO root fetch - main [MainThread]: End processing [eyes17]: success
+[2024-04-16 11:12:41] INFO root fetch - main [MainThread]: End processing [eyes17]: success
+[2024-04-16 11:12:41] INFO root fetch - main [MainThread]: Store serial: [22785155]
