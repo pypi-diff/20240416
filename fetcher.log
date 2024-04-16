@@ -23344,3 +23344,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:36:12] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-2.0.0.tar.gz]
 [2024-04-16 17:36:12] INFO root fetch - main [MainThread]: End processing [minet]: success
 [2024-04-16 17:36:12] INFO root fetch - main [MainThread]: Store serial: [22789981]
+[2024-04-16 17:38:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789981]
+[2024-04-16 17:38:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agenta
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flavpy
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intervalframe
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipyniivue
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manim-slides
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sbcli-dev
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embixtools
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyflowline
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lde-online-dep
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataspecs
+[2024-04-16 17:38:22] INFO root fetch - processPackages [sbcli-dev]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-16 17:38:22] INFO root fetch - processPackages [intervalframe]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-16 17:38:22] WARNING root fetch - processPackages [lde-online-dep]: Skipping, unable to determine old version
+[2024-04-16 17:38:22] INFO root fetch - main [MainThread]: End processing [lde-online-dep] error
+[2024-04-16 17:38:22] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-16 17:38:22] INFO root fetch - processPackages [manim-slides]: New version: [5.1.4] Old Version: [5.1.3]
+[2024-04-16 17:38:22] INFO root fetch - processPackages [flavpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-16 17:38:22] INFO root fetch - processPackages [ipyniivue]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-04-16 17:38:22] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/2a/c9/da3c52c9d027675984987e7995e6e00f7f9728e5958b4f1bcb8ca1e7fa31/sbcli_dev-2.1.4.zip
+[2024-04-16 17:38:22] INFO root fetch - processPackages [dataspecs]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-16 17:38:22] INFO root fetch - processPackages [embixtools]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-16 17:38:22] INFO root fetch - processPackages [intervalframe]: Downloading https://files.pythonhosted.org/packages/04/bd/430be51bfb447a1f32b765d94cafdbc4aa4f26deaf9b96f1eb5b3eb2a001/intervalframe-1.1.4.tar.gz
+[2024-04-16 17:38:22] INFO root fetch - processPackages [pyflowline]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-16 17:38:22] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [manim-slides]: Downloading https://files.pythonhosted.org/packages/ab/64/22f6583e5eef4dbe5a4fa419a1f09e2c796c947f3f9d9df7acc6d3eda24d/manim_slides-5.1.3.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [flavpy]: Downloading https://files.pythonhosted.org/packages/45/02/95c18019a044ee25d1b0beab5f35d1177afc718054954b2bb8485da85a66/flavpy-1.0.1.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [ipyniivue]: Downloading https://files.pythonhosted.org/packages/03/bd/ecc09a27b38e55a3edb0d2443c02d183095ac009dfd81a29401510e87f90/ipyniivue-1.1.0.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [embixtools]: Downloading https://files.pythonhosted.org/packages/49/79/686305a9d70056a1d5ddc4149e973ff9d8fe928384b933aaf177e11e42a8/embixtools-1.1.4.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [intervalframe]: Downloading https://files.pythonhosted.org/packages/08/03/66cb61ddb98fe853bf14cd51560b41cbc2d3626a061a47de2e233cae17db/intervalframe-1.1.5.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [dataspecs]: Downloading https://files.pythonhosted.org/packages/ae/78/e0000c43938faa3773cea363095509caae3a03a6778a4bff99d4c9c5fad7/dataspecs-0.2.0.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [pyflowline]: Downloading https://files.pythonhosted.org/packages/30/1a/1e6154644b81684a319f50bf5a0689e9d783c99701ea4b683fee45200822/pyflowline-0.3.4.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [intervalframe]: executing diffoscope
+[2024-04-16 17:38:23] INFO root fetch - processPackages [intervalframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intervalframe-1.1.4.tar.gz tmp/intervalframe-1.1.5.tar.gz --markdown 20240416/i/intervalframe/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-16 17:38:23] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/2a/60/17c7271370dcc0614132adb3df9dc04ed3298942aa41c7135eef0c8f701e/sbcli_dev-2.1.5.zip
+[2024-04-16 17:38:23] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-04-16 17:38:23] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240416/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-16 17:38:23] INFO root fetch - processPackages [manim-slides]: Downloading https://files.pythonhosted.org/packages/f8/28/406d3534c0fff47bcee8fab4d8dcb823c78d7f9f4c643b2f2cb094300b8f/manim_slides-5.1.4.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [embixtools]: Downloading https://files.pythonhosted.org/packages/4f/73/2224d7dc1abf6523c9a8e586ff8f2b9f4bfb9387b657f041138c43679084/embixtools-1.1.5.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [flavpy]: Downloading https://files.pythonhosted.org/packages/12/b1/b8f49e281d81453b3382a42c57abd365a29837fcafdf636ea1a549fe3dc9/flavpy-1.0.2.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [dataspecs]: Downloading https://files.pythonhosted.org/packages/81/73/251841562c745f99028ae7b729fd2a53052c386d7dfc2689b5f245395ca7/dataspecs-0.3.0.tar.gz
+[2024-04-16 17:38:23] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-16 17:38:23] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.1.4.zip tmp/sbcli_dev-2.1.5.zip --markdown 20240416/s/sbcli-dev/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-16 17:38:23] INFO root fetch - processPackages [flavpy]: executing diffoscope
+[2024-04-16 17:38:23] INFO root fetch - processPackages [flavpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flavpy-1.0.1.tar.gz tmp/flavpy-1.0.2.tar.gz --markdown 20240416/f/flavpy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-16 17:38:23] INFO root fetch - processPackages [manim-slides]: executing diffoscope
+[2024-04-16 17:38:23] INFO root fetch - processPackages [manim-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manim_slides-5.1.3.tar.gz tmp/manim_slides-5.1.4.tar.gz --markdown 20240416/m/manim-slides/5.1.3-5.1.4/README.md --exclude *.pyd
+[2024-04-16 17:38:23] INFO root fetch - processPackages [embixtools]: executing diffoscope
+[2024-04-16 17:38:23] INFO root fetch - processPackages [embixtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embixtools-1.1.4.tar.gz tmp/embixtools-1.1.5.tar.gz --markdown 20240416/e/embixtools/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-16 17:38:23] INFO root fetch - processPackages [dataspecs]: executing diffoscope
+[2024-04-16 17:38:23] INFO root fetch - processPackages [dataspecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataspecs-0.2.0.tar.gz tmp/dataspecs-0.3.0.tar.gz --markdown 20240416/d/dataspecs/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-16 17:38:24] INFO root fetch - processPackages [intervalframe]: Remove: archive file [/home/abi/fetcher/tmp/intervalframe-1.1.4.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - processPackages [intervalframe]: Remove: archive file [/home/abi/fetcher/tmp/intervalframe-1.1.5.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - main [MainThread]: End processing [intervalframe]: success
+[2024-04-16 17:38:24] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-04-16 17:38:24] INFO root fetch - processPackages [flavpy]: Remove: archive file [/home/abi/fetcher/tmp/flavpy-1.0.1.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - processPackages [flavpy]: Remove: archive file [/home/abi/fetcher/tmp/flavpy-1.0.2.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - main [MainThread]: End processing [flavpy]: success
+[2024-04-16 17:38:24] INFO root fetch - processPackages [embixtools]: Remove: archive file [/home/abi/fetcher/tmp/embixtools-1.1.4.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - processPackages [embixtools]: Remove: archive file [/home/abi/fetcher/tmp/embixtools-1.1.5.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - main [MainThread]: End processing [embixtools]: success
+[2024-04-16 17:38:24] INFO root fetch - processPackages [dataspecs]: Remove: archive file [/home/abi/fetcher/tmp/dataspecs-0.2.0.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - processPackages [dataspecs]: Remove: archive file [/home/abi/fetcher/tmp/dataspecs-0.3.0.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - main [MainThread]: End processing [dataspecs]: success
+[2024-04-16 17:38:24] INFO root fetch - processPackages [ipyniivue]: Downloading https://files.pythonhosted.org/packages/cd/9d/997fbcfecee3b0295932d4c0b51857185a1929703cadb30198d49f7d242a/ipyniivue-2.0.0.tar.gz
+[2024-04-16 17:38:24] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.1.4.zip]
+[2024-04-16 17:38:24] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.1.5.zip]
+[2024-04-16 17:38:24] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-16 17:38:24] INFO root fetch - processPackages [manim-slides]: Remove: archive file [/home/abi/fetcher/tmp/manim_slides-5.1.3.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - processPackages [manim-slides]: Remove: archive file [/home/abi/fetcher/tmp/manim_slides-5.1.4.tar.gz]
+[2024-04-16 17:38:24] INFO root fetch - main [MainThread]: End processing [manim-slides]: success
+[2024-04-16 17:38:24] INFO root fetch - processPackages [ipyniivue]: executing diffoscope
+[2024-04-16 17:38:24] INFO root fetch - processPackages [ipyniivue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyniivue-1.1.0.tar.gz tmp/ipyniivue-2.0.0.tar.gz --markdown 20240416/i/ipyniivue/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-04-16 17:38:25] INFO root fetch - processPackages [pyflowline]: Downloading https://files.pythonhosted.org/packages/a4/57/90a4480bbde5a1bd4f75c9ece1fd79567020bd95f7c6354691d60ec0f405/pyflowline-0.3.5.tar.gz
+[2024-04-16 17:38:25] INFO root fetch - processPackages [ipyniivue]: Remove: archive file [/home/abi/fetcher/tmp/ipyniivue-1.1.0.tar.gz]
+[2024-04-16 17:38:25] INFO root fetch - processPackages [ipyniivue]: Remove: archive file [/home/abi/fetcher/tmp/ipyniivue-2.0.0.tar.gz]
+[2024-04-16 17:38:25] INFO root fetch - main [MainThread]: End processing [ipyniivue]: success
+[2024-04-16 17:38:26] INFO root fetch - processPackages [pyflowline]: executing diffoscope
+[2024-04-16 17:38:26] INFO root fetch - processPackages [pyflowline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflowline-0.3.4.tar.gz tmp/pyflowline-0.3.5.tar.gz --markdown 20240416/p/pyflowline/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-16 17:38:28] INFO root fetch - processPackages [pyflowline]: Remove: archive file [/home/abi/fetcher/tmp/pyflowline-0.3.4.tar.gz]
+[2024-04-16 17:38:28] INFO root fetch - processPackages [pyflowline]: Remove: archive file [/home/abi/fetcher/tmp/pyflowline-0.3.5.tar.gz]
+[2024-04-16 17:38:28] INFO root fetch - main [MainThread]: End processing [pyflowline]: success
+[2024-04-16 17:38:28] INFO root fetch - main [MainThread]: Store serial: [22790010]
