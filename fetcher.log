@@ -19302,3 +19302,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:32:48] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.3.0rc2.tar.gz]
 [2024-04-16 15:32:48] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2024-04-16 15:32:48] INFO root fetch - main [MainThread]: Store serial: [22788262]
+[2024-04-16 15:34:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788262]
+[2024-04-16 15:34:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: semantic-kernel
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmetadata-managed-apis
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: samgis_core
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: why-tools
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: energiinfo
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lakefs-sdk
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lakefs-client
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysus
+[2024-04-16 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: planqk-quantum
+[2024-04-16 15:34:58] INFO root fetch - processPackages [semantic-kernel]: New version: [0.9.5b1] Old Version: [0.9.4b1]
+[2024-04-16 15:34:58] WARNING root fetch - processPackages [why-tools]: Skipping, unable to determine old version
+[2024-04-16 15:34:58] INFO root fetch - main [MainThread]: End processing [why-tools] error
+[2024-04-16 15:34:58] INFO root fetch - processPackages [energiinfo]: New version: [1.0.1] Old Version: [0.0.8]
+[2024-04-16 15:34:58] INFO root fetch - processPackages [planqk-quantum]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-16 15:34:58] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 15:34:58] INFO root fetch - processPackages [samgis_core]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-16 15:34:58] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.3.3.0rc2] Old Version: [1.3.3.0rc1]
+[2024-04-16 15:34:58] INFO root fetch - processPackages [energiinfo]: Downloading https://files.pythonhosted.org/packages/00/2b/fd9c2ba110ca078f2bfb1503f96ef88637c4f80e817a378ddf7abc37fd4b/energiinfo-0.0.8.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [pysus]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-16 15:34:58] INFO root fetch - processPackages [lakefs-sdk]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 15:34:58] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/65/43/87e9f9134daa2448ff45aac639439fb2172c9878ba143f4363811c8bc7b4/planqk-quantum-2.2.1.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [lakefs-client]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 15:34:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/d7/50/f31c343eedca2c481d13630f10b0635169d41d070372fc36e231b71545fc/semantic_kernel-0.9.4b1.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [pysus]: Downloading https://files.pythonhosted.org/packages/64/1b/1c3e41d35c84f53d8750c1bec938cf47a046e732a9a8c6706ba4a7c62dbe/pysus-0.9.3.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/a0/c4/7b7f06dbed827741748fdcff31eb8b3b65920fa685f1ca9c845986f45dfb/openmetadata_managed_apis-1.3.3.0rc1.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [samgis_core]: Downloading https://files.pythonhosted.org/packages/72/a3/fbbeae6342fe076a5a87edc5bd82f2bc5099ead72db746b6511ebc89bc1d/samgis_core-1.0.8.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/d6/48/d73280d2e54cbadd03377d1918462af962b8912b26181a6b775789b541d5/planqk-quantum-2.2.2.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/b5/8b/0e57e5ca7f72b64dcd56587dff33da866b14e4d1dd505d5c315efc513c08/lakefs-client-1.9.0.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [energiinfo]: Downloading https://files.pythonhosted.org/packages/3e/b7/4fc4bda22f8657c1e9f6645fcb013a7de414f80884bec1e1c42d6044c935/energiinfo-1.0.1.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/57/be/a4450c759e43b20b40f85c0bb00fb07959df9d30e7555c87ec6683a285d8/lakefs-sdk-1.9.0.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2024-04-16 15:34:58] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-2.2.1.tar.gz tmp/planqk-quantum-2.2.2.tar.gz --markdown 20240416/p/planqk-quantum/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-04-16 15:34:58] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/59/9f/56b0f3f09906ed17609f7243b24e513c9c028d1bdb0b4a6caf7878e726fc/semantic_kernel-0.9.5b1.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [energiinfo]: executing diffoscope
+[2024-04-16 15:34:58] INFO root fetch - processPackages [energiinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energiinfo-0.0.8.tar.gz tmp/energiinfo-1.0.1.tar.gz --markdown 20240416/e/energiinfo/0.0.8-1.0.1/README.md --exclude *.pyd
+[2024-04-16 15:34:58] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-16 15:34:58] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240416/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 15:34:58] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/93/15/8a68df9c338add9a4a6cf617e2f99826c90db5683b9357ba4423b5987259/openmetadata_managed_apis-1.3.3.0rc2.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [samgis_core]: Downloading https://files.pythonhosted.org/packages/f8/72/48feb8b676a0961bd2d612f130577aaa9d144bad176795d688cd9c0d5d62/samgis_core-1.1.0.tar.gz
+[2024-04-16 15:34:58] INFO root fetch - processPackages [lakefs-client]: Downloading https://files.pythonhosted.org/packages/71/39/dbe6ee4e66e711c97a1ccfa218019d31013870cb273ac42fd4ac3f84928b/lakefs-client-1.9.1.tar.gz
+[2024-04-16 15:34:59] INFO root fetch - processPackages [semantic-kernel]: executing diffoscope
+[2024-04-16 15:34:59] INFO root fetch - processPackages [semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_kernel-0.9.4b1.tar.gz tmp/semantic_kernel-0.9.5b1.tar.gz --markdown 20240416/s/semantic-kernel/0.9.4b1-0.9.5b1/README.md --exclude *.pyd
+[2024-04-16 15:34:59] INFO root fetch - processPackages [lakefs-sdk]: Downloading https://files.pythonhosted.org/packages/13/cf/5e0682fc74d8210e18babfe0e44ebb9eee4c4f86cb6a012c84ba0b18fcc2/lakefs-sdk-1.9.1.tar.gz
+[2024-04-16 15:34:59] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2024-04-16 15:34:59] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.3.3.0rc1.tar.gz tmp/openmetadata_managed_apis-1.3.3.0rc2.tar.gz --markdown 20240416/o/openmetadata-managed-apis/1.3.3.0rc1-1.3.3.0rc2/README.md --exclude *.pyd
+[2024-04-16 15:34:59] INFO root fetch - processPackages [lakefs-client]: executing diffoscope
+[2024-04-16 15:34:59] INFO root fetch - processPackages [lakefs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-client-1.9.0.tar.gz tmp/lakefs-client-1.9.1.tar.gz --markdown 20240416/l/lakefs-client/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 15:34:59] INFO root fetch - processPackages [samgis_core]: executing diffoscope
+[2024-04-16 15:34:59] INFO root fetch - processPackages [samgis_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samgis_core-1.0.8.tar.gz tmp/samgis_core-1.1.0.tar.gz --markdown 20240416/s/samgis_core/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-04-16 15:34:59] INFO root fetch - processPackages [pysus]: Downloading https://files.pythonhosted.org/packages/58/67/104911a35ed0f0db69a8c4cbcf29657b9493a2b3a582e2b800f33d136f24/pysus-0.9.4.tar.gz
+[2024-04-16 15:34:59] INFO root fetch - processPackages [lakefs-sdk]: executing diffoscope
+[2024-04-16 15:34:59] INFO root fetch - processPackages [lakefs-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-sdk-1.9.0.tar.gz tmp/lakefs-sdk-1.9.1.tar.gz --markdown 20240416/l/lakefs-sdk/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 15:34:59] INFO root fetch - processPackages [energiinfo]: Remove: archive file [/home/abi/fetcher/tmp/energiinfo-0.0.8.tar.gz]
+[2024-04-16 15:34:59] INFO root fetch - processPackages [energiinfo]: Remove: archive file [/home/abi/fetcher/tmp/energiinfo-1.0.1.tar.gz]
+[2024-04-16 15:34:59] INFO root fetch - main [MainThread]: End processing [energiinfo]: success
+[2024-04-16 15:34:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-16 15:34:59] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-16 15:34:59] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-16 15:34:59] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-2.2.1.tar.gz]
+[2024-04-16 15:34:59] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-2.2.2.tar.gz]
+[2024-04-16 15:34:59] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2024-04-16 15:35:00] INFO root fetch - processPackages [samgis_core]: Remove: archive file [/home/abi/fetcher/tmp/samgis_core-1.0.8.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - processPackages [samgis_core]: Remove: archive file [/home/abi/fetcher/tmp/samgis_core-1.1.0.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - main [MainThread]: End processing [samgis_core]: success
+[2024-04-16 15:35:00] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.3.3.0rc1.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.3.3.0rc2.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2024-04-16 15:35:00] INFO root fetch - processPackages [pysus]: executing diffoscope
+[2024-04-16 15:35:00] INFO root fetch - processPackages [pysus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysus-0.9.3.tar.gz tmp/pysus-0.9.4.tar.gz --markdown 20240416/p/pysus/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-16 15:35:00] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.4b1.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.5b1.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
+[2024-04-16 15:35:00] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.0.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - processPackages [lakefs-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-sdk-1.9.1.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - main [MainThread]: End processing [lakefs-sdk]: success
+[2024-04-16 15:35:00] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.0.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - processPackages [lakefs-client]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-client-1.9.1.tar.gz]
+[2024-04-16 15:35:00] INFO root fetch - main [MainThread]: End processing [lakefs-client]: success
+[2024-04-16 15:35:01] INFO root fetch - processPackages [pysus]: Remove: archive file [/home/abi/fetcher/tmp/pysus-0.9.3.tar.gz]
+[2024-04-16 15:35:01] INFO root fetch - processPackages [pysus]: Remove: archive file [/home/abi/fetcher/tmp/pysus-0.9.4.tar.gz]
+[2024-04-16 15:35:01] INFO root fetch - main [MainThread]: End processing [pysus]: success
+[2024-04-16 15:35:01] INFO root fetch - main [MainThread]: Store serial: [22788293]
