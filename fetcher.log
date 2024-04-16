@@ -4254,3 +4254,38 @@
 [2024-04-16 04:38:51] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.6.0.tar.gz]
 [2024-04-16 04:38:51] INFO root fetch - main [MainThread]: End processing [think-sql]: success
 [2024-04-16 04:38:51] INFO root fetch - main [MainThread]: Store serial: [22781712]
+[2024-04-16 04:40:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781712]
+[2024-04-16 04:40:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 04:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfv
+[2024-04-16 04:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-geotiepoints
+[2024-04-16 04:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waitcondition-hook-for-aws-fargate-task
+[2024-04-16 04:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wrapchain
+[2024-04-16 04:40:59] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 04:40:59] INFO root fetch - processPackages [tfv]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-16 04:40:59] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Downloading https://files.pythonhosted.org/packages/43/2f/87025b51699edc673e6a3a808ff38ab0f1c469699c861f9da5f9ea356347/waitcondition-hook-for-aws-fargate-task-1.0.3.tar.gz
+[2024-04-16 04:40:59] INFO root fetch - processPackages [tfv]: Downloading https://files.pythonhosted.org/packages/22/7e/444fb58c138cce211eba303494e92ebde1a5aedb60bf18915f85e37dcc4a/tfv-1.0.7.tar.gz
+[2024-04-16 04:40:59] INFO root fetch - processPackages [python-geotiepoints]: New version: [v0.1.0] Old Version: [1.7.3]
+[2024-04-16 04:40:59] INFO root fetch - processPackages [wrapchain]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 04:41:00] WARNING root fetch - processPackages [tfv]: Skipping package: exceeds size limit 97874731>=10485760
+[2024-04-16 04:41:00] INFO root fetch - main [MainThread]: End processing [tfv] error
+[2024-04-16 04:41:00] INFO root fetch - processPackages [python-geotiepoints]: Downloading https://files.pythonhosted.org/packages/a1/83/e13911e59b5fae8530fbbbde4a65505f9f4dfe3b3931d0343f3d90720e96/python_geotiepoints-1.7.3.tar.gz
+[2024-04-16 04:41:00] INFO root fetch - processPackages [wrapchain]: Downloading https://files.pythonhosted.org/packages/48/4e/d5416e557856654cae57431356a41c3e2428eb397cd058b4e31e2c67f80d/wrapchain-0.0.4.tar.gz
+[2024-04-16 04:41:00] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Downloading https://files.pythonhosted.org/packages/4c/f2/746ad81dedb3fd545b71113187cb4a3cefc490eb4bc7366c68196313f117/waitcondition-hook-for-aws-fargate-task-1.0.4.tar.gz
+[2024-04-16 04:41:00] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: executing diffoscope
+[2024-04-16 04:41:00] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waitcondition-hook-for-aws-fargate-task-1.0.3.tar.gz tmp/waitcondition-hook-for-aws-fargate-task-1.0.4.tar.gz --markdown 20240416/w/waitcondition-hook-for-aws-fargate-task/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-16 04:41:00] INFO root fetch - processPackages [wrapchain]: Downloading https://files.pythonhosted.org/packages/c9/aa/e53d4554244ad4a712567e3064cb7ac671d7a3f43ae2d6a81e620bf71e43/wrapchain-0.0.5.tar.gz
+[2024-04-16 04:41:00] INFO root fetch - processPackages [wrapchain]: executing diffoscope
+[2024-04-16 04:41:00] INFO root fetch - processPackages [wrapchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapchain-0.0.4.tar.gz tmp/wrapchain-0.0.5.tar.gz --markdown 20240416/w/wrapchain/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 04:41:00] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Remove: archive file [/home/abi/fetcher/tmp/waitcondition-hook-for-aws-fargate-task-1.0.3.tar.gz]
+[2024-04-16 04:41:00] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Remove: archive file [/home/abi/fetcher/tmp/waitcondition-hook-for-aws-fargate-task-1.0.4.tar.gz]
+[2024-04-16 04:41:00] INFO root fetch - main [MainThread]: End processing [waitcondition-hook-for-aws-fargate-task]: success
+[2024-04-16 04:41:01] INFO root fetch - processPackages [wrapchain]: Remove: archive file [/home/abi/fetcher/tmp/wrapchain-0.0.4.tar.gz]
+[2024-04-16 04:41:01] INFO root fetch - processPackages [wrapchain]: Remove: archive file [/home/abi/fetcher/tmp/wrapchain-0.0.5.tar.gz]
+[2024-04-16 04:41:01] INFO root fetch - main [MainThread]: End processing [wrapchain]: success
+[2024-04-16 04:41:01] WARNING root fetch - processPackages [python-geotiepoints]: fallback to get urls: [v0.1.0]
+[2024-04-16 04:41:01] WARNING root fetch - processPackages [python-geotiepoints]: None
+[2024-04-16 04:41:01] WARNING root fetch - processPackages [python-geotiepoints]: None
+[2024-04-16 04:41:01] WARNING root fetch - processPackages [python-geotiepoints]: unable to get url for both version [v0.1.0]
+[2024-04-16 04:41:01] WARNING root fetch - processPackages [python-geotiepoints]: None
+[2024-04-16 04:41:01] INFO root fetch - main [MainThread]: End processing [python-geotiepoints] error
+[2024-04-16 04:41:01] INFO root fetch - main [MainThread]: Store serial: [22781746]
