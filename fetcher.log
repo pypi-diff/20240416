@@ -15456,3 +15456,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:22:50] INFO root fetch - processPackages [nio-bot]: Remove: archive file [/home/abi/fetcher/tmp/nio-bot-1.1.0b1.post1.tar.gz]
 [2024-04-16 13:22:50] INFO root fetch - main [MainThread]: End processing [nio-bot]: success
 [2024-04-16 13:22:50] INFO root fetch - main [MainThread]: Store serial: [22786755]
+[2024-04-16 13:24:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786755]
+[2024-04-16 13:24:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 13:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-lts-cpu
+[2024-04-16 13:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polars-u64-idx
+[2024-04-16 13:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wuji
+[2024-04-16 13:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unbirthday
+[2024-04-16 13:24:59] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 13:24:59] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.20.9] Old Version: [0.20.8]
+[2024-04-16 13:24:59] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.20.9] Old Version: [0.20.8]
+[2024-04-16 13:24:59] INFO root fetch - processPackages [unbirthday]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 13:24:59] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-04-16 13:24:59] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/22/c0/7c8fcfe8d4d7376848e02a8a3975268cbd0ec0f863fbf3338068ff73c90f/polars_lts_cpu-0.20.8.tar.gz
+[2024-04-16 13:24:59] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/5c/9e/da38f2488beaaddc2cb54403b8c016e3e1ba7a4c8fc870e9010ec1197aef/polars_u64_idx-0.20.8.tar.gz
+[2024-04-16 13:24:59] INFO root fetch - processPackages [unbirthday]: Downloading https://files.pythonhosted.org/packages/53/b3/27b231f062ab4177eaa183121df16e986ce6e3b411f4d242b14a33a3e68b/unbirthday-1.0.3.tar.gz
+[2024-04-16 13:24:59] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-04-16 13:25:00] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/33/5e/df508475e1d147ef4c8bc6849d8274906574714b6f551b1e6674c7b94c3a/polars_lts_cpu-0.20.9.tar.gz
+[2024-04-16 13:25:00] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-04-16 13:25:00] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240416/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 13:25:00] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/bf/d5/35ea31387b107a09be335c63708294033b3cc0d21fa1fe68eae967ae3855/polars_u64_idx-0.20.9.tar.gz
+[2024-04-16 13:25:00] INFO root fetch - processPackages [unbirthday]: Downloading https://files.pythonhosted.org/packages/b4/2b/93469249289ba0cbbec998def31e7558b9b763fca7dd2d62317cc39d53ae/unbirthday-1.0.4.tar.gz
+[2024-04-16 13:25:00] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2024-04-16 13:25:00] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.20.8.tar.gz tmp/polars_u64_idx-0.20.9.tar.gz --markdown 20240416/p/polars-u64-idx/0.20.8-0.20.9/README.md --exclude *.pyd
+[2024-04-16 13:25:00] INFO root fetch - processPackages [unbirthday]: executing diffoscope
+[2024-04-16 13:25:00] INFO root fetch - processPackages [unbirthday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unbirthday-1.0.3.tar.gz tmp/unbirthday-1.0.4.tar.gz --markdown 20240416/u/unbirthday/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-16 13:25:00] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2024-04-16 13:25:00] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.20.8.tar.gz tmp/polars_lts_cpu-0.20.9.tar.gz --markdown 20240416/p/polars-lts-cpu/0.20.8-0.20.9/README.md --exclude *.pyd
+[2024-04-16 13:25:00] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-04-16 13:25:00] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-04-16 13:25:00] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-04-16 13:25:01] INFO root fetch - processPackages [unbirthday]: Remove: archive file [/home/abi/fetcher/tmp/unbirthday-1.0.3.tar.gz]
+[2024-04-16 13:25:01] INFO root fetch - processPackages [unbirthday]: Remove: archive file [/home/abi/fetcher/tmp/unbirthday-1.0.4.tar.gz]
+[2024-04-16 13:25:01] INFO root fetch - main [MainThread]: End processing [unbirthday]: success
+[2024-04-16 13:25:14] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.20.8.tar.gz]
+[2024-04-16 13:25:14] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.20.9.tar.gz]
+[2024-04-16 13:25:14] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2024-04-16 13:25:14] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.20.8.tar.gz]
+[2024-04-16 13:25:14] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.20.9.tar.gz]
+[2024-04-16 13:25:14] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2024-04-16 13:25:14] INFO root fetch - main [MainThread]: Store serial: [22786785]
