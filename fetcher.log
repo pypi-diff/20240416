@@ -14981,3 +14981,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:58:47] INFO root fetch - processPackages [ducc0]: Remove: archive file [/home/abi/fetcher/tmp/ducc0-0.9.0.tar.gz]
 [2024-04-16 12:58:47] INFO root fetch - main [MainThread]: End processing [ducc0]: success
 [2024-04-16 12:58:47] INFO root fetch - main [MainThread]: Store serial: [22786537]
+[2024-04-16 13:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786537]
+[2024-04-16 13:00:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 13:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamtape
+[2024-04-16 13:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auptitcafe
+[2024-04-16 13:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-warn-option
+[2024-04-16 13:00:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plytonic
+[2024-04-16 13:00:56] INFO root fetch - processPackages [streamtape]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-16 13:00:56] INFO root fetch - processPackages [streamtape]: Downloading https://files.pythonhosted.org/packages/d3/d8/c992fb33a7e28d3a94bff54bd5fd18a6d33cbb02718a55c84ec547126b46/streamtape-1.0.1.tar.gz
+[2024-04-16 13:00:56] WARNING root fetch - processPackages [odoo-addon-base-warn-option]: Skipping, unable to determine old version
+[2024-04-16 13:00:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-warn-option] error
+[2024-04-16 13:00:56] INFO root fetch - processPackages [auptitcafe]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 13:00:56] WARNING root fetch - processPackages [plytonic]: Skipping, unable to determine old version
+[2024-04-16 13:00:56] INFO root fetch - main [MainThread]: End processing [plytonic] error
+[2024-04-16 13:00:56] INFO root fetch - processPackages [auptitcafe]: Downloading https://files.pythonhosted.org/packages/52/b9/cb1f123f502d78acacc4b454869bc1c42fdcffc7d3a463c7b6d07894acc4/auptitcafe-0.1.8.tar.gz
+[2024-04-16 13:00:56] INFO root fetch - processPackages [streamtape]: Downloading https://files.pythonhosted.org/packages/37/18/c01815221a15975ec54a47ff6337fafbf13577ebae024699a8b3fb2138a2/streamtape-1.0.2.tar.gz
+[2024-04-16 13:00:57] INFO root fetch - processPackages [streamtape]: executing diffoscope
+[2024-04-16 13:00:57] INFO root fetch - processPackages [streamtape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamtape-1.0.1.tar.gz tmp/streamtape-1.0.2.tar.gz --markdown 20240416/s/streamtape/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-16 13:00:57] INFO root fetch - processPackages [auptitcafe]: Downloading https://files.pythonhosted.org/packages/60/f4/77ee7f025a369ae154a96c2ef577a3657361c7e2a907d493bae103e19091/auptitcafe-0.1.9.tar.gz
+[2024-04-16 13:00:57] INFO root fetch - processPackages [auptitcafe]: executing diffoscope
+[2024-04-16 13:00:57] INFO root fetch - processPackages [auptitcafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auptitcafe-0.1.8.tar.gz tmp/auptitcafe-0.1.9.tar.gz --markdown 20240416/a/auptitcafe/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 13:00:57] INFO root fetch - processPackages [streamtape]: Remove: archive file [/home/abi/fetcher/tmp/streamtape-1.0.1.tar.gz]
+[2024-04-16 13:00:57] INFO root fetch - processPackages [streamtape]: Remove: archive file [/home/abi/fetcher/tmp/streamtape-1.0.2.tar.gz]
+[2024-04-16 13:00:57] INFO root fetch - main [MainThread]: End processing [streamtape]: success
+[2024-04-16 13:00:57] INFO root fetch - processPackages [auptitcafe]: Remove: archive file [/home/abi/fetcher/tmp/auptitcafe-0.1.8.tar.gz]
+[2024-04-16 13:00:57] INFO root fetch - processPackages [auptitcafe]: Remove: archive file [/home/abi/fetcher/tmp/auptitcafe-0.1.9.tar.gz]
+[2024-04-16 13:00:57] INFO root fetch - main [MainThread]: End processing [auptitcafe]: success
+[2024-04-16 13:00:57] INFO root fetch - main [MainThread]: Store serial: [22786552]
