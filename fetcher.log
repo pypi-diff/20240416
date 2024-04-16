@@ -11382,3 +11382,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:42:25] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev35.tar.gz]
 [2024-04-16 10:42:25] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-16 10:42:25] INFO root fetch - main [MainThread]: Store serial: [22784731]
+[2024-04-16 10:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784731]
+[2024-04-16 10:44:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuzu
+[2024-04-16 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PornHub-Downloader
+[2024-04-16 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-common-tools
+[2024-04-16 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vysion
+[2024-04-16 10:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langroid
+[2024-04-16 10:44:34] INFO root fetch - processPackages [database-common-tools]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-16 10:44:34] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev36] Old Version: [0.3.3.dev35]
+[2024-04-16 10:44:34] WARNING root fetch - processPackages [PornHub-Downloader]: Skipping, unable to determine old version
+[2024-04-16 10:44:34] INFO root fetch - main [MainThread]: End processing [PornHub-Downloader] error
+[2024-04-16 10:44:34] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/2a/95/a024131efacb73e6db7d6f6a98d0e496389c27a5c51866ad4197129891ee/database-common-tools-1.0.7.tar.gz
+[2024-04-16 10:44:34] INFO root fetch - processPackages [vysion]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 10:44:34] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/5d/91/299508d9e56c5a69893273adf2cecbdd1a0f129d70e65578adf7601e31a7/kuzu-0.3.3.dev35.tar.gz
+[2024-04-16 10:44:34] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 10:44:35] INFO root fetch - processPackages [vysion]: Downloading https://files.pythonhosted.org/packages/5e/71/2e8f9c2cfd7ef015f4e6996bc4bb740a2737d77bd2be12e25c4307217861/vysion-1.0.8.tar.gz
+[2024-04-16 10:44:35] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/48/3c/fcc5701bfa665db4484c0015e9b403f47243a6a3a77c7e2298fb3943539b/database-common-tools-1.0.8.tar.gz
+[2024-04-16 10:44:35] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-04-16 10:44:35] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-16 10:44:35] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.0.7.tar.gz tmp/database-common-tools-1.0.8.tar.gz --markdown 20240416/d/database-common-tools/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-16 10:44:35] INFO root fetch - processPackages [vysion]: Downloading https://files.pythonhosted.org/packages/40/63/06b4c60a76805fe140c6323466a7b9278e9de21a91eac1c4851450f2076d/vysion-1.0.9.tar.gz
+[2024-04-16 10:44:35] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/86/d7/084411e6f2ab2008ec984ae45065f7d1f5054a7d1ed1f1fa525b9874131f/kuzu-0.3.3.dev36.tar.gz
+[2024-04-16 10:44:35] INFO root fetch - processPackages [vysion]: executing diffoscope
+[2024-04-16 10:44:35] INFO root fetch - processPackages [vysion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vysion-1.0.8.tar.gz tmp/vysion-1.0.9.tar.gz --markdown 20240416/v/vysion/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 10:44:35] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-04-16 10:44:35] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-04-16 10:44:35] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240416/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 10:44:35] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.7.tar.gz]
+[2024-04-16 10:44:35] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.8.tar.gz]
+[2024-04-16 10:44:35] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-16 10:44:36] INFO root fetch - processPackages [vysion]: Remove: archive file [/home/abi/fetcher/tmp/vysion-1.0.8.tar.gz]
+[2024-04-16 10:44:36] INFO root fetch - processPackages [vysion]: Remove: archive file [/home/abi/fetcher/tmp/vysion-1.0.9.tar.gz]
+[2024-04-16 10:44:36] INFO root fetch - main [MainThread]: End processing [vysion]: success
+[2024-04-16 10:44:36] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-04-16 10:44:36] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-04-16 10:44:36] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-04-16 10:44:36] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-16 10:44:36] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev35.tar.gz tmp/kuzu-0.3.3.dev36.tar.gz --markdown 20240416/k/kuzu/0.3.3.dev35-0.3.3.dev36/README.md --exclude *.pyd
+[2024-04-16 10:44:42] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev35.tar.gz]
+[2024-04-16 10:44:42] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev36.tar.gz]
+[2024-04-16 10:44:42] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-16 10:44:42] INFO root fetch - main [MainThread]: Store serial: [22784774]
