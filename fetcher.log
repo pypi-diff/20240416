@@ -7116,3 +7116,33 @@
 [2024-04-16 07:53:28] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_company-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-04-16 07:53:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-product-company]: success
 [2024-04-16 07:53:28] INFO root fetch - main [MainThread]: Store serial: [22783023]
+[2024-04-16 07:55:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783023]
+[2024-04-16 07:55:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 07:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clophfit
+[2024-04-16 07:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamjoy
+[2024-04-16 07:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snipinator
+[2024-04-16 07:55:36] INFO root fetch - processPackages [streamjoy]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 07:55:36] INFO root fetch - processPackages [snipinator]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-16 07:55:36] INFO root fetch - processPackages [clophfit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 07:55:37] INFO root fetch - processPackages [snipinator]: Downloading https://files.pythonhosted.org/packages/ca/4a/ecc4f785e4a53e9dc6ae81a98c0bae01814dd31b3c79a55eb40e063915ad/snipinator-1.2.0.tar.gz
+[2024-04-16 07:55:37] INFO root fetch - processPackages [streamjoy]: Downloading https://files.pythonhosted.org/packages/82/73/c2fcc5d85d9a481ed3d4d71904496a1dc7437d33e2ed99e5b447ed67f0b3/streamjoy-0.0.7.tar.gz
+[2024-04-16 07:55:37] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/50/c6/344dd41a6180fbd538764b119b4d84a806ade6231955b808ed242214c526/clophfit-0.9.0.tar.gz
+[2024-04-16 07:55:37] INFO root fetch - processPackages [snipinator]: Downloading https://files.pythonhosted.org/packages/45/c5/b29324c98f3c12cb5a74934fb6fb4907ef78f09e9dc73ea0f162d16f8ee7/snipinator-1.3.0.tar.gz
+[2024-04-16 07:55:37] INFO root fetch - processPackages [streamjoy]: Downloading https://files.pythonhosted.org/packages/d3/f0/38a5c3cc6131b7d6c43c6892fd704c2140172981d3c701b9bea0c60d2f39/streamjoy-0.0.8.tar.gz
+[2024-04-16 07:55:37] INFO root fetch - processPackages [snipinator]: executing diffoscope
+[2024-04-16 07:55:37] INFO root fetch - processPackages [snipinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snipinator-1.2.0.tar.gz tmp/snipinator-1.3.0.tar.gz --markdown 20240416/s/snipinator/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-16 07:55:37] INFO root fetch - processPackages [streamjoy]: executing diffoscope
+[2024-04-16 07:55:37] INFO root fetch - processPackages [streamjoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamjoy-0.0.7.tar.gz tmp/streamjoy-0.0.8.tar.gz --markdown 20240416/s/streamjoy/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 07:55:37] INFO root fetch - processPackages [clophfit]: Downloading https://files.pythonhosted.org/packages/e7/3e/d6fc0e48bdfc48f4940b02f69fa62ae1ad18d92fac5a4f8350dbb47a0c26/clophfit-0.9.1.tar.gz
+[2024-04-16 07:55:38] INFO root fetch - processPackages [snipinator]: Remove: archive file [/home/abi/fetcher/tmp/snipinator-1.2.0.tar.gz]
+[2024-04-16 07:55:38] INFO root fetch - processPackages [snipinator]: Remove: archive file [/home/abi/fetcher/tmp/snipinator-1.3.0.tar.gz]
+[2024-04-16 07:55:38] INFO root fetch - main [MainThread]: End processing [snipinator]: success
+[2024-04-16 07:55:38] INFO root fetch - processPackages [streamjoy]: Remove: archive file [/home/abi/fetcher/tmp/streamjoy-0.0.7.tar.gz]
+[2024-04-16 07:55:38] INFO root fetch - processPackages [streamjoy]: Remove: archive file [/home/abi/fetcher/tmp/streamjoy-0.0.8.tar.gz]
+[2024-04-16 07:55:38] INFO root fetch - main [MainThread]: End processing [streamjoy]: success
+[2024-04-16 07:55:38] INFO root fetch - processPackages [clophfit]: executing diffoscope
+[2024-04-16 07:55:38] INFO root fetch - processPackages [clophfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clophfit-0.9.0.tar.gz tmp/clophfit-0.9.1.tar.gz --markdown 20240416/c/clophfit/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 07:55:39] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.9.0.tar.gz]
+[2024-04-16 07:55:39] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.9.1.tar.gz]
+[2024-04-16 07:55:39] INFO root fetch - main [MainThread]: End processing [clophfit]: success
+[2024-04-16 07:55:39] INFO root fetch - main [MainThread]: Store serial: [22783032]
