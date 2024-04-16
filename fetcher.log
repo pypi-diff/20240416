@@ -22953,3 +22953,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:23:02] INFO root fetch - processPackages [All-in-one-chay]: Remove: archive file [/home/abi/fetcher/tmp/all_in_one_chay-2.4.7.tar.gz]
 [2024-04-16 17:23:02] INFO root fetch - main [MainThread]: End processing [All-in-one-chay]: success
 [2024-04-16 17:23:02] INFO root fetch - main [MainThread]: Store serial: [22789844]
+[2024-04-16 17:25:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789844]
+[2024-04-16 17:25:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 17:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-samus-returns-rando
+[2024-04-16 17:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linear_segment
+[2024-04-16 17:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: teachbooks
+[2024-04-16 17:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shiny
+[2024-04-16 17:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geo-skeletons
+[2024-04-16 17:25:12] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 17:25:12] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-16 17:25:12] INFO root fetch - processPackages [open-samus-returns-rando]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-16 17:25:12] INFO root fetch - processPackages [teachbooks]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 17:25:12] INFO root fetch - processPackages [linear_segment]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-16 17:25:12] INFO root fetch - processPackages [shiny]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-16 17:25:12] INFO root fetch - processPackages [open-samus-returns-rando]: Downloading https://files.pythonhosted.org/packages/8e/aa/3ea380d39199565d33e4710cfc65af0f4a5a2f80945242be74cd0714ec6a/open_samus_returns_rando-1.1.0.tar.gz
+[2024-04-16 17:25:12] INFO root fetch - processPackages [teachbooks]: Downloading https://files.pythonhosted.org/packages/8b/f1/d0a4e55e0adf827eef077c2cd9dc173fb62c322bb240c5c5ea66ea9fe5be/teachbooks-0.0.1.tar.gz
+[2024-04-16 17:25:12] INFO root fetch - processPackages [linear_segment]: Downloading https://files.pythonhosted.org/packages/34/ce/5cdd292d4706ce6b77f5fd0947e9677b3ff1cc5086f2a51d0af6f930c7a7/linear_segment-1.1.1.tar.gz
+[2024-04-16 17:25:12] INFO root fetch - processPackages [shiny]: Downloading https://files.pythonhosted.org/packages/e0/c5/34ac8a89867d67b0961c99014786f5e3658b0ce4ff38696fa38d4cda4f98/shiny-0.8.1.tar.gz
+[2024-04-16 17:25:12] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-16 17:25:12] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-16 17:25:12] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240416/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 17:25:12] INFO root fetch - processPackages [teachbooks]: Downloading https://files.pythonhosted.org/packages/4f/c2/5f2b570d2c052ec2ab74ea1d3b8af125fb9515bc2c07c0d8d4b691000c0b/teachbooks-0.0.2.tar.gz
+[2024-04-16 17:25:12] INFO root fetch - processPackages [open-samus-returns-rando]: Downloading https://files.pythonhosted.org/packages/7b/41/513982be525e8aa2c5a997a05f8bf0eae8d701da90991330ffdc4411a65c/open_samus_returns_rando-1.1.1.tar.gz
+[2024-04-16 17:25:13] INFO root fetch - processPackages [linear_segment]: Downloading https://files.pythonhosted.org/packages/0b/97/a2660efb01d2f453fe2e36331807b868699b5b0bf49990c9a206474df79e/linear_segment-1.1.2.tar.gz
+[2024-04-16 17:25:13] INFO root fetch - processPackages [teachbooks]: executing diffoscope
+[2024-04-16 17:25:13] INFO root fetch - processPackages [teachbooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teachbooks-0.0.1.tar.gz tmp/teachbooks-0.0.2.tar.gz --markdown 20240416/t/teachbooks/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 17:25:13] INFO root fetch - processPackages [open-samus-returns-rando]: executing diffoscope
+[2024-04-16 17:25:13] INFO root fetch - processPackages [open-samus-returns-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_samus_returns_rando-1.1.0.tar.gz tmp/open_samus_returns_rando-1.1.1.tar.gz --markdown 20240416/o/open-samus-returns-rando/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-16 17:25:13] INFO root fetch - processPackages [shiny]: Downloading https://files.pythonhosted.org/packages/76/da/99755041e436ae7385018afcce0275ff35367ab9e70a49f6877ace203647/shiny-0.9.0.tar.gz
+[2024-04-16 17:25:13] INFO root fetch - processPackages [linear_segment]: executing diffoscope
+[2024-04-16 17:25:13] INFO root fetch - processPackages [linear_segment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linear_segment-1.1.1.tar.gz tmp/linear_segment-1.1.2.tar.gz --markdown 20240416/l/linear_segment/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-16 17:25:13] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-16 17:25:13] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-16 17:25:13] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-16 17:25:13] INFO root fetch - processPackages [teachbooks]: Remove: archive file [/home/abi/fetcher/tmp/teachbooks-0.0.1.tar.gz]
+[2024-04-16 17:25:13] INFO root fetch - processPackages [teachbooks]: Remove: archive file [/home/abi/fetcher/tmp/teachbooks-0.0.2.tar.gz]
+[2024-04-16 17:25:13] INFO root fetch - main [MainThread]: End processing [teachbooks]: success
+[2024-04-16 17:25:13] INFO root fetch - processPackages [shiny]: executing diffoscope
+[2024-04-16 17:25:13] INFO root fetch - processPackages [shiny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiny-0.8.1.tar.gz tmp/shiny-0.9.0.tar.gz --markdown 20240416/s/shiny/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-16 17:25:14] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.1.0.tar.gz]
+[2024-04-16 17:25:14] INFO root fetch - processPackages [open-samus-returns-rando]: Remove: archive file [/home/abi/fetcher/tmp/open_samus_returns_rando-1.1.1.tar.gz]
+[2024-04-16 17:25:14] INFO root fetch - main [MainThread]: End processing [open-samus-returns-rando]: success
+[2024-04-16 17:25:14] INFO root fetch - processPackages [linear_segment]: Remove: archive file [/home/abi/fetcher/tmp/linear_segment-1.1.1.tar.gz]
+[2024-04-16 17:25:14] INFO root fetch - processPackages [linear_segment]: Remove: archive file [/home/abi/fetcher/tmp/linear_segment-1.1.2.tar.gz]
+[2024-04-16 17:25:14] INFO root fetch - main [MainThread]: End processing [linear_segment]: success
+[2024-04-16 17:26:48] INFO root fetch - processPackages [shiny]: Remove: archive file [/home/abi/fetcher/tmp/shiny-0.8.1.tar.gz]
+[2024-04-16 17:26:48] INFO root fetch - processPackages [shiny]: Remove: archive file [/home/abi/fetcher/tmp/shiny-0.9.0.tar.gz]
+[2024-04-16 17:26:48] INFO root fetch - main [MainThread]: End processing [shiny]: success
+[2024-04-16 17:26:48] INFO root fetch - main [MainThread]: Store serial: [22789858]
