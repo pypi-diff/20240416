@@ -9849,3 +9849,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:57:15] INFO root fetch - processPackages [cmd2func]: Remove: archive file [/home/abi/fetcher/tmp/cmd2func-0.2.1.tar.gz]
 [2024-04-16 09:57:15] INFO root fetch - main [MainThread]: End processing [cmd2func]: success
 [2024-04-16 09:57:15] INFO root fetch - main [MainThread]: Store serial: [22784086]
+[2024-04-16 09:59:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784086]
+[2024-04-16 09:59:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 09:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yamcs-pymdb
+[2024-04-16 09:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algoliasearch
+[2024-04-16 09:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tum_esm_lowcost_metadata
+[2024-04-16 09:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-04-16 09:59:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python_dev_utils
+[2024-04-16 09:59:25] INFO root fetch - processPackages [python_dev_utils]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-16 09:59:25] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/c6/40/ac40330bdb20a31d13f02b1940f6a03c01c18364bc5b61d1eca46ea7009d/python_dev_utils-1.2.1.tar.gz
+[2024-04-16 09:59:25] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240416] Old Version: [2.17.0.dev20240415]
+[2024-04-16 09:59:25] INFO root fetch - processPackages [yamcs-pymdb]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-16 09:59:25] INFO root fetch - processPackages [tum_esm_lowcost_metadata]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-16 09:59:25] INFO root fetch - processPackages [algoliasearch]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2024-04-16 09:59:25] INFO root fetch - processPackages [yamcs-pymdb]: Downloading https://files.pythonhosted.org/packages/b2/26/10c8fe4b61cd0521e720da0570a5b5189297ad4d9790d51da573c06e8324/yamcs-pymdb-1.0.5.tar.gz
+[2024-04-16 09:59:25] INFO root fetch - processPackages [algoliasearch]: Downloading https://files.pythonhosted.org/packages/15/e4/acb11240caf975841287f51e976db818e9b845127dccb7a4c23331090c31/algoliasearch-4.0.0b8.tar.gz
+[2024-04-16 09:59:25] INFO root fetch - processPackages [tum_esm_lowcost_metadata]: Downloading https://files.pythonhosted.org/packages/79/52/e14c0fee8e57c170ac8afc8d37125273ca4af573d8899fb92d7f45e8b3d2/tum_esm_lowcost_metadata-0.6.0.tar.gz
+[2024-04-16 09:59:25] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/c4/2c/77082e28524751ed1ea24e12dcccdf4acaa16a8fcbfb03fb53277e15f057/tf_nightly-2.17.0.dev20240415-cp39-cp39-win_amd64.whl
+[2024-04-16 09:59:26] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/b8/c6/d6030477ccd9a4fcbfc239896df9c9f394f58b545662733b69e1db8afaad/python_dev_utils-1.2.2.tar.gz
+[2024-04-16 09:59:26] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-04-16 09:59:26] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.2.1.tar.gz tmp/python_dev_utils-1.2.2.tar.gz --markdown 20240416/p/python_dev_utils/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-16 09:59:26] INFO root fetch - processPackages [yamcs-pymdb]: Downloading https://files.pythonhosted.org/packages/70/19/bf17012a1bfcbc2bb9c75e606159def3979d6c23a7c201b02111ee8642c4/yamcs_pymdb-1.0.6.tar.gz
+[2024-04-16 09:59:26] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/49/c7/b95a4516d8f0f3aed057df1f463cf378456ea9a4cb78f2cb9ccb3eff0c90/tf_nightly-2.17.0.dev20240416-cp39-cp39-win_amd64.whl
+[2024-04-16 09:59:26] INFO root fetch - processPackages [tum_esm_lowcost_metadata]: Downloading https://files.pythonhosted.org/packages/91/3a/880ee4d214ae1ab5fb8d66764110aa22376a017b575905aaf3330ac6bdac/tum_esm_lowcost_metadata-0.7.0.tar.gz
+[2024-04-16 09:59:26] INFO root fetch - processPackages [algoliasearch]: Downloading https://files.pythonhosted.org/packages/d4/fd/967d2278c632583a01a0e3fb53e37cc25f26d11ca91ae056a26d7b6146e4/algoliasearch-4.0.0b9.tar.gz
+[2024-04-16 09:59:26] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-16 09:59:26] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240415-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240416-cp39-cp39-win_amd64.whl.zip --markdown 20240416/t/tf-nightly/2.17.0.dev20240415-2.17.0.dev20240416/README.md --exclude *.pyd
+[2024-04-16 09:59:26] INFO root fetch - processPackages [yamcs-pymdb]: executing diffoscope
+[2024-04-16 09:59:26] INFO root fetch - processPackages [yamcs-pymdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamcs-pymdb-1.0.5.tar.gz tmp/yamcs_pymdb-1.0.6.tar.gz --markdown 20240416/y/yamcs-pymdb/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-16 09:59:26] INFO root fetch - processPackages [algoliasearch]: executing diffoscope
+[2024-04-16 09:59:26] INFO root fetch - processPackages [algoliasearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algoliasearch-4.0.0b8.tar.gz tmp/algoliasearch-4.0.0b9.tar.gz --markdown 20240416/a/algoliasearch/4.0.0b8-4.0.0b9/README.md --exclude *.pyd
+[2024-04-16 09:59:26] INFO root fetch - processPackages [tum_esm_lowcost_metadata]: executing diffoscope
+[2024-04-16 09:59:26] INFO root fetch - processPackages [tum_esm_lowcost_metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tum_esm_lowcost_metadata-0.6.0.tar.gz tmp/tum_esm_lowcost_metadata-0.7.0.tar.gz --markdown 20240416/t/tum_esm_lowcost_metadata/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-16 09:59:27] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.2.1.tar.gz]
+[2024-04-16 09:59:27] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.2.2.tar.gz]
+[2024-04-16 09:59:27] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-04-16 09:59:27] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240415-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 09:59:27] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240416-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 09:59:27] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-16 09:59:27] INFO root fetch - processPackages [tum_esm_lowcost_metadata]: Remove: archive file [/home/abi/fetcher/tmp/tum_esm_lowcost_metadata-0.6.0.tar.gz]
+[2024-04-16 09:59:27] INFO root fetch - processPackages [tum_esm_lowcost_metadata]: Remove: archive file [/home/abi/fetcher/tmp/tum_esm_lowcost_metadata-0.7.0.tar.gz]
+[2024-04-16 09:59:27] INFO root fetch - main [MainThread]: End processing [tum_esm_lowcost_metadata]: success
+[2024-04-16 09:59:27] INFO root fetch - processPackages [yamcs-pymdb]: Remove: archive file [/home/abi/fetcher/tmp/yamcs-pymdb-1.0.5.tar.gz]
+[2024-04-16 09:59:27] INFO root fetch - processPackages [yamcs-pymdb]: Remove: archive file [/home/abi/fetcher/tmp/yamcs_pymdb-1.0.6.tar.gz]
+[2024-04-16 09:59:27] INFO root fetch - main [MainThread]: End processing [yamcs-pymdb]: success
+[2024-04-16 09:59:28] INFO root fetch - processPackages [algoliasearch]: Remove: archive file [/home/abi/fetcher/tmp/algoliasearch-4.0.0b8.tar.gz]
+[2024-04-16 09:59:28] INFO root fetch - processPackages [algoliasearch]: Remove: archive file [/home/abi/fetcher/tmp/algoliasearch-4.0.0b9.tar.gz]
+[2024-04-16 09:59:28] INFO root fetch - main [MainThread]: End processing [algoliasearch]: success
+[2024-04-16 09:59:28] INFO root fetch - main [MainThread]: Store serial: [22784105]
