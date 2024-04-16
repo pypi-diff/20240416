@@ -3076,3 +3076,15 @@
 [2024-04-16 03:11:30] INFO root fetch - processPackages [blackduck-lutils]: Remove: archive file [/home/abi/fetcher/tmp/blackduck_lutils-0.0.8.tar.gz]
 [2024-04-16 03:11:30] INFO root fetch - main [MainThread]: End processing [blackduck-lutils]: success
 [2024-04-16 03:11:30] INFO root fetch - main [MainThread]: Store serial: [22781096]
+[2024-04-16 03:13:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781096]
+[2024-04-16 03:13:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 03:13:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu
+[2024-04-16 03:13:38] INFO root fetch - processPackages [tsugu]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-16 03:13:38] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/90/fc/f618468bd09db0c7c819da7bb151a7fb8f98d89309cb78c31dbd9be2a35e/tsugu-0.4.7.tar.gz
+[2024-04-16 03:13:39] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/4d/0240ba5af8407f605a5b9dbe662cc853a63e633a12b48160344616c3d787/tsugu-0.4.8.tar.gz
+[2024-04-16 03:13:39] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-16 03:13:39] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.7.tar.gz tmp/tsugu-0.4.8.tar.gz --markdown 20240416/t/tsugu/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-04-16 03:13:39] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.7.tar.gz]
+[2024-04-16 03:13:39] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.8.tar.gz]
+[2024-04-16 03:13:39] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-16 03:13:39] INFO root fetch - main [MainThread]: Store serial: [22781099]
