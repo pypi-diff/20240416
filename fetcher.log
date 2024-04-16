@@ -6093,3 +6093,26 @@
 [2024-04-16 06:38:06] INFO root fetch - processPackages [dynamizer]: Remove: archive file [/home/abi/fetcher/tmp/dynamizer-0.2.9.tar.gz]
 [2024-04-16 06:38:06] INFO root fetch - main [MainThread]: End processing [dynamizer]: success
 [2024-04-16 06:38:06] INFO root fetch - main [MainThread]: Store serial: [22782609]
+[2024-04-16 06:40:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782609]
+[2024-04-16 06:40:14] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-16 06:42:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782609]
+[2024-04-16 06:42:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 06:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: album-of-the-year-api
+[2024-04-16 06:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte
+[2024-04-16 06:42:20] INFO root fetch - processPackages [album-of-the-year-api]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-16 06:42:20] INFO root fetch - processPackages [album-of-the-year-api]: Downloading https://files.pythonhosted.org/packages/20/02/5839fef377a9e28008d9660d255229851000b2c31c3124a904d09758017a/album-of-the-year-api-0.2.5.tar.gz
+[2024-04-16 06:42:20] INFO root fetch - processPackages [airbyte]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-16 06:42:20] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/9c/15/0ed18f9974b025648515fd61318dbe0f600528ec50091886c43ef6af06b4/airbyte-0.8.4.tar.gz
+[2024-04-16 06:42:20] INFO root fetch - processPackages [album-of-the-year-api]: Downloading https://files.pythonhosted.org/packages/14/de/e6daa0748e1123600afe0c2cd5c25e39ebbc6d379e39ae1535ca44e9a1af/album-of-the-year-api-0.2.6.tar.gz
+[2024-04-16 06:42:21] INFO root fetch - processPackages [album-of-the-year-api]: executing diffoscope
+[2024-04-16 06:42:21] INFO root fetch - processPackages [album-of-the-year-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/album-of-the-year-api-0.2.5.tar.gz tmp/album-of-the-year-api-0.2.6.tar.gz --markdown 20240416/a/album-of-the-year-api/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-16 06:42:21] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/06/cf/9fefa13386840a9fe89e98d160db3058aca5c16b50a0fbcc248f1728cc9d/airbyte-0.9.0.tar.gz
+[2024-04-16 06:42:21] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2024-04-16 06:42:21] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-0.8.4.tar.gz tmp/airbyte-0.9.0.tar.gz --markdown 20240416/a/airbyte/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-16 06:42:21] INFO root fetch - processPackages [album-of-the-year-api]: Remove: archive file [/home/abi/fetcher/tmp/album-of-the-year-api-0.2.5.tar.gz]
+[2024-04-16 06:42:21] INFO root fetch - processPackages [album-of-the-year-api]: Remove: archive file [/home/abi/fetcher/tmp/album-of-the-year-api-0.2.6.tar.gz]
+[2024-04-16 06:42:21] INFO root fetch - main [MainThread]: End processing [album-of-the-year-api]: success
+[2024-04-16 06:42:22] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.4.tar.gz]
+[2024-04-16 06:42:22] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.9.0.tar.gz]
+[2024-04-16 06:42:22] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2024-04-16 06:42:22] INFO root fetch - main [MainThread]: Store serial: [22782616]
