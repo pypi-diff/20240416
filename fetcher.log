@@ -14794,3 +14794,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:52:05] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.9.tar.gz]
 [2024-04-16 12:52:05] INFO root fetch - main [MainThread]: End processing [crim_intervals]: success
 [2024-04-16 12:52:05] INFO root fetch - main [MainThread]: Store serial: [22786465]
+[2024-04-16 12:54:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786465]
+[2024-04-16 12:54:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipeline-ai
+[2024-04-16 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFisca-France
+[2024-04-16 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-fedit
+[2024-04-16 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: password-library
+[2024-04-16 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythoncms
+[2024-04-16 12:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wagtail-fedit
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.1a0] Old Version: [1.5.0a3]
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.1a0] Old Version: [1.5.0a3]
+[2024-04-16 12:54:14] INFO root fetch - processPackages [pipeline-ai]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-16 12:54:14] INFO root fetch - processPackages [password-library]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-16 12:54:14] INFO root fetch - processPackages [pythoncms]: New version: [1.3.3] Old Version: [1.2.2]
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/37/66/fbb185b49ea3c6f609e0de202c89b4337ba8cdab4c873860d2aa7b98e317/wagtail_fedit-1.5.0a3.tar.gz
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/37/66/fbb185b49ea3c6f609e0de202c89b4337ba8cdab4c873860d2aa7b98e317/wagtail_fedit-1.5.0a3.tar.gz
+[2024-04-16 12:54:14] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2024-04-16 12:54:14] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/b3/ab/11a4077204bc74606349321cabea5f52907d1cbd3afe27d7a0e426b034f2/pipeline_ai-2.1.5.tar.gz
+[2024-04-16 12:54:14] INFO root fetch - processPackages [password-library]: Downloading https://files.pythonhosted.org/packages/1a/8d/ebe50559ceec71456d3af304f579eac74d57f626b1ed8ddc07030912d3dc/password-library-0.4.0.tar.gz
+[2024-04-16 12:54:14] INFO root fetch - processPackages [pythoncms]: Downloading https://files.pythonhosted.org/packages/d6/58/9bed8f7e9a92d783c8c99d6ad7d9c380d4756e3a5245600781b17377e1fa/pythoncms-1.2.2.tar.gz
+[2024-04-16 12:54:14] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/de/70/55cbfcbd960caaad984b4b51a6704276ae51a2c3c5867224482481debde3/wagtail_fedit-1.5.1a0.tar.gz
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/de/70/55cbfcbd960caaad984b4b51a6704276ae51a2c3c5867224482481debde3/wagtail_fedit-1.5.1a0.tar.gz
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.0a3.tar.gz tmp/wagtail_fedit-1.5.1a0.tar.gz --markdown 20240416/w/wagtail-fedit/1.5.0a3-1.5.1a0/README.md --exclude *.pyd
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-16 12:54:14] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.0a3.tar.gz tmp/wagtail_fedit-1.5.1a0.tar.gz --markdown 20240416/w/wagtail-fedit/1.5.0a3-1.5.1a0/README.md --exclude *.pyd
+[2024-04-16 12:54:14] INFO root fetch - processPackages [password-library]: Downloading https://files.pythonhosted.org/packages/a4/97/605ac35d29e8cbcb9c084a632a0edce3c376f11392dedcca78ecbae27297/password_library-0.4.1.tar.gz
+[2024-04-16 12:54:14] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/d1/35/a0c5013b2555caaa1b5c570dda75430364df8a4c0d952a14d9bc0b1170a5/pipeline_ai-2.1.6.tar.gz
+[2024-04-16 12:54:15] INFO root fetch - processPackages [password-library]: executing diffoscope
+[2024-04-16 12:54:15] INFO root fetch - processPackages [password-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/password-library-0.4.0.tar.gz tmp/password_library-0.4.1.tar.gz --markdown 20240416/p/password-library/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-16 12:54:15] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2024-04-16 12:54:15] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-2.1.5.tar.gz tmp/pipeline_ai-2.1.6.tar.gz --markdown 20240416/p/pipeline-ai/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-16 12:54:15] INFO root fetch - processPackages [pythoncms]: Downloading https://files.pythonhosted.org/packages/70/24/1a0e05cb11de388703186240e320caac295c613eac454cb8dbee54cc93fe/pythoncms-1.3.3.tar.gz
+[2024-04-16 12:54:15] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2024-04-16 12:54:15] INFO root fetch - processPackages [password-library]: Remove: archive file [/home/abi/fetcher/tmp/password-library-0.4.0.tar.gz]
+[2024-04-16 12:54:15] INFO root fetch - processPackages [password-library]: Remove: archive file [/home/abi/fetcher/tmp/password_library-0.4.1.tar.gz]
+[2024-04-16 12:54:15] INFO root fetch - main [MainThread]: End processing [password-library]: success
+[2024-04-16 12:54:15] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2024-04-16 12:54:15] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20240416/O/OpenFisca-France/99.0.0-99.0.1/README.md --exclude *.pyd
+[2024-04-16 12:54:15] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.0a3.tar.gz]
+[2024-04-16 12:54:15] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.1a0.tar.gz]
+[2024-04-16 12:54:15] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-16 12:54:16] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-16 12:54:16] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.5.tar.gz]
+[2024-04-16 12:54:16] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-2.1.6.tar.gz]
+[2024-04-16 12:54:16] INFO root fetch - processPackages [pythoncms]: executing diffoscope
+[2024-04-16 12:54:16] INFO root fetch - processPackages [pythoncms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncms-1.2.2.tar.gz tmp/pythoncms-1.3.3.tar.gz --markdown 20240416/p/pythoncms/1.2.2-1.3.3/README.md --exclude *.pyd
+[2024-04-16 12:54:16] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2024-04-16 12:54:19] INFO root fetch - processPackages [pythoncms]: Remove: archive file [/home/abi/fetcher/tmp/pythoncms-1.2.2.tar.gz]
+[2024-04-16 12:54:19] INFO root fetch - processPackages [pythoncms]: Remove: archive file [/home/abi/fetcher/tmp/pythoncms-1.3.3.tar.gz]
+[2024-04-16 12:54:19] INFO root fetch - main [MainThread]: End processing [pythoncms]: success
+[2024-04-16 12:54:24] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2024-04-16 12:54:24] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2024-04-16 12:54:24] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2024-04-16 12:54:24] INFO root fetch - main [MainThread]: Store serial: [22786481]
