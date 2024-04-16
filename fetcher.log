@@ -20264,3 +20264,44 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:01:36] INFO root fetch - processPackages [pyoptinterface]: Remove: archive file [/home/abi/fetcher/tmp/pyoptinterface-0.1.1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-16 16:01:36] INFO root fetch - main [MainThread]: End processing [pyoptinterface]: success
 [2024-04-16 16:01:36] INFO root fetch - main [MainThread]: Store serial: [22788639]
+[2024-04-16 16:03:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788639]
+[2024-04-16 16:03:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 16:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JobTipsRamdom
+[2024-04-16 16:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SLIP
+[2024-04-16 16:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AIPyS
+[2024-04-16 16:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zlib-ng
+[2024-04-16 16:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparkproxy
+[2024-04-16 16:03:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dstulz
+[2024-04-16 16:03:45] WARNING root fetch - processPackages [JobTipsRamdom]: Skipping, unable to determine old version
+[2024-04-16 16:03:45] INFO root fetch - main [MainThread]: End processing [JobTipsRamdom] error
+[2024-04-16 16:03:45] INFO root fetch - processPackages [SLIP]: New version: [20191113] Old Version: [20171205]
+[2024-04-16 16:03:45] INFO root fetch - processPackages [AIPyS]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 16:03:45] INFO root fetch - processPackages [zlib-ng]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-16 16:03:45] INFO root fetch - processPackages [sparkproxy]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-16 16:03:45] INFO root fetch - processPackages [AIPyS]: Downloading https://files.pythonhosted.org/packages/33/eb/0c32e84640da95509735171d38b8896853586fcf76b75cfd16b24476f709/AIPyS-0.0.6.tar.gz
+[2024-04-16 16:03:45] WARNING root fetch - processPackages [dstulz]: Skipping, unable to determine old version
+[2024-04-16 16:03:45] INFO root fetch - main [MainThread]: End processing [dstulz] error
+[2024-04-16 16:03:45] INFO root fetch - processPackages [SLIP]: Downloading https://files.pythonhosted.org/packages/5f/65/fd79088e1810675c8934703cfe7d7bd34190c0a5a2a621252e785b8e6802/SLIP-20191113.tar.gz
+[2024-04-16 16:03:45] WARNING root fetch - processPackages [SLIP]: Skipping package: exceeds size limit 17451417>=10485760
+[2024-04-16 16:03:45] INFO root fetch - main [MainThread]: End processing [SLIP] error
+[2024-04-16 16:03:45] INFO root fetch - processPackages [zlib-ng]: Downloading https://files.pythonhosted.org/packages/8d/36/15e7f5297bd73470b0ee60c51f177e2b8adf40569685cd7389b76265f151/zlib-ng-0.4.1.tar.gz
+[2024-04-16 16:03:45] INFO root fetch - processPackages [AIPyS]: Downloading https://files.pythonhosted.org/packages/95/47/dd0a7a4e11a6b7925db9554d0113fa38a65cc6816cb47b66430dfe08d150/AIPyS-0.0.7.tar.gz
+[2024-04-16 16:03:45] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/6d/db/70e7de37c8b10d37ceba2e96cd69bea5fe6884d7475c9d024719f471f8aa/sparkproxy-0.4.2.tar.gz
+[2024-04-16 16:03:46] INFO root fetch - processPackages [AIPyS]: executing diffoscope
+[2024-04-16 16:03:46] INFO root fetch - processPackages [AIPyS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIPyS-0.0.6.tar.gz tmp/AIPyS-0.0.7.tar.gz --markdown 20240416/A/AIPyS/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 16:03:46] INFO root fetch - processPackages [sparkproxy]: Downloading https://files.pythonhosted.org/packages/bc/25/6ad5baf534c4d3f363f9c72899b1978ac3a9ec6fc771111f3789d5c37452/sparkproxy-0.4.3.tar.gz
+[2024-04-16 16:03:46] INFO root fetch - processPackages [zlib-ng]: Downloading https://files.pythonhosted.org/packages/af/bd/e8c61e8e8640ce4fc5dc478054c383be367e2171f0ebbe6b7313c126abd7/zlib-ng-0.4.2.tar.gz
+[2024-04-16 16:03:46] INFO root fetch - processPackages [sparkproxy]: executing diffoscope
+[2024-04-16 16:03:46] INFO root fetch - processPackages [sparkproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkproxy-0.4.2.tar.gz tmp/sparkproxy-0.4.3.tar.gz --markdown 20240416/s/sparkproxy/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-16 16:03:46] INFO root fetch - processPackages [zlib-ng]: executing diffoscope
+[2024-04-16 16:03:46] INFO root fetch - processPackages [zlib-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlib-ng-0.4.1.tar.gz tmp/zlib-ng-0.4.2.tar.gz --markdown 20240416/z/zlib-ng/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-16 16:03:46] INFO root fetch - processPackages [AIPyS]: Remove: archive file [/home/abi/fetcher/tmp/AIPyS-0.0.6.tar.gz]
+[2024-04-16 16:03:46] INFO root fetch - processPackages [AIPyS]: Remove: archive file [/home/abi/fetcher/tmp/AIPyS-0.0.7.tar.gz]
+[2024-04-16 16:03:46] INFO root fetch - main [MainThread]: End processing [AIPyS]: success
+[2024-04-16 16:03:47] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.4.2.tar.gz]
+[2024-04-16 16:03:47] INFO root fetch - processPackages [sparkproxy]: Remove: archive file [/home/abi/fetcher/tmp/sparkproxy-0.4.3.tar.gz]
+[2024-04-16 16:03:47] INFO root fetch - main [MainThread]: End processing [sparkproxy]: success
+[2024-04-16 16:03:48] INFO root fetch - processPackages [zlib-ng]: Remove: archive file [/home/abi/fetcher/tmp/zlib-ng-0.4.1.tar.gz]
+[2024-04-16 16:03:48] INFO root fetch - processPackages [zlib-ng]: Remove: archive file [/home/abi/fetcher/tmp/zlib-ng-0.4.2.tar.gz]
+[2024-04-16 16:03:48] INFO root fetch - main [MainThread]: End processing [zlib-ng]: success
+[2024-04-16 16:03:48] INFO root fetch - main [MainThread]: Store serial: [22788669]
