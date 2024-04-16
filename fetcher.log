@@ -9616,3 +9616,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:48:31] INFO root fetch - processPackages [cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-1.4.3-cp312-cp312-win_amd64.whl.zip]
 [2024-04-16 09:48:31] INFO root fetch - main [MainThread]: End processing [cvxpy]: success
 [2024-04-16 09:48:31] INFO root fetch - main [MainThread]: Store serial: [22783978]
+[2024-04-16 09:50:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783978]
+[2024-04-16 09:50:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rp_python_sdk
+[2024-04-16 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prerun
+[2024-04-16 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aerospike-flask-cache
+[2024-04-16 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maihem
+[2024-04-16 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazy-schema
+[2024-04-16 09:50:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: templatise
+[2024-04-16 09:50:40] INFO root fetch - processPackages [aerospike-flask-cache]: New version: [0.1.1rc6] Old Version: [0.1.1rc5]
+[2024-04-16 09:50:40] INFO root fetch - processPackages [prerun]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-16 09:50:40] INFO root fetch - processPackages [lazy-schema]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-16 09:50:40] INFO root fetch - processPackages [templatise]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-04-16 09:50:40] INFO root fetch - processPackages [aerospike-flask-cache]: Downloading https://files.pythonhosted.org/packages/c1/b0/1cfbb8b942280e9f6aa591db5c6d0c52dc94f7101644e338759323888463/aerospike_flask_cache-0.1.1rc5.tar.gz
+[2024-04-16 09:50:40] INFO root fetch - processPackages [maihem]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-16 09:50:40] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/7c/91/563164bf373362cca21e8d1aa26837cf78840e9ccbdd21063686b3b90f84/lazy_schema-0.2.0.tar.gz
+[2024-04-16 09:50:40] WARNING root fetch - processPackages [rp_python_sdk]: Skipping, unable to determine old version
+[2024-04-16 09:50:40] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/03/8a/c2cd4c421b95063c5896307dd283026bc362313e89dc32f9a1dcfacf934a/prerun-0.1.7.tar.gz
+[2024-04-16 09:50:40] INFO root fetch - main [MainThread]: End processing [rp_python_sdk] error
+[2024-04-16 09:50:41] INFO root fetch - processPackages [maihem]: Downloading https://files.pythonhosted.org/packages/95/cb/b824946ae5ee47a6e235781b665541fec30b620515961883fc2e92757f8d/maihem-1.4.1.tar.gz
+[2024-04-16 09:50:41] INFO root fetch - processPackages [templatise]: Downloading https://files.pythonhosted.org/packages/a5/c4/b77e00b24b6b4caaf9f846f170dfaa98b2db1429bd90e0c74a88bc18acc6/templatise-2.2.4.tar.gz
+[2024-04-16 09:50:41] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/a4/8e/8b3945e85cf5472c2620e981ab2eba91be98c668f5115f00e1fe27113c02/prerun-0.1.8.tar.gz
+[2024-04-16 09:50:41] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/96/19/8f8aeac1730424d050d2fc5dd0bb66e90154efbba104906e11bb74174e1c/lazy_schema-0.2.1.tar.gz
+[2024-04-16 09:50:41] INFO root fetch - processPackages [aerospike-flask-cache]: Downloading https://files.pythonhosted.org/packages/b7/11/3d8fce95625edd0b00efe8fb36947c8367c0fb9f835328afba0eac1d2989/aerospike_flask_cache-0.1.1rc6.tar.gz
+[2024-04-16 09:50:41] INFO root fetch - processPackages [prerun]: executing diffoscope
+[2024-04-16 09:50:41] INFO root fetch - processPackages [prerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prerun-0.1.7.tar.gz tmp/prerun-0.1.8.tar.gz --markdown 20240416/p/prerun/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-16 09:50:41] INFO root fetch - processPackages [lazy-schema]: executing diffoscope
+[2024-04-16 09:50:41] INFO root fetch - processPackages [lazy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_schema-0.2.0.tar.gz tmp/lazy_schema-0.2.1.tar.gz --markdown 20240416/l/lazy-schema/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-16 09:50:41] INFO root fetch - processPackages [aerospike-flask-cache]: executing diffoscope
+[2024-04-16 09:50:41] INFO root fetch - processPackages [aerospike-flask-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerospike_flask_cache-0.1.1rc5.tar.gz tmp/aerospike_flask_cache-0.1.1rc6.tar.gz --markdown 20240416/a/aerospike-flask-cache/0.1.1rc5-0.1.1rc6/README.md --exclude *.pyd
+[2024-04-16 09:50:41] INFO root fetch - processPackages [templatise]: Downloading https://files.pythonhosted.org/packages/7f/9e/0e8d35a2ed65d8cbadc3d21039a319fdf2cc20357c47eca4fa444efbbfb0/templatise-2.2.5.tar.gz
+[2024-04-16 09:50:41] INFO root fetch - processPackages [maihem]: Downloading https://files.pythonhosted.org/packages/37/0e/8d3608902a45ff74718db3c5e902b87515067587ca4df0ddc2bb4742f75b/maihem-1.4.2.tar.gz
+[2024-04-16 09:50:41] INFO root fetch - processPackages [maihem]: executing diffoscope
+[2024-04-16 09:50:41] INFO root fetch - processPackages [maihem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maihem-1.4.1.tar.gz tmp/maihem-1.4.2.tar.gz --markdown 20240416/m/maihem/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-16 09:50:41] INFO root fetch - processPackages [templatise]: executing diffoscope
+[2024-04-16 09:50:41] INFO root fetch - processPackages [templatise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/templatise-2.2.4.tar.gz tmp/templatise-2.2.5.tar.gz --markdown 20240416/t/templatise/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-04-16 09:50:42] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.0.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.1.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - main [MainThread]: End processing [lazy-schema]: success
+[2024-04-16 09:50:42] INFO root fetch - processPackages [aerospike-flask-cache]: Remove: archive file [/home/abi/fetcher/tmp/aerospike_flask_cache-0.1.1rc5.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - processPackages [aerospike-flask-cache]: Remove: archive file [/home/abi/fetcher/tmp/aerospike_flask_cache-0.1.1rc6.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - main [MainThread]: End processing [aerospike-flask-cache]: success
+[2024-04-16 09:50:42] INFO root fetch - processPackages [maihem]: Remove: archive file [/home/abi/fetcher/tmp/maihem-1.4.1.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - processPackages [maihem]: Remove: archive file [/home/abi/fetcher/tmp/maihem-1.4.2.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - main [MainThread]: End processing [maihem]: success
+[2024-04-16 09:50:42] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-0.1.7.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-0.1.8.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - main [MainThread]: End processing [prerun]: success
+[2024-04-16 09:50:42] INFO root fetch - processPackages [templatise]: Remove: archive file [/home/abi/fetcher/tmp/templatise-2.2.4.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - processPackages [templatise]: Remove: archive file [/home/abi/fetcher/tmp/templatise-2.2.5.tar.gz]
+[2024-04-16 09:50:42] INFO root fetch - main [MainThread]: End processing [templatise]: success
+[2024-04-16 09:50:42] INFO root fetch - main [MainThread]: Store serial: [22783998]
