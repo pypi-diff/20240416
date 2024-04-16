@@ -10071,3 +10071,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:06:02] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.4.0.tar.gz]
 [2024-04-16 10:06:02] INFO root fetch - main [MainThread]: End processing [adbutils]: success
 [2024-04-16 10:06:02] INFO root fetch - main [MainThread]: Store serial: [22784179]
+[2024-04-16 10:08:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784179]
+[2024-04-16 10:08:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 10:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lenstr
+[2024-04-16 10:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rnaformer
+[2024-04-16 10:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thingsvision
+[2024-04-16 10:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2024-04-16 10:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: database-common-tools
+[2024-04-16 10:08:11] INFO root fetch - processPackages [lenstr]: New version: [0.2] Old Version: [0.1]
+[2024-04-16 10:08:11] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240415] Old Version: [0.4.5.dev20240414]
+[2024-04-16 10:08:11] WARNING root fetch - processPackages [rnaformer]: Skipping, unable to determine old version
+[2024-04-16 10:08:11] INFO root fetch - main [MainThread]: End processing [rnaformer] error
+[2024-04-16 10:08:11] INFO root fetch - processPackages [database-common-tools]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-16 10:08:11] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/02/99/1b81a1261ae4c898b5a458356ec50d88f5e0ad05caf74b90f29fc12813f3/pyglove-0.4.5.dev20240414.tar.gz
+[2024-04-16 10:08:11] INFO root fetch - processPackages [thingsvision]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-16 10:08:11] INFO root fetch - processPackages [lenstr]: Downloading https://files.pythonhosted.org/packages/1b/ad/1c1316a074abc49effa172bbbde1b7973ede6b372b6c6da6c18e191c16b7/lenstr-0.1-py3-none-any.whl
+[2024-04-16 10:08:11] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/2a/95/a024131efacb73e6db7d6f6a98d0e496389c27a5c51866ad4197129891ee/database-common-tools-1.0.7.tar.gz
+[2024-04-16 10:08:11] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/a6/de/98d9fd079ceb7f62ae7b634a60b7d89475cc541edcc18b5876a65642a1c7/thingsvision-2.5.3.tar.gz
+[2024-04-16 10:08:11] INFO root fetch - processPackages [lenstr]: Downloading https://files.pythonhosted.org/packages/00/59/b29ad6b7a1f0bc701155955095142144055db0b603816bfc5c474769e71a/lenstr-0.2-py3-none-any.whl
+[2024-04-16 10:08:11] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/23/7e/2c91d5d0a4e6fb8fdca02fdb3695b53d96eb732b2dda096e8fcd765a6ad9/pyglove-0.4.5.dev20240415.tar.gz
+[2024-04-16 10:08:11] INFO root fetch - processPackages [lenstr]: executing diffoscope
+[2024-04-16 10:08:11] INFO root fetch - processPackages [lenstr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lenstr-0.1-py3-none-any.whl.zip tmp/lenstr-0.2-py3-none-any.whl.zip --markdown 20240416/l/lenstr/0.1-0.2/README.md --exclude *.pyd
+[2024-04-16 10:08:11] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/48/3c/fcc5701bfa665db4484c0015e9b403f47243a6a3a77c7e2298fb3943539b/database-common-tools-1.0.8.tar.gz
+[2024-04-16 10:08:11] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/d4/bc/4ea95a44f580aad8c9b302f92f5469dfc9b872bc9284ece45c7a34438cb1/thingsvision-2.5.4.tar.gz
+[2024-04-16 10:08:11] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-16 10:08:11] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240414.tar.gz tmp/pyglove-0.4.5.dev20240415.tar.gz --markdown 20240416/p/pyglove/0.4.5.dev20240414-0.4.5.dev20240415/README.md --exclude *.pyd
+[2024-04-16 10:08:12] INFO root fetch - processPackages [thingsvision]: executing diffoscope
+[2024-04-16 10:08:12] INFO root fetch - processPackages [thingsvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsvision-2.5.3.tar.gz tmp/thingsvision-2.5.4.tar.gz --markdown 20240416/t/thingsvision/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-16 10:08:12] INFO root fetch - processPackages [lenstr]: Remove: archive file [/home/abi/fetcher/tmp/lenstr-0.1-py3-none-any.whl.zip]
+[2024-04-16 10:08:12] INFO root fetch - processPackages [lenstr]: Remove: archive file [/home/abi/fetcher/tmp/lenstr-0.2-py3-none-any.whl.zip]
+[2024-04-16 10:08:12] INFO root fetch - main [MainThread]: End processing [lenstr]: success
+[2024-04-16 10:08:12] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.5.3.tar.gz]
+[2024-04-16 10:08:12] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.5.4.tar.gz]
+[2024-04-16 10:08:12] INFO root fetch - main [MainThread]: End processing [thingsvision]: success
+[2024-04-16 10:08:13] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240414.tar.gz]
+[2024-04-16 10:08:13] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240415.tar.gz]
+[2024-04-16 10:08:13] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-16 10:08:20] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-16 10:08:20] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.0.7.tar.gz tmp/database-common-tools-1.0.8.tar.gz --markdown 20240416/d/database-common-tools/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-16 10:08:20] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.7.tar.gz]
+[2024-04-16 10:08:20] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.8.tar.gz]
+[2024-04-16 10:08:20] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-16 10:08:20] INFO root fetch - main [MainThread]: Store serial: [22784194]
