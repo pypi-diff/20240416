@@ -19075,3 +19075,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:26:03] INFO root fetch - processPackages [Products.PloneMeeting]: Remove: archive file [/home/abi/fetcher/tmp/Products.PloneMeeting-4.2rc9.tar.gz]
 [2024-04-16 15:26:03] INFO root fetch - main [MainThread]: End processing [Products.PloneMeeting]: success
 [2024-04-16 15:26:03] INFO root fetch - main [MainThread]: Store serial: [22788167]
+[2024-04-16 15:28:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788167]
+[2024-04-16 15:28:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zohocrmsdk2-0
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyOMA-2
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytket
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m3-objectpack
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mat-model
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multispaeti
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ocx-databinding
+[2024-04-16 15:28:12] INFO root fetch - processPackages [mat-model]: New version: [0.1b12] Old Version: [0.1b11]
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ocx-databinding]: New version: [2.7.0] Old Version: [2.6.3]
+[2024-04-16 15:28:12] INFO root fetch - processPackages [pytket]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 15:28:12] WARNING root fetch - processPackages [multispaeti]: Skipping, unable to determine old version
+[2024-04-16 15:28:12] INFO root fetch - main [MainThread]: End processing [multispaeti] error
+[2024-04-16 15:28:12] INFO root fetch - processPackages [mat-model]: Downloading https://files.pythonhosted.org/packages/f8/bd/0095021443f34924c001d0284fd4c4b05cf7215e38e1ab8290838da0570a/mat-model-0.1b11.tar.gz
+[2024-04-16 15:28:12] INFO root fetch - processPackages [m3-objectpack]: New version: [3.0.1.4] Old Version: [3.0.1.3]
+[2024-04-16 15:28:12] INFO root fetch - processPackages [zohocrmsdk2-0]: New version: [6.0.0] Old Version: [5.1.0]
+[2024-04-16 15:28:12] INFO root fetch - processPackages [pyOMA-2]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ocx-databinding]: Downloading https://files.pythonhosted.org/packages/26/03/c2246d9627edca2a46299b07f9aee06aa2a3336a291e8ee30c5c97b2ec84/ocx_databinding-2.6.3.tar.gz
+[2024-04-16 15:28:12] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/87/71/8e2aacad13dbd41170b8621d384ddc3a72b889ece814228b18aeef84611e/pytket-1.9.0-cp39-cp39-win_amd64.whl
+[2024-04-16 15:28:12] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10514285>=10485760
+[2024-04-16 15:28:12] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2024-04-16 15:28:12] INFO root fetch - processPackages [m3-objectpack]: Downloading https://files.pythonhosted.org/packages/f0/cb/48af56aabc0d693c721e65ffab7f8f5e1cc481681185704607ee09973ab3/m3-objectpack-3.0.1.3.tar.gz
+[2024-04-16 15:28:12] INFO root fetch - processPackages [mat-model]: Downloading https://files.pythonhosted.org/packages/56/4a/97a86c29b13edf2a3803cf346293b1768ddb9395c40a248084a364e6e45c/mat_model-0.1b12.tar.gz
+[2024-04-16 15:28:12] INFO root fetch - processPackages [zohocrmsdk2-0]: Downloading https://files.pythonhosted.org/packages/02/36/1fe6e9c627e3e22acd0dd11fcaeaf607202bb0280f4a9596a3bd72e89c28/zohocrmsdk2_0-5.1.0.tar.gz
+[2024-04-16 15:28:12] INFO root fetch - processPackages [pyOMA-2]: Downloading https://files.pythonhosted.org/packages/ce/7d/4618a9a8f71873bbe4139c5b00f42242a7cb2e0da25c3983cb8033a8e790/pyoma_2-0.5.0.tar.gz
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ocx-databinding]: Downloading https://files.pythonhosted.org/packages/7c/95/99ad54c86d1eddee6f7d6b6f4233d166693b2004887da8df5476ee527561/ocx_databinding-2.7.0.tar.gz
+[2024-04-16 15:28:12] INFO root fetch - processPackages [mat-model]: executing diffoscope
+[2024-04-16 15:28:12] INFO root fetch - processPackages [mat-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat-model-0.1b11.tar.gz tmp/mat_model-0.1b12.tar.gz --markdown 20240416/m/mat-model/0.1b11-0.1b12/README.md --exclude *.pyd
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ocx-databinding]: executing diffoscope
+[2024-04-16 15:28:12] INFO root fetch - processPackages [ocx-databinding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocx_databinding-2.6.3.tar.gz tmp/ocx_databinding-2.7.0.tar.gz --markdown 20240416/o/ocx-databinding/2.6.3-2.7.0/README.md --exclude *.pyd
+[2024-04-16 15:28:12] WARNING root fetch - processPackages [pyOMA-2]: Skipping package: exceeds size limit 38739142>=10485760
+[2024-04-16 15:28:12] INFO root fetch - main [MainThread]: End processing [pyOMA-2] error
+[2024-04-16 15:28:13] INFO root fetch - processPackages [zohocrmsdk2-0]: Downloading https://files.pythonhosted.org/packages/c5/af/7498dd20f1e560a0236e5a018fb340e5ffcf9eeeb3084324606ad69b95e1/zohocrmsdk2_0-6.0.0.tar.gz
+[2024-04-16 15:28:13] INFO root fetch - processPackages [m3-objectpack]: Downloading https://files.pythonhosted.org/packages/45/93/9c3931c9c5ab33017b0d6d2056f9563aaaa91d1e0d9042b8f1c8b4a609aa/m3-objectpack-3.0.1.4.tar.gz
+[2024-04-16 15:28:13] INFO root fetch - processPackages [zohocrmsdk2-0]: executing diffoscope
+[2024-04-16 15:28:13] INFO root fetch - processPackages [zohocrmsdk2-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zohocrmsdk2_0-5.1.0.tar.gz tmp/zohocrmsdk2_0-6.0.0.tar.gz --markdown 20240416/z/zohocrmsdk2-0/5.1.0-6.0.0/README.md --exclude *.pyd
+[2024-04-16 15:28:13] INFO root fetch - processPackages [m3-objectpack]: executing diffoscope
+[2024-04-16 15:28:13] INFO root fetch - processPackages [m3-objectpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-objectpack-3.0.1.3.tar.gz tmp/m3-objectpack-3.0.1.4.tar.gz --markdown 20240416/m/m3-objectpack/3.0.1.3-3.0.1.4/README.md --exclude *.pyd
+[2024-04-16 15:28:13] INFO root fetch - processPackages [ocx-databinding]: Remove: archive file [/home/abi/fetcher/tmp/ocx_databinding-2.6.3.tar.gz]
+[2024-04-16 15:28:13] INFO root fetch - processPackages [ocx-databinding]: Remove: archive file [/home/abi/fetcher/tmp/ocx_databinding-2.7.0.tar.gz]
+[2024-04-16 15:28:13] INFO root fetch - main [MainThread]: End processing [ocx-databinding]: success
+[2024-04-16 15:28:13] INFO root fetch - processPackages [mat-model]: Remove: archive file [/home/abi/fetcher/tmp/mat-model-0.1b11.tar.gz]
+[2024-04-16 15:28:13] INFO root fetch - processPackages [mat-model]: Remove: archive file [/home/abi/fetcher/tmp/mat_model-0.1b12.tar.gz]
+[2024-04-16 15:28:13] INFO root fetch - main [MainThread]: End processing [mat-model]: success
+[2024-04-16 15:28:14] INFO root fetch - processPackages [m3-objectpack]: Remove: archive file [/home/abi/fetcher/tmp/m3-objectpack-3.0.1.3.tar.gz]
+[2024-04-16 15:28:14] INFO root fetch - processPackages [m3-objectpack]: Remove: archive file [/home/abi/fetcher/tmp/m3-objectpack-3.0.1.4.tar.gz]
+[2024-04-16 15:28:14] INFO root fetch - main [MainThread]: End processing [m3-objectpack]: success
+[2024-04-16 15:28:14] INFO root fetch - processPackages [zohocrmsdk2-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk2_0-5.1.0.tar.gz]
+[2024-04-16 15:28:14] INFO root fetch - processPackages [zohocrmsdk2-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk2_0-6.0.0.tar.gz]
+[2024-04-16 15:28:14] INFO root fetch - main [MainThread]: End processing [zohocrmsdk2-0]: success
+[2024-04-16 15:28:14] INFO root fetch - main [MainThread]: Store serial: [22788205]
