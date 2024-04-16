@@ -5014,3 +5014,24 @@
 [2024-04-16 05:23:42] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-04-16 05:23:42] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-04-16 05:23:42] INFO root fetch - main [MainThread]: Store serial: [22782039]
+[2024-04-16 05:25:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782039]
+[2024-04-16 05:25:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchtune
+[2024-04-16 05:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-16 05:25:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.17a1713237060] Old Version: [0.0.17a1713234623]
+[2024-04-16 05:25:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/41/50/cb85330f957bcdd9c8c6ea7799ec62f80adca2c471d92e68ef568e12e155/pulumi_kubernetes_the_hard_way-0.0.17a1713234623.tar.gz
+[2024-04-16 05:25:51] INFO root fetch - processPackages [torchtune]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-16 05:25:51] INFO root fetch - processPackages [torchtune]: Downloading https://files.pythonhosted.org/packages/13/59/888fb28d63a2576c86bcb4039ef40957a15b2fbbc6c535d2e31a5e0e4c1c/torchtune-0.0.1-py3-none-any.whl
+[2024-04-16 05:25:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/66/dd/0db0aa7197d21f141e82f245cd3cbc6b965f865653d4db1e53d3e9efa47b/pulumi_kubernetes_the_hard_way-0.0.17a1713237060.tar.gz
+[2024-04-16 05:25:51] INFO root fetch - processPackages [torchtune]: Downloading https://files.pythonhosted.org/packages/19/b7/a5746fdda221c48881eea3c51699e5b21cd31a457422a3c66b6695a3d29e/torchtune-0.1.0-py3-none-any.whl
+[2024-04-16 05:25:52] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-16 05:25:52] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713234623.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713237060.tar.gz --markdown 20240416/p/pulumi-kubernetes-the-hard-way/0.0.17a1713234623-0.0.17a1713237060/README.md --exclude *.pyd
+[2024-04-16 05:25:52] INFO root fetch - processPackages [torchtune]: executing diffoscope
+[2024-04-16 05:25:52] INFO root fetch - processPackages [torchtune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtune-0.0.1-py3-none-any.whl.zip tmp/torchtune-0.1.0-py3-none-any.whl.zip --markdown 20240416/t/torchtune/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-16 05:25:52] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713234623.tar.gz]
+[2024-04-16 05:25:52] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713237060.tar.gz]
+[2024-04-16 05:25:52] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-16 05:25:52] INFO root fetch - processPackages [torchtune]: Remove: archive file [/home/abi/fetcher/tmp/torchtune-0.0.1-py3-none-any.whl.zip]
+[2024-04-16 05:25:52] INFO root fetch - processPackages [torchtune]: Remove: archive file [/home/abi/fetcher/tmp/torchtune-0.1.0-py3-none-any.whl.zip]
+[2024-04-16 05:25:52] INFO root fetch - main [MainThread]: End processing [torchtune]: success
+[2024-04-16 05:25:52] INFO root fetch - main [MainThread]: Store serial: [22782112]
