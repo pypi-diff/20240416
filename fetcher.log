@@ -11541,3 +11541,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:51:14] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.4rc0.tar.gz]
 [2024-04-16 10:51:14] INFO root fetch - main [MainThread]: End processing [linktools]: success
 [2024-04-16 10:51:14] INFO root fetch - main [MainThread]: Store serial: [22784863]
+[2024-04-16 10:53:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784863]
+[2024-04-16 10:53:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 10:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: design.plone.iocittadino
+[2024-04-16 10:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyacp
+[2024-04-16 10:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt
+[2024-04-16 10:53:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opal-fetcher-mongodb-treedom
+[2024-04-16 10:53:23] INFO root fetch - processPackages [pyacp]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-16 10:53:23] INFO root fetch - processPackages [design.plone.iocittadino]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2024-04-16 10:53:23] INFO root fetch - processPackages [pyacp]: Downloading https://files.pythonhosted.org/packages/bd/7f/65d316d66a83526c74a70b2b7374ddb6b1d93ad95bc00b11749b2d11c773/pyacp-0.1.4.tar.gz
+[2024-04-16 10:53:23] WARNING root fetch - processPackages [opal-fetcher-mongodb-treedom]: Skipping, unable to determine old version
+[2024-04-16 10:53:23] INFO root fetch - main [MainThread]: End processing [opal-fetcher-mongodb-treedom] error
+[2024-04-16 10:53:23] INFO root fetch - processPackages [ccxt]: New version: [4.2.98] Old Version: [4.2.97]
+[2024-04-16 10:53:24] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/55/da/a713b62f3e1e29bdb1cfd111cc26b673e8b78a5632265717b3a2f82e9a4a/ccxt-4.2.97.tar.gz
+[2024-04-16 10:53:24] INFO root fetch - processPackages [design.plone.iocittadino]: Downloading https://files.pythonhosted.org/packages/4b/84/40f01ce60a56d0ffab511360698ac2734300e28545d27635199fcfb52ee4/design.plone.iocittadino-1.0.0b8.tar.gz
+[2024-04-16 10:53:24] INFO root fetch - processPackages [pyacp]: Downloading https://files.pythonhosted.org/packages/d7/c8/9eab63faeda22c2bb32cf9fd31763609b6257043fb5ed1d4e5716da596db/pyacp-0.2.0.tar.gz
+[2024-04-16 10:53:24] INFO root fetch - processPackages [design.plone.iocittadino]: Downloading https://files.pythonhosted.org/packages/af/30/a9f059b238825003d94b64633afd36ae9957d6bb47226df7f67fc566f2bb/design.plone.iocittadino-1.0.0b9.tar.gz
+[2024-04-16 10:53:24] INFO root fetch - processPackages [design.plone.iocittadino]: executing diffoscope
+[2024-04-16 10:53:24] INFO root fetch - processPackages [design.plone.iocittadino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.iocittadino-1.0.0b8.tar.gz tmp/design.plone.iocittadino-1.0.0b9.tar.gz --markdown 20240416/d/design.plone.iocittadino/1.0.0b8-1.0.0b9/README.md --exclude *.pyd
+[2024-04-16 10:53:24] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/07/7ce9ce492a0e4d6aa789fa039d0e240a7d486fb77b32b5fd4fc043a3f504/ccxt-4.2.98.tar.gz
+[2024-04-16 10:53:24] INFO root fetch - processPackages [pyacp]: executing diffoscope
+[2024-04-16 10:53:24] INFO root fetch - processPackages [pyacp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyacp-0.1.4.tar.gz tmp/pyacp-0.2.0.tar.gz --markdown 20240416/p/pyacp/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-04-16 10:53:24] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-04-16 10:53:24] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.2.97.tar.gz tmp/ccxt-4.2.98.tar.gz --markdown 20240416/c/ccxt/4.2.97-4.2.98/README.md --exclude *.pyd
+[2024-04-16 10:53:25] INFO root fetch - processPackages [design.plone.iocittadino]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.iocittadino-1.0.0b8.tar.gz]
+[2024-04-16 10:53:25] INFO root fetch - processPackages [design.plone.iocittadino]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.iocittadino-1.0.0b9.tar.gz]
+[2024-04-16 10:53:25] INFO root fetch - main [MainThread]: End processing [design.plone.iocittadino]: success
+[2024-04-16 10:53:28] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.2.97.tar.gz]
+[2024-04-16 10:53:28] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.2.98.tar.gz]
+[2024-04-16 10:53:28] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-04-16 10:54:37] INFO root fetch - processPackages [pyacp]: Remove: archive file [/home/abi/fetcher/tmp/pyacp-0.1.4.tar.gz]
+[2024-04-16 10:54:37] INFO root fetch - processPackages [pyacp]: Remove: archive file [/home/abi/fetcher/tmp/pyacp-0.2.0.tar.gz]
+[2024-04-16 10:54:37] INFO root fetch - main [MainThread]: End processing [pyacp]: success
+[2024-04-16 10:54:37] INFO root fetch - main [MainThread]: Store serial: [22784878]
