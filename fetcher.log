@@ -5327,3 +5327,42 @@
 [2024-04-16 05:47:45] INFO root fetch - processPackages [ngsfragments]: Remove: archive file [/home/abi/fetcher/tmp/ngsfragments-2.1.5.tar.gz]
 [2024-04-16 05:47:45] INFO root fetch - main [MainThread]: End processing [ngsfragments]: success
 [2024-04-16 05:47:45] INFO root fetch - main [MainThread]: Store serial: [22782252]
+[2024-04-16 05:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782252]
+[2024-04-16 05:49:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyairtable
+[2024-04-16 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-material
+[2024-04-16 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfdna
+[2024-04-16 05:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remindmail
+[2024-04-16 05:49:54] INFO root fetch - processPackages [mkdocs-material]: New version: [9.5.9] Old Version: [9.5.8]
+[2024-04-16 05:49:54] INFO root fetch - processPackages [remindmail]: New version: [2024.4.14.3] Old Version: [2024.4.14.2]
+[2024-04-16 05:49:54] INFO root fetch - processPackages [cfdna]: New version: [2.0.7] Old Version: [2.0.5]
+[2024-04-16 05:49:54] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/37/1a/3a99862b9324d5a53a3b01c4c519858ac9e5ec94c235390bd99389059c95/remindmail-2024.4.14.2.tar.gz
+[2024-04-16 05:49:54] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/af/3b/2e05d9ad24b7f836a4dd8aa6221af8f7c7c9a48021c5300ea9de5f01465e/mkdocs_material-9.5.8.tar.gz
+[2024-04-16 05:49:54] INFO root fetch - processPackages [cfdna]: Downloading https://files.pythonhosted.org/packages/56/e3/3e15afcb3a39e617a09184b90fc2f6eec13e3dd29e50ec35988288804834/cfdna-2.0.5.tar.gz
+[2024-04-16 05:49:54] INFO root fetch - processPackages [pyairtable]: New version: [3.0.0a1] Old Version: [2.3.3]
+[2024-04-16 05:49:54] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/6d/c0/f452f62c558020f02f778be2cc3be0f6240543a4d485db107c4d2c66f2de/remindmail-2024.4.14.3.tar.gz
+[2024-04-16 05:49:54] INFO root fetch - processPackages [cfdna]: Downloading https://files.pythonhosted.org/packages/c5/58/38fe28dd646786de798d39e285da65e2005e3ea529d8323b8d6a67f53601/cfdna-2.0.7.tar.gz
+[2024-04-16 05:49:54] INFO root fetch - processPackages [pyairtable]: Downloading https://files.pythonhosted.org/packages/23/1d/8d092eebb77ee0000a042bc0e22a06b7b939f471b38a861e5a78f68d90a7/pyairtable-2.3.3.tar.gz
+[2024-04-16 05:49:54] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2024-04-16 05:49:54] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2024.4.14.2.tar.gz tmp/remindmail-2024.4.14.3.tar.gz --markdown 20240416/r/remindmail/2024.4.14.2-2024.4.14.3/README.md --exclude *.pyd
+[2024-04-16 05:49:54] INFO root fetch - processPackages [cfdna]: executing diffoscope
+[2024-04-16 05:49:54] INFO root fetch - processPackages [cfdna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfdna-2.0.5.tar.gz tmp/cfdna-2.0.7.tar.gz --markdown 20240416/c/cfdna/2.0.5-2.0.7/README.md --exclude *.pyd
+[2024-04-16 05:49:54] INFO root fetch - processPackages [pyairtable]: Downloading https://files.pythonhosted.org/packages/35/e8/fc5e109c519d466a469443edd11614b3f17aa4699c5394714960253d745c/pyairtable-3.0.0a1.tar.gz
+[2024-04-16 05:49:55] INFO root fetch - processPackages [pyairtable]: executing diffoscope
+[2024-04-16 05:49:55] INFO root fetch - processPackages [pyairtable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyairtable-2.3.3.tar.gz tmp/pyairtable-3.0.0a1.tar.gz --markdown 20240416/p/pyairtable/2.3.3-3.0.0a1/README.md --exclude *.pyd
+[2024-04-16 05:49:55] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.14.2.tar.gz]
+[2024-04-16 05:49:55] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.14.3.tar.gz]
+[2024-04-16 05:49:55] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2024-04-16 05:49:55] INFO root fetch - processPackages [cfdna]: Remove: archive file [/home/abi/fetcher/tmp/cfdna-2.0.5.tar.gz]
+[2024-04-16 05:49:55] INFO root fetch - processPackages [cfdna]: Remove: archive file [/home/abi/fetcher/tmp/cfdna-2.0.7.tar.gz]
+[2024-04-16 05:49:55] INFO root fetch - main [MainThread]: End processing [cfdna]: success
+[2024-04-16 05:49:55] INFO root fetch - processPackages [pyairtable]: Remove: archive file [/home/abi/fetcher/tmp/pyairtable-2.3.3.tar.gz]
+[2024-04-16 05:49:55] INFO root fetch - processPackages [pyairtable]: Remove: archive file [/home/abi/fetcher/tmp/pyairtable-3.0.0a1.tar.gz]
+[2024-04-16 05:49:55] INFO root fetch - main [MainThread]: End processing [pyairtable]: success
+[2024-04-16 05:49:56] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/7f/87/b416888ac24bc9210f727d59afe528e00b7e037933f3497f6ad17ff5d370/mkdocs_material-9.5.9.tar.gz
+[2024-04-16 05:49:56] INFO root fetch - processPackages [mkdocs-material]: executing diffoscope
+[2024-04-16 05:49:56] INFO root fetch - processPackages [mkdocs-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material-9.5.8.tar.gz tmp/mkdocs_material-9.5.9.tar.gz --markdown 20240416/m/mkdocs-material/9.5.8-9.5.9/README.md --exclude *.pyd
+[2024-04-16 05:50:57] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.8.tar.gz]
+[2024-04-16 05:50:57] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
+[2024-04-16 05:50:57] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
+[2024-04-16 05:50:57] INFO root fetch - main [MainThread]: Store serial: [22782264]
