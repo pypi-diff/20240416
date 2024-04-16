@@ -15322,3 +15322,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:16:17] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0.post2.tar.gz]
 [2024-04-16 13:16:17] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
 [2024-04-16 13:16:17] INFO root fetch - main [MainThread]: Store serial: [22786688]
+[2024-04-16 13:18:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786688]
+[2024-04-16 13:18:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 13:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: climb-onyx-client
+[2024-04-16 13:18:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baseapp-comments
+[2024-04-16 13:18:25] INFO root fetch - processPackages [baseapp-comments]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 13:18:25] INFO root fetch - processPackages [climb-onyx-client]: New version: [4.2.0] Old Version: [4.1.1]
+[2024-04-16 13:18:26] INFO root fetch - processPackages [baseapp-comments]: Downloading https://files.pythonhosted.org/packages/db/7a/1b29a858d0f5ab88918de66f30651ab2b57d74286c9d57871d46cbea1ba6/baseapp_comments-0.1.1.tar.gz
+[2024-04-16 13:18:26] INFO root fetch - processPackages [climb-onyx-client]: Downloading https://files.pythonhosted.org/packages/b6/ce/7eac3f659770491bbd59c5ad0f919ee0d0a49e9bcca3c70ecd6afd8628c4/climb-onyx-client-4.1.1.tar.gz
+[2024-04-16 13:18:26] INFO root fetch - processPackages [baseapp-comments]: Downloading https://files.pythonhosted.org/packages/b0/64/e8944af414acf94ec2c8a998eb518932d7fca04196b9ed379dabbdd504ec/baseapp_comments-0.1.2.tar.gz
+[2024-04-16 13:18:26] INFO root fetch - processPackages [climb-onyx-client]: Downloading https://files.pythonhosted.org/packages/5e/1c/232c676bb10a249a0de7476544077a08f94b1c7aaa3cfe30b189a347a2ce/climb_onyx_client-4.2.0.tar.gz
+[2024-04-16 13:18:26] INFO root fetch - processPackages [baseapp-comments]: executing diffoscope
+[2024-04-16 13:18:26] INFO root fetch - processPackages [baseapp-comments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseapp_comments-0.1.1.tar.gz tmp/baseapp_comments-0.1.2.tar.gz --markdown 20240416/b/baseapp-comments/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 13:18:26] INFO root fetch - processPackages [climb-onyx-client]: executing diffoscope
+[2024-04-16 13:18:26] INFO root fetch - processPackages [climb-onyx-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climb-onyx-client-4.1.1.tar.gz tmp/climb_onyx_client-4.2.0.tar.gz --markdown 20240416/c/climb-onyx-client/4.1.1-4.2.0/README.md --exclude *.pyd
+[2024-04-16 13:18:27] INFO root fetch - processPackages [climb-onyx-client]: Remove: archive file [/home/abi/fetcher/tmp/climb-onyx-client-4.1.1.tar.gz]
+[2024-04-16 13:18:27] INFO root fetch - processPackages [climb-onyx-client]: Remove: archive file [/home/abi/fetcher/tmp/climb_onyx_client-4.2.0.tar.gz]
+[2024-04-16 13:18:27] INFO root fetch - main [MainThread]: End processing [climb-onyx-client]: success
+[2024-04-16 13:18:27] INFO root fetch - processPackages [baseapp-comments]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_comments-0.1.1.tar.gz]
+[2024-04-16 13:18:27] INFO root fetch - processPackages [baseapp-comments]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_comments-0.1.2.tar.gz]
+[2024-04-16 13:18:27] INFO root fetch - main [MainThread]: End processing [baseapp-comments]: success
+[2024-04-16 13:18:27] INFO root fetch - main [MainThread]: Store serial: [22786696]
