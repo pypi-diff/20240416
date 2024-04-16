@@ -24217,3 +24217,38 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:59:59] INFO root fetch - processPackages [ckanext-datajson]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-datajson-0.1.9.tar.gz]
 [2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [ckanext-datajson]: success
 [2024-04-16 17:59:59] INFO root fetch - main [MainThread]: Store serial: [22790314]
+[2024-04-16 18:02:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22790314]
+[2024-04-16 18:02:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 18:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whatsfly
+[2024-04-16 18:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iotopen-py-lynx
+[2024-04-16 18:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: illusionanime
+[2024-04-16 18:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alida-apis
+[2024-04-16 18:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surfkit
+[2024-04-16 18:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: betterjson-python
+[2024-04-16 18:02:10] INFO root fetch - processPackages [iotopen-py-lynx]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 18:02:10] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 18:02:10] INFO root fetch - processPackages [iotopen-py-lynx]: Downloading https://files.pythonhosted.org/packages/2b/81/c2dcca3739c018728ea8de2dd07f8bc0fa1e17c850aae2b1745b106ba600/iotopen_py_lynx-1.0.4.tar.gz
+[2024-04-16 18:02:10] WARNING root fetch - processPackages [alida-apis]: Skipping, unable to determine old version
+[2024-04-16 18:02:10] WARNING root fetch - processPackages [betterjson-python]: Skipping, unable to determine old version
+[2024-04-16 18:02:10] INFO root fetch - main [MainThread]: End processing [alida-apis] error
+[2024-04-16 18:02:10] INFO root fetch - main [MainThread]: End processing [betterjson-python] error
+[2024-04-16 18:02:10] WARNING root fetch - processPackages [illusionanime]: Skipping, unable to determine old version
+[2024-04-16 18:02:10] INFO root fetch - main [MainThread]: End processing [illusionanime] error
+[2024-04-16 18:02:10] INFO root fetch - processPackages [whatsfly]: New version: [0.0.231] Old Version: [0.0.22]
+[2024-04-16 18:02:10] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-16 18:02:10] INFO root fetch - processPackages [whatsfly]: Downloading https://files.pythonhosted.org/packages/b4/09/6d70ca07267f899ed2b0d7adf73deecc32268f952349e638a9ea1de524fc/whatsfly-0.0.22.tar.gz
+[2024-04-16 18:02:10] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-16 18:02:10] WARNING root fetch - processPackages [whatsfly]: Skipping package: exceeds size limit 36348144>=10485760
+[2024-04-16 18:02:10] INFO root fetch - main [MainThread]: End processing [whatsfly] error
+[2024-04-16 18:02:11] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-16 18:02:11] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240416/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 18:02:11] INFO root fetch - processPackages [iotopen-py-lynx]: Downloading https://files.pythonhosted.org/packages/9a/11/1e8d935d9c801bc536564b177f6317b85460a2d622b556edeb4014abc9b4/iotopen_py_lynx-1.0.5.tar.gz
+[2024-04-16 18:02:11] INFO root fetch - processPackages [iotopen-py-lynx]: executing diffoscope
+[2024-04-16 18:02:11] INFO root fetch - processPackages [iotopen-py-lynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotopen_py_lynx-1.0.4.tar.gz tmp/iotopen_py_lynx-1.0.5.tar.gz --markdown 20240416/i/iotopen-py-lynx/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-16 18:02:11] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-16 18:02:11] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-16 18:02:11] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-16 18:02:11] INFO root fetch - processPackages [iotopen-py-lynx]: Remove: archive file [/home/abi/fetcher/tmp/iotopen_py_lynx-1.0.4.tar.gz]
+[2024-04-16 18:02:11] INFO root fetch - processPackages [iotopen-py-lynx]: Remove: archive file [/home/abi/fetcher/tmp/iotopen_py_lynx-1.0.5.tar.gz]
+[2024-04-16 18:02:11] INFO root fetch - main [MainThread]: End processing [iotopen-py-lynx]: success
+[2024-04-16 18:02:11] INFO root fetch - main [MainThread]: Store serial: [22790337]
