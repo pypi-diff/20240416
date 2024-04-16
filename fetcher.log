@@ -4242,3 +4242,15 @@
 [2024-04-16 04:36:42] INFO root fetch - processPackages [antchain-realperson]: Remove: archive file [/home/abi/fetcher/tmp/antchain_realperson-1.9.0.tar.gz]
 [2024-04-16 04:36:42] INFO root fetch - main [MainThread]: End processing [antchain-realperson]: success
 [2024-04-16 04:36:42] INFO root fetch - main [MainThread]: Store serial: [22781708]
+[2024-04-16 04:38:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781708]
+[2024-04-16 04:38:50] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 04:38:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: think-sql
+[2024-04-16 04:38:50] INFO root fetch - processPackages [think-sql]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-16 04:38:50] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/79/bc/ce02eed117e64f425a780e942d5053d65e25a5cbe65464af5b81a15cd988/think_sql-0.5.1.tar.gz
+[2024-04-16 04:38:50] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/47/44/b9caa3e22c51d2f591314e20f24dc48c2054f51e49226bdd273538e06c9b/think_sql-0.6.0.tar.gz
+[2024-04-16 04:38:50] INFO root fetch - processPackages [think-sql]: executing diffoscope
+[2024-04-16 04:38:50] INFO root fetch - processPackages [think-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/think_sql-0.5.1.tar.gz tmp/think_sql-0.6.0.tar.gz --markdown 20240416/t/think-sql/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-16 04:38:51] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.5.1.tar.gz]
+[2024-04-16 04:38:51] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.6.0.tar.gz]
+[2024-04-16 04:38:51] INFO root fetch - main [MainThread]: End processing [think-sql]: success
+[2024-04-16 04:38:51] INFO root fetch - main [MainThread]: Store serial: [22781712]
