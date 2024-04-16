@@ -9135,3 +9135,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:32:32] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.5.tar.gz]
 [2024-04-16 09:32:32] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
 [2024-04-16 09:32:32] INFO root fetch - main [MainThread]: Store serial: [22783760]
+[2024-04-16 09:34:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783760]
+[2024-04-16 09:34:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gref4hsi
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quakediffusion
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aerospike-flask-cache
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quakediffusion
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momotor-engine-options
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ixdat
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipi
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Eporner-API
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lcz
+[2024-04-16 09:34:40] INFO root fetch - processPackages [gref4hsi]: New version: [0.1.9] Old Version: [0.1.5]
+[2024-04-16 09:34:40] INFO root fetch - processPackages [aerospike-flask-cache]: New version: [0.1.1rc4] Old Version: [0.1.1rc3]
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ipi]: New version: [2.6.3] Old Version: [2.6.0]
+[2024-04-16 09:34:40] INFO root fetch - processPackages [ixdat]: New version: [0.2.9.dev3] Old Version: [0.2.9.dev2]
+[2024-04-16 09:34:41] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/96/b2/34dde24cb7cba06a57f3fb5f2e6a958c16bd2bcd4ee3eec73e5c2d373d11/gref4hsi-0.1.5.tar.gz
+[2024-04-16 09:34:41] INFO root fetch - processPackages [aerospike-flask-cache]: Downloading https://files.pythonhosted.org/packages/70/5a/760c1689e23ae7d2a2dac07f3c01c5bb3fecc422526935225d23fcd870cc/aerospike_flask_cache-0.1.1rc3.tar.gz
+[2024-04-16 09:34:41] INFO root fetch - processPackages [Eporner-API]: New version: [1.7] Old Version: [1.6.1]
+[2024-04-16 09:34:41] INFO root fetch - processPackages [momotor-engine-options]: New version: [2.0.1] Old Version: [2.0.0rc9]
+[2024-04-16 09:34:41] INFO root fetch - processPackages [ixdat]: Downloading https://files.pythonhosted.org/packages/20/63/41d061966caea5cea68b1a29d470aa2177fc58ecb48d0bf0d63156de8400/ixdat-0.2.9.dev2.tar.gz
+[2024-04-16 09:34:41] ERROR root fetch - processPackages [quakediffusion]: Unable to get metadata: No such project 'quakediffusion'
+[2024-04-16 09:34:41] ERROR root fetch - processPackages [quakediffusion]: Unable to get metadata: No such project 'quakediffusion'
+[2024-04-16 09:34:41] INFO root fetch - main [MainThread]: End processing [quakediffusion] error
+[2024-04-16 09:34:41] INFO root fetch - main [MainThread]: End processing [quakediffusion] error
+[2024-04-16 09:34:41] INFO root fetch - processPackages [lcz]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 09:34:41] INFO root fetch - processPackages [momotor-engine-options]: Downloading https://files.pythonhosted.org/packages/b3/c5/1ae7c4aa77e2508c42de048faa94ceff31d294a89818f0dac3f50087f627/momotor-engine-options-2.0.0rc9.tar.gz
+[2024-04-16 09:34:41] INFO root fetch - processPackages [ipi]: Downloading https://files.pythonhosted.org/packages/5b/58/eca4309e213e9de91efceac9f13033edbade81daeffe142c867950f028c5/ipi-2.6.0.tar.gz
+[2024-04-16 09:34:41] INFO root fetch - processPackages [Eporner-API]: Downloading https://files.pythonhosted.org/packages/df/0d/85d88b569c847fa9fa4921a70115f9c25b867e8328228c3a9cfa59cc5605/Eporner_API-1.6.1.tar.gz
+[2024-04-16 09:34:41] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/fc/15/98463226a9236dd2907e0546e39570a0d15c293b077c48a44d68c6fb9869/gref4hsi-0.1.9.tar.gz
+[2024-04-16 09:34:41] INFO root fetch - processPackages [lcz]: Downloading https://files.pythonhosted.org/packages/cd/41/f772e17ef50964fee254f634b23e3bb189d49bb239985a4cfaf188729d05/lcz-0.1.3-py3-none-any.whl
+[2024-04-16 09:34:41] INFO root fetch - processPackages [aerospike-flask-cache]: Downloading https://files.pythonhosted.org/packages/ba/8b/c076b3e1ee8d473a99e4e82034cfa4062f8e0f7c5c602addaa5c68d72f33/aerospike_flask_cache-0.1.1rc4.tar.gz
+[2024-04-16 09:34:41] INFO root fetch - processPackages [gref4hsi]: executing diffoscope
+[2024-04-16 09:34:41] INFO root fetch - processPackages [gref4hsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gref4hsi-0.1.5.tar.gz tmp/gref4hsi-0.1.9.tar.gz --markdown 20240416/g/gref4hsi/0.1.5-0.1.9/README.md --exclude *.pyd
+[2024-04-16 09:34:41] INFO root fetch - processPackages [ixdat]: Downloading https://files.pythonhosted.org/packages/c4/96/eb005b5f5a99def9d9224c796b21fd730183993c025a893b291478ef7e85/ixdat-0.2.9.dev3.tar.gz
+[2024-04-16 09:34:41] INFO root fetch - processPackages [aerospike-flask-cache]: executing diffoscope
+[2024-04-16 09:34:41] INFO root fetch - processPackages [aerospike-flask-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerospike_flask_cache-0.1.1rc3.tar.gz tmp/aerospike_flask_cache-0.1.1rc4.tar.gz --markdown 20240416/a/aerospike-flask-cache/0.1.1rc3-0.1.1rc4/README.md --exclude *.pyd
+[2024-04-16 09:34:41] INFO root fetch - processPackages [momotor-engine-options]: Downloading https://files.pythonhosted.org/packages/e4/47/44a440a679a5a890777d6fdd0d58e4c5acbd7ce171795a2c2ab85abac030/momotor_engine_options-2.0.1.tar.gz
+[2024-04-16 09:34:41] INFO root fetch - processPackages [ixdat]: executing diffoscope
+[2024-04-16 09:34:41] INFO root fetch - processPackages [ixdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixdat-0.2.9.dev2.tar.gz tmp/ixdat-0.2.9.dev3.tar.gz --markdown 20240416/i/ixdat/0.2.9.dev2-0.2.9.dev3/README.md --exclude *.pyd
+[2024-04-16 09:34:41] INFO root fetch - processPackages [Eporner-API]: Downloading https://files.pythonhosted.org/packages/7c/f2/aac5e4d7269ec3d8184b646337e21eb276679c5787fef731e5c048d1a595/Eporner_API-1.7-py3-none-any.whl
+[2024-04-16 09:34:41] INFO root fetch - processPackages [momotor-engine-options]: executing diffoscope
+[2024-04-16 09:34:41] INFO root fetch - processPackages [momotor-engine-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momotor-engine-options-2.0.0rc9.tar.gz tmp/momotor_engine_options-2.0.1.tar.gz --markdown 20240416/m/momotor-engine-options/2.0.0rc9-2.0.1/README.md --exclude *.pyd
+[2024-04-16 09:34:41] INFO root fetch - processPackages [Eporner-API]: executing diffoscope
+[2024-04-16 09:34:41] INFO root fetch - processPackages [Eporner-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Eporner_API-1.6.1.tar.gz tmp/Eporner_API-1.7-py3-none-any.whl.zip --markdown 20240416/E/Eporner-API/1.6.1-1.7/README.md --exclude *.pyd
+[2024-04-16 09:34:41] INFO root fetch - processPackages [ipi]: Downloading https://files.pythonhosted.org/packages/ed/bc/e01f3d8cfdcac302b3110888028ed46900598c9e6fee5630243d117331e5/ipi-2.6.3.tar.gz
+[2024-04-16 09:34:42] INFO root fetch - processPackages [ipi]: executing diffoscope
+[2024-04-16 09:34:42] INFO root fetch - processPackages [ipi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipi-2.6.0.tar.gz tmp/ipi-2.6.3.tar.gz --markdown 20240416/i/ipi/2.6.0-2.6.3/README.md --exclude *.pyd
+[2024-04-16 09:34:42] INFO root fetch - processPackages [aerospike-flask-cache]: Remove: archive file [/home/abi/fetcher/tmp/aerospike_flask_cache-0.1.1rc3.tar.gz]
+[2024-04-16 09:34:42] INFO root fetch - processPackages [aerospike-flask-cache]: Remove: archive file [/home/abi/fetcher/tmp/aerospike_flask_cache-0.1.1rc4.tar.gz]
+[2024-04-16 09:34:42] INFO root fetch - main [MainThread]: End processing [aerospike-flask-cache]: success
+[2024-04-16 09:34:42] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.1.5.tar.gz]
+[2024-04-16 09:34:42] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.1.9.tar.gz]
+[2024-04-16 09:34:42] INFO root fetch - main [MainThread]: End processing [gref4hsi]: success
+[2024-04-16 09:34:42] INFO root fetch - processPackages [lcz]: Downloading https://files.pythonhosted.org/packages/fd/d5/d261b69e8401b1b438b3d7896ebb43ac87dd6eafdc70bcd2e44dfb2706f2/lcz-0.1.4-py3-none-any.whl
+[2024-04-16 09:34:42] INFO root fetch - processPackages [Eporner-API]: Remove: archive file [/home/abi/fetcher/tmp/Eporner_API-1.6.1.tar.gz]
+[2024-04-16 09:34:42] INFO root fetch - processPackages [Eporner-API]: Remove: archive file [/home/abi/fetcher/tmp/Eporner_API-1.7-py3-none-any.whl.zip]
+[2024-04-16 09:34:42] INFO root fetch - main [MainThread]: End processing [Eporner-API]: success
+[2024-04-16 09:34:42] INFO root fetch - processPackages [momotor-engine-options]: Remove: archive file [/home/abi/fetcher/tmp/momotor-engine-options-2.0.0rc9.tar.gz]
+[2024-04-16 09:34:42] INFO root fetch - processPackages [momotor-engine-options]: Remove: archive file [/home/abi/fetcher/tmp/momotor_engine_options-2.0.1.tar.gz]
+[2024-04-16 09:34:42] INFO root fetch - main [MainThread]: End processing [momotor-engine-options]: success
+[2024-04-16 09:34:43] INFO root fetch - processPackages [ixdat]: Remove: archive file [/home/abi/fetcher/tmp/ixdat-0.2.9.dev2.tar.gz]
+[2024-04-16 09:34:43] INFO root fetch - processPackages [ixdat]: Remove: archive file [/home/abi/fetcher/tmp/ixdat-0.2.9.dev3.tar.gz]
+[2024-04-16 09:34:43] INFO root fetch - main [MainThread]: End processing [ixdat]: success
+[2024-04-16 09:34:44] INFO root fetch - processPackages [ipi]: Remove: archive file [/home/abi/fetcher/tmp/ipi-2.6.0.tar.gz]
+[2024-04-16 09:34:44] INFO root fetch - processPackages [ipi]: Remove: archive file [/home/abi/fetcher/tmp/ipi-2.6.3.tar.gz]
+[2024-04-16 09:34:44] INFO root fetch - main [MainThread]: End processing [ipi]: success
+[2024-04-16 09:34:44] INFO root fetch - processPackages [lcz]: executing diffoscope
+[2024-04-16 09:34:44] INFO root fetch - processPackages [lcz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcz-0.1.3-py3-none-any.whl.zip tmp/lcz-0.1.4-py3-none-any.whl.zip --markdown 20240416/l/lcz/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 09:34:45] INFO root fetch - processPackages [lcz]: Remove: archive file [/home/abi/fetcher/tmp/lcz-0.1.3-py3-none-any.whl.zip]
+[2024-04-16 09:34:45] INFO root fetch - processPackages [lcz]: Remove: archive file [/home/abi/fetcher/tmp/lcz-0.1.4-py3-none-any.whl.zip]
+[2024-04-16 09:34:45] INFO root fetch - main [MainThread]: End processing [lcz]: success
+[2024-04-16 09:34:45] INFO root fetch - main [MainThread]: Store serial: [22783787]
