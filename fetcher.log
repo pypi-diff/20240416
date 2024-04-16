@@ -8239,3 +8239,23 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 08:55:23] INFO root fetch - processPackages [django-listing]: Remove: archive file [/home/abi/fetcher/tmp/django-listing-0.7.9.tar.gz]
 [2024-04-16 08:55:23] INFO root fetch - main [MainThread]: End processing [django-listing]: success
 [2024-04-16 08:55:23] INFO root fetch - main [MainThread]: Store serial: [22783441]
+[2024-04-16 08:57:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783441]
+[2024-04-16 08:57:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 08:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-cpp
+[2024-04-16 08:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dirigera
+[2024-04-16 08:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cxzscxiezhifeng1
+[2024-04-16 08:57:32] WARNING root fetch - processPackages [cxzscxiezhifeng1]: Skipping, unable to determine old version
+[2024-04-16 08:57:32] INFO root fetch - main [MainThread]: End processing [cxzscxiezhifeng1] error
+[2024-04-16 08:57:32] INFO root fetch - processPackages [dirigera]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-16 08:57:32] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-16 08:57:32] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/30/d0/4a613e29abaa335351e4a4b9949f9cfe7296dfa5234017578a83824fd441/dirigera-1.1.1.tar.gz
+[2024-04-16 08:57:32] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/26/3c/fde8535a489e59cc01b0fd6959630d4e35434f9d2d0108bb9447a45f99a5/bigdl_core_cpp-2.5.0b20240414-py3-none-win_amd64.whl
+[2024-04-16 08:57:32] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 54466752>=10485760
+[2024-04-16 08:57:32] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-16 08:57:32] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/69/56/40b7bb302394993b0b6568a15857443d7d999aeac840a130cdd085d5bb93/dirigera-1.1.2.tar.gz
+[2024-04-16 08:57:32] INFO root fetch - processPackages [dirigera]: executing diffoscope
+[2024-04-16 08:57:32] INFO root fetch - processPackages [dirigera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirigera-1.1.1.tar.gz tmp/dirigera-1.1.2.tar.gz --markdown 20240416/d/dirigera/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-16 08:57:33] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-1.1.1.tar.gz]
+[2024-04-16 08:57:33] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-1.1.2.tar.gz]
+[2024-04-16 08:57:33] INFO root fetch - main [MainThread]: End processing [dirigera]: success
+[2024-04-16 08:57:33] INFO root fetch - main [MainThread]: Store serial: [22783449]
