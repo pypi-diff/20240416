@@ -4216,3 +4216,29 @@
 [2024-04-16 04:34:32] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.2.tar.gz]
 [2024-04-16 04:34:32] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
 [2024-04-16 04:34:32] INFO root fetch - main [MainThread]: Store serial: [22781699]
+[2024-04-16 04:36:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781699]
+[2024-04-16 04:36:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 04:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-realperson
+[2024-04-16 04:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-04-16 04:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rp
+[2024-04-16 04:36:41] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 04:36:41] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-16 04:36:41] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-16 04:36:41] INFO root fetch - processPackages [antchain-realperson]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 04:36:41] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-04-16 04:36:41] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-04-16 04:36:41] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-04-16 04:36:41] INFO root fetch - processPackages [antchain-realperson]: Downloading https://files.pythonhosted.org/packages/eb/a2/3f01d4e32b37abcbd4203da7171764d82654cdcc3c5345c10e16c8cc1026/antchain_realperson-1.8.0.tar.gz
+[2024-04-16 04:36:41] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-16 04:36:41] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-16 04:36:41] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240416/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 04:36:41] INFO root fetch - processPackages [antchain-realperson]: Downloading https://files.pythonhosted.org/packages/4a/82/aad5948d1047eab3b05c7870556ffed9533375a00479896aaaa7ac706ece/antchain_realperson-1.9.0.tar.gz
+[2024-04-16 04:36:41] INFO root fetch - processPackages [antchain-realperson]: executing diffoscope
+[2024-04-16 04:36:41] INFO root fetch - processPackages [antchain-realperson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_realperson-1.8.0.tar.gz tmp/antchain_realperson-1.9.0.tar.gz --markdown 20240416/a/antchain-realperson/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-16 04:36:41] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-16 04:36:41] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-16 04:36:41] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-16 04:36:42] INFO root fetch - processPackages [antchain-realperson]: Remove: archive file [/home/abi/fetcher/tmp/antchain_realperson-1.8.0.tar.gz]
+[2024-04-16 04:36:42] INFO root fetch - processPackages [antchain-realperson]: Remove: archive file [/home/abi/fetcher/tmp/antchain_realperson-1.9.0.tar.gz]
+[2024-04-16 04:36:42] INFO root fetch - main [MainThread]: End processing [antchain-realperson]: success
+[2024-04-16 04:36:42] INFO root fetch - main [MainThread]: Store serial: [22781708]
