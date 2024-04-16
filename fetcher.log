@@ -2704,3 +2704,27 @@
 [2024-04-16 02:35:33] INFO root fetch - processPackages [langchain-community]: Remove: archive file [/home/abi/fetcher/tmp/langchain_community-0.0.9.tar.gz]
 [2024-04-16 02:35:33] INFO root fetch - main [MainThread]: End processing [langchain-community]: success
 [2024-04-16 02:35:33] INFO root fetch - main [MainThread]: Store serial: [22780948]
+[2024-04-16 02:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780948]
+[2024-04-16 02:37:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 02:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matheussposito-de-toolkit
+[2024-04-16 02:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CryptMaster
+[2024-04-16 02:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jiesu-python-service
+[2024-04-16 02:37:42] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 02:37:42] ERROR root fetch - processPackages [matheussposito-de-toolkit]: Unable to get metadata: No such project 'matheussposito-de-toolkit'
+[2024-04-16 02:37:42] INFO root fetch - main [MainThread]: End processing [matheussposito-de-toolkit] error
+[2024-04-16 02:37:42] INFO root fetch - processPackages [jiesu-python-service]: New version: [1.9] Old Version: [1.8]
+[2024-04-16 02:37:42] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 02:37:42] INFO root fetch - processPackages [jiesu-python-service]: Downloading https://files.pythonhosted.org/packages/95/84/f778caea77b5263a858c9ea2b3551fb28f6de88ae2de8ef5715e92b7bbd7/jiesu-python-service-1.8.tar.gz
+[2024-04-16 02:37:42] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 02:37:42] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 02:37:42] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 02:37:42] INFO root fetch - processPackages [jiesu-python-service]: Downloading https://files.pythonhosted.org/packages/39/13/5f6037e3fa41f1f8966089c22d14a4ac514bf9108acb60bb03281aff16b0/jiesu-python-service-1.9.tar.gz
+[2024-04-16 02:37:43] INFO root fetch - processPackages [jiesu-python-service]: executing diffoscope
+[2024-04-16 02:37:43] INFO root fetch - processPackages [jiesu-python-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiesu-python-service-1.8.tar.gz tmp/jiesu-python-service-1.9.tar.gz --markdown 20240416/j/jiesu-python-service/1.8-1.9/README.md --exclude *.pyd
+[2024-04-16 02:37:43] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 02:37:43] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 02:37:43] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 02:37:43] INFO root fetch - processPackages [jiesu-python-service]: Remove: archive file [/home/abi/fetcher/tmp/jiesu-python-service-1.8.tar.gz]
+[2024-04-16 02:37:43] INFO root fetch - processPackages [jiesu-python-service]: Remove: archive file [/home/abi/fetcher/tmp/jiesu-python-service-1.9.tar.gz]
+[2024-04-16 02:37:43] INFO root fetch - main [MainThread]: End processing [jiesu-python-service]: success
+[2024-04-16 02:37:43] INFO root fetch - main [MainThread]: Store serial: [22780959]
