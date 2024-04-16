@@ -3475,3 +3475,15 @@
 [2024-04-16 03:41:35] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
 [2024-04-16 03:41:35] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
 [2024-04-16 03:41:35] INFO root fetch - main [MainThread]: Store serial: [22781345]
+[2024-04-16 03:43:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781345]
+[2024-04-16 03:43:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 03:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shotgun-api3
+[2024-04-16 03:43:44] INFO root fetch - processPackages [shotgun-api3]: New version: [3.5.0] Old Version: [3.4.2]
+[2024-04-16 03:43:44] INFO root fetch - processPackages [shotgun-api3]: Downloading https://files.pythonhosted.org/packages/d2/b6/ac238c830c6d803bf8e0661c7e10e4e97c7fb2aeb04286aa5b36e76f090a/shotgun_api3-3.4.2.tar.gz
+[2024-04-16 03:43:44] INFO root fetch - processPackages [shotgun-api3]: Downloading https://files.pythonhosted.org/packages/13/dd/ac9c45cf877affb2df66c32d907a745e3cf8359c0e6eaab8c41334f447ca/shotgun_api3-3.5.0.tar.gz
+[2024-04-16 03:43:45] INFO root fetch - processPackages [shotgun-api3]: executing diffoscope
+[2024-04-16 03:43:45] INFO root fetch - processPackages [shotgun-api3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shotgun_api3-3.4.2.tar.gz tmp/shotgun_api3-3.5.0.tar.gz --markdown 20240416/s/shotgun-api3/3.4.2-3.5.0/README.md --exclude *.pyd
+[2024-04-16 03:43:45] INFO root fetch - processPackages [shotgun-api3]: Remove: archive file [/home/abi/fetcher/tmp/shotgun_api3-3.4.2.tar.gz]
+[2024-04-16 03:43:45] INFO root fetch - processPackages [shotgun-api3]: Remove: archive file [/home/abi/fetcher/tmp/shotgun_api3-3.5.0.tar.gz]
+[2024-04-16 03:43:45] INFO root fetch - main [MainThread]: End processing [shotgun-api3]: success
+[2024-04-16 03:43:45] INFO root fetch - main [MainThread]: Store serial: [22781348]
