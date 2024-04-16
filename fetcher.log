@@ -3433,3 +3433,45 @@
 [2024-04-16 03:39:23] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-16 03:39:23] INFO root fetch - main [MainThread]: End processing [jijzept]: success
 [2024-04-16 03:39:23] INFO root fetch - main [MainThread]: Store serial: [22781302]
+[2024-04-16 03:41:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781302]
+[2024-04-16 03:41:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 03:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waitcondition-hook-for-aws-fargate-task
+[2024-04-16 03:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rcquant-sdk
+[2024-04-16 03:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stringformatter03201
+[2024-04-16 03:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: api-pipe
+[2024-04-16 03:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqqq-cli
+[2024-04-16 03:41:34] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-16 03:41:34] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 03:41:34] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 03:41:34] WARNING root fetch - processPackages [stringformatter03201]: Skipping, unable to determine old version
+[2024-04-16 03:41:34] INFO root fetch - main [MainThread]: End processing [stringformatter03201] error
+[2024-04-16 03:41:34] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Downloading https://files.pythonhosted.org/packages/f0/32/0c74e0a17654fbb8cc323b651b93651680d46dceaaef9fb3faa265ba242c/waitcondition-hook-for-aws-fargate-task-1.0.2.tar.gz
+[2024-04-16 03:41:34] INFO root fetch - processPackages [api-pipe]: New version: [1.0.7] Old Version: [1.0.61]
+[2024-04-16 03:41:34] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/4d/4a/2e10a603863af07a6a09c1a883af132e0d83ec6bc0ca9aa74d841f8adba7/pyqqq_cli-0.2.1.tar.gz
+[2024-04-16 03:41:34] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-16 03:41:34] INFO root fetch - processPackages [api-pipe]: Downloading https://files.pythonhosted.org/packages/99/2e/eb38650de60a065cd9b49a4a1afce79756eb3334aff617c5f3374236e682/api_pipe-1.0.61.tar.gz
+[2024-04-16 03:41:34] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/33/ea/be22b1fa4980026d0c2f62b88812022b8afe9f01a1e3f5d4981f5d41bb9f/pyqqq_cli-0.2.2.tar.gz
+[2024-04-16 03:41:34] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Downloading https://files.pythonhosted.org/packages/43/2f/87025b51699edc673e6a3a808ff38ab0f1c469699c861f9da5f9ea356347/waitcondition-hook-for-aws-fargate-task-1.0.3.tar.gz
+[2024-04-16 03:41:34] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-16 03:41:34] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: executing diffoscope
+[2024-04-16 03:41:34] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waitcondition-hook-for-aws-fargate-task-1.0.2.tar.gz tmp/waitcondition-hook-for-aws-fargate-task-1.0.3.tar.gz --markdown 20240416/w/waitcondition-hook-for-aws-fargate-task/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-16 03:41:34] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-04-16 03:41:34] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.2.1.tar.gz tmp/pyqqq_cli-0.2.2.tar.gz --markdown 20240416/p/pyqqq-cli/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-16 03:41:34] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-16 03:41:34] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240416/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 03:41:34] INFO root fetch - processPackages [api-pipe]: Downloading https://files.pythonhosted.org/packages/1f/b5/faff998adffcc66196be2c881bace7e5fad585dca8b07c548a0a3165b0bf/api_pipe-1.0.7.tar.gz
+[2024-04-16 03:41:34] INFO root fetch - processPackages [api-pipe]: executing diffoscope
+[2024-04-16 03:41:34] INFO root fetch - processPackages [api-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_pipe-1.0.61.tar.gz tmp/api_pipe-1.0.7.tar.gz --markdown 20240416/a/api-pipe/1.0.61-1.0.7/README.md --exclude *.pyd
+[2024-04-16 03:41:35] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.1.tar.gz]
+[2024-04-16 03:41:35] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.2.tar.gz]
+[2024-04-16 03:41:35] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-04-16 03:41:35] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Remove: archive file [/home/abi/fetcher/tmp/waitcondition-hook-for-aws-fargate-task-1.0.2.tar.gz]
+[2024-04-16 03:41:35] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Remove: archive file [/home/abi/fetcher/tmp/waitcondition-hook-for-aws-fargate-task-1.0.3.tar.gz]
+[2024-04-16 03:41:35] INFO root fetch - main [MainThread]: End processing [waitcondition-hook-for-aws-fargate-task]: success
+[2024-04-16 03:41:35] INFO root fetch - processPackages [api-pipe]: Remove: archive file [/home/abi/fetcher/tmp/api_pipe-1.0.61.tar.gz]
+[2024-04-16 03:41:35] INFO root fetch - processPackages [api-pipe]: Remove: archive file [/home/abi/fetcher/tmp/api_pipe-1.0.7.tar.gz]
+[2024-04-16 03:41:35] INFO root fetch - main [MainThread]: End processing [api-pipe]: success
+[2024-04-16 03:41:35] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-16 03:41:35] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-16 03:41:35] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-16 03:41:35] INFO root fetch - main [MainThread]: Store serial: [22781345]
