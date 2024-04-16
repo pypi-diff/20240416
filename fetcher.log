@@ -7941,3 +7941,42 @@
 [2024-04-16 08:42:17] INFO root fetch - processPackages [midas-mosaik]: Remove: archive file [/home/abi/fetcher/tmp/midas-mosaik-1.2.0.tar.gz]
 [2024-04-16 08:42:17] INFO root fetch - main [MainThread]: End processing [midas-mosaik]: success
 [2024-04-16 08:42:17] INFO root fetch - main [MainThread]: Store serial: [22783342]
+[2024-04-16 08:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783342]
+[2024-04-16 08:44:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 08:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haskellian-asyn-iter
+[2024-04-16 08:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-bridge
+[2024-04-16 08:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotidex
+[2024-04-16 08:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datarobot-model-metrics
+[2024-04-16 08:44:27] INFO root fetch - processPackages [haskellian-asyn-iter]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 08:44:27] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 08:44:27] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-16 08:44:27] INFO root fetch - processPackages [haskellian-asyn-iter]: Downloading https://files.pythonhosted.org/packages/8d/eb/6cf388dd40794ea6c53857a5c971981ef709d0e3cd4116a6b1d5f4734608/haskellian_asyn_iter-0.1.3.tar.gz
+[2024-04-16 08:44:27] INFO root fetch - processPackages [spotidex]: New version: [1.0.0] Old Version: [0.0.7]
+[2024-04-16 08:44:27] INFO root fetch - processPackages [datarobot-model-metrics]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-16 08:44:28] INFO root fetch - processPackages [spotidex]: Downloading https://files.pythonhosted.org/packages/1c/f7/c172bff5070449c56fc4a0a3f78ecfd315ea77491d0d51c1e4e7b1272e32/spotidex-0.0.7.tar.gz
+[2024-04-16 08:44:28] INFO root fetch - processPackages [haskellian-asyn-iter]: Downloading https://files.pythonhosted.org/packages/e2/50/2d5f107894059bd53997ea993dac74d395197703d44063490c880198c4fb/haskellian_asyn_iter-0.1.4.tar.gz
+[2024-04-16 08:44:28] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-16 08:44:28] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/e4/6c/5aaffc36906d76dfeb832b8326c1645b25ae045d6e9ff3efffac97dd6439/datarobot_model_metrics-0.5.4-py2.py3-none-any.whl
+[2024-04-16 08:44:28] INFO root fetch - processPackages [haskellian-asyn-iter]: executing diffoscope
+[2024-04-16 08:44:28] INFO root fetch - processPackages [haskellian-asyn-iter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian_asyn_iter-0.1.3.tar.gz tmp/haskellian_asyn_iter-0.1.4.tar.gz --markdown 20240416/h/haskellian-asyn-iter/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 08:44:28] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-16 08:44:28] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240416/p/python-bridge/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 08:44:28] INFO root fetch - processPackages [spotidex]: Downloading https://files.pythonhosted.org/packages/f5/be/1a22d219c8f88551636d85690a0b8f545b7e697723fe96389b868c65e2dd/spotidex-1.0.0.tar.gz
+[2024-04-16 08:44:28] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/95/00/0f2c454780df4ae1e304c40130b9a9f1d216ab1e12b4aa01b1eaf10f0fb5/datarobot_model_metrics-0.5.5-py2.py3-none-any.whl
+[2024-04-16 08:44:28] INFO root fetch - processPackages [spotidex]: executing diffoscope
+[2024-04-16 08:44:28] INFO root fetch - processPackages [spotidex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotidex-0.0.7.tar.gz tmp/spotidex-1.0.0.tar.gz --markdown 20240416/s/spotidex/0.0.7-1.0.0/README.md --exclude *.pyd
+[2024-04-16 08:44:28] INFO root fetch - processPackages [datarobot-model-metrics]: executing diffoscope
+[2024-04-16 08:44:28] INFO root fetch - processPackages [datarobot-model-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_model_metrics-0.5.4-py2.py3-none-any.whl.zip tmp/datarobot_model_metrics-0.5.5-py2.py3-none-any.whl.zip --markdown 20240416/d/datarobot-model-metrics/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-16 08:44:28] INFO root fetch - processPackages [haskellian-asyn-iter]: Remove: archive file [/home/abi/fetcher/tmp/haskellian_asyn_iter-0.1.3.tar.gz]
+[2024-04-16 08:44:28] INFO root fetch - processPackages [haskellian-asyn-iter]: Remove: archive file [/home/abi/fetcher/tmp/haskellian_asyn_iter-0.1.4.tar.gz]
+[2024-04-16 08:44:28] INFO root fetch - main [MainThread]: End processing [haskellian-asyn-iter]: success
+[2024-04-16 08:44:28] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-16 08:44:28] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-16 08:44:28] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-16 08:44:29] INFO root fetch - processPackages [spotidex]: Remove: archive file [/home/abi/fetcher/tmp/spotidex-0.0.7.tar.gz]
+[2024-04-16 08:44:29] INFO root fetch - processPackages [spotidex]: Remove: archive file [/home/abi/fetcher/tmp/spotidex-1.0.0.tar.gz]
+[2024-04-16 08:44:29] INFO root fetch - main [MainThread]: End processing [spotidex]: success
+[2024-04-16 08:44:29] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.5.4-py2.py3-none-any.whl.zip]
+[2024-04-16 08:44:29] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.5.5-py2.py3-none-any.whl.zip]
+[2024-04-16 08:44:29] INFO root fetch - main [MainThread]: End processing [datarobot-model-metrics]: success
+[2024-04-16 08:44:29] INFO root fetch - main [MainThread]: Store serial: [22783359]
