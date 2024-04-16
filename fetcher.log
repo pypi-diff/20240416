@@ -19606,3 +19606,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:41:37] INFO root fetch - processPackages [casa-formats-io]: Remove: archive file [/home/abi/fetcher/tmp/casa_formats_io-0.2.3.tar.gz]
 [2024-04-16 15:41:37] INFO root fetch - main [MainThread]: End processing [casa-formats-io]: success
 [2024-04-16 15:41:37] INFO root fetch - main [MainThread]: Store serial: [22788376]
+[2024-04-16 15:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788376]
+[2024-04-16 15:43:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 15:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-04-16 15:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-apps-card
+[2024-04-16 15:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-monitoring
+[2024-04-16 15:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tiktok-autoupload
+[2024-04-16 15:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: windmill-api
+[2024-04-16 15:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leonranp
+[2024-04-16 15:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wmill
+[2024-04-16 15:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill-pg
+[2024-04-16 15:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fixinventorydata
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-cloud-monitoring]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-apps-card]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 15:43:47] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-16 15:43:47] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 15:43:47] INFO root fetch - processPackages [leonranp]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 15:43:47] WARNING root fetch - processPackages [tiktok-autoupload]: Skipping, unable to determine old version
+[2024-04-16 15:43:47] INFO root fetch - main [MainThread]: End processing [tiktok-autoupload] error
+[2024-04-16 15:43:47] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-16 15:43:47] INFO root fetch - processPackages [fixinventorydata]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-cloud-monitoring]: Downloading https://files.pythonhosted.org/packages/fb/10/e50eedd59eb506da3922689994d5420db7f3a73704bb4998fcd9d909abfe/google-cloud-monitoring-2.9.1.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-apps-card]: Downloading https://files.pythonhosted.org/packages/0b/4e/c370067c8a3bb359693442328bcef162a52b74d32343fa76230fd988cde2/google-apps-card-0.1.1.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [leonranp]: Downloading https://files.pythonhosted.org/packages/79/23/5bcd78ce09b2d5fb535865bd122d134ec0b3ca7c8f7303a1f80088a4465a/leonranp-0.1.3.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-16 15:43:47] INFO root fetch - processPackages [fixinventorydata]: Downloading https://files.pythonhosted.org/packages/58/4f/0b315a04855a164d56b13c624c3a110ad078700c161936da5d609d89fa81/fixinventorydata-0.2.4.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-apps-card]: Downloading https://files.pythonhosted.org/packages/e6/6f/b4c51aafd559db9787e684e8988191f93bccef544f83e37bd4230e01a1c9/google-apps-card-0.1.2.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-cloud-monitoring]: Downloading https://files.pythonhosted.org/packages/40/d2/65eb7171f8da6ac2dbb33bab99b3518eec47f1b0275dc369ea5b2c2f1430/google-cloud-monitoring-2.9.2.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [leonranp]: Downloading https://files.pythonhosted.org/packages/a0/1c/c688db57ce9f954ca96bc2c5bfde925b181dd1c473069fa9e68af3efb0ee/leonranp-0.1.4.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-16 15:43:47] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240416/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240416/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-16 15:43:47] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-16 15:43:47] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240416/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-apps-card]: executing diffoscope
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-apps-card]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-apps-card-0.1.1.tar.gz tmp/google-apps-card-0.1.2.tar.gz --markdown 20240416/g/google-apps-card/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 15:43:47] INFO root fetch - processPackages [leonranp]: executing diffoscope
+[2024-04-16 15:43:47] INFO root fetch - processPackages [leonranp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leonranp-0.1.3.tar.gz tmp/leonranp-0.1.4.tar.gz --markdown 20240416/l/leonranp/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-16 15:43:47] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240416/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-16 15:43:47] INFO root fetch - processPackages [fixinventorydata]: Downloading https://files.pythonhosted.org/packages/ac/82/6e22ed4ef8c43281ed40d0e981566cc85d0129f4c244eccf16d1064e00b4/fixinventorydata-0.2.5.tar.gz
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-cloud-monitoring]: executing diffoscope
+[2024-04-16 15:43:47] INFO root fetch - processPackages [google-cloud-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-monitoring-2.9.1.tar.gz tmp/google-cloud-monitoring-2.9.2.tar.gz --markdown 20240416/g/google-cloud-monitoring/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-16 15:43:48] INFO root fetch - processPackages [fixinventorydata]: executing diffoscope
+[2024-04-16 15:43:48] INFO root fetch - processPackages [fixinventorydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixinventorydata-0.2.4.tar.gz tmp/fixinventorydata-0.2.5.tar.gz --markdown 20240416/f/fixinventorydata/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 15:43:48] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-16 15:43:48] INFO root fetch - processPackages [leonranp]: Remove: archive file [/home/abi/fetcher/tmp/leonranp-0.1.3.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - processPackages [leonranp]: Remove: archive file [/home/abi/fetcher/tmp/leonranp-0.1.4.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - main [MainThread]: End processing [leonranp]: success
+[2024-04-16 15:43:48] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-16 15:43:48] INFO root fetch - processPackages [google-apps-card]: Remove: archive file [/home/abi/fetcher/tmp/google-apps-card-0.1.1.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - processPackages [google-apps-card]: Remove: archive file [/home/abi/fetcher/tmp/google-apps-card-0.1.2.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - main [MainThread]: End processing [google-apps-card]: success
+[2024-04-16 15:43:48] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-16 15:43:48] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-16 15:43:49] INFO root fetch - processPackages [fixinventorydata]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorydata-0.2.4.tar.gz]
+[2024-04-16 15:43:49] INFO root fetch - processPackages [fixinventorydata]: Remove: archive file [/home/abi/fetcher/tmp/fixinventorydata-0.2.5.tar.gz]
+[2024-04-16 15:43:49] INFO root fetch - main [MainThread]: End processing [fixinventorydata]: success
+[2024-04-16 15:43:50] INFO root fetch - processPackages [google-cloud-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-monitoring-2.9.1.tar.gz]
+[2024-04-16 15:43:50] INFO root fetch - processPackages [google-cloud-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-monitoring-2.9.2.tar.gz]
+[2024-04-16 15:43:50] INFO root fetch - main [MainThread]: End processing [google-cloud-monitoring]: success
+[2024-04-16 15:43:52] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-16 15:43:52] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-16 15:43:52] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-16 15:43:52] INFO root fetch - main [MainThread]: Store serial: [22788405]
