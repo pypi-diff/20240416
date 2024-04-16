@@ -15080,3 +15080,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:05:18] INFO root fetch - processPackages [udps]: Remove: archive file [/home/abi/fetcher/tmp/udps-0.1.34.tar.gz]
 [2024-04-16 13:05:18] INFO root fetch - main [MainThread]: End processing [udps]: success
 [2024-04-16 13:05:18] INFO root fetch - main [MainThread]: Store serial: [22786575]
+[2024-04-16 13:07:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786575]
+[2024-04-16 13:07:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 13:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exchanges-wrapper
+[2024-04-16 13:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meteo-hr
+[2024-04-16 13:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ycls
+[2024-04-16 13:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-api
+[2024-04-16 13:07:27] INFO root fetch - processPackages [exchanges-wrapper]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-16 13:07:27] INFO root fetch - processPackages [meteo-hr]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-16 13:07:27] INFO root fetch - processPackages [ycls]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-16 13:07:27] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-16 13:07:27] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/46/33/e6d19730f59ca833c5721e7a4c1695c97cb5c1a1de95ddd50bcf1df8e18a/exchanges_wrapper-2.1.8.tar.gz
+[2024-04-16 13:07:27] INFO root fetch - processPackages [meteo-hr]: Downloading https://files.pythonhosted.org/packages/b9/c5/07525d98a65d155c27bca12a83525a6d34e0b1945178e47e635d032b14d5/meteo_hr-1.2.0.tar.gz
+[2024-04-16 13:07:27] INFO root fetch - processPackages [ycls]: Downloading https://files.pythonhosted.org/packages/7f/02/e5ee43b50614742be26d980071f9c1f97432af2a418ab8e5396dfb5c76bb/ycls-1.0.6.tar.gz
+[2024-04-16 13:07:27] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-16 13:07:27] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/ff/a0/f4da17fd280747e485a819a01ca94b415d48601964b2dc7c2577ffcf11ca/exchanges_wrapper-2.1.9.tar.gz
+[2024-04-16 13:07:27] INFO root fetch - processPackages [exchanges-wrapper]: executing diffoscope
+[2024-04-16 13:07:27] INFO root fetch - processPackages [exchanges-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchanges_wrapper-2.1.8.tar.gz tmp/exchanges_wrapper-2.1.9.tar.gz --markdown 20240416/e/exchanges-wrapper/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-16 13:07:27] INFO root fetch - processPackages [ycls]: Downloading https://files.pythonhosted.org/packages/8c/60/e49cd2b96933324b882d8e6cd50cb3b35a292800da585106526159965fe3/ycls-1.0.7.tar.gz
+[2024-04-16 13:07:27] INFO root fetch - processPackages [meteo-hr]: Downloading https://files.pythonhosted.org/packages/76/b2/992fdb0a4dfe15567ab7272c02a37884edfcbe456d1c298ed313c7d7e686/meteo_hr-1.3.0.tar.gz
+[2024-04-16 13:07:27] INFO root fetch - processPackages [ycls]: executing diffoscope
+[2024-04-16 13:07:27] INFO root fetch - processPackages [ycls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ycls-1.0.6.tar.gz tmp/ycls-1.0.7.tar.gz --markdown 20240416/y/ycls/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-16 13:07:27] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-16 13:07:28] INFO root fetch - processPackages [meteo-hr]: executing diffoscope
+[2024-04-16 13:07:28] INFO root fetch - processPackages [meteo-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meteo_hr-1.2.0.tar.gz tmp/meteo_hr-1.3.0.tar.gz --markdown 20240416/m/meteo-hr/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-16 13:07:28] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-16 13:07:28] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240416/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-04-16 13:07:28] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges_wrapper-2.1.8.tar.gz]
+[2024-04-16 13:07:28] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges_wrapper-2.1.9.tar.gz]
+[2024-04-16 13:07:28] INFO root fetch - main [MainThread]: End processing [exchanges-wrapper]: success
+[2024-04-16 13:07:28] INFO root fetch - processPackages [ycls]: Remove: archive file [/home/abi/fetcher/tmp/ycls-1.0.6.tar.gz]
+[2024-04-16 13:07:28] INFO root fetch - processPackages [ycls]: Remove: archive file [/home/abi/fetcher/tmp/ycls-1.0.7.tar.gz]
+[2024-04-16 13:07:28] INFO root fetch - main [MainThread]: End processing [ycls]: success
+[2024-04-16 13:07:28] INFO root fetch - processPackages [meteo-hr]: Remove: archive file [/home/abi/fetcher/tmp/meteo_hr-1.2.0.tar.gz]
+[2024-04-16 13:07:28] INFO root fetch - processPackages [meteo-hr]: Remove: archive file [/home/abi/fetcher/tmp/meteo_hr-1.3.0.tar.gz]
+[2024-04-16 13:07:28] INFO root fetch - main [MainThread]: End processing [meteo-hr]: success
+[2024-04-16 13:07:29] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-16 13:07:29] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-16 13:07:29] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-16 13:07:29] INFO root fetch - main [MainThread]: Store serial: [22786587]
