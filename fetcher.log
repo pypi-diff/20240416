@@ -6355,3 +6355,60 @@
 [2024-04-16 07:06:12] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.8.tar.gz]
 [2024-04-16 07:06:12] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
 [2024-04-16 07:06:12] INFO root fetch - main [MainThread]: Store serial: [22782735]
+[2024-04-16 07:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782735]
+[2024-04-16 07:08:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 07:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-assets-management
+[2024-04-16 07:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musical_games
+[2024-04-16 07:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-l10n-it-asset-history-import
+[2024-04-16 07:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-assets-management
+[2024-04-16 07:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: body_scan
+[2024-04-16 07:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: devine
+[2024-04-16 07:08:21] INFO root fetch - processPackages [body_scan]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-16 07:08:21] INFO root fetch - processPackages [body_scan]: Downloading https://files.pythonhosted.org/packages/e1/96/ec2491d32b3ef799babbbcfc15fe1782a3f46668e4cc8cfc041cb24fe055/body_scan-1.0.6.tar.gz
+[2024-04-16 07:08:21] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev7]
+[2024-04-16 07:08:21] INFO root fetch - processPackages [odoo14-addon-assets-management]: New version: [14.0.1.4.5.dev1] Old Version: [14.0.1.4.4.dev1]
+[2024-04-16 07:08:21] INFO root fetch - processPackages [odoo12-addon-assets-management]: New version: [12.0.1.0.2.99.dev3] Old Version: [12.0.1.0.2.99.dev1]
+[2024-04-16 07:08:21] INFO root fetch - processPackages [devine]: New version: [3.3.2] Old Version: [3.3.1]
+[2024-04-16 07:08:22] INFO root fetch - processPackages [musical_games]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/10/fc/6f4d36923a2e1329a4f177477a1ad9e19aae28b998d30be80e9aa22e9570/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2024-04-16 07:08:22] INFO root fetch - processPackages [body_scan]: Downloading https://files.pythonhosted.org/packages/b6/98/6306a88680c3158b2059fc3cf956572053c351672e85a99907edb81057f3/body_scan-1.1.0.tar.gz
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/22/f7/565736622681dd9de4d5f0133bc170d0db60e463d91f11abe9ca0f3df864/odoo14_addon_assets_management-14.0.1.4.4.dev1-py3-none-any.whl
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/5f/7d/f87132bd2a2f08a65e9d2e8ce35432acd68ce979f9a682650b68662e779b/odoo12_addon_assets_management-12.0.1.0.2.99.dev1-py3-none-any.whl
+[2024-04-16 07:08:22] INFO root fetch - processPackages [devine]: Downloading https://files.pythonhosted.org/packages/1b/ea/46388adb2d9ca89734e0d4acd174e980c94b95f601c57e1b48b710c8cd53/devine-3.3.1.tar.gz
+[2024-04-16 07:08:22] INFO root fetch - processPackages [body_scan]: executing diffoscope
+[2024-04-16 07:08:22] INFO root fetch - processPackages [body_scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/body_scan-1.0.6.tar.gz tmp/body_scan-1.1.0.tar.gz --markdown 20240416/b/body_scan/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-04-16 07:08:22] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/db/cd/12cbcf55e21f4f5281365398c606188cce695a1b960e95447eb20b9bfa22/musical_games-0.6.2.tar.gz
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/8e/f0/247f010bdf8a8452d5cc38cd90a44cd9e073c6d2d000f607843cbe89bfad/odoo14_addon_assets_management-14.0.1.4.5.dev1-py3-none-any.whl
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/80/e7/c170de8a91df786bbf37e69a507224affa2cba5329624b66217a6caa33f7/odoo12_addon_assets_management-12.0.1.0.2.99.dev3-py3-none-any.whl
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/b0/c6/c6db831a9b3ceae4ec51dca115345444154d9dfbb5704a9100187d31594c/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2024-04-16 07:08:22] INFO root fetch - processPackages [devine]: Downloading https://files.pythonhosted.org/packages/db/10/b54edfaf0693677b850725ed2dca5aa18a824d8fd2fdc7a4fc5ea8cf837e/devine-3.3.2.tar.gz
+[2024-04-16 07:08:22] INFO root fetch - processPackages [musical_games]: Downloading https://files.pythonhosted.org/packages/90/d6/fd021b0d390e03745054b94f335d360f6f7b69d10555c0a297978e16bcb9/musical_games-0.7.0.tar.gz
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo12-addon-assets-management]: executing diffoscope
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo12-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev3-py3-none-any.whl.zip --markdown 20240416/o/odoo12-addon-assets-management/12.0.1.0.2.99.dev1-12.0.1.0.2.99.dev3/README.md --exclude *.pyd
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: executing diffoscope
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20240416/o/odoo12-addon-l10n-it-asset-history-import/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev8/README.md --exclude *.pyd
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo14-addon-assets-management]: executing diffoscope
+[2024-04-16 07:08:22] INFO root fetch - processPackages [odoo14-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_assets_management-14.0.1.4.4.dev1-py3-none-any.whl.zip tmp/odoo14_addon_assets_management-14.0.1.4.5.dev1-py3-none-any.whl.zip --markdown 20240416/o/odoo14-addon-assets-management/14.0.1.4.4.dev1-14.0.1.4.5.dev1/README.md --exclude *.pyd
+[2024-04-16 07:08:22] INFO root fetch - processPackages [musical_games]: executing diffoscope
+[2024-04-16 07:08:22] INFO root fetch - processPackages [musical_games]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musical_games-0.6.2.tar.gz tmp/musical_games-0.7.0.tar.gz --markdown 20240416/m/musical_games/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-04-16 07:08:22] INFO root fetch - processPackages [devine]: executing diffoscope
+[2024-04-16 07:08:22] INFO root fetch - processPackages [devine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devine-3.3.1.tar.gz tmp/devine-3.3.2.tar.gz --markdown 20240416/d/devine/3.3.1-3.3.2/README.md --exclude *.pyd
+[2024-04-16 07:08:23] INFO root fetch - processPackages [body_scan]: Remove: archive file [/home/abi/fetcher/tmp/body_scan-1.0.6.tar.gz]
+[2024-04-16 07:08:23] INFO root fetch - processPackages [body_scan]: Remove: archive file [/home/abi/fetcher/tmp/body_scan-1.1.0.tar.gz]
+[2024-04-16 07:08:23] INFO root fetch - main [MainThread]: End processing [body_scan]: success
+[2024-04-16 07:08:23] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev7-py3-none-any.whl.zip]
+[2024-04-16 07:08:23] INFO root fetch - processPackages [odoo12-addon-l10n-it-asset-history-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_it_asset_history_import-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
+[2024-04-16 07:08:23] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-asset-history-import]: success
+[2024-04-16 07:08:23] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev1-py3-none-any.whl.zip]
+[2024-04-16 07:08:23] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.2.99.dev3-py3-none-any.whl.zip]
+[2024-04-16 07:08:23] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
+[2024-04-16 07:08:23] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.6.2.tar.gz]
+[2024-04-16 07:08:23] INFO root fetch - processPackages [musical_games]: Remove: archive file [/home/abi/fetcher/tmp/musical_games-0.7.0.tar.gz]
+[2024-04-16 07:08:23] INFO root fetch - main [MainThread]: End processing [musical_games]: success
+[2024-04-16 07:08:23] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.4.4.dev1-py3-none-any.whl.zip]
+[2024-04-16 07:08:23] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.4.5.dev1-py3-none-any.whl.zip]
+[2024-04-16 07:08:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
+[2024-04-16 07:08:23] INFO root fetch - processPackages [devine]: Remove: archive file [/home/abi/fetcher/tmp/devine-3.3.1.tar.gz]
+[2024-04-16 07:08:23] INFO root fetch - processPackages [devine]: Remove: archive file [/home/abi/fetcher/tmp/devine-3.3.2.tar.gz]
+[2024-04-16 07:08:23] INFO root fetch - main [MainThread]: End processing [devine]: success
+[2024-04-16 07:08:23] INFO root fetch - main [MainThread]: Store serial: [22782753]
