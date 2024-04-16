@@ -3988,3 +3988,50 @@
 [2024-04-16 04:16:49] INFO root fetch - processPackages [turbobus]: Remove: archive file [/home/abi/fetcher/tmp/turbobus-1.0.0a9.tar.gz]
 [2024-04-16 04:16:49] INFO root fetch - main [MainThread]: End processing [turbobus]: success
 [2024-04-16 04:16:49] INFO root fetch - main [MainThread]: Store serial: [22781541]
+[2024-04-16 04:18:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781541]
+[2024-04-16 04:18:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 04:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-04-16 04:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-awsbr-mmchatbot
+[2024-04-16 04:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-nftc
+[2024-04-16 04:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfv
+[2024-04-16 04:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rqalpha
+[2024-04-16 04:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MultiGATE
+[2024-04-16 04:18:59] INFO root fetch - processPackages [MultiGATE]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 04:18:59] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240415] Old Version: [1.2.20240414]
+[2024-04-16 04:18:59] INFO root fetch - processPackages [antchain-nftc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 04:18:59] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/6d/b6/1cb873f18fe05021c33b90cd610970779199199a253b4cbb55371f036fe2/MultiGATE-0.0.8.tar.gz
+[2024-04-16 04:18:59] INFO root fetch - processPackages [tfv]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-16 04:18:59] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/ae/87/4886ad3b9a4b3d7c9bc0485092d4d9e246b0a21df5400fddff22071f7d88/iam_actions-1.2.20240414.tar.gz
+[2024-04-16 04:18:59] WARNING root fetch - processPackages [gradio-awsbr-mmchatbot]: Skipping, unable to determine old version
+[2024-04-16 04:18:59] INFO root fetch - main [MainThread]: End processing [gradio-awsbr-mmchatbot] error
+[2024-04-16 04:18:59] INFO root fetch - processPackages [rqalpha]: New version: [5.3.9] Old Version: [5.3.8]
+[2024-04-16 04:18:59] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/20/4c/6b22d9812f15243cb7946fb4baccba7279fef354e1e3455d1c55f58cecff/MultiGATE-0.0.9.tar.gz
+[2024-04-16 04:18:59] INFO root fetch - processPackages [antchain-nftc]: Downloading https://files.pythonhosted.org/packages/70/d0/07aaf551363dca8be98b05dd2dbc394a2c5c0cac5ce037ed661c64532e84/antchain_nftc-1.0.8.tar.gz
+[2024-04-16 04:18:59] INFO root fetch - processPackages [tfv]: Downloading https://files.pythonhosted.org/packages/22/7e/444fb58c138cce211eba303494e92ebde1a5aedb60bf18915f85e37dcc4a/tfv-1.0.7.tar.gz
+[2024-04-16 04:18:59] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/80/37/0cdda8f03a0b48416fbc984c63bbb9cd5d8cebd3222360d47fd1b61a810c/rqalpha-5.3.8.tar.gz
+[2024-04-16 04:18:59] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/19/7f/107c9af0469f2dcb8579f703febda07f91f96b2f86b1dc9c244246c39ff3/iam_actions-1.2.20240415.tar.gz
+[2024-04-16 04:18:59] INFO root fetch - processPackages [MultiGATE]: executing diffoscope
+[2024-04-16 04:18:59] INFO root fetch - processPackages [MultiGATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiGATE-0.0.8.tar.gz tmp/MultiGATE-0.0.9.tar.gz --markdown 20240416/M/MultiGATE/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 04:18:59] WARNING root fetch - processPackages [tfv]: Skipping package: exceeds size limit 97874731>=10485760
+[2024-04-16 04:18:59] INFO root fetch - main [MainThread]: End processing [tfv] error
+[2024-04-16 04:18:59] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-16 04:18:59] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240414.tar.gz tmp/iam_actions-1.2.20240415.tar.gz --markdown 20240416/i/iam-actions/1.2.20240414-1.2.20240415/README.md --exclude *.pyd
+[2024-04-16 04:19:00] INFO root fetch - processPackages [antchain-nftc]: Downloading https://files.pythonhosted.org/packages/a0/5d/8ad4372b715b6b24700a1942458941881a34cf2277755309e68024f1d6b1/antchain_nftc-1.0.9.tar.gz
+[2024-04-16 04:19:00] INFO root fetch - processPackages [rqalpha]: Downloading https://files.pythonhosted.org/packages/1b/9d/24a0356d52334999e5b0faf2d079b2d51bae106662c179cde04582c0f0ad/rqalpha-5.3.9.tar.gz
+[2024-04-16 04:19:00] INFO root fetch - processPackages [antchain-nftc]: executing diffoscope
+[2024-04-16 04:19:00] INFO root fetch - processPackages [antchain-nftc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftc-1.0.8.tar.gz tmp/antchain_nftc-1.0.9.tar.gz --markdown 20240416/a/antchain-nftc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 04:19:00] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.8.tar.gz]
+[2024-04-16 04:19:00] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.9.tar.gz]
+[2024-04-16 04:19:00] INFO root fetch - main [MainThread]: End processing [MultiGATE]: success
+[2024-04-16 04:19:00] INFO root fetch - processPackages [rqalpha]: executing diffoscope
+[2024-04-16 04:19:00] INFO root fetch - processPackages [rqalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqalpha-5.3.8.tar.gz tmp/rqalpha-5.3.9.tar.gz --markdown 20240416/r/rqalpha/5.3.8-5.3.9/README.md --exclude *.pyd
+[2024-04-16 04:19:00] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.8.tar.gz]
+[2024-04-16 04:19:00] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.9.tar.gz]
+[2024-04-16 04:19:00] INFO root fetch - main [MainThread]: End processing [antchain-nftc]: success
+[2024-04-16 04:19:01] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240414.tar.gz]
+[2024-04-16 04:19:01] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240415.tar.gz]
+[2024-04-16 04:19:01] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-16 04:19:01] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.3.8.tar.gz]
+[2024-04-16 04:19:01] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.3.9.tar.gz]
+[2024-04-16 04:19:01] INFO root fetch - main [MainThread]: End processing [rqalpha]: success
+[2024-04-16 04:19:01] INFO root fetch - main [MainThread]: Store serial: [22781560]
