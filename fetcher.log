@@ -5832,3 +5832,30 @@
 [2024-04-16 06:18:24] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq_tool-1.1.8.tar.gz]
 [2024-04-16 06:18:24] INFO root fetch - main [MainThread]: End processing [mcqq-tool]: success
 [2024-04-16 06:18:24] INFO root fetch - main [MainThread]: Store serial: [22782466]
+[2024-04-16 06:20:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782466]
+[2024-04-16 06:20:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 06:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wireviz_fences
+[2024-04-16 06:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypickle
+[2024-04-16 06:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfv
+[2024-04-16 06:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moltx
+[2024-04-16 06:20:33] INFO root fetch - processPackages [tfv]: New version: [1.0.8.1] Old Version: [1.0.8]
+[2024-04-16 06:20:33] WARNING root fetch - processPackages [wireviz_fences]: Skipping, unable to determine old version
+[2024-04-16 06:20:33] INFO root fetch - main [MainThread]: End processing [wireviz_fences] error
+[2024-04-16 06:20:33] WARNING root fetch - processPackages [moltx]: Skipping, unable to determine old version
+[2024-04-16 06:20:33] INFO root fetch - main [MainThread]: End processing [moltx] error
+[2024-04-16 06:20:33] INFO root fetch - processPackages [hypickle]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-16 06:20:33] INFO root fetch - processPackages [tfv]: Downloading https://files.pythonhosted.org/packages/5f/bc/8cb86bc33ed3a1cbd8716c0249b398e19c959073dd9fe939da638b0b199c/tfv-1.0.8.tar.gz
+[2024-04-16 06:20:33] INFO root fetch - processPackages [hypickle]: Downloading https://files.pythonhosted.org/packages/2b/d0/284966c828acc0e9bab922b77278a6d43805c51c2965bb20b33c8fb8499a/hypickle-1.1.4.tar.gz
+[2024-04-16 06:20:34] INFO root fetch - processPackages [tfv]: Downloading https://files.pythonhosted.org/packages/05/92/9d57714e8d2643517edfd967511212f7db674281240e86beb456c4bcda5d/tfv-1.0.8.1.tar.gz
+[2024-04-16 06:20:34] INFO root fetch - processPackages [hypickle]: Downloading https://files.pythonhosted.org/packages/71/81/80e4da3e095cfdcfb6f2463d53a3953231666cdbce2f7afc998e353de27d/hypickle-1.1.5.tar.gz
+[2024-04-16 06:20:34] INFO root fetch - processPackages [tfv]: executing diffoscope
+[2024-04-16 06:20:34] INFO root fetch - processPackages [tfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfv-1.0.8.tar.gz tmp/tfv-1.0.8.1.tar.gz --markdown 20240416/t/tfv/1.0.8-1.0.8.1/README.md --exclude *.pyd
+[2024-04-16 06:20:34] INFO root fetch - processPackages [hypickle]: executing diffoscope
+[2024-04-16 06:20:34] INFO root fetch - processPackages [hypickle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypickle-1.1.4.tar.gz tmp/hypickle-1.1.5.tar.gz --markdown 20240416/h/hypickle/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-16 06:20:34] INFO root fetch - processPackages [tfv]: Remove: archive file [/home/abi/fetcher/tmp/tfv-1.0.8.tar.gz]
+[2024-04-16 06:20:34] INFO root fetch - processPackages [tfv]: Remove: archive file [/home/abi/fetcher/tmp/tfv-1.0.8.1.tar.gz]
+[2024-04-16 06:20:34] INFO root fetch - main [MainThread]: End processing [tfv]: success
+[2024-04-16 06:20:34] INFO root fetch - processPackages [hypickle]: Remove: archive file [/home/abi/fetcher/tmp/hypickle-1.1.4.tar.gz]
+[2024-04-16 06:20:34] INFO root fetch - processPackages [hypickle]: Remove: archive file [/home/abi/fetcher/tmp/hypickle-1.1.5.tar.gz]
+[2024-04-16 06:20:34] INFO root fetch - main [MainThread]: End processing [hypickle]: success
+[2024-04-16 06:20:34] INFO root fetch - main [MainThread]: Store serial: [22782484]
