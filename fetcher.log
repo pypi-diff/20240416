@@ -7890,3 +7890,54 @@
 [2024-04-16 08:40:04] INFO root fetch - processPackages [db-contrib-tool]: Remove: archive file [/home/abi/fetcher/tmp/db_contrib_tool-0.7.2.tar.gz]
 [2024-04-16 08:40:04] INFO root fetch - main [MainThread]: End processing [db-contrib-tool]: success
 [2024-04-16 08:40:04] INFO root fetch - main [MainThread]: Store serial: [22783318]
+[2024-04-16 08:42:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783318]
+[2024-04-16 08:42:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 08:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MinVectorDB
+[2024-04-16 08:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yandex-music-utils
+[2024-04-16 08:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycloudevents
+[2024-04-16 08:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: midas-mosaik
+[2024-04-16 08:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-deeplinker
+[2024-04-16 08:42:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polars-qt
+[2024-04-16 08:42:14] INFO root fetch - processPackages [streamlit-deeplinker]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 08:42:14] WARNING root fetch - processPackages [yandex-music-utils]: Skipping, unable to determine old version
+[2024-04-16 08:42:14] INFO root fetch - main [MainThread]: End processing [yandex-music-utils] error
+[2024-04-16 08:42:14] INFO root fetch - processPackages [pycloudevents]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 08:42:14] INFO root fetch - processPackages [polars-qt]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-16 08:42:14] INFO root fetch - processPackages [MinVectorDB]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-16 08:42:14] INFO root fetch - processPackages [midas-mosaik]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-16 08:42:15] INFO root fetch - processPackages [streamlit-deeplinker]: Downloading https://files.pythonhosted.org/packages/ec/9d/c43032e5380ebb22c5feaa8215e3728d091f52c1c9ef93edc21d7fe34f97/streamlit_deeplinker-0.1.0.tar.gz
+[2024-04-16 08:42:15] INFO root fetch - processPackages [pycloudevents]: Downloading https://files.pythonhosted.org/packages/a8/71/2481270232b224393917e309a3cd43cdb34a58bdb516638582f7e1089d96/pycloudevents-0.1.3.tar.gz
+[2024-04-16 08:42:15] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/f6/d7/b0e3a002e18f69c92bcb5025bcd9015d9341202c99c259307f5e9d30f9af/minvectordb-0.2.5.tar.gz
+[2024-04-16 08:42:15] INFO root fetch - processPackages [midas-mosaik]: Downloading https://files.pythonhosted.org/packages/a6/c6/c58ab86446ba7d3f7328da0cf324cea09e69622e4ee66d54e39ed74aaa98/midas-mosaik-1.1.0.tar.gz
+[2024-04-16 08:42:15] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/bb/e6/dd0597ce8cf5c8cd2b8250d5962e75703c3745a62af51f59301ce2ef08e8/polars_qt-0.1.5.tar.gz
+[2024-04-16 08:42:15] INFO root fetch - processPackages [streamlit-deeplinker]: Downloading https://files.pythonhosted.org/packages/04/b3/95c86d9c16f3a25a3b4195676f601f2a3b83e49f6d1efc65d79a17bc32ef/streamlit_deeplinker-0.1.1.tar.gz
+[2024-04-16 08:42:15] INFO root fetch - processPackages [pycloudevents]: Downloading https://files.pythonhosted.org/packages/95/b7/2f0ea8685ad1303842bf830852a8cff2b59887f268569bb649be3f0e0cbb/pycloudevents-0.1.4.tar.gz
+[2024-04-16 08:42:15] INFO root fetch - processPackages [streamlit-deeplinker]: executing diffoscope
+[2024-04-16 08:42:15] INFO root fetch - processPackages [streamlit-deeplinker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_deeplinker-0.1.0.tar.gz tmp/streamlit_deeplinker-0.1.1.tar.gz --markdown 20240416/s/streamlit-deeplinker/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 08:42:15] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/06/78/f2fe13c0142b88d3f5eb77fb5837f1899596c684303892361972d90b2802/minvectordb-0.2.6.tar.gz
+[2024-04-16 08:42:15] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/ca/3f/a99d43890172e755c9c64ec5399e0b5eef6b140fef8164bf2364b795d32d/polars_qt-0.1.6.tar.gz
+[2024-04-16 08:42:15] INFO root fetch - processPackages [pycloudevents]: executing diffoscope
+[2024-04-16 08:42:15] INFO root fetch - processPackages [pycloudevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudevents-0.1.3.tar.gz tmp/pycloudevents-0.1.4.tar.gz --markdown 20240416/p/pycloudevents/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 08:42:15] INFO root fetch - processPackages [MinVectorDB]: executing diffoscope
+[2024-04-16 08:42:15] INFO root fetch - processPackages [MinVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minvectordb-0.2.5.tar.gz tmp/minvectordb-0.2.6.tar.gz --markdown 20240416/M/MinVectorDB/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-16 08:42:15] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-04-16 08:42:15] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.5.tar.gz tmp/polars_qt-0.1.6.tar.gz --markdown 20240416/p/polars-qt/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-16 08:42:16] INFO root fetch - processPackages [streamlit-deeplinker]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_deeplinker-0.1.0.tar.gz]
+[2024-04-16 08:42:16] INFO root fetch - processPackages [streamlit-deeplinker]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_deeplinker-0.1.1.tar.gz]
+[2024-04-16 08:42:16] INFO root fetch - main [MainThread]: End processing [streamlit-deeplinker]: success
+[2024-04-16 08:42:16] INFO root fetch - processPackages [pycloudevents]: Remove: archive file [/home/abi/fetcher/tmp/pycloudevents-0.1.3.tar.gz]
+[2024-04-16 08:42:16] INFO root fetch - processPackages [pycloudevents]: Remove: archive file [/home/abi/fetcher/tmp/pycloudevents-0.1.4.tar.gz]
+[2024-04-16 08:42:16] INFO root fetch - main [MainThread]: End processing [pycloudevents]: success
+[2024-04-16 08:42:16] INFO root fetch - processPackages [midas-mosaik]: Downloading https://files.pythonhosted.org/packages/66/9a/60f60c365fc6df4189127ebf6756cd27251fad3b59c4b0650b8140ad9cd7/midas-mosaik-1.2.0.tar.gz
+[2024-04-16 08:42:16] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.2.5.tar.gz]
+[2024-04-16 08:42:16] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.2.6.tar.gz]
+[2024-04-16 08:42:16] INFO root fetch - main [MainThread]: End processing [MinVectorDB]: success
+[2024-04-16 08:42:16] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.5.tar.gz]
+[2024-04-16 08:42:16] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.6.tar.gz]
+[2024-04-16 08:42:16] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-04-16 08:42:16] INFO root fetch - processPackages [midas-mosaik]: executing diffoscope
+[2024-04-16 08:42:16] INFO root fetch - processPackages [midas-mosaik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-mosaik-1.1.0.tar.gz tmp/midas-mosaik-1.2.0.tar.gz --markdown 20240416/m/midas-mosaik/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-16 08:42:17] INFO root fetch - processPackages [midas-mosaik]: Remove: archive file [/home/abi/fetcher/tmp/midas-mosaik-1.1.0.tar.gz]
+[2024-04-16 08:42:17] INFO root fetch - processPackages [midas-mosaik]: Remove: archive file [/home/abi/fetcher/tmp/midas-mosaik-1.2.0.tar.gz]
+[2024-04-16 08:42:17] INFO root fetch - main [MainThread]: End processing [midas-mosaik]: success
+[2024-04-16 08:42:17] INFO root fetch - main [MainThread]: Store serial: [22783342]
