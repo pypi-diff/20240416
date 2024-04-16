@@ -7588,3 +7588,36 @@
 [2024-04-16 08:24:45] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.4.2.1.tar.gz]
 [2024-04-16 08:24:45] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
 [2024-04-16 08:24:45] INFO root fetch - main [MainThread]: Store serial: [22783176]
+[2024-04-16 08:26:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783176]
+[2024-04-16 08:26:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 08:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-variant-sale-price
+[2024-04-16 08:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphacube
+[2024-04-16 08:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sicheng-demo
+[2024-04-16 08:26:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cwsgiutils
+[2024-04-16 08:26:54] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-16 08:26:54] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-16 08:26:54] WARNING root fetch - processPackages [sicheng-demo]: Skipping, unable to determine old version
+[2024-04-16 08:26:54] INFO root fetch - main [MainThread]: End processing [sicheng-demo] error
+[2024-04-16 08:26:54] INFO root fetch - processPackages [alphacube]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 08:26:54] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-16 08:26:54] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Downloading https://files.pythonhosted.org/packages/e5/18/2339bc17ad523509b2331190a4c439d6bd24c60800cd94024fa413d0307b/odoo_addon_product_variant_sale_price-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-16 08:26:54] INFO root fetch - processPackages [alphacube]: Downloading https://files.pythonhosted.org/packages/9a/ae/8b882dcabae65248c1effe46615f67f4271f01ccbfeec13424de1795ee18/alphacube-0.1.3-py3-none-any.whl
+[2024-04-16 08:26:55] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-16 08:26:55] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-16 08:26:55] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240416/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-04-16 08:26:55] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Downloading https://files.pythonhosted.org/packages/7e/e1/fb71493fff98cf01032084a99d109259e14e0497845db449e7b35c901e22/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-16 08:26:55] INFO root fetch - processPackages [alphacube]: Downloading https://files.pythonhosted.org/packages/d6/08/5ec5ccf74f53fec7a7ad6440010dec75f80aa38b35e10cc3168723c91aa8/alphacube-0.1.4-py3-none-any.whl
+[2024-04-16 08:26:55] INFO root fetch - processPackages [alphacube]: executing diffoscope
+[2024-04-16 08:26:55] INFO root fetch - processPackages [alphacube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphacube-0.1.3-py3-none-any.whl.zip tmp/alphacube-0.1.4-py3-none-any.whl.zip --markdown 20240416/a/alphacube/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 08:26:55] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: executing diffoscope
+[2024-04-16 08:26:55] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-product-variant-sale-price/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-16 08:26:55] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-16 08:26:55] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-16 08:26:55] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-16 08:26:56] INFO root fetch - processPackages [alphacube]: Remove: archive file [/home/abi/fetcher/tmp/alphacube-0.1.3-py3-none-any.whl.zip]
+[2024-04-16 08:26:56] INFO root fetch - processPackages [alphacube]: Remove: archive file [/home/abi/fetcher/tmp/alphacube-0.1.4-py3-none-any.whl.zip]
+[2024-04-16 08:26:56] INFO root fetch - main [MainThread]: End processing [alphacube]: success
+[2024-04-16 08:26:56] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-16 08:26:56] INFO root fetch - processPackages [odoo-addon-product-variant-sale-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_sale_price-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-16 08:26:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-sale-price]: success
+[2024-04-16 08:26:56] INFO root fetch - main [MainThread]: Store serial: [22783207]
