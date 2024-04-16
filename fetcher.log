@@ -11514,3 +11514,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:49:03] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai_data_format-1.3.2.tar.gz]
 [2024-04-16 10:49:03] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
 [2024-04-16 10:49:03] INFO root fetch - main [MainThread]: Store serial: [22784826]
+[2024-04-16 10:51:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784826]
+[2024-04-16 10:51:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: research-roc-utils
+[2024-04-16 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmsofttest
+[2024-04-16 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccdexplorer-schema-parser
+[2024-04-16 10:51:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linktools
+[2024-04-16 10:51:12] WARNING root fetch - processPackages [ccdexplorer-schema-parser]: Skipping, unable to determine old version
+[2024-04-16 10:51:12] INFO root fetch - main [MainThread]: End processing [ccdexplorer-schema-parser] error
+[2024-04-16 10:51:12] WARNING root fetch - processPackages [research-roc-utils]: Skipping, unable to determine old version
+[2024-04-16 10:51:12] INFO root fetch - main [MainThread]: End processing [research-roc-utils] error
+[2024-04-16 10:51:12] INFO root fetch - processPackages [gmsofttest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 10:51:12] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/eb/c9/80a2e9566b35349b1eb8378e20b5a4ed2e0f534992281be6f39de2183dfc/gmsofttest-0.0.8.tar.gz
+[2024-04-16 10:51:12] INFO root fetch - processPackages [linktools]: New version: [0.8.4rc0] Old Version: [0.8.3rc1]
+[2024-04-16 10:51:12] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/ed/9f/122493f4e3bf0b258a259a6fe55e73fbee9bdfc4fad41c41616c86d64327/gmsofttest-0.0.9.tar.gz
+[2024-04-16 10:51:12] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/af/8a/88acdd98737141a3340555cbb0855df67ccdada8a7159450484f18f99a3b/linktools-0.8.3rc1.tar.gz
+[2024-04-16 10:51:12] INFO root fetch - processPackages [gmsofttest]: executing diffoscope
+[2024-04-16 10:51:12] INFO root fetch - processPackages [gmsofttest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsofttest-0.0.8.tar.gz tmp/gmsofttest-0.0.9.tar.gz --markdown 20240416/g/gmsofttest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 10:51:12] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/ea/8f/f75ab09c8009bca4ef2dc843f5eaef4897808e23208ca089f5e2ded27836/linktools-0.8.4rc0.tar.gz
+[2024-04-16 10:51:13] INFO root fetch - processPackages [linktools]: executing diffoscope
+[2024-04-16 10:51:13] INFO root fetch - processPackages [linktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktools-0.8.3rc1.tar.gz tmp/linktools-0.8.4rc0.tar.gz --markdown 20240416/l/linktools/0.8.3rc1-0.8.4rc0/README.md --exclude *.pyd
+[2024-04-16 10:51:13] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.8.tar.gz]
+[2024-04-16 10:51:13] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.9.tar.gz]
+[2024-04-16 10:51:13] INFO root fetch - main [MainThread]: End processing [gmsofttest]: success
+[2024-04-16 10:51:14] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.3rc1.tar.gz]
+[2024-04-16 10:51:14] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.4rc0.tar.gz]
+[2024-04-16 10:51:14] INFO root fetch - main [MainThread]: End processing [linktools]: success
+[2024-04-16 10:51:14] INFO root fetch - main [MainThread]: Store serial: [22784863]
