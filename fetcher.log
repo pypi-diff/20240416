@@ -7474,3 +7474,60 @@
 [2024-04-16 08:20:21] INFO root fetch - processPackages [avilla-onebot-v11]: Remove: archive file [/home/abi/fetcher/tmp/avilla_onebot_v11-1.0.0a7.tar.gz]
 [2024-04-16 08:20:21] INFO root fetch - main [MainThread]: End processing [avilla-onebot-v11]: success
 [2024-04-16 08:20:21] INFO root fetch - main [MainThread]: Store serial: [22783140]
+[2024-04-16 08:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783140]
+[2024-04-16 08:22:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 08:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: midas-util
+[2024-04-16 08:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webscout
+[2024-04-16 08:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-cost-security
+[2024-04-16 08:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zodbpickle
+[2024-04-16 08:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-product-attribute
+[2024-04-16 08:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bride-of-frankensystem
+[2024-04-16 08:22:31] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: New version: [16.0.20240328.0] Old Version: [16.0.20240311.4]
+[2024-04-16 08:22:31] INFO root fetch - processPackages [odoo-addon-product-cost-security]: New version: [16.0.1.2.0.2] Old Version: [16.0.1.2.0.1]
+[2024-04-16 08:22:31] INFO root fetch - processPackages [midas-util]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-16 08:22:31] INFO root fetch - processPackages [webscout]: New version: [1.3.0] Old Version: [1.2.9]
+[2024-04-16 08:22:31] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/fc/21/750759cb7f413fe88830d164d9f15ba9f7feda7adb051d6c2f7505f3e788/odoo_addons_oca_product_attribute-16.0.20240311.4-py3-none-any.whl
+[2024-04-16 08:22:31] INFO root fetch - processPackages [zodbpickle]: New version: [3.3] Old Version: [3.2]
+[2024-04-16 08:22:31] INFO root fetch - processPackages [bride-of-frankensystem]: New version: [1.9.3.5] Old Version: [1.9.3.4]
+[2024-04-16 08:22:31] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Downloading https://files.pythonhosted.org/packages/94/0d/18719d8c607ccf7483bed015a564dac6858bdcde48108d97bc25690d97a4/odoo_addon_product_cost_security-16.0.1.2.0.1-py3-none-any.whl
+[2024-04-16 08:22:32] INFO root fetch - processPackages [midas-util]: Downloading https://files.pythonhosted.org/packages/17/c9/c73bdbbfe5aba6868d80fa9833d14089c1cc5a3d44b433b4661110866f3c/midas-util-1.1.1.tar.gz
+[2024-04-16 08:22:32] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/b0/2b/4b47c1f97f30800415d9b9e131e15922242287231f180306bf26797d11aa/webscout-1.2.9.tar.gz
+[2024-04-16 08:22:32] INFO root fetch - processPackages [zodbpickle]: Downloading https://files.pythonhosted.org/packages/44/9f/f60a57c42d552a9354fbb458eff44a32e04ec9ae81f20f959c4cb0d59dce/zodbpickle-3.2.tar.gz
+[2024-04-16 08:22:32] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Downloading https://files.pythonhosted.org/packages/19/70/db6a335c4513ca364f65f7752b4425ad7003d47d12fab7c3b3b3ec605233/odoo_addons_oca_product_attribute-16.0.20240328.0-py3-none-any.whl
+[2024-04-16 08:22:32] INFO root fetch - processPackages [bride-of-frankensystem]: Downloading https://files.pythonhosted.org/packages/ac/2b/5ef33b41ff3b516968edfb99ae70505fc8c12f954d3990a73e7f03cbea98/bride-of-frankensystem-1.9.3.4.tar.gz
+[2024-04-16 08:22:32] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: executing diffoscope
+[2024-04-16 08:22:32] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_attribute-16.0.20240311.4-py3-none-any.whl.zip tmp/odoo_addons_oca_product_attribute-16.0.20240328.0-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-product-attribute/16.0.20240311.4-16.0.20240328.0/README.md --exclude *.pyd
+[2024-04-16 08:22:32] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Downloading https://files.pythonhosted.org/packages/98/b9/934adae9491a5249ca63182c0fecdeeac2014aa8fb4445935430bb28c17f/odoo_addon_product_cost_security-16.0.1.2.0.2-py3-none-any.whl
+[2024-04-16 08:22:32] INFO root fetch - processPackages [midas-util]: Downloading https://files.pythonhosted.org/packages/e0/57/e1b403ae6a59d8c6dce8de4d1e63ed6bd53dadd2123cc630b06ac30f569f/midas-util-1.1.2.tar.gz
+[2024-04-16 08:22:32] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/fc/4a/497e597dd6eb5e9bd5294a37df7a54bb2ca98df82d302abfae275d631697/webscout-1.3.0.tar.gz
+[2024-04-16 08:22:32] INFO root fetch - processPackages [zodbpickle]: Downloading https://files.pythonhosted.org/packages/bf/8c/6d12fa39f042e6076bb6d6745852f952997c40b452a35a5d4f3dd99f8966/zodbpickle-3.3.tar.gz
+[2024-04-16 08:22:32] INFO root fetch - processPackages [odoo-addon-product-cost-security]: executing diffoscope
+[2024-04-16 08:22:32] INFO root fetch - processPackages [odoo-addon-product-cost-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_cost_security-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_cost_security-16.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-product-cost-security/16.0.1.2.0.1-16.0.1.2.0.2/README.md --exclude *.pyd
+[2024-04-16 08:22:32] INFO root fetch - processPackages [bride-of-frankensystem]: Downloading https://files.pythonhosted.org/packages/7e/ab/b79ccb7f984141f12eb87e3c5bfe6f70e1b867643e422c35eed61c633955/bride-of-frankensystem-1.9.3.5.tar.gz
+[2024-04-16 08:22:32] INFO root fetch - processPackages [zodbpickle]: executing diffoscope
+[2024-04-16 08:22:32] INFO root fetch - processPackages [zodbpickle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodbpickle-3.2.tar.gz tmp/zodbpickle-3.3.tar.gz --markdown 20240416/z/zodbpickle/3.2-3.3/README.md --exclude *.pyd
+[2024-04-16 08:22:32] INFO root fetch - processPackages [midas-util]: executing diffoscope
+[2024-04-16 08:22:32] INFO root fetch - processPackages [midas-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midas-util-1.1.1.tar.gz tmp/midas-util-1.1.2.tar.gz --markdown 20240416/m/midas-util/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-16 08:22:32] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-04-16 08:22:32] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-1.2.9.tar.gz tmp/webscout-1.3.0.tar.gz --markdown 20240416/w/webscout/1.2.9-1.3.0/README.md --exclude *.pyd
+[2024-04-16 08:22:32] INFO root fetch - processPackages [bride-of-frankensystem]: executing diffoscope
+[2024-04-16 08:22:32] INFO root fetch - processPackages [bride-of-frankensystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bride-of-frankensystem-1.9.3.4.tar.gz tmp/bride-of-frankensystem-1.9.3.5.tar.gz --markdown 20240416/b/bride-of-frankensystem/1.9.3.4-1.9.3.5/README.md --exclude *.pyd
+[2024-04-16 08:22:32] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20240311.4-py3-none-any.whl.zip]
+[2024-04-16 08:22:32] INFO root fetch - processPackages [odoo-addons-oca-product-attribute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_attribute-16.0.20240328.0-py3-none-any.whl.zip]
+[2024-04-16 08:22:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-attribute]: success
+[2024-04-16 08:22:33] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_cost_security-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-16 08:22:33] INFO root fetch - processPackages [odoo-addon-product-cost-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_cost_security-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-04-16 08:22:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-cost-security]: success
+[2024-04-16 08:22:33] INFO root fetch - processPackages [midas-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-util-1.1.1.tar.gz]
+[2024-04-16 08:22:33] INFO root fetch - processPackages [midas-util]: Remove: archive file [/home/abi/fetcher/tmp/midas-util-1.1.2.tar.gz]
+[2024-04-16 08:22:33] INFO root fetch - main [MainThread]: End processing [midas-util]: success
+[2024-04-16 08:22:33] INFO root fetch - processPackages [zodbpickle]: Remove: archive file [/home/abi/fetcher/tmp/zodbpickle-3.2.tar.gz]
+[2024-04-16 08:22:33] INFO root fetch - processPackages [zodbpickle]: Remove: archive file [/home/abi/fetcher/tmp/zodbpickle-3.3.tar.gz]
+[2024-04-16 08:22:33] INFO root fetch - main [MainThread]: End processing [zodbpickle]: success
+[2024-04-16 08:22:33] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.2.9.tar.gz]
+[2024-04-16 08:22:33] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.3.0.tar.gz]
+[2024-04-16 08:22:33] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-04-16 08:22:34] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.4.tar.gz]
+[2024-04-16 08:22:34] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.5.tar.gz]
+[2024-04-16 08:22:34] INFO root fetch - main [MainThread]: End processing [bride-of-frankensystem]: success
+[2024-04-16 08:22:34] INFO root fetch - main [MainThread]: Store serial: [22783154]
