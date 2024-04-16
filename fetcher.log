@@ -5745,3 +5745,45 @@
 [2024-04-16 06:13:58] INFO root fetch - processPackages [dj-rest-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj-rest-auth-5.1.0.tar.gz]
 [2024-04-16 06:13:58] INFO root fetch - main [MainThread]: End processing [dj-rest-auth]: success
 [2024-04-16 06:13:58] INFO root fetch - main [MainThread]: Store serial: [22782400]
+[2024-04-16 06:16:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782400]
+[2024-04-16 06:16:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 06:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-connector-python-nightly
+[2024-04-16 06:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opencv-wrap
+[2024-04-16 06:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-adapter-minecraft
+[2024-04-16 06:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: athina
+[2024-04-16 06:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dtool-ibeis
+[2024-04-16 06:16:08] INFO root fetch - processPackages [nonebot-adapter-minecraft]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-16 06:16:08] INFO root fetch - processPackages [dtool-ibeis]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-16 06:16:08] WARNING root fetch - processPackages [opencv-wrap]: Skipping, unable to determine old version
+[2024-04-16 06:16:08] INFO root fetch - main [MainThread]: End processing [opencv-wrap] error
+[2024-04-16 06:16:08] INFO root fetch - processPackages [athina]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-16 06:16:08] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2024.4.9] Old Version: [2024.4.4]
+[2024-04-16 06:16:09] INFO root fetch - processPackages [dtool-ibeis]: Downloading https://files.pythonhosted.org/packages/bc/c3/8763d746bb18b2add60065f2062ff23e2fe6d89684577e8b131286454b5b/dtool_ibeis-1.1.1.tar.gz
+[2024-04-16 06:16:09] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/ef/47/9b2ef0f7dd09092fd1f7473c8a302f1fa6450ca51d82832c78a6378d2975/athina-1.2.8.tar.gz
+[2024-04-16 06:16:09] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Downloading https://files.pythonhosted.org/packages/ce/90/26ac5a71730739e5ceaa58305306c7307507f500a22c8ef9553e22b1c5d2/nonebot_adapter_minecraft-1.1.1.tar.gz
+[2024-04-16 06:16:09] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/12/c3/4f218d7aee744ff4a81b162500c54788da9c3b3370b16f12d83c186af581/snowflake-connector-python-nightly-2024.4.4.tar.gz
+[2024-04-16 06:16:09] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/8c/7a/9ca31aae0240dac1dcb9ff13ab77af41aabbad7fe4fb02cf9f625581c8cc/athina-1.2.9.tar.gz
+[2024-04-16 06:16:09] INFO root fetch - processPackages [dtool-ibeis]: Downloading https://files.pythonhosted.org/packages/e7/11/07217e770858c47ef7934f69511dd72024b7ab5821cd309159b0c3df5307/dtool_ibeis-1.1.2.tar.gz
+[2024-04-16 06:16:09] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Downloading https://files.pythonhosted.org/packages/1b/d4/833663f8babb99f24b62d2f204901c105e8c4442b8f10cfccb6694db019e/nonebot_adapter_minecraft-1.1.2.tar.gz
+[2024-04-16 06:16:09] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-04-16 06:16:09] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.2.8.tar.gz tmp/athina-1.2.9.tar.gz --markdown 20240416/a/athina/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-16 06:16:09] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/2b/1f/ba851f8a5f400cf41366dc7216d298165e7c4fe21d731943caebce0a7907/snowflake-connector-python-nightly-2024.4.9.tar.gz
+[2024-04-16 06:16:09] INFO root fetch - processPackages [nonebot-adapter-minecraft]: executing diffoscope
+[2024-04-16 06:16:09] INFO root fetch - processPackages [nonebot-adapter-minecraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_minecraft-1.1.1.tar.gz tmp/nonebot_adapter_minecraft-1.1.2.tar.gz --markdown 20240416/n/nonebot-adapter-minecraft/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-16 06:16:09] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2024-04-16 06:16:09] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz --markdown 20240416/s/snowflake-connector-python-nightly/2024.4.4-2024.4.9/README.md --exclude *.pyd
+[2024-04-16 06:16:09] INFO root fetch - processPackages [dtool-ibeis]: executing diffoscope
+[2024-04-16 06:16:09] INFO root fetch - processPackages [dtool-ibeis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtool_ibeis-1.1.1.tar.gz tmp/dtool_ibeis-1.1.2.tar.gz --markdown 20240416/d/dtool-ibeis/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-16 06:16:10] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_minecraft-1.1.1.tar.gz]
+[2024-04-16 06:16:10] INFO root fetch - processPackages [nonebot-adapter-minecraft]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_minecraft-1.1.2.tar.gz]
+[2024-04-16 06:16:10] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-minecraft]: success
+[2024-04-16 06:16:10] INFO root fetch - processPackages [dtool-ibeis]: Remove: archive file [/home/abi/fetcher/tmp/dtool_ibeis-1.1.1.tar.gz]
+[2024-04-16 06:16:10] INFO root fetch - processPackages [dtool-ibeis]: Remove: archive file [/home/abi/fetcher/tmp/dtool_ibeis-1.1.2.tar.gz]
+[2024-04-16 06:16:10] INFO root fetch - main [MainThread]: End processing [dtool-ibeis]: success
+[2024-04-16 06:16:10] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.8.tar.gz]
+[2024-04-16 06:16:10] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.9.tar.gz]
+[2024-04-16 06:16:10] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-04-16 06:16:11] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz]
+[2024-04-16 06:16:11] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz]
+[2024-04-16 06:16:11] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2024-04-16 06:16:11] INFO root fetch - main [MainThread]: Store serial: [22782447]
