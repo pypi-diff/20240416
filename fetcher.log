@@ -23001,3 +23001,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:26:48] INFO root fetch - processPackages [shiny]: Remove: archive file [/home/abi/fetcher/tmp/shiny-0.9.0.tar.gz]
 [2024-04-16 17:26:48] INFO root fetch - main [MainThread]: End processing [shiny]: success
 [2024-04-16 17:26:48] INFO root fetch - main [MainThread]: Store serial: [22789858]
+[2024-04-16 17:28:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789858]
+[2024-04-16 17:28:58] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saspy
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cs2solutions
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crowdstrike-falconpy-dev
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flavtool
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: irispie
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slurpit_netbox
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: servir-aces
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c4m-pdk-gf180mcu
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mpyc
+[2024-04-16 17:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shinyswatch
+[2024-04-16 17:28:59] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [cs2solutions]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [slurpit_netbox]: New version: [0.8.63] Old Version: [0.8.46]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [mpyc]: New version: [0.9] Old Version: [0.8]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: New version: [1.4.3.dev1] Old Version: [1.4.3]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [flavtool]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [servir-aces]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: New version: [0.1.0.dev3] Old Version: [0.1.0.dev2]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [shinyswatch]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [saspy]: New version: [5.9.0] Old Version: [5.7.0]
+[2024-04-16 17:28:59] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/94/ea/8209ae702920ec90d96786f9aac2e00ecb27381eea69906d2f459a178ba0/cs2solutions-0.6.3.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [slurpit_netbox]: Downloading https://files.pythonhosted.org/packages/50/40/d43aae3ca2d62d407ff05615c5bf1e0ca16c33fcb96fc2533231bff44acf/slurpit_netbox-0.8.46.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/73/7c/374a5eb140d298358a9cb5419584cf2408dffaacbe07cad793bb9f48b47e/crowdstrike-falconpy-dev-1.4.3.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [flavtool]: Downloading https://files.pythonhosted.org/packages/c8/30/6252fe590f70296cacee36ef56bbcc8d147daaf8f83263b44fcb821f129f/flavtool-0.1.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [mpyc]: Downloading https://files.pythonhosted.org/packages/7a/95/76a800552c620d2c61eec6532673c9ea5dab8c7708e67c2be066a6942d3f/mpyc-0.8.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [saspy]: Downloading https://files.pythonhosted.org/packages/ee/55/c3421be941cc539e943afb9b140f27c41b613282c0f7c35f628d41058126/saspy-5.7.0.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/1f/7e/1ebd82a4535d9b3856f5d6b55aa57d396f85634ae4b2ecd36f38e7538365/servir-aces-0.0.6.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Downloading https://files.pythonhosted.org/packages/0a/f9/8b217d0c5c4ae6bd97c4fdfcaf81a04af1bbd5b87704e504c9d7207cd372/c4m_pdk_gf180mcu-0.1.0.dev2.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/7f/c9/4e2312834ee8247cb5b793d66139dd83e7af073239bc334b4765d76d871f/cs2solutions-0.6.4.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [shinyswatch]: Downloading https://files.pythonhosted.org/packages/da/09/5cac3dc4fe69a34fe44ce50debb9d95d5a606b5a343dbea43d4028eaba70/shinyswatch-0.5.1.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [cs2solutions]: executing diffoscope
+[2024-04-16 17:28:59] INFO root fetch - processPackages [cs2solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2solutions-0.6.3.tar.gz tmp/cs2solutions-0.6.4.tar.gz --markdown 20240416/c/cs2solutions/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-16 17:28:59] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [slurpit_netbox]: Downloading https://files.pythonhosted.org/packages/84/29/7ed9bbf09c5d7defeb3af6db6bb92960f15fcf04f3e8a9bc7f4c312c0e3b/slurpit_netbox-0.8.63.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Downloading https://files.pythonhosted.org/packages/84/05/faceb60bdfbc450c266e31e5881a0c85927c78e565a00433c2d232dbf338/crowdstrike-falconpy-dev-1.4.3.dev1.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [flavtool]: Downloading https://files.pythonhosted.org/packages/3a/a2/ba79d8a091b352880c89fb4e5a87ed01eb7b570b3f11ec987da7148341fc/flavtool-0.1.1.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [slurpit_netbox]: executing diffoscope
+[2024-04-16 17:28:59] INFO root fetch - processPackages [slurpit_netbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_netbox-0.8.46.tar.gz tmp/slurpit_netbox-0.8.63.tar.gz --markdown 20240416/s/slurpit_netbox/0.8.46-0.8.63/README.md --exclude *.pyd
+[2024-04-16 17:28:59] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/6b/59/7d1f805fabc2c2487a411a7f7525de65130d325dae7ced0c08b2168ddc29/servir_aces-0.0.7.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [mpyc]: Downloading https://files.pythonhosted.org/packages/6e/73/91555669da9d3f31ab8733877198adaa1f7a659706e6ec4e07a805a41e37/mpyc-0.9.tar.gz
+[2024-04-16 17:28:59] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: executing diffoscope
+[2024-04-16 17:28:59] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdstrike-falconpy-dev-1.4.3.tar.gz tmp/crowdstrike-falconpy-dev-1.4.3.dev1.tar.gz --markdown 20240416/c/crowdstrike-falconpy-dev/1.4.3-1.4.3.dev1/README.md --exclude *.pyd
+[2024-04-16 17:28:59] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Downloading https://files.pythonhosted.org/packages/94/8e/32b022d261c29aa985d651beefbba46d0dec5ef25ab9d3cd12aee711e465/c4m_pdk_gf180mcu-0.1.0.dev3.tar.gz
+[2024-04-16 17:29:00] INFO root fetch - processPackages [flavtool]: executing diffoscope
+[2024-04-16 17:29:00] INFO root fetch - processPackages [flavtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flavtool-0.1.tar.gz tmp/flavtool-0.1.1.tar.gz --markdown 20240416/f/flavtool/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-16 17:29:00] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-16 17:29:00] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240416/i/irispie/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-16 17:29:00] INFO root fetch - processPackages [mpyc]: executing diffoscope
+[2024-04-16 17:29:00] INFO root fetch - processPackages [mpyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpyc-0.8.tar.gz tmp/mpyc-0.9.tar.gz --markdown 20240416/m/mpyc/0.8-0.9/README.md --exclude *.pyd
+[2024-04-16 17:29:00] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: executing diffoscope
+[2024-04-16 17:29:00] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_pdk_gf180mcu-0.1.0.dev2.tar.gz tmp/c4m_pdk_gf180mcu-0.1.0.dev3.tar.gz --markdown 20240416/c/c4m-pdk-gf180mcu/0.1.0.dev2-0.1.0.dev3/README.md --exclude *.pyd
+[2024-04-16 17:29:00] INFO root fetch - processPackages [servir-aces]: executing diffoscope
+[2024-04-16 17:29:00] INFO root fetch - processPackages [servir-aces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servir-aces-0.0.6.tar.gz tmp/servir_aces-0.0.7.tar.gz --markdown 20240416/s/servir-aces/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 17:29:00] INFO root fetch - processPackages [shinyswatch]: Downloading https://files.pythonhosted.org/packages/45/2d/a6e1c1135882b086cbec86c16bbf2f11ad4241c237462759e7246d25197d/shinyswatch-0.6.0.tar.gz
+[2024-04-16 17:29:00] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.6.3.tar.gz]
+[2024-04-16 17:29:00] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.6.4.tar.gz]
+[2024-04-16 17:29:00] INFO root fetch - main [MainThread]: End processing [cs2solutions]: success
+[2024-04-16 17:29:00] INFO root fetch - processPackages [slurpit_netbox]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_netbox-0.8.46.tar.gz]
+[2024-04-16 17:29:00] INFO root fetch - processPackages [slurpit_netbox]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_netbox-0.8.63.tar.gz]
+[2024-04-16 17:29:00] INFO root fetch - main [MainThread]: End processing [slurpit_netbox]: success
+[2024-04-16 17:29:00] INFO root fetch - processPackages [flavtool]: Remove: archive file [/home/abi/fetcher/tmp/flavtool-0.1.tar.gz]
+[2024-04-16 17:29:00] INFO root fetch - processPackages [flavtool]: Remove: archive file [/home/abi/fetcher/tmp/flavtool-0.1.1.tar.gz]
+[2024-04-16 17:29:00] INFO root fetch - main [MainThread]: End processing [flavtool]: success
+[2024-04-16 17:29:01] INFO root fetch - processPackages [mpyc]: Remove: archive file [/home/abi/fetcher/tmp/mpyc-0.8.tar.gz]
+[2024-04-16 17:29:01] INFO root fetch - processPackages [mpyc]: Remove: archive file [/home/abi/fetcher/tmp/mpyc-0.9.tar.gz]
+[2024-04-16 17:29:01] INFO root fetch - main [MainThread]: End processing [mpyc]: success
+[2024-04-16 17:29:01] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_gf180mcu-0.1.0.dev2.tar.gz]
+[2024-04-16 17:29:01] INFO root fetch - processPackages [c4m-pdk-gf180mcu]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_gf180mcu-0.1.0.dev3.tar.gz]
+[2024-04-16 17:29:01] INFO root fetch - main [MainThread]: End processing [c4m-pdk-gf180mcu]: success
+[2024-04-16 17:29:01] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir-aces-0.0.6.tar.gz]
+[2024-04-16 17:29:01] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir_aces-0.0.7.tar.gz]
+[2024-04-16 17:29:01] INFO root fetch - main [MainThread]: End processing [servir-aces]: success
+[2024-04-16 17:29:01] INFO root fetch - processPackages [shinyswatch]: executing diffoscope
+[2024-04-16 17:29:01] INFO root fetch - processPackages [shinyswatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinyswatch-0.5.1.tar.gz tmp/shinyswatch-0.6.0.tar.gz --markdown 20240416/s/shinyswatch/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-16 17:29:02] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-16 17:29:02] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-16 17:29:02] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-16 17:29:02] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.4.3.tar.gz]
+[2024-04-16 17:29:02] INFO root fetch - processPackages [crowdstrike-falconpy-dev]: Remove: archive file [/home/abi/fetcher/tmp/crowdstrike-falconpy-dev-1.4.3.dev1.tar.gz]
+[2024-04-16 17:29:02] INFO root fetch - main [MainThread]: End processing [crowdstrike-falconpy-dev]: success
+[2024-04-16 17:29:02] INFO root fetch - processPackages [saspy]: Downloading https://files.pythonhosted.org/packages/43/3b/d3f05a0fb5af36a83ca18235d96f23e0469e7fef84e281571827f979ddbf/saspy-5.9.0.tar.gz
+[2024-04-16 17:29:03] INFO root fetch - processPackages [shinyswatch]: Remove: archive file [/home/abi/fetcher/tmp/shinyswatch-0.5.1.tar.gz]
+[2024-04-16 17:29:03] INFO root fetch - processPackages [shinyswatch]: Remove: archive file [/home/abi/fetcher/tmp/shinyswatch-0.6.0.tar.gz]
+[2024-04-16 17:29:03] INFO root fetch - main [MainThread]: End processing [shinyswatch]: success
+[2024-04-16 17:29:32] INFO root fetch - processPackages [saspy]: executing diffoscope
+[2024-04-16 17:29:32] INFO root fetch - processPackages [saspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saspy-5.7.0.tar.gz tmp/saspy-5.9.0.tar.gz --markdown 20240416/s/saspy/5.7.0-5.9.0/README.md --exclude *.pyd
+[2024-04-16 17:29:33] INFO root fetch - processPackages [saspy]: Remove: archive file [/home/abi/fetcher/tmp/saspy-5.7.0.tar.gz]
+[2024-04-16 17:29:33] INFO root fetch - processPackages [saspy]: Remove: archive file [/home/abi/fetcher/tmp/saspy-5.9.0.tar.gz]
+[2024-04-16 17:29:33] INFO root fetch - main [MainThread]: End processing [saspy]: success
+[2024-04-16 17:29:33] INFO root fetch - main [MainThread]: Store serial: [22789885]
