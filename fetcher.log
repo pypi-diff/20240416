@@ -2136,3 +2136,36 @@
 [2024-04-16 02:08:35] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.4.2.tar.gz]
 [2024-04-16 02:08:35] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2024-04-16 02:08:35] INFO root fetch - main [MainThread]: Store serial: [22780636]
+[2024-04-16 02:10:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780636]
+[2024-04-16 02:10:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 02:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdod
+[2024-04-16 02:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynfe_xml2dict
+[2024-04-16 02:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbb-nightly
+[2024-04-16 02:10:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-quantizers-nightly
+[2024-04-16 02:10:44] INFO root fetch - processPackages [pynfe_xml2dict]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 02:10:44] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404150227] Old Version: [4.1.6.dev202404140013]
+[2024-04-16 02:10:44] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240415.post22835] Old Version: [1.5.0.20240414.post1433]
+[2024-04-16 02:10:44] INFO root fetch - processPackages [pynfe_xml2dict]: Downloading https://files.pythonhosted.org/packages/22/eb/e33a739c2db69f6fa30c6d962589ff75617f45281a31da1c8b7096930723/pynfe_xml2dict-0.0.3.tar.gz
+[2024-04-16 02:10:44] WARNING root fetch - processPackages [mdod]: Skipping, unable to determine old version
+[2024-04-16 02:10:44] INFO root fetch - main [MainThread]: End processing [mdod] error
+[2024-04-16 02:10:44] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/83/06/0202e4e8ba2118a2a4a617ad52caadc937f089e138c96eff76cd4281a793/openbb_nightly-4.1.6.dev202404140013.tar.gz
+[2024-04-16 02:10:44] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/45/6c/b66002742fc88057799733a509a47fe3bf1c34cd06648dd65ba1d2046cfc/mct-quantizers-nightly-1.5.0.20240414.post1433.tar.gz
+[2024-04-16 02:10:45] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/2c/5f/bfa1a7ff5f6f438c4e68fa659640b0e41e42888a6ff0d6ec75f10296f820/mct-quantizers-nightly-1.5.0.20240415.post22835.tar.gz
+[2024-04-16 02:10:45] INFO root fetch - processPackages [pynfe_xml2dict]: Downloading https://files.pythonhosted.org/packages/fa/63/d575189dba82366bc0ff7d8d4f09f8a223313e9c5f465a4a5c6a9a0c63f8/pynfe_xml2dict-0.0.4.tar.gz
+[2024-04-16 02:10:45] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-16 02:10:45] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240414.post1433.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240415.post22835.tar.gz --markdown 20240416/m/mct-quantizers-nightly/1.5.0.20240414.post1433-1.5.0.20240415.post22835/README.md --exclude *.pyd
+[2024-04-16 02:10:45] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/81/8f/f6115fd41942f6e1b38f2e5d6e486fffcb5cdc0336249bfeab72417c475f/openbb_nightly-4.1.6.dev202404150227.tar.gz
+[2024-04-16 02:10:45] INFO root fetch - processPackages [pynfe_xml2dict]: executing diffoscope
+[2024-04-16 02:10:45] INFO root fetch - processPackages [pynfe_xml2dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynfe_xml2dict-0.0.3.tar.gz tmp/pynfe_xml2dict-0.0.4.tar.gz --markdown 20240416/p/pynfe_xml2dict/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 02:10:45] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-16 02:10:45] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404140013.tar.gz tmp/openbb_nightly-4.1.6.dev202404150227.tar.gz --markdown 20240416/o/openbb-nightly/4.1.6.dev202404140013-4.1.6.dev202404150227/README.md --exclude *.pyd
+[2024-04-16 02:10:45] INFO root fetch - processPackages [pynfe_xml2dict]: Remove: archive file [/home/abi/fetcher/tmp/pynfe_xml2dict-0.0.3.tar.gz]
+[2024-04-16 02:10:45] INFO root fetch - processPackages [pynfe_xml2dict]: Remove: archive file [/home/abi/fetcher/tmp/pynfe_xml2dict-0.0.4.tar.gz]
+[2024-04-16 02:10:45] INFO root fetch - main [MainThread]: End processing [pynfe_xml2dict]: success
+[2024-04-16 02:10:45] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240414.post1433.tar.gz]
+[2024-04-16 02:10:45] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240415.post22835.tar.gz]
+[2024-04-16 02:10:45] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-16 02:10:48] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404140013.tar.gz]
+[2024-04-16 02:10:48] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404150227.tar.gz]
+[2024-04-16 02:10:48] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-16 02:10:48] INFO root fetch - main [MainThread]: Store serial: [22780672]
