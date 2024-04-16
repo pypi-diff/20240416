@@ -2674,3 +2674,33 @@
 [2024-04-16 02:33:20] INFO root fetch - processPackages [llvm-installer]: Remove: archive file [/home/abi/fetcher/tmp/llvm_installer-1.4.2.tar.gz]
 [2024-04-16 02:33:20] INFO root fetch - main [MainThread]: End processing [llvm-installer]: success
 [2024-04-16 02:33:20] INFO root fetch - main [MainThread]: Store serial: [22780940]
+[2024-04-16 02:35:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780940]
+[2024-04-16 02:35:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 02:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2024-04-16 02:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-community
+[2024-04-16 02:35:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yfjpscraper
+[2024-04-16 02:35:29] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 02:35:29] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-16 02:35:29] INFO root fetch - processPackages [yfjpscraper]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-16 02:35:29] INFO root fetch - processPackages [langchain-community]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 02:35:29] INFO root fetch - processPackages [yfjpscraper]: Downloading https://files.pythonhosted.org/packages/cc/af/3f2b29197ee3cc3c885824cb81207dd510b5cf90280c5c12b87a5e32856a/yfjpscraper-0.4.0.tar.gz
+[2024-04-16 02:35:29] INFO root fetch - processPackages [langchain-community]: Downloading https://files.pythonhosted.org/packages/ca/e0/b13f3f226be2c9054ddd0ea83d1b1e740ce4b7f77fe1fbfa4dc52b11892f/langchain_community-0.0.8.tar.gz
+[2024-04-16 02:35:29] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-16 02:35:30] INFO root fetch - processPackages [yfjpscraper]: Downloading https://files.pythonhosted.org/packages/9d/39/259512fd722ca8e63876085587c54f9c3afd933797d8a615f66d9343dd7c/yfjpscraper-0.4.1.tar.gz
+[2024-04-16 02:35:30] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-16 02:35:30] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240416/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 02:35:30] INFO root fetch - processPackages [langchain-community]: Downloading https://files.pythonhosted.org/packages/f6/57/fb61a8ab98799272b297f9992e9b7c27d544840f67805b271540f929c52e/langchain_community-0.0.9.tar.gz
+[2024-04-16 02:35:30] INFO root fetch - processPackages [yfjpscraper]: executing diffoscope
+[2024-04-16 02:35:30] INFO root fetch - processPackages [yfjpscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfjpscraper-0.4.0.tar.gz tmp/yfjpscraper-0.4.1.tar.gz --markdown 20240416/y/yfjpscraper/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-16 02:35:30] INFO root fetch - processPackages [langchain-community]: executing diffoscope
+[2024-04-16 02:35:30] INFO root fetch - processPackages [langchain-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_community-0.0.8.tar.gz tmp/langchain_community-0.0.9.tar.gz --markdown 20240416/l/langchain-community/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 02:35:30] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-16 02:35:30] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-16 02:35:30] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-16 02:35:30] INFO root fetch - processPackages [yfjpscraper]: Remove: archive file [/home/abi/fetcher/tmp/yfjpscraper-0.4.0.tar.gz]
+[2024-04-16 02:35:30] INFO root fetch - processPackages [yfjpscraper]: Remove: archive file [/home/abi/fetcher/tmp/yfjpscraper-0.4.1.tar.gz]
+[2024-04-16 02:35:30] INFO root fetch - main [MainThread]: End processing [yfjpscraper]: success
+[2024-04-16 02:35:33] INFO root fetch - processPackages [langchain-community]: Remove: archive file [/home/abi/fetcher/tmp/langchain_community-0.0.8.tar.gz]
+[2024-04-16 02:35:33] INFO root fetch - processPackages [langchain-community]: Remove: archive file [/home/abi/fetcher/tmp/langchain_community-0.0.9.tar.gz]
+[2024-04-16 02:35:33] INFO root fetch - main [MainThread]: End processing [langchain-community]: success
+[2024-04-16 02:35:33] INFO root fetch - main [MainThread]: Store serial: [22780948]
