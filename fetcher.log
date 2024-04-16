@@ -5494,3 +5494,42 @@
 [2024-04-16 05:59:12] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-04-16 05:59:12] INFO root fetch - main [MainThread]: End processing [fireducks]: success
 [2024-04-16 05:59:12] INFO root fetch - main [MainThread]: Store serial: [22782309]
+[2024-04-16 06:01:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782309]
+[2024-04-16 06:01:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 06:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coretex
+[2024-04-16 06:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepfacey
+[2024-04-16 06:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pre5g
+[2024-04-16 06:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fulcra-api
+[2024-04-16 06:01:36] INFO root fetch - processPackages [deepfacey]: New version: [0.0.86] Old Version: [0.0.85]
+[2024-04-16 06:01:36] INFO root fetch - processPackages [pre5g]: New version: [3.2] Old Version: [3.1]
+[2024-04-16 06:01:36] INFO root fetch - processPackages [deepfacey]: Downloading https://files.pythonhosted.org/packages/a3/41/192c49432a0ed2c59247687c5efc9282fd22a0b24e8975c2b3505f9c2202/deepfacey-0.0.85.tar.gz
+[2024-04-16 06:01:36] INFO root fetch - processPackages [fulcra-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 06:01:36] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-16 06:01:36] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/2c/3b/e6a19698b948118f96145dd347697e2b0324fe2b4f0bf1c02eea0bda934e/pre5g-3.1.tar.gz
+[2024-04-16 06:01:36] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-04-16 06:01:36] INFO root fetch - processPackages [fulcra-api]: Downloading https://files.pythonhosted.org/packages/61/3e/ebb0beb0e8cbce1f4377d932f62a68fbe87a0db69654fc15a05db7961a42/fulcra_api-0.1.8.tar.gz
+[2024-04-16 06:01:36] INFO root fetch - processPackages [deepfacey]: Downloading https://files.pythonhosted.org/packages/2f/08/eb46d76b7f140a67e729fe1efa29bb6c63cf2802abde2a33f1e48f5613d4/deepfacey-0.0.86.tar.gz
+[2024-04-16 06:01:36] INFO root fetch - processPackages [deepfacey]: executing diffoscope
+[2024-04-16 06:01:36] INFO root fetch - processPackages [deepfacey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfacey-0.0.85.tar.gz tmp/deepfacey-0.0.86.tar.gz --markdown 20240416/d/deepfacey/0.0.85-0.0.86/README.md --exclude *.pyd
+[2024-04-16 06:01:36] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/0e/71/9efbc518a699ca1d0ab40bf265c8182b60fb4bbf84cdd170c3ecdf32f1d0/pre5g-3.2.tar.gz
+[2024-04-16 06:01:36] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-16 06:01:36] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-3.1.tar.gz tmp/pre5g-3.2.tar.gz --markdown 20240416/p/pre5g/3.1-3.2/README.md --exclude *.pyd
+[2024-04-16 06:01:36] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-04-16 06:01:36] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-04-16 06:01:36] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240416/c/coretex/1.0.96-1.0.99/README.md --exclude *.pyd
+[2024-04-16 06:01:36] INFO root fetch - processPackages [fulcra-api]: Downloading https://files.pythonhosted.org/packages/24/98/aa169234b49807c4d50a0c002f58dda26d0011e2f27221784576d9ccd099/fulcra_api-0.1.9.tar.gz
+[2024-04-16 06:01:37] INFO root fetch - processPackages [fulcra-api]: executing diffoscope
+[2024-04-16 06:01:37] INFO root fetch - processPackages [fulcra-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fulcra_api-0.1.8.tar.gz tmp/fulcra_api-0.1.9.tar.gz --markdown 20240416/f/fulcra-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 06:01:37] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.1.tar.gz]
+[2024-04-16 06:01:37] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.2.tar.gz]
+[2024-04-16 06:01:37] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-16 06:01:37] INFO root fetch - processPackages [deepfacey]: Remove: archive file [/home/abi/fetcher/tmp/deepfacey-0.0.85.tar.gz]
+[2024-04-16 06:01:37] INFO root fetch - processPackages [deepfacey]: Remove: archive file [/home/abi/fetcher/tmp/deepfacey-0.0.86.tar.gz]
+[2024-04-16 06:01:37] INFO root fetch - main [MainThread]: End processing [deepfacey]: success
+[2024-04-16 06:01:37] INFO root fetch - processPackages [fulcra-api]: Remove: archive file [/home/abi/fetcher/tmp/fulcra_api-0.1.8.tar.gz]
+[2024-04-16 06:01:37] INFO root fetch - processPackages [fulcra-api]: Remove: archive file [/home/abi/fetcher/tmp/fulcra_api-0.1.9.tar.gz]
+[2024-04-16 06:01:37] INFO root fetch - main [MainThread]: End processing [fulcra-api]: success
+[2024-04-16 06:01:38] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-04-16 06:01:38] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-04-16 06:01:38] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-04-16 06:01:38] INFO root fetch - main [MainThread]: Store serial: [22782321]
