@@ -5859,3 +5859,36 @@
 [2024-04-16 06:20:34] INFO root fetch - processPackages [hypickle]: Remove: archive file [/home/abi/fetcher/tmp/hypickle-1.1.5.tar.gz]
 [2024-04-16 06:20:34] INFO root fetch - main [MainThread]: End processing [hypickle]: success
 [2024-04-16 06:20:34] INFO root fetch - main [MainThread]: Store serial: [22782484]
+[2024-04-16 06:22:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782484]
+[2024-04-16 06:22:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice
+[2024-04-16 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: setreq
+[2024-04-16 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apollo-lunar
+[2024-04-16 06:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-nai3
+[2024-04-16 06:22:44] INFO root fetch - processPackages [nonebot-plugin-nai3]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 06:22:44] INFO root fetch - processPackages [apollo-lunar]: New version: [2024.4.4rc1] Old Version: [2024.4.4]
+[2024-04-16 06:22:44] WARNING root fetch - processPackages [setreq]: Skipping, unable to determine old version
+[2024-04-16 06:22:44] INFO root fetch - main [MainThread]: End processing [setreq] error
+[2024-04-16 06:22:44] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/ac/5d/3f282f9801896320f22b584ff6f7b8f5a7d2ad7cd598e6a7a7e51ec7947a/nonebot_plugin_nai3-0.1.3.tar.gz
+[2024-04-16 06:22:44] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/a7/d1/da315750c330973c1ef139a12c8e514b80c836abc6647ae2db699b1dae35/apollo_lunar-2024.4.4.tar.gz
+[2024-04-16 06:22:45] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [17.0.1.1.0.5] Old Version: [17.0.1.1.0.4]
+[2024-04-16 06:22:45] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/be/12/3c1016e523c877aef225fdfb7c17b3a98a0d93d852a588c869fac27876b6/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl
+[2024-04-16 06:22:45] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/2b/7d/ac278e0c2b56e554ec91a1fe5793ba9eec4ac940340d612bc809f49fb825/apollo_lunar-2024.4.4rc1.tar.gz
+[2024-04-16 06:22:45] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/82/5c/ed90fb0d887bd0ac6ea8f71d43406508a3dc65226b46d5cb7870ab7573b5/nonebot_plugin_nai3-0.1.4.tar.gz
+[2024-04-16 06:22:45] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2024-04-16 06:22:45] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_lunar-2024.4.4.tar.gz tmp/apollo_lunar-2024.4.4rc1.tar.gz --markdown 20240416/a/apollo-lunar/2024.4.4-2024.4.4rc1/README.md --exclude *.pyd
+[2024-04-16 06:22:45] INFO root fetch - processPackages [nonebot-plugin-nai3]: executing diffoscope
+[2024-04-16 06:22:45] INFO root fetch - processPackages [nonebot-plugin-nai3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nai3-0.1.3.tar.gz tmp/nonebot_plugin_nai3-0.1.4.tar.gz --markdown 20240416/n/nonebot-plugin-nai3/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 06:22:45] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/15/bf/ba4b96242d579d7a225515a46a2a207e6d26e55ef4acaf9c056ac5d3dc9b/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl
+[2024-04-16 06:22:45] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2024-04-16 06:22:45] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-fieldservice/17.0.1.1.0.4-17.0.1.1.0.5/README.md --exclude *.pyd
+[2024-04-16 06:22:46] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.3.tar.gz]
+[2024-04-16 06:22:46] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.4.tar.gz]
+[2024-04-16 06:22:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nai3]: success
+[2024-04-16 06:22:46] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4.tar.gz]
+[2024-04-16 06:22:46] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
+[2024-04-16 06:22:46] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2024-04-16 06:22:46] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-04-16 06:22:46] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip]
+[2024-04-16 06:22:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2024-04-16 06:22:46] INFO root fetch - main [MainThread]: Store serial: [22782496]
