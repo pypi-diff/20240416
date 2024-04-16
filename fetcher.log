@@ -4418,3 +4418,39 @@
 [2024-04-16 04:47:35] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl.zip]
 [2024-04-16 04:47:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
 [2024-04-16 04:47:35] INFO root fetch - main [MainThread]: Store serial: [22781787]
+[2024-04-16 04:49:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781787]
+[2024-04-16 04:49:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 04:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-asset-management
+[2024-04-16 04:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monailabel
+[2024-04-16 04:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-answ-auto
+[2024-04-16 04:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: factory_farm
+[2024-04-16 04:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: factory_farm
+[2024-04-16 04:49:43] WARNING root fetch - processPackages [pih-answ-auto]: Skipping, unable to determine old version
+[2024-04-16 04:49:43] INFO root fetch - main [MainThread]: End processing [pih-answ-auto] error
+[2024-04-16 04:49:43] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.2.2] Old Version: [16.0.1.2.1.2]
+[2024-04-16 04:49:43] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/81/12/c70108027422f54bb707db02429edeee649cb6cfa46df411bc95337695f3/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl
+[2024-04-16 04:49:43] INFO root fetch - processPackages [monailabel]: New version: [0.8.2rc3] Old Version: [0.8.2rc2]
+[2024-04-16 04:49:43] INFO root fetch - processPackages [factory_farm]: New version: [1.1.2] Old Version: [1.0.0]
+[2024-04-16 04:49:43] INFO root fetch - processPackages [factory_farm]: New version: [1.1.2] Old Version: [1.0.0]
+[2024-04-16 04:49:44] INFO root fetch - processPackages [monailabel]: Downloading https://files.pythonhosted.org/packages/27/0e/b5a8645d4fc6703c06d6110b89b057f390e2036957d50c042b7f199ee306/monailabel-0.8.2rc2-202404061553-py3-none-any.whl
+[2024-04-16 04:49:44] WARNING root fetch - processPackages [monailabel]: Skipping package: exceeds size limit 11945721>=10485760
+[2024-04-16 04:49:44] INFO root fetch - main [MainThread]: End processing [monailabel] error
+[2024-04-16 04:49:44] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/f8/1f/05c4a456d32913a274c289dd903b26e7688ad2725de829c08629b826aac5/factory_farm-1.0.0.tar.gz
+[2024-04-16 04:49:44] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/f8/1f/05c4a456d32913a274c289dd903b26e7688ad2725de829c08629b826aac5/factory_farm-1.0.0.tar.gz
+[2024-04-16 04:49:44] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/82/dc/9450aa6c5608e49793544cfdce7575bf23c48e44e3758dd02cdeaf70595a/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl
+[2024-04-16 04:49:44] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2024-04-16 04:49:44] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-account-asset-management/16.0.1.2.1.2-16.0.1.2.2/README.md --exclude *.pyd
+[2024-04-16 04:49:44] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/d8/a5/e9ed97f3f08b7d85a30eed946c710a60223851814433a6895ec6f58fc815/factory_farm-1.1.2-py3-none-any.whl
+[2024-04-16 04:49:44] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/d8/a5/e9ed97f3f08b7d85a30eed946c710a60223851814433a6895ec6f58fc815/factory_farm-1.1.2-py3-none-any.whl
+[2024-04-16 04:49:45] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl.zip]
+[2024-04-16 04:49:45] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl.zip]
+[2024-04-16 04:49:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2024-04-16 04:49:46] INFO root fetch - processPackages [factory_farm]: executing diffoscope
+[2024-04-16 04:49:46] INFO root fetch - processPackages [factory_farm]: executing diffoscope
+[2024-04-16 04:49:46] INFO root fetch - processPackages [factory_farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factory_farm-1.0.0.tar.gz tmp/factory_farm-1.1.2-py3-none-any.whl.zip --markdown 20240416/f/factory_farm/1.0.0-1.1.2/README.md --exclude *.pyd
+[2024-04-16 04:49:46] INFO root fetch - processPackages [factory_farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factory_farm-1.0.0.tar.gz tmp/factory_farm-1.1.2-py3-none-any.whl.zip --markdown 20240416/f/factory_farm/1.0.0-1.1.2/README.md --exclude *.pyd
+[2024-04-16 04:49:47] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.0.0.tar.gz]
+[2024-04-16 04:49:47] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.1.2-py3-none-any.whl.zip]
+[2024-04-16 04:49:47] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
+[2024-04-16 04:49:47] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
+[2024-04-16 04:49:47] INFO root fetch - main [MainThread]: Store serial: [22781802]
