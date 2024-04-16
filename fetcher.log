@@ -7230,3 +7230,51 @@
 [2024-04-16 08:02:28] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-04-16 08:02:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-04-16 08:02:28] INFO root fetch - main [MainThread]: Store serial: [22783064]
+[2024-04-16 08:04:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783064]
+[2024-04-16 08:04:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjected
+[2024-04-16 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eclsdk
+[2024-04-16 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-cabinet
+[2024-04-16 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qctrl-visualizer
+[2024-04-16 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MultiGATE
+[2024-04-16 08:04:36] INFO root fetch - processPackages [MultiGATE]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 08:04:36] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/6d/b6/1cb873f18fe05021c33b90cd610970779199199a253b4cbb55371f036fe2/MultiGATE-0.0.8.tar.gz
+[2024-04-16 08:04:36] INFO root fetch - processPackages [django-cabinet]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 08:04:36] INFO root fetch - processPackages [eclsdk]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-16 08:04:36] INFO root fetch - processPackages [qctrl-visualizer]: New version: [7.1.0] Old Version: [7.0.0]
+[2024-04-16 08:04:36] INFO root fetch - processPackages [pinjected]: New version: [0.2.28] Old Version: [0.2.27]
+[2024-04-16 08:04:36] INFO root fetch - processPackages [eclsdk]: Downloading https://files.pythonhosted.org/packages/1d/50/7b8e8fbbcb37b2fbd2583b9ace158243aaa6141a8b412028f8b6042c2442/eclsdk-1.2.1.tar.gz
+[2024-04-16 08:04:37] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/20/4c/6b22d9812f15243cb7946fb4baccba7279fef354e1e3455d1c55f58cecff/MultiGATE-0.0.9.tar.gz
+[2024-04-16 08:04:37] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/9a/f6/b6d3eeddde1a34b92dfda3e77cd8d43eb9f698892b121b7d26f63c44abfc/pinjected-0.2.27.tar.gz
+[2024-04-16 08:04:37] INFO root fetch - processPackages [django-cabinet]: Downloading https://files.pythonhosted.org/packages/41/0b/5e24ef43376e058aa397837c035538fd0f6785071613ae767e9bde6a92f6/django-cabinet-0.9.0.tar.gz
+[2024-04-16 08:04:37] INFO root fetch - processPackages [qctrl-visualizer]: Downloading https://files.pythonhosted.org/packages/67/56/c9634c10d5964f76f7bf310c00f12a0bd82874a1c5a3aebdd15c00f0ce35/qctrl_visualizer-7.0.0.tar.gz
+[2024-04-16 08:04:37] INFO root fetch - processPackages [MultiGATE]: executing diffoscope
+[2024-04-16 08:04:37] INFO root fetch - processPackages [MultiGATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiGATE-0.0.8.tar.gz tmp/MultiGATE-0.0.9.tar.gz --markdown 20240416/M/MultiGATE/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 08:04:37] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/db/08/c5283673821fc48b9210d1fa5d61767e99be3476b2771190d3a80ef9bf07/pinjected-0.2.28.tar.gz
+[2024-04-16 08:04:37] INFO root fetch - processPackages [qctrl-visualizer]: Downloading https://files.pythonhosted.org/packages/6c/76/2f55cb8fe985d6f406644345848938fb1944295c8c0a8e9438e126eb1ca9/qctrl_visualizer-7.1.0.tar.gz
+[2024-04-16 08:04:37] INFO root fetch - processPackages [django-cabinet]: Downloading https://files.pythonhosted.org/packages/0f/9a/3b246a1228b75d6afeb069d40e11c9dfdb10e253264f2287b5f6fd9f1cc5/django-cabinet-0.9.1.tar.gz
+[2024-04-16 08:04:37] INFO root fetch - processPackages [qctrl-visualizer]: executing diffoscope
+[2024-04-16 08:04:37] INFO root fetch - processPackages [qctrl-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_visualizer-7.0.0.tar.gz tmp/qctrl_visualizer-7.1.0.tar.gz --markdown 20240416/q/qctrl-visualizer/7.0.0-7.1.0/README.md --exclude *.pyd
+[2024-04-16 08:04:37] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-16 08:04:37] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.27.tar.gz tmp/pinjected-0.2.28.tar.gz --markdown 20240416/p/pinjected/0.2.27-0.2.28/README.md --exclude *.pyd
+[2024-04-16 08:04:37] INFO root fetch - processPackages [eclsdk]: Downloading https://files.pythonhosted.org/packages/43/26/9f59f44ec2b322626fc93cd6c741f38907b0ce5c2c14a38b6170ae1a8b21/eclsdk-1.3.0.tar.gz
+[2024-04-16 08:04:37] INFO root fetch - processPackages [django-cabinet]: executing diffoscope
+[2024-04-16 08:04:37] INFO root fetch - processPackages [django-cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cabinet-0.9.0.tar.gz tmp/django-cabinet-0.9.1.tar.gz --markdown 20240416/d/django-cabinet/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 08:04:37] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.8.tar.gz]
+[2024-04-16 08:04:37] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.9.tar.gz]
+[2024-04-16 08:04:37] INFO root fetch - main [MainThread]: End processing [MultiGATE]: success
+[2024-04-16 08:04:37] INFO root fetch - processPackages [eclsdk]: executing diffoscope
+[2024-04-16 08:04:37] INFO root fetch - processPackages [eclsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eclsdk-1.2.1.tar.gz tmp/eclsdk-1.3.0.tar.gz --markdown 20240416/e/eclsdk/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-04-16 08:04:38] INFO root fetch - processPackages [qctrl-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_visualizer-7.0.0.tar.gz]
+[2024-04-16 08:04:38] INFO root fetch - processPackages [qctrl-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_visualizer-7.1.0.tar.gz]
+[2024-04-16 08:04:38] INFO root fetch - main [MainThread]: End processing [qctrl-visualizer]: success
+[2024-04-16 08:04:38] INFO root fetch - processPackages [django-cabinet]: Remove: archive file [/home/abi/fetcher/tmp/django-cabinet-0.9.0.tar.gz]
+[2024-04-16 08:04:38] INFO root fetch - processPackages [django-cabinet]: Remove: archive file [/home/abi/fetcher/tmp/django-cabinet-0.9.1.tar.gz]
+[2024-04-16 08:04:38] INFO root fetch - main [MainThread]: End processing [django-cabinet]: success
+[2024-04-16 08:04:38] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.27.tar.gz]
+[2024-04-16 08:04:38] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.28.tar.gz]
+[2024-04-16 08:04:38] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-16 08:04:39] INFO root fetch - processPackages [eclsdk]: Remove: archive file [/home/abi/fetcher/tmp/eclsdk-1.2.1.tar.gz]
+[2024-04-16 08:04:39] INFO root fetch - processPackages [eclsdk]: Remove: archive file [/home/abi/fetcher/tmp/eclsdk-1.3.0.tar.gz]
+[2024-04-16 08:04:39] INFO root fetch - main [MainThread]: End processing [eclsdk]: success
+[2024-04-16 08:04:39] INFO root fetch - main [MainThread]: Store serial: [22783079]
