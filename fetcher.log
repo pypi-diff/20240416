@@ -3704,3 +3704,60 @@
 [2024-04-16 03:59:24] INFO root fetch - processPackages [nb-time]: Remove: archive file [/home/abi/fetcher/tmp/nb_time-1.6-py3-none-any.whl.zip]
 [2024-04-16 03:59:24] INFO root fetch - main [MainThread]: End processing [nb-time]: success
 [2024-04-16 03:59:24] INFO root fetch - main [MainThread]: Store serial: [22781418]
+[2024-04-16 04:01:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781418]
+[2024-04-16 04:01:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nb-time
+[2024-04-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semgrep
+[2024-04-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hellodmtest
+[2024-04-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thsspeechtraningtools
+[2024-04-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-plb
+[2024-04-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: termichat
+[2024-04-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpp-components
+[2024-04-16 04:01:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napari-animation
+[2024-04-16 04:01:33] WARNING root fetch - processPackages [thsspeechtraningtools]: Skipping, unable to determine old version
+[2024-04-16 04:01:33] INFO root fetch - main [MainThread]: End processing [thsspeechtraningtools] error
+[2024-04-16 04:01:33] INFO root fetch - processPackages [nb-time]: New version: [1.6] Old Version: [1.3]
+[2024-04-16 04:01:33] INFO root fetch - processPackages [gpp-components]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 04:01:33] WARNING root fetch - processPackages [termichat]: Skipping, unable to determine old version
+[2024-04-16 04:01:33] INFO root fetch - main [MainThread]: End processing [termichat] error
+[2024-04-16 04:01:33] WARNING root fetch - processPackages [hellodmtest]: Skipping, unable to determine old version
+[2024-04-16 04:01:33] INFO root fetch - main [MainThread]: End processing [hellodmtest] error
+[2024-04-16 04:01:33] INFO root fetch - processPackages [pih-plb]: New version: [0.15] Old Version: [0.13]
+[2024-04-16 04:01:33] INFO root fetch - processPackages [nb-time]: Downloading https://files.pythonhosted.org/packages/77/b5/03eeb9034f8f6ca6a1006080fb135e20a12ae7fc7ad41d350cb4d1b5a002/nb_time-1.3.tar.gz
+[2024-04-16 04:01:33] INFO root fetch - processPackages [napari-animation]: New version: [0.0.8rc2] Old Version: [0.0.7]
+[2024-04-16 04:01:33] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/44/79/b337d580c1aedb26d85ccc4c63e427a464f8384ab87b7fe0fb756cdd3831/gpp_components-0.1.0.tar.gz
+[2024-04-16 04:01:33] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 04:01:33] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/f1/1f/e3a2dfc7fe7ef7fbd2c98b92ef28bdf5bd53f9bebd09b2f2e6b637adc3c6/pih-plb-0.13.tar.gz
+[2024-04-16 04:01:33] INFO root fetch - processPackages [nb-time]: Downloading https://files.pythonhosted.org/packages/33/3b/e5df758453d48d206a1d8e10fd35744137298e7e6fc84eae18ae90647e5e/nb_time-1.6-py3-none-any.whl
+[2024-04-16 04:01:33] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/e8/01/19545ddda759ac5490b06824be79cc94ba77a16ead929171b99d0a246bad/semgrep-1.8.0.tar.gz
+[2024-04-16 04:01:33] INFO root fetch - processPackages [napari-animation]: Downloading https://files.pythonhosted.org/packages/ce/3f/0cfae7d7cf9a15b7d8ac8bf420a1d4e20777bf684f0f80ce1ce89dc75871/napari_animation-0.0.7.tar.gz
+[2024-04-16 04:01:33] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/58/66/e2ba75f6952ddaa09c12a8e9754060e918c78b86222c0d8403b0ddc95443/gpp_components-0.1.1.tar.gz
+[2024-04-16 04:01:33] INFO root fetch - processPackages [nb-time]: executing diffoscope
+[2024-04-16 04:01:33] INFO root fetch - processPackages [nb-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_time-1.3.tar.gz tmp/nb_time-1.6-py3-none-any.whl.zip --markdown 20240416/n/nb-time/1.3-1.6/README.md --exclude *.pyd
+[2024-04-16 04:01:34] INFO root fetch - processPackages [gpp-components]: executing diffoscope
+[2024-04-16 04:01:34] INFO root fetch - processPackages [gpp-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpp_components-0.1.0.tar.gz tmp/gpp_components-0.1.1.tar.gz --markdown 20240416/g/gpp-components/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 04:01:34] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/bf/86/ef3fb5df9e3bab5521dc4b00fd5a61a28fbdae16965648e24d4478273721/pih-plb-0.15.tar.gz
+[2024-04-16 04:01:34] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/36/c5/83e730de608ee46ac2e59871a9d5b8ab500f02215a25a3ed6300916d796f/semgrep-1.9.0.tar.gz
+[2024-04-16 04:01:34] INFO root fetch - processPackages [napari-animation]: Downloading https://files.pythonhosted.org/packages/cd/58/13477a9d3ec3abc5fbe89b158fa506913c3a7cc581d2df4c4e71e329c518/napari_animation-0.0.8rc2.tar.gz
+[2024-04-16 04:01:34] INFO root fetch - processPackages [pih-plb]: executing diffoscope
+[2024-04-16 04:01:34] INFO root fetch - processPackages [pih-plb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb-0.13.tar.gz tmp/pih-plb-0.15.tar.gz --markdown 20240416/p/pih-plb/0.13-0.15/README.md --exclude *.pyd
+[2024-04-16 04:01:34] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2024-04-16 04:01:34] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20240416/s/semgrep/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-16 04:01:34] INFO root fetch - processPackages [nb-time]: Remove: archive file [/home/abi/fetcher/tmp/nb_time-1.3.tar.gz]
+[2024-04-16 04:01:34] INFO root fetch - processPackages [nb-time]: Remove: archive file [/home/abi/fetcher/tmp/nb_time-1.6-py3-none-any.whl.zip]
+[2024-04-16 04:01:34] INFO root fetch - main [MainThread]: End processing [nb-time]: success
+[2024-04-16 04:01:34] INFO root fetch - processPackages [napari-animation]: executing diffoscope
+[2024-04-16 04:01:34] INFO root fetch - processPackages [napari-animation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_animation-0.0.7.tar.gz tmp/napari_animation-0.0.8rc2.tar.gz --markdown 20240416/n/napari-animation/0.0.7-0.0.8rc2/README.md --exclude *.pyd
+[2024-04-16 04:01:34] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.0.tar.gz]
+[2024-04-16 04:01:34] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.1.tar.gz]
+[2024-04-16 04:01:34] INFO root fetch - main [MainThread]: End processing [gpp-components]: success
+[2024-04-16 04:01:34] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.13.tar.gz]
+[2024-04-16 04:01:34] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.15.tar.gz]
+[2024-04-16 04:01:34] INFO root fetch - main [MainThread]: End processing [pih-plb]: success
+[2024-04-16 04:01:35] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.8.0.tar.gz]
+[2024-04-16 04:01:35] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
+[2024-04-16 04:01:35] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2024-04-16 04:01:35] INFO root fetch - processPackages [napari-animation]: Remove: archive file [/home/abi/fetcher/tmp/napari_animation-0.0.7.tar.gz]
+[2024-04-16 04:01:35] INFO root fetch - processPackages [napari-animation]: Remove: archive file [/home/abi/fetcher/tmp/napari_animation-0.0.8rc2.tar.gz]
+[2024-04-16 04:01:35] INFO root fetch - main [MainThread]: End processing [napari-animation]: success
+[2024-04-16 04:01:35] INFO root fetch - main [MainThread]: Store serial: [22781447]
