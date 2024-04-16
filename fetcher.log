@@ -21968,3 +21968,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:56:02] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-electricity-trading-0.1.3.tar.gz]
 [2024-04-16 16:56:02] INFO root fetch - main [MainThread]: End processing [frequenz-api-electricity-trading]: success
 [2024-04-16 16:56:02] INFO root fetch - main [MainThread]: Store serial: [22789441]
+[2024-04-16 16:58:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789441]
+[2024-04-16 16:58:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eknowledge
+[2024-04-16 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotrain-advanced
+[2024-04-16 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simfempy
+[2024-04-16 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filerev
+[2024-04-16 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Simba-UW-tf-dev
+[2024-04-16 16:58:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: galileo-protect
+[2024-04-16 16:58:12] INFO root fetch - processPackages [simfempy]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-04-16 16:58:12] INFO root fetch - processPackages [filerev]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2024-04-16 16:58:12] WARNING root fetch - processPackages [eknowledge]: Skipping, unable to determine old version
+[2024-04-16 16:58:12] INFO root fetch - main [MainThread]: End processing [eknowledge] error
+[2024-04-16 16:58:12] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.90.2] Old Version: [1.90.1]
+[2024-04-16 16:58:12] INFO root fetch - processPackages [galileo-protect]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-16 16:58:12] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/9e/b9/1b938858657c29275763f7cdbe74c74dbe5d20052b533d6963a210a7b38e/simfempy-2.2.4.tar.gz
+[2024-04-16 16:58:12] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/87/d0/c51267bc884a2f3352db8762902af4b6e568f993cf98f59509314353a1b6/Simba-UW-tf-dev-1.90.1.tar.gz
+[2024-04-16 16:58:12] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-16 16:58:13] INFO root fetch - processPackages [filerev]: Downloading https://files.pythonhosted.org/packages/47/cb/9fd54626316a37b41f4a7224561180a2bf7134123037514ef7710a12cdb0/filerev-0.0.1.tar.gz
+[2024-04-16 16:58:13] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-16 16:58:13] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/8b/11/b1f8bded46fb7792f51060c8d21d51090d3a06d43097379cfb2dc2f05e84/galileo_protect-0.5.0.tar.gz
+[2024-04-16 16:58:13] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/20/ba/0bef69ba37e7ad677792735b2a63c15d557d2a5cb9255aa44590836192bd/simfempy-2.2.5.tar.gz
+[2024-04-16 16:58:13] INFO root fetch - processPackages [filerev]: Downloading https://files.pythonhosted.org/packages/51/e3/50f1d358e1232d6b516551d4b025a0ac3661d3fae65866d12d67e3695667/filerev-0.0.1.1.tar.gz
+[2024-04-16 16:58:13] INFO root fetch - processPackages [galileo-protect]: Downloading https://files.pythonhosted.org/packages/61/5b/9645a2735e6b1621a52f50a9b02f678553c21a1c3242c159aec061d60c2f/galileo_protect-0.5.1.tar.gz
+[2024-04-16 16:58:13] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-16 16:58:13] INFO root fetch - processPackages [simfempy]: executing diffoscope
+[2024-04-16 16:58:13] INFO root fetch - processPackages [simfempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfempy-2.2.4.tar.gz tmp/simfempy-2.2.5.tar.gz --markdown 20240416/s/simfempy/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-04-16 16:58:13] INFO root fetch - processPackages [filerev]: executing diffoscope
+[2024-04-16 16:58:13] INFO root fetch - processPackages [filerev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filerev-0.0.1.tar.gz tmp/filerev-0.0.1.1.tar.gz --markdown 20240416/f/filerev/0.0.1-0.0.1.1/README.md --exclude *.pyd
+[2024-04-16 16:58:13] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/b1/ef/22f21e12ffae6ed5f5aeb18408a657d7dbf11da1934be1389aa4dabc739d/Simba-UW-tf-dev-1.90.2.tar.gz
+[2024-04-16 16:58:13] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-16 16:58:13] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240416/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-16 16:58:13] INFO root fetch - processPackages [galileo-protect]: executing diffoscope
+[2024-04-16 16:58:13] INFO root fetch - processPackages [galileo-protect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_protect-0.5.0.tar.gz tmp/galileo_protect-0.5.1.tar.gz --markdown 20240416/g/galileo-protect/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-16 16:58:14] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-04-16 16:58:14] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.90.1.tar.gz tmp/Simba-UW-tf-dev-1.90.2.tar.gz --markdown 20240416/S/Simba-UW-tf-dev/1.90.1-1.90.2/README.md --exclude *.pyd
+[2024-04-16 16:58:14] INFO root fetch - processPackages [filerev]: Remove: archive file [/home/abi/fetcher/tmp/filerev-0.0.1.tar.gz]
+[2024-04-16 16:58:14] INFO root fetch - processPackages [filerev]: Remove: archive file [/home/abi/fetcher/tmp/filerev-0.0.1.1.tar.gz]
+[2024-04-16 16:58:14] INFO root fetch - main [MainThread]: End processing [filerev]: success
+[2024-04-16 16:58:14] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.4.tar.gz]
+[2024-04-16 16:58:14] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.5.tar.gz]
+[2024-04-16 16:58:14] INFO root fetch - main [MainThread]: End processing [simfempy]: success
+[2024-04-16 16:58:14] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.5.0.tar.gz]
+[2024-04-16 16:58:14] INFO root fetch - processPackages [galileo-protect]: Remove: archive file [/home/abi/fetcher/tmp/galileo_protect-0.5.1.tar.gz]
+[2024-04-16 16:58:14] INFO root fetch - main [MainThread]: End processing [galileo-protect]: success
+[2024-04-16 16:58:14] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-16 16:58:14] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-16 16:58:14] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-16 16:58:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.90.1.tar.gz]
+[2024-04-16 16:58:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.90.2.tar.gz]
+[2024-04-16 16:58:17] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-04-16 16:58:17] INFO root fetch - main [MainThread]: Store serial: [22789468]
