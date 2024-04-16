@@ -10871,3 +10871,137 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:26:05] INFO root fetch - processPackages [mobio-admin-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-admin-sdk-test-1.0.9.tar.gz]
 [2024-04-16 10:26:05] INFO root fetch - main [MainThread]: End processing [mobio-admin-sdk-test]: success
 [2024-04-16 10:26:05] INFO root fetch - main [MainThread]: Store serial: [22784475]
+[2024-04-16 10:28:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784475]
+[2024-04-16 10:28:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-available-to-promise-release-block
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FATtools
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-release-channel-shipment-advice-toursolver
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serializor
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: known-problems-fastapi-router
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-wms
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arrlio
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cinder
+[2024-04-16 10:28:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: admap
+[2024-04-16 10:28:14] INFO root fetch - processPackages [arrlio]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [FATtools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [known-problems-fastapi-router]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-toursolver]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [serializor]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [admap]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [odoo-addons-oca-wms]: New version: [16.0.20240415.0] Old Version: [16.0.20240411.0]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/81/d8/6c42f081cd00cb49462f25e81a0de0a22435dfffb7ea0599c08fac7cf484/arrlio-0.8.0.tar.gz
+[2024-04-16 10:28:14] INFO root fetch - processPackages [cinder]: New version: [24.0.0.0rc2] Old Version: [24.0.0.0rc1]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-16 10:28:14] INFO root fetch - processPackages [FATtools]: Downloading https://files.pythonhosted.org/packages/24/24/933a0201b4e55a6e8d2473a7c49c553d69e947253d7b4d4d1626766cef18/FATtools-1.0.8-py3-none-any.whl
+[2024-04-16 10:28:14] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-toursolver]: Downloading https://files.pythonhosted.org/packages/9a/ab/cf422383a5e1854ed6f73ce06cd57104c91d1576763402fc61eb1557f4d0/odoo_addon_stock_release_channel_shipment_advice_toursolver-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-16 10:28:14] INFO root fetch - processPackages [known-problems-fastapi-router]: Downloading https://files.pythonhosted.org/packages/6b/2e/450cf5450962b79d487396b91254ade23b8b02464b6273e469267536c26c/known_problems_fastapi_router-0.1.0.tar.gz
+[2024-04-16 10:28:14] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Downloading https://files.pythonhosted.org/packages/da/95/d181b0d64eac49247c0e4dcb5047a19fe2067f7f53f7f42092b9d761bdf9/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0-py3-none-any.whl
+[2024-04-16 10:28:14] INFO root fetch - processPackages [cinder]: Downloading https://files.pythonhosted.org/packages/71/dd/cf6a20924e8c11c4fa21bb6ae888afb784ccc87c3219889810a776a2465b/cinder-24.0.0.0rc1.tar.gz
+[2024-04-16 10:28:14] INFO root fetch - processPackages [odoo-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/9d/3e/574462ca4884474abab4f771f55e9831af60615204b9c981a4794dae1d1a/odoo_addons_oca_wms-16.0.20240411.0-py3-none-any.whl
+[2024-04-16 10:28:14] INFO root fetch - processPackages [serializor]: Downloading https://files.pythonhosted.org/packages/b1/08/c58efe3b8b9a2155afc08c022e15b698f6ac8d0a42f68e0a1993fe147cba/serializor-1.0.0.tar.gz
+[2024-04-16 10:28:14] INFO root fetch - processPackages [admap]: Downloading https://files.pythonhosted.org/packages/1e/e3/4b433fa207bc5b04578292021e564474595be3beb6144cd349d12e98041c/admap-2.0.0.tar.gz
+[2024-04-16 10:28:14] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 10:28:15] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/75/ab/00e6d9e5834a37b99fddb9f192c46e0a8669d040fb0ad1403cc67ac38322/arrlio-0.9.0.tar.gz
+[2024-04-16 10:28:15] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-16 10:28:15] INFO root fetch - processPackages [lalsuite]: Start processing: synch2jira
+[2024-04-16 10:28:15] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-16 10:28:15] INFO root fetch - processPackages [arrlio]: executing diffoscope
+[2024-04-16 10:28:15] INFO root fetch - processPackages [arrlio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrlio-0.8.0.tar.gz tmp/arrlio-0.9.0.tar.gz --markdown 20240416/a/arrlio/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 10:28:15] INFO root fetch - processPackages [FATtools]: Downloading https://files.pythonhosted.org/packages/39/de/27ad141dc2d3176c8aff292eada5a66869a0d4d7a3435725fda7919a2ea9/FATtools-1.0.9.tar.gz
+[2024-04-16 10:28:15] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-16 10:28:15] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-toursolver]: Downloading https://files.pythonhosted.org/packages/5d/b3/b2983de56ea58df6caed806c2c4e39afb14ce2ffd4db43cb77efe33f5e47/odoo_addon_stock_release_channel_shipment_advice_toursolver-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-16 10:28:15] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Downloading https://files.pythonhosted.org/packages/8e/02/cdd67c4ef32635d86103f3c640efa3a833345e8647bb7d6912ade01e1241/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-16 10:28:15] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-16 10:28:15] INFO root fetch - processPackages [known-problems-fastapi-router]: Downloading https://files.pythonhosted.org/packages/99/68/f565fcea712a4db87ea876ad7e7060fa3a46f37e396b4987fd6234cd4a58/known_problems_fastapi_router-0.1.1.tar.gz
+[2024-04-16 10:28:15] INFO root fetch - processPackages [odoo-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/e6/9a/23b0aee74f6de15ede060830bff57a2969037d5afbfafe238691538322b0/odoo_addons_oca_wms-16.0.20240415.0-py3-none-any.whl
+[2024-04-16 10:28:15] INFO root fetch - processPackages [admap]: Downloading https://files.pythonhosted.org/packages/bf/de/5f8fb2c482a04caa4c5794e8628d7d5c06b0b81050252aff61576beb1844/admap-2.0.1.tar.gz
+[2024-04-16 10:28:15] INFO root fetch - processPackages [FATtools]: executing diffoscope
+[2024-04-16 10:28:15] INFO root fetch - processPackages [FATtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FATtools-1.0.8-py3-none-any.whl.zip tmp/FATtools-1.0.9.tar.gz --markdown 20240416/F/FATtools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 10:28:15] INFO root fetch - processPackages [serializor]: Downloading https://files.pythonhosted.org/packages/f7/93/be31f25db319f6e4ae983df88ef7b9d5908b4b18911edd3435efa9c2653a/serializor-1.0.1.tar.gz
+[2024-04-16 10:28:15] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-toursolver]: executing diffoscope
+[2024-04-16 10:28:15] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-toursolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_release_channel_shipment_advice_toursolver-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_release_channel_shipment_advice_toursolver-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-stock-release-channel-shipment-advice-toursolver/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-16 10:28:15] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: executing diffoscope
+[2024-04-16 10:28:15] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-stock-available-to-promise-release-block/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-04-16 10:28:15] INFO root fetch - processPackages [known-problems-fastapi-router]: executing diffoscope
+[2024-04-16 10:28:15] INFO root fetch - processPackages [known-problems-fastapi-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/known_problems_fastapi_router-0.1.0.tar.gz tmp/known_problems_fastapi_router-0.1.1.tar.gz --markdown 20240416/k/known-problems-fastapi-router/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 10:28:15] INFO root fetch - processPackages [admap]: executing diffoscope
+[2024-04-16 10:28:15] INFO root fetch - processPackages [admap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admap-2.0.0.tar.gz tmp/admap-2.0.1.tar.gz --markdown 20240416/a/admap/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-16 10:28:15] INFO root fetch - processPackages [odoo-addons-oca-wms]: executing diffoscope
+[2024-04-16 10:28:15] INFO root fetch - processPackages [odoo-addons-oca-wms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_wms-16.0.20240411.0-py3-none-any.whl.zip tmp/odoo_addons_oca_wms-16.0.20240415.0-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-wms/16.0.20240411.0-16.0.20240415.0/README.md --exclude *.pyd
+[2024-04-16 10:28:15] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-16 10:28:15] INFO root fetch - processPackages [serializor]: executing diffoscope
+[2024-04-16 10:28:15] INFO root fetch - processPackages [serializor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializor-1.0.0.tar.gz tmp/serializor-1.0.1.tar.gz --markdown 20240416/s/serializor/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 10:28:15] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-16 10:28:15] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240416/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-16 10:28:15] INFO root fetch - processPackages [cinder]: Downloading https://files.pythonhosted.org/packages/ed/49/65e34a8e10da30df8b5f7c5f3b2cb82019bf394ff0ca74aaca345eba3d9e/cinder-24.0.0.0rc2.tar.gz
+[2024-04-16 10:28:16] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.8.0.tar.gz]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.9.0.tar.gz]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [arrlio]: Start processing: hidiffusion
+[2024-04-16 10:28:16] INFO root fetch - main [MainThread]: End processing [arrlio]: success
+[2024-04-16 10:28:16] INFO root fetch - processPackages [cinder]: executing diffoscope
+[2024-04-16 10:28:16] INFO root fetch - processPackages [cinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinder-24.0.0.0rc1.tar.gz tmp/cinder-24.0.0.0rc2.tar.gz --markdown 20240416/c/cinder/24.0.0.0rc1-24.0.0.0rc2/README.md --exclude *.pyd
+[2024-04-16 10:28:16] INFO root fetch - processPackages [FATtools]: Remove: archive file [/home/abi/fetcher/tmp/FATtools-1.0.8-py3-none-any.whl.zip]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [FATtools]: Remove: archive file [/home/abi/fetcher/tmp/FATtools-1.0.9.tar.gz]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [FATtools]: Start processing: coworks
+[2024-04-16 10:28:16] INFO root fetch - main [MainThread]: End processing [FATtools]: success
+[2024-04-16 10:28:16] INFO root fetch - processPackages [hidiffusion]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [coworks]: New version: [0.9.4a1] Old Version: [0.9.3]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/39/38/b4fb3736f55ddffa36171ff5c557978c81d145642ef5a052d5012ddd2e1b/coworks-0.9.3.tar.gz
+[2024-04-16 10:28:16] INFO root fetch - processPackages [admap]: Remove: archive file [/home/abi/fetcher/tmp/admap-2.0.0.tar.gz]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [admap]: Remove: archive file [/home/abi/fetcher/tmp/admap-2.0.1.tar.gz]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [admap]: Start processing: ProQuo
+[2024-04-16 10:28:16] INFO root fetch - main [MainThread]: End processing [admap]: success
+[2024-04-16 10:28:16] INFO root fetch - processPackages [hidiffusion]: Downloading https://files.pythonhosted.org/packages/8b/29/26a94f713ba9e91e4dbfe6f63e7de157297699c0e0435a06e643d572e875/hidiffusion-0.1.2.tar.gz
+[2024-04-16 10:28:16] INFO root fetch - processPackages [known-problems-fastapi-router]: Remove: archive file [/home/abi/fetcher/tmp/known_problems_fastapi_router-0.1.0.tar.gz]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [known-problems-fastapi-router]: Remove: archive file [/home/abi/fetcher/tmp/known_problems_fastapi_router-0.1.1.tar.gz]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [known-problems-fastapi-router]: Start processing: lazy-schema
+[2024-04-16 10:28:16] INFO root fetch - main [MainThread]: End processing [known-problems-fastapi-router]: success
+[2024-04-16 10:28:16] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-toursolver]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_shipment_advice_toursolver-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-toursolver]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_release_channel_shipment_advice_toursolver-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-16 10:28:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-shipment-advice-toursolver]: success
+[2024-04-16 10:28:16] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release-block]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release_block-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-16 10:28:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-to-promise-release-block]: success
+[2024-04-16 10:28:16] INFO root fetch - processPackages [lazy-schema]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-16 10:28:16] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-16 10:28:16] INFO root fetch - processPackages [ProQuo]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-16 10:28:16] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/02/58/212fa89f60bd0b215d7cb841472cc9033aa79f50fcb3921bb84010f6ced1/lazy_schema-0.2.3.tar.gz
+[2024-04-16 10:28:17] INFO root fetch - processPackages [hidiffusion]: Downloading https://files.pythonhosted.org/packages/a3/72/ca9e077adb29469d83f61b10225987941b9d4c42092484163e2fba38cb46/hidiffusion-0.1.4.tar.gz
+[2024-04-16 10:28:17] INFO root fetch - processPackages [odoo-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_wms-16.0.20240411.0-py3-none-any.whl.zip]
+[2024-04-16 10:28:17] INFO root fetch - processPackages [odoo-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_wms-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-04-16 10:28:17] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-wms]: success
+[2024-04-16 10:28:17] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/d4/fd/7c268333c5bae4298430aa2b6c1db4821c6694b4e5edc074a5fbd277060a/coworks-0.9.4a1.tar.gz
+[2024-04-16 10:28:17] INFO root fetch - processPackages [ProQuo]: Downloading https://files.pythonhosted.org/packages/c8/b8/bed56a6527d8b414032542bd7a17a3348ae0c5c8efa38100382fecf0a3b5/ProQuo-1.1.0.tar.gz
+[2024-04-16 10:28:17] INFO root fetch - processPackages [coworks]: executing diffoscope
+[2024-04-16 10:28:17] INFO root fetch - processPackages [coworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coworks-0.9.3.tar.gz tmp/coworks-0.9.4a1.tar.gz --markdown 20240416/c/coworks/0.9.3-0.9.4a1/README.md --exclude *.pyd
+[2024-04-16 10:28:17] INFO root fetch - processPackages [hidiffusion]: executing diffoscope
+[2024-04-16 10:28:17] INFO root fetch - processPackages [hidiffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidiffusion-0.1.2.tar.gz tmp/hidiffusion-0.1.4.tar.gz --markdown 20240416/h/hidiffusion/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-16 10:28:17] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/a6/73/f55351863922932bd9d21a39b130d3f92e3dfcdc63f24757aab34f93c79f/lazy_schema-0.2.4.tar.gz
+[2024-04-16 10:28:17] INFO root fetch - processPackages [lazy-schema]: executing diffoscope
+[2024-04-16 10:28:17] INFO root fetch - processPackages [lazy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_schema-0.2.3.tar.gz tmp/lazy_schema-0.2.4.tar.gz --markdown 20240416/l/lazy-schema/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-16 10:28:17] INFO root fetch - processPackages [ProQuo]: Downloading https://files.pythonhosted.org/packages/84/74/34447ae85ba199b9e026968153e40648bda33d3623902201ad40dc75c04d/proquo-1.1.1.tar.gz
+[2024-04-16 10:28:17] INFO root fetch - processPackages [ProQuo]: executing diffoscope
+[2024-04-16 10:28:17] INFO root fetch - processPackages [ProQuo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ProQuo-1.1.0.tar.gz tmp/proquo-1.1.1.tar.gz --markdown 20240416/P/ProQuo/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-16 10:28:18] INFO root fetch - processPackages [serializor]: Remove: archive file [/home/abi/fetcher/tmp/serializor-1.0.0.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - processPackages [serializor]: Remove: archive file [/home/abi/fetcher/tmp/serializor-1.0.1.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - main [MainThread]: End processing [serializor]: success
+[2024-04-16 10:28:18] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.3.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.4.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - main [MainThread]: End processing [lazy-schema]: success
+[2024-04-16 10:28:18] INFO root fetch - processPackages [hidiffusion]: Remove: archive file [/home/abi/fetcher/tmp/hidiffusion-0.1.2.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - processPackages [hidiffusion]: Remove: archive file [/home/abi/fetcher/tmp/hidiffusion-0.1.4.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - main [MainThread]: End processing [hidiffusion]: success
+[2024-04-16 10:28:18] INFO root fetch - processPackages [coworks]: Remove: archive file [/home/abi/fetcher/tmp/coworks-0.9.3.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - processPackages [coworks]: Remove: archive file [/home/abi/fetcher/tmp/coworks-0.9.4a1.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - main [MainThread]: End processing [coworks]: success
+[2024-04-16 10:28:18] INFO root fetch - processPackages [ProQuo]: Remove: archive file [/home/abi/fetcher/tmp/ProQuo-1.1.0.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - processPackages [ProQuo]: Remove: archive file [/home/abi/fetcher/tmp/proquo-1.1.1.tar.gz]
+[2024-04-16 10:28:18] INFO root fetch - main [MainThread]: End processing [ProQuo]: success
+[2024-04-16 10:28:31] INFO root fetch - processPackages [cinder]: Remove: archive file [/home/abi/fetcher/tmp/cinder-24.0.0.0rc1.tar.gz]
+[2024-04-16 10:28:31] INFO root fetch - processPackages [cinder]: Remove: archive file [/home/abi/fetcher/tmp/cinder-24.0.0.0rc2.tar.gz]
+[2024-04-16 10:28:31] INFO root fetch - main [MainThread]: End processing [cinder]: success
+[2024-04-16 10:28:31] INFO root fetch - main [MainThread]: Store serial: [22784549]
