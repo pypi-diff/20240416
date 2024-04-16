@@ -21408,3 +21408,103 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:37:10] INFO root fetch - processPackages [astro-p3]: Remove: archive file [/home/abi/fetcher/tmp/astro-p3-1.2.9.tar.gz]
 [2024-04-16 16:37:10] INFO root fetch - main [MainThread]: End processing [astro-p3]: success
 [2024-04-16 16:37:10] INFO root fetch - main [MainThread]: Store serial: [22789176]
+[2024-04-16 16:39:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789176]
+[2024-04-16 16:39:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ancIBD
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geo-skeletons
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyGRF
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-scheduler-sdk
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chat-cli-anything
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cashu
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: illusioncolor
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syntrac-sdk
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composabl-train-dev
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composabl-dev
+[2024-04-16 16:39:19] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 16:39:19] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 16:39:19] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 16:39:19] INFO root fetch - processPackages [chat-cli-anything]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-16 16:39:19] INFO root fetch - processPackages [cashu]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ancIBD]: New version: [0.6] Old Version: [0.5]
+[2024-04-16 16:39:19] WARNING root fetch - processPackages [PyGRF]: Skipping, unable to determine old version
+[2024-04-16 16:39:19] INFO root fetch - processPackages [PyGRF]: Start processing: composabl-cli-dev
+[2024-04-16 16:39:19] INFO root fetch - main [MainThread]: End processing [PyGRF] error
+[2024-04-16 16:39:19] INFO root fetch - processPackages [syntrac-sdk]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 16:39:19] INFO root fetch - processPackages [lusid-scheduler-sdk]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-16 16:39:19] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-16 16:39:19] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/3f/87/aeed0c05640a655a9f7a9651405c023e800537ac5400c580f59a119cd1bf/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:39:19] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 16:39:19] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/19/92/d2cc81d1932bc78afddf0cf92c75659eee58d38d34d9e8471d60b63233f7/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:39:19] INFO root fetch - processPackages [chat-cli-anything]: Downloading https://files.pythonhosted.org/packages/3d/12/5afce6d8188a732ba963f3eac5c53bba481e32d1130f1092c38301d65c90/chat_cli_anything-0.1.6.tar.gz
+[2024-04-16 16:39:19] INFO root fetch - processPackages [ancIBD]: Downloading https://files.pythonhosted.org/packages/ff/68/33d50ca2656eb03d69b9dae4f9b51c657185f2512ee9b2c157cca5b80319/ancIBD-0.5.tar.gz
+[2024-04-16 16:39:19] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/d3/63/e50ed3254eaea462d6e500ae4c142edc76ab2f25f2c403d595f091c6f8b1/syntrac_sdk-0.0.2.tar.gz
+[2024-04-16 16:39:19] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/d5/b9/11fd9112091b8548d9b8fcbf58f48a6d09c00d9bd49b1c25636873971c2b/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:39:19] INFO root fetch - processPackages [cashu]: Downloading https://files.pythonhosted.org/packages/4c/06/f7c73d283d5c939445d90105094a4c158345a9076dad6171b10b525965db/cashu-0.9.3.tar.gz
+[2024-04-16 16:39:19] WARNING root fetch - processPackages [illusioncolor]: Skipping, unable to determine old version
+[2024-04-16 16:39:19] INFO root fetch - processPackages [illusioncolor]: Start processing: mcitemlib
+[2024-04-16 16:39:19] INFO root fetch - main [MainThread]: End processing [illusioncolor] error
+[2024-04-16 16:39:19] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/ca/ef/0477befec7af0d3064ed631efd5890a3cbd2e70058605137591bc49f4a5d/lusid_scheduler_sdk-2.1.6.tar.gz
+[2024-04-16 16:39:20] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-16 16:39:20] INFO root fetch - processPackages [mcitemlib]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:39:20] WARNING root fetch - processPackages [cashu]: Skipping package: exceeds size limit 13352995>=10485760
+[2024-04-16 16:39:20] INFO root fetch - processPackages [cashu]: Start processing: composabl-core-dev
+[2024-04-16 16:39:20] INFO root fetch - main [MainThread]: End processing [cashu] error
+[2024-04-16 16:39:20] INFO root fetch - processPackages [mcitemlib]: Downloading https://files.pythonhosted.org/packages/39/60/8dedf79cda2be774f717c3359af2ea955095d0334b8e25b46744e51b049a/mcitemlib-0.1.3.tar.gz
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 16:39:20] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-16 16:39:20] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240416/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/c/composabl-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-16 16:39:20] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/63/b3/94daff96fe4484ea642f8b295224f6a5a0b7783e7d2f23eb5484e9be686e/syntrac_sdk-0.0.3.tar.gz
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/4a/a0/fae4202dc7e27017437fbafdfdb9257b93f97fc3d65b2bca67f173871cab/composabl_core_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:39:20] INFO root fetch - processPackages [ancIBD]: Downloading https://files.pythonhosted.org/packages/c9/af/6b057c0f9d590739bd43b2fac9f7b89fa641ebc6809fbd73a5634beccfa0/ancIBD-0.6.tar.gz
+[2024-04-16 16:39:20] INFO root fetch - processPackages [chat-cli-anything]: Downloading https://files.pythonhosted.org/packages/53/9b/4c054222651f7dc4a1ddb6f7cef38cd3c7c4f807fc5cfe42909895b3a668/chat_cli_anything-0.1.7.tar.gz
+[2024-04-16 16:39:20] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21365442>=10485760
+[2024-04-16 16:39:20] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:39:20] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/d1/7e/3a4229afb65541e76ae8fa6939075c725485d5272638cfec49c8862d0298/lusid_scheduler_sdk-2.1.7.tar.gz
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:39:20] INFO root fetch - processPackages [mcitemlib]: Downloading https://files.pythonhosted.org/packages/ae/a2/8539c3ba9376168c44462f271c114015299ac83154d0f9e7a9a9090a3e50/mcitemlib-0.2.0.tar.gz
+[2024-04-16 16:39:20] INFO root fetch - processPackages [chat-cli-anything]: executing diffoscope
+[2024-04-16 16:39:20] INFO root fetch - processPackages [chat-cli-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat_cli_anything-0.1.6.tar.gz tmp/chat_cli_anything-0.1.7.tar.gz --markdown 20240416/c/chat-cli-anything/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-16 16:39:20] INFO root fetch - processPackages [ancIBD]: executing diffoscope
+[2024-04-16 16:39:20] INFO root fetch - processPackages [ancIBD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ancIBD-0.5.tar.gz tmp/ancIBD-0.6.tar.gz --markdown 20240416/a/ancIBD/0.5-0.6/README.md --exclude *.pyd
+[2024-04-16 16:39:20] INFO root fetch - processPackages [lusid-scheduler-sdk]: executing diffoscope
+[2024-04-16 16:39:20] INFO root fetch - processPackages [lusid-scheduler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_scheduler_sdk-2.1.6.tar.gz tmp/lusid_scheduler_sdk-2.1.7.tar.gz --markdown 20240416/l/lusid-scheduler-sdk/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-04-16 16:39:20] INFO root fetch - processPackages [syntrac-sdk]: executing diffoscope
+[2024-04-16 16:39:20] INFO root fetch - processPackages [syntrac-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_sdk-0.0.2.tar.gz tmp/syntrac_sdk-0.0.3.tar.gz --markdown 20240416/s/syntrac-sdk/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 16:39:20] INFO root fetch - processPackages [mcitemlib]: executing diffoscope
+[2024-04-16 16:39:20] INFO root fetch - processPackages [mcitemlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcitemlib-0.1.3.tar.gz tmp/mcitemlib-0.2.0.tar.gz --markdown 20240416/m/mcitemlib/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/c/composabl-cli-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-04-16 16:39:20] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/c/composabl-train-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-16 16:39:21] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 16:39:21] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 16:39:21] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-16 16:39:21] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-16 16:39:21] INFO root fetch - processPackages [mcitemlib]: Remove: archive file [/home/abi/fetcher/tmp/mcitemlib-0.1.3.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - processPackages [mcitemlib]: Remove: archive file [/home/abi/fetcher/tmp/mcitemlib-0.2.0.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - main [MainThread]: End processing [mcitemlib]: success
+[2024-04-16 16:39:21] INFO root fetch - processPackages [chat-cli-anything]: Remove: archive file [/home/abi/fetcher/tmp/chat_cli_anything-0.1.6.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - processPackages [chat-cli-anything]: Remove: archive file [/home/abi/fetcher/tmp/chat_cli_anything-0.1.7.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - main [MainThread]: End processing [chat-cli-anything]: success
+[2024-04-16 16:39:21] INFO root fetch - processPackages [ancIBD]: Remove: archive file [/home/abi/fetcher/tmp/ancIBD-0.5.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - processPackages [ancIBD]: Remove: archive file [/home/abi/fetcher/tmp/ancIBD-0.6.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - main [MainThread]: End processing [ancIBD]: success
+[2024-04-16 16:39:21] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.2.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.3.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - main [MainThread]: End processing [syntrac-sdk]: success
+[2024-04-16 16:39:21] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.6.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.7.tar.gz]
+[2024-04-16 16:39:21] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk]: success
+[2024-04-16 16:39:21] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 16:39:21] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 16:39:21] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-04-16 16:39:24] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 16:39:24] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 16:39:24] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-04-16 16:39:24] INFO root fetch - main [MainThread]: Store serial: [22789242]
