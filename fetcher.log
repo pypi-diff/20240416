@@ -7771,3 +7771,46 @@
 [2024-04-16 08:35:41] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.1.tar.gz]
 [2024-04-16 08:35:41] INFO root fetch - main [MainThread]: End processing [DXR-BJ]: success
 [2024-04-16 08:35:41] INFO root fetch - main [MainThread]: Store serial: [22783273]
+[2024-04-16 08:37:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783273]
+[2024-04-16 08:37:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 08:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haskellian-asyn-iter
+[2024-04-16 08:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: corvic-engine
+[2024-04-16 08:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Mycalc2024qq
+[2024-04-16 08:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haskellian-asyn-iter
+[2024-04-16 08:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-deeplinker
+[2024-04-16 08:37:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-request
+[2024-04-16 08:37:51] WARNING root fetch - processPackages [streamlit-deeplinker]: Skipping, unable to determine old version
+[2024-04-16 08:37:51] INFO root fetch - main [MainThread]: End processing [streamlit-deeplinker] error
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 08:37:51] WARNING root fetch - processPackages [Mycalc2024qq]: Skipping, unable to determine old version
+[2024-04-16 08:37:51] INFO root fetch - main [MainThread]: End processing [Mycalc2024qq] error
+[2024-04-16 08:37:51] INFO root fetch - processPackages [corvic-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 08:37:51] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [17.0.1.1.0.2] Old Version: [17.0.1.1.0.1]
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: Downloading https://files.pythonhosted.org/packages/8d/eb/6cf388dd40794ea6c53857a5c971981ef709d0e3cd4116a6b1d5f4734608/haskellian_asyn_iter-0.1.3.tar.gz
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: Downloading https://files.pythonhosted.org/packages/8d/eb/6cf388dd40794ea6c53857a5c971981ef709d0e3cd4116a6b1d5f4734608/haskellian_asyn_iter-0.1.3.tar.gz
+[2024-04-16 08:37:51] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/28/81/73d66a8b87408209ecb35a7c2bc6678eed7152cd47281836f38fe9d103aa/corvic_engine-0.1.8.tar.gz
+[2024-04-16 08:37:51] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/a7/01/f57d942716622fdb21b036283c3dc1d25922135e5195f0eae8bee7481012/odoo_addon_purchase_request-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: Downloading https://files.pythonhosted.org/packages/e2/50/2d5f107894059bd53997ea993dac74d395197703d44063490c880198c4fb/haskellian_asyn_iter-0.1.4.tar.gz
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: Downloading https://files.pythonhosted.org/packages/e2/50/2d5f107894059bd53997ea993dac74d395197703d44063490c880198c4fb/haskellian_asyn_iter-0.1.4.tar.gz
+[2024-04-16 08:37:51] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/09/86/d913022f7e6621ce441c8b834aa1f7c0a01a99f249b2e74671b9da6c2acc/corvic_engine-0.1.9.tar.gz
+[2024-04-16 08:37:51] INFO root fetch - processPackages [corvic-engine]: executing diffoscope
+[2024-04-16 08:37:51] INFO root fetch - processPackages [corvic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corvic_engine-0.1.8.tar.gz tmp/corvic_engine-0.1.9.tar.gz --markdown 20240416/c/corvic-engine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: executing diffoscope
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian_asyn_iter-0.1.3.tar.gz tmp/haskellian_asyn_iter-0.1.4.tar.gz --markdown 20240416/h/haskellian-asyn-iter/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 08:37:51] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/98/0a/f7e5b168842c38c7e9dfc6b8f8a3efb2dbb85a7ea7638391a585a7bc21cc/odoo_addon_purchase_request-17.0.1.1.0.2-py3-none-any.whl
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: executing diffoscope
+[2024-04-16 08:37:51] INFO root fetch - processPackages [haskellian-asyn-iter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian_asyn_iter-0.1.3.tar.gz tmp/haskellian_asyn_iter-0.1.4.tar.gz --markdown 20240416/h/haskellian-asyn-iter/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 08:37:52] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2024-04-16 08:37:52] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-purchase-request/17.0.1.1.0.1-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-04-16 08:37:52] INFO root fetch - processPackages [haskellian-asyn-iter]: Remove: archive file [/home/abi/fetcher/tmp/haskellian_asyn_iter-0.1.3.tar.gz]
+[2024-04-16 08:37:52] INFO root fetch - processPackages [haskellian-asyn-iter]: Remove: archive file [/home/abi/fetcher/tmp/haskellian_asyn_iter-0.1.4.tar.gz]
+[2024-04-16 08:37:52] INFO root fetch - main [MainThread]: End processing [haskellian-asyn-iter]: success
+[2024-04-16 08:37:52] INFO root fetch - main [MainThread]: End processing [haskellian-asyn-iter]: success
+[2024-04-16 08:37:52] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.8.tar.gz]
+[2024-04-16 08:37:52] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
+[2024-04-16 08:37:52] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
+[2024-04-16 08:37:52] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-16 08:37:52] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-16 08:37:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2024-04-16 08:37:52] INFO root fetch - main [MainThread]: Store serial: [22783295]
