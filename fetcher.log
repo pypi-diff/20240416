@@ -9966,3 +9966,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:01:38] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.1.tar.gz]
 [2024-04-16 10:01:38] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
 [2024-04-16 10:01:38] INFO root fetch - main [MainThread]: Store serial: [22784125]
+[2024-04-16 10:03:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784125]
+[2024-04-16 10:03:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: panda-server
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loe-simp-app-fw
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zyte-api
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biocypher
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momotor-django
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: factorial-app-69420
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reviutils
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langfun
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-docker-plugin
+[2024-04-16 10:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: synch2jira
+[2024-04-16 10:03:48] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240415] Old Version: [0.0.2.dev20240414]
+[2024-04-16 10:03:48] INFO root fetch - processPackages [netbox-docker-plugin]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-16 10:03:48] INFO root fetch - processPackages [panda-server]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-16 10:03:48] WARNING root fetch - processPackages [factorial-app-69420]: Skipping, unable to determine old version
+[2024-04-16 10:03:48] INFO root fetch - processPackages [factorial-app-69420]: Start processing: monday-code
+[2024-04-16 10:03:48] INFO root fetch - main [MainThread]: End processing [factorial-app-69420] error
+[2024-04-16 10:03:48] INFO root fetch - processPackages [zyte-api]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-16 10:03:48] WARNING root fetch - processPackages [loe-simp-app-fw]: Skipping, unable to determine old version
+[2024-04-16 10:03:48] INFO root fetch - processPackages [loe-simp-app-fw]: Start processing: qrkey
+[2024-04-16 10:03:48] INFO root fetch - main [MainThread]: End processing [loe-simp-app-fw] error
+[2024-04-16 10:03:48] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/ba/4c/4027223a3862a8039e31caa68e75f611a04789fa7b857ca40fbd4e3f4840/netbox-docker-plugin-1.5.0.tar.gz
+[2024-04-16 10:03:48] INFO root fetch - processPackages [momotor-django]: New version: [5.0.0] Old Version: [4.1.0]
+[2024-04-16 10:03:48] INFO root fetch - processPackages [biocypher]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-16 10:03:48] INFO root fetch - processPackages [reviutils]: New version: [1.4.0a1] Old Version: [1.3.4]
+[2024-04-16 10:03:49] INFO root fetch - processPackages [qrkey]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-16 10:03:49] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-16 10:03:49] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/c8/2e/2e6502a7d8fe952bddff63cea89acf75fe984c1a5d172a55c9b0b86f86d8/langfun-0.0.2.dev20240414.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/b2/e9/ed80eb668226b41c8ca221ca30a8c1069e65343b7103c895d4455a48287b/panda_server-0.3.3.tar.gz
+[2024-04-16 10:03:49] WARNING root fetch - processPackages [monday-code]: Skipping, unable to determine old version
+[2024-04-16 10:03:49] INFO root fetch - main [MainThread]: End processing [monday-code] error
+[2024-04-16 10:03:49] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/bf/11/be52b81c9b742a01b8885a67762fff1c208592fd033c769351780945d1bd/qrkey-0.4.0.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [zyte-api]: Downloading https://files.pythonhosted.org/packages/57/73/d87877428e01fe2c725ca4b8fdef945cb216172f65b66b96a2e327516058/zyte-api-0.5.0.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [momotor-django]: Downloading https://files.pythonhosted.org/packages/c5/de/bae3dab56c2fc9d8d9da68658ff28c95959011e812fe2b7c51e06e52a4fb/momotor-django-4.1.0.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/05/44/6a698ee7a3f25cac7ac85f9065432566d172eb7d6e302338dbee1acb6708/biocypher-0.5.8.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/c7/ef/914cd18a5a107ec08753bd6c3d9b49ba9d375a3a4645a5dc8057d0e9707b/reviutils-1.3.4.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/8f/5c/30fc071ee7d0b27d9874844cbab04a89641fb04098f86d4901919b6fdeab/langfun-0.0.2.dev20240415.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/81/f3/f1db3395a9913b8953c2d039fd2bb086399e448f021fba0d93601a6dcff5/netbox_docker_plugin-1.5.1.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [panda-server]: Downloading https://files.pythonhosted.org/packages/53/3d/9e1c73be6b6babd219bd9b97db04098da1df3e56ca7bc0d3d204b5415309/panda_server-0.3.4.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-16 10:03:49] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240414.tar.gz tmp/langfun-0.0.2.dev20240415.tar.gz --markdown 20240416/l/langfun/0.0.2.dev20240414-0.0.2.dev20240415/README.md --exclude *.pyd
+[2024-04-16 10:03:49] INFO root fetch - processPackages [zyte-api]: Downloading https://files.pythonhosted.org/packages/83/63/c946c6ee201c4fb6067cb261e4079b63d00d240d9692a15a1a8967c102e4/zyte_api-0.5.1.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/42/ac/f16a0fcf2533487cfa157e289a0646be406e2e8f9cd7caff5c09bb2a7c59/reviutils-1.4.0a1.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [netbox-docker-plugin]: executing diffoscope
+[2024-04-16 10:03:49] INFO root fetch - processPackages [netbox-docker-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-docker-plugin-1.5.0.tar.gz tmp/netbox_docker_plugin-1.5.1.tar.gz --markdown 20240416/n/netbox-docker-plugin/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-16 10:03:49] INFO root fetch - processPackages [momotor-django]: Downloading https://files.pythonhosted.org/packages/a3/33/326fa97976e30769552b7bb97af2a5fa329ac24ca4ae4b0827a43d86fb49/momotor_django-5.0.0.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/80/4a/28f3088067da67049a9b777015a3aa4326f5782b2be3e17c661232fe6b8d/biocypher-0.5.9.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/68/df/7d901c8ac91c9af0b2c4a85ec1c7805c9aef8b691c392acb619da2042f29/qrkey-0.4.1.tar.gz
+[2024-04-16 10:03:49] INFO root fetch - processPackages [zyte-api]: executing diffoscope
+[2024-04-16 10:03:49] INFO root fetch - processPackages [zyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyte-api-0.5.0.tar.gz tmp/zyte_api-0.5.1.tar.gz --markdown 20240416/z/zyte-api/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-16 10:03:49] INFO root fetch - processPackages [panda-server]: executing diffoscope
+[2024-04-16 10:03:49] INFO root fetch - processPackages [panda-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_server-0.3.3.tar.gz tmp/panda_server-0.3.4.tar.gz --markdown 20240416/p/panda-server/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-16 10:03:49] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-16 10:03:49] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240416/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-16 10:03:49] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-16 10:03:49] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.3.4.tar.gz tmp/reviutils-1.4.0a1.tar.gz --markdown 20240416/r/reviutils/1.3.4-1.4.0a1/README.md --exclude *.pyd
+[2024-04-16 10:03:49] INFO root fetch - processPackages [momotor-django]: executing diffoscope
+[2024-04-16 10:03:49] INFO root fetch - processPackages [momotor-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momotor-django-4.1.0.tar.gz tmp/momotor_django-5.0.0.tar.gz --markdown 20240416/m/momotor-django/4.1.0-5.0.0/README.md --exclude *.pyd
+[2024-04-16 10:03:49] INFO root fetch - processPackages [qrkey]: executing diffoscope
+[2024-04-16 10:03:49] INFO root fetch - processPackages [qrkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrkey-0.4.0.tar.gz tmp/qrkey-0.4.1.tar.gz --markdown 20240416/q/qrkey/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-16 10:03:49] INFO root fetch - processPackages [biocypher]: executing diffoscope
+[2024-04-16 10:03:49] INFO root fetch - processPackages [biocypher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocypher-0.5.8.tar.gz tmp/biocypher-0.5.9.tar.gz --markdown 20240416/b/biocypher/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-16 10:03:50] INFO root fetch - processPackages [zyte-api]: Remove: archive file [/home/abi/fetcher/tmp/zyte-api-0.5.0.tar.gz]
+[2024-04-16 10:03:50] INFO root fetch - processPackages [zyte-api]: Remove: archive file [/home/abi/fetcher/tmp/zyte_api-0.5.1.tar.gz]
+[2024-04-16 10:03:50] INFO root fetch - main [MainThread]: End processing [zyte-api]: success
+[2024-04-16 10:03:50] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-16 10:03:50] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-16 10:03:50] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-16 10:03:50] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-docker-plugin-1.5.0.tar.gz]
+[2024-04-16 10:03:50] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.5.1.tar.gz]
+[2024-04-16 10:03:50] INFO root fetch - main [MainThread]: End processing [netbox-docker-plugin]: success
+[2024-04-16 10:03:50] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.4.tar.gz]
+[2024-04-16 10:03:50] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a1.tar.gz]
+[2024-04-16 10:03:50] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-16 10:03:51] INFO root fetch - processPackages [momotor-django]: Remove: archive file [/home/abi/fetcher/tmp/momotor-django-4.1.0.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - processPackages [momotor-django]: Remove: archive file [/home/abi/fetcher/tmp/momotor_django-5.0.0.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - main [MainThread]: End processing [momotor-django]: success
+[2024-04-16 10:03:51] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240414.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240415.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-16 10:03:51] INFO root fetch - processPackages [biocypher]: Remove: archive file [/home/abi/fetcher/tmp/biocypher-0.5.8.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - processPackages [biocypher]: Remove: archive file [/home/abi/fetcher/tmp/biocypher-0.5.9.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - main [MainThread]: End processing [biocypher]: success
+[2024-04-16 10:03:51] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.4.0.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.4.1.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - main [MainThread]: End processing [qrkey]: success
+[2024-04-16 10:03:51] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.3.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.4.tar.gz]
+[2024-04-16 10:03:51] INFO root fetch - main [MainThread]: End processing [panda-server]: success
+[2024-04-16 10:03:51] INFO root fetch - main [MainThread]: Store serial: [22784163]
