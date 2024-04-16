@@ -20722,3 +20722,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:21:32] INFO root fetch - processPackages [credentialdigger]: Remove: archive file [/home/abi/fetcher/tmp/credentialdigger-4.9.5-py3-none-any.whl.zip]
 [2024-04-16 16:21:32] INFO root fetch - main [MainThread]: End processing [credentialdigger]: success
 [2024-04-16 16:21:32] INFO root fetch - main [MainThread]: Store serial: [22788850]
+[2024-04-16 16:23:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788850]
+[2024-04-16 16:23:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docassemble.AssemblyLine
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradernet-sdk
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: privateai-client
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asktable
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rnaformer
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syntrac-opentelemetry-instrumentation-openai
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mteb
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyckett
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dekpkglock
+[2024-04-16 16:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syntrac-opentelemetry-instrumentation-anthropic
+[2024-04-16 16:23:41] INFO root fetch - processPackages [asktable]: New version: [0.13.9] Old Version: [0.13.7]
+[2024-04-16 16:23:41] WARNING root fetch - processPackages [rnaformer]: Skipping, unable to determine old version
+[2024-04-16 16:23:41] INFO root fetch - main [MainThread]: End processing [rnaformer] error
+[2024-04-16 16:23:41] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-16 16:23:41] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/23/62/2636e932634b4703bae1293df8858e147300136f3240a4973bb546ca05c8/asktable-0.13.7-py3-none-any.whl
+[2024-04-16 16:23:41] INFO root fetch - processPackages [dekpkglock]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 16:23:41] INFO root fetch - processPackages [tradernet-sdk]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-16 16:23:41] INFO root fetch - processPackages [privateai-client]: New version: [3.8.1] Old Version: [3.8.0]
+[2024-04-16 16:23:41] INFO root fetch - processPackages [pyckett]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-16 16:23:41] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-anthropic]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:23:41] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-openai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:23:41] INFO root fetch - processPackages [docassemble.AssemblyLine]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-16 16:23:41] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [tradernet-sdk]: Downloading https://files.pythonhosted.org/packages/b9/75/c4488eb37b834ba7b71769842b00bd88ae1a8fd5bc877e23722940b472a5/tradernet_sdk-0.4.1.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [dekpkglock]: Downloading https://files.pythonhosted.org/packages/27/0a/80080a00c00db8665c7dd89d08340a5bc54a3d70fe7028aa577d10397f36/dekpkglock-0.1.8.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [privateai-client]: Downloading https://files.pythonhosted.org/packages/fd/ae/e4db5adeee9bba78de4093774680d663f6e5339a3bba7c42c284134a7670/privateai_client-3.8.0.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/bc/07/a62e0f67efd81bc484f6807c0be8c9787ba2da0207a165d459349918914c/asktable-0.13.9-py3-none-any.whl
+[2024-04-16 16:23:42] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-openai]: Downloading https://files.pythonhosted.org/packages/98/d1/abfcacfebf4cd0fdef03ecee94f5935e4a140e12869ed323b28f52b14c6f/syntrac_opentelemetry_instrumentation_openai-0.0.1.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [pyckett]: Downloading https://files.pythonhosted.org/packages/77/bc/63c8fdba4d32eb0811d8e5ca0af3d24d172dc50595ecb74ca680b3455d88/pyckett-0.1.7.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [docassemble.AssemblyLine]: Downloading https://files.pythonhosted.org/packages/5b/01/89f47bf3ae4f8d9ff1f360a6c3c3cb5212449f69b646d8b9b313fd82fc3a/docassemble.AssemblyLine-2.8.0.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-anthropic]: Downloading https://files.pythonhosted.org/packages/93/3b/e780c1c81ddaf472306410e44a9e609c8fa8b9c77d6f53df715b18e76f62/syntrac_opentelemetry_instrumentation_anthropic-0.0.1.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [asktable]: executing diffoscope
+[2024-04-16 16:23:42] INFO root fetch - processPackages [asktable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asktable-0.13.7-py3-none-any.whl.zip tmp/asktable-0.13.9-py3-none-any.whl.zip --markdown 20240416/a/asktable/0.13.7-0.13.9/README.md --exclude *.pyd
+[2024-04-16 16:23:42] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [privateai-client]: Downloading https://files.pythonhosted.org/packages/82/9b/6434d9ad3826e9e2b1791194c405571c92e1913d4240861eb7fc9d9f3875/privateai_client-3.8.1.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-openai]: Downloading https://files.pythonhosted.org/packages/91/87/27717285de6e57ec42f138e77f59423b6e82ad681046d06dfa648a73edb0/syntrac_opentelemetry_instrumentation_openai-0.0.2.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-16 16:23:42] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240416/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-16 16:23:42] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-anthropic]: Downloading https://files.pythonhosted.org/packages/0f/fd/10a7e736a53d1b5ad5b842719818672abd041df4c3840c8fd86be3793170/syntrac_opentelemetry_instrumentation_anthropic-0.0.2.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [tradernet-sdk]: Downloading https://files.pythonhosted.org/packages/15/39/cf499f82728b5dc97da9179d8acf1fc1450d56f5c23a3f3c9f20fb651f62/tradernet_sdk-0.4.2.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [pyckett]: Downloading https://files.pythonhosted.org/packages/64/98/d9861ce65d92f2238203c3edb870264a56ba13c70f2b0349a77a6098489c/pyckett-0.1.9.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [privateai-client]: executing diffoscope
+[2024-04-16 16:23:42] INFO root fetch - processPackages [privateai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/privateai_client-3.8.0.tar.gz tmp/privateai_client-3.8.1.tar.gz --markdown 20240416/p/privateai-client/3.8.0-3.8.1/README.md --exclude *.pyd
+[2024-04-16 16:23:42] INFO root fetch - processPackages [dekpkglock]: Downloading https://files.pythonhosted.org/packages/74/70/645ce47ecaa5ea19570413b51ec19bf943d102227dfa8e15e754aa4eb442/dekpkglock-0.1.9.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [pyckett]: executing diffoscope
+[2024-04-16 16:23:42] INFO root fetch - processPackages [pyckett]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyckett-0.1.7.tar.gz tmp/pyckett-0.1.9.tar.gz --markdown 20240416/p/pyckett/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-16 16:23:42] INFO root fetch - processPackages [tradernet-sdk]: executing diffoscope
+[2024-04-16 16:23:42] INFO root fetch - processPackages [tradernet-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradernet_sdk-0.4.1.tar.gz tmp/tradernet_sdk-0.4.2.tar.gz --markdown 20240416/t/tradernet-sdk/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-16 16:23:42] INFO root fetch - processPackages [docassemble.AssemblyLine]: Downloading https://files.pythonhosted.org/packages/5f/0b/9922668341483033da01ee3e3eb5b4ca966e0516c0fd98767f094b470477/docassemble.AssemblyLine-2.9.0.tar.gz
+[2024-04-16 16:23:42] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-openai]: executing diffoscope
+[2024-04-16 16:23:42] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_openai-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_openai-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-openai/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:23:42] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-anthropic]: executing diffoscope
+[2024-04-16 16:23:42] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_anthropic-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_anthropic-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-anthropic/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:23:42] INFO root fetch - processPackages [dekpkglock]: executing diffoscope
+[2024-04-16 16:23:42] INFO root fetch - processPackages [dekpkglock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekpkglock-0.1.8.tar.gz tmp/dekpkglock-0.1.9.tar.gz --markdown 20240416/d/dekpkglock/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 16:23:42] INFO root fetch - processPackages [docassemble.AssemblyLine]: executing diffoscope
+[2024-04-16 16:23:42] INFO root fetch - processPackages [docassemble.AssemblyLine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.AssemblyLine-2.8.0.tar.gz tmp/docassemble.AssemblyLine-2.9.0.tar.gz --markdown 20240416/d/docassemble.AssemblyLine/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-16 16:23:43] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.7-py3-none-any.whl.zip]
+[2024-04-16 16:23:43] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.9-py3-none-any.whl.zip]
+[2024-04-16 16:23:43] INFO root fetch - main [MainThread]: End processing [asktable]: success
+[2024-04-16 16:23:43] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_anthropic-0.0.1.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_anthropic-0.0.2.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-anthropic]: success
+[2024-04-16 16:23:43] INFO root fetch - processPackages [privateai-client]: Remove: archive file [/home/abi/fetcher/tmp/privateai_client-3.8.0.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - processPackages [privateai-client]: Remove: archive file [/home/abi/fetcher/tmp/privateai_client-3.8.1.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - main [MainThread]: End processing [privateai-client]: success
+[2024-04-16 16:23:43] INFO root fetch - processPackages [pyckett]: Remove: archive file [/home/abi/fetcher/tmp/pyckett-0.1.7.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - processPackages [pyckett]: Remove: archive file [/home/abi/fetcher/tmp/pyckett-0.1.9.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - main [MainThread]: End processing [pyckett]: success
+[2024-04-16 16:23:43] INFO root fetch - processPackages [tradernet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tradernet_sdk-0.4.1.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - processPackages [tradernet-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tradernet_sdk-0.4.2.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - main [MainThread]: End processing [tradernet-sdk]: success
+[2024-04-16 16:23:43] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-openai]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_openai-0.0.1.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-openai]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_openai-0.0.2.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-openai]: success
+[2024-04-16 16:23:43] INFO root fetch - processPackages [dekpkglock]: Remove: archive file [/home/abi/fetcher/tmp/dekpkglock-0.1.8.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - processPackages [dekpkglock]: Remove: archive file [/home/abi/fetcher/tmp/dekpkglock-0.1.9.tar.gz]
+[2024-04-16 16:23:43] INFO root fetch - main [MainThread]: End processing [dekpkglock]: success
+[2024-04-16 16:23:44] INFO root fetch - processPackages [docassemble.AssemblyLine]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.AssemblyLine-2.8.0.tar.gz]
+[2024-04-16 16:23:44] INFO root fetch - processPackages [docassemble.AssemblyLine]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.AssemblyLine-2.9.0.tar.gz]
+[2024-04-16 16:23:44] INFO root fetch - main [MainThread]: End processing [docassemble.AssemblyLine]: success
+[2024-04-16 16:23:44] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-16 16:23:44] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-16 16:23:44] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-16 16:23:44] INFO root fetch - main [MainThread]: Store serial: [22788882]
