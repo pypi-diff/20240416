@@ -24053,3 +24053,167 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:57:45] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix_synapse-1.99.0rc1.tar.gz]
 [2024-04-16 17:57:45] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
 [2024-04-16 17:57:45] INFO root fetch - main [MainThread]: Store serial: [22790244]
+[2024-04-16 17:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22790244]
+[2024-04-16 17:59:55] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crim_intervals
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prosperity2bt
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parsee-core
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-models
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pi-folder-organizer
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hmmCNV
+[2024-04-16 17:59:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-sale-force-invoiced
+[2024-04-16 17:59:55] INFO root fetch - processPackages [prosperity2bt]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-16 17:59:55] INFO root fetch - processPackages [parsee-core]: New version: [0.1.4.8] Old Version: [0.1.4.7]
+[2024-04-16 17:59:55] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:59:55] INFO root fetch - processPackages [crim_intervals]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-16 17:59:55] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.0.0.1]
+[2024-04-16 17:59:55] INFO root fetch - processPackages [hmmCNV]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-16 17:59:55] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/c6/7b/5140476a9d652829febf6d7866034eb1c067b3f0020c39549678153ab77f/prosperity2bt-0.5.0.tar.gz
+[2024-04-16 17:59:55] INFO root fetch - processPackages [pi-folder-organizer]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-16 17:59:55] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-16 17:59:55] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/79/8b/fb79a6e801a63fcf0a8309dda54a34245c3d1b91a9a48f75ab24d184cc0d/parsee_core-0.1.4.7.tar.gz
+[2024-04-16 17:59:55] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/14/10/db1639610adea92e48bee314e4539d2ae8c2d70f743cf00f19636fa93fae/crim_intervals-2.0.8.tar.gz
+[2024-04-16 17:59:55] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.2.post430] Old Version: [3.0.2.post429]
+[2024-04-16 17:59:55] INFO root fetch - processPackages [nucliadb]: New version: [3.0.2.post430] Old Version: [3.0.2.post429]
+[2024-04-16 17:59:55] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.0.2.post430] Old Version: [3.0.2.post429]
+[2024-04-16 17:59:56] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/6b/e5/d78206c28ad75d6bdef069aa65f1b5521fe9432a1f317d06e8c6354007ee/odoo_addon_sale_force_invoiced-16.0.2.0.0.1-py3-none-any.whl
+[2024-04-16 17:59:56] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-16 17:59:56] INFO root fetch - processPackages [pi-folder-organizer]: Downloading https://files.pythonhosted.org/packages/ec/d7/bc415aabb5275c007979a6731d9446ffa2fce1fbed2d68b5d88c4107164c/pi-folder-organizer-2.1.0.tar.gz
+[2024-04-16 17:59:56] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/7a/50/254187550fba83da8e34776ce7e4c5844d1785b705b16a1ee835f8b7f74e/parsee_core-0.1.4.8.tar.gz
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/87/1a/c44237c40d9ce9d8700113ee9198090b05b32600ead5c7b80248af38118a/nucliadb_models-3.0.2.post429-py3-none-any.whl
+[2024-04-16 17:59:56] INFO root fetch - processPackages [hmmCNV]: Downloading https://files.pythonhosted.org/packages/40/d1/0b78e672b44aa108a1296535bd5fd902dbf7cfd004c64b9fbc3b28734504/hmmcnv-1.1.4.tar.gz
+[2024-04-16 17:59:56] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/36/f0/00176e039f8e2b2fdea7dd3a42ec3c2f1bd95c9baed349d57619592266e6/crim_intervals-2.0.9.tar.gz
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/28/e8/d441a1365af4c29be41a28b14115571ec4ac8217781f39d77344d118d32c/nucliadb_dataset-3.0.2.post429-py3-none-any.whl
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/f1/50/8799607c29e99134bb73e32ba8c5a06e598de2bb8f01acdd95bf9f8c1f16/nucliadb-3.0.2.post429-py3-none-any.whl
+[2024-04-16 17:59:56] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-16 17:59:56] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240416/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:59:56] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/95/2f/6e909b8fd08501a237638f79132ca1a7be018a57cb91deab6c9d79b917a5/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 17:59:56] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-04-16 17:59:56] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.4.7.tar.gz tmp/parsee_core-0.1.4.8.tar.gz --markdown 20240416/p/parsee-core/0.1.4.7-0.1.4.8/README.md --exclude *.pyd
+[2024-04-16 17:59:56] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/bf/f3/a4bce36dc990e62f42b89a6b6f6f5a032b8b0e2e5f5f3a7fb8cf00b8bb53/prosperity2bt-0.5.1.tar.gz
+[2024-04-16 17:59:56] INFO root fetch - processPackages [crim_intervals]: executing diffoscope
+[2024-04-16 17:59:56] INFO root fetch - processPackages [crim_intervals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crim_intervals-2.0.8.tar.gz tmp/crim_intervals-2.0.9.tar.gz --markdown 20240416/c/crim_intervals/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-16 17:59:56] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2024-04-16 17:59:56] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-sale-force-invoiced/16.0.2.0.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-16 17:59:56] INFO root fetch - processPackages [pi-folder-organizer]: Downloading https://files.pythonhosted.org/packages/fc/6d/f76be4aea0264b7e11fab483a7baac98c2bfc604d010ec25f8a827573e44/pi_folder_organizer-2.2.0.tar.gz
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/e9/a6/9c2178a992cb228c43806100d935fcb1d04cba3d3349632b820967913d8a/nucliadb_dataset-3.0.2.post430-py3-none-any.whl
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3c/89/7f28cd1ed6b978e1eb4167f111bad0db2426ec09443e89a1e53b3722acaf/nucliadb_models-3.0.2.post430-py3-none-any.whl
+[2024-04-16 17:59:56] INFO root fetch - processPackages [hmmCNV]: Downloading https://files.pythonhosted.org/packages/5d/03/5088e14d73e0377e27ae82f09efde9a0121288a8050d185b966d9a317299/hmmcnv-1.1.5.tar.gz
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/5d/70/67865ca72568e33c5373b0ed24512abf8cf656e8aa93bdd40a4a55e0da78/nucliadb-3.0.2.post430-py3-none-any.whl
+[2024-04-16 17:59:56] INFO root fetch - processPackages [prosperity2bt]: executing diffoscope
+[2024-04-16 17:59:56] INFO root fetch - processPackages [prosperity2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2bt-0.5.0.tar.gz tmp/prosperity2bt-0.5.1.tar.gz --markdown 20240416/p/prosperity2bt/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-16 17:59:56] INFO root fetch - processPackages [pi-folder-organizer]: executing diffoscope
+[2024-04-16 17:59:56] INFO root fetch - processPackages [pi-folder-organizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi-folder-organizer-2.1.0.tar.gz tmp/pi_folder_organizer-2.2.0.tar.gz --markdown 20240416/p/pi-folder-organizer/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.2.post429-py3-none-any.whl.zip tmp/nucliadb_models-3.0.2.post430-py3-none-any.whl.zip --markdown 20240416/n/nucliadb-models/3.0.2.post429-3.0.2.post430/README.md --exclude *.pyd
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-16 17:59:56] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.0.2.post429-py3-none-any.whl.zip tmp/nucliadb_dataset-3.0.2.post430-py3-none-any.whl.zip --markdown 20240416/n/nucliadb-dataset/3.0.2.post429-3.0.2.post430/README.md --exclude *.pyd
+[2024-04-16 17:59:56] INFO root fetch - processPackages [hmmCNV]: executing diffoscope
+[2024-04-16 17:59:56] INFO root fetch - processPackages [hmmCNV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmmcnv-1.1.4.tar.gz tmp/hmmcnv-1.1.5.tar.gz --markdown 20240416/h/hmmCNV/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.2.post429-py3-none-any.whl.zip tmp/nucliadb-3.0.2.post430-py3-none-any.whl.zip --markdown 20240416/n/nucliadb/3.0.2.post429-3.0.2.post430/README.md --exclude *.pyd
+[2024-04-16 17:59:57] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [surfkit]: Start processing: nucliadb-protos
+[2024-04-16 17:59:57] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-16 17:59:57] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.8.tar.gz]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.9.tar.gz]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [crim_intervals]: Start processing: nucliadb-sdk
+[2024-04-16 17:59:57] INFO root fetch - main [MainThread]: End processing [crim_intervals]: success
+[2024-04-16 17:59:57] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.7.tar.gz]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.4.8.tar.gz]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [parsee-core]: Start processing: nucliadb-telemetry
+[2024-04-16 17:59:57] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.2.post430] Old Version: [3.0.2.post429]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Start processing: nucliadb-utils
+[2024-04-16 17:59:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2024-04-16 17:59:57] INFO root fetch - processPackages [pi-folder-organizer]: Remove: archive file [/home/abi/fetcher/tmp/pi-folder-organizer-2.1.0.tar.gz]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [pi-folder-organizer]: Remove: archive file [/home/abi/fetcher/tmp/pi_folder_organizer-2.2.0.tar.gz]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [pi-folder-organizer]: Start processing: langchain-google-cloud-sql-mysql
+[2024-04-16 17:59:57] INFO root fetch - main [MainThread]: End processing [pi-folder-organizer]: success
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.2.post430] Old Version: [3.0.2.post429]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.2.post430] Old Version: [3.0.2.post429]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.2.post430] Old Version: [3.0.2.post429]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.2.post429-py3-none-any.whl.zip]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.2.post430-py3-none-any.whl.zip]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-models]: Start processing: allianceauth-pve
+[2024-04-16 17:59:57] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/07/35/ba5ec11a4bc238ba080086b317441a755179dae38b8eb76fbfb91b36cfc7/nucliadb_protos-3.0.2.post429-py3-none-any.whl
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.2.post429-py3-none-any.whl.zip]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.2.post430-py3-none-any.whl.zip]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: ckanext-datajson
+[2024-04-16 17:59:57] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-16 17:59:57] INFO root fetch - processPackages [allianceauth-pve]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/cb/a8/ec4a56c03eecfb12745c2e381828652571e892e1cae6a48dee5b14b0e76b/nucliadb_sdk-3.0.2.post429-py3-none-any.whl
+[2024-04-16 17:59:57] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/bb/ea/7aecfd673c74aee8321a9ecad682b5f2dc19cf5208fd4cfef8a4d2025978/nucliadb_telemetry-3.0.2.post429-py3-none-any.whl
+[2024-04-16 17:59:57] INFO root fetch - processPackages [allianceauth-pve]: Downloading https://files.pythonhosted.org/packages/96/8c/a166db60c6d6204f9e63ce5d70a9b80b70ee54e8562f990d139f344c4037/allianceauth_pve-1.9.0.tar.gz
+[2024-04-16 17:59:57] INFO root fetch - processPackages [ckanext-datajson]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:59:58] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: Downloading https://files.pythonhosted.org/packages/79/70/8691e93cde8af8de45e3d66e7a16e712665d5757af4f0b1c396c06037139/langchain_google_cloud_sql_mysql-0.2.0-py3-none-any.whl
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/c7/f2/c04ef83d2bbabdf6e25c56e3a9e648dd5d9b28c0f69a96ee90fc3ee441ca/nucliadb_utils-3.0.2.post429-py3-none-any.whl
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/28/7c/0ba18aacdf0e045a3c45eab420ef142dc5d6f4f858b2391d516c44d76762/nucliadb_protos-3.0.2.post430-py3-none-any.whl
+[2024-04-16 17:59:58] INFO root fetch - processPackages [allianceauth-pve]: Downloading https://files.pythonhosted.org/packages/65/af/e09c051162da44b7ddc531fec3898f20c87c63d0057afddee455fa3a5297/allianceauth_pve-1.9.1.tar.gz
+[2024-04-16 17:59:58] INFO root fetch - processPackages [hmmCNV]: Remove: archive file [/home/abi/fetcher/tmp/hmmcnv-1.1.4.tar.gz]
+[2024-04-16 17:59:58] INFO root fetch - processPackages [hmmCNV]: Remove: archive file [/home/abi/fetcher/tmp/hmmcnv-1.1.5.tar.gz]
+[2024-04-16 17:59:58] INFO root fetch - processPackages [hmmCNV]: Start processing: bia-integrator-api
+[2024-04-16 17:59:58] INFO root fetch - main [MainThread]: End processing [hmmCNV]: success
+[2024-04-16 17:59:58] INFO root fetch - processPackages [ckanext-datajson]: Downloading https://files.pythonhosted.org/packages/ec/e5/51bfa7666e380034697579102de531c151e34a875c1b3f860e43b94aaccf/ckanext-datajson-0.1.8.tar.gz
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/c3/2e/60fa254a6845e04a11db97be38f031f44e183caaf7a0fddf3e097287f3e6/nucliadb_sdk-3.0.2.post430-py3-none-any.whl
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/32/b9/70e6dfdf04e2fbad49a4316580fa2d2d229ecf04b11cc5ab3363b0d4d096/nucliadb_telemetry-3.0.2.post430-py3-none-any.whl
+[2024-04-16 17:59:58] WARNING root fetch - processPackages [bia-integrator-api]: Skipping, unable to determine old version
+[2024-04-16 17:59:58] INFO root fetch - processPackages [bia-integrator-api]: Start processing: phasespace
+[2024-04-16 17:59:58] INFO root fetch - main [MainThread]: End processing [bia-integrator-api] error
+[2024-04-16 17:59:58] INFO root fetch - processPackages [allianceauth-pve]: executing diffoscope
+[2024-04-16 17:59:58] INFO root fetch - processPackages [allianceauth-pve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth_pve-1.9.0.tar.gz tmp/allianceauth_pve-1.9.1.tar.gz --markdown 20240416/a/allianceauth-pve/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 17:59:58] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.5.0.tar.gz]
+[2024-04-16 17:59:58] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.5.1.tar.gz]
+[2024-04-16 17:59:58] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/c7/9b/19f2b57b77557f1a2c9eedf1649fcc255daf0410184f483bfc19f4b89e84/nucliadb_utils-3.0.2.post430-py3-none-any.whl
+[2024-04-16 17:59:58] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: Downloading https://files.pythonhosted.org/packages/02/d7/1292e5271bbbddcb9dc4060601803c8db0349332fb43963ac03ddba321ba/langchain_google_cloud_sql_mysql-0.2.1-py3-none-any.whl
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.2.post429-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.2.post430-py3-none-any.whl.zip --markdown 20240416/n/nucliadb-protos/3.0.2.post429-3.0.2.post430/README.md --exclude *.pyd
+[2024-04-16 17:59:58] INFO root fetch - processPackages [phasespace]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.2.post429-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.2.post430-py3-none-any.whl.zip --markdown 20240416/n/nucliadb-telemetry/3.0.2.post429-3.0.2.post430/README.md --exclude *.pyd
+[2024-04-16 17:59:58] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: executing diffoscope
+[2024-04-16 17:59:58] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_google_cloud_sql_mysql-0.2.0-py3-none-any.whl.zip tmp/langchain_google_cloud_sql_mysql-0.2.1-py3-none-any.whl.zip --markdown 20240416/l/langchain-google-cloud-sql-mysql/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.2.post429-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.2.post430-py3-none-any.whl.zip --markdown 20240416/n/nucliadb-sdk/3.0.2.post429-3.0.2.post430/README.md --exclude *.pyd
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-16 17:59:58] INFO root fetch - processPackages [ckanext-datajson]: Downloading https://files.pythonhosted.org/packages/87/c5/9aad6ea6d698db476bd657ae05bafa7c8896819bc90ff47d25c4e282522c/ckanext-datajson-0.1.9.tar.gz
+[2024-04-16 17:59:58] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.2.post429-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.2.post430-py3-none-any.whl.zip --markdown 20240416/n/nucliadb-utils/3.0.2.post429-3.0.2.post430/README.md --exclude *.pyd
+[2024-04-16 17:59:58] INFO root fetch - processPackages [phasespace]: Downloading https://files.pythonhosted.org/packages/a5/e6/3e733d43d3eb7a37c14ec987dc51bf81cf4e9d71e30fa811e35308af23af/phasespace-1.8.0.tar.gz
+[2024-04-16 17:59:58] INFO root fetch - processPackages [ckanext-datajson]: executing diffoscope
+[2024-04-16 17:59:58] INFO root fetch - processPackages [ckanext-datajson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-datajson-0.1.8.tar.gz tmp/ckanext-datajson-0.1.9.tar.gz --markdown 20240416/c/ckanext-datajson/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:59:59] WARNING root fetch - processPackages [phasespace]: Skipping package: exceeds size limit 30449668>=10485760
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [phasespace] error
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.2.post429-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.2.post430-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-16 17:59:59] INFO root fetch - processPackages [allianceauth-pve]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth_pve-1.9.0.tar.gz]
+[2024-04-16 17:59:59] INFO root fetch - processPackages [allianceauth-pve]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth_pve-1.9.1.tar.gz]
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [allianceauth-pve]: success
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.2.post429-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.2.post430-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.2.post429-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.2.post430-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.2.post429-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.2.post430-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.2.post429-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.2.post430-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-16 17:59:59] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_cloud_sql_mysql-0.2.0-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - processPackages [langchain-google-cloud-sql-mysql]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_cloud_sql_mysql-0.2.1-py3-none-any.whl.zip]
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [langchain-google-cloud-sql-mysql]: success
+[2024-04-16 17:59:59] INFO root fetch - processPackages [ckanext-datajson]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-datajson-0.1.8.tar.gz]
+[2024-04-16 17:59:59] INFO root fetch - processPackages [ckanext-datajson]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-datajson-0.1.9.tar.gz]
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: End processing [ckanext-datajson]: success
+[2024-04-16 17:59:59] INFO root fetch - main [MainThread]: Store serial: [22790314]
