@@ -1,0 +1,153 @@
+# Comparing `tmp/harry_potter_yonier-1.tar.gz` & `tmp/harry_potter_yonier-1.1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "harry_potter_yonier-1.tar", last modified: Tue Apr 16 03:13:05 2024, max compression
++gzip compressed data, was "harry_potter_yonier-1.1.tar", last modified: Tue Apr 16 04:02:14 2024, max compression
+```
+
+## Comparing `harry_potter_yonier-1.tar` & `harry_potter_yonier-1.1.tar`
+
+### file list
+
+```diff
+@@ -1,18 +1,18 @@
+-drwxr-xr-x   0 neo       (1000) neo       (1000)        0 2024-04-16 03:13:05.145340 harry_potter_yonier-1/
+--rw-r--r--   0 neo       (1000) neo       (1000)     1061 2024-04-16 03:01:09.000000 harry_potter_yonier-1/LICENSE.txt
+--rw-r--r--   0 neo       (1000) neo       (1000)      688 2024-04-16 03:13:05.145340 harry_potter_yonier-1/PKG-INFO
+--rw-r--r--   0 neo       (1000) neo       (1000)       57 2024-04-16 00:38:48.000000 harry_potter_yonier-1/README.md
+-drwxr-xr-x   0 neo       (1000) neo       (1000)        0 2024-04-16 03:13:05.144339 harry_potter_yonier-1/harry_potter_yonier/
+--rw-r--r--   0 neo       (1000) neo       (1000)       46 2024-04-16 01:13:09.000000 harry_potter_yonier-1/harry_potter_yonier/__init__.py
+--rw-r--r--   0 neo       (1000) neo       (1000)     1120 2024-04-16 02:10:29.000000 harry_potter_yonier-1/harry_potter_yonier/__main__.py
+--rw-r--r--   0 neo       (1000) neo       (1000)      670 2024-04-16 02:17:43.000000 harry_potter_yonier-1/harry_potter_yonier/get_one_person.py
+--rw-r--r--   0 neo       (1000) neo       (1000)      525 2024-04-16 02:49:19.000000 harry_potter_yonier-1/harry_potter_yonier/get_person.py
+-drwxr-xr-x   0 neo       (1000) neo       (1000)        0 2024-04-16 03:13:05.144339 harry_potter_yonier-1/harry_potter_yonier.egg-info/
+--rw-r--r--   0 neo       (1000) neo       (1000)      688 2024-04-16 03:13:05.000000 harry_potter_yonier-1/harry_potter_yonier.egg-info/PKG-INFO
+--rw-r--r--   0 neo       (1000) neo       (1000)      426 2024-04-16 03:13:05.000000 harry_potter_yonier-1/harry_potter_yonier.egg-info/SOURCES.txt
+--rw-r--r--   0 neo       (1000) neo       (1000)        1 2024-04-16 03:13:05.000000 harry_potter_yonier-1/harry_potter_yonier.egg-info/dependency_links.txt
+--rw-r--r--   0 neo       (1000) neo       (1000)       61 2024-04-16 03:13:05.000000 harry_potter_yonier-1/harry_potter_yonier.egg-info/entry_points.txt
+--rw-r--r--   0 neo       (1000) neo       (1000)        9 2024-04-16 03:13:05.000000 harry_potter_yonier-1/harry_potter_yonier.egg-info/requires.txt
+--rw-r--r--   0 neo       (1000) neo       (1000)       20 2024-04-16 03:13:05.000000 harry_potter_yonier-1/harry_potter_yonier.egg-info/top_level.txt
+--rw-r--r--   0 neo       (1000) neo       (1000)       38 2024-04-16 03:13:05.145340 harry_potter_yonier-1/setup.cfg
+--rw-r--r--   0 neo       (1000) neo       (1000)     1195 2024-04-16 03:13:00.000000 harry_potter_yonier-1/setup.py
++drwxr-xr-x   0 neo       (1000) neo       (1000)        0 2024-04-16 04:02:14.526947 harry_potter_yonier-1.1/
++-rw-r--r--   0 neo       (1000) neo       (1000)     1061 2024-04-16 03:01:09.000000 harry_potter_yonier-1.1/LICENSE.txt
++-rw-r--r--   0 neo       (1000) neo       (1000)      690 2024-04-16 04:02:14.526947 harry_potter_yonier-1.1/PKG-INFO
++-rw-r--r--   0 neo       (1000) neo       (1000)       57 2024-04-16 00:38:48.000000 harry_potter_yonier-1.1/README.md
++drwxr-xr-x   0 neo       (1000) neo       (1000)        0 2024-04-16 04:02:14.525947 harry_potter_yonier-1.1/harry_potter_yonier/
++-rw-r--r--   0 neo       (1000) neo       (1000)      115 2024-04-16 03:58:52.000000 harry_potter_yonier-1.1/harry_potter_yonier/__init__.py
++-rw-r--r--   0 neo       (1000) neo       (1000)      818 2024-04-16 03:59:41.000000 harry_potter_yonier-1.1/harry_potter_yonier/__main__.py
++-rw-r--r--   0 neo       (1000) neo       (1000)      657 2024-04-16 03:58:30.000000 harry_potter_yonier-1.1/harry_potter_yonier/get_one_person.py
++-rw-r--r--   0 neo       (1000) neo       (1000)      508 2024-04-16 03:58:17.000000 harry_potter_yonier-1.1/harry_potter_yonier/get_person.py
++drwxr-xr-x   0 neo       (1000) neo       (1000)        0 2024-04-16 04:02:14.526947 harry_potter_yonier-1.1/harry_potter_yonier.egg-info/
++-rw-r--r--   0 neo       (1000) neo       (1000)      690 2024-04-16 04:02:14.000000 harry_potter_yonier-1.1/harry_potter_yonier.egg-info/PKG-INFO
++-rw-r--r--   0 neo       (1000) neo       (1000)      426 2024-04-16 04:02:14.000000 harry_potter_yonier-1.1/harry_potter_yonier.egg-info/SOURCES.txt
++-rw-r--r--   0 neo       (1000) neo       (1000)        1 2024-04-16 04:02:14.000000 harry_potter_yonier-1.1/harry_potter_yonier.egg-info/dependency_links.txt
++-rw-r--r--   0 neo       (1000) neo       (1000)       61 2024-04-16 04:02:14.000000 harry_potter_yonier-1.1/harry_potter_yonier.egg-info/entry_points.txt
++-rw-r--r--   0 neo       (1000) neo       (1000)        9 2024-04-16 04:02:14.000000 harry_potter_yonier-1.1/harry_potter_yonier.egg-info/requires.txt
++-rw-r--r--   0 neo       (1000) neo       (1000)       20 2024-04-16 04:02:14.000000 harry_potter_yonier-1.1/harry_potter_yonier.egg-info/top_level.txt
++-rw-r--r--   0 neo       (1000) neo       (1000)       38 2024-04-16 04:02:14.527948 harry_potter_yonier-1.1/setup.cfg
++-rw-r--r--   0 neo       (1000) neo       (1000)     1197 2024-04-16 04:01:40.000000 harry_potter_yonier-1.1/setup.py
+```
+
+### Comparing `harry_potter_yonier-1/LICENSE.txt` & `harry_potter_yonier-1.1/LICENSE.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `harry_potter_yonier-1/PKG-INFO` & `harry_potter_yonier-1.1/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: harry_potter_yonier
+-Version: 1
++Version: 1.1
+ Summary: Permite consumir el API de Harry Potter para obtener o listar personajes
+ Home-page: https://github.com/YonierGomez/harrypotter_python
+ Author: Yonier Asprilla
+ Author-email: yoonier13@gmail.com
+ License: MIT
+ Keywords: harrypotter
+ Classifier: Development Status :: 3 - Alpha
+```
+
+### Comparing `harry_potter_yonier-1/harry_potter_yonier/get_one_person.py` & `harry_potter_yonier-1.1/harry_potter_yonier/get_one_person.py`
+
+ * *Files 27% similar despite different names*
+
+```diff
+@@ -1,16 +1,20 @@
+ import requests
+ 
+-def obtener_personajes(URL, PERSONAJE):
++def get_one_person():
+     """Obtiene un personaje de Harry Potter"""
+-    r = requests.get(URL)
++    
++    buscar_personaje = input("Ingrese el nombre del personaje que desea buscar: ")
++    URL="https://hp-api.onrender.com/api/characters"
++    PERSONAJE=buscar_personaje
++    
++    r = requests.get(URL, PERSONAJE)
+     if r.ok:
+         respuesta = r.json()       
+         for r in respuesta:
+             if PERSONAJE.lower() in r["name"].lower():
+                 # print(f"Hola, soy {r['name']} y pertenezco a la casa {r['house']}.")
+-                return f"Hola, soy {r['name']} y pertenezco a la casa {r['house']}."
++                print(f"Hola, soy {r['name']} y pertenezco a la casa {r['house']}.")
+ 
+ if __name__ == "__main__":
+-    buscar_personaje = input("Ingrese el nombre del personaje que desea buscar: ")
+-    final = obtener_personajes(URL="https://hp-api.onrender.com/api/characters", PERSONAJE=buscar_personaje)
+-    print(final)
++    get_one_person()
++
+```
+
+### Comparing `harry_potter_yonier-1/harry_potter_yonier.egg-info/PKG-INFO` & `harry_potter_yonier-1.1/harry_potter_yonier.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: harry_potter_yonier
+-Version: 1
++Version: 1.1
+ Summary: Permite consumir el API de Harry Potter para obtener o listar personajes
+ Home-page: https://github.com/YonierGomez/harrypotter_python
+ Author: Yonier Asprilla
+ Author-email: yoonier13@gmail.com
+ License: MIT
+ Keywords: harrypotter
+ Classifier: Development Status :: 3 - Alpha
+```
+
+### Comparing `harry_potter_yonier-1/setup.py` & `harry_potter_yonier-1.1/setup.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,14 +1,14 @@
+ from pathlib import Path # > 3.6
+ from setuptools import setup
+ 
+ this_directory = Path(__file__).parent
+ long_description = (this_directory / "README.md").read_text()
+ 
+-VERSION = '1'
++VERSION = '1.1'
+ DESCRIPTION = 'Permite consumir el API de Harry Potter para obtener o listar personajes'
+ PACKAGE_NAME = 'harry_potter_yonier'
+ AUTHOR = 'Yonier Asprilla'
+ EMAIL = 'yoonier13@gmail.com'
+ GITHUB_URL = 'https://github.com/YonierGomez/harrypotter_python'
+ 
+ setup(
+```
+
