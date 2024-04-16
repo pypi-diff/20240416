@@ -2754,3 +2754,15 @@
 [2024-04-16 02:39:55] INFO root fetch - processPackages [jsonschema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/jsonschema_markdown-0.3.6.tar.gz]
 [2024-04-16 02:39:55] INFO root fetch - main [MainThread]: End processing [jsonschema-markdown]: success
 [2024-04-16 02:39:55] INFO root fetch - main [MainThread]: Store serial: [22780968]
+[2024-04-16 02:41:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780968]
+[2024-04-16 02:42:03] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 02:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2024-04-16 02:42:03] INFO root fetch - processPackages [policyengine-us]: New version: [0.738.0] Old Version: [0.737.1]
+[2024-04-16 02:42:03] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/b0/54/972df1d49c93f21dc482fe5ae546e8f654392d804c55abd17787bdd13fb5/policyengine-us-0.737.1.tar.gz
+[2024-04-16 02:42:04] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/18/c0/e87df05d282be7b02113b08e2c08af1ccc328ef4b68aa9e5af64931ddf7a/policyengine-us-0.738.0.tar.gz
+[2024-04-16 02:42:04] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-16 02:42:04] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.737.1.tar.gz tmp/policyengine-us-0.738.0.tar.gz --markdown 20240416/p/policyengine-us/0.737.1-0.738.0/README.md --exclude *.pyd
+[2024-04-16 02:42:36] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.737.1.tar.gz]
+[2024-04-16 02:42:36] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.738.0.tar.gz]
+[2024-04-16 02:42:36] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-16 02:42:36] INFO root fetch - main [MainThread]: Store serial: [22780972]
