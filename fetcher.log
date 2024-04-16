@@ -5107,3 +5107,24 @@
 [2024-04-16 05:30:13] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-04-16 05:30:13] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-16 05:30:13] INFO root fetch - main [MainThread]: Store serial: [22782136]
+[2024-04-16 05:32:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782136]
+[2024-04-16 05:32:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 05:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowchat
+[2024-04-16 05:32:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genome_info
+[2024-04-16 05:32:22] INFO root fetch - processPackages [flowchat]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-16 05:32:22] INFO root fetch - processPackages [flowchat]: Downloading https://files.pythonhosted.org/packages/7c/86/ec1f9d33153d0b9802cd54387721927b0f00ee9dd0fb63895e9b16412ccb/flowchat-1.2.0.tar.gz
+[2024-04-16 05:32:22] INFO root fetch - processPackages [genome_info]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-04-16 05:32:23] INFO root fetch - processPackages [genome_info]: Downloading https://files.pythonhosted.org/packages/1c/a7/d14c94ac70e3fbd00308ebf3608ef35dc2ba17fd112501203bcf52d7c104/genome_info-1.0.2.tar.gz
+[2024-04-16 05:32:23] INFO root fetch - processPackages [flowchat]: Downloading https://files.pythonhosted.org/packages/f7/b2/c5edc2fc08d4a66c00a19541fa1459494923ff261041865af6206a1422fb/flowchat-1.2.1.tar.gz
+[2024-04-16 05:32:23] INFO root fetch - processPackages [flowchat]: executing diffoscope
+[2024-04-16 05:32:23] INFO root fetch - processPackages [flowchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowchat-1.2.0.tar.gz tmp/flowchat-1.2.1.tar.gz --markdown 20240416/f/flowchat/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-16 05:32:23] INFO root fetch - processPackages [flowchat]: Remove: archive file [/home/abi/fetcher/tmp/flowchat-1.2.0.tar.gz]
+[2024-04-16 05:32:23] INFO root fetch - processPackages [flowchat]: Remove: archive file [/home/abi/fetcher/tmp/flowchat-1.2.1.tar.gz]
+[2024-04-16 05:32:23] INFO root fetch - main [MainThread]: End processing [flowchat]: success
+[2024-04-16 05:32:23] INFO root fetch - processPackages [genome_info]: Downloading https://files.pythonhosted.org/packages/4d/08/8fbd759f041040d7fcc36c71e0ad450168d183f4870326c0f87cf29b374d/genome_info-1.0.4.tar.gz
+[2024-04-16 05:32:24] INFO root fetch - processPackages [genome_info]: executing diffoscope
+[2024-04-16 05:32:24] INFO root fetch - processPackages [genome_info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genome_info-1.0.2.tar.gz tmp/genome_info-1.0.4.tar.gz --markdown 20240416/g/genome_info/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-04-16 05:32:25] INFO root fetch - processPackages [genome_info]: Remove: archive file [/home/abi/fetcher/tmp/genome_info-1.0.2.tar.gz]
+[2024-04-16 05:32:25] INFO root fetch - processPackages [genome_info]: Remove: archive file [/home/abi/fetcher/tmp/genome_info-1.0.4.tar.gz]
+[2024-04-16 05:32:25] INFO root fetch - main [MainThread]: End processing [genome_info]: success
+[2024-04-16 05:32:25] INFO root fetch - main [MainThread]: Store serial: [22782142]
