@@ -8771,3 +8771,145 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:18:34] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2024-04-16 09:18:34] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2024-04-16 09:18:34] INFO root fetch - main [MainThread]: Store serial: [22783613]
+[2024-04-16 09:20:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783613]
+[2024-04-16 09:20:43] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-bedrock-haystack
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xplt
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-hue-v2
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-external-dbsource
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wearipedia
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-server-backend
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: darli
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: domain-admin
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dsms-sdk
+[2024-04-16 09:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dimples
+[2024-04-16 09:20:43] INFO root fetch - processPackages [amazon-bedrock-haystack]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [python-hue-v2]: New version: [2.0.1] Old Version: [1.0.3]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [xplt]: New version: [0.7.2] Old Version: [0.7.0]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [darli]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: New version: [16.0.20240415.0] Old Version: [16.0.20240309.1]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [wearipedia]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.7]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc1] Old Version: [1.4.0rc0]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [dimples]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [domain-admin]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-16 09:20:43] INFO root fetch - processPackages [amazon-bedrock-haystack]: Downloading https://files.pythonhosted.org/packages/09/e8/b62fb39184014e96a351e439c90fb92042e94ba607e740a6fb462168ff9f/amazon_bedrock_haystack-0.6.0.tar.gz
+[2024-04-16 09:20:43] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: Downloading https://files.pythonhosted.org/packages/5f/22/2787afffd2b050c381636e3671de642ff0be5ff4084f284669c6e59039cb/odoo_addon_base_external_dbsource-16.0.1.0.1.7-py3-none-any.whl
+[2024-04-16 09:20:43] INFO root fetch - processPackages [python-hue-v2]: Downloading https://files.pythonhosted.org/packages/72/95/1706cab0a835e07a9dfa2beb371eded02ec09a1172e4cd622b03dcb7f2bb/python_hue_v2-1.0.3.tar.gz
+[2024-04-16 09:20:43] INFO root fetch - processPackages [xplt]: Downloading https://files.pythonhosted.org/packages/75/61/a2ff0c0a8e00d8c87dee43a2f940a2fe5aff32c3d8ad680394c31c5d03fa/xplt-0.7.0.tar.gz
+[2024-04-16 09:20:43] INFO root fetch - processPackages [darli]: Downloading https://files.pythonhosted.org/packages/c2/56/7f592e32b535eeb22915b9fdfe02a25f3300fddc779c54db8893267eba0f/darli-0.4.0-py3-none-any.whl
+[2024-04-16 09:20:43] INFO root fetch - processPackages [wearipedia]: Downloading https://files.pythonhosted.org/packages/4f/85/831aa82c5773576213b940f7bde5e05d932a43a9ddd1792622ca2f4155e2/wearipedia-0.1.2.tar.gz
+[2024-04-16 09:20:43] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/d3/40/89db5cb51e9202fc229b9265a5d1327228e31b095c70a26776fab4c8dce9/odoo_addons_oca_server_backend-16.0.20240309.1-py3-none-any.whl
+[2024-04-16 09:20:43] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/de/18/6b2ebbfc77836907642faa7dfaccb3a69ad3428104183520725639eab9ea/domain-admin-1.6.8.tar.gz
+[2024-04-16 09:20:43] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/48/76/ae556d0632321879fff995085918711250b08dad6dc2a9c413316d0b980d/dsms_sdk-1.4.0rc0.tar.gz
+[2024-04-16 09:20:43] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/d4/79/b890a38f9cac03b4cb7b0a352ec1f2738b925f8f4ce3e49f7fe947e03f04/dimples-0.5.2.tar.gz
+[2024-04-16 09:20:44] INFO root fetch - processPackages [amazon-bedrock-haystack]: Downloading https://files.pythonhosted.org/packages/b2/6e/f7c344b9d3885a5ef2fac755049e8f18ea7f19555e4b5057c3e54d127200/amazon_bedrock_haystack-0.7.0.tar.gz
+[2024-04-16 09:20:44] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: Downloading https://files.pythonhosted.org/packages/b5/fc/136059379badc7c1717fce9aa8e6c73b5668d2f2f97b66a84056b15c927c/odoo_addon_base_external_dbsource-16.0.1.0.1.9-py3-none-any.whl
+[2024-04-16 09:20:44] INFO root fetch - processPackages [python-hue-v2]: Downloading https://files.pythonhosted.org/packages/de/ca/bf9edef97949606a0b9ecdc959de4d0fc32d19c62beff5e675d4899620f7/python_hue_v2-2.0.1.tar.gz
+[2024-04-16 09:20:44] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Downloading https://files.pythonhosted.org/packages/d4/94/14b1c15d6045b3372f3f2f46705d72e1fd50a593a9eba6e140e7530f5442/odoo_addons_oca_server_backend-16.0.20240415.0-py3-none-any.whl
+[2024-04-16 09:20:44] INFO root fetch - processPackages [wearipedia]: Downloading https://files.pythonhosted.org/packages/8d/76/50e066bb59f6f67a176c5d7aa4b5288a7fb614091d6e725fe6ba1c919f66/wearipedia-0.1.3.tar.gz
+[2024-04-16 09:20:44] INFO root fetch - processPackages [darli]: Downloading https://files.pythonhosted.org/packages/50/f1/16e518cfad5ecdba7facd46958fb2036f8682a7e04d8764f2f21dfda8b01/darli-0.4.1-py3-none-any.whl
+[2024-04-16 09:20:44] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/dc/76/c1b10eedb7fcbf8e7dcf89d0778b976a07628f74f2103990642fb36d541e/dsms_sdk-1.4.0rc1.tar.gz
+[2024-04-16 09:20:44] INFO root fetch - processPackages [dimples]: Downloading https://files.pythonhosted.org/packages/d8/c0/5f61dd37fdc8d601b65a7da37bf78beaf8df967a412606c73ed49584fdea/dimples-0.5.3.tar.gz
+[2024-04-16 09:20:44] INFO root fetch - processPackages [amazon-bedrock-haystack]: executing diffoscope
+[2024-04-16 09:20:44] INFO root fetch - processPackages [amazon-bedrock-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_bedrock_haystack-0.6.0.tar.gz tmp/amazon_bedrock_haystack-0.7.0.tar.gz --markdown 20240416/a/amazon-bedrock-haystack/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-16 09:20:44] INFO root fetch - processPackages [python-hue-v2]: executing diffoscope
+[2024-04-16 09:20:44] INFO root fetch - processPackages [python-hue-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_hue_v2-1.0.3.tar.gz tmp/python_hue_v2-2.0.1.tar.gz --markdown 20240416/p/python-hue-v2/1.0.3-2.0.1/README.md --exclude *.pyd
+[2024-04-16 09:20:44] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: executing diffoscope
+[2024-04-16 09:20:44] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_external_dbsource-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_base_external_dbsource-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-base-external-dbsource/16.0.1.0.1.7-16.0.1.0.1.9/README.md --exclude *.pyd
+[2024-04-16 09:20:44] INFO root fetch - processPackages [xplt]: Downloading https://files.pythonhosted.org/packages/33/66/70925565674110a6539051554ca66c60737b0c2ae0cb660bc527b095191b/xplt-0.7.2.tar.gz
+[2024-04-16 09:20:44] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: executing diffoscope
+[2024-04-16 09:20:44] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_backend-16.0.20240309.1-py3-none-any.whl.zip tmp/odoo_addons_oca_server_backend-16.0.20240415.0-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-server-backend/16.0.20240309.1-16.0.20240415.0/README.md --exclude *.pyd
+[2024-04-16 09:20:44] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c2/4f/a660c8dc467793c416f781443478f0c9f7b1ee9b4cea27835c40b21245af/domain-admin-1.6.9.tar.gz
+[2024-04-16 09:20:44] INFO root fetch - processPackages [darli]: executing diffoscope
+[2024-04-16 09:20:44] INFO root fetch - processPackages [darli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darli-0.4.0-py3-none-any.whl.zip tmp/darli-0.4.1-py3-none-any.whl.zip --markdown 20240416/d/darli/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-16 09:20:44] INFO root fetch - processPackages [wearipedia]: executing diffoscope
+[2024-04-16 09:20:44] INFO root fetch - processPackages [wearipedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wearipedia-0.1.2.tar.gz tmp/wearipedia-0.1.3.tar.gz --markdown 20240416/w/wearipedia/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 09:20:44] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-04-16 09:20:44] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.4.0rc0.tar.gz tmp/dsms_sdk-1.4.0rc1.tar.gz --markdown 20240416/d/dsms-sdk/1.4.0rc0-1.4.0rc1/README.md --exclude *.pyd
+[2024-04-16 09:20:44] INFO root fetch - processPackages [dimples]: executing diffoscope
+[2024-04-16 09:20:44] INFO root fetch - processPackages [dimples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimples-0.5.2.tar.gz tmp/dimples-0.5.3.tar.gz --markdown 20240416/d/dimples/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-16 09:20:45] INFO root fetch - processPackages [python-hue-v2]: Remove: archive file [/home/abi/fetcher/tmp/python_hue_v2-1.0.3.tar.gz]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [python-hue-v2]: Remove: archive file [/home/abi/fetcher/tmp/python_hue_v2-2.0.1.tar.gz]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [python-hue-v2]: Start processing: hypha-launcher
+[2024-04-16 09:20:45] INFO root fetch - main [MainThread]: End processing [python-hue-v2]: success
+[2024-04-16 09:20:45] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20240309.1-py3-none-any.whl.zip]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_backend-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [odoo-addons-oca-server-backend]: Start processing: html-tree-shaking
+[2024-04-16 09:20:45] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-backend]: success
+[2024-04-16 09:20:45] INFO root fetch - processPackages [hypha-launcher]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [html-tree-shaking]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [amazon-bedrock-haystack]: Remove: archive file [/home/abi/fetcher/tmp/amazon_bedrock_haystack-0.6.0.tar.gz]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [amazon-bedrock-haystack]: Remove: archive file [/home/abi/fetcher/tmp/amazon_bedrock_haystack-0.7.0.tar.gz]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [amazon-bedrock-haystack]: Start processing: ecodev-front
+[2024-04-16 09:20:45] INFO root fetch - main [MainThread]: End processing [amazon-bedrock-haystack]: success
+[2024-04-16 09:20:45] INFO root fetch - processPackages [ecodev-front]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc0.tar.gz]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc1.tar.gz]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [dsms-sdk]: Start processing: furthrmind
+[2024-04-16 09:20:45] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-04-16 09:20:45] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/e1/8e/5abd72f94e7281a7ac942b93dfceeb7cf72944b8636048ea4e2a431e97cb/ecodev_front-0.0.8.tar.gz
+[2024-04-16 09:20:45] INFO root fetch - processPackages [hypha-launcher]: Downloading https://files.pythonhosted.org/packages/47/3f/35e70c263d682409d5e156cf87cd41dc5a02f44101fb5910021eaa15166f/hypha-launcher-0.1.0.tar.gz
+[2024-04-16 09:20:45] INFO root fetch - processPackages [html-tree-shaking]: Downloading https://files.pythonhosted.org/packages/d5/af/f630151ecd22ff20e561c9794fe5767f2a4b307c95fc74a6cf5038544757/html_tree_shaking-1.0.4-py3-none-any.whl
+[2024-04-16 09:20:45] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_external_dbsource-16.0.1.0.1.7-py3-none-any.whl.zip]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_external_dbsource-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [furthrmind]: New version: [0.1b3] Old Version: [0.1b2]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [odoo-addon-base-external-dbsource]: Start processing: django-text-translator
+[2024-04-16 09:20:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-external-dbsource]: success
+[2024-04-16 09:20:45] WARNING root fetch - processPackages [html-tree-shaking]: Skipping package: exceeds size limit 38279523>=10485760
+[2024-04-16 09:20:45] INFO root fetch - processPackages [html-tree-shaking]: Start processing: libecalc
+[2024-04-16 09:20:45] INFO root fetch - main [MainThread]: End processing [html-tree-shaking] error
+[2024-04-16 09:20:45] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/63/48/d205303d500e1bb1b96c0b9bfcaeea21f8fed2e355a5f7940589214c13a9/furthrmind-0.1b2.tar.gz
+[2024-04-16 09:20:45] INFO root fetch - processPackages [wearipedia]: Remove: archive file [/home/abi/fetcher/tmp/wearipedia-0.1.2.tar.gz]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [wearipedia]: Remove: archive file [/home/abi/fetcher/tmp/wearipedia-0.1.3.tar.gz]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [wearipedia]: Start processing: sislv4utils
+[2024-04-16 09:20:45] INFO root fetch - main [MainThread]: End processing [wearipedia]: success
+[2024-04-16 09:20:45] INFO root fetch - processPackages [django-text-translator]: New version: [2024.4.2.1] Old Version: [2024.4.2]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [darli]: Remove: archive file [/home/abi/fetcher/tmp/darli-0.4.0-py3-none-any.whl.zip]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [darli]: Remove: archive file [/home/abi/fetcher/tmp/darli-0.4.1-py3-none-any.whl.zip]
+[2024-04-16 09:20:45] INFO root fetch - main [MainThread]: End processing [darli]: success
+[2024-04-16 09:20:45] INFO root fetch - processPackages [libecalc]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-04-16 09:20:45] INFO root fetch - processPackages [hypha-launcher]: Downloading https://files.pythonhosted.org/packages/33/0c/62270c97bd90153508f4f9f92ccc41bdbf7e7d03577088407f61785f3acb/hypha_launcher-0.1.1.tar.gz
+[2024-04-16 09:20:45] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/ef/3b/29d539e8b5eb474efa8d86ebcb55b4f77cea8ce23c96510b93d36095f666/ecodev_front-0.0.9.tar.gz
+[2024-04-16 09:20:46] INFO root fetch - processPackages [hypha-launcher]: executing diffoscope
+[2024-04-16 09:20:46] INFO root fetch - processPackages [hypha-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-launcher-0.1.0.tar.gz tmp/hypha_launcher-0.1.1.tar.gz --markdown 20240416/h/hypha-launcher/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 09:20:46] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/c9/bc/1ffaeb370d904b52db65276a5fc5f45d92f0e55e25c2ea24cea69abed029/django_text_translator-2024.4.2.tar.gz
+[2024-04-16 09:20:46] INFO root fetch - processPackages [ecodev-front]: executing diffoscope
+[2024-04-16 09:20:46] INFO root fetch - processPackages [ecodev-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_front-0.0.8.tar.gz tmp/ecodev_front-0.0.9.tar.gz --markdown 20240416/e/ecodev-front/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 09:20:46] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.2.tar.gz]
+[2024-04-16 09:20:46] INFO root fetch - processPackages [dimples]: Remove: archive file [/home/abi/fetcher/tmp/dimples-0.5.3.tar.gz]
+[2024-04-16 09:20:46] INFO root fetch - main [MainThread]: End processing [dimples]: success
+[2024-04-16 09:20:46] INFO root fetch - processPackages [libecalc]: Downloading https://files.pythonhosted.org/packages/51/a2/8520612a4baf1a899fba5e8b0ee63b32bd73c2ba905fa5d3ae5fe2a1ed90/libecalc-8.8.0.tar.gz
+[2024-04-16 09:20:46] WARNING root fetch - processPackages [sislv4utils]: Skipping, unable to determine old version
+[2024-04-16 09:20:46] INFO root fetch - main [MainThread]: End processing [sislv4utils] error
+[2024-04-16 09:20:46] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2024-04-16 09:20:46] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.6.8.tar.gz tmp/domain-admin-1.6.9.tar.gz --markdown 20240416/d/domain-admin/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-16 09:20:46] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 28339411>=10485760
+[2024-04-16 09:20:46] INFO root fetch - main [MainThread]: End processing [libecalc] error
+[2024-04-16 09:20:46] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/51/33/d7feff7f3f8ddb723cfd328cc4642bee5770210f5a5014f3714862b8b4cc/furthrmind-0.1b3.tar.gz
+[2024-04-16 09:20:46] INFO root fetch - processPackages [xplt]: executing diffoscope
+[2024-04-16 09:20:46] INFO root fetch - processPackages [xplt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplt-0.7.0.tar.gz tmp/xplt-0.7.2.tar.gz --markdown 20240416/x/xplt/0.7.0-0.7.2/README.md --exclude *.pyd
+[2024-04-16 09:20:46] INFO root fetch - processPackages [furthrmind]: executing diffoscope
+[2024-04-16 09:20:46] INFO root fetch - processPackages [furthrmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furthrmind-0.1b2.tar.gz tmp/furthrmind-0.1b3.tar.gz --markdown 20240416/f/furthrmind/0.1b2-0.1b3/README.md --exclude *.pyd
+[2024-04-16 09:20:46] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/09/d4/f5f75a88c00cc0babc3968f8a51b86ff904b800c32ded9f8cc2e1d74b2bc/django_text_translator-2024.4.2.1.tar.gz
+[2024-04-16 09:20:46] INFO root fetch - processPackages [django-text-translator]: executing diffoscope
+[2024-04-16 09:20:46] INFO root fetch - processPackages [django-text-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_text_translator-2024.4.2.tar.gz tmp/django_text_translator-2024.4.2.1.tar.gz --markdown 20240416/d/django-text-translator/2024.4.2-2024.4.2.1/README.md --exclude *.pyd
+[2024-04-16 09:20:46] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.8.tar.gz]
+[2024-04-16 09:20:46] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.9.tar.gz]
+[2024-04-16 09:20:46] INFO root fetch - main [MainThread]: End processing [ecodev-front]: success
+[2024-04-16 09:20:46] INFO root fetch - processPackages [hypha-launcher]: Remove: archive file [/home/abi/fetcher/tmp/hypha-launcher-0.1.0.tar.gz]
+[2024-04-16 09:20:46] INFO root fetch - processPackages [hypha-launcher]: Remove: archive file [/home/abi/fetcher/tmp/hypha_launcher-0.1.1.tar.gz]
+[2024-04-16 09:20:47] INFO root fetch - main [MainThread]: End processing [hypha-launcher]: success
+[2024-04-16 09:20:47] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b2.tar.gz]
+[2024-04-16 09:20:47] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b3.tar.gz]
+[2024-04-16 09:20:47] INFO root fetch - main [MainThread]: End processing [furthrmind]: success
+[2024-04-16 09:20:47] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.2.tar.gz]
+[2024-04-16 09:20:47] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.2.1.tar.gz]
+[2024-04-16 09:20:47] INFO root fetch - main [MainThread]: End processing [django-text-translator]: success
+[2024-04-16 09:20:47] INFO root fetch - processPackages [xplt]: Remove: archive file [/home/abi/fetcher/tmp/xplt-0.7.0.tar.gz]
+[2024-04-16 09:20:47] INFO root fetch - processPackages [xplt]: Remove: archive file [/home/abi/fetcher/tmp/xplt-0.7.2.tar.gz]
+[2024-04-16 09:20:47] INFO root fetch - main [MainThread]: End processing [xplt]: success
+[2024-04-16 09:20:56] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.8.tar.gz]
+[2024-04-16 09:20:56] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.9.tar.gz]
+[2024-04-16 09:20:56] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2024-04-16 09:20:56] INFO root fetch - main [MainThread]: Store serial: [22783662]
