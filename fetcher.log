@@ -15537,3 +15537,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:27:26] INFO root fetch - processPackages [astro-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/astro_provider_databricks-0.2.2.tar.gz]
 [2024-04-16 13:27:26] INFO root fetch - main [MainThread]: End processing [astro-provider-databricks]: success
 [2024-04-16 13:27:26] INFO root fetch - main [MainThread]: Store serial: [22786802]
+[2024-04-16 13:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786802]
+[2024-04-16 13:29:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geo-parameters
+[2024-04-16 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dj-stripe
+[2024-04-16 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mynewcalc
+[2024-04-16 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datewise
+[2024-04-16 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cohere
+[2024-04-16 13:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: literal-dict
+[2024-04-16 13:29:35] INFO root fetch - processPackages [geo-parameters]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-16 13:29:35] INFO root fetch - processPackages [cohere]: New version: [5.2.6] Old Version: [5.2.5]
+[2024-04-16 13:29:35] INFO root fetch - processPackages [geo-parameters]: Downloading https://files.pythonhosted.org/packages/34/45/cdd72ec576c0d41cf773d0a010a4bda25466dd97d07f6196abf6ad8fc05b/geo_parameters-0.2.5.tar.gz
+[2024-04-16 13:29:35] WARNING root fetch - processPackages [mynewcalc]: Skipping, unable to determine old version
+[2024-04-16 13:29:35] INFO root fetch - main [MainThread]: End processing [mynewcalc] error
+[2024-04-16 13:29:35] INFO root fetch - processPackages [datewise]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-16 13:29:35] INFO root fetch - processPackages [literal-dict]: New version: [1.0.1.1] Old Version: [1.0.1]
+[2024-04-16 13:29:35] INFO root fetch - processPackages [dj-stripe]: New version: [2.8.4] Old Version: [2.8.3]
+[2024-04-16 13:29:35] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/9e/8b/9ac8874f0b4d25e170395b5635168688fac2a579d4699dc117a180159e91/cohere-5.2.5.tar.gz
+[2024-04-16 13:29:35] INFO root fetch - processPackages [datewise]: Downloading https://files.pythonhosted.org/packages/98/0c/e8c991342d840e5291c89649edc9c27b195538f4e077107df4d50ee58622/datewise-0.1.6.tar.gz
+[2024-04-16 13:29:35] INFO root fetch - processPackages [literal-dict]: Downloading https://files.pythonhosted.org/packages/1d/3c/db0ff30a23d9f378516270fdf0f6d48c6b8bceabe86a25048b43bcdf0541/literal_dict-1.0.1.tar.gz
+[2024-04-16 13:29:35] INFO root fetch - processPackages [geo-parameters]: Downloading https://files.pythonhosted.org/packages/e3/3c/f693185beca19ea33586b9e7b0ce9c72bff717b4e12c2b4bda061c35365a/geo_parameters-0.2.6.tar.gz
+[2024-04-16 13:29:35] INFO root fetch - processPackages [dj-stripe]: Downloading https://files.pythonhosted.org/packages/75/7c/bf44e90ed2d86284fe6c228535cbd52f442248f98f518eb72b97dac6ee29/dj_stripe-2.8.3.tar.gz
+[2024-04-16 13:29:35] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/f7/8d/0e44ab08d26b790a3232ee9f08aa37ec196fb0789aa3422ab09d8f1314ee/cohere-5.2.6.tar.gz
+[2024-04-16 13:29:35] INFO root fetch - processPackages [geo-parameters]: executing diffoscope
+[2024-04-16 13:29:35] INFO root fetch - processPackages [geo-parameters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_parameters-0.2.5.tar.gz tmp/geo_parameters-0.2.6.tar.gz --markdown 20240416/g/geo-parameters/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-16 13:29:35] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2024-04-16 13:29:35] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-5.2.5.tar.gz tmp/cohere-5.2.6.tar.gz --markdown 20240416/c/cohere/5.2.5-5.2.6/README.md --exclude *.pyd
+[2024-04-16 13:29:35] INFO root fetch - processPackages [datewise]: Downloading https://files.pythonhosted.org/packages/02/07/d54730bf9bb2c44b1d49364839ef971041d9ead7fde756dff5ae62ffaf87/datewise-0.2.0.tar.gz
+[2024-04-16 13:29:35] INFO root fetch - processPackages [literal-dict]: Downloading https://files.pythonhosted.org/packages/86/cb/a71347c8b52cff789edaf5862b344cb2c6302596c8539f386a70226a2209/literal_dict-1.0.1.1.tar.gz
+[2024-04-16 13:29:35] INFO root fetch - processPackages [dj-stripe]: Downloading https://files.pythonhosted.org/packages/bd/c7/4703a8b451e9f93d7184e8a683c7dfead01bfec8eb72fc274fd630f3146d/dj_stripe-2.8.4.tar.gz
+[2024-04-16 13:29:36] INFO root fetch - processPackages [datewise]: executing diffoscope
+[2024-04-16 13:29:36] INFO root fetch - processPackages [datewise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datewise-0.1.6.tar.gz tmp/datewise-0.2.0.tar.gz --markdown 20240416/d/datewise/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-16 13:29:36] INFO root fetch - processPackages [literal-dict]: executing diffoscope
+[2024-04-16 13:29:36] INFO root fetch - processPackages [literal-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literal_dict-1.0.1.tar.gz tmp/literal_dict-1.0.1.1.tar.gz --markdown 20240416/l/literal-dict/1.0.1-1.0.1.1/README.md --exclude *.pyd
+[2024-04-16 13:29:36] INFO root fetch - processPackages [dj-stripe]: executing diffoscope
+[2024-04-16 13:29:36] INFO root fetch - processPackages [dj-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_stripe-2.8.3.tar.gz tmp/dj_stripe-2.8.4.tar.gz --markdown 20240416/d/dj-stripe/2.8.3-2.8.4/README.md --exclude *.pyd
+[2024-04-16 13:29:36] INFO root fetch - processPackages [geo-parameters]: Remove: archive file [/home/abi/fetcher/tmp/geo_parameters-0.2.5.tar.gz]
+[2024-04-16 13:29:36] INFO root fetch - processPackages [geo-parameters]: Remove: archive file [/home/abi/fetcher/tmp/geo_parameters-0.2.6.tar.gz]
+[2024-04-16 13:29:36] INFO root fetch - main [MainThread]: End processing [geo-parameters]: success
+[2024-04-16 13:29:36] INFO root fetch - processPackages [literal-dict]: Remove: archive file [/home/abi/fetcher/tmp/literal_dict-1.0.1.tar.gz]
+[2024-04-16 13:29:36] INFO root fetch - processPackages [literal-dict]: Remove: archive file [/home/abi/fetcher/tmp/literal_dict-1.0.1.1.tar.gz]
+[2024-04-16 13:29:36] INFO root fetch - main [MainThread]: End processing [literal-dict]: success
+[2024-04-16 13:29:36] INFO root fetch - processPackages [datewise]: Remove: archive file [/home/abi/fetcher/tmp/datewise-0.1.6.tar.gz]
+[2024-04-16 13:29:36] INFO root fetch - processPackages [datewise]: Remove: archive file [/home/abi/fetcher/tmp/datewise-0.2.0.tar.gz]
+[2024-04-16 13:29:36] INFO root fetch - main [MainThread]: End processing [datewise]: success
+[2024-04-16 13:29:36] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.2.5.tar.gz]
+[2024-04-16 13:29:36] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-5.2.6.tar.gz]
+[2024-04-16 13:29:36] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2024-04-16 13:29:37] INFO root fetch - processPackages [dj-stripe]: Remove: archive file [/home/abi/fetcher/tmp/dj_stripe-2.8.3.tar.gz]
+[2024-04-16 13:29:37] INFO root fetch - processPackages [dj-stripe]: Remove: archive file [/home/abi/fetcher/tmp/dj_stripe-2.8.4.tar.gz]
+[2024-04-16 13:29:37] INFO root fetch - main [MainThread]: End processing [dj-stripe]: success
+[2024-04-16 13:29:37] INFO root fetch - main [MainThread]: Store serial: [22786831]
