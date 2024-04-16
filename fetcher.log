@@ -21708,3 +21708,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:48:21] INFO root fetch - processPackages [ntgcalls]: Remove: archive file [/home/abi/fetcher/tmp/ntgcalls-1.2.0b9.tar.gz]
 [2024-04-16 16:48:21] INFO root fetch - main [MainThread]: End processing [ntgcalls]: success
 [2024-04-16 16:48:21] INFO root fetch - main [MainThread]: Store serial: [22789335]
+[2024-04-16 16:50:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789335]
+[2024-04-16 16:50:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 16:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kailo-beewell-dashboard
+[2024-04-16 16:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiledb
+[2024-04-16 16:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtcv2-util
+[2024-04-16 16:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: illusioncolor
+[2024-04-16 16:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bezalel
+[2024-04-16 16:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spirems
+[2024-04-16 16:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: OpenFisca-France-Data
+[2024-04-16 16:50:31] WARNING root fetch - processPackages [illusioncolor]: Skipping, unable to determine old version
+[2024-04-16 16:50:31] INFO root fetch - main [MainThread]: End processing [illusioncolor] error
+[2024-04-16 16:50:31] INFO root fetch - processPackages [dtcv2-util]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 16:50:31] INFO root fetch - processPackages [bezalel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 16:50:31] INFO root fetch - processPackages [kailo-beewell-dashboard]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-16 16:50:31] INFO root fetch - processPackages [OpenFisca-France-Data]: New version: [3.1.3] Old Version: [3.1.2]
+[2024-04-16 16:50:31] INFO root fetch - processPackages [spirems]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-04-16 16:50:31] INFO root fetch - processPackages [dtcv2-util]: Downloading https://files.pythonhosted.org/packages/37/8b/ae222d8373d30564035d07a6843fb79857a8b80bfa991c5d2a10a949d5be/dtcv2_util-0.1.3.tar.gz
+[2024-04-16 16:50:31] INFO root fetch - processPackages [bezalel]: Downloading https://files.pythonhosted.org/packages/cd/d8/c2961ee01e3521e0be4b92061e703be489a2e80e63a7dd2b7b93de967c9f/bezalel-0.0.8.tar.gz
+[2024-04-16 16:50:31] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/e5/a0/e7827a78e7dde8c0839b4c4903bd15987123d1f13b24b9a9607c87337521/OpenFisca-France-Data-3.1.2.tar.gz
+[2024-04-16 16:50:31] INFO root fetch - processPackages [kailo-beewell-dashboard]: Downloading https://files.pythonhosted.org/packages/f4/ad/a0a1046612df56d128b72717f2be645ff5434f2014eb9a1725d5262b5991/kailo-beewell-dashboard-0.3.2.tar.gz
+[2024-04-16 16:50:31] INFO root fetch - processPackages [spirems]: Downloading https://files.pythonhosted.org/packages/42/ae/a870b244cdfc892a2244b6235262c959189d9d9e317e0bb6bcdeef6a0c92/spirems-0.1.5-py3-none-any.whl
+[2024-04-16 16:50:31] INFO root fetch - processPackages [tiledb]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-16 16:50:32] INFO root fetch - processPackages [dtcv2-util]: Downloading https://files.pythonhosted.org/packages/c9/8e/902d9992c91ae973204c3b99b668080dde311302a66f650343b557b467dd/dtcv2_util-0.1.4.tar.gz
+[2024-04-16 16:50:32] INFO root fetch - processPackages [bezalel]: Downloading https://files.pythonhosted.org/packages/df/7a/30436464e3a604ede3f44d1108298e9895a247d528be848fc51459eaf948/bezalel-0.0.9.tar.gz
+[2024-04-16 16:50:32] INFO root fetch - processPackages [OpenFisca-France-Data]: Downloading https://files.pythonhosted.org/packages/e5/d2/e46ed6095bfdb3b845672934bbf65f8df2c7e4d700842aae74cd83646cc7/openfisca_france_data-3.1.3.tar.gz
+[2024-04-16 16:50:32] INFO root fetch - processPackages [spirems]: Downloading https://files.pythonhosted.org/packages/9e/73/8453d5064614c3a6b9d48fc22446ef85142ad6b6d0d2653fb48977033dc2/spirems-0.1.7-py3-none-any.whl
+[2024-04-16 16:50:32] INFO root fetch - processPackages [tiledb]: Downloading https://files.pythonhosted.org/packages/a6/bb/0b224f95554a746b8b636f3022ddc5a851deefae6fd90452b6ab95bd9de1/tiledb-0.9.4.tar.gz
+[2024-04-16 16:50:32] INFO root fetch - processPackages [dtcv2-util]: executing diffoscope
+[2024-04-16 16:50:32] INFO root fetch - processPackages [dtcv2-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtcv2_util-0.1.3.tar.gz tmp/dtcv2_util-0.1.4.tar.gz --markdown 20240416/d/dtcv2-util/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 16:50:32] INFO root fetch - processPackages [kailo-beewell-dashboard]: Downloading https://files.pythonhosted.org/packages/35/26/28a5b52a27a50844005fcaaa04d6948ff0a628dfb57dc0142bd626c2e65c/kailo-beewell-dashboard-0.3.3.tar.gz
+[2024-04-16 16:50:32] INFO root fetch - processPackages [bezalel]: executing diffoscope
+[2024-04-16 16:50:32] INFO root fetch - processPackages [bezalel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bezalel-0.0.8.tar.gz tmp/bezalel-0.0.9.tar.gz --markdown 20240416/b/bezalel/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 16:50:32] INFO root fetch - processPackages [OpenFisca-France-Data]: executing diffoscope
+[2024-04-16 16:50:32] INFO root fetch - processPackages [OpenFisca-France-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-France-Data-3.1.2.tar.gz tmp/openfisca_france_data-3.1.3.tar.gz --markdown 20240416/O/OpenFisca-France-Data/3.1.2-3.1.3/README.md --exclude *.pyd
+[2024-04-16 16:50:32] INFO root fetch - processPackages [spirems]: executing diffoscope
+[2024-04-16 16:50:32] INFO root fetch - processPackages [spirems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spirems-0.1.5-py3-none-any.whl.zip tmp/spirems-0.1.7-py3-none-any.whl.zip --markdown 20240416/s/spirems/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-04-16 16:50:32] INFO root fetch - processPackages [tiledb]: Downloading https://files.pythonhosted.org/packages/f8/e1/999448b6ef9ee22f6171c37306b83f59ccf699de7fee4ed271b7e06a796c/tiledb-0.9.5.tar.gz
+[2024-04-16 16:50:32] INFO root fetch - processPackages [dtcv2-util]: Remove: archive file [/home/abi/fetcher/tmp/dtcv2_util-0.1.3.tar.gz]
+[2024-04-16 16:50:32] INFO root fetch - processPackages [dtcv2-util]: Remove: archive file [/home/abi/fetcher/tmp/dtcv2_util-0.1.4.tar.gz]
+[2024-04-16 16:50:32] INFO root fetch - main [MainThread]: End processing [dtcv2-util]: success
+[2024-04-16 16:50:32] INFO root fetch - processPackages [tiledb]: executing diffoscope
+[2024-04-16 16:50:32] INFO root fetch - processPackages [tiledb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb-0.9.4.tar.gz tmp/tiledb-0.9.5.tar.gz --markdown 20240416/t/tiledb/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-16 16:50:32] INFO root fetch - processPackages [bezalel]: Remove: archive file [/home/abi/fetcher/tmp/bezalel-0.0.8.tar.gz]
+[2024-04-16 16:50:32] INFO root fetch - processPackages [bezalel]: Remove: archive file [/home/abi/fetcher/tmp/bezalel-0.0.9.tar.gz]
+[2024-04-16 16:50:32] INFO root fetch - main [MainThread]: End processing [bezalel]: success
+[2024-04-16 16:50:33] INFO root fetch - processPackages [spirems]: Remove: archive file [/home/abi/fetcher/tmp/spirems-0.1.5-py3-none-any.whl.zip]
+[2024-04-16 16:50:33] INFO root fetch - processPackages [spirems]: Remove: archive file [/home/abi/fetcher/tmp/spirems-0.1.7-py3-none-any.whl.zip]
+[2024-04-16 16:50:33] INFO root fetch - main [MainThread]: End processing [spirems]: success
+[2024-04-16 16:50:33] INFO root fetch - processPackages [kailo-beewell-dashboard]: executing diffoscope
+[2024-04-16 16:50:33] INFO root fetch - processPackages [kailo-beewell-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kailo-beewell-dashboard-0.3.2.tar.gz tmp/kailo-beewell-dashboard-0.3.3.tar.gz --markdown 20240416/k/kailo-beewell-dashboard/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-16 16:50:33] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-France-Data-3.1.2.tar.gz]
+[2024-04-16 16:50:33] INFO root fetch - processPackages [OpenFisca-France-Data]: Remove: archive file [/home/abi/fetcher/tmp/openfisca_france_data-3.1.3.tar.gz]
+[2024-04-16 16:50:33] INFO root fetch - main [MainThread]: End processing [OpenFisca-France-Data]: success
+[2024-04-16 16:50:34] INFO root fetch - processPackages [tiledb]: Remove: archive file [/home/abi/fetcher/tmp/tiledb-0.9.4.tar.gz]
+[2024-04-16 16:50:34] INFO root fetch - processPackages [tiledb]: Remove: archive file [/home/abi/fetcher/tmp/tiledb-0.9.5.tar.gz]
+[2024-04-16 16:50:34] INFO root fetch - main [MainThread]: End processing [tiledb]: success
+[2024-04-16 16:50:34] INFO root fetch - processPackages [kailo-beewell-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/kailo-beewell-dashboard-0.3.2.tar.gz]
+[2024-04-16 16:50:34] INFO root fetch - processPackages [kailo-beewell-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/kailo-beewell-dashboard-0.3.3.tar.gz]
+[2024-04-16 16:50:34] INFO root fetch - main [MainThread]: End processing [kailo-beewell-dashboard]: success
+[2024-04-16 16:50:34] INFO root fetch - main [MainThread]: Store serial: [22789366]
