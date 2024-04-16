@@ -8310,3 +8310,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 08:59:44] INFO root fetch - processPackages [keyboardsounds]: Remove: archive file [/home/abi/fetcher/tmp/keyboardsounds-5.7.3.tar.gz]
 [2024-04-16 08:59:44] INFO root fetch - main [MainThread]: End processing [keyboardsounds]: success
 [2024-04-16 08:59:44] INFO root fetch - main [MainThread]: Store serial: [22783468]
+[2024-04-16 09:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783468]
+[2024-04-16 09:01:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-nightly
+[2024-04-16 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pramen-py
+[2024-04-16 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: demisto-sdk
+[2024-04-16 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-sscma
+[2024-04-16 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wah
+[2024-04-16 09:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arch-flow
+[2024-04-16 09:01:53] INFO root fetch - processPackages [arch-flow]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 09:01:53] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-16 09:01:53] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/32/b5/9fc77b3568deaf2887e6792faf2cd864417dee7f6861136c9c02c847e4f1/arch_flow-0.0.3.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 09:01:53] INFO root fetch - processPackages [python-sscma]: New version: [0.5.0] Old Version: [0.2.1]
+[2024-04-16 09:01:53] INFO root fetch - processPackages [pramen-py]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-04-16 09:01:53] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.33.1.dev20240415] Old Version: [1.33.1.dev20240414]
+[2024-04-16 09:01:53] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/09/d8/b40156edfeb2c658f2e1fbd96230c4ad73caeb31f2c65c8c3c79aadd10ae/demisto_sdk-1.8.3.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [python-sscma]: Downloading https://files.pythonhosted.org/packages/24/f9/cd048b20c6844aa1957ad581bfa9ff9f33d65187569577aef1f14f932ac9/python-sscma-0.2.1.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [pramen-py]: Downloading https://files.pythonhosted.org/packages/c8/9e/27c8d2ca5bca5ee7ec311befd60d9d4d4b33ff679706d0c07f925fca1c57/pramen_py-1.8.3.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/b8/fe/8e0c7724b24ac8bf3e10b259216bf903cebd31c41cd1384201edf2fba51e/arch_flow-0.0.4.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/88/1a/ba414485f86199fddbadd4aecc87f5e779f0b4513f05dc84e2fade20d393/streamlit_nightly-1.33.1.dev20240414.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-04-16 09:01:53] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.0.3.tar.gz tmp/arch_flow-0.0.4.tar.gz --markdown 20240416/a/arch-flow/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 09:01:53] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [pramen-py]: Downloading https://files.pythonhosted.org/packages/6b/ff/5e2e4653514f5f3dcb5ccd11aedd08cd9bdb987d1396163d47d38ee5f721/pramen_py-1.8.4.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-04-16 09:01:53] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240416/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 09:01:53] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/64/f1/eb1afa74c8cd36ec00a08aa9c524502235aca66e33f399269e7f2b852df2/demisto_sdk-1.9.0.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [python-sscma]: Downloading https://files.pythonhosted.org/packages/aa/55/49781a36618cb348e5e7e4712d22240235da92c94633a4a4ccd4fc62235f/python-sscma-0.5.0.tar.gz
+[2024-04-16 09:01:53] INFO root fetch - processPackages [pramen-py]: executing diffoscope
+[2024-04-16 09:01:53] INFO root fetch - processPackages [pramen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pramen_py-1.8.3.tar.gz tmp/pramen_py-1.8.4.tar.gz --markdown 20240416/p/pramen-py/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-04-16 09:01:54] INFO root fetch - processPackages [python-sscma]: executing diffoscope
+[2024-04-16 09:01:54] INFO root fetch - processPackages [python-sscma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sscma-0.2.1.tar.gz tmp/python-sscma-0.5.0.tar.gz --markdown 20240416/p/python-sscma/0.2.1-0.5.0/README.md --exclude *.pyd
+[2024-04-16 09:01:54] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/67/1c/9d033b78e6530daa6425db20b4917249405fe5ffdb670d85560707dd7ffb/streamlit_nightly-1.33.1.dev20240415.tar.gz
+[2024-04-16 09:01:54] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2024-04-16 09:01:54] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20240416/d/demisto-sdk/1.8.3-1.9.0/README.md --exclude *.pyd
+[2024-04-16 09:01:54] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.3.tar.gz]
+[2024-04-16 09:01:54] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.4.tar.gz]
+[2024-04-16 09:01:54] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-04-16 09:01:54] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-04-16 09:01:54] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-04-16 09:01:54] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-04-16 09:01:54] INFO root fetch - processPackages [pramen-py]: Remove: archive file [/home/abi/fetcher/tmp/pramen_py-1.8.3.tar.gz]
+[2024-04-16 09:01:54] INFO root fetch - processPackages [pramen-py]: Remove: archive file [/home/abi/fetcher/tmp/pramen_py-1.8.4.tar.gz]
+[2024-04-16 09:01:54] INFO root fetch - main [MainThread]: End processing [pramen-py]: success
+[2024-04-16 09:01:54] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-16 09:01:54] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.33.1.dev20240414.tar.gz tmp/streamlit_nightly-1.33.1.dev20240415.tar.gz --markdown 20240416/s/streamlit-nightly/1.33.1.dev20240414-1.33.1.dev20240415/README.md --exclude *.pyd
+[2024-04-16 09:01:54] INFO root fetch - processPackages [python-sscma]: Remove: archive file [/home/abi/fetcher/tmp/python-sscma-0.2.1.tar.gz]
+[2024-04-16 09:01:54] INFO root fetch - processPackages [python-sscma]: Remove: archive file [/home/abi/fetcher/tmp/python-sscma-0.5.0.tar.gz]
+[2024-04-16 09:01:54] INFO root fetch - main [MainThread]: End processing [python-sscma]: success
+[2024-04-16 09:01:57] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.8.3.tar.gz]
+[2024-04-16 09:01:57] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.9.0.tar.gz]
+[2024-04-16 09:01:57] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2024-04-16 09:02:23] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240414.tar.gz]
+[2024-04-16 09:02:23] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.33.1.dev20240415.tar.gz]
+[2024-04-16 09:02:23] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-16 09:02:23] INFO root fetch - main [MainThread]: Store serial: [22783484]
