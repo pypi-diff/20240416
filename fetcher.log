@@ -9897,3 +9897,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:59:28] INFO root fetch - processPackages [algoliasearch]: Remove: archive file [/home/abi/fetcher/tmp/algoliasearch-4.0.0b9.tar.gz]
 [2024-04-16 09:59:28] INFO root fetch - main [MainThread]: End processing [algoliasearch]: success
 [2024-04-16 09:59:28] INFO root fetch - main [MainThread]: Store serial: [22784105]
+[2024-04-16 10:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784105]
+[2024-04-16 10:01:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 10:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osparc-filecomms
+[2024-04-16 10:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data2rdf
+[2024-04-16 10:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: factorslib
+[2024-04-16 10:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-hr-timesheet-sheet-attendance
+[2024-04-16 10:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-timesheet
+[2024-04-16 10:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mecord-cli
+[2024-04-16 10:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: racetrack-client
+[2024-04-16 10:01:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-hr-employee-cost-history
+[2024-04-16 10:01:37] INFO root fetch - processPackages [factorslib]: New version: [5.5] Old Version: [5.4]
+[2024-04-16 10:01:37] INFO root fetch - processPackages [osparc-filecomms]: New version: [0.9.dev5] Old Version: [0.9.dev3]
+[2024-04-16 10:01:37] WARNING root fetch - processPackages [odoo-addon-hr-timesheet-sheet-attendance]: Skipping, unable to determine old version
+[2024-04-16 10:01:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet-attendance] error
+[2024-04-16 10:01:37] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-16 10:01:37] INFO root fetch - processPackages [data2rdf]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2024-04-16 10:01:37] INFO root fetch - processPackages [factorslib]: Downloading https://files.pythonhosted.org/packages/34/75/0c1747558539ca26e6aade102ec3793d2006ca169c10c5f423bfab4e5388/factorslib-5.4.tar.gz
+[2024-04-16 10:01:37] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-16 10:01:37] INFO root fetch - processPackages [osparc-filecomms]: Downloading https://files.pythonhosted.org/packages/36/76/efa32647c167dcf2256adca51dec46e35020b54c92bd603c7a8479219f7c/osparc_filecomms-0.9.dev3-py2.py3-none-any.whl
+[2024-04-16 10:01:37] INFO root fetch - processPackages [odoo-addon-hr-employee-cost-history]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-16 10:01:37] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-04-16 10:01:37] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: New version: [16.0.20240412.0] Old Version: [16.0.20240308.0]
+[2024-04-16 10:01:37] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/f9/81/f824b9285f1f5dd4187a4c1f93fc2679f1cb527a6ee427f5dd889455196d/data2rdf-2.0.0rc1.tar.gz
+[2024-04-16 10:01:37] INFO root fetch - processPackages [odoo-addon-hr-employee-cost-history]: Downloading https://files.pythonhosted.org/packages/c2/f5/ab1666b81c4213a68bc9d29729d8721458386e0a01019db6de8da7b7c067/odoo_addon_hr_employee_cost_history-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-16 10:01:37] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2024-04-16 10:01:37] INFO root fetch - processPackages [factorslib]: Downloading https://files.pythonhosted.org/packages/af/1e/8d83bc70a4f378bd9d938c9fe4f1f512d18b88abc4b70361b3f72c4764bd/factorslib-5.5.tar.gz
+[2024-04-16 10:01:37] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/fb/af/af740ea492988d864046f70ad66925ea270732c4eb24192fb737637e6124/odoo_addons_oca_timesheet-16.0.20240308.0-py3-none-any.whl
+[2024-04-16 10:01:37] INFO root fetch - processPackages [osparc-filecomms]: Downloading https://files.pythonhosted.org/packages/8c/41/92c80c339a54d60763b433a66ca89dadab9a7e64127e3841f9d9949bb821/osparc_filecomms-0.9.dev5-py2.py3-none-any.whl
+[2024-04-16 10:01:37] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-04-16 10:01:37] INFO root fetch - processPackages [factorslib]: executing diffoscope
+[2024-04-16 10:01:37] INFO root fetch - processPackages [factorslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorslib-5.4.tar.gz tmp/factorslib-5.5.tar.gz --markdown 20240416/f/factorslib/5.4-5.5/README.md --exclude *.pyd
+[2024-04-16 10:01:37] INFO root fetch - processPackages [osparc-filecomms]: executing diffoscope
+[2024-04-16 10:01:37] INFO root fetch - processPackages [osparc-filecomms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osparc_filecomms-0.9.dev3-py2.py3-none-any.whl.zip tmp/osparc_filecomms-0.9.dev5-py2.py3-none-any.whl.zip --markdown 20240416/o/osparc-filecomms/0.9.dev3-0.9.dev5/README.md --exclude *.pyd
+[2024-04-16 10:01:37] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-04-16 10:01:37] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240416/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-16 10:01:37] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/b9/d4/b795fa52db3faa0f5cd73c2d1baca0ea76c6e24625906adccb6f406ec443/data2rdf-2.0.0rc2.tar.gz
+[2024-04-16 10:01:37] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Downloading https://files.pythonhosted.org/packages/85/fc/d6eb9ec3f3423d6658c5ed74e811694e6d5649d701a6ccdabb6247426a5e/odoo_addons_oca_timesheet-16.0.20240412.0-py3-none-any.whl
+[2024-04-16 10:01:37] INFO root fetch - processPackages [odoo-addon-hr-employee-cost-history]: Downloading https://files.pythonhosted.org/packages/13/31/bdfbc982d1075fd1439eba974c8109239d72c6b9b26a519baad9ae5cba70/odoo_addon_hr_employee_cost_history-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 10:01:37] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2024-04-16 10:01:37] INFO root fetch - processPackages [data2rdf]: executing diffoscope
+[2024-04-16 10:01:37] INFO root fetch - processPackages [data2rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data2rdf-2.0.0rc1.tar.gz tmp/data2rdf-2.0.0rc2.tar.gz --markdown 20240416/d/data2rdf/2.0.0rc1-2.0.0rc2/README.md --exclude *.pyd
+[2024-04-16 10:01:37] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: executing diffoscope
+[2024-04-16 10:01:37] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_timesheet-16.0.20240308.0-py3-none-any.whl.zip tmp/odoo_addons_oca_timesheet-16.0.20240412.0-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-timesheet/16.0.20240308.0-16.0.20240412.0/README.md --exclude *.pyd
+[2024-04-16 10:01:38] INFO root fetch - processPackages [odoo-addon-hr-employee-cost-history]: executing diffoscope
+[2024-04-16 10:01:38] INFO root fetch - processPackages [odoo-addon-hr-employee-cost-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_employee_cost_history-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_hr_employee_cost_history-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-hr-employee-cost-history/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-16 10:01:38] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2024-04-16 10:01:38] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20240416/r/racetrack-client/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-16 10:01:38] INFO root fetch - processPackages [osparc-filecomms]: Remove: archive file [/home/abi/fetcher/tmp/osparc_filecomms-0.9.dev3-py2.py3-none-any.whl.zip]
+[2024-04-16 10:01:38] INFO root fetch - processPackages [osparc-filecomms]: Remove: archive file [/home/abi/fetcher/tmp/osparc_filecomms-0.9.dev5-py2.py3-none-any.whl.zip]
+[2024-04-16 10:01:38] INFO root fetch - processPackages [factorslib]: Remove: archive file [/home/abi/fetcher/tmp/factorslib-5.4.tar.gz]
+[2024-04-16 10:01:38] INFO root fetch - main [MainThread]: End processing [osparc-filecomms]: success
+[2024-04-16 10:01:38] INFO root fetch - processPackages [factorslib]: Remove: archive file [/home/abi/fetcher/tmp/factorslib-5.5.tar.gz]
+[2024-04-16 10:01:38] INFO root fetch - main [MainThread]: End processing [factorslib]: success
+[2024-04-16 10:01:38] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-04-16 10:01:38] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-04-16 10:01:38] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-04-16 10:01:38] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc1.tar.gz]
+[2024-04-16 10:01:38] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc2.tar.gz]
+[2024-04-16 10:01:38] INFO root fetch - main [MainThread]: End processing [data2rdf]: success
+[2024-04-16 10:01:38] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20240308.0-py3-none-any.whl.zip]
+[2024-04-16 10:01:38] INFO root fetch - processPackages [odoo-addons-oca-timesheet]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_timesheet-16.0.20240412.0-py3-none-any.whl.zip]
+[2024-04-16 10:01:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-timesheet]: success
+[2024-04-16 10:01:38] INFO root fetch - processPackages [odoo-addon-hr-employee-cost-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_cost_history-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-16 10:01:38] INFO root fetch - processPackages [odoo-addon-hr-employee-cost-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_employee_cost_history-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 10:01:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-employee-cost-history]: success
+[2024-04-16 10:01:38] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.0.tar.gz]
+[2024-04-16 10:01:38] INFO root fetch - processPackages [racetrack-client]: Remove: archive file [/home/abi/fetcher/tmp/racetrack-client-2.9.1.tar.gz]
+[2024-04-16 10:01:38] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2024-04-16 10:01:38] INFO root fetch - main [MainThread]: Store serial: [22784125]
