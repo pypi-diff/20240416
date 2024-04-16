@@ -3379,3 +3379,24 @@
 [2024-04-16 03:35:02] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.3.1.tar.gz]
 [2024-04-16 03:35:02] INFO root fetch - main [MainThread]: End processing [immanuel]: success
 [2024-04-16 03:35:02] INFO root fetch - main [MainThread]: Store serial: [22781279]
+[2024-04-16 03:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781279]
+[2024-04-16 03:37:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 03:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eidolon-ai-sdk
+[2024-04-16 03:37:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plottool-ibeis
+[2024-04-16 03:37:10] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.26] Old Version: [0.1.25]
+[2024-04-16 03:37:10] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/12/dd/7dee8457414e159ca36a5c6e3dd50d6a2b6f411e551a7d2bee4a929d1817/eidolon_ai_sdk-0.1.25.tar.gz
+[2024-04-16 03:37:10] INFO root fetch - processPackages [plottool-ibeis]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-04-16 03:37:11] INFO root fetch - processPackages [plottool-ibeis]: Downloading https://files.pythonhosted.org/packages/16/cb/b7108c5ccc559cd7de5d9dda678cd24e3c61dcb5e4a0f6177c6530de27d4/plottool_ibeis-2.2.1.tar.gz
+[2024-04-16 03:37:11] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/30/16/dcc88edc5d58f488cb8b1072cd21b1068f0692c99518be9c084123b52a7d/eidolon_ai_sdk-0.1.26.tar.gz
+[2024-04-16 03:37:11] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-04-16 03:37:11] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.25.tar.gz tmp/eidolon_ai_sdk-0.1.26.tar.gz --markdown 20240416/e/eidolon-ai-sdk/0.1.25-0.1.26/README.md --exclude *.pyd
+[2024-04-16 03:37:11] INFO root fetch - processPackages [plottool-ibeis]: Downloading https://files.pythonhosted.org/packages/df/6e/6d8b5273523d675605829002dc5fbfa78fb480577aae1599067f7eb2e9f0/plottool_ibeis-2.3.0.tar.gz
+[2024-04-16 03:37:11] INFO root fetch - processPackages [plottool-ibeis]: executing diffoscope
+[2024-04-16 03:37:11] INFO root fetch - processPackages [plottool-ibeis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plottool_ibeis-2.2.1.tar.gz tmp/plottool_ibeis-2.3.0.tar.gz --markdown 20240416/p/plottool-ibeis/2.2.1-2.3.0/README.md --exclude *.pyd
+[2024-04-16 03:37:12] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.25.tar.gz]
+[2024-04-16 03:37:12] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.26.tar.gz]
+[2024-04-16 03:37:12] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-04-16 03:37:12] INFO root fetch - processPackages [plottool-ibeis]: Remove: archive file [/home/abi/fetcher/tmp/plottool_ibeis-2.2.1.tar.gz]
+[2024-04-16 03:37:12] INFO root fetch - processPackages [plottool-ibeis]: Remove: archive file [/home/abi/fetcher/tmp/plottool_ibeis-2.3.0.tar.gz]
+[2024-04-16 03:37:12] INFO root fetch - main [MainThread]: End processing [plottool-ibeis]: success
+[2024-04-16 03:37:12] INFO root fetch - main [MainThread]: Store serial: [22781285]
