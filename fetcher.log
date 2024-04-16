@@ -6257,3 +6257,26 @@
 [2024-04-16 06:53:14] INFO root fetch - processPackages [webchanges]: Remove: archive file [/home/abi/fetcher/tmp/webchanges-3.9.2-py3-none-any.whl.zip]
 [2024-04-16 06:53:14] INFO root fetch - main [MainThread]: End processing [webchanges]: success
 [2024-04-16 06:53:14] INFO root fetch - main [MainThread]: Store serial: [22782672]
+[2024-04-16 06:55:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782672]
+[2024-04-16 06:55:23] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-16 06:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782677]
+[2024-04-16 06:57:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 06:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj-tenants
+[2024-04-16 06:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dictrule
+[2024-04-16 06:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trm-woodburn
+[2024-04-16 06:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-rec-metric
+[2024-04-16 06:57:29] INFO root fetch - processPackages [trm-woodburn]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 06:57:30] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/a7/90/2e0653208c64b2f000bad1e0bf6dfd8523840e1b44f1bb6c9005715383d0/trm_woodburn-0.0.8.tar.gz
+[2024-04-16 06:57:30] WARNING root fetch - processPackages [dictrule]: Skipping, unable to determine old version
+[2024-04-16 06:57:30] WARNING root fetch - processPackages [dj-tenants]: Skipping, unable to determine old version
+[2024-04-16 06:57:30] INFO root fetch - main [MainThread]: End processing [dictrule] error
+[2024-04-16 06:57:30] INFO root fetch - main [MainThread]: End processing [dj-tenants] error
+[2024-04-16 06:57:30] WARNING root fetch - processPackages [text-rec-metric]: Skipping, unable to determine old version
+[2024-04-16 06:57:30] INFO root fetch - main [MainThread]: End processing [text-rec-metric] error
+[2024-04-16 06:57:30] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/9c/52/1dbf0c3743671e8c68ee46e23a9262ac2ffe2769c7d0322d44ea4c05deff/trm_woodburn-0.0.9.tar.gz
+[2024-04-16 06:57:30] INFO root fetch - processPackages [trm-woodburn]: executing diffoscope
+[2024-04-16 06:57:30] INFO root fetch - processPackages [trm-woodburn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trm_woodburn-0.0.8.tar.gz tmp/trm_woodburn-0.0.9.tar.gz --markdown 20240416/t/trm-woodburn/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 06:57:30] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.8.tar.gz]
+[2024-04-16 06:57:30] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.9.tar.gz]
+[2024-04-16 06:57:30] INFO root fetch - main [MainThread]: End processing [trm-woodburn]: success
+[2024-04-16 06:57:30] INFO root fetch - main [MainThread]: Store serial: [22782696]
