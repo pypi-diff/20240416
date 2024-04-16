@@ -3214,3 +3214,21 @@
 [2024-04-16 03:21:42] INFO root fetch - processPackages [ansible-core]: Remove: archive file [/home/abi/fetcher/tmp/ansible-core-2.17.0b1.tar.gz]
 [2024-04-16 03:21:42] INFO root fetch - main [MainThread]: End processing [ansible-core]: success
 [2024-04-16 03:21:42] INFO root fetch - main [MainThread]: Store serial: [22781170]
+[2024-04-16 03:23:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781170]
+[2024-04-16 03:23:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iii-api-helper
+[2024-04-16 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speech-mongo-training-tools
+[2024-04-16 03:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hllama
+[2024-04-16 03:23:51] WARNING root fetch - processPackages [speech-mongo-training-tools]: Skipping, unable to determine old version
+[2024-04-16 03:23:51] INFO root fetch - main [MainThread]: End processing [speech-mongo-training-tools] error
+[2024-04-16 03:23:51] WARNING root fetch - processPackages [hllama]: Skipping, unable to determine old version
+[2024-04-16 03:23:51] INFO root fetch - main [MainThread]: End processing [hllama] error
+[2024-04-16 03:23:51] INFO root fetch - processPackages [iii-api-helper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 03:23:51] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/2b/87/3ec24f67ddcf117569f64f40bbe99c9884baf3eadf42eb930622e1c2b35e/iii_api_helper-0.0.8.tar.gz
+[2024-04-16 03:23:52] INFO root fetch - processPackages [iii-api-helper]: Downloading https://files.pythonhosted.org/packages/df/39/db373f60207c61e8415caed9d0d292767f5c23097ed67d6dd7bd7cf9a6f5/iii_api_helper-0.0.9.tar.gz
+[2024-04-16 03:23:52] INFO root fetch - processPackages [iii-api-helper]: executing diffoscope
+[2024-04-16 03:23:52] INFO root fetch - processPackages [iii-api-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iii_api_helper-0.0.8.tar.gz tmp/iii_api_helper-0.0.9.tar.gz --markdown 20240416/i/iii-api-helper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 03:23:52] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.8.tar.gz]
+[2024-04-16 03:23:52] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.9.tar.gz]
+[2024-04-16 03:23:52] INFO root fetch - main [MainThread]: End processing [iii-api-helper]: success
+[2024-04-16 03:23:52] INFO root fetch - main [MainThread]: Store serial: [22781184]
