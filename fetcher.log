@@ -3853,3 +3853,48 @@
 [2024-04-16 04:08:06] INFO root fetch - processPackages [duckdb_engine]: Remove: archive file [/home/abi/fetcher/tmp/duckdb_engine-0.9.5.tar.gz]
 [2024-04-16 04:08:06] INFO root fetch - main [MainThread]: End processing [duckdb_engine]: success
 [2024-04-16 04:08:06] INFO root fetch - main [MainThread]: Store serial: [22781498]
+[2024-04-16 04:10:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781498]
+[2024-04-16 04:10:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 04:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: termichat
+[2024-04-16 04:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-16 04:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchfunction
+[2024-04-16 04:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ths-mongo-training-tools
+[2024-04-16 04:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stringformatter03201
+[2024-04-16 04:10:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradio-awsBedrock-multimodalChatbot
+[2024-04-16 04:10:16] INFO root fetch - processPackages [termichat]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 04:10:16] WARNING root fetch - processPackages [ths-mongo-training-tools]: Skipping, unable to determine old version
+[2024-04-16 04:10:16] WARNING root fetch - processPackages [stringformatter03201]: Skipping, unable to determine old version
+[2024-04-16 04:10:16] INFO root fetch - main [MainThread]: End processing [ths-mongo-training-tools] error
+[2024-04-16 04:10:16] INFO root fetch - main [MainThread]: End processing [stringformatter03201] error
+[2024-04-16 04:10:16] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.16a1713207022] Old Version: [0.0.16a1713207013]
+[2024-04-16 04:10:16] INFO root fetch - processPackages [termichat]: Downloading https://files.pythonhosted.org/packages/19/5f/684f7aec23e53f8995513d5b867101ec67d7e8cc0b5a8ba57a42b21ea23b/termichat-0.0.2.tar.gz
+[2024-04-16 04:10:16] INFO root fetch - processPackages [torchfunction]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 04:10:16] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/7c/ce/58b9dbeb28d0abae513cb4d67d1f050c8fc7d94e8397065f7224a18bc2ea/pulumi_kubernetes_the_hard_way-0.0.16a1713207013.tar.gz
+[2024-04-16 04:10:16] INFO root fetch - processPackages [gradio-awsBedrock-multimodalChatbot]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 04:10:16] INFO root fetch - processPackages [torchfunction]: Downloading https://files.pythonhosted.org/packages/b5/b3/3f3e4b50c929f618b0ed1fd98da2b8acf67142302d1dcec5c60e3bf8856d/torchfunction-0.0.8-py3-none-any.whl
+[2024-04-16 04:10:16] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/26/d9/1ead8ecac8ace51620b9b41a23f6a92e5f6d242e2f62c84179ed949572a6/pulumi_kubernetes_the_hard_way-0.0.16a1713207022.tar.gz
+[2024-04-16 04:10:16] INFO root fetch - processPackages [gradio-awsBedrock-multimodalChatbot]: Downloading https://files.pythonhosted.org/packages/53/4c/8576fc4b375ba1b365e8ef20252209254877c52b44706abde7e4b3f4ef7a/gradio_awsbedrock_multimodalchatbot-0.0.1.tar.gz
+[2024-04-16 04:10:16] INFO root fetch - processPackages [termichat]: Downloading https://files.pythonhosted.org/packages/95/d1/d68c381e5e94cf5c2bb822a84960d9ad16a39fdef760a59cdd4180771a4e/termichat-0.0.3.tar.gz
+[2024-04-16 04:10:16] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-16 04:10:16] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.16a1713207013.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.16a1713207022.tar.gz --markdown 20240416/p/pulumi-kubernetes-the-hard-way/0.0.16a1713207013-0.0.16a1713207022/README.md --exclude *.pyd
+[2024-04-16 04:10:16] INFO root fetch - processPackages [termichat]: executing diffoscope
+[2024-04-16 04:10:16] INFO root fetch - processPackages [termichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termichat-0.0.2.tar.gz tmp/termichat-0.0.3.tar.gz --markdown 20240416/t/termichat/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 04:10:16] INFO root fetch - processPackages [torchfunction]: Downloading https://files.pythonhosted.org/packages/3f/d4/5051f6556eff0a10ac54966db5c2fa22655608084db6a66f2c8267031c10/torchfunction-0.0.9-py3-none-any.whl
+[2024-04-16 04:10:16] INFO root fetch - processPackages [torchfunction]: executing diffoscope
+[2024-04-16 04:10:16] INFO root fetch - processPackages [torchfunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchfunction-0.0.8-py3-none-any.whl.zip tmp/torchfunction-0.0.9-py3-none-any.whl.zip --markdown 20240416/t/torchfunction/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 04:10:17] INFO root fetch - processPackages [gradio-awsBedrock-multimodalChatbot]: Downloading https://files.pythonhosted.org/packages/48/ce/84f63ef2669e596ed504a8a381bef969cd6179af3f136191979b6542ba11/gradio_awsbedrock_multimodalchatbot-0.0.2.tar.gz
+[2024-04-16 04:10:17] INFO root fetch - processPackages [termichat]: Remove: archive file [/home/abi/fetcher/tmp/termichat-0.0.2.tar.gz]
+[2024-04-16 04:10:17] INFO root fetch - processPackages [termichat]: Remove: archive file [/home/abi/fetcher/tmp/termichat-0.0.3.tar.gz]
+[2024-04-16 04:10:17] INFO root fetch - main [MainThread]: End processing [termichat]: success
+[2024-04-16 04:10:17] INFO root fetch - processPackages [torchfunction]: Remove: archive file [/home/abi/fetcher/tmp/torchfunction-0.0.8-py3-none-any.whl.zip]
+[2024-04-16 04:10:17] INFO root fetch - processPackages [torchfunction]: Remove: archive file [/home/abi/fetcher/tmp/torchfunction-0.0.9-py3-none-any.whl.zip]
+[2024-04-16 04:10:17] INFO root fetch - main [MainThread]: End processing [torchfunction]: success
+[2024-04-16 04:10:17] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.16a1713207013.tar.gz]
+[2024-04-16 04:10:17] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.16a1713207022.tar.gz]
+[2024-04-16 04:10:17] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-16 04:10:17] INFO root fetch - processPackages [gradio-awsBedrock-multimodalChatbot]: executing diffoscope
+[2024-04-16 04:10:17] INFO root fetch - processPackages [gradio-awsBedrock-multimodalChatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_awsbedrock_multimodalchatbot-0.0.1.tar.gz tmp/gradio_awsbedrock_multimodalchatbot-0.0.2.tar.gz --markdown 20240416/g/gradio-awsBedrock-multimodalChatbot/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 04:10:18] INFO root fetch - processPackages [gradio-awsBedrock-multimodalChatbot]: Remove: archive file [/home/abi/fetcher/tmp/gradio_awsbedrock_multimodalchatbot-0.0.1.tar.gz]
+[2024-04-16 04:10:18] INFO root fetch - processPackages [gradio-awsBedrock-multimodalChatbot]: Remove: archive file [/home/abi/fetcher/tmp/gradio_awsbedrock_multimodalchatbot-0.0.2.tar.gz]
+[2024-04-16 04:10:18] INFO root fetch - main [MainThread]: End processing [gradio-awsBedrock-multimodalChatbot]: success
+[2024-04-16 04:10:18] INFO root fetch - main [MainThread]: Store serial: [22781515]
