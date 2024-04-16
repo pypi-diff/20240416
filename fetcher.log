@@ -6586,3 +6586,63 @@
 [2024-04-16 07:19:52] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-16 07:19:52] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-16 07:19:52] INFO root fetch - main [MainThread]: Store serial: [22782805]
+[2024-04-16 07:22:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782805]
+[2024-04-16 07:22:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 07:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: factory_farm
+[2024-04-16 07:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mms-client
+[2024-04-16 07:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: river-core
+[2024-04-16 07:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: icad-tone-detection
+[2024-04-16 07:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bavisitter
+[2024-04-16 07:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: example-package-mxgnxs
+[2024-04-16 07:22:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gaea-tracker
+[2024-04-16 07:22:08] INFO root fetch - processPackages [factory_farm]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-16 07:22:08] WARNING root fetch - processPackages [example-package-mxgnxs]: Skipping, unable to determine old version
+[2024-04-16 07:22:08] INFO root fetch - main [MainThread]: End processing [example-package-mxgnxs] error
+[2024-04-16 07:22:08] INFO root fetch - processPackages [bavisitter]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-16 07:22:08] INFO root fetch - processPackages [mms-client]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-16 07:22:08] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/09/37/9782b73d2efcc327567daa6f95bc8a38b35279b629f39ce3a7d7a4855400/factory_farm-1.2.0.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [icad-tone-detection]: New version: [0.8] Old Version: [0.7]
+[2024-04-16 07:22:08] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/b8/3b/913a70bb04abf077eead7a8a7de58e7957f6debc47cd7ccb2792bd29d2c0/bavisitter-0.0.1a0.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [river-core]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-16 07:22:08] INFO root fetch - processPackages [gaea-tracker]: New version: [1.2.0.4] Old Version: [1.2.0.3]
+[2024-04-16 07:22:08] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/7a/d2/205368fa83bd8d2f77fe8dcf989ba2630e8c80017c9c89ba397b22fce26d/mms_client-1.3.0.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/86/f9/7bc1b7f131e50cb03e6788598a83e0f6685df24d715f060a2efa5a8cf51a/gaea_tracker-1.2.0.3-py3-none-any.whl
+[2024-04-16 07:22:08] INFO root fetch - processPackages [icad-tone-detection]: Downloading https://files.pythonhosted.org/packages/93/b8/2f7e6b7816aa0aa7f180159a9d03d2784c20a8383f7369a898a843d9df70/icad_tone_detection-0.7.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [river-core]: Downloading https://files.pythonhosted.org/packages/42/f4/f462ce59b7a57b4abae549d47ce32d1cc2c8a32306777aae988315f8eabb/river_core-1.4.2.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/14/fd/12943cb85d27a158b8c65fcc85277d96f617f328275eb2a90725472f9f40/factory_farm-1.2.1.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/64/58/bb6aa3566e4f037abb770e60552c969c91a38c78040fa2711bf73c3498b7/bavisitter-0.0.1a1.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/5c/49/08b41c94790ad5fc66958378e2146d652d4a6deed7d600574ac0ab0c3668/mms_client-1.3.1.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/1c/7f/a8135f0cb59a6c5b025b518236adc9d6a58295a52f758b46414aa589b53e/gaea_tracker-1.2.0.4-py3-none-any.whl
+[2024-04-16 07:22:08] INFO root fetch - processPackages [river-core]: Downloading https://files.pythonhosted.org/packages/ae/74/8c39b5fb79f11b61c565d7ad7eed3d50ecc50080e4cb94b00f5a2cb1746b/river_core-1.4.3.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [icad-tone-detection]: Downloading https://files.pythonhosted.org/packages/a8/d5/17b0e52c861092f362c4981e19a987ec6f25f0b96a009b470f0f8a500216/icad_tone_detection-0.8.tar.gz
+[2024-04-16 07:22:08] INFO root fetch - processPackages [mms-client]: executing diffoscope
+[2024-04-16 07:22:08] INFO root fetch - processPackages [mms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_client-1.3.0.tar.gz tmp/mms_client-1.3.1.tar.gz --markdown 20240416/m/mms-client/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-16 07:22:08] INFO root fetch - processPackages [river-core]: executing diffoscope
+[2024-04-16 07:22:08] INFO root fetch - processPackages [river-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/river_core-1.4.2.tar.gz tmp/river_core-1.4.3.tar.gz --markdown 20240416/r/river-core/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-16 07:22:08] INFO root fetch - processPackages [factory_farm]: executing diffoscope
+[2024-04-16 07:22:08] INFO root fetch - processPackages [factory_farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factory_farm-1.2.0.tar.gz tmp/factory_farm-1.2.1.tar.gz --markdown 20240416/f/factory_farm/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-16 07:22:08] INFO root fetch - processPackages [gaea-tracker]: executing diffoscope
+[2024-04-16 07:22:08] INFO root fetch - processPackages [gaea-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_tracker-1.2.0.3-py3-none-any.whl.zip tmp/gaea_tracker-1.2.0.4-py3-none-any.whl.zip --markdown 20240416/g/gaea-tracker/1.2.0.3-1.2.0.4/README.md --exclude *.pyd
+[2024-04-16 07:22:08] INFO root fetch - processPackages [icad-tone-detection]: executing diffoscope
+[2024-04-16 07:22:08] INFO root fetch - processPackages [icad-tone-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icad_tone_detection-0.7.tar.gz tmp/icad_tone_detection-0.8.tar.gz --markdown 20240416/i/icad-tone-detection/0.7-0.8/README.md --exclude *.pyd
+[2024-04-16 07:22:09] INFO root fetch - processPackages [bavisitter]: executing diffoscope
+[2024-04-16 07:22:09] INFO root fetch - processPackages [bavisitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bavisitter-0.0.1a0.tar.gz tmp/bavisitter-0.0.1a1.tar.gz --markdown 20240416/b/bavisitter/0.0.1a0-0.0.1a1/README.md --exclude *.pyd
+[2024-04-16 07:22:09] INFO root fetch - processPackages [river-core]: Remove: archive file [/home/abi/fetcher/tmp/river_core-1.4.2.tar.gz]
+[2024-04-16 07:22:09] INFO root fetch - processPackages [river-core]: Remove: archive file [/home/abi/fetcher/tmp/river_core-1.4.3.tar.gz]
+[2024-04-16 07:22:09] INFO root fetch - main [MainThread]: End processing [river-core]: success
+[2024-04-16 07:22:09] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.3-py3-none-any.whl.zip]
+[2024-04-16 07:22:09] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.4-py3-none-any.whl.zip]
+[2024-04-16 07:22:09] INFO root fetch - main [MainThread]: End processing [gaea-tracker]: success
+[2024-04-16 07:22:09] INFO root fetch - processPackages [icad-tone-detection]: Remove: archive file [/home/abi/fetcher/tmp/icad_tone_detection-0.7.tar.gz]
+[2024-04-16 07:22:09] INFO root fetch - processPackages [icad-tone-detection]: Remove: archive file [/home/abi/fetcher/tmp/icad_tone_detection-0.8.tar.gz]
+[2024-04-16 07:22:09] INFO root fetch - main [MainThread]: End processing [icad-tone-detection]: success
+[2024-04-16 07:22:09] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.3.0.tar.gz]
+[2024-04-16 07:22:09] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.3.1.tar.gz]
+[2024-04-16 07:22:09] INFO root fetch - main [MainThread]: End processing [mms-client]: success
+[2024-04-16 07:22:12] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.2.0.tar.gz]
+[2024-04-16 07:22:12] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.2.1.tar.gz]
+[2024-04-16 07:22:12] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
+[2024-04-16 07:22:30] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1a0.tar.gz]
+[2024-04-16 07:22:30] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1a1.tar.gz]
+[2024-04-16 07:22:30] INFO root fetch - main [MainThread]: End processing [bavisitter]: success
+[2024-04-16 07:22:30] INFO root fetch - main [MainThread]: Store serial: [22782831]
