@@ -5892,3 +5892,45 @@
 [2024-04-16 06:22:46] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip]
 [2024-04-16 06:22:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
 [2024-04-16 06:22:46] INFO root fetch - main [MainThread]: Store serial: [22782496]
+[2024-04-16 06:24:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782496]
+[2024-04-16 06:24:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 06:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: correlation-analysis
+[2024-04-16 06:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: olas-operate-middleware
+[2024-04-16 06:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hllama
+[2024-04-16 06:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prerun
+[2024-04-16 06:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: superagent-py
+[2024-04-16 06:24:56] INFO root fetch - processPackages [hllama]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 06:24:56] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2024-04-16 06:24:56] WARNING root fetch - processPackages [correlation-analysis]: Skipping, unable to determine old version
+[2024-04-16 06:24:56] INFO root fetch - processPackages [hllama]: Downloading https://files.pythonhosted.org/packages/6c/3d/7498a856b68b11483978b433ac9fc94b5b9ccef2dffb0e18b11adac7dcfa/hllama-0.0.3-py3-none-any.whl
+[2024-04-16 06:24:56] INFO root fetch - main [MainThread]: End processing [correlation-analysis] error
+[2024-04-16 06:24:56] INFO root fetch - processPackages [prerun]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-16 06:24:56] INFO root fetch - processPackages [superagent-py]: New version: [0.2.30] Old Version: [0.2.29]
+[2024-04-16 06:24:56] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/e9/3c/655918df4c5d0a5d95e48adc2d7cd9604e9a322c26967e89c6c182f0bed5/olas_operate_middleware-0.1.0rc3.tar.gz
+[2024-04-16 06:24:56] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/03/8a/c2cd4c421b95063c5896307dd283026bc362313e89dc32f9a1dcfacf934a/prerun-0.1.7.tar.gz
+[2024-04-16 06:24:56] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/0e/28/e9f37e56024f9a5ed1af3453f03dbe4283ffe114161c3e6fbe79f4525548/superagent_py-0.2.29.tar.gz
+[2024-04-16 06:24:56] INFO root fetch - processPackages [hllama]: Downloading https://files.pythonhosted.org/packages/1a/f0/c44be25c7d894aaba5117488c6abbadf6373d8485a897ce427101db32fc3/hllama-0.0.4-py3-none-any.whl
+[2024-04-16 06:24:57] INFO root fetch - processPackages [hllama]: executing diffoscope
+[2024-04-16 06:24:57] INFO root fetch - processPackages [hllama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hllama-0.0.3-py3-none-any.whl.zip tmp/hllama-0.0.4-py3-none-any.whl.zip --markdown 20240416/h/hllama/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 06:24:57] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/07/bd/3ea5f00c41e8468631f7578d30609cf485714b027729d72c41e470718aa9/olas_operate_middleware-0.1.0rc4.tar.gz
+[2024-04-16 06:24:57] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/a4/8e/8b3945e85cf5472c2620e981ab2eba91be98c668f5115f00e1fe27113c02/prerun-0.1.8.tar.gz
+[2024-04-16 06:24:57] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/5a/2b/0fa5338f75af2e77fcdb493b8a7d5efdac73cc78393fcb9e3ccc2eb26e78/superagent_py-0.2.30.tar.gz
+[2024-04-16 06:24:57] INFO root fetch - processPackages [prerun]: executing diffoscope
+[2024-04-16 06:24:57] INFO root fetch - processPackages [prerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prerun-0.1.7.tar.gz tmp/prerun-0.1.8.tar.gz --markdown 20240416/p/prerun/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-16 06:24:57] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-04-16 06:24:57] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc3.tar.gz tmp/olas_operate_middleware-0.1.0rc4.tar.gz --markdown 20240416/o/olas-operate-middleware/0.1.0rc3-0.1.0rc4/README.md --exclude *.pyd
+[2024-04-16 06:24:57] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2024-04-16 06:24:57] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.2.29.tar.gz tmp/superagent_py-0.2.30.tar.gz --markdown 20240416/s/superagent-py/0.2.29-0.2.30/README.md --exclude *.pyd
+[2024-04-16 06:24:57] INFO root fetch - processPackages [hllama]: Remove: archive file [/home/abi/fetcher/tmp/hllama-0.0.3-py3-none-any.whl.zip]
+[2024-04-16 06:24:57] INFO root fetch - processPackages [hllama]: Remove: archive file [/home/abi/fetcher/tmp/hllama-0.0.4-py3-none-any.whl.zip]
+[2024-04-16 06:24:57] INFO root fetch - main [MainThread]: End processing [hllama]: success
+[2024-04-16 06:24:57] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-0.1.7.tar.gz]
+[2024-04-16 06:24:57] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-0.1.8.tar.gz]
+[2024-04-16 06:24:57] INFO root fetch - main [MainThread]: End processing [prerun]: success
+[2024-04-16 06:24:57] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc3.tar.gz]
+[2024-04-16 06:24:57] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc4.tar.gz]
+[2024-04-16 06:24:57] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-04-16 06:24:58] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.2.29.tar.gz]
+[2024-04-16 06:24:58] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.2.30.tar.gz]
+[2024-04-16 06:24:58] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2024-04-16 06:24:58] INFO root fetch - main [MainThread]: Store serial: [22782514]
