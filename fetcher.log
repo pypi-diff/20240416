@@ -3307,3 +3307,45 @@
 [2024-04-16 03:30:37] WARNING root fetch - processPackages [sinnia-utils]: Skipping, unable to determine old version
 [2024-04-16 03:30:37] INFO root fetch - main [MainThread]: End processing [sinnia-utils] error
 [2024-04-16 03:30:37] INFO root fetch - main [MainThread]: Store serial: [22781230]
+[2024-04-16 03:32:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781230]
+[2024-04-16 03:32:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 03:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-04-16 03:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thsspeechtraningtools
+[2024-04-16 03:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agave-pyclient
+[2024-04-16 03:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avocentdpdu
+[2024-04-16 03:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyAgrum-nightly
+[2024-04-16 03:32:46] INFO root fetch - processPackages [avocentdpdu]: New version: [1.0.0] Old Version: [0.0.5]
+[2024-04-16 03:32:46] INFO root fetch - processPackages [pyqqq]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-16 03:32:46] INFO root fetch - processPackages [agave-pyclient]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-16 03:32:46] WARNING root fetch - processPackages [thsspeechtraningtools]: Skipping, unable to determine old version
+[2024-04-16 03:32:46] INFO root fetch - main [MainThread]: End processing [thsspeechtraningtools] error
+[2024-04-16 03:32:46] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/be/56/59f604f078fb3222e3139ccfbcdf14d65a1ad1708f73b58ca7cf70d7c3a9/avocentdpdu-0.0.5.tar.gz
+[2024-04-16 03:32:46] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/fc/8c/d034edf18d3482af79502fa5297ae5c79cacb6553e58fafd785db6a608d8/pyqqq-0.7.5.tar.gz
+[2024-04-16 03:32:46] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/40/4c/af65a2fbb3e7f43b52f41f6a0c89c2fa9a4234d11050a72e67acbf1e8a48/agave_pyclient-1.6.1.tar.gz
+[2024-04-16 03:32:46] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/95/51/a8fba09d721530722fec9015f2c2bcc2540cf6727ba77c4ee1ea17573e91/avocentdpdu-1.0.0.tar.gz
+[2024-04-16 03:32:46] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/bf/3c/078a0dbd8778e58241cedba5eeaf8a303b0c320c9447cfbdde86ac7b4d11/pyqqq-0.7.6.tar.gz
+[2024-04-16 03:32:46] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/9e/9d/9903c01afd1089868adb7ee6a726ced83487e8d660b6a2a25ffb33b5e180/agave_pyclient-1.6.2.tar.gz
+[2024-04-16 03:32:46] INFO root fetch - processPackages [avocentdpdu]: executing diffoscope
+[2024-04-16 03:32:46] INFO root fetch - processPackages [avocentdpdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocentdpdu-0.0.5.tar.gz tmp/avocentdpdu-1.0.0.tar.gz --markdown 20240416/a/avocentdpdu/0.0.5-1.0.0/README.md --exclude *.pyd
+[2024-04-16 03:32:46] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-16 03:32:46] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.7.5.tar.gz tmp/pyqqq-0.7.6.tar.gz --markdown 20240416/p/pyqqq/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-16 03:32:47] INFO root fetch - processPackages [agave-pyclient]: executing diffoscope
+[2024-04-16 03:32:47] INFO root fetch - processPackages [agave-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agave_pyclient-1.6.1.tar.gz tmp/agave_pyclient-1.6.2.tar.gz --markdown 20240416/a/agave-pyclient/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-04-16 03:32:47] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-0.0.5.tar.gz]
+[2024-04-16 03:32:47] INFO root fetch - processPackages [agave-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/agave_pyclient-1.6.1.tar.gz]
+[2024-04-16 03:32:47] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-1.0.0.tar.gz]
+[2024-04-16 03:32:47] INFO root fetch - processPackages [agave-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/agave_pyclient-1.6.2.tar.gz]
+[2024-04-16 03:32:47] INFO root fetch - main [MainThread]: End processing [avocentdpdu]: success
+[2024-04-16 03:32:47] INFO root fetch - main [MainThread]: End processing [agave-pyclient]: success
+[2024-04-16 03:32:47] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.5.tar.gz]
+[2024-04-16 03:32:47] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.6.tar.gz]
+[2024-04-16 03:32:47] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-16 03:32:48] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-16 03:32:49] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-16 03:32:49] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-16 03:32:49] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-16 03:32:49] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240416/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-04-16 03:32:50] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 03:32:50] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 03:32:50] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-16 03:32:50] INFO root fetch - main [MainThread]: Store serial: [22781257]
