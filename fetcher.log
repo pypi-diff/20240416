@@ -19911,3 +19911,71 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:52:39] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2024-04-16 15:52:39] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2024-04-16 15:52:39] INFO root fetch - main [MainThread]: Store serial: [22788487]
+[2024-04-16 15:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788487]
+[2024-04-16 15:54:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 15:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mns-common
+[2024-04-16 15:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensordict-nightly
+[2024-04-16 15:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdfminer.rtl
+[2024-04-16 15:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simplenote-local
+[2024-04-16 15:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: philander
+[2024-04-16 15:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenGeode-core
+[2024-04-16 15:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sneakpeek
+[2024-04-16 15:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pharmcat-runner
+[2024-04-16 15:54:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-renamer
+[2024-04-16 15:54:48] INFO root fetch - processPackages [pdfminer.rtl]: New version: [1.0.1.dev17] Old Version: [0.0.2.dev8]
+[2024-04-16 15:54:48] WARNING root fetch - processPackages [simplenote-local]: Skipping, unable to determine old version
+[2024-04-16 15:54:48] INFO root fetch - main [MainThread]: End processing [simplenote-local] error
+[2024-04-16 15:54:48] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/4b/16/f6d357b26d9ce4546aad1cd8a0ad0392f1ba9061180f28161d74d069b054/pdfminer_rtl-0.0.2.dev8.tar.gz
+[2024-04-16 15:54:48] INFO root fetch - processPackages [pharmcat-runner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 15:54:48] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.19.0rc1]
+[2024-04-16 15:54:48] INFO root fetch - processPackages [philander]: New version: [0.1.2a0] Old Version: [0.1.1]
+[2024-04-16 15:54:48] INFO root fetch - processPackages [sneakpeek]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-16 15:54:48] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.4.7] Old Version: [1.0.7.4.6]
+[2024-04-16 15:54:48] WARNING root fetch - processPackages [python-renamer]: Skipping, unable to determine old version
+[2024-04-16 15:54:48] INFO root fetch - main [MainThread]: End processing [python-renamer] error
+[2024-04-16 15:54:48] INFO root fetch - processPackages [sneakpeek]: Downloading https://files.pythonhosted.org/packages/7c/65/bf7562f3405ca6e3dcda1ae2d97db2772136250b5495c5ab8cf1fc848fc0/sneakpeek-0.8.3.tar.gz
+[2024-04-16 15:54:48] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/30/3d/15403695b4c676c13ebe8da87a64aa8a75efd39d5dc8459cebe37daf0824/philander-0.1.1.tar.gz
+[2024-04-16 15:54:48] INFO root fetch - processPackages [pharmcat-runner]: Downloading https://files.pythonhosted.org/packages/f5/f8/c65048769b1a74b37b9550ca7bc94a7ab59a729bccffaeaf97ed2fa186e1/pharmcat_runner-0.0.7.tar.gz
+[2024-04-16 15:54:48] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/aa/bf/98ceb978ea6b730bfe02b26f84f14b92c1b279bae8006eecf61691ecb53d/mns_common-1.0.7.4.6.tar.gz
+[2024-04-16 15:54:48] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/3d/af/c97dd1ab5645622b1a4d2340b2fd5d395cbe9a041e527d95bbb1f07565ff/OpenGeode_core-14.19.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-16 15:54:48] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-16 15:54:48] INFO root fetch - processPackages [sneakpeek]: Downloading https://files.pythonhosted.org/packages/cc/c1/fa21c93488d3b6a5274379f867c12f0d5291bc77520ad0f3db35d3a2b944/sneakpeek-0.9.0.tar.gz
+[2024-04-16 15:54:48] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/cd/1c/8579b410faa082f73f4c5e15b9f2df9564f5500baeca12f401c71c95762b/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl
+[2024-04-16 15:54:48] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11735456>=10485760
+[2024-04-16 15:54:48] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-04-16 15:54:48] INFO root fetch - processPackages [pharmcat-runner]: Downloading https://files.pythonhosted.org/packages/46/60/844014c15c2d8bb4eb5cfeeadfd9332157c9d9d1dae3ae6148e8a25df107/pharmcat_runner-0.0.8.tar.gz
+[2024-04-16 15:54:49] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/dc/1d/0027a53a2681bb5e871624e1c329ca5caf043821eb0b459469645ad221c1/pdfminer.rtl-1.0.1.dev17.tar.gz
+[2024-04-16 15:54:49] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/67/11/3127e76d23391da5fb63d6f9120ac4d01f01c6011f257d719b222b1f9ccf/mns_common-1.0.7.4.7.tar.gz
+[2024-04-16 15:54:49] INFO root fetch - processPackages [sneakpeek]: executing diffoscope
+[2024-04-16 15:54:49] INFO root fetch - processPackages [sneakpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneakpeek-0.8.3.tar.gz tmp/sneakpeek-0.9.0.tar.gz --markdown 20240416/s/sneakpeek/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-16 15:54:49] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/84/d3/cfec04f85a744285c344b6e20a22812f7b1c8f94506380531da14fa9038e/philander-0.1.2a0.tar.gz
+[2024-04-16 15:54:49] INFO root fetch - processPackages [pharmcat-runner]: executing diffoscope
+[2024-04-16 15:54:49] INFO root fetch - processPackages [pharmcat-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmcat_runner-0.0.7.tar.gz tmp/pharmcat_runner-0.0.8.tar.gz --markdown 20240416/p/pharmcat-runner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 15:54:49] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/07/82/e5cb687b1d6b19f6d3c57c14285a0e891743c0fd72b7d62c9298fc937736/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl
+[2024-04-16 15:54:49] INFO root fetch - processPackages [pdfminer.rtl]: executing diffoscope
+[2024-04-16 15:54:49] INFO root fetch - processPackages [pdfminer.rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfminer_rtl-0.0.2.dev8.tar.gz tmp/pdfminer.rtl-1.0.1.dev17.tar.gz --markdown 20240416/p/pdfminer.rtl/0.0.2.dev8-1.0.1.dev17/README.md --exclude *.pyd
+[2024-04-16 15:54:49] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-16 15:54:49] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.4.6.tar.gz tmp/mns_common-1.0.7.4.7.tar.gz --markdown 20240416/m/mns-common/1.0.7.4.6-1.0.7.4.7/README.md --exclude *.pyd
+[2024-04-16 15:54:49] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-04-16 15:54:49] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20240416/t/tensordict-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-16 15:54:49] INFO root fetch - processPackages [philander]: executing diffoscope
+[2024-04-16 15:54:49] INFO root fetch - processPackages [philander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philander-0.1.1.tar.gz tmp/philander-0.1.2a0.tar.gz --markdown 20240416/p/philander/0.1.1-0.1.2a0/README.md --exclude *.pyd
+[2024-04-16 15:54:49] INFO root fetch - processPackages [sneakpeek]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek-0.8.3.tar.gz]
+[2024-04-16 15:54:49] INFO root fetch - processPackages [sneakpeek]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek-0.9.0.tar.gz]
+[2024-04-16 15:54:49] INFO root fetch - main [MainThread]: End processing [sneakpeek]: success
+[2024-04-16 15:54:49] INFO root fetch - processPackages [pharmcat-runner]: Remove: archive file [/home/abi/fetcher/tmp/pharmcat_runner-0.0.7.tar.gz]
+[2024-04-16 15:54:49] INFO root fetch - processPackages [pharmcat-runner]: Remove: archive file [/home/abi/fetcher/tmp/pharmcat_runner-0.0.8.tar.gz]
+[2024-04-16 15:54:49] INFO root fetch - main [MainThread]: End processing [pharmcat-runner]: success
+[2024-04-16 15:54:50] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.6.tar.gz]
+[2024-04-16 15:54:50] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.7.tar.gz]
+[2024-04-16 15:54:50] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-16 15:54:50] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 15:54:50] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 15:54:50] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-04-16 15:54:51] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev8.tar.gz]
+[2024-04-16 15:54:51] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer.rtl-1.0.1.dev17.tar.gz]
+[2024-04-16 15:54:51] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl]: success
+[2024-04-16 15:54:55] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.1.tar.gz]
+[2024-04-16 15:54:55] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.2a0.tar.gz]
+[2024-04-16 15:54:55] INFO root fetch - main [MainThread]: End processing [philander]: success
+[2024-04-16 15:54:55] INFO root fetch - main [MainThread]: Store serial: [22788533]
