@@ -2169,3 +2169,54 @@
 [2024-04-16 02:10:48] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404150227.tar.gz]
 [2024-04-16 02:10:48] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-16 02:10:48] INFO root fetch - main [MainThread]: Store serial: [22780672]
+[2024-04-16 02:12:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780672]
+[2024-04-16 02:12:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catppuccin-jupyterlab
+[2024-04-16 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rime-sdk
+[2024-04-16 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2024-04-16 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-nag
+[2024-04-16 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TkEasyGUI
+[2024-04-16 02:12:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ubitlogger
+[2024-04-16 02:12:58] INFO root fetch - processPackages [TkEasyGUI]: New version: [0.2.44] Old Version: [0.2.43]
+[2024-04-16 02:12:58] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.98] Old Version: [2.2.97]
+[2024-04-16 02:12:58] INFO root fetch - processPackages [catppuccin-jupyterlab]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-16 02:12:58] WARNING root fetch - processPackages [ubitlogger]: Skipping, unable to determine old version
+[2024-04-16 02:12:58] INFO root fetch - main [MainThread]: End processing [ubitlogger] error
+[2024-04-16 02:12:58] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/b3/12/998be4a80381ebe1169223a2bcbfbbfe0d3e079fea9297f01b88007baa4e/TkEasyGUI-0.2.43.tar.gz
+[2024-04-16 02:12:58] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc4] Old Version: [2.8.0rc3]
+[2024-04-16 02:12:58] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/1d/1f/64cd64b1d993b6532e232b33fc500b99a5ea8f77b68a4e6687b6c31d1907/cdk-events-notify-2.2.97.tar.gz
+[2024-04-16 02:12:58] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-04-16 02:12:58] INFO root fetch - processPackages [catppuccin-jupyterlab]: Downloading https://files.pythonhosted.org/packages/1c/69/3595de126682b403bba59a5174f843bfb17ab46d96ab6b9fe2b411ea476a/catppuccin_jupyterlab-0.2.0.tar.gz
+[2024-04-16 02:12:58] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/3b/f8/112f63ed3c0161ffebbad573e5184a64c141dcbc9f8ee9f2c33ee1878b3c/tkeasygui-0.2.44.tar.gz
+[2024-04-16 02:12:58] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/14/2d/d1fb220a831097e8102bfc3a01b27cffa87053febb74031b87ed929e614b/rime_sdk-2.8.0rc3.tar.gz
+[2024-04-16 02:12:58] INFO root fetch - processPackages [TkEasyGUI]: executing diffoscope
+[2024-04-16 02:12:58] INFO root fetch - processPackages [TkEasyGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TkEasyGUI-0.2.43.tar.gz tmp/tkeasygui-0.2.44.tar.gz --markdown 20240416/T/TkEasyGUI/0.2.43-0.2.44/README.md --exclude *.pyd
+[2024-04-16 02:12:58] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-04-16 02:12:58] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-16 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-16 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.97.tar.gz tmp/cdk-events-notify-2.2.98.tar.gz --markdown 20240416/c/cdk-events-notify/2.2.97-2.2.98/README.md --exclude *.pyd
+[2024-04-16 02:12:59] INFO root fetch - processPackages [catppuccin-jupyterlab]: Downloading https://files.pythonhosted.org/packages/23/d6/f9b023c590a15b74378d193e8e52d9ee49cb432ca99d45e33e69c7fcf46b/catppuccin_jupyterlab-0.2.1.tar.gz
+[2024-04-16 02:12:59] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/d8/e5/f8773b988dbeeab44697eb468b65379e93b668a57299304a100f6938db8a/rime_sdk-2.8.0rc4.tar.gz
+[2024-04-16 02:12:59] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-04-16 02:12:59] INFO root fetch - processPackages [catppuccin-jupyterlab]: executing diffoscope
+[2024-04-16 02:12:59] INFO root fetch - processPackages [catppuccin-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catppuccin_jupyterlab-0.2.0.tar.gz tmp/catppuccin_jupyterlab-0.2.1.tar.gz --markdown 20240416/c/catppuccin-jupyterlab/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-16 02:12:59] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-04-16 02:12:59] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc3.tar.gz tmp/rime_sdk-2.8.0rc4.tar.gz --markdown 20240416/r/rime-sdk/2.8.0rc3-2.8.0rc4/README.md --exclude *.pyd
+[2024-04-16 02:12:59] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-04-16 02:12:59] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240416/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-04-16 02:12:59] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/TkEasyGUI-0.2.43.tar.gz]
+[2024-04-16 02:12:59] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.44.tar.gz]
+[2024-04-16 02:12:59] INFO root fetch - main [MainThread]: End processing [TkEasyGUI]: success
+[2024-04-16 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.97.tar.gz]
+[2024-04-16 02:12:59] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-04-16 02:12:59] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-16 02:13:00] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-04-16 02:13:00] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-04-16 02:13:00] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-04-16 02:13:00] INFO root fetch - processPackages [catppuccin-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/catppuccin_jupyterlab-0.2.0.tar.gz]
+[2024-04-16 02:13:00] INFO root fetch - processPackages [catppuccin-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/catppuccin_jupyterlab-0.2.1.tar.gz]
+[2024-04-16 02:13:00] INFO root fetch - main [MainThread]: End processing [catppuccin-jupyterlab]: success
+[2024-04-16 02:13:01] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc3.tar.gz]
+[2024-04-16 02:13:01] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc4.tar.gz]
+[2024-04-16 02:13:01] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-04-16 02:13:01] INFO root fetch - main [MainThread]: Store serial: [22780692]
