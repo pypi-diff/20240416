@@ -11696,3 +11696,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:59:21] INFO root fetch - processPackages [human-protocol-sdk]: Remove: archive file [/home/abi/fetcher/tmp/human-protocol-sdk-2.1.2.tar.gz]
 [2024-04-16 10:59:21] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
 [2024-04-16 10:59:21] INFO root fetch - main [MainThread]: Store serial: [22784931]
+[2024-04-16 11:01:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784931]
+[2024-04-16 11:01:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 11:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyhelper-utils
+[2024-04-16 11:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mariqt
+[2024-04-16 11:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syned
+[2024-04-16 11:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Bgolearn
+[2024-04-16 11:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: removable-package
+[2024-04-16 11:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tq42-grpc-client
+[2024-04-16 11:01:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reviutils
+[2024-04-16 11:01:37] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.96] Old Version: [1.0.95]
+[2024-04-16 11:01:37] INFO root fetch - processPackages [reviutils]: New version: [1.4.0a4] Old Version: [1.3.4]
+[2024-04-16 11:01:37] INFO root fetch - processPackages [removable-package]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-16 11:01:37] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/b4/8d/dde85cb0f94a9f5ec255cb91cbabac7bdb36d53f9aa48b3b383f0282293d/tq42-grpc-client-1.0.95.tar.gz
+[2024-04-16 11:01:37] INFO root fetch - processPackages [Bgolearn]: New version: [2.3.0] Old Version: [2.2.4]
+[2024-04-16 11:01:37] INFO root fetch - processPackages [syned]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 11:01:37] INFO root fetch - processPackages [pyhelper-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 11:01:37] INFO root fetch - processPackages [mariqt]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-16 11:01:37] ERROR root fetch - processPackages [removable-package]: Unable to fetch info: No such project/version 'removable-package' 1.0.0
+[2024-04-16 11:01:37] INFO root fetch - main [MainThread]: End processing [removable-package] error
+[2024-04-16 11:01:37] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/c7/ef/914cd18a5a107ec08753bd6c3d9b49ba9d375a3a4645a5dc8057d0e9707b/reviutils-1.3.4.tar.gz
+[2024-04-16 11:01:37] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/9a/85/374dd655f0998fe47d425b7753802c4dd70813ead99eb06ed11a0184edc0/Bgolearn-2.2.4.tar.gz
+[2024-04-16 11:01:37] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/b0/79/7f514832f284b942b0701ed9c59de4c8e6ea368ae1637fe0e5bbf4346cec/pyhelper_utils-0.0.8.tar.gz
+[2024-04-16 11:01:37] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/af/fc/9ece71d88ec2dbe0ba4765a05d720d0e7c9ce931a03b58abd0477e24e833/mariqt-0.6.8-py2.py3-none-any.whl
+[2024-04-16 11:01:37] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/52/38/e7726d8a7a397af5aec0afe4e74276f3fcca8109666769dca40501cd4146/tq42_grpc_client-1.0.96.tar.gz
+[2024-04-16 11:01:37] INFO root fetch - processPackages [syned]: Downloading https://files.pythonhosted.org/packages/d2/7e/ae0f62be13b329bdd8d2d40211e4d98333ce52e2582f53e4c67b44213911/syned-1.0.8.tar.gz
+[2024-04-16 11:01:38] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-04-16 11:01:38] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42-grpc-client-1.0.95.tar.gz tmp/tq42_grpc_client-1.0.96.tar.gz --markdown 20240416/t/tq42-grpc-client/1.0.95-1.0.96/README.md --exclude *.pyd
+[2024-04-16 11:01:38] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/24/86/620756ea0ce4250459735a38101b4b761f44fb7184bd72553a0b4ea4cbdd/reviutils-1.4.0a4.tar.gz
+[2024-04-16 11:01:38] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/20/33/aea5ee8509ce0c70183f2038cd3d7be3049799aa02d8fd06768d8a9c9eff/Bgolearn-2.3.0.tar.gz
+[2024-04-16 11:01:38] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/36/fc/49838721a63519de9a0bf1ceec71298239af5e448eaef761acf5b828a024/pyhelper_utils-0.0.9.tar.gz
+[2024-04-16 11:01:38] INFO root fetch - processPackages [mariqt]: Downloading https://files.pythonhosted.org/packages/be/2d/c7615e2ad1959bb49daf4676d5f8f6df292772ca929ff0503ea5a893de19/mariqt-0.6.9-py2.py3-none-any.whl
+[2024-04-16 11:01:38] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-16 11:01:38] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.3.4.tar.gz tmp/reviutils-1.4.0a4.tar.gz --markdown 20240416/r/reviutils/1.3.4-1.4.0a4/README.md --exclude *.pyd
+[2024-04-16 11:01:38] INFO root fetch - processPackages [pyhelper-utils]: executing diffoscope
+[2024-04-16 11:01:38] INFO root fetch - processPackages [pyhelper-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelper_utils-0.0.8.tar.gz tmp/pyhelper_utils-0.0.9.tar.gz --markdown 20240416/p/pyhelper-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 11:01:38] INFO root fetch - processPackages [syned]: Downloading https://files.pythonhosted.org/packages/eb/0d/d41e7f8c6c4c98e203af7b77ea17ed2d29714c53f004bfa9af8308bc9dd4/syned-1.0.9.tar.gz
+[2024-04-16 11:01:38] INFO root fetch - processPackages [mariqt]: executing diffoscope
+[2024-04-16 11:01:38] INFO root fetch - processPackages [mariqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mariqt-0.6.8-py2.py3-none-any.whl.zip tmp/mariqt-0.6.9-py2.py3-none-any.whl.zip --markdown 20240416/m/mariqt/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-16 11:01:38] INFO root fetch - processPackages [Bgolearn]: executing diffoscope
+[2024-04-16 11:01:38] INFO root fetch - processPackages [Bgolearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bgolearn-2.2.4.tar.gz tmp/Bgolearn-2.3.0.tar.gz --markdown 20240416/B/Bgolearn/2.2.4-2.3.0/README.md --exclude *.pyd
+[2024-04-16 11:01:38] INFO root fetch - processPackages [syned]: executing diffoscope
+[2024-04-16 11:01:38] INFO root fetch - processPackages [syned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syned-1.0.8.tar.gz tmp/syned-1.0.9.tar.gz --markdown 20240416/s/syned/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 11:01:39] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.8.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.9.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - main [MainThread]: End processing [pyhelper-utils]: success
+[2024-04-16 11:01:39] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.3.4.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a4.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-16 11:01:39] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.6.8-py2.py3-none-any.whl.zip]
+[2024-04-16 11:01:39] INFO root fetch - processPackages [mariqt]: Remove: archive file [/home/abi/fetcher/tmp/mariqt-0.6.9-py2.py3-none-any.whl.zip]
+[2024-04-16 11:01:39] INFO root fetch - main [MainThread]: End processing [mariqt]: success
+[2024-04-16 11:01:39] INFO root fetch - processPackages [syned]: Remove: archive file [/home/abi/fetcher/tmp/syned-1.0.8.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - processPackages [syned]: Remove: archive file [/home/abi/fetcher/tmp/syned-1.0.9.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - main [MainThread]: End processing [syned]: success
+[2024-04-16 11:01:39] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.2.4.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.3.0.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - main [MainThread]: End processing [Bgolearn]: success
+[2024-04-16 11:01:39] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42-grpc-client-1.0.95.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.96.tar.gz]
+[2024-04-16 11:01:39] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-04-16 11:01:39] INFO root fetch - main [MainThread]: Store serial: [22784951]
