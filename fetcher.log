@@ -20809,3 +20809,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:23:44] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
 [2024-04-16 16:23:44] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-16 16:23:44] INFO root fetch - main [MainThread]: Store serial: [22788882]
+[2024-04-16 16:25:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788882]
+[2024-04-16 16:25:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dns-manager
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simfempy
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syntrac-opentelemetry-instrumentation-bedrock
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cefrpy
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-microcore
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syntrac-opentelemetry-instrumentation-chromadb
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypipr
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syntrac-opentelemetry-instrumentation-cohere
+[2024-04-16 16:25:53] WARNING root fetch - processPackages [cefrpy]: Skipping, unable to determine old version
+[2024-04-16 16:25:53] INFO root fetch - main [MainThread]: End processing [cefrpy] error
+[2024-04-16 16:25:53] INFO root fetch - processPackages [simfempy]: New version: [2.2.2] Old Version: [2.1.1]
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ai-microcore]: New version: [3.0.0] Old Version: [2.1.1]
+[2024-04-16 16:25:53] INFO root fetch - processPackages [dns-manager]: New version: [0.0.8] Old Version: [0.0.14]
+[2024-04-16 16:25:53] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-bedrock]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:25:53] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/0b/5e/bfd0ad58523391769a3f2b028a2937eb746482c81f5b61fc61cad0033f02/simfempy-2.1.1.tar.gz
+[2024-04-16 16:25:53] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-chromadb]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:25:53] INFO root fetch - processPackages [pypipr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 16:25:53] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-cohere]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:25:53] INFO root fetch - processPackages [dns-manager]: Downloading https://files.pythonhosted.org/packages/5d/37/71649f7a34b54987970b3ce0c9bffa0c1a0fde01c4d088b556674a99c988/dns_manager-0.0.14-py3-none-any.whl
+[2024-04-16 16:25:53] INFO root fetch - processPackages [ai-microcore]: Downloading https://files.pythonhosted.org/packages/0d/4c/2e84d9509eece742e79f51b6db69bf4e110bf15c78bc36b48829057c4369/ai_microcore-2.1.1.tar.gz
+[2024-04-16 16:25:53] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-chromadb]: Downloading https://files.pythonhosted.org/packages/8f/d1/1d7f204f8f5a420a80bdb7891b50a5b9ed593161feda42b6ec621fd77996/syntrac_opentelemetry_instrumentation_chromadb-0.0.1.tar.gz
+[2024-04-16 16:25:53] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-bedrock]: Downloading https://files.pythonhosted.org/packages/78/e7/19f9c39b6eb28c13b273f802f4ada320c27529d116592e5eddb4fcc0e7b2/syntrac_opentelemetry_instrumentation_bedrock-0.0.1.tar.gz
+[2024-04-16 16:25:53] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/21/ca/cba2fa200f0b86670a711f7499921a1cb6d7f7086eb9e4fc0112010ba5bd/simfempy-2.2.2.tar.gz
+[2024-04-16 16:25:53] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/15/04/d795bcb0193e0a7ac41cf9929d8e4bfb8a89b791c68addd485f4d09b2a89/pypipr-1.0.8.tar.gz
+[2024-04-16 16:25:53] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-cohere]: Downloading https://files.pythonhosted.org/packages/c6/47/ea6104fdf078e34c72a1359aa034f3199e5b133ba31098e2d99ade8064a2/syntrac_opentelemetry_instrumentation_cohere-0.0.1.tar.gz
+[2024-04-16 16:25:53] INFO root fetch - processPackages [simfempy]: executing diffoscope
+[2024-04-16 16:25:53] INFO root fetch - processPackages [simfempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfempy-2.1.1.tar.gz tmp/simfempy-2.2.2.tar.gz --markdown 20240416/s/simfempy/2.1.1-2.2.2/README.md --exclude *.pyd
+[2024-04-16 16:25:53] INFO root fetch - processPackages [dns-manager]: Downloading https://files.pythonhosted.org/packages/a1/41/8a1f63bf264d248424cd774898f1941bdeb318bfd46a0706212ad3db0f13/dns_manager-0.0.8-py3-none-any.whl
+[2024-04-16 16:25:53] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-chromadb]: Downloading https://files.pythonhosted.org/packages/8a/95/556bbe9c81d9e8ccc494b83569ec23b61ed04d0dd59db8a26f3ac91bf2aa/syntrac_opentelemetry_instrumentation_chromadb-0.0.2.tar.gz
+[2024-04-16 16:25:53] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-bedrock]: Downloading https://files.pythonhosted.org/packages/5b/de/c410190a13a85e8801abca581b9b7aae149edf4c9ce6b128bc89d3aed4b9/syntrac_opentelemetry_instrumentation_bedrock-0.0.2.tar.gz
+[2024-04-16 16:25:53] INFO root fetch - processPackages [dns-manager]: executing diffoscope
+[2024-04-16 16:25:53] INFO root fetch - processPackages [dns-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dns_manager-0.0.14-py3-none-any.whl.zip tmp/dns_manager-0.0.8-py3-none-any.whl.zip --markdown 20240416/d/dns-manager/0.0.14-0.0.8/README.md --exclude *.pyd
+[2024-04-16 16:25:53] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-cohere]: Downloading https://files.pythonhosted.org/packages/db/9f/d516a7634ea771e811242f95f54283fe1a82c494e1654f2706529b45e39d/syntrac_opentelemetry_instrumentation_cohere-0.0.2.tar.gz
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-chromadb]: executing diffoscope
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-chromadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_chromadb-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_chromadb-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-chromadb/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:25:54] INFO root fetch - processPackages [ai-microcore]: Downloading https://files.pythonhosted.org/packages/6d/74/7d78df604fa290894023d6ebfe698b10a48105b5e116d03f7e5098396a03/ai_microcore-3.0.0.tar.gz
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-bedrock]: executing diffoscope
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-bedrock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_bedrock-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_bedrock-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-bedrock/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:25:54] INFO root fetch - processPackages [pypipr]: Downloading https://files.pythonhosted.org/packages/ff/65/a16f97fbf510d470052b1eba562ffa3a9db7b5285ecfeb05be446934e02d/pypipr-1.0.9.tar.gz
+[2024-04-16 16:25:54] INFO root fetch - processPackages [ai-microcore]: executing diffoscope
+[2024-04-16 16:25:54] INFO root fetch - processPackages [ai-microcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_microcore-2.1.1.tar.gz tmp/ai_microcore-3.0.0.tar.gz --markdown 20240416/a/ai-microcore/2.1.1-3.0.0/README.md --exclude *.pyd
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-cohere]: executing diffoscope
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_cohere-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_cohere-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-cohere/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:25:54] INFO root fetch - processPackages [pypipr]: executing diffoscope
+[2024-04-16 16:25:54] INFO root fetch - processPackages [pypipr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypipr-1.0.8.tar.gz tmp/pypipr-1.0.9.tar.gz --markdown 20240416/p/pypipr/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_chromadb-0.0.1.tar.gz]
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-chromadb]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_chromadb-0.0.2.tar.gz]
+[2024-04-16 16:25:54] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-chromadb]: success
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-bedrock]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_bedrock-0.0.1.tar.gz]
+[2024-04-16 16:25:54] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-bedrock]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_bedrock-0.0.2.tar.gz]
+[2024-04-16 16:25:54] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-bedrock]: success
+[2024-04-16 16:25:54] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.1.1.tar.gz]
+[2024-04-16 16:25:54] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.2.tar.gz]
+[2024-04-16 16:25:54] INFO root fetch - main [MainThread]: End processing [simfempy]: success
+[2024-04-16 16:25:54] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.8.tar.gz]
+[2024-04-16 16:25:54] INFO root fetch - processPackages [pypipr]: Remove: archive file [/home/abi/fetcher/tmp/pypipr-1.0.9.tar.gz]
+[2024-04-16 16:25:54] INFO root fetch - main [MainThread]: End processing [pypipr]: success
+[2024-04-16 16:25:55] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-cohere]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_cohere-0.0.1.tar.gz]
+[2024-04-16 16:25:55] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-cohere]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_cohere-0.0.2.tar.gz]
+[2024-04-16 16:25:55] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-cohere]: success
+[2024-04-16 16:25:55] INFO root fetch - processPackages [dns-manager]: Remove: archive file [/home/abi/fetcher/tmp/dns_manager-0.0.14-py3-none-any.whl.zip]
+[2024-04-16 16:25:55] INFO root fetch - processPackages [dns-manager]: Remove: archive file [/home/abi/fetcher/tmp/dns_manager-0.0.8-py3-none-any.whl.zip]
+[2024-04-16 16:25:55] INFO root fetch - main [MainThread]: End processing [dns-manager]: success
+[2024-04-16 16:25:55] INFO root fetch - processPackages [ai-microcore]: Remove: archive file [/home/abi/fetcher/tmp/ai_microcore-2.1.1.tar.gz]
+[2024-04-16 16:25:55] INFO root fetch - processPackages [ai-microcore]: Remove: archive file [/home/abi/fetcher/tmp/ai_microcore-3.0.0.tar.gz]
+[2024-04-16 16:25:55] INFO root fetch - main [MainThread]: End processing [ai-microcore]: success
+[2024-04-16 16:25:55] INFO root fetch - main [MainThread]: Store serial: [22788906]
