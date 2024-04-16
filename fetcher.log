@@ -15588,3 +15588,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:29:37] INFO root fetch - processPackages [dj-stripe]: Remove: archive file [/home/abi/fetcher/tmp/dj_stripe-2.8.4.tar.gz]
 [2024-04-16 13:29:37] INFO root fetch - main [MainThread]: End processing [dj-stripe]: success
 [2024-04-16 13:29:37] INFO root fetch - main [MainThread]: Store serial: [22786831]
+[2024-04-16 13:31:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786831]
+[2024-04-16 13:31:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 13:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-04-16 13:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data2rdf
+[2024-04-16 13:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: octomy-common
+[2024-04-16 13:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: search-engine-tool
+[2024-04-16 13:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbis-tm
+[2024-04-16 13:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RsCmwBase
+[2024-04-16 13:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudvision
+[2024-04-16 13:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygradflow
+[2024-04-16 13:31:45] WARNING root fetch - processPackages [search-engine-tool]: Skipping, unable to determine old version
+[2024-04-16 13:31:45] INFO root fetch - main [MainThread]: End processing [search-engine-tool] error
+[2024-04-16 13:31:45] INFO root fetch - processPackages [data2rdf]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2024-04-16 13:31:45] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-16 13:31:45] INFO root fetch - processPackages [RsCmwBase]: New version: [4.0.110] Old Version: [3.7.90.38]
+[2024-04-16 13:31:45] INFO root fetch - processPackages [dbis-tm]: New version: [1.0.0] Old Version: [0.0.12]
+[2024-04-16 13:31:45] INFO root fetch - processPackages [cloudvision]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 13:31:45] INFO root fetch - processPackages [octomy-common]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-04-16 13:31:45] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/f9/81/f824b9285f1f5dd4187a4c1f93fc2679f1cb527a6ee427f5dd889455196d/data2rdf-2.0.0rc1.tar.gz
+[2024-04-16 13:31:45] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-16 13:31:45] INFO root fetch - processPackages [pygradflow]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-16 13:31:46] INFO root fetch - processPackages [RsCmwBase]: Downloading https://files.pythonhosted.org/packages/d2/a1/b7802395df3f271efe2600b7da2c662940f2c1703995920df9f01cca45ba/RsCmwBase-3.7.90.38.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [dbis-tm]: Downloading https://files.pythonhosted.org/packages/62/01/f3986b6298ce3c5aa380c8c0ededfcde5f0f7cc7345112bba2c6c53a2bcf/dbis-tm-0.0.12.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [octomy-common]: Downloading https://files.pythonhosted.org/packages/8b/01/12da60128daa6d972e6ffd2d5004750e36e6e1fbe092d397194877815b59/octomy-common-2.0.7.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [cloudvision]: Downloading https://files.pythonhosted.org/packages/5f/1b/3cf9dde35b10912690b9df24e16110fc94a6787b00776ca57606da0da628/cloudvision-1.9.0.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [data2rdf]: Downloading https://files.pythonhosted.org/packages/b9/d4/b795fa52db3faa0f5cd73c2d1baca0ea76c6e24625906adccb6f406ec443/data2rdf-2.0.0rc2.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/8d/97/466512a27693a94bea9b5a20af95d190a8825b4e8ebff008651eb4b29c00/pygradflow-0.3.8.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [data2rdf]: executing diffoscope
+[2024-04-16 13:31:46] INFO root fetch - processPackages [data2rdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data2rdf-2.0.0rc1.tar.gz tmp/data2rdf-2.0.0rc2.tar.gz --markdown 20240416/d/data2rdf/2.0.0rc1-2.0.0rc2/README.md --exclude *.pyd
+[2024-04-16 13:31:46] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [octomy-common]: Downloading https://files.pythonhosted.org/packages/43/6b/e9c10d9675795bd9369c855c1cd27f7a5d572d053a65dd630aa1cae37743/octomy-common-2.0.8.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [dbis-tm]: Downloading https://files.pythonhosted.org/packages/6e/07/c08164c6e041a71e439ff99a276997721696013bc49c16ace3b8680800b5/dbis_tm-1.0.0.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [RsCmwBase]: Downloading https://files.pythonhosted.org/packages/e1/b8/b26cce3425fe1b4f77641c86c0ec07c016fde435c5c10755efa4e6c4e5a8/RsCmwBase-4.0.110.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [cloudvision]: Downloading https://files.pythonhosted.org/packages/08/38/784b150ba7e1f44287952e9c4a92ae3a982b1489575e8eea93681f9d323a/cloudvision-1.9.1.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [pygradflow]: Downloading https://files.pythonhosted.org/packages/4b/1b/0008264973f4bdf1e4cd76a6872629558ae00b4f9c12b560b1503830bf97/pygradflow-0.3.9.tar.gz
+[2024-04-16 13:31:46] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-16 13:31:46] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240416/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-16 13:31:46] INFO root fetch - processPackages [dbis-tm]: executing diffoscope
+[2024-04-16 13:31:46] INFO root fetch - processPackages [dbis-tm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbis-tm-0.0.12.tar.gz tmp/dbis_tm-1.0.0.tar.gz --markdown 20240416/d/dbis-tm/0.0.12-1.0.0/README.md --exclude *.pyd
+[2024-04-16 13:31:46] INFO root fetch - processPackages [octomy-common]: executing diffoscope
+[2024-04-16 13:31:46] INFO root fetch - processPackages [octomy-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octomy-common-2.0.7.tar.gz tmp/octomy-common-2.0.8.tar.gz --markdown 20240416/o/octomy-common/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-04-16 13:31:46] INFO root fetch - processPackages [RsCmwBase]: executing diffoscope
+[2024-04-16 13:31:46] INFO root fetch - processPackages [RsCmwBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCmwBase-3.7.90.38.tar.gz tmp/RsCmwBase-4.0.110.tar.gz --markdown 20240416/R/RsCmwBase/3.7.90.38-4.0.110/README.md --exclude *.pyd
+[2024-04-16 13:31:46] INFO root fetch - processPackages [cloudvision]: executing diffoscope
+[2024-04-16 13:31:46] INFO root fetch - processPackages [cloudvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudvision-1.9.0.tar.gz tmp/cloudvision-1.9.1.tar.gz --markdown 20240416/c/cloudvision/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 13:31:46] INFO root fetch - processPackages [pygradflow]: executing diffoscope
+[2024-04-16 13:31:46] INFO root fetch - processPackages [pygradflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygradflow-0.3.8.tar.gz tmp/pygradflow-0.3.9.tar.gz --markdown 20240416/p/pygradflow/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-16 13:31:46] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc1.tar.gz]
+[2024-04-16 13:31:46] INFO root fetch - processPackages [data2rdf]: Remove: archive file [/home/abi/fetcher/tmp/data2rdf-2.0.0rc2.tar.gz]
+[2024-04-16 13:31:46] INFO root fetch - main [MainThread]: End processing [data2rdf]: success
+[2024-04-16 13:31:47] INFO root fetch - processPackages [dbis-tm]: Remove: archive file [/home/abi/fetcher/tmp/dbis-tm-0.0.12.tar.gz]
+[2024-04-16 13:31:47] INFO root fetch - processPackages [dbis-tm]: Remove: archive file [/home/abi/fetcher/tmp/dbis_tm-1.0.0.tar.gz]
+[2024-04-16 13:31:47] INFO root fetch - main [MainThread]: End processing [dbis-tm]: success
+[2024-04-16 13:31:47] INFO root fetch - processPackages [octomy-common]: Remove: archive file [/home/abi/fetcher/tmp/octomy-common-2.0.7.tar.gz]
+[2024-04-16 13:31:47] INFO root fetch - processPackages [octomy-common]: Remove: archive file [/home/abi/fetcher/tmp/octomy-common-2.0.8.tar.gz]
+[2024-04-16 13:31:47] INFO root fetch - main [MainThread]: End processing [octomy-common]: success
+[2024-04-16 13:31:47] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.3.8.tar.gz]
+[2024-04-16 13:31:47] INFO root fetch - processPackages [pygradflow]: Remove: archive file [/home/abi/fetcher/tmp/pygradflow-0.3.9.tar.gz]
+[2024-04-16 13:31:47] INFO root fetch - main [MainThread]: End processing [pygradflow]: success
+[2024-04-16 13:31:47] INFO root fetch - processPackages [cloudvision]: Remove: archive file [/home/abi/fetcher/tmp/cloudvision-1.9.0.tar.gz]
+[2024-04-16 13:31:47] INFO root fetch - processPackages [cloudvision]: Remove: archive file [/home/abi/fetcher/tmp/cloudvision-1.9.1.tar.gz]
+[2024-04-16 13:31:47] INFO root fetch - main [MainThread]: End processing [cloudvision]: success
+[2024-04-16 13:31:49] INFO root fetch - processPackages [RsCmwBase]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwBase-3.7.90.38.tar.gz]
+[2024-04-16 13:31:49] INFO root fetch - processPackages [RsCmwBase]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwBase-4.0.110.tar.gz]
+[2024-04-16 13:31:49] INFO root fetch - main [MainThread]: End processing [RsCmwBase]: success
+[2024-04-16 13:31:51] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-16 13:31:51] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-16 13:31:51] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-16 13:31:51] INFO root fetch - main [MainThread]: Store serial: [22786855]
