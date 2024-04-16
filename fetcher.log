@@ -2873,3 +2873,33 @@
 [2024-04-16 02:49:35] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-16 02:49:35] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-16 02:49:35] INFO root fetch - main [MainThread]: Store serial: [22781011]
+[2024-04-16 02:51:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781011]
+[2024-04-16 02:51:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 02:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eyepop
+[2024-04-16 02:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2tf
+[2024-04-16 02:51:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dialog-whatsapp
+[2024-04-16 02:51:43] INFO root fetch - processPackages [dialog-whatsapp]: New version: [0.0.1.6] Old Version: [0.0.1.5]
+[2024-04-16 02:51:43] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-16 02:51:44] INFO root fetch - processPackages [dialog-whatsapp]: Downloading https://files.pythonhosted.org/packages/1e/7d/190b790ecc5a0fdd998d066f2e0e80b195195e79284e63015e3178fb7760/dialog_whatsapp-0.0.1.5.tar.gz
+[2024-04-16 02:51:44] INFO root fetch - processPackages [eyepop]: New version: [0.9.2] Old Version: [0.15.3]
+[2024-04-16 02:51:44] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-04-16 02:51:44] INFO root fetch - processPackages [eyepop]: Downloading https://files.pythonhosted.org/packages/89/6b/e405cb83e7c2b6495e14685429a2cb159c6ec87579d5a905bb9c921ed22c/eyepop-0.15.3.tar.gz
+[2024-04-16 02:51:44] INFO root fetch - processPackages [dialog-whatsapp]: Downloading https://files.pythonhosted.org/packages/e8/83/a1e43d8359f42ec04e88a6265477d959aeb205b3b389fc4f9ca9a60a37b6/dialog_whatsapp-0.0.1.6.tar.gz
+[2024-04-16 02:51:44] INFO root fetch - processPackages [dialog-whatsapp]: executing diffoscope
+[2024-04-16 02:51:44] INFO root fetch - processPackages [dialog-whatsapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialog_whatsapp-0.0.1.5.tar.gz tmp/dialog_whatsapp-0.0.1.6.tar.gz --markdown 20240416/d/dialog-whatsapp/0.0.1.5-0.0.1.6/README.md --exclude *.pyd
+[2024-04-16 02:51:44] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-04-16 02:51:44] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-04-16 02:51:44] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240416/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-16 02:51:44] INFO root fetch - processPackages [eyepop]: Downloading https://files.pythonhosted.org/packages/8d/76/baee6524d83a1cc10886c0bff9d6477e13ff8a24b73404338eaa33ae8cb6/eyepop-0.9.2.tar.gz
+[2024-04-16 02:51:44] INFO root fetch - processPackages [eyepop]: executing diffoscope
+[2024-04-16 02:51:44] INFO root fetch - processPackages [eyepop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyepop-0.15.3.tar.gz tmp/eyepop-0.9.2.tar.gz --markdown 20240416/e/eyepop/0.15.3-0.9.2/README.md --exclude *.pyd
+[2024-04-16 02:51:44] INFO root fetch - processPackages [dialog-whatsapp]: Remove: archive file [/home/abi/fetcher/tmp/dialog_whatsapp-0.0.1.5.tar.gz]
+[2024-04-16 02:51:44] INFO root fetch - processPackages [dialog-whatsapp]: Remove: archive file [/home/abi/fetcher/tmp/dialog_whatsapp-0.0.1.6.tar.gz]
+[2024-04-16 02:51:44] INFO root fetch - main [MainThread]: End processing [dialog-whatsapp]: success
+[2024-04-16 02:51:45] INFO root fetch - processPackages [eyepop]: Remove: archive file [/home/abi/fetcher/tmp/eyepop-0.15.3.tar.gz]
+[2024-04-16 02:51:45] INFO root fetch - processPackages [eyepop]: Remove: archive file [/home/abi/fetcher/tmp/eyepop-0.9.2.tar.gz]
+[2024-04-16 02:51:45] INFO root fetch - main [MainThread]: End processing [eyepop]: success
+[2024-04-16 02:51:45] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-04-16 02:51:45] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-04-16 02:51:45] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-04-16 02:51:45] INFO root fetch - main [MainThread]: Store serial: [22781020]
