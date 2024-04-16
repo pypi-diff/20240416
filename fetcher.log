@@ -21870,3 +21870,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:53:04] INFO root fetch - processPackages [itkwasm-morphological-contour-interpolation-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_morphological_contour_interpolation_wasi-1.1.0.tar.gz]
 [2024-04-16 16:53:04] INFO root fetch - main [MainThread]: End processing [itkwasm-morphological-contour-interpolation-wasi]: success
 [2024-04-16 16:53:04] INFO root fetch - main [MainThread]: Store serial: [22789399]
+[2024-04-16 16:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789399]
+[2024-04-16 16:55:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sirji-agents
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eknowledge
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitmat-tl
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frequenz-api-electricity-trading
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lde-online
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onlinepayments-sdk-python3
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsonPagination
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cmind
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simfempy
+[2024-04-16 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onednn
+[2024-04-16 16:55:17] INFO root fetch - processPackages [simfempy]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-04-16 16:55:17] INFO root fetch - processPackages [jsonPagination]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 16:55:17] INFO root fetch - processPackages [onlinepayments-sdk-python3]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-16 16:55:17] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 16:55:17] WARNING root fetch - processPackages [eknowledge]: Skipping, unable to determine old version
+[2024-04-16 16:55:17] INFO root fetch - processPackages [eknowledge]: Start processing: onednn-devel
+[2024-04-16 16:55:17] INFO root fetch - main [MainThread]: End processing [eknowledge] error
+[2024-04-16 16:55:17] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/c6/07/56c29cd62be5b95f7597a08703e1835c554ea5286dd83a9120fcb349e901/simfempy-2.2.3.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [cmind]: New version: [2.1.0] Old Version: [2.0.4]
+[2024-04-16 16:55:17] WARNING root fetch - processPackages [lde-online]: Skipping, unable to determine old version
+[2024-04-16 16:55:17] INFO root fetch - processPackages [lde-online]: Start processing: pulumi-aws-native
+[2024-04-16 16:55:17] INFO root fetch - main [MainThread]: End processing [lde-online] error
+[2024-04-16 16:55:17] INFO root fetch - processPackages [bitmat-tl]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-16 16:55:17] INFO root fetch - processPackages [frequenz-api-electricity-trading]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 16:55:17] INFO root fetch - processPackages [onednn]: New version: [2024.1.1] Old Version: [2024.1.0]
+[2024-04-16 16:55:17] INFO root fetch - processPackages [jsonPagination]: Downloading https://files.pythonhosted.org/packages/4a/9c/0c61f9fdaedf14a807da32c3b6ec153824f2a33fb125a2808dfc07f31e31/jsonpagination-0.2.4.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/ea/bc/6ae4d9eafe5d7c6b7b92f6faf1b245ce9e19945e9176d1ba5adf76184186/bitmat_tl-0.3.4.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [onednn-devel]: New version: [2024.1.1] Old Version: [2024.1.0]
+[2024-04-16 16:55:17] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/e0/ef/4acd5fb2defed529b138b70b00cd735addd1359fc93e39c030792ae47d75/onlinepayments-sdk-python3-4.8.0.zip
+[2024-04-16 16:55:17] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/b3/5f/e94cc45ff6ae73814ab9c995ecb3f23935035430ed12404c6869f3101639/sirji-agents-0.0.8.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [cmind]: Downloading https://files.pythonhosted.org/packages/43/95/b7e4e5536820aec6528c2853834ce0200fa0152256ceba116e32e7a1e397/cmind-2.0.4.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [onednn]: Downloading https://files.pythonhosted.org/packages/0e/8a/7bf4ec6c5761e706197a886ae9752a8f35badee03f8a75f7954f0c369e9c/onednn-2024.1.0-py2.py3-none-win_amd64.whl
+[2024-04-16 16:55:17] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Downloading https://files.pythonhosted.org/packages/20/7d/49b9237c5be707e056af1aedae90b2d2cdc379eba9508d22d45086dbc8d3/frequenz-api-electricity-trading-0.1.2.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-04-16 16:55:17] INFO root fetch - processPackages [onednn-devel]: Downloading https://files.pythonhosted.org/packages/29/21/9c6e14b9a553263f2c15f93573345931c8b9db387652db1868abadd77ba9/onednn_devel-2024.1.0-py2.py3-none-win_amd64.whl
+[2024-04-16 16:55:17] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/9e/b9/1b938858657c29275763f7cdbe74c74dbe5d20052b533d6963a210a7b38e/simfempy-2.2.4.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [jsonPagination]: Downloading https://files.pythonhosted.org/packages/10/fa/1c8b4e2e281890804e9a4fb78d796f6c67c11734ff6b4ae452ba2f7bc21d/jsonpagination-0.2.5.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/27/1b/5ebbd2946159a24de98dcc7fa628fa68ce04448545f4b703142fcfca1237/bitmat_tl-0.3.5.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [simfempy]: executing diffoscope
+[2024-04-16 16:55:17] INFO root fetch - processPackages [simfempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfempy-2.2.3.tar.gz tmp/simfempy-2.2.4.tar.gz --markdown 20240416/s/simfempy/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-04-16 16:55:17] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2d/21/2f8f58a9460b37b13e4747c65a5e850216adf0cab4b50990fb72115eb4dd/sirji-agents-0.0.9.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Downloading https://files.pythonhosted.org/packages/f8/2c/057a23ec03d5071c342bba2674df06d7cf30756ddae130c30aeeb20937b5/onlinepayments-sdk-python3-4.9.0.zip
+[2024-04-16 16:55:17] INFO root fetch - processPackages [cmind]: Downloading https://files.pythonhosted.org/packages/33/35/1be9af630a0de63365af498ddbc29ac276c297b7947d701a953ad078d5dc/cmind-2.1.0.tar.gz
+[2024-04-16 16:55:17] INFO root fetch - processPackages [onednn]: Downloading https://files.pythonhosted.org/packages/d1/db/8e124111961b790458f2ef3d22ec5a49acae20b48f0f869260067141ff5c/onednn-2024.1.1-py2.py3-none-win_amd64.whl
+[2024-04-16 16:55:17] INFO root fetch - processPackages [jsonPagination]: executing diffoscope
+[2024-04-16 16:55:17] INFO root fetch - processPackages [jsonPagination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonpagination-0.2.4.tar.gz tmp/jsonpagination-0.2.5.tar.gz --markdown 20240416/j/jsonPagination/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 16:55:17] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-16 16:55:17] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.8.tar.gz tmp/sirji-agents-0.0.9.tar.gz --markdown 20240416/s/sirji-agents/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 16:55:17] INFO root fetch - processPackages [bitmat-tl]: executing diffoscope
+[2024-04-16 16:55:17] INFO root fetch - processPackages [bitmat-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmat_tl-0.3.4.tar.gz tmp/bitmat_tl-0.3.5.tar.gz --markdown 20240416/b/bitmat-tl/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-16 16:55:18] INFO root fetch - processPackages [onlinepayments-sdk-python3]: executing diffoscope
+[2024-04-16 16:55:18] INFO root fetch - processPackages [onlinepayments-sdk-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onlinepayments-sdk-python3-4.8.0.zip tmp/onlinepayments-sdk-python3-4.9.0.zip --markdown 20240416/o/onlinepayments-sdk-python3/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-16 16:55:18] INFO root fetch - processPackages [cmind]: executing diffoscope
+[2024-04-16 16:55:18] INFO root fetch - processPackages [cmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmind-2.0.4.tar.gz tmp/cmind-2.1.0.tar.gz --markdown 20240416/c/cmind/2.0.4-2.1.0/README.md --exclude *.pyd
+[2024-04-16 16:55:18] INFO root fetch - processPackages [onednn]: executing diffoscope
+[2024-04-16 16:55:18] INFO root fetch - processPackages [onednn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onednn-2024.1.0-py2.py3-none-win_amd64.whl.zip tmp/onednn-2024.1.1-py2.py3-none-win_amd64.whl.zip --markdown 20240416/o/onednn/2024.1.0-2024.1.1/README.md --exclude *.pyd
+[2024-04-16 16:55:18] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Downloading https://files.pythonhosted.org/packages/62/6a/8a780389d88519ebdc717bed3809f3225a0e5546d05ee269d39ba88f9f47/frequenz-api-electricity-trading-0.1.3.tar.gz
+[2024-04-16 16:55:18] WARNING root fetch - processPackages [onednn-devel]: Skipping package: exceeds size limit 43460961>=10485760
+[2024-04-16 16:55:18] INFO root fetch - processPackages [onednn-devel]: Start processing: filerev
+[2024-04-16 16:55:18] INFO root fetch - main [MainThread]: End processing [onednn-devel] error
+[2024-04-16 16:55:18] WARNING root fetch - processPackages [filerev]: Skipping, unable to determine old version
+[2024-04-16 16:55:18] INFO root fetch - main [MainThread]: End processing [filerev] error
+[2024-04-16 16:55:18] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-04-16 16:55:18] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.8.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.9.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-16 16:55:18] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.3.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.4.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - main [MainThread]: End processing [simfempy]: success
+[2024-04-16 16:55:18] INFO root fetch - processPackages [jsonPagination]: Remove: archive file [/home/abi/fetcher/tmp/jsonpagination-0.2.4.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - processPackages [jsonPagination]: Remove: archive file [/home/abi/fetcher/tmp/jsonpagination-0.2.5.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - main [MainThread]: End processing [jsonPagination]: success
+[2024-04-16 16:55:18] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat_tl-0.3.4.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat_tl-0.3.5.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - main [MainThread]: End processing [bitmat-tl]: success
+[2024-04-16 16:55:18] INFO root fetch - processPackages [onednn]: Remove: archive file [/home/abi/fetcher/tmp/onednn-2024.1.0-py2.py3-none-win_amd64.whl.zip]
+[2024-04-16 16:55:18] INFO root fetch - processPackages [onednn]: Remove: archive file [/home/abi/fetcher/tmp/onednn-2024.1.1-py2.py3-none-win_amd64.whl.zip]
+[2024-04-16 16:55:18] INFO root fetch - main [MainThread]: End processing [onednn]: success
+[2024-04-16 16:55:18] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-04-16 16:55:18] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240416/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-04-16 16:55:18] INFO root fetch - processPackages [cmind]: Remove: archive file [/home/abi/fetcher/tmp/cmind-2.0.4.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - processPackages [cmind]: Remove: archive file [/home/abi/fetcher/tmp/cmind-2.1.0.tar.gz]
+[2024-04-16 16:55:18] INFO root fetch - main [MainThread]: End processing [cmind]: success
+[2024-04-16 16:55:19] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/onlinepayments-sdk-python3-4.8.0.zip]
+[2024-04-16 16:55:19] INFO root fetch - processPackages [onlinepayments-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/onlinepayments-sdk-python3-4.9.0.zip]
+[2024-04-16 16:55:19] INFO root fetch - main [MainThread]: End processing [onlinepayments-sdk-python3]: success
+[2024-04-16 16:55:20] INFO root fetch - processPackages [frequenz-api-electricity-trading]: executing diffoscope
+[2024-04-16 16:55:20] INFO root fetch - processPackages [frequenz-api-electricity-trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-electricity-trading-0.1.2.tar.gz tmp/frequenz-api-electricity-trading-0.1.3.tar.gz --markdown 20240416/f/frequenz-api-electricity-trading/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 16:55:33] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-04-16 16:55:33] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-04-16 16:55:33] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-04-16 16:56:02] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-electricity-trading-0.1.2.tar.gz]
+[2024-04-16 16:56:02] INFO root fetch - processPackages [frequenz-api-electricity-trading]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-electricity-trading-0.1.3.tar.gz]
+[2024-04-16 16:56:02] INFO root fetch - main [MainThread]: End processing [frequenz-api-electricity-trading]: success
+[2024-04-16 16:56:02] INFO root fetch - main [MainThread]: Store serial: [22789441]
