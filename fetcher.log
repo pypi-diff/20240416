@@ -21604,3 +21604,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:43:49] INFO root fetch - processPackages [astro-tiptop]: Remove: archive file [/home/abi/fetcher/tmp/astro_tiptop-1.3.8.tar.gz]
 [2024-04-16 16:43:49] INFO root fetch - main [MainThread]: End processing [astro-tiptop]: success
 [2024-04-16 16:43:49] INFO root fetch - main [MainThread]: Store serial: [22789282]
+[2024-04-16 16:45:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789282]
+[2024-04-16 16:45:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 16:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lightshow
+[2024-04-16 16:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypha-launcher
+[2024-04-16 16:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redback-surrogates
+[2024-04-16 16:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RNAformer
+[2024-04-16 16:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awsiotsdk
+[2024-04-16 16:45:58] INFO root fetch - processPackages [RNAformer]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-16 16:45:58] INFO root fetch - processPackages [hypha-launcher]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 16:45:58] INFO root fetch - processPackages [hypha-launcher]: Downloading https://files.pythonhosted.org/packages/33/0c/62270c97bd90153508f4f9f92ccc41bdbf7e7d03577088407f61785f3acb/hypha_launcher-0.1.1.tar.gz
+[2024-04-16 16:45:58] INFO root fetch - processPackages [lightshow]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-16 16:45:58] INFO root fetch - processPackages [redback-surrogates]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 16:45:58] INFO root fetch - processPackages [awsiotsdk]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-16 16:45:59] INFO root fetch - processPackages [RNAformer]: Downloading https://files.pythonhosted.org/packages/3f/88/c204828e0dcd266a0d74e58107d41908892977b0380086ef6eefa7e62050/rnaformer-1.0.1.tar.gz
+[2024-04-16 16:45:59] INFO root fetch - processPackages [redback-surrogates]: Downloading https://files.pythonhosted.org/packages/e5/df/220debcbbe05b84878807c3536a8bcfa7772f7691904a6eb12bc87236c7b/redback_surrogates-0.2.1.tar.gz
+[2024-04-16 16:45:59] INFO root fetch - processPackages [awsiotsdk]: Downloading https://files.pythonhosted.org/packages/93/56/39ae6e2d1eb926f7614b21b2823865546e4f442bbaa4c9ef61e51ca441ec/awsiotsdk-1.9.2.tar.gz
+[2024-04-16 16:45:59] INFO root fetch - processPackages [lightshow]: Downloading https://files.pythonhosted.org/packages/ca/c9/7a846ce2908818b37dafa1ee41a61e4f51885bf4c17294f8850943f5469f/lightshow-1.2.2.tar.gz
+[2024-04-16 16:45:59] INFO root fetch - processPackages [hypha-launcher]: Downloading https://files.pythonhosted.org/packages/fe/69/646bc5db454b8e4b8ff30d3c10d8bdddc91774ed85321d972f9fff46c97f/hypha_launcher-0.1.2.tar.gz
+[2024-04-16 16:45:59] WARNING root fetch - processPackages [redback-surrogates]: Skipping package: exceeds size limit 38843663>=10485760
+[2024-04-16 16:45:59] INFO root fetch - main [MainThread]: End processing [redback-surrogates] error
+[2024-04-16 16:45:59] INFO root fetch - processPackages [RNAformer]: Downloading https://files.pythonhosted.org/packages/27/71/5f703f904b2543e2e803bd0714adafd25b7d3ebd5e87549a8055d5140744/rnaformer-1.0.2.tar.gz
+[2024-04-16 16:45:59] INFO root fetch - processPackages [hypha-launcher]: executing diffoscope
+[2024-04-16 16:45:59] INFO root fetch - processPackages [hypha-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha_launcher-0.1.1.tar.gz tmp/hypha_launcher-0.1.2.tar.gz --markdown 20240416/h/hypha-launcher/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 16:45:59] INFO root fetch - processPackages [awsiotsdk]: Downloading https://files.pythonhosted.org/packages/40/77/ae34bf438d0ab7e9b0c3bd541aa710e116096199e8a4624b509f1e7b846c/awsiotsdk-1.9.3.tar.gz
+[2024-04-16 16:45:59] INFO root fetch - processPackages [RNAformer]: executing diffoscope
+[2024-04-16 16:45:59] INFO root fetch - processPackages [RNAformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rnaformer-1.0.1.tar.gz tmp/rnaformer-1.0.2.tar.gz --markdown 20240416/R/RNAformer/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-16 16:45:59] INFO root fetch - processPackages [awsiotsdk]: executing diffoscope
+[2024-04-16 16:45:59] INFO root fetch - processPackages [awsiotsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsiotsdk-1.9.2.tar.gz tmp/awsiotsdk-1.9.3.tar.gz --markdown 20240416/a/awsiotsdk/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-04-16 16:45:59] INFO root fetch - processPackages [lightshow]: Downloading https://files.pythonhosted.org/packages/77/e1/5c7c892eee3922f462484860a87c9b2e3985c80609719834c92c091568cb/lightshow-1.2.3.tar.gz
+[2024-04-16 16:45:59] INFO root fetch - processPackages [lightshow]: executing diffoscope
+[2024-04-16 16:45:59] INFO root fetch - processPackages [lightshow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightshow-1.2.2.tar.gz tmp/lightshow-1.2.3.tar.gz --markdown 20240416/l/lightshow/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-16 16:46:00] INFO root fetch - processPackages [RNAformer]: Remove: archive file [/home/abi/fetcher/tmp/rnaformer-1.0.1.tar.gz]
+[2024-04-16 16:46:00] INFO root fetch - processPackages [RNAformer]: Remove: archive file [/home/abi/fetcher/tmp/rnaformer-1.0.2.tar.gz]
+[2024-04-16 16:46:00] INFO root fetch - main [MainThread]: End processing [RNAformer]: success
+[2024-04-16 16:46:00] INFO root fetch - processPackages [hypha-launcher]: Remove: archive file [/home/abi/fetcher/tmp/hypha_launcher-0.1.1.tar.gz]
+[2024-04-16 16:46:00] INFO root fetch - processPackages [hypha-launcher]: Remove: archive file [/home/abi/fetcher/tmp/hypha_launcher-0.1.2.tar.gz]
+[2024-04-16 16:46:00] INFO root fetch - main [MainThread]: End processing [hypha-launcher]: success
+[2024-04-16 16:46:00] INFO root fetch - processPackages [awsiotsdk]: Remove: archive file [/home/abi/fetcher/tmp/awsiotsdk-1.9.2.tar.gz]
+[2024-04-16 16:46:00] INFO root fetch - processPackages [awsiotsdk]: Remove: archive file [/home/abi/fetcher/tmp/awsiotsdk-1.9.3.tar.gz]
+[2024-04-16 16:46:00] INFO root fetch - main [MainThread]: End processing [awsiotsdk]: success
+[2024-04-16 16:46:01] INFO root fetch - processPackages [lightshow]: Remove: archive file [/home/abi/fetcher/tmp/lightshow-1.2.2.tar.gz]
+[2024-04-16 16:46:01] INFO root fetch - processPackages [lightshow]: Remove: archive file [/home/abi/fetcher/tmp/lightshow-1.2.3.tar.gz]
+[2024-04-16 16:46:01] INFO root fetch - main [MainThread]: End processing [lightshow]: success
+[2024-04-16 16:46:01] INFO root fetch - main [MainThread]: Store serial: [22789298]
