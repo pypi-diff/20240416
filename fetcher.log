@@ -7814,3 +7814,79 @@
 [2024-04-16 08:37:52] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.0.2-py3-none-any.whl.zip]
 [2024-04-16 08:37:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
 [2024-04-16 08:37:52] INFO root fetch - main [MainThread]: Store serial: [22783295]
+[2024-04-16 08:39:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783295]
+[2024-04-16 08:40:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-request
+[2024-04-16 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-request
+[2024-04-16 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-blanket-order
+[2024-04-16 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crawler-analytics
+[2024-04-16 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HawaData
+[2024-04-16 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: db-contrib-tool
+[2024-04-16 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tui-dsmt
+[2024-04-16 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-genesiscloud
+[2024-04-16 08:40:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: html-tree-shaking
+[2024-04-16 08:40:02] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [17.0.1.1.0.2] Old Version: [17.0.1.1.0.1]
+[2024-04-16 08:40:02] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [17.0.1.1.0.2] Old Version: [17.0.1.1.0.1]
+[2024-04-16 08:40:02] INFO root fetch - processPackages [crawler-analytics]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 08:40:02] WARNING root fetch - processPackages [html-tree-shaking]: Skipping, unable to determine old version
+[2024-04-16 08:40:02] INFO root fetch - main [MainThread]: End processing [html-tree-shaking] error
+[2024-04-16 08:40:02] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-16 08:40:02] INFO root fetch - processPackages [tui-dsmt]: New version: [202404160633] Old Version: [202404111315]
+[2024-04-16 08:40:02] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: New version: [16.0.2.1.0.2] Old Version: [16.0.2.1.0.1]
+[2024-04-16 08:40:02] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/a7/01/f57d942716622fdb21b036283c3dc1d25922135e5195f0eae8bee7481012/odoo_addon_purchase_request-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-16 08:40:02] INFO root fetch - processPackages [pulumi-genesiscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 08:40:02] INFO root fetch - processPackages [db-contrib-tool]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-16 08:40:02] INFO root fetch - processPackages [crawler-analytics]: Downloading https://files.pythonhosted.org/packages/51/15/d9d39afbf5373681fc5e3f9b45601bd52294df4d8184f47330857cca8028/crawler_analytics-0.1.8.tar.gz
+[2024-04-16 08:40:02] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-16 08:40:02] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/a7/01/f57d942716622fdb21b036283c3dc1d25922135e5195f0eae8bee7481012/odoo_addon_purchase_request-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-16 08:40:02] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/7b/eb/c1987063b7330a56617c62d967ff70d44c2fde9e6c027effd7bd05f44cfc/pulumi_genesiscloud-0.0.8.tar.gz
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Downloading https://files.pythonhosted.org/packages/e2/c5/b88829e5f174d6077cc6aca3a215fa44e0631f16e0462b0c60a36c53a880/odoo_addon_purchase_blanket_order-16.0.2.1.0.1-py3-none-any.whl
+[2024-04-16 08:40:03] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/c5/94/23c42465fe0a92d9000625342994de8d476083937847511ec15d79880c44/tui_dsmt-202404111315.tar.gz
+[2024-04-16 08:40:03] INFO root fetch - processPackages [crawler-analytics]: Downloading https://files.pythonhosted.org/packages/6a/87/cb8924b1dad8915cdefa9eb170838c7775b20e1e934ccdd1f3c7640300b8/crawler_analytics-0.1.9.tar.gz
+[2024-04-16 08:40:03] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/98/0a/f7e5b168842c38c7e9dfc6b8f8a3efb2dbb85a7ea7638391a585a7bc21cc/odoo_addon_purchase_request-17.0.1.1.0.2-py3-none-any.whl
+[2024-04-16 08:40:03] INFO root fetch - processPackages [db-contrib-tool]: Downloading https://files.pythonhosted.org/packages/c8/a7/42a5bc7aaf3c1e6f2424d7461ca13c854910845262df917dd8976db9ec3c/db_contrib_tool-0.7.1.tar.gz
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/98/0a/f7e5b168842c38c7e9dfc6b8f8a3efb2dbb85a7ea7638391a585a7bc21cc/odoo_addon_purchase_request-17.0.1.1.0.2-py3-none-any.whl
+[2024-04-16 08:40:03] INFO root fetch - processPackages [crawler-analytics]: executing diffoscope
+[2024-04-16 08:40:03] INFO root fetch - processPackages [crawler-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_analytics-0.1.8.tar.gz tmp/crawler_analytics-0.1.9.tar.gz --markdown 20240416/c/crawler-analytics/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 08:40:03] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-16 08:40:03] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240416/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-16 08:40:03] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/85/48/c33e3e8789275770f6ecf59b3f8ba30057d291ef8fff95f7d0077bb2638c/pulumi_genesiscloud-0.0.9.tar.gz
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-purchase-request/17.0.1.1.0.1-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-04-16 08:40:03] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/e6/72/d64818debfdf52f24495794cbcd868a8dc999c6b1f9d5c40d1067635c587/tui_dsmt-202404160633.tar.gz
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-purchase-request/17.0.1.1.0.1-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Downloading https://files.pythonhosted.org/packages/8d/e2/5c7291d90afff89d7489729c0f6509545b03c935508f5896bcf3cf619cb5/odoo_addon_purchase_blanket_order-16.0.2.1.0.2-py3-none-any.whl
+[2024-04-16 08:40:03] INFO root fetch - processPackages [pulumi-genesiscloud]: executing diffoscope
+[2024-04-16 08:40:03] INFO root fetch - processPackages [pulumi-genesiscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_genesiscloud-0.0.8.tar.gz tmp/pulumi_genesiscloud-0.0.9.tar.gz --markdown 20240416/p/pulumi-genesiscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 08:40:03] INFO root fetch - processPackages [db-contrib-tool]: Downloading https://files.pythonhosted.org/packages/34/58/bb324e75b26cf543f573313252c494a5978ee8fbfe3451bab5a2e9af4bc3/db_contrib_tool-0.7.2.tar.gz
+[2024-04-16 08:40:03] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-16 08:40:03] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404111315.tar.gz tmp/tui_dsmt-202404160633.tar.gz --markdown 20240416/t/tui-dsmt/202404111315-202404160633/README.md --exclude *.pyd
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: executing diffoscope
+[2024-04-16 08:40:03] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_blanket_order-16.0.2.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_blanket_order-16.0.2.1.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-purchase-blanket-order/16.0.2.1.0.1-16.0.2.1.0.2/README.md --exclude *.pyd
+[2024-04-16 08:40:03] INFO root fetch - processPackages [db-contrib-tool]: executing diffoscope
+[2024-04-16 08:40:03] INFO root fetch - processPackages [db-contrib-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db_contrib_tool-0.7.1.tar.gz tmp/db_contrib_tool-0.7.2.tar.gz --markdown 20240416/d/db-contrib-tool/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-16 08:40:04] INFO root fetch - processPackages [crawler-analytics]: Remove: archive file [/home/abi/fetcher/tmp/crawler_analytics-0.1.8.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - processPackages [crawler-analytics]: Remove: archive file [/home/abi/fetcher/tmp/crawler_analytics-0.1.9.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - main [MainThread]: End processing [crawler-analytics]: success
+[2024-04-16 08:40:04] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-16 08:40:04] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.8.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
+[2024-04-16 08:40:04] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-16 08:40:04] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-16 08:40:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2024-04-16 08:40:04] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404111315.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404160633.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-16 08:40:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2024-04-16 08:40:04] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_blanket_order-16.0.2.1.0.1-py3-none-any.whl.zip]
+[2024-04-16 08:40:04] INFO root fetch - processPackages [odoo-addon-purchase-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_blanket_order-16.0.2.1.0.2-py3-none-any.whl.zip]
+[2024-04-16 08:40:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-blanket-order]: success
+[2024-04-16 08:40:04] INFO root fetch - processPackages [db-contrib-tool]: Remove: archive file [/home/abi/fetcher/tmp/db_contrib_tool-0.7.1.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - processPackages [db-contrib-tool]: Remove: archive file [/home/abi/fetcher/tmp/db_contrib_tool-0.7.2.tar.gz]
+[2024-04-16 08:40:04] INFO root fetch - main [MainThread]: End processing [db-contrib-tool]: success
+[2024-04-16 08:40:04] INFO root fetch - main [MainThread]: Store serial: [22783318]
