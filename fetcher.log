@@ -20336,3 +20336,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:05:58] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.9-py3-none-any.whl.zip]
 [2024-04-16 16:05:58] INFO root fetch - main [MainThread]: End processing [asktable]: success
 [2024-04-16 16:05:58] INFO root fetch - main [MainThread]: Store serial: [22788692]
+[2024-04-16 16:08:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788692]
+[2024-04-16 16:08:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minitraceback
+[2024-04-16 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mcitemlib
+[2024-04-16 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-test-sdk
+[2024-04-16 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asktable
+[2024-04-16 16:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PseudoNetCDF
+[2024-04-16 16:08:07] INFO root fetch - processPackages [asktable]: New version: [0.13.9] Old Version: [0.13.7]
+[2024-04-16 16:08:07] INFO root fetch - processPackages [minitraceback]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 16:08:07] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/23/62/2636e932634b4703bae1293df8858e147300136f3240a4973bb546ca05c8/asktable-0.13.7-py3-none-any.whl
+[2024-04-16 16:08:07] INFO root fetch - processPackages [mcitemlib]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-16 16:08:07] WARNING root fetch - processPackages [my-test-sdk]: Skipping, unable to determine old version
+[2024-04-16 16:08:07] INFO root fetch - main [MainThread]: End processing [my-test-sdk] error
+[2024-04-16 16:08:07] INFO root fetch - processPackages [PseudoNetCDF]: New version: [3.4.0] Old Version: [3.2.3]
+[2024-04-16 16:08:07] INFO root fetch - processPackages [minitraceback]: Downloading https://files.pythonhosted.org/packages/94/3e/8b8e414c4da77d8a12f952af24aa269322daa6b748cee10fe9a1d1449fb6/minitraceback-0.1.0.tar.gz
+[2024-04-16 16:08:08] INFO root fetch - processPackages [mcitemlib]: Downloading https://files.pythonhosted.org/packages/39/60/8dedf79cda2be774f717c3359af2ea955095d0334b8e25b46744e51b049a/mcitemlib-0.1.3.tar.gz
+[2024-04-16 16:08:08] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/bc/07/a62e0f67efd81bc484f6807c0be8c9787ba2da0207a165d459349918914c/asktable-0.13.9-py3-none-any.whl
+[2024-04-16 16:08:08] INFO root fetch - processPackages [PseudoNetCDF]: Downloading https://files.pythonhosted.org/packages/95/e4/f16c773e6283c7193c1d89ae39656d2b8506f8e29de7a7431514ce6703d6/PseudoNetCDF-3.2.3.tar.gz
+[2024-04-16 16:08:08] INFO root fetch - processPackages [asktable]: executing diffoscope
+[2024-04-16 16:08:08] INFO root fetch - processPackages [asktable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asktable-0.13.7-py3-none-any.whl.zip tmp/asktable-0.13.9-py3-none-any.whl.zip --markdown 20240416/a/asktable/0.13.7-0.13.9/README.md --exclude *.pyd
+[2024-04-16 16:08:08] INFO root fetch - processPackages [minitraceback]: Downloading https://files.pythonhosted.org/packages/1b/5e/2f942bdcc2dcc1d22443d01c27c0bae71a30c1ff564a4712f30805570ac5/minitraceback-0.1.1.tar.gz
+[2024-04-16 16:08:08] INFO root fetch - processPackages [mcitemlib]: Downloading https://files.pythonhosted.org/packages/ae/a2/8539c3ba9376168c44462f271c114015299ac83154d0f9e7a9a9090a3e50/mcitemlib-0.2.0.tar.gz
+[2024-04-16 16:08:08] INFO root fetch - processPackages [minitraceback]: executing diffoscope
+[2024-04-16 16:08:08] INFO root fetch - processPackages [minitraceback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minitraceback-0.1.0.tar.gz tmp/minitraceback-0.1.1.tar.gz --markdown 20240416/m/minitraceback/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 16:08:08] INFO root fetch - processPackages [mcitemlib]: executing diffoscope
+[2024-04-16 16:08:08] INFO root fetch - processPackages [mcitemlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcitemlib-0.1.3.tar.gz tmp/mcitemlib-0.2.0.tar.gz --markdown 20240416/m/mcitemlib/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-04-16 16:08:08] INFO root fetch - processPackages [PseudoNetCDF]: Downloading https://files.pythonhosted.org/packages/09/d4/7fa8c708f6c8ccaa4fa7212b15eaf01baab0a718d1e20b7ba6c8441883ce/pseudonetcdf-3.4.0.tar.gz
+[2024-04-16 16:08:08] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.7-py3-none-any.whl.zip]
+[2024-04-16 16:08:08] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.9-py3-none-any.whl.zip]
+[2024-04-16 16:08:08] INFO root fetch - main [MainThread]: End processing [asktable]: success
+[2024-04-16 16:08:08] INFO root fetch - processPackages [minitraceback]: Remove: archive file [/home/abi/fetcher/tmp/minitraceback-0.1.0.tar.gz]
+[2024-04-16 16:08:08] INFO root fetch - processPackages [minitraceback]: Remove: archive file [/home/abi/fetcher/tmp/minitraceback-0.1.1.tar.gz]
+[2024-04-16 16:08:08] INFO root fetch - main [MainThread]: End processing [minitraceback]: success
+[2024-04-16 16:08:09] INFO root fetch - processPackages [mcitemlib]: Remove: archive file [/home/abi/fetcher/tmp/mcitemlib-0.1.3.tar.gz]
+[2024-04-16 16:08:09] INFO root fetch - processPackages [mcitemlib]: Remove: archive file [/home/abi/fetcher/tmp/mcitemlib-0.2.0.tar.gz]
+[2024-04-16 16:08:09] INFO root fetch - main [MainThread]: End processing [mcitemlib]: success
+[2024-04-16 16:08:09] INFO root fetch - processPackages [PseudoNetCDF]: executing diffoscope
+[2024-04-16 16:08:09] INFO root fetch - processPackages [PseudoNetCDF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PseudoNetCDF-3.2.3.tar.gz tmp/pseudonetcdf-3.4.0.tar.gz --markdown 20240416/P/PseudoNetCDF/3.2.3-3.4.0/README.md --exclude *.pyd
+[2024-04-16 16:08:10] INFO root fetch - processPackages [PseudoNetCDF]: Remove: archive file [/home/abi/fetcher/tmp/PseudoNetCDF-3.2.3.tar.gz]
+[2024-04-16 16:08:10] INFO root fetch - processPackages [PseudoNetCDF]: Remove: archive file [/home/abi/fetcher/tmp/pseudonetcdf-3.4.0.tar.gz]
+[2024-04-16 16:08:10] INFO root fetch - main [MainThread]: End processing [PseudoNetCDF]: success
+[2024-04-16 16:08:10] INFO root fetch - main [MainThread]: Store serial: [22788711]
