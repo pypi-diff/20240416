@@ -9207,3 +9207,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:34:45] INFO root fetch - processPackages [lcz]: Remove: archive file [/home/abi/fetcher/tmp/lcz-0.1.4-py3-none-any.whl.zip]
 [2024-04-16 09:34:45] INFO root fetch - main [MainThread]: End processing [lcz]: success
 [2024-04-16 09:34:45] INFO root fetch - main [MainThread]: Store serial: [22783787]
+[2024-04-16 09:36:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783787]
+[2024-04-16 09:36:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lcz
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arch-flow
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maxwell-protocol
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quakediffusion
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glassflow
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python_dev_utils
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ecodev-front
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: furthrmind
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-sale-input-barcode-gs1
+[2024-04-16 09:36:55] INFO root fetch - processPackages [python_dev_utils]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-16 09:36:55] INFO root fetch - processPackages [lcz]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 09:36:55] INFO root fetch - processPackages [arch-flow]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ecodev-front]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 09:36:55] INFO root fetch - processPackages [furthrmind]: New version: [0.1b4] Old Version: [0.1b3]
+[2024-04-16 09:36:55] INFO root fetch - processPackages [maxwell-protocol]: New version: [0.8.0] Old Version: [0.7.3]
+[2024-04-16 09:36:55] INFO root fetch - processPackages [lcz]: Downloading https://files.pythonhosted.org/packages/cd/41/f772e17ef50964fee254f634b23e3bb189d49bb239985a4cfaf188729d05/lcz-0.1.3-py3-none-any.whl
+[2024-04-16 09:36:55] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/6f/95/b96ea3a3fc457f3ad7c33ee18dca676d1eea2ad10a5c30b7738d32d5e505/python_dev_utils-1.1.0.tar.gz
+[2024-04-16 09:36:55] ERROR root fetch - processPackages [quakediffusion]: Unable to get metadata: No such project 'quakediffusion'
+[2024-04-16 09:36:55] INFO root fetch - main [MainThread]: End processing [quakediffusion] error
+[2024-04-16 09:36:55] INFO root fetch - processPackages [glassflow]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-16 09:36:55] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/79/24/6f2bee0b23b0b7283a2db74a2acef9b9117cb8dc0ade77919bbba5c5b68d/arch_flow-0.0.6.tar.gz
+[2024-04-16 09:36:55] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode-gs1]: New version: [14.0.2.0.1.dev2] Old Version: [14.0.2.0.0]
+[2024-04-16 09:36:55] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/51/33/d7feff7f3f8ddb723cfd328cc4642bee5770210f5a5014f3714862b8b4cc/furthrmind-0.1b3.tar.gz
+[2024-04-16 09:36:55] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/e1/8e/5abd72f94e7281a7ac942b93dfceeb7cf72944b8636048ea4e2a431e97cb/ecodev_front-0.0.8.tar.gz
+[2024-04-16 09:36:55] INFO root fetch - processPackages [maxwell-protocol]: Downloading https://files.pythonhosted.org/packages/94/9b/b3bc554a5f5bdaf0852b48d686821231047d821826936045a10a97c08363/maxwell_protocol-0.7.3.tar.gz
+[2024-04-16 09:36:56] INFO root fetch - processPackages [glassflow]: Downloading https://files.pythonhosted.org/packages/94/1c/9e808bf789e6d0a0fe785fd27c83b8ae51494d5e767acb0831171a9cbc6c/glassflow-1.0.2.tar.gz
+[2024-04-16 09:36:56] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/ef/3b/29d539e8b5eb474efa8d86ebcb55b4f77cea8ce23c96510b93d36095f666/ecodev_front-0.0.9.tar.gz
+[2024-04-16 09:36:56] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode-gs1]: Downloading https://files.pythonhosted.org/packages/05/91/e1e58a8dd91eee3a60871fa42c873769b0c9fa7eab1ec4f64df4e24b4bd4/odoo14_addon_sale_input_barcode_gs1-14.0.2.0.0-py3-none-any.whl
+[2024-04-16 09:36:56] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/ff/e9/dcb6998fa299933d6c6976afae4d5317679107c880f88bea4b388123622d/python_dev_utils-1.2.0.tar.gz
+[2024-04-16 09:36:56] INFO root fetch - processPackages [lcz]: Downloading https://files.pythonhosted.org/packages/fd/d5/d261b69e8401b1b438b3d7896ebb43ac87dd6eafdc70bcd2e44dfb2706f2/lcz-0.1.4-py3-none-any.whl
+[2024-04-16 09:36:56] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/bd/92/b5f1107ed051acfa30ad6072602e15b3838902c50fbbcd7c7fc1a9a93f07/arch_flow-0.0.7.tar.gz
+[2024-04-16 09:36:56] INFO root fetch - processPackages [ecodev-front]: executing diffoscope
+[2024-04-16 09:36:56] INFO root fetch - processPackages [ecodev-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_front-0.0.8.tar.gz tmp/ecodev_front-0.0.9.tar.gz --markdown 20240416/e/ecodev-front/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 09:36:56] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/95/84/beff2931fc8094984167b4188810541d3a6643c0c52373c9e340bee08303/furthrmind-0.1b4.tar.gz
+[2024-04-16 09:36:56] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-04-16 09:36:56] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.1.0.tar.gz tmp/python_dev_utils-1.2.0.tar.gz --markdown 20240416/p/python_dev_utils/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-16 09:36:56] INFO root fetch - processPackages [glassflow]: Downloading https://files.pythonhosted.org/packages/1a/ac/d426d816bb8b8e771f13eb46e47bcad733f9571582f1bd2907897c5449c8/glassflow-1.0.3.tar.gz
+[2024-04-16 09:36:56] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-04-16 09:36:56] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.0.6.tar.gz tmp/arch_flow-0.0.7.tar.gz --markdown 20240416/a/arch-flow/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 09:36:56] INFO root fetch - processPackages [furthrmind]: executing diffoscope
+[2024-04-16 09:36:56] INFO root fetch - processPackages [furthrmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furthrmind-0.1b3.tar.gz tmp/furthrmind-0.1b4.tar.gz --markdown 20240416/f/furthrmind/0.1b3-0.1b4/README.md --exclude *.pyd
+[2024-04-16 09:36:56] INFO root fetch - processPackages [lcz]: executing diffoscope
+[2024-04-16 09:36:56] INFO root fetch - processPackages [lcz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcz-0.1.3-py3-none-any.whl.zip tmp/lcz-0.1.4-py3-none-any.whl.zip --markdown 20240416/l/lcz/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 09:36:56] INFO root fetch - processPackages [glassflow]: executing diffoscope
+[2024-04-16 09:36:56] INFO root fetch - processPackages [glassflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glassflow-1.0.2.tar.gz tmp/glassflow-1.0.3.tar.gz --markdown 20240416/g/glassflow/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-16 09:36:56] INFO root fetch - processPackages [maxwell-protocol]: Downloading https://files.pythonhosted.org/packages/8e/fc/3024bc4b8384356af54b08fcc07f86b87db69fae21b6501077f0ffdbb59b/maxwell_protocol-0.8.0.tar.gz
+[2024-04-16 09:36:56] INFO root fetch - processPackages [maxwell-protocol]: executing diffoscope
+[2024-04-16 09:36:56] INFO root fetch - processPackages [maxwell-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxwell_protocol-0.7.3.tar.gz tmp/maxwell_protocol-0.8.0.tar.gz --markdown 20240416/m/maxwell-protocol/0.7.3-0.8.0/README.md --exclude *.pyd
+[2024-04-16 09:36:57] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.6.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.7.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-04-16 09:36:57] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode-gs1]: Downloading https://files.pythonhosted.org/packages/a9/97/d4bb6ffd8d9dcce12703017dce02dedb588f14a9bb521138a8bc30a8a9cd/odoo14_addon_sale_input_barcode_gs1-14.0.2.0.1.dev2-py3-none-any.whl
+[2024-04-16 09:36:57] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.8.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.9.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - main [MainThread]: End processing [ecodev-front]: success
+[2024-04-16 09:36:57] INFO root fetch - processPackages [glassflow]: Remove: archive file [/home/abi/fetcher/tmp/glassflow-1.0.2.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - processPackages [glassflow]: Remove: archive file [/home/abi/fetcher/tmp/glassflow-1.0.3.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - main [MainThread]: End processing [glassflow]: success
+[2024-04-16 09:36:57] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.1.0.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.2.0.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-04-16 09:36:57] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode-gs1]: executing diffoscope
+[2024-04-16 09:36:57] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode-gs1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_input_barcode_gs1-14.0.2.0.0-py3-none-any.whl.zip tmp/odoo14_addon_sale_input_barcode_gs1-14.0.2.0.1.dev2-py3-none-any.whl.zip --markdown 20240416/o/odoo14-addon-sale-input-barcode-gs1/14.0.2.0.0-14.0.2.0.1.dev2/README.md --exclude *.pyd
+[2024-04-16 09:36:57] INFO root fetch - processPackages [lcz]: Remove: archive file [/home/abi/fetcher/tmp/lcz-0.1.3-py3-none-any.whl.zip]
+[2024-04-16 09:36:57] INFO root fetch - processPackages [lcz]: Remove: archive file [/home/abi/fetcher/tmp/lcz-0.1.4-py3-none-any.whl.zip]
+[2024-04-16 09:36:57] INFO root fetch - main [MainThread]: End processing [lcz]: success
+[2024-04-16 09:36:57] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b3.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b4.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - main [MainThread]: End processing [furthrmind]: success
+[2024-04-16 09:36:57] INFO root fetch - processPackages [maxwell-protocol]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_protocol-0.7.3.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - processPackages [maxwell-protocol]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_protocol-0.8.0.tar.gz]
+[2024-04-16 09:36:57] INFO root fetch - main [MainThread]: End processing [maxwell-protocol]: success
+[2024-04-16 09:36:57] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode-gs1]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_input_barcode_gs1-14.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-16 09:36:57] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode-gs1]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_input_barcode_gs1-14.0.2.0.1.dev2-py3-none-any.whl.zip]
+[2024-04-16 09:36:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-input-barcode-gs1]: success
+[2024-04-16 09:36:57] INFO root fetch - main [MainThread]: Store serial: [22783818]
