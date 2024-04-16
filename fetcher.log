@@ -3761,3 +3761,27 @@
 [2024-04-16 04:01:35] INFO root fetch - processPackages [napari-animation]: Remove: archive file [/home/abi/fetcher/tmp/napari_animation-0.0.8rc2.tar.gz]
 [2024-04-16 04:01:35] INFO root fetch - main [MainThread]: End processing [napari-animation]: success
 [2024-04-16 04:01:35] INFO root fetch - main [MainThread]: Store serial: [22781447]
+[2024-04-16 04:03:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781447]
+[2024-04-16 04:03:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flaskz
+[2024-04-16 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avocentdpdu
+[2024-04-16 04:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ths-mongo-training-tools
+[2024-04-16 04:03:44] INFO root fetch - processPackages [avocentdpdu]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 04:03:45] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/95/51/a8fba09d721530722fec9015f2c2bcc2540cf6727ba77c4ee1ea17573e91/avocentdpdu-1.0.0.tar.gz
+[2024-04-16 04:03:45] WARNING root fetch - processPackages [ths-mongo-training-tools]: Skipping, unable to determine old version
+[2024-04-16 04:03:45] INFO root fetch - main [MainThread]: End processing [ths-mongo-training-tools] error
+[2024-04-16 04:03:45] INFO root fetch - processPackages [flaskz]: New version: [1.7.3rc1] Old Version: [1.7.2rc2]
+[2024-04-16 04:03:45] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/1b/55/6daafb276061884ab1dbe60d2c1e61d2ab613f8e63764a387debadd19095/flaskz-1.7.2rc2.tar.gz
+[2024-04-16 04:03:45] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/8e/1c/27e86709d5f9a489cae0b3b8617017ebc1d53ebbfce3f741f8d6ace14fbc/avocentdpdu-1.0.1.tar.gz
+[2024-04-16 04:03:45] INFO root fetch - processPackages [avocentdpdu]: executing diffoscope
+[2024-04-16 04:03:45] INFO root fetch - processPackages [avocentdpdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocentdpdu-1.0.0.tar.gz tmp/avocentdpdu-1.0.1.tar.gz --markdown 20240416/a/avocentdpdu/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 04:03:45] INFO root fetch - processPackages [flaskz]: Downloading https://files.pythonhosted.org/packages/d2/67/9d23eae2a2a921477794080ef16c971d18d484f5f818cabe2fc230e88dc2/flaskz-1.7.3rc1.tar.gz
+[2024-04-16 04:03:45] INFO root fetch - processPackages [flaskz]: executing diffoscope
+[2024-04-16 04:03:45] INFO root fetch - processPackages [flaskz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaskz-1.7.2rc2.tar.gz tmp/flaskz-1.7.3rc1.tar.gz --markdown 20240416/f/flaskz/1.7.2rc2-1.7.3rc1/README.md --exclude *.pyd
+[2024-04-16 04:03:46] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-1.0.0.tar.gz]
+[2024-04-16 04:03:46] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-1.0.1.tar.gz]
+[2024-04-16 04:03:46] INFO root fetch - main [MainThread]: End processing [avocentdpdu]: success
+[2024-04-16 04:03:46] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.7.2rc2.tar.gz]
+[2024-04-16 04:03:46] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.7.3rc1.tar.gz]
+[2024-04-16 04:03:46] INFO root fetch - main [MainThread]: End processing [flaskz]: success
+[2024-04-16 04:03:46] INFO root fetch - main [MainThread]: Store serial: [22781466]
