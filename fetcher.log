@@ -17353,3 +17353,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:36:19] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc1.tar.gz]
 [2024-04-16 14:36:19] INFO root fetch - main [MainThread]: End processing [youwol]: success
 [2024-04-16 14:36:19] INFO root fetch - main [MainThread]: Store serial: [22787517]
+[2024-04-16 14:38:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787517]
+[2024-04-16 14:38:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 14:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nostr-dvm
+[2024-04-16 14:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2024-04-16 14:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlscat
+[2024-04-16 14:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccs-digitalmarketplace-frontend-jinja
+[2024-04-16 14:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amsdal_data
+[2024-04-16 14:38:28] INFO root fetch - processPackages [dcicutils]: New version: [8.8.3.1b8] Old Version: [8.8.3.1b7]
+[2024-04-16 14:38:28] INFO root fetch - processPackages [mlscat]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 14:38:28] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: New version: [2.0.0rc1] Old Version: [1.4.1]
+[2024-04-16 14:38:28] INFO root fetch - processPackages [nostr-dvm]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-16 14:38:28] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/8a/82/51be2968cc6c82e3f0e1628c5140e59aefc469846472c744a69cbc82558e/dcicutils-8.8.3.1b7.tar.gz
+[2024-04-16 14:38:29] INFO root fetch - processPackages [amsdal_data]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-16 14:38:29] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/a1/7b/e64f97327c4f7532bee6e7896e55ab4aa856bec31e75176ea38950b1b789/mlscat-0.0.4.tar.gz
+[2024-04-16 14:38:29] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/70/6c/a85fbfad12bc6751b58c53efde372af9e2696cacbac61b19d3e645803372/nostr-dvm-0.3.2.tar.gz
+[2024-04-16 14:38:29] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/0e/4a/b31a7a64cdaea9a1018ef918ef2011d86fa1d02990ed3b8c7b51f850965e/ccs-digitalmarketplace-frontend-jinja-1.4.1.tar.gz
+[2024-04-16 14:38:29] INFO root fetch - processPackages [amsdal_data]: Downloading https://files.pythonhosted.org/packages/e1/53/42839df67bae84655315772e45670f1aed85a424e3d3eac10085e5ce9cf0/amsdal_data-0.1.5-cp311-cp311-win_amd64.whl
+[2024-04-16 14:38:29] INFO root fetch - processPackages [mlscat]: Downloading https://files.pythonhosted.org/packages/af/14/0d2d75441dd9d42cef084b30821c9d7bbf3e0ab215aa382e592f6e8df45e/mlscat-0.0.5.tar.gz
+[2024-04-16 14:38:29] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/55/29/62f5a247f04b2bf0f9da53bf75c80ebc4731638e110560a1b0c2b690b9e1/dcicutils-8.8.3.1b8.tar.gz
+[2024-04-16 14:38:29] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/eb/5f/f0f0ab9ae50566ad23d93e953058e67e01e12ddbf6ac98aee85653b81e3a/nostr_dvm-0.3.3.tar.gz
+[2024-04-16 14:38:29] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/e1/22/e4fd10ac366c51ce06d0ad388b8d965f3355a3e29237f406ce29b82ce4af/ccs-digitalmarketplace-frontend-jinja-2.0.0rc1.tar.gz
+[2024-04-16 14:38:29] INFO root fetch - processPackages [mlscat]: executing diffoscope
+[2024-04-16 14:38:29] INFO root fetch - processPackages [mlscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlscat-0.0.4.tar.gz tmp/mlscat-0.0.5.tar.gz --markdown 20240416/m/mlscat/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 14:38:29] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-04-16 14:38:29] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr-dvm-0.3.2.tar.gz tmp/nostr_dvm-0.3.3.tar.gz --markdown 20240416/n/nostr-dvm/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-16 14:38:29] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-16 14:38:29] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.3.1b7.tar.gz tmp/dcicutils-8.8.3.1b8.tar.gz --markdown 20240416/d/dcicutils/8.8.3.1b7-8.8.3.1b8/README.md --exclude *.pyd
+[2024-04-16 14:38:29] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: executing diffoscope
+[2024-04-16 14:38:29] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-frontend-jinja-1.4.1.tar.gz tmp/ccs-digitalmarketplace-frontend-jinja-2.0.0rc1.tar.gz --markdown 20240416/c/ccs-digitalmarketplace-frontend-jinja/1.4.1-2.0.0rc1/README.md --exclude *.pyd
+[2024-04-16 14:38:29] INFO root fetch - processPackages [amsdal_data]: Downloading https://files.pythonhosted.org/packages/92/b6/afd286f2e1341f931defc85ec2187351ab7190a11969d81e3ae01ebdbc47/amsdal_data-0.1.6-cp311-cp311-win_amd64.whl
+[2024-04-16 14:38:30] INFO root fetch - processPackages [amsdal_data]: executing diffoscope
+[2024-04-16 14:38:30] INFO root fetch - processPackages [amsdal_data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_data-0.1.5-cp311-cp311-win_amd64.whl.zip tmp/amsdal_data-0.1.6-cp311-cp311-win_amd64.whl.zip --markdown 20240416/a/amsdal_data/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-16 14:38:30] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.4.tar.gz]
+[2024-04-16 14:38:30] INFO root fetch - processPackages [mlscat]: Remove: archive file [/home/abi/fetcher/tmp/mlscat-0.0.5.tar.gz]
+[2024-04-16 14:38:30] INFO root fetch - main [MainThread]: End processing [mlscat]: success
+[2024-04-16 14:38:30] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-1.4.1.tar.gz]
+[2024-04-16 14:38:30] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.0.0rc1.tar.gz]
+[2024-04-16 14:38:30] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-frontend-jinja]: success
+[2024-04-16 14:38:30] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr-dvm-0.3.2.tar.gz]
+[2024-04-16 14:38:30] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr_dvm-0.3.3.tar.gz]
+[2024-04-16 14:38:30] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-04-16 14:38:30] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b7.tar.gz]
+[2024-04-16 14:38:30] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b8.tar.gz]
+[2024-04-16 14:38:30] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-16 14:38:30] INFO root fetch - processPackages [amsdal_data]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_data-0.1.5-cp311-cp311-win_amd64.whl.zip]
+[2024-04-16 14:38:30] INFO root fetch - processPackages [amsdal_data]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_data-0.1.6-cp311-cp311-win_amd64.whl.zip]
+[2024-04-16 14:38:30] INFO root fetch - main [MainThread]: End processing [amsdal_data]: success
+[2024-04-16 14:38:30] INFO root fetch - main [MainThread]: Store serial: [22787534]
