@@ -15657,3 +15657,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:31:51] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-16 13:31:51] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-16 13:31:51] INFO root fetch - main [MainThread]: Store serial: [22786855]
+[2024-04-16 13:33:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786855]
+[2024-04-16 13:33:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backports.tarfile
+[2024-04-16 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: literal-dict
+[2024-04-16 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: playmolecule
+[2024-04-16 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sendsafely
+[2024-04-16 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2024-04-16 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2024-04-16 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2024-04-16 13:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: enapter
+[2024-04-16 13:33:59] INFO root fetch - processPackages [backports.tarfile]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-16 13:33:59] INFO root fetch - processPackages [literal-dict]: New version: [1.0.1.1] Old Version: [1.0.1]
+[2024-04-16 13:33:59] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-16 13:33:59] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-16 13:34:00] INFO root fetch - processPackages [sendsafely]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 13:34:00] INFO root fetch - processPackages [literal-dict]: Downloading https://files.pythonhosted.org/packages/1d/3c/db0ff30a23d9f378516270fdf0f6d48c6b8bceabe86a25048b43bcdf0541/literal_dict-1.0.1.tar.gz
+[2024-04-16 13:34:00] INFO root fetch - processPackages [playmolecule]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/19/d4/48ed170e79102607db9758662c34c1e9a7d2cca453a976226f2d8dd11967/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/18/8d/5c32ddd637a0599b7a839f802a7243a55780adba3d383c90ef75166e05a8/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-16 13:34:00] INFO root fetch - processPackages [enapter]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-16 13:34:00] INFO root fetch - processPackages [backports.tarfile]: Downloading https://files.pythonhosted.org/packages/1d/f5/2f268125bdd8f6d5cce1d6ba19fc0c58a6d65d3f46f27df677236d58620a/backports.tarfile-1.0.0.tar.gz
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/46/e6/cfb9b8e2b84779c413931c88816ff46e987f3bf841f1fb714e6b662e8296/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-16 13:34:00] INFO root fetch - processPackages [literal-dict]: Downloading https://files.pythonhosted.org/packages/86/cb/a71347c8b52cff789edaf5862b344cb2c6302596c8539f386a70226a2209/literal_dict-1.0.1.1.tar.gz
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d5/55/6c71d544e2fef7c773e7b994940d2019c84fd5eaa8f6db64fa9983595110/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-16 13:34:00] INFO root fetch - processPackages [sendsafely]: Downloading https://files.pythonhosted.org/packages/07/ad/1e8665eccc4c795f95f5d70b60e15fd5cd69a096ac17216c424c04ccf617/sendsafely-1.0.3.tar.gz
+[2024-04-16 13:34:00] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/64/b0/bfc18e7eb81d52b6e6f077f79370a1f7695b7f0778851e66d68186b30be0/playmolecule-2.4.8.tar.gz
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/45/5e/4f1364a73e0ee415abfe197b77d791f9294a79e4d8f7a3e886e5eec8d664/torchserve_nightly-2024.4.7-py3-none-any.whl
+[2024-04-16 13:34:00] INFO root fetch - processPackages [enapter]: Downloading https://files.pythonhosted.org/packages/33/37/a8c5210601b7ff2656c8ee12f777b5ccdd3be7b644aa6e470b933ab1cf93/enapter-0.9.1-py3-none-any.whl
+[2024-04-16 13:34:00] INFO root fetch - processPackages [backports.tarfile]: Downloading https://files.pythonhosted.org/packages/02/f9/7672fdfc4503fb0387ab14a3b76ccba7dd9ac5a04cb6fa52d013f23c46bf/backports_tarfile-1.1.0.tar.gz
+[2024-04-16 13:34:00] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332257>=10485760
+[2024-04-16 13:34:00] INFO root fetch - processPackages [literal-dict]: executing diffoscope
+[2024-04-16 13:34:00] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-16 13:34:00] INFO root fetch - processPackages [literal-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literal_dict-1.0.1.tar.gz tmp/literal_dict-1.0.1.1.tar.gz --markdown 20240416/l/literal-dict/1.0.1-1.0.1.1/README.md --exclude *.pyd
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240416/t/torch-model-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-16 13:34:00] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240416/t/torch-workflow-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-16 13:34:00] INFO root fetch - processPackages [backports.tarfile]: executing diffoscope
+[2024-04-16 13:34:00] INFO root fetch - processPackages [backports.tarfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backports.tarfile-1.0.0.tar.gz tmp/backports_tarfile-1.1.0.tar.gz --markdown 20240416/b/backports.tarfile/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-16 13:34:00] INFO root fetch - processPackages [sendsafely]: Downloading https://files.pythonhosted.org/packages/1d/47/a61b1b6c914817f6096cdd7c9a9c183edb1d240fc7fa6228c2154831266e/sendsafely-1.0.4.tar.gz
+[2024-04-16 13:34:00] INFO root fetch - processPackages [enapter]: Downloading https://files.pythonhosted.org/packages/a4/a0/f6c442547d374add226232b4f10772862c37914b867035023571fc224921/enapter-0.9.2-py3-none-any.whl
+[2024-04-16 13:34:00] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/f4/32/91c078a0b892421b5797977c4fe473b624a5babecf8f1b20496273257880/playmolecule-2.4.9.tar.gz
+[2024-04-16 13:34:00] INFO root fetch - processPackages [sendsafely]: executing diffoscope
+[2024-04-16 13:34:00] INFO root fetch - processPackages [sendsafely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sendsafely-1.0.3.tar.gz tmp/sendsafely-1.0.4.tar.gz --markdown 20240416/s/sendsafely/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-16 13:34:01] INFO root fetch - processPackages [enapter]: executing diffoscope
+[2024-04-16 13:34:01] INFO root fetch - processPackages [enapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enapter-0.9.1-py3-none-any.whl.zip tmp/enapter-0.9.2-py3-none-any.whl.zip --markdown 20240416/e/enapter/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-16 13:34:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-16 13:34:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-16 13:34:01] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-16 13:34:01] INFO root fetch - processPackages [literal-dict]: Remove: archive file [/home/abi/fetcher/tmp/literal_dict-1.0.1.tar.gz]
+[2024-04-16 13:34:01] INFO root fetch - processPackages [literal-dict]: Remove: archive file [/home/abi/fetcher/tmp/literal_dict-1.0.1.1.tar.gz]
+[2024-04-16 13:34:01] INFO root fetch - main [MainThread]: End processing [literal-dict]: success
+[2024-04-16 13:34:01] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2024-04-16 13:34:01] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-2.4.8.tar.gz tmp/playmolecule-2.4.9.tar.gz --markdown 20240416/p/playmolecule/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-16 13:34:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-16 13:34:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-16 13:34:01] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-16 13:34:01] INFO root fetch - processPackages [backports.tarfile]: Remove: archive file [/home/abi/fetcher/tmp/backports.tarfile-1.0.0.tar.gz]
+[2024-04-16 13:34:01] INFO root fetch - processPackages [backports.tarfile]: Remove: archive file [/home/abi/fetcher/tmp/backports_tarfile-1.1.0.tar.gz]
+[2024-04-16 13:34:01] INFO root fetch - main [MainThread]: End processing [backports.tarfile]: success
+[2024-04-16 13:34:01] INFO root fetch - processPackages [sendsafely]: Remove: archive file [/home/abi/fetcher/tmp/sendsafely-1.0.3.tar.gz]
+[2024-04-16 13:34:01] INFO root fetch - processPackages [sendsafely]: Remove: archive file [/home/abi/fetcher/tmp/sendsafely-1.0.4.tar.gz]
+[2024-04-16 13:34:01] INFO root fetch - main [MainThread]: End processing [sendsafely]: success
+[2024-04-16 13:34:01] INFO root fetch - processPackages [enapter]: Remove: archive file [/home/abi/fetcher/tmp/enapter-0.9.1-py3-none-any.whl.zip]
+[2024-04-16 13:34:01] INFO root fetch - processPackages [enapter]: Remove: archive file [/home/abi/fetcher/tmp/enapter-0.9.2-py3-none-any.whl.zip]
+[2024-04-16 13:34:01] INFO root fetch - main [MainThread]: End processing [enapter]: success
+[2024-04-16 13:34:02] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.8.tar.gz]
+[2024-04-16 13:34:02] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.9.tar.gz]
+[2024-04-16 13:34:02] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2024-04-16 13:34:02] INFO root fetch - main [MainThread]: Store serial: [22786869]
