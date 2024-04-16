@@ -6292,3 +6292,42 @@
 [2024-04-16 06:59:41] INFO root fetch - processPackages [hatchling]: Remove: archive file [/home/abi/fetcher/tmp/hatchling-1.9.0.tar.gz]
 [2024-04-16 06:59:41] INFO root fetch - main [MainThread]: End processing [hatchling]: success
 [2024-04-16 06:59:41] INFO root fetch - main [MainThread]: Store serial: [22782703]
+[2024-04-16 07:01:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782703]
+[2024-04-16 07:01:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 07:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-16 07:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remindmail
+[2024-04-16 07:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hllama
+[2024-04-16 07:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trm-woodburn
+[2024-04-16 07:01:50] INFO root fetch - processPackages [hllama]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-04-16 07:01:50] INFO root fetch - processPackages [trm-woodburn]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 07:01:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.17a1713237060] Old Version: [0.0.17a1713234623]
+[2024-04-16 07:01:50] INFO root fetch - processPackages [remindmail]: New version: [2024.4.15.2] Old Version: [2024.4.15.1]
+[2024-04-16 07:01:50] INFO root fetch - processPackages [hllama]: Downloading https://files.pythonhosted.org/packages/1a/f0/c44be25c7d894aaba5117488c6abbadf6373d8485a897ce427101db32fc3/hllama-0.0.4-py3-none-any.whl
+[2024-04-16 07:01:50] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/a7/90/2e0653208c64b2f000bad1e0bf6dfd8523840e1b44f1bb6c9005715383d0/trm_woodburn-0.0.8.tar.gz
+[2024-04-16 07:01:50] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/e2/03/6c9eb65fe2422c1ccb3999552be1d81f937b43a8821b8b18a0fa1ad83ef8/remindmail-2024.4.15.1.tar.gz
+[2024-04-16 07:01:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/41/50/cb85330f957bcdd9c8c6ea7799ec62f80adca2c471d92e68ef568e12e155/pulumi_kubernetes_the_hard_way-0.0.17a1713234623.tar.gz
+[2024-04-16 07:01:50] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/9c/52/1dbf0c3743671e8c68ee46e23a9262ac2ffe2769c7d0322d44ea4c05deff/trm_woodburn-0.0.9.tar.gz
+[2024-04-16 07:01:50] INFO root fetch - processPackages [hllama]: Downloading https://files.pythonhosted.org/packages/1b/d9/f45acaf160e5a908ceedbc8e18df97042f73877842c5eeae4b13af9b2bf7/hllama-0.0.6-py3-none-any.whl
+[2024-04-16 07:01:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/66/dd/0db0aa7197d21f141e82f245cd3cbc6b965f865653d4db1e53d3e9efa47b/pulumi_kubernetes_the_hard_way-0.0.17a1713237060.tar.gz
+[2024-04-16 07:01:50] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/e2/8b/9b616d92d335f8adbe6e0542a0685f2fa6dbf0ac07ac6f18d5670dbdc824/remindmail-2024.4.15.2.tar.gz
+[2024-04-16 07:01:50] INFO root fetch - processPackages [trm-woodburn]: executing diffoscope
+[2024-04-16 07:01:50] INFO root fetch - processPackages [trm-woodburn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trm_woodburn-0.0.8.tar.gz tmp/trm_woodburn-0.0.9.tar.gz --markdown 20240416/t/trm-woodburn/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 07:01:50] INFO root fetch - processPackages [hllama]: executing diffoscope
+[2024-04-16 07:01:50] INFO root fetch - processPackages [hllama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hllama-0.0.4-py3-none-any.whl.zip tmp/hllama-0.0.6-py3-none-any.whl.zip --markdown 20240416/h/hllama/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-04-16 07:01:50] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2024-04-16 07:01:50] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2024.4.15.1.tar.gz tmp/remindmail-2024.4.15.2.tar.gz --markdown 20240416/r/remindmail/2024.4.15.1-2024.4.15.2/README.md --exclude *.pyd
+[2024-04-16 07:01:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-16 07:01:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713234623.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713237060.tar.gz --markdown 20240416/p/pulumi-kubernetes-the-hard-way/0.0.17a1713234623-0.0.17a1713237060/README.md --exclude *.pyd
+[2024-04-16 07:01:51] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.8.tar.gz]
+[2024-04-16 07:01:51] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.9.tar.gz]
+[2024-04-16 07:01:51] INFO root fetch - main [MainThread]: End processing [trm-woodburn]: success
+[2024-04-16 07:01:51] INFO root fetch - processPackages [hllama]: Remove: archive file [/home/abi/fetcher/tmp/hllama-0.0.4-py3-none-any.whl.zip]
+[2024-04-16 07:01:51] INFO root fetch - processPackages [hllama]: Remove: archive file [/home/abi/fetcher/tmp/hllama-0.0.6-py3-none-any.whl.zip]
+[2024-04-16 07:01:51] INFO root fetch - main [MainThread]: End processing [hllama]: success
+[2024-04-16 07:01:51] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.15.1.tar.gz]
+[2024-04-16 07:01:51] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.15.2.tar.gz]
+[2024-04-16 07:01:51] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2024-04-16 07:01:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713234623.tar.gz]
+[2024-04-16 07:01:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713237060.tar.gz]
+[2024-04-16 07:01:51] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-16 07:01:51] INFO root fetch - main [MainThread]: Store serial: [22782727]
