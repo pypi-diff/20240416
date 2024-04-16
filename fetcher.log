@@ -8259,3 +8259,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 08:57:33] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-1.1.2.tar.gz]
 [2024-04-16 08:57:33] INFO root fetch - main [MainThread]: End processing [dirigera]: success
 [2024-04-16 08:57:33] INFO root fetch - main [MainThread]: Store serial: [22783449]
+[2024-04-16 08:59:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783449]
+[2024-04-16 08:59:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phenomApis
+[2024-04-16 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keyboardsounds
+[2024-04-16 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tokenizeseq2seq
+[2024-04-16 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arch-flow
+[2024-04-16 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxzscxiezhifeng1
+[2024-04-16 08:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uk-election-ids
+[2024-04-16 08:59:42] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 08:59:42] INFO root fetch - processPackages [arch-flow]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 08:59:42] INFO root fetch - processPackages [keyboardsounds]: New version: [5.7.3] Old Version: [5.7.2]
+[2024-04-16 08:59:42] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-04-16 08:59:42] WARNING root fetch - processPackages [tokenizeseq2seq]: Skipping, unable to determine old version
+[2024-04-16 08:59:42] INFO root fetch - main [MainThread]: End processing [tokenizeseq2seq] error
+[2024-04-16 08:59:42] INFO root fetch - processPackages [cxzscxiezhifeng1]: New version: [2.4] Old Version: [2.3]
+[2024-04-16 08:59:42] INFO root fetch - processPackages [uk-election-ids]: New version: [0.8.0] Old Version: [0.7.5]
+[2024-04-16 08:59:42] INFO root fetch - processPackages [keyboardsounds]: Downloading https://files.pythonhosted.org/packages/79/87/edac8682748582c07a5a4af6f73259e6bbb96d3cac8f29471e15755f2a90/keyboardsounds-5.7.2.tar.gz
+[2024-04-16 08:59:42] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/1f/02/7d9fae956f60eb9d547c591188e3edb4f4e409a0a5fc561cf2f63d5e3183/arch_flow-0.0.2.tar.gz
+[2024-04-16 08:59:42] INFO root fetch - processPackages [cxzscxiezhifeng1]: Downloading https://files.pythonhosted.org/packages/71/42/8e86af3d25dd1a10209ef5258b5ea2927d04c0d2efd27be2c43c67e62871/cxzscxiezhifeng1-2.3.tar.gz
+[2024-04-16 08:59:42] INFO root fetch - processPackages [uk-election-ids]: Downloading https://files.pythonhosted.org/packages/80/3a/d57aea6e7f4357a6cdc849421c6df3ecc20d8bf48d6d4218bd8ee29a1122/uk_election_ids-0.7.5.tar.gz
+[2024-04-16 08:59:42] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-04-16 08:59:42] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/32/b5/9fc77b3568deaf2887e6792faf2cd864417dee7f6861136c9c02c847e4f1/arch_flow-0.0.3.tar.gz
+[2024-04-16 08:59:42] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-04-16 08:59:42] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240416/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 08:59:42] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-04-16 08:59:42] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.0.2.tar.gz tmp/arch_flow-0.0.3.tar.gz --markdown 20240416/a/arch-flow/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 08:59:42] INFO root fetch - processPackages [keyboardsounds]: Downloading https://files.pythonhosted.org/packages/8c/a5/844575216792c7d01530b9fcad785161e96d3f95ea80dc4ba504bb355dd4/keyboardsounds-5.7.3.tar.gz
+[2024-04-16 08:59:43] INFO root fetch - processPackages [uk-election-ids]: Downloading https://files.pythonhosted.org/packages/09/9d/278835079029a73c9cdd02066d3298ab55859771ab9a73bf6bd3cdecca7d/uk_election_ids-0.8.0.tar.gz
+[2024-04-16 08:59:43] INFO root fetch - processPackages [cxzscxiezhifeng1]: Downloading https://files.pythonhosted.org/packages/c3/2c/42930f89764397524f84367dca6c80a2df08e8bf921dd52213d58354edf9/cxzscxiezhifeng1-2.4.tar.gz
+[2024-04-16 08:59:43] INFO root fetch - processPackages [keyboardsounds]: executing diffoscope
+[2024-04-16 08:59:43] INFO root fetch - processPackages [keyboardsounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyboardsounds-5.7.2.tar.gz tmp/keyboardsounds-5.7.3.tar.gz --markdown 20240416/k/keyboardsounds/5.7.2-5.7.3/README.md --exclude *.pyd
+[2024-04-16 08:59:43] INFO root fetch - processPackages [uk-election-ids]: executing diffoscope
+[2024-04-16 08:59:43] INFO root fetch - processPackages [uk-election-ids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uk_election_ids-0.7.5.tar.gz tmp/uk_election_ids-0.8.0.tar.gz --markdown 20240416/u/uk-election-ids/0.7.5-0.8.0/README.md --exclude *.pyd
+[2024-04-16 08:59:43] INFO root fetch - processPackages [cxzscxiezhifeng1]: executing diffoscope
+[2024-04-16 08:59:43] INFO root fetch - processPackages [cxzscxiezhifeng1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxzscxiezhifeng1-2.3.tar.gz tmp/cxzscxiezhifeng1-2.4.tar.gz --markdown 20240416/c/cxzscxiezhifeng1/2.3-2.4/README.md --exclude *.pyd
+[2024-04-16 08:59:43] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.2.tar.gz]
+[2024-04-16 08:59:43] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.3.tar.gz]
+[2024-04-16 08:59:43] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-04-16 08:59:43] INFO root fetch - processPackages [uk-election-ids]: Remove: archive file [/home/abi/fetcher/tmp/uk_election_ids-0.7.5.tar.gz]
+[2024-04-16 08:59:43] INFO root fetch - processPackages [uk-election-ids]: Remove: archive file [/home/abi/fetcher/tmp/uk_election_ids-0.8.0.tar.gz]
+[2024-04-16 08:59:43] INFO root fetch - main [MainThread]: End processing [uk-election-ids]: success
+[2024-04-16 08:59:44] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-04-16 08:59:44] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-04-16 08:59:44] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-04-16 08:59:44] INFO root fetch - processPackages [cxzscxiezhifeng1]: Remove: archive file [/home/abi/fetcher/tmp/cxzscxiezhifeng1-2.3.tar.gz]
+[2024-04-16 08:59:44] INFO root fetch - processPackages [cxzscxiezhifeng1]: Remove: archive file [/home/abi/fetcher/tmp/cxzscxiezhifeng1-2.4.tar.gz]
+[2024-04-16 08:59:44] INFO root fetch - main [MainThread]: End processing [cxzscxiezhifeng1]: success
+[2024-04-16 08:59:44] INFO root fetch - processPackages [keyboardsounds]: Remove: archive file [/home/abi/fetcher/tmp/keyboardsounds-5.7.2.tar.gz]
+[2024-04-16 08:59:44] INFO root fetch - processPackages [keyboardsounds]: Remove: archive file [/home/abi/fetcher/tmp/keyboardsounds-5.7.3.tar.gz]
+[2024-04-16 08:59:44] INFO root fetch - main [MainThread]: End processing [keyboardsounds]: success
+[2024-04-16 08:59:44] INFO root fetch - main [MainThread]: Store serial: [22783468]
