@@ -7648,3 +7648,18 @@
 [2024-04-16 08:29:07] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.6.5.tar.gz]
 [2024-04-16 08:29:07] INFO root fetch - main [MainThread]: End processing [dvtag]: success
 [2024-04-16 08:29:07] INFO root fetch - main [MainThread]: Store serial: [22783222]
+[2024-04-16 08:31:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783222]
+[2024-04-16 08:31:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 08:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drawdraw
+[2024-04-16 08:31:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokenized-input-blobs
+[2024-04-16 08:31:15] INFO root fetch - processPackages [drawdraw]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 08:31:15] WARNING root fetch - processPackages [tokenized-input-blobs]: Skipping, unable to determine old version
+[2024-04-16 08:31:15] INFO root fetch - main [MainThread]: End processing [tokenized-input-blobs] error
+[2024-04-16 08:31:16] INFO root fetch - processPackages [drawdraw]: Downloading https://files.pythonhosted.org/packages/cc/91/2b71b3de88fbfb923966370ee4ac12ef0a21ba1caa56728eeff5314b49ba/drawdraw-0.0.1-py3-none-any.whl
+[2024-04-16 08:31:16] INFO root fetch - processPackages [drawdraw]: Downloading https://files.pythonhosted.org/packages/3a/88/ba5a998ea3145eacb9bda0d0ee3ac0b14c45603a56d826c541502196df8a/drawdraw-0.0.2-py3-none-any.whl
+[2024-04-16 08:31:16] INFO root fetch - processPackages [drawdraw]: executing diffoscope
+[2024-04-16 08:31:16] INFO root fetch - processPackages [drawdraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drawdraw-0.0.1-py3-none-any.whl.zip tmp/drawdraw-0.0.2-py3-none-any.whl.zip --markdown 20240416/d/drawdraw/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 08:31:17] INFO root fetch - processPackages [drawdraw]: Remove: archive file [/home/abi/fetcher/tmp/drawdraw-0.0.1-py3-none-any.whl.zip]
+[2024-04-16 08:31:17] INFO root fetch - processPackages [drawdraw]: Remove: archive file [/home/abi/fetcher/tmp/drawdraw-0.0.2-py3-none-any.whl.zip]
+[2024-04-16 08:31:17] INFO root fetch - main [MainThread]: End processing [drawdraw]: success
+[2024-04-16 08:31:17] INFO root fetch - main [MainThread]: Store serial: [22783226]
