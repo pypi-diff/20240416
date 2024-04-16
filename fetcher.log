@@ -3665,3 +3665,30 @@
 [2024-04-16 03:55:02] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-16 03:55:02] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-16 03:55:02] INFO root fetch - main [MainThread]: Store serial: [22781405]
+[2024-04-16 03:57:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781405]
+[2024-04-16 03:57:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 03:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alacorder
+[2024-04-16 03:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: termichat
+[2024-04-16 03:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2024-04-16 03:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sinnia-utils
+[2024-04-16 03:57:11] WARNING root fetch - processPackages [termichat]: Skipping, unable to determine old version
+[2024-04-16 03:57:11] INFO root fetch - main [MainThread]: End processing [termichat] error
+[2024-04-16 03:57:11] WARNING root fetch - processPackages [sinnia-utils]: Skipping, unable to determine old version
+[2024-04-16 03:57:11] INFO root fetch - main [MainThread]: End processing [sinnia-utils] error
+[2024-04-16 03:57:11] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-16 03:57:11] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-16 03:57:11] INFO root fetch - processPackages [alacorder]: New version: [81.2.9] Old Version: [81.2.8]
+[2024-04-16 03:57:11] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/3c/8b/06b6c641077ef571cfce00037b04fbed587c976602b1864a039adf4a6cc5/alacorder-81.2.8.tar.gz
+[2024-04-16 03:57:11] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-16 03:57:11] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-16 03:57:11] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240416/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-16 03:57:11] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/19/45/ba44b965f3cdfef0cc322e5c74a77dae65a86854c8efd06a64a5003cb675/alacorder-81.2.9.tar.gz
+[2024-04-16 03:57:12] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2024-04-16 03:57:12] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-81.2.8.tar.gz tmp/alacorder-81.2.9.tar.gz --markdown 20240416/a/alacorder/81.2.8-81.2.9/README.md --exclude *.pyd
+[2024-04-16 03:57:12] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.8.tar.gz]
+[2024-04-16 03:57:12] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.2.9.tar.gz]
+[2024-04-16 03:57:12] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2024-04-16 03:57:13] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-16 03:57:13] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-16 03:57:13] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-16 03:57:13] INFO root fetch - main [MainThread]: Store serial: [22781417]
