@@ -11574,3 +11574,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:54:37] INFO root fetch - processPackages [pyacp]: Remove: archive file [/home/abi/fetcher/tmp/pyacp-0.2.0.tar.gz]
 [2024-04-16 10:54:37] INFO root fetch - main [MainThread]: End processing [pyacp]: success
 [2024-04-16 10:54:37] INFO root fetch - main [MainThread]: Store serial: [22784878]
+[2024-04-16 10:56:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784878]
+[2024-04-16 10:56:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monday-code
+[2024-04-16 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2024-04-16 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elastic
+[2024-04-16 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: power-grid-model
+[2024-04-16 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minet
+[2024-04-16 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: novowrap
+[2024-04-16 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tacrpy
+[2024-04-16 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deltalake2db
+[2024-04-16 10:56:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heiwa4126.hello
+[2024-04-16 10:56:58] INFO root fetch - processPackages [monday-code]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 10:56:58] WARNING root fetch - processPackages [heiwa4126.hello]: Skipping, unable to determine old version
+[2024-04-16 10:56:58] INFO root fetch - main [MainThread]: End processing [heiwa4126.hello] error
+[2024-04-16 10:56:58] INFO root fetch - processPackages [elastic]: New version: [5.2.2.4] Old Version: [5.2.2.3]
+[2024-04-16 10:56:59] INFO root fetch - processPackages [novowrap]: New version: [1.30] Old Version: [1.20]
+[2024-04-16 10:56:59] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/31/2f/ecab56cf54efba87257c25cf3a61a859ac18c6c9325e910ccc984f8962e1/elastic-5.2.2.3.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [tacrpy]: New version: [1.5.0] Old Version: [1.4.5]
+[2024-04-16 10:56:59] INFO root fetch - processPackages [minet]: New version: [2.0.0] Old Version: [1.5.1]
+[2024-04-16 10:56:59] INFO root fetch - processPackages [deltalake2db]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-16 10:56:59] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-16 10:56:59] INFO root fetch - processPackages [monday-code]: Downloading https://files.pythonhosted.org/packages/44/78/e7dc99c69bbfb94c94ddb70bd1a16589a2aa0371945f1a4e3e04a8d3c691/monday_code-0.0.1.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [novowrap]: Downloading https://files.pythonhosted.org/packages/fa/31/868fc3e370474839bf2ad4af7d928f10692b6684e8461265a28de30144f7/novowrap-1.20-py3-none-any.whl
+[2024-04-16 10:56:59] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-04-16 10:56:59] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-16 10:56:59] INFO root fetch - processPackages [tacrpy]: Downloading https://files.pythonhosted.org/packages/37/e4/52d7613dbae0fa8ddd9948952fcdb4b2afb8f6c5ee2bcc318ce3f1b2fd09/tacrpy-1.4.5-py3-none-any.whl
+[2024-04-16 10:56:59] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/ad/44/22bb5304a3c2c6cdfb19f93fd2876792f498e1189d788f311465b9b6811f/minet-1.5.1.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [deltalake2db]: Downloading https://files.pythonhosted.org/packages/7c/a4/fab5ae0657106d27c7c431f749c6a8fe6f6315812aef6e8bd51ec17dcf3c/deltalake2db-0.2.3.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/96/48/e984a836ff4258781ed37c21d3905da8a4645b9e571dabdba31cbcb08ee2/elastic-5.2.2.4.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [monday-code]: Downloading https://files.pythonhosted.org/packages/f4/b9/16bb1a017ed8778e841e05c847766ec782912806f77781f84cc77b5ccef6/monday_code-0.0.2.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [novowrap]: Downloading https://files.pythonhosted.org/packages/0d/04/7072205f0a1ed4413ce34940e52352a5b4a1259a0ef1dc9b36b99f39d166/novowrap-1.30.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [monday-code]: executing diffoscope
+[2024-04-16 10:56:59] INFO root fetch - processPackages [monday-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monday_code-0.0.1.tar.gz tmp/monday_code-0.0.2.tar.gz --markdown 20240416/m/monday-code/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 10:56:59] INFO root fetch - processPackages [elastic]: executing diffoscope
+[2024-04-16 10:56:59] INFO root fetch - processPackages [elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-5.2.2.3.tar.gz tmp/elastic-5.2.2.4.tar.gz --markdown 20240416/e/elastic/5.2.2.3-5.2.2.4/README.md --exclude *.pyd
+[2024-04-16 10:56:59] INFO root fetch - processPackages [tacrpy]: Downloading https://files.pythonhosted.org/packages/ef/31/4773e5887a57ae9fdf96a3a141e50c0a957c21567c2a02d0bf308a397d66/tacrpy-1.5.0-py3-none-any.whl
+[2024-04-16 10:56:59] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/ba/52/af41c815d2c1a971edcfa055cd40a731b9448ece34fd1ee5127a40f59a12/minet-2.0.0.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [deltalake2db]: Downloading https://files.pythonhosted.org/packages/81/00/26270a92feb6a6af0144ad04a96e513f0d4b2fc91dcda7f5d7ec9b9c4782/deltalake2db-0.3.0.tar.gz
+[2024-04-16 10:56:59] INFO root fetch - processPackages [novowrap]: executing diffoscope
+[2024-04-16 10:56:59] INFO root fetch - processPackages [novowrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novowrap-1.20-py3-none-any.whl.zip tmp/novowrap-1.30.tar.gz --markdown 20240416/n/novowrap/1.20-1.30/README.md --exclude *.pyd
+[2024-04-16 10:56:59] INFO root fetch - processPackages [tacrpy]: executing diffoscope
+[2024-04-16 10:56:59] INFO root fetch - processPackages [tacrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tacrpy-1.4.5-py3-none-any.whl.zip tmp/tacrpy-1.5.0-py3-none-any.whl.zip --markdown 20240416/t/tacrpy/1.4.5-1.5.0/README.md --exclude *.pyd
+[2024-04-16 10:57:00] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-04-16 10:57:00] INFO root fetch - processPackages [minet]: executing diffoscope
+[2024-04-16 10:57:00] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.5.1.tar.gz tmp/minet-2.0.0.tar.gz --markdown 20240416/m/minet/1.5.1-2.0.0/README.md --exclude *.pyd
+[2024-04-16 10:57:00] INFO root fetch - processPackages [deltalake2db]: executing diffoscope
+[2024-04-16 10:57:00] INFO root fetch - processPackages [deltalake2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltalake2db-0.2.3.tar.gz tmp/deltalake2db-0.3.0.tar.gz --markdown 20240416/d/deltalake2db/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-16 10:57:00] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-04-16 10:57:00] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240416/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-04-16 10:57:00] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-16 10:57:00] INFO root fetch - processPackages [monday-code]: Remove: archive file [/home/abi/fetcher/tmp/monday_code-0.0.1.tar.gz]
+[2024-04-16 10:57:00] INFO root fetch - processPackages [monday-code]: Remove: archive file [/home/abi/fetcher/tmp/monday_code-0.0.2.tar.gz]
+[2024-04-16 10:57:00] INFO root fetch - main [MainThread]: End processing [monday-code]: success
+[2024-04-16 10:57:00] INFO root fetch - processPackages [novowrap]: Remove: archive file [/home/abi/fetcher/tmp/novowrap-1.20-py3-none-any.whl.zip]
+[2024-04-16 10:57:00] INFO root fetch - processPackages [novowrap]: Remove: archive file [/home/abi/fetcher/tmp/novowrap-1.30.tar.gz]
+[2024-04-16 10:57:00] INFO root fetch - main [MainThread]: End processing [novowrap]: success
+[2024-04-16 10:57:00] INFO root fetch - processPackages [tacrpy]: Remove: archive file [/home/abi/fetcher/tmp/tacrpy-1.4.5-py3-none-any.whl.zip]
+[2024-04-16 10:57:00] INFO root fetch - processPackages [tacrpy]: Remove: archive file [/home/abi/fetcher/tmp/tacrpy-1.5.0-py3-none-any.whl.zip]
+[2024-04-16 10:57:00] INFO root fetch - main [MainThread]: End processing [tacrpy]: success
+[2024-04-16 10:57:00] INFO root fetch - processPackages [deltalake2db]: Remove: archive file [/home/abi/fetcher/tmp/deltalake2db-0.2.3.tar.gz]
+[2024-04-16 10:57:00] INFO root fetch - processPackages [deltalake2db]: Remove: archive file [/home/abi/fetcher/tmp/deltalake2db-0.3.0.tar.gz]
+[2024-04-16 10:57:00] INFO root fetch - main [MainThread]: End processing [deltalake2db]: success
+[2024-04-16 10:57:00] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-16 10:57:00] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240416/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-16 10:57:01] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.3.tar.gz]
+[2024-04-16 10:57:01] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.4.tar.gz]
+[2024-04-16 10:57:01] INFO root fetch - main [MainThread]: End processing [elastic]: success
+[2024-04-16 10:57:01] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.5.1.tar.gz]
+[2024-04-16 10:57:01] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-2.0.0.tar.gz]
+[2024-04-16 10:57:02] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2024-04-16 10:57:02] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-04-16 10:57:02] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-04-16 10:57:02] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-04-16 10:57:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-16 10:57:04] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-16 10:57:04] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-16 10:57:04] INFO root fetch - main [MainThread]: Store serial: [22784912]
