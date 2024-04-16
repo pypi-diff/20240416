@@ -6825,3 +6825,78 @@
 [2024-04-16 07:36:03] INFO root fetch - processPackages [law_dictionary]: Remove: archive file [/home/abi/fetcher/tmp/law_dictionary-1.0.9.tar.gz]
 [2024-04-16 07:36:03] INFO root fetch - main [MainThread]: End processing [law_dictionary]: success
 [2024-04-16 07:36:03] INFO root fetch - main [MainThread]: Store serial: [22782905]
+[2024-04-16 07:38:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782905]
+[2024-04-16 07:38:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 07:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: svc-toolkit
+[2024-04-16 07:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pre5g
+[2024-04-16 07:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-runtime-nightly
+[2024-04-16 07:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqqq-cli
+[2024-04-16 07:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decorator-libs
+[2024-04-16 07:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tira
+[2024-04-16 07:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mgmtsystem-hazard-maintenance-equipment
+[2024-04-16 07:38:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spark-ai-python
+[2024-04-16 07:38:12] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240414] Old Version: [2.17.0.dev20240413]
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pre5g]: New version: [3.6] Old Version: [3.5]
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-16 07:38:12] INFO root fetch - processPackages [decorator-libs]: New version: [1.3] Old Version: [1.2]
+[2024-04-16 07:38:12] INFO root fetch - processPackages [svc-toolkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 07:38:12] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-16 07:38:12] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-maintenance-equipment]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/7f/69/0350e879e87b4a7a8ced490615e119c241f8b6deb259a1d75de09c8a8017/pre5g-3.5.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/a4/20/eb5dc915d99c3c2ebc86883d5d3bd04a98477f96bf4f3ea53217d6acbe33/tflite_runtime_nightly-2.17.0.dev20240413-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-16 07:38:12] INFO root fetch - processPackages [tira]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/6a/7c/4e54c62da0adb745d407df8993b76673da85d2feef811555e1ec4dd3f601/pyqqq_cli-0.2.3.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [decorator-libs]: Downloading https://files.pythonhosted.org/packages/72/b8/40e17367434c83c3f35da424649171146741bcd32b9ee8e253da641f827c/decorator_libs-1.2.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/18/71/a24976dca8e6971f4159fa0a5ac7f6c14882856b396c72cec99c66a68ec3/svc_toolkit-1.0.8.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-maintenance-equipment]: Downloading https://files.pythonhosted.org/packages/96/c8/2e49731db32f32b1660951d98c31638d965c91a1fbf3ada2b6540e551d6c/odoo_addon_mgmtsystem_hazard_maintenance_equipment-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 07:38:12] INFO root fetch - processPackages [decorator-libs]: Downloading https://files.pythonhosted.org/packages/53/48/71e9688a57ac1f073a24e58701f159108404e6e8ca87c6b0e3c8805db35f/decorator_libs-1.3.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/4b/d0/2e61e71a65015785af087e247c1a0fb86643b1a1315e058857f4c30e93d1/tira-0.0.98.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/83/90/83715f0fe34473861801e01c4edeac35b7edc4c078c8ee2ec329b09de928/pre5g-3.6.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/82/a2/12df518d324ef6ea2d53281af385dca3452ba4a9e8d07449bfa5ba4ec6ec/pyqqq_cli-0.2.4.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/fb/06/f48fdbd2f7036847a18341b31d54a199a2881024679e67836a47992e5275/tflite_runtime_nightly-2.17.0.dev20240414-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-16 07:38:12] INFO root fetch - processPackages [decorator-libs]: executing diffoscope
+[2024-04-16 07:38:12] INFO root fetch - processPackages [decorator-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator_libs-1.2.tar.gz tmp/decorator_libs-1.3.tar.gz --markdown 20240416/d/decorator-libs/1.2-1.3/README.md --exclude *.pyd
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-3.5.tar.gz tmp/pre5g-3.6.tar.gz --markdown 20240416/p/pre5g/3.5-3.6/README.md --exclude *.pyd
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-04-16 07:38:12] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.2.3.tar.gz tmp/pyqqq_cli-0.2.4.tar.gz --markdown 20240416/p/pyqqq-cli/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-16 07:38:12] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/12/47/713112c1e024ebcf265ef509aabd2f529c7542012e9ba49646881121f672/svc_toolkit-1.0.9.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-maintenance-equipment]: Downloading https://files.pythonhosted.org/packages/57/c7/a66e6c04570812da36a651be6b3a839e535f585bf800e965fc959d47eb2a/odoo_addon_mgmtsystem_hazard_maintenance_equipment-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-16 07:38:12] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-16 07:38:12] INFO root fetch - processPackages [svc-toolkit]: executing diffoscope
+[2024-04-16 07:38:12] INFO root fetch - processPackages [svc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_toolkit-1.0.8.tar.gz tmp/svc_toolkit-1.0.9.tar.gz --markdown 20240416/s/svc-toolkit/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 07:38:12] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-04-16 07:38:12] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240413-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240414-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240416/t/tflite-runtime-nightly/2.17.0.dev20240413-2.17.0.dev20240414/README.md --exclude *.pyd
+[2024-04-16 07:38:12] INFO root fetch - processPackages [tira]: Downloading https://files.pythonhosted.org/packages/2d/31/b9af5a5b67ff777b2c9209808c8e4e18c7fd17c6348a13651170d8884d62/tira-0.0.99.tar.gz
+[2024-04-16 07:38:13] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-maintenance-equipment]: executing diffoscope
+[2024-04-16 07:38:13] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-maintenance-equipment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_hazard_maintenance_equipment-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_hazard_maintenance_equipment-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-mgmtsystem-hazard-maintenance-equipment/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-16 07:38:13] INFO root fetch - processPackages [tira]: executing diffoscope
+[2024-04-16 07:38:13] INFO root fetch - processPackages [tira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tira-0.0.98.tar.gz tmp/tira-0.0.99.tar.gz --markdown 20240416/t/tira/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 07:38:13] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-16 07:38:13] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240416/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-16 07:38:13] INFO root fetch - processPackages [decorator-libs]: Remove: archive file [/home/abi/fetcher/tmp/decorator_libs-1.2.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - processPackages [decorator-libs]: Remove: archive file [/home/abi/fetcher/tmp/decorator_libs-1.3.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - main [MainThread]: End processing [decorator-libs]: success
+[2024-04-16 07:38:13] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.3.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.4.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-04-16 07:38:13] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240413-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-16 07:38:13] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240414-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-16 07:38:13] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-04-16 07:38:13] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.5.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.6.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-16 07:38:13] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.8.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.9.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
+[2024-04-16 07:38:13] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-maintenance-equipment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard_maintenance_equipment-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 07:38:13] INFO root fetch - processPackages [odoo-addon-mgmtsystem-hazard-maintenance-equipment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_hazard_maintenance_equipment-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-16 07:38:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-hazard-maintenance-equipment]: success
+[2024-04-16 07:38:13] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.98.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - processPackages [tira]: Remove: archive file [/home/abi/fetcher/tmp/tira-0.0.99.tar.gz]
+[2024-04-16 07:38:13] INFO root fetch - main [MainThread]: End processing [tira]: success
+[2024-04-16 07:38:14] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-16 07:38:14] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-16 07:38:14] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-16 07:38:14] INFO root fetch - main [MainThread]: Store serial: [22782937]
