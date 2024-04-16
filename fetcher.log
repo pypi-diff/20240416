@@ -3190,3 +3190,27 @@
 [2024-04-16 03:19:09] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.9.tar.gz]
 [2024-04-16 03:19:09] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
 [2024-04-16 03:19:09] INFO root fetch - main [MainThread]: Store serial: [22781140]
+[2024-04-16 03:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781140]
+[2024-04-16 03:21:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 03:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: termichat
+[2024-04-16 03:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imsosorrybutinc
+[2024-04-16 03:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansible-core
+[2024-04-16 03:21:18] WARNING root fetch - processPackages [termichat]: Skipping, unable to determine old version
+[2024-04-16 03:21:18] INFO root fetch - main [MainThread]: End processing [termichat] error
+[2024-04-16 03:21:18] INFO root fetch - processPackages [imsosorrybutinc]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-16 03:21:18] INFO root fetch - processPackages [ansible-core]: New version: [2.17.0b1] Old Version: [2.16.6]
+[2024-04-16 03:21:18] INFO root fetch - processPackages [imsosorrybutinc]: Downloading https://files.pythonhosted.org/packages/ee/2e/381e031ac1dc283a42c15992e9096f45dd5f2b0c8e33d0cf1db31aa9ca08/imsosorrybutinc-0.6.0.tar.gz
+[2024-04-16 03:21:18] INFO root fetch - processPackages [ansible-core]: Downloading https://files.pythonhosted.org/packages/0c/65/d28ed46f5daeb2ed37f9b55631cac7070d7a39f72b6d25cb99a5d8068827/ansible_core-2.16.6.tar.gz
+[2024-04-16 03:21:18] INFO root fetch - processPackages [imsosorrybutinc]: Downloading https://files.pythonhosted.org/packages/fa/e2/fd6d716cc49e003121cdd135d009963106d28e2ffe95830e10a0af90a222/imsosorrybutinc-0.7.0.tar.gz
+[2024-04-16 03:21:18] INFO root fetch - processPackages [imsosorrybutinc]: executing diffoscope
+[2024-04-16 03:21:18] INFO root fetch - processPackages [imsosorrybutinc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsosorrybutinc-0.6.0.tar.gz tmp/imsosorrybutinc-0.7.0.tar.gz --markdown 20240416/i/imsosorrybutinc/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-16 03:21:18] INFO root fetch - processPackages [ansible-core]: Downloading https://files.pythonhosted.org/packages/f7/c1/be7cf6b84dbc19f51fa4b4068c784eb29cac3d475ece8b5d4ddef86ac435/ansible-core-2.17.0b1.tar.gz
+[2024-04-16 03:21:19] INFO root fetch - processPackages [imsosorrybutinc]: Remove: archive file [/home/abi/fetcher/tmp/imsosorrybutinc-0.6.0.tar.gz]
+[2024-04-16 03:21:19] INFO root fetch - processPackages [imsosorrybutinc]: Remove: archive file [/home/abi/fetcher/tmp/imsosorrybutinc-0.7.0.tar.gz]
+[2024-04-16 03:21:19] INFO root fetch - main [MainThread]: End processing [imsosorrybutinc]: success
+[2024-04-16 03:21:19] INFO root fetch - processPackages [ansible-core]: executing diffoscope
+[2024-04-16 03:21:19] INFO root fetch - processPackages [ansible-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible_core-2.16.6.tar.gz tmp/ansible-core-2.17.0b1.tar.gz --markdown 20240416/a/ansible-core/2.16.6-2.17.0b1/README.md --exclude *.pyd
+[2024-04-16 03:21:42] INFO root fetch - processPackages [ansible-core]: Remove: archive file [/home/abi/fetcher/tmp/ansible_core-2.16.6.tar.gz]
+[2024-04-16 03:21:42] INFO root fetch - processPackages [ansible-core]: Remove: archive file [/home/abi/fetcher/tmp/ansible-core-2.17.0b1.tar.gz]
+[2024-04-16 03:21:42] INFO root fetch - main [MainThread]: End processing [ansible-core]: success
+[2024-04-16 03:21:42] INFO root fetch - main [MainThread]: Store serial: [22781170]
