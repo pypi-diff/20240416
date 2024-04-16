@@ -16813,3 +16813,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:16:27] INFO root fetch - processPackages [herschelhelp]: Remove: archive file [/home/abi/fetcher/tmp/herschelhelp-1.0.1.tar.gz]
 [2024-04-16 14:16:27] INFO root fetch - main [MainThread]: End processing [herschelhelp]: success
 [2024-04-16 14:16:27] INFO root fetch - main [MainThread]: Store serial: [22787324]
+[2024-04-16 14:18:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787324]
+[2024-04-16 14:18:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eolymp
+[2024-04-16 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gfagraphs
+[2024-04-16 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-cachify
+[2024-04-16 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scikit-lego
+[2024-04-16 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-clovers
+[2024-04-16 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simplepgsql
+[2024-04-16 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyqcisim
+[2024-04-16 14:18:35] INFO root fetch - processPackages [nonebot-plugin-clovers]: New version: [0.1.2.post1] Old Version: [0.1.2]
+[2024-04-16 14:18:35] INFO root fetch - processPackages [py-cachify]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 14:18:35] INFO root fetch - processPackages [gfagraphs]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 14:18:35] INFO root fetch - processPackages [nonebot-plugin-clovers]: Downloading https://files.pythonhosted.org/packages/f0/8c/f213c86e109033bcd9b7dc82c19633948d024e1a87fa077845d256cbec4a/nonebot_plugin_clovers-0.1.2.tar.gz
+[2024-04-16 14:18:35] INFO root fetch - processPackages [scikit-lego]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-16 14:18:35] INFO root fetch - processPackages [simplepgsql]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-16 14:18:35] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 14:18:35] INFO root fetch - processPackages [pyqcisim]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-16 14:18:36] INFO root fetch - processPackages [py-cachify]: Downloading https://files.pythonhosted.org/packages/ff/f1/c6b273dd938ed47994cbfe4e1e6f81e1f9b506d94de7056f57282e64046f/py_cachify-1.0.8.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/87/eb/3a081e19d92dd63c85ae3e4e228097587b86b90509ae2061b0db60085630/gfagraphs-0.2.8.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [scikit-lego]: Downloading https://files.pythonhosted.org/packages/db/37/a7e7b6ed6d27b1dba92fee4dcb7ebd4618300922bd8c1785762f79559d5b/scikit-lego-0.8.1.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [pyqcisim]: Downloading https://files.pythonhosted.org/packages/a7/6b/c603d5fa747b01b579ec7f4a448879efca9d377246c54297c1aefe19da99/pyqcisim-1.2.1.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [simplepgsql]: Downloading https://files.pythonhosted.org/packages/ad/0b/2f3a758b4717c9aea97bca34820498e8971553738a8cab4eaa2b1b7db1be/simplepgsql-0.1.6.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [nonebot-plugin-clovers]: Downloading https://files.pythonhosted.org/packages/7c/44/40fb0f050444813d9cccfa8e40e916207fa3ee64561a834ed546e33c914f/nonebot_plugin_clovers-0.1.2.post1.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [py-cachify]: Downloading https://files.pythonhosted.org/packages/b2/06/d3632f42acf3a398a22810b35bad5abd62d6d08ed00cffb5c44580d78b74/py_cachify-1.0.9.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [nonebot-plugin-clovers]: executing diffoscope
+[2024-04-16 14:18:36] INFO root fetch - processPackages [nonebot-plugin-clovers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_clovers-0.1.2.tar.gz tmp/nonebot_plugin_clovers-0.1.2.post1.tar.gz --markdown 20240416/n/nonebot-plugin-clovers/0.1.2-0.1.2.post1/README.md --exclude *.pyd
+[2024-04-16 14:18:36] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/7f/83/fac1481f6dd1b2e511a5eb60dca1828923be4fc918ac08dbcf05fea6cc26/gfagraphs-0.2.9.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [pyqcisim]: Downloading https://files.pythonhosted.org/packages/f2/09/b9848951ca68eef38a1fc98d171574c632f1c49b0d04879b9fc8a61478e1/pyqcisim-1.3.0.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [py-cachify]: executing diffoscope
+[2024-04-16 14:18:36] INFO root fetch - processPackages [py-cachify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_cachify-1.0.8.tar.gz tmp/py_cachify-1.0.9.tar.gz --markdown 20240416/p/py-cachify/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 14:18:36] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [simplepgsql]: Downloading https://files.pythonhosted.org/packages/0d/d3/4967ebd6c4dad5b74a742e5626160880d1a3ace195430a55bbebb6e450a9/simplepgsql-0.1.7.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [gfagraphs]: executing diffoscope
+[2024-04-16 14:18:36] INFO root fetch - processPackages [gfagraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfagraphs-0.2.8.tar.gz tmp/gfagraphs-0.2.9.tar.gz --markdown 20240416/g/gfagraphs/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 14:18:36] INFO root fetch - processPackages [scikit-lego]: Downloading https://files.pythonhosted.org/packages/76/7f/780956ef621e9049f0bdf9c3867ab34495b17612fd119e83e30086713114/scikit-lego-0.8.2.tar.gz
+[2024-04-16 14:18:36] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-04-16 14:18:36] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240416/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 14:18:36] INFO root fetch - processPackages [pyqcisim]: executing diffoscope
+[2024-04-16 14:18:36] INFO root fetch - processPackages [pyqcisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqcisim-1.2.1.tar.gz tmp/pyqcisim-1.3.0.tar.gz --markdown 20240416/p/pyqcisim/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-04-16 14:18:36] INFO root fetch - processPackages [scikit-lego]: executing diffoscope
+[2024-04-16 14:18:36] INFO root fetch - processPackages [scikit-lego]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-lego-0.8.1.tar.gz tmp/scikit-lego-0.8.2.tar.gz --markdown 20240416/s/scikit-lego/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-04-16 14:18:36] INFO root fetch - processPackages [simplepgsql]: executing diffoscope
+[2024-04-16 14:18:36] INFO root fetch - processPackages [simplepgsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplepgsql-0.1.6.tar.gz tmp/simplepgsql-0.1.7.tar.gz --markdown 20240416/s/simplepgsql/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-16 14:18:37] INFO root fetch - processPackages [nonebot-plugin-clovers]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_clovers-0.1.2.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - processPackages [nonebot-plugin-clovers]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_clovers-0.1.2.post1.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-clovers]: success
+[2024-04-16 14:18:37] INFO root fetch - processPackages [py-cachify]: Remove: archive file [/home/abi/fetcher/tmp/py_cachify-1.0.8.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - processPackages [py-cachify]: Remove: archive file [/home/abi/fetcher/tmp/py_cachify-1.0.9.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - main [MainThread]: End processing [py-cachify]: success
+[2024-04-16 14:18:37] INFO root fetch - processPackages [simplepgsql]: Remove: archive file [/home/abi/fetcher/tmp/simplepgsql-0.1.6.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - processPackages [simplepgsql]: Remove: archive file [/home/abi/fetcher/tmp/simplepgsql-0.1.7.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - main [MainThread]: End processing [simplepgsql]: success
+[2024-04-16 14:18:37] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.2.8.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.2.9.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - main [MainThread]: End processing [gfagraphs]: success
+[2024-04-16 14:18:37] INFO root fetch - processPackages [pyqcisim]: Remove: archive file [/home/abi/fetcher/tmp/pyqcisim-1.2.1.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - processPackages [pyqcisim]: Remove: archive file [/home/abi/fetcher/tmp/pyqcisim-1.3.0.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - main [MainThread]: End processing [pyqcisim]: success
+[2024-04-16 14:18:37] INFO root fetch - processPackages [scikit-lego]: Remove: archive file [/home/abi/fetcher/tmp/scikit-lego-0.8.1.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - processPackages [scikit-lego]: Remove: archive file [/home/abi/fetcher/tmp/scikit-lego-0.8.2.tar.gz]
+[2024-04-16 14:18:37] INFO root fetch - main [MainThread]: End processing [scikit-lego]: success
+[2024-04-16 14:18:38] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-04-16 14:18:38] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-04-16 14:18:38] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-04-16 14:18:38] INFO root fetch - main [MainThread]: Store serial: [22787347]
