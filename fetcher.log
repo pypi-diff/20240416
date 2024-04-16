@@ -2322,3 +2322,66 @@
 [2024-04-16 02:15:20] INFO root fetch - processPackages [esbuild-py]: Remove: archive file [/home/abi/fetcher/tmp/esbuild_py-0.1.5-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
 [2024-04-16 02:15:20] INFO root fetch - main [MainThread]: End processing [esbuild-py]: success
 [2024-04-16 02:15:20] INFO root fetch - main [MainThread]: Store serial: [22780768]
+[2024-04-16 02:17:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780768]
+[2024-04-16 02:17:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monteprediction
+[2024-04-16 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-16 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2024-04-16 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-bedrock-mistral
+[2024-04-16 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: requestrepo
+[2024-04-16 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-16 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.appsync-utils
+[2024-04-16 02:17:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-budibase
+[2024-04-16 02:17:30] WARNING root fetch - processPackages [requestrepo]: Skipping, unable to determine old version
+[2024-04-16 02:17:30] INFO root fetch - main [MainThread]: End processing [requestrepo] error
+[2024-04-16 02:17:30] INFO root fetch - processPackages [policyengine-us]: New version: [0.737.1] Old Version: [0.737.0]
+[2024-04-16 02:17:30] INFO root fetch - processPackages [monteprediction]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-04-16 02:17:30] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-16 02:17:30] WARNING root fetch - processPackages [llm-bedrock-mistral]: Skipping, unable to determine old version
+[2024-04-16 02:17:30] INFO root fetch - main [MainThread]: End processing [llm-bedrock-mistral] error
+[2024-04-16 02:17:30] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 02:17:30] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/7a/53/d7b714703a4816211d524b210a8085ae98a59ee7b843e5f68e36d0a9a4cc/policyengine-us-0.737.0.tar.gz
+[2024-04-16 02:17:30] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/0b/f2/2f616633ba5ea0a44cbeb83398da63240d33bba8c62e620e2a7305070c28/monteprediction-1.0.3.tar.gz
+[2024-04-16 02:17:30] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-16 02:17:30] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-16 02:17:30] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-16 02:17:30] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-16 02:17:30] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 02:17:30] INFO root fetch - processPackages [monteprediction]: Downloading https://files.pythonhosted.org/packages/36/a0/c611bf0441b891a1b51ff78beac049c5176d8fa1b8ad2aa279b67b8faeb0/monteprediction-1.0.5.tar.gz
+[2024-04-16 02:17:31] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/b0/54/972df1d49c93f21dc482fe5ae546e8f654392d804c55abd17787bdd13fb5/policyengine-us-0.737.1.tar.gz
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-16 02:17:31] INFO root fetch - processPackages [monteprediction]: executing diffoscope
+[2024-04-16 02:17:31] INFO root fetch - processPackages [monteprediction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monteprediction-1.0.3.tar.gz tmp/monteprediction-1.0.5.tar.gz --markdown 20240416/m/monteprediction/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240416/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240416/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 02:17:31] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-16 02:17:31] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.737.0.tar.gz tmp/policyengine-us-0.737.1.tar.gz --markdown 20240416/p/policyengine-us/0.737.0-0.737.1/README.md --exclude *.pyd
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240416/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240416/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-16 02:17:31] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-16 02:17:31] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-16 02:17:31] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-16 02:17:32] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.3.tar.gz]
+[2024-04-16 02:17:32] INFO root fetch - processPackages [monteprediction]: Remove: archive file [/home/abi/fetcher/tmp/monteprediction-1.0.5.tar.gz]
+[2024-04-16 02:17:32] INFO root fetch - main [MainThread]: End processing [monteprediction]: success
+[2024-04-16 02:17:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-16 02:17:32] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-16 02:17:32] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-16 02:17:32] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-16 02:17:32] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-16 02:17:32] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-16 02:18:03] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.737.0.tar.gz]
+[2024-04-16 02:18:03] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.737.1.tar.gz]
+[2024-04-16 02:18:03] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-16 02:18:03] INFO root fetch - main [MainThread]: Store serial: [22780820]
