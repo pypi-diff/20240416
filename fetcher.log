@@ -6900,3 +6900,15 @@
 [2024-04-16 07:38:14] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
 [2024-04-16 07:38:14] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
 [2024-04-16 07:38:14] INFO root fetch - main [MainThread]: Store serial: [22782937]
+[2024-04-16 07:40:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782937]
+[2024-04-16 07:40:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 07:40:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyiron-potentialfit
+[2024-04-16 07:40:23] INFO root fetch - processPackages [pyiron-potentialfit]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-16 07:40:23] INFO root fetch - processPackages [pyiron-potentialfit]: Downloading https://files.pythonhosted.org/packages/6d/dd/5ce86c211ad922f642c350fd731f423040763d35c0647dc9f51ceb9aa442/pyiron_potentialfit-0.2.0.tar.gz
+[2024-04-16 07:40:23] INFO root fetch - processPackages [pyiron-potentialfit]: Downloading https://files.pythonhosted.org/packages/1e/76/65ea036f32b79386c21e12c3d578ae74bd3fed148fe49cb4135ec447b115/pyiron_potentialfit-0.3.0.tar.gz
+[2024-04-16 07:40:23] INFO root fetch - processPackages [pyiron-potentialfit]: executing diffoscope
+[2024-04-16 07:40:23] INFO root fetch - processPackages [pyiron-potentialfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_potentialfit-0.2.0.tar.gz tmp/pyiron_potentialfit-0.3.0.tar.gz --markdown 20240416/p/pyiron-potentialfit/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-16 07:40:24] INFO root fetch - processPackages [pyiron-potentialfit]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_potentialfit-0.2.0.tar.gz]
+[2024-04-16 07:40:24] INFO root fetch - processPackages [pyiron-potentialfit]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_potentialfit-0.3.0.tar.gz]
+[2024-04-16 07:40:24] INFO root fetch - main [MainThread]: End processing [pyiron-potentialfit]: success
+[2024-04-16 07:40:24] INFO root fetch - main [MainThread]: Store serial: [22782941]
