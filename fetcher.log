@@ -14177,3 +14177,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:27:49] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.6.tar.gz]
 [2024-04-16 12:27:49] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-04-16 12:27:49] INFO root fetch - main [MainThread]: Store serial: [22786212]
+[2024-04-16 12:29:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786212]
+[2024-04-16 12:29:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-16 12:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gooddata-sdk
+[2024-04-16 12:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gooddata-pandas
+[2024-04-16 12:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gooddata-fdw
+[2024-04-16 12:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gooddata-api-client
+[2024-04-16 12:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gooddata-dbt
+[2024-04-16 12:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pdm-download
+[2024-04-16 12:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: factorslib
+[2024-04-16 12:29:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: embed-anything
+[2024-04-16 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DLMS-SPODES-client
+[2024-04-16 12:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ckanext-dc-log-view
+[2024-04-16 12:29:59] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [factorslib]: New version: [5.6] Old Version: [5.5]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-pandas]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-sdk]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-api-client]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [factorslib]: Downloading https://files.pythonhosted.org/packages/af/1e/8d83bc70a4f378bd9d938c9fe4f1f512d18b88abc4b70361b3f72c4764bd/factorslib-5.5.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [embed-anything]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-dbt]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/94/4b/bcc8809f94aef117e065daedd586f1963efa0e1f05fbe8e6834a2b27634a/DLMS_SPODES_client-0.7.8.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [pdm-download]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [ckanext-dc-log-view]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-fdw]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/b4/78/c802b0dc962bb56b61f12a880d027f833c71800fd9c86fe100dcefac27a8/gooddata-pandas-1.9.0.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/f3/80/4285744ed6a565ac4ea49b7bf637e5e00d407d67abf103cc8671bd0e3261/gooddata-sdk-1.9.0.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/16/e7/c8ceec7d71a92b4eff603eafab900647224f57543526dbf8b1c8e453ec98/gooddata-api-client-1.9.0.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/af/d2/74aa045051a6c3cdd9c60744f54e18244cd5c3685b0cfd8316ead7fb5f9f/gooddata-dbt-1.9.0.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [embed-anything]: Downloading https://files.pythonhosted.org/packages/0b/de/6833a6f52a083aed0a6903049ddd3a59775dea6d8d49be143fd8e767e2b5/embed_anything-0.1.8.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/0d/f0/c213876dffbc5d7f680c82e829333e573a9c9bf577c78eca5d58b89e2fe1/gooddata-fdw-1.9.0.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [pdm-download]: Downloading https://files.pythonhosted.org/packages/ae/d5/89fd2bd2341701fd953ca7833b18888d99033d5c5dd100a157b9a8634e8a/pdm_download-0.1.1.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [ckanext-dc-log-view]: Downloading https://files.pythonhosted.org/packages/78/c4/99f71ffb9f676a17b430d92f06fccec075d0615fa3b89de6568bc6cb71df/ckanext-dc_log_view-0.3.3.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [factorslib]: Downloading https://files.pythonhosted.org/packages/c1/cd/d13105dd8827857d3c7d42167cba7c671276400e593cdf371ffc2f144084/factorslib-5.6.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/24/38/d18fae8d519618ff6a33eb12786c0546068107df16d78e05d0070c3a72af/DLMS_SPODES_client-0.7.9.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [factorslib]: executing diffoscope
+[2024-04-16 12:29:59] INFO root fetch - processPackages [factorslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factorslib-5.5.tar.gz tmp/factorslib-5.6.tar.gz --markdown 20240416/f/factorslib/5.5-5.6/README.md --exclude *.pyd
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/ab/1b/0071a38eef6ed1cb68b13e41220cddc882c9bc97969963d703a01c57a62a/gooddata-pandas-1.9.1.dev1.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/dd/ee/087b761347319baf431af47a6ea7518b52bd18f3781d48b5945cbf3d62c7/gooddata-sdk-1.9.1.dev1.tar.gz
+[2024-04-16 12:29:59] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-16 12:29:59] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.8.tar.gz tmp/DLMS_SPODES_client-0.7.9.tar.gz --markdown 20240416/D/DLMS-SPODES-client/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-16 12:30:00] INFO root fetch - processPackages [ckanext-dc-log-view]: Downloading https://files.pythonhosted.org/packages/22/a3/ae93df479e08565ae9b2adc110a5a0358b2bb6c7ef57dbf434dbf1386013/ckanext-dc_log_view-0.4.0.tar.gz
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/e0/e6/aae416564ce76ca33ee9de368048118ded67271882273787e574c25abeec/gooddata-dbt-1.9.1.dev1.tar.gz
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/15/59/ec005e63eadc0fa8eee98ed734a060dac49dd9466ae60adc2dc0097b34e3/gooddata-api-client-1.9.1.dev1.tar.gz
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/a4/d2/aeb676c03fdd16fbb3e449ffdd81aada198350d7bb06985452ed7d890502/gooddata-fdw-1.9.1.dev1.tar.gz
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-pandas]: executing diffoscope
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-pandas-1.9.0.tar.gz tmp/gooddata-pandas-1.9.1.dev1.tar.gz --markdown 20240416/g/gooddata-pandas/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-sdk]: executing diffoscope
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-sdk-1.9.0.tar.gz tmp/gooddata-sdk-1.9.1.dev1.tar.gz --markdown 20240416/g/gooddata-sdk/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-16 12:30:00] INFO root fetch - processPackages [ckanext-dc-log-view]: executing diffoscope
+[2024-04-16 12:30:00] INFO root fetch - processPackages [ckanext-dc-log-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-dc_log_view-0.3.3.tar.gz tmp/ckanext-dc_log_view-0.4.0.tar.gz --markdown 20240416/c/ckanext-dc-log-view/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-04-16 12:30:00] INFO root fetch - processPackages [embed-anything]: Downloading https://files.pythonhosted.org/packages/fd/9b/e485e2b774254c26b7fb0ad0b5b4660008adfdb07ec0c23eee84e42cfda9/embed_anything-0.1.9.tar.gz
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-dbt]: executing diffoscope
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-dbt-1.9.0.tar.gz tmp/gooddata-dbt-1.9.1.dev1.tar.gz --markdown 20240416/g/gooddata-dbt/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-fdw]: executing diffoscope
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-fdw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-fdw-1.9.0.tar.gz tmp/gooddata-fdw-1.9.1.dev1.tar.gz --markdown 20240416/g/gooddata-fdw/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-16 12:30:00] INFO root fetch - processPackages [pdm-download]: Downloading https://files.pythonhosted.org/packages/45/83/b6f3433e608ed178e30c20a1b587e4a3721b286cdf9fb876deca8bfac0b2/pdm_download-0.1.2.tar.gz
+[2024-04-16 12:30:00] INFO root fetch - processPackages [factorslib]: Remove: archive file [/home/abi/fetcher/tmp/factorslib-5.5.tar.gz]
+[2024-04-16 12:30:00] INFO root fetch - processPackages [factorslib]: Remove: archive file [/home/abi/fetcher/tmp/factorslib-5.6.tar.gz]
+[2024-04-16 12:30:00] INFO root fetch - processPackages [factorslib]: Start processing: uav-collision-avoidance
+[2024-04-16 12:30:00] INFO root fetch - main [MainThread]: End processing [factorslib]: success
+[2024-04-16 12:30:00] INFO root fetch - processPackages [embed-anything]: executing diffoscope
+[2024-04-16 12:30:00] INFO root fetch - processPackages [embed-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embed_anything-0.1.8.tar.gz tmp/embed_anything-0.1.9.tar.gz --markdown 20240416/e/embed-anything/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-api-client]: executing diffoscope
+[2024-04-16 12:30:00] INFO root fetch - processPackages [gooddata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-api-client-1.9.0.tar.gz tmp/gooddata-api-client-1.9.1.dev1.tar.gz --markdown 20240416/g/gooddata-api-client/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-16 12:30:00] INFO root fetch - processPackages [uav-collision-avoidance]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-16 12:30:00] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.8.tar.gz]
+[2024-04-16 12:30:00] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.9.tar.gz]
+[2024-04-16 12:30:00] INFO root fetch - processPackages [DLMS-SPODES-client]: Start processing: project-utils-django
+[2024-04-16 12:30:00] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-16 12:30:00] INFO root fetch - processPackages [pdm-download]: executing diffoscope
+[2024-04-16 12:30:00] INFO root fetch - processPackages [pdm-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_download-0.1.1.tar.gz tmp/pdm_download-0.1.2.tar.gz --markdown 20240416/p/pdm-download/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 12:30:00] WARNING root fetch - processPackages [project-utils-django]: Skipping, unable to determine old version
+[2024-04-16 12:30:00] INFO root fetch - main [MainThread]: End processing [project-utils-django] error
+[2024-04-16 12:30:01] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/2a/62/83e69dcf36e3a9e8fc9939e63a2c9a4ae17c37bd6139cf1dd78b4108f56a/uav_collision_avoidance-0.4.0-py3-none-any.whl
+[2024-04-16 12:30:01] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.0.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.1.dev1.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - main [MainThread]: End processing [gooddata-pandas]: success
+[2024-04-16 12:30:01] INFO root fetch - processPackages [ckanext-dc-log-view]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_log_view-0.3.3.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - processPackages [ckanext-dc-log-view]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_log_view-0.4.0.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - main [MainThread]: End processing [ckanext-dc-log-view]: success
+[2024-04-16 12:30:01] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.0.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.1.dev1.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - main [MainThread]: End processing [gooddata-dbt]: success
+[2024-04-16 12:30:01] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.0.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.1.dev1.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - main [MainThread]: End processing [gooddata-fdw]: success
+[2024-04-16 12:30:01] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/e1/7a/4cb44d50be3160b415f4fb4ac7c30f0dd9a6071285bfdb0c1a195ad76284/uav_collision_avoidance-0.5.0-py3-none-any.whl
+[2024-04-16 12:30:01] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.0.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.1.dev1.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - main [MainThread]: End processing [gooddata-sdk]: success
+[2024-04-16 12:30:01] INFO root fetch - processPackages [uav-collision-avoidance]: executing diffoscope
+[2024-04-16 12:30:01] INFO root fetch - processPackages [uav-collision-avoidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uav_collision_avoidance-0.4.0-py3-none-any.whl.zip tmp/uav_collision_avoidance-0.5.0-py3-none-any.whl.zip --markdown 20240416/u/uav-collision-avoidance/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-16 12:30:01] INFO root fetch - processPackages [embed-anything]: Remove: archive file [/home/abi/fetcher/tmp/embed_anything-0.1.8.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - processPackages [embed-anything]: Remove: archive file [/home/abi/fetcher/tmp/embed_anything-0.1.9.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - main [MainThread]: End processing [embed-anything]: success
+[2024-04-16 12:30:01] INFO root fetch - processPackages [pdm-download]: Remove: archive file [/home/abi/fetcher/tmp/pdm_download-0.1.1.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - processPackages [pdm-download]: Remove: archive file [/home/abi/fetcher/tmp/pdm_download-0.1.2.tar.gz]
+[2024-04-16 12:30:01] INFO root fetch - main [MainThread]: End processing [pdm-download]: success
+[2024-04-16 12:30:02] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.4.0-py3-none-any.whl.zip]
+[2024-04-16 12:30:02] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.5.0-py3-none-any.whl.zip]
+[2024-04-16 12:30:02] INFO root fetch - main [MainThread]: End processing [uav-collision-avoidance]: success
+[2024-04-16 12:30:07] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.0.tar.gz]
+[2024-04-16 12:30:07] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.1.dev1.tar.gz]
+[2024-04-16 12:30:07] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
+[2024-04-16 12:30:07] INFO root fetch - main [MainThread]: Store serial: [22786245]
