@@ -5366,3 +5366,24 @@
 [2024-04-16 05:50:57] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
 [2024-04-16 05:50:57] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
 [2024-04-16 05:50:57] INFO root fetch - main [MainThread]: Store serial: [22782264]
+[2024-04-16 05:53:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782264]
+[2024-04-16 05:53:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 05:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-crm-won-restrict-per-stage
+[2024-04-16 05:53:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-crm
+[2024-04-16 05:53:06] INFO root fetch - processPackages [odoo-addon-crm-won-restrict-per-stage]: New version: [16.0.1.0.0.1] Old Version: [15.0.1.0.0.2]
+[2024-04-16 05:53:06] INFO root fetch - processPackages [odoo-addon-crm-won-restrict-per-stage]: Downloading https://files.pythonhosted.org/packages/07/e8/6dfab655e073b559b0f3aae8692410c2fae27c127f5488c7329ab5507d53/odoo_addon_crm_won_restrict_per_stage-15.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 05:53:06] INFO root fetch - processPackages [odoo-addons-oca-crm]: New version: [16.0.20240415.0] Old Version: [16.0.20231221.0]
+[2024-04-16 05:53:06] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/b2/42/c5942c0f1df588275d8c551eba21f42d39a6a45cca906e1da85358de2aff/odoo_addons_oca_crm-16.0.20231221.0-py3-none-any.whl
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addon-crm-won-restrict-per-stage]: Downloading https://files.pythonhosted.org/packages/a4/1f/60fb94e0af6d49c27779a2c9a401cc1bfa2ef2d7eda7623098138f278778/odoo_addon_crm_won_restrict_per_stage-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addon-crm-won-restrict-per-stage]: executing diffoscope
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addon-crm-won-restrict-per-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_won_restrict_per_stage-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_crm_won_restrict_per_stage-16.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-crm-won-restrict-per-stage/15.0.1.0.0.2-16.0.1.0.0.1/README.md --exclude *.pyd
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: Downloading https://files.pythonhosted.org/packages/a6/6f/6d559dfe5ba049a457fc3a9e99141f3701dfe189ac1ed582af70f0af64c5/odoo_addons_oca_crm-16.0.20240415.0-py3-none-any.whl
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: executing diffoscope
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_crm-16.0.20231221.0-py3-none-any.whl.zip tmp/odoo_addons_oca_crm-16.0.20240415.0-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-crm/16.0.20231221.0-16.0.20240415.0/README.md --exclude *.pyd
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addon-crm-won-restrict-per-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_won_restrict_per_stage-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addon-crm-won-restrict-per-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_won_restrict_per_stage-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-16 05:53:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-won-restrict-per-stage]: success
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20231221.0-py3-none-any.whl.zip]
+[2024-04-16 05:53:07] INFO root fetch - processPackages [odoo-addons-oca-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_crm-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-04-16 05:53:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-crm]: success
+[2024-04-16 05:53:07] INFO root fetch - main [MainThread]: Store serial: [22782268]
