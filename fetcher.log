@@ -11757,3 +11757,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:01:39] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.96.tar.gz]
 [2024-04-16 11:01:39] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-04-16 11:01:39] INFO root fetch - main [MainThread]: Store serial: [22784951]
+[2024-04-16 11:03:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784951]
+[2024-04-16 11:03:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 11:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blenderproc
+[2024-04-16 11:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ourJWT
+[2024-04-16 11:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graas-observability-utility
+[2024-04-16 11:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thulearn2018
+[2024-04-16 11:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinjected
+[2024-04-16 11:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fudstop
+[2024-04-16 11:03:50] INFO root fetch - processPackages [pinjected]: New version: [0.2.28] Old Version: [0.2.27]
+[2024-04-16 11:03:50] INFO root fetch - processPackages [ourJWT]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 11:03:50] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-16 11:03:50] INFO root fetch - processPackages [blenderproc]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-04-16 11:03:50] INFO root fetch - processPackages [thulearn2018]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-04-16 11:03:50] INFO root fetch - processPackages [fudstop]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-04-16 11:03:50] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/9a/f6/b6d3eeddde1a34b92dfda3e77cd8d43eb9f698892b121b7d26f63c44abfc/pinjected-0.2.27.tar.gz
+[2024-04-16 11:03:50] INFO root fetch - processPackages [ourJWT]: Downloading https://files.pythonhosted.org/packages/b7/0f/e06d21db2758a4cdbcfaefd4faa04f87a45ee119370ee8cde6cb69c2327e/ourJWT-0.0.4.tar.gz
+[2024-04-16 11:03:50] INFO root fetch - processPackages [blenderproc]: Downloading https://files.pythonhosted.org/packages/19/9e/aea19d48ebabf66216b28b46fc1c3b32ea4ee1b83de7b01464e40c8b99c2/blenderproc-2.7.0.tar.gz
+[2024-04-16 11:03:50] INFO root fetch - processPackages [thulearn2018]: Downloading https://files.pythonhosted.org/packages/62/f0/250220b1b61bb8ac937ac9e1dd60bbb52de743a1b66391cc229c711bcec9/thulearn2018-2.4.3.tar.gz
+[2024-04-16 11:03:50] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/db/08/c5283673821fc48b9210d1fa5d61767e99be3476b2771190d3a80ef9bf07/pinjected-0.2.28.tar.gz
+[2024-04-16 11:03:50] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/6a/0b/3653580effed7e1698d3f9b96b50d9bf966117955c03ebd475148bc622e3/fudstop-2.5.2.tar.gz
+[2024-04-16 11:03:50] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/df/64/5d979ef9512333fe8119628bd8e023ed9b6e1501a172a8b19269fcc554e7/graas-observability-utility-1.6.1.tar.gz
+[2024-04-16 11:03:50] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-16 11:03:50] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.27.tar.gz tmp/pinjected-0.2.28.tar.gz --markdown 20240416/p/pinjected/0.2.27-0.2.28/README.md --exclude *.pyd
+[2024-04-16 11:03:51] INFO root fetch - processPackages [ourJWT]: Downloading https://files.pythonhosted.org/packages/04/5e/8eafed316db2e21bd4eb1f56afa3ef0af46a84b4c14eb1ed139bc4b86a25/ourJWT-0.0.5.tar.gz
+[2024-04-16 11:03:51] INFO root fetch - processPackages [thulearn2018]: Downloading https://files.pythonhosted.org/packages/f9/30/dc533ce12ee40e47c2246b6d3b4c0ae0cffe8efc6017e918c512b0ae170d/thulearn2018-2.4.4.tar.gz
+[2024-04-16 11:03:51] INFO root fetch - processPackages [blenderproc]: Downloading https://files.pythonhosted.org/packages/d6/67/fc72d5cdc0956463d1a8ba9d622558d8b62ec6d4d8b54e465a6798e0bcd3/blenderproc-2.7.1.tar.gz
+[2024-04-16 11:03:51] INFO root fetch - processPackages [ourJWT]: executing diffoscope
+[2024-04-16 11:03:51] INFO root fetch - processPackages [ourJWT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourJWT-0.0.4.tar.gz tmp/ourJWT-0.0.5.tar.gz --markdown 20240416/o/ourJWT/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 11:03:51] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/1d/d7/4edf22efe8fd0775c578cbabfbc65b8e2d745fb85213ea35ac7044c2e47e/fudstop-2.5.3.tar.gz
+[2024-04-16 11:03:51] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/61/e8/d28cfc9e0252d20e9e9a26056e8384088160927449ef6e4823c974cde418/graas-observability-utility-1.6.2.tar.gz
+[2024-04-16 11:03:51] INFO root fetch - processPackages [thulearn2018]: executing diffoscope
+[2024-04-16 11:03:51] INFO root fetch - processPackages [thulearn2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thulearn2018-2.4.3.tar.gz tmp/thulearn2018-2.4.4.tar.gz --markdown 20240416/t/thulearn2018/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-04-16 11:03:51] INFO root fetch - processPackages [blenderproc]: executing diffoscope
+[2024-04-16 11:03:51] INFO root fetch - processPackages [blenderproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blenderproc-2.7.0.tar.gz tmp/blenderproc-2.7.1.tar.gz --markdown 20240416/b/blenderproc/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-04-16 11:03:51] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-04-16 11:03:51] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.6.1.tar.gz tmp/graas-observability-utility-1.6.2.tar.gz --markdown 20240416/g/graas-observability-utility/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-04-16 11:03:51] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-04-16 11:03:51] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.5.2.tar.gz tmp/fudstop-2.5.3.tar.gz --markdown 20240416/f/fudstop/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-04-16 11:03:51] INFO root fetch - processPackages [ourJWT]: Remove: archive file [/home/abi/fetcher/tmp/ourJWT-0.0.4.tar.gz]
+[2024-04-16 11:03:51] INFO root fetch - processPackages [ourJWT]: Remove: archive file [/home/abi/fetcher/tmp/ourJWT-0.0.5.tar.gz]
+[2024-04-16 11:03:51] INFO root fetch - main [MainThread]: End processing [ourJWT]: success
+[2024-04-16 11:03:51] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.27.tar.gz]
+[2024-04-16 11:03:51] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.28.tar.gz]
+[2024-04-16 11:03:51] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-16 11:03:51] INFO root fetch - processPackages [thulearn2018]: Remove: archive file [/home/abi/fetcher/tmp/thulearn2018-2.4.3.tar.gz]
+[2024-04-16 11:03:51] INFO root fetch - processPackages [thulearn2018]: Remove: archive file [/home/abi/fetcher/tmp/thulearn2018-2.4.4.tar.gz]
+[2024-04-16 11:03:51] INFO root fetch - main [MainThread]: End processing [thulearn2018]: success
+[2024-04-16 11:03:52] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.1.tar.gz]
+[2024-04-16 11:03:52] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.2.tar.gz]
+[2024-04-16 11:03:52] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-04-16 11:03:52] INFO root fetch - processPackages [blenderproc]: Remove: archive file [/home/abi/fetcher/tmp/blenderproc-2.7.0.tar.gz]
+[2024-04-16 11:03:52] INFO root fetch - processPackages [blenderproc]: Remove: archive file [/home/abi/fetcher/tmp/blenderproc-2.7.1.tar.gz]
+[2024-04-16 11:03:52] INFO root fetch - main [MainThread]: End processing [blenderproc]: success
+[2024-04-16 11:03:52] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.2.tar.gz]
+[2024-04-16 11:03:52] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.3.tar.gz]
+[2024-04-16 11:03:52] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-04-16 11:03:52] INFO root fetch - main [MainThread]: Store serial: [22784969]
