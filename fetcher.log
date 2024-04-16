@@ -14431,3 +14431,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:36:42] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-34.2.0.tar.gz]
 [2024-04-16 12:36:42] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2024-04-16 12:36:42] INFO root fetch - main [MainThread]: Store serial: [22786308]
+[2024-04-16 12:38:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786308]
+[2024-04-16 12:38:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 12:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icotest-voice
+[2024-04-16 12:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selva
+[2024-04-16 12:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-dc-view
+[2024-04-16 12:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tcrembedding
+[2024-04-16 12:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skypilot-nightly
+[2024-04-16 12:38:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cex-adaptors
+[2024-04-16 12:38:51] INFO root fetch - processPackages [icotest-voice]: New version: [1.0.43] Old Version: [1.0.42]
+[2024-04-16 12:38:51] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240415] Old Version: [1.0.0.dev20240414]
+[2024-04-16 12:38:51] INFO root fetch - processPackages [selva]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-16 12:38:51] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/3e/a0/197f41ab52591ce841c1bd327472fb06c8a977a5134864ddcf7d6a3009fb/skypilot_nightly-1.0.0.dev20240414.tar.gz
+[2024-04-16 12:38:51] INFO root fetch - processPackages [icotest-voice]: Downloading https://files.pythonhosted.org/packages/8f/db/958164d34bbe83a629444f444b5aef6ade6a9c146ae09e16acda5eaf5311/icotest-voice-1.0.42.tar.gz
+[2024-04-16 12:38:51] WARNING root fetch - processPackages [tcrembedding]: Skipping, unable to determine old version
+[2024-04-16 12:38:51] INFO root fetch - main [MainThread]: End processing [tcrembedding] error
+[2024-04-16 12:38:51] INFO root fetch - processPackages [cex-adaptors]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 12:38:51] INFO root fetch - processPackages [ckanext-dc-view]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-16 12:38:51] INFO root fetch - processPackages [selva]: Downloading https://files.pythonhosted.org/packages/10/3c/a4f173384a2c51021ef513126d672bfcc96290a84de2528f825e99d41bc1/selva-0.8.3.tar.gz
+[2024-04-16 12:38:51] INFO root fetch - processPackages [icotest-voice]: Downloading https://files.pythonhosted.org/packages/aa/40/9b4d69ee98f2b1b64062f3fb400cfc10541880f4c0e8583b6c4dd07e26e2/icotest_voice-1.0.43.tar.gz
+[2024-04-16 12:38:51] INFO root fetch - processPackages [ckanext-dc-view]: Downloading https://files.pythonhosted.org/packages/69/70/e3753c9206e95d8fd5418c9d12ac75dc1d32eaef89718a0575e3a27fcbdd/ckanext-dc_view-0.8.2.tar.gz
+[2024-04-16 12:38:51] INFO root fetch - processPackages [cex-adaptors]: Downloading https://files.pythonhosted.org/packages/ce/da/a1f72a249ff1248d3c59eb71e4936368d5f7600fb028b6bc19d49902ea30/cex-adaptors-1.0.4.tar.gz
+[2024-04-16 12:38:51] INFO root fetch - processPackages [icotest-voice]: executing diffoscope
+[2024-04-16 12:38:51] INFO root fetch - processPackages [icotest-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icotest-voice-1.0.42.tar.gz tmp/icotest_voice-1.0.43.tar.gz --markdown 20240416/i/icotest-voice/1.0.42-1.0.43/README.md --exclude *.pyd
+[2024-04-16 12:38:52] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/80/a8/48811f953ce5598b1641b6596f37076d57b175c4607cb7d5c3edfe35a409/skypilot_nightly-1.0.0.dev20240415.tar.gz
+[2024-04-16 12:38:52] INFO root fetch - processPackages [selva]: Downloading https://files.pythonhosted.org/packages/7b/d4/a35c4189cd8ba3af3adf53a50a79d03e362c00c0d7e09327ca464cf3dc33/selva-0.9.0.tar.gz
+[2024-04-16 12:38:52] INFO root fetch - processPackages [ckanext-dc-view]: Downloading https://files.pythonhosted.org/packages/55/0e/40e3b6e5cd905a9f2b44f2505833ff2ef46ad9b24d4783713db3047b6c1a/ckanext-dc_view-0.9.0.tar.gz
+[2024-04-16 12:38:52] INFO root fetch - processPackages [cex-adaptors]: Downloading https://files.pythonhosted.org/packages/d0/a3/70443ccff2d28c056735ffeca20f0aea0f7aa806319957add4c6500bf2ed/cex-adaptors-1.0.5.tar.gz
+[2024-04-16 12:38:52] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-16 12:38:52] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240414.tar.gz tmp/skypilot_nightly-1.0.0.dev20240415.tar.gz --markdown 20240416/s/skypilot-nightly/1.0.0.dev20240414-1.0.0.dev20240415/README.md --exclude *.pyd
+[2024-04-16 12:38:52] INFO root fetch - processPackages [selva]: executing diffoscope
+[2024-04-16 12:38:52] INFO root fetch - processPackages [selva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selva-0.8.3.tar.gz tmp/selva-0.9.0.tar.gz --markdown 20240416/s/selva/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-16 12:38:52] INFO root fetch - processPackages [ckanext-dc-view]: executing diffoscope
+[2024-04-16 12:38:52] INFO root fetch - processPackages [ckanext-dc-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-dc_view-0.8.2.tar.gz tmp/ckanext-dc_view-0.9.0.tar.gz --markdown 20240416/c/ckanext-dc-view/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-16 12:38:52] INFO root fetch - processPackages [cex-adaptors]: executing diffoscope
+[2024-04-16 12:38:52] INFO root fetch - processPackages [cex-adaptors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cex-adaptors-1.0.4.tar.gz tmp/cex-adaptors-1.0.5.tar.gz --markdown 20240416/c/cex-adaptors/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-16 12:38:52] INFO root fetch - processPackages [ckanext-dc-view]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_view-0.8.2.tar.gz]
+[2024-04-16 12:38:52] INFO root fetch - processPackages [ckanext-dc-view]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_view-0.9.0.tar.gz]
+[2024-04-16 12:38:52] INFO root fetch - main [MainThread]: End processing [ckanext-dc-view]: success
+[2024-04-16 12:38:53] INFO root fetch - processPackages [selva]: Remove: archive file [/home/abi/fetcher/tmp/selva-0.8.3.tar.gz]
+[2024-04-16 12:38:53] INFO root fetch - processPackages [selva]: Remove: archive file [/home/abi/fetcher/tmp/selva-0.9.0.tar.gz]
+[2024-04-16 12:38:53] INFO root fetch - main [MainThread]: End processing [selva]: success
+[2024-04-16 12:38:53] INFO root fetch - processPackages [icotest-voice]: Remove: archive file [/home/abi/fetcher/tmp/icotest-voice-1.0.42.tar.gz]
+[2024-04-16 12:38:53] INFO root fetch - processPackages [icotest-voice]: Remove: archive file [/home/abi/fetcher/tmp/icotest_voice-1.0.43.tar.gz]
+[2024-04-16 12:38:53] INFO root fetch - main [MainThread]: End processing [icotest-voice]: success
+[2024-04-16 12:38:53] INFO root fetch - processPackages [cex-adaptors]: Remove: archive file [/home/abi/fetcher/tmp/cex-adaptors-1.0.4.tar.gz]
+[2024-04-16 12:38:53] INFO root fetch - processPackages [cex-adaptors]: Remove: archive file [/home/abi/fetcher/tmp/cex-adaptors-1.0.5.tar.gz]
+[2024-04-16 12:38:53] INFO root fetch - main [MainThread]: End processing [cex-adaptors]: success
+[2024-04-16 12:38:53] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240414.tar.gz]
+[2024-04-16 12:38:53] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240415.tar.gz]
+[2024-04-16 12:38:53] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-16 12:38:53] INFO root fetch - main [MainThread]: Store serial: [22786328]
