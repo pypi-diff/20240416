@@ -19979,3 +19979,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:54:55] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.2a0.tar.gz]
 [2024-04-16 15:54:55] INFO root fetch - main [MainThread]: End processing [philander]: success
 [2024-04-16 15:54:55] INFO root fetch - main [MainThread]: Store serial: [22788533]
+[2024-04-16 15:57:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788533]
+[2024-04-16 15:57:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rats-processors
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ourJWT
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ourJWT
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prosperity2submit
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faster-translate
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OCX
+[2024-04-16 15:57:07] INFO root fetch - processPackages [prosperity2submit]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ourJWT]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ourJWT]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 15:57:07] INFO root fetch - processPackages [rats-processors]: New version: [0.1.3.dev1] Old Version: [0.1.2.dev9]
+[2024-04-16 15:57:07] INFO root fetch - processPackages [OCX]: New version: [3.0.0rc8] Old Version: [3.0.0rc7]
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ourJWT]: Downloading https://files.pythonhosted.org/packages/b7/0f/e06d21db2758a4cdbcfaefd4faa04f87a45ee119370ee8cde6cb69c2327e/ourJWT-0.0.4.tar.gz
+[2024-04-16 15:57:07] INFO root fetch - processPackages [faster-translate]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 15:57:07] INFO root fetch - processPackages [prosperity2submit]: Downloading https://files.pythonhosted.org/packages/bf/77/1a97813a33771c8de4ac07fa9aba52c28c7f0fa28d6603cbe53dad105bb1/prosperity2submit-0.2.5.tar.gz
+[2024-04-16 15:57:07] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a8/23/c3248b458a79c119a3ada7d2b23b95eced3f1c4c98ac0264b24a94517327/rats_processors-0.1.2.dev9-py3-none-any.whl
+[2024-04-16 15:57:07] INFO root fetch - processPackages [ourJWT]: Downloading https://files.pythonhosted.org/packages/b7/0f/e06d21db2758a4cdbcfaefd4faa04f87a45ee119370ee8cde6cb69c2327e/ourJWT-0.0.4.tar.gz
+[2024-04-16 15:57:08] INFO root fetch - processPackages [faster-translate]: Downloading https://files.pythonhosted.org/packages/3b/c8/192be1b2660fbebacaf30ed29bb70480c7cfae9a1acd79e94d34647855f1/faster_translate-0.1.8.tar.gz
+[2024-04-16 15:57:08] INFO root fetch - processPackages [OCX]: Downloading https://files.pythonhosted.org/packages/69/ab/d59057c46ec083a7307246809982f4190c157ae4fdee7190cea6bc89acb9/ocx-3.0.0rc7.tar.gz
+[2024-04-16 15:57:08] INFO root fetch - processPackages [prosperity2submit]: Downloading https://files.pythonhosted.org/packages/6d/1f/739957c1d9cccb014b072bdd3dd51e41db36f3d8adae8972b24964ffa083/prosperity2submit-0.2.6.tar.gz
+[2024-04-16 15:57:08] INFO root fetch - processPackages [ourJWT]: Downloading https://files.pythonhosted.org/packages/04/5e/8eafed316db2e21bd4eb1f56afa3ef0af46a84b4c14eb1ed139bc4b86a25/ourJWT-0.0.5.tar.gz
+[2024-04-16 15:57:08] INFO root fetch - processPackages [ourJWT]: Downloading https://files.pythonhosted.org/packages/04/5e/8eafed316db2e21bd4eb1f56afa3ef0af46a84b4c14eb1ed139bc4b86a25/ourJWT-0.0.5.tar.gz
+[2024-04-16 15:57:08] INFO root fetch - processPackages [prosperity2submit]: executing diffoscope
+[2024-04-16 15:57:08] INFO root fetch - processPackages [prosperity2submit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2submit-0.2.5.tar.gz tmp/prosperity2submit-0.2.6.tar.gz --markdown 20240416/p/prosperity2submit/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-16 15:57:08] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/31/50/7b43f35c9423c616bfb73452ef82e70a907bae56e04a41ebb8070f9892bd/rats_processors-0.1.3.dev1-py3-none-any.whl
+[2024-04-16 15:57:08] INFO root fetch - processPackages [ourJWT]: executing diffoscope
+[2024-04-16 15:57:08] INFO root fetch - processPackages [ourJWT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourJWT-0.0.4.tar.gz tmp/ourJWT-0.0.5.tar.gz --markdown 20240416/o/ourJWT/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 15:57:08] INFO root fetch - processPackages [ourJWT]: executing diffoscope
+[2024-04-16 15:57:08] INFO root fetch - processPackages [ourJWT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ourJWT-0.0.4.tar.gz tmp/ourJWT-0.0.5.tar.gz --markdown 20240416/o/ourJWT/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 15:57:08] INFO root fetch - processPackages [faster-translate]: Downloading https://files.pythonhosted.org/packages/b2/02/c7ff3644642ca742121a2b7b8b5633de81e632eaafd00fd8ad92020eadfa/faster_translate-0.1.9.tar.gz
+[2024-04-16 15:57:08] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-16 15:57:08] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip tmp/rats_processors-0.1.3.dev1-py3-none-any.whl.zip --markdown 20240416/r/rats-processors/0.1.2.dev9-0.1.3.dev1/README.md --exclude *.pyd
+[2024-04-16 15:57:08] INFO root fetch - processPackages [OCX]: Downloading https://files.pythonhosted.org/packages/19/65/82f015fc39fca8b2fd645c65c7445a961f88258ee02b14fb53192032205e/ocx-3.0.0rc8.tar.gz
+[2024-04-16 15:57:08] INFO root fetch - processPackages [faster-translate]: executing diffoscope
+[2024-04-16 15:57:08] INFO root fetch - processPackages [faster-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faster_translate-0.1.8.tar.gz tmp/faster_translate-0.1.9.tar.gz --markdown 20240416/f/faster-translate/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 15:57:08] INFO root fetch - processPackages [OCX]: executing diffoscope
+[2024-04-16 15:57:08] INFO root fetch - processPackages [OCX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocx-3.0.0rc7.tar.gz tmp/ocx-3.0.0rc8.tar.gz --markdown 20240416/O/OCX/3.0.0rc7-3.0.0rc8/README.md --exclude *.pyd
+[2024-04-16 15:57:09] INFO root fetch - processPackages [ourJWT]: Remove: archive file [/home/abi/fetcher/tmp/ourJWT-0.0.4.tar.gz]
+[2024-04-16 15:57:09] INFO root fetch - processPackages [ourJWT]: Remove: archive file [/home/abi/fetcher/tmp/ourJWT-0.0.5.tar.gz]
+[2024-04-16 15:57:09] INFO root fetch - main [MainThread]: End processing [ourJWT]: success
+[2024-04-16 15:57:09] INFO root fetch - processPackages [prosperity2submit]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2submit-0.2.5.tar.gz]
+[2024-04-16 15:57:09] INFO root fetch - processPackages [prosperity2submit]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2submit-0.2.6.tar.gz]
+[2024-04-16 15:57:09] INFO root fetch - main [MainThread]: End processing [prosperity2submit]: success
+[2024-04-16 15:57:09] INFO root fetch - main [MainThread]: End processing [ourJWT]: success
+[2024-04-16 15:57:09] INFO root fetch - processPackages [faster-translate]: Remove: archive file [/home/abi/fetcher/tmp/faster_translate-0.1.8.tar.gz]
+[2024-04-16 15:57:09] INFO root fetch - processPackages [faster-translate]: Remove: archive file [/home/abi/fetcher/tmp/faster_translate-0.1.9.tar.gz]
+[2024-04-16 15:57:09] INFO root fetch - main [MainThread]: End processing [faster-translate]: success
+[2024-04-16 15:57:09] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-16 15:57:09] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.3.dev1-py3-none-any.whl.zip]
+[2024-04-16 15:57:09] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-16 15:57:10] INFO root fetch - processPackages [OCX]: Remove: archive file [/home/abi/fetcher/tmp/ocx-3.0.0rc7.tar.gz]
+[2024-04-16 15:57:10] INFO root fetch - processPackages [OCX]: Remove: archive file [/home/abi/fetcher/tmp/ocx-3.0.0rc8.tar.gz]
+[2024-04-16 15:57:10] INFO root fetch - main [MainThread]: End processing [OCX]: success
+[2024-04-16 15:57:10] INFO root fetch - main [MainThread]: Store serial: [22788550]
