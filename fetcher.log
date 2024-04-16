@@ -4370,3 +4370,51 @@
 [2024-04-16 04:45:24] INFO root fetch - processPackages [odoo14-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_asset_management-14.0.3.1.3.dev5-py3-none-any.whl.zip]
 [2024-04-16 04:45:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-asset-management]: success
 [2024-04-16 04:45:24] INFO root fetch - main [MainThread]: Store serial: [22781773]
+[2024-04-16 04:47:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781773]
+[2024-04-16 04:47:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 04:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-04-16 04:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: utype
+[2024-04-16 04:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-asset-management
+[2024-04-16 04:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowchat
+[2024-04-16 04:47:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wlkatapython
+[2024-04-16 04:47:33] INFO root fetch - processPackages [wlkatapython]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 04:47:33] INFO root fetch - processPackages [flowchat]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-16 04:47:33] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.2.2] Old Version: [16.0.1.2.1.2]
+[2024-04-16 04:47:33] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-16 04:47:33] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/38/03/4d3fb32c6073f148ee5eca57cfba5f19298d247b3b902bdd2237a54c8f52/wlkatapython-0.0.7.tar.gz
+[2024-04-16 04:47:33] INFO root fetch - processPackages [utype]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-16 04:47:33] INFO root fetch - processPackages [flowchat]: Downloading https://files.pythonhosted.org/packages/8d/ba/953f545a270140507a9d7d8006e0b42cea3697fae6fc1698c4a8c1def825/flowchat-1.1.4.tar.gz
+[2024-04-16 04:47:33] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/81/12/c70108027422f54bb707db02429edeee649cb6cfa46df411bc95337695f3/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl
+[2024-04-16 04:47:33] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-16 04:47:33] INFO root fetch - processPackages [utype]: Downloading https://files.pythonhosted.org/packages/d5/bc/1bb8c8e9fc8968b76b60dd596d8299cd5b94f1621201f620635d01021cf2/utype-0.5.0.tar.gz
+[2024-04-16 04:47:33] INFO root fetch - processPackages [flowchat]: Downloading https://files.pythonhosted.org/packages/7c/86/ec1f9d33153d0b9802cd54387721927b0f00ee9dd0fb63895e9b16412ccb/flowchat-1.2.0.tar.gz
+[2024-04-16 04:47:33] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/dc/d0/9ac1b02b4cb15987262d1ed8812c8ee0845ff03766ab9d65951695f1a2b0/wlkatapython-0.0.8.tar.gz
+[2024-04-16 04:47:33] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/82/dc/9450aa6c5608e49793544cfdce7575bf23c48e44e3758dd02cdeaf70595a/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl
+[2024-04-16 04:47:33] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-16 04:47:33] INFO root fetch - processPackages [flowchat]: executing diffoscope
+[2024-04-16 04:47:33] INFO root fetch - processPackages [flowchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowchat-1.1.4.tar.gz tmp/flowchat-1.2.0.tar.gz --markdown 20240416/f/flowchat/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-04-16 04:47:33] INFO root fetch - processPackages [wlkatapython]: executing diffoscope
+[2024-04-16 04:47:33] INFO root fetch - processPackages [wlkatapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkatapython-0.0.7.tar.gz tmp/wlkatapython-0.0.8.tar.gz --markdown 20240416/w/wlkatapython/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 04:47:33] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-16 04:47:33] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240416/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-04-16 04:47:33] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2024-04-16 04:47:33] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-account-asset-management/16.0.1.2.1.2-16.0.1.2.2/README.md --exclude *.pyd
+[2024-04-16 04:47:34] INFO root fetch - processPackages [utype]: Downloading https://files.pythonhosted.org/packages/41/8d/5e6186fcee3ed7253ebd0668b144fad91bfb391335b8828fbabf5ce57f0b/utype-0.5.1.tar.gz
+[2024-04-16 04:47:34] INFO root fetch - processPackages [utype]: executing diffoscope
+[2024-04-16 04:47:34] INFO root fetch - processPackages [utype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utype-0.5.0.tar.gz tmp/utype-0.5.1.tar.gz --markdown 20240416/u/utype/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-16 04:47:34] INFO root fetch - processPackages [wlkatapython]: Remove: archive file [/home/abi/fetcher/tmp/wlkatapython-0.0.7.tar.gz]
+[2024-04-16 04:47:34] INFO root fetch - processPackages [wlkatapython]: Remove: archive file [/home/abi/fetcher/tmp/wlkatapython-0.0.8.tar.gz]
+[2024-04-16 04:47:34] INFO root fetch - main [MainThread]: End processing [wlkatapython]: success
+[2024-04-16 04:47:34] INFO root fetch - processPackages [flowchat]: Remove: archive file [/home/abi/fetcher/tmp/flowchat-1.1.4.tar.gz]
+[2024-04-16 04:47:34] INFO root fetch - processPackages [flowchat]: Remove: archive file [/home/abi/fetcher/tmp/flowchat-1.2.0.tar.gz]
+[2024-04-16 04:47:34] INFO root fetch - main [MainThread]: End processing [flowchat]: success
+[2024-04-16 04:47:34] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-16 04:47:34] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-16 04:47:34] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-16 04:47:34] INFO root fetch - processPackages [utype]: Remove: archive file [/home/abi/fetcher/tmp/utype-0.5.0.tar.gz]
+[2024-04-16 04:47:34] INFO root fetch - processPackages [utype]: Remove: archive file [/home/abi/fetcher/tmp/utype-0.5.1.tar.gz]
+[2024-04-16 04:47:34] INFO root fetch - main [MainThread]: End processing [utype]: success
+[2024-04-16 04:47:35] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl.zip]
+[2024-04-16 04:47:35] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl.zip]
+[2024-04-16 04:47:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2024-04-16 04:47:35] INFO root fetch - main [MainThread]: Store serial: [22781787]
