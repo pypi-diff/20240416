@@ -9342,3 +9342,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:39:09] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.1.tar.gz]
 [2024-04-16 09:39:09] INFO root fetch - main [MainThread]: End processing [Jord]: success
 [2024-04-16 09:39:09] INFO root fetch - main [MainThread]: Store serial: [22783835]
+[2024-04-16 09:41:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783835]
+[2024-04-16 09:41:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-stock-logistics-reporting
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maxwell-utils
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-request
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: f-tools-pkg
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snakemake-interface-storage-plugins
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rag-tool-package
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cachetools-async
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: html-tree-shaking
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pygwalker
+[2024-04-16 09:41:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rp_python_sdk
+[2024-04-16 09:41:19] INFO root fetch - processPackages [f-tools-pkg]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 09:41:19] INFO root fetch - processPackages [maxwell-utils]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-16 09:41:19] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: New version: [3.2.0] Old Version: [3.1.1]
+[2024-04-16 09:41:19] INFO root fetch - processPackages [html-tree-shaking]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-16 09:41:19] INFO root fetch - processPackages [odoo-addon-stock-request]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-16 09:41:19] INFO root fetch - processPackages [pygwalker]: New version: [0.4.9a0] Old Version: [0.4.8a8]
+[2024-04-16 09:41:19] WARNING root fetch - processPackages [rag-tool-package]: Skipping, unable to determine old version
+[2024-04-16 09:41:19] INFO root fetch - main [MainThread]: End processing [rag-tool-package] error
+[2024-04-16 09:41:19] INFO root fetch - processPackages [cachetools-async]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 09:41:19] INFO root fetch - processPackages [f-tools-pkg]: Downloading https://files.pythonhosted.org/packages/9f/a4/fdac5a3c3eafbd3c02f31756d38c5127a63633d21a51c1158c6a7ef9c83a/f_tools_pkg-0.0.7.tar.gz
+[2024-04-16 09:41:19] WARNING root fetch - processPackages [rp_python_sdk]: Skipping, unable to determine old version
+[2024-04-16 09:41:19] INFO root fetch - main [MainThread]: End processing [rp_python_sdk] error
+[2024-04-16 09:41:19] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: New version: [16.0.20240415.0] Old Version: [16.0.20240314.0]
+[2024-04-16 09:41:19] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Downloading https://files.pythonhosted.org/packages/ab/f6/23f8c6edb39f3a4e897f2e0c89ab91cf804ad2ec700122c780cad7ed216f/snakemake_interface_storage_plugins-3.1.1.tar.gz
+[2024-04-16 09:41:19] INFO root fetch - processPackages [maxwell-utils]: Downloading https://files.pythonhosted.org/packages/62/f4/910c1fde1a38739b1b1f14c808e17e0d050834555e8d070a37231438c881/maxwell_utils-0.6.4.tar.gz
+[2024-04-16 09:41:19] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/f6/33/fbf469e43cee79a994a8cec335b8e89c989213e80670880057752b498d80/pygwalker-0.4.8a8.tar.gz
+[2024-04-16 09:41:19] INFO root fetch - processPackages [html-tree-shaking]: Downloading https://files.pythonhosted.org/packages/68/5d/7e86e201e498bc01c2a1920c7bb41fbf5929272fbfe0148ecb48f541e493/html_tree_shaking-1.0.5-py3-none-any.whl
+[2024-04-16 09:41:19] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/da/fd/ebd2c46e6b5835d1fb6716cf2314171d120eac5a00caf6dedb81893f6c4c/odoo_addon_stock_request-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-16 09:41:19] INFO root fetch - processPackages [cachetools-async]: Downloading https://files.pythonhosted.org/packages/3a/aa/f1f42f5a346f2ff7fdeb1697e7538fdb6e92f2dbcaed166d81f01a0ae57e/cachetools_async-0.0.2.tar.gz
+[2024-04-16 09:41:19] WARNING root fetch - processPackages [html-tree-shaking]: Skipping package: exceeds size limit 38279523>=10485760
+[2024-04-16 09:41:19] INFO root fetch - main [MainThread]: End processing [html-tree-shaking] error
+[2024-04-16 09:41:19] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Downloading https://files.pythonhosted.org/packages/23/8f/e57bf2671c190a395d8b30bf1c7278dd95b3b9836ffbe2135339eae047cf/odoo_addons_oca_stock_logistics_reporting-16.0.20240314.0-py3-none-any.whl
+[2024-04-16 09:41:19] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Downloading https://files.pythonhosted.org/packages/cc/af/3365a70e323609113060e4c4496abd0040c246e86189d4f1f9708bf61540/snakemake_interface_storage_plugins-3.2.0.tar.gz
+[2024-04-16 09:41:19] INFO root fetch - processPackages [maxwell-utils]: Downloading https://files.pythonhosted.org/packages/8f/05/f4307445647cd2f55dc4c1f391ab13d6dc7b87037aa8eb395264ed2749ff/maxwell_utils-0.6.5.tar.gz
+[2024-04-16 09:41:19] INFO root fetch - processPackages [f-tools-pkg]: Downloading https://files.pythonhosted.org/packages/69/75/4cde3aa0d5bf396f994e6f06e6ccb8fb22e57277d73a9096fb259a40152e/f_tools_pkg-0.0.8.tar.gz
+[2024-04-16 09:41:20] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: executing diffoscope
+[2024-04-16 09:41:20] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_interface_storage_plugins-3.1.1.tar.gz tmp/snakemake_interface_storage_plugins-3.2.0.tar.gz --markdown 20240416/s/snakemake-interface-storage-plugins/3.1.1-3.2.0/README.md --exclude *.pyd
+[2024-04-16 09:41:20] INFO root fetch - processPackages [maxwell-utils]: executing diffoscope
+[2024-04-16 09:41:20] INFO root fetch - processPackages [maxwell-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxwell_utils-0.6.4.tar.gz tmp/maxwell_utils-0.6.5.tar.gz --markdown 20240416/m/maxwell-utils/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-16 09:41:20] INFO root fetch - processPackages [f-tools-pkg]: executing diffoscope
+[2024-04-16 09:41:20] INFO root fetch - processPackages [f-tools-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f_tools_pkg-0.0.7.tar.gz tmp/f_tools_pkg-0.0.8.tar.gz --markdown 20240416/f/f-tools-pkg/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 09:41:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Downloading https://files.pythonhosted.org/packages/31/30/fbc2446a9a8136c64468a6f91ee6afa87ef4032eb0ac2ad88eaff5c53e71/odoo_addons_oca_stock_logistics_reporting-16.0.20240415.0-py3-none-any.whl
+[2024-04-16 09:41:20] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/0a/2d/8e6258413bdf5d8c7483eb2bf8d838c0da0aac7aefc375f117ae98b13f0f/pygwalker-0.4.9a0.tar.gz
+[2024-04-16 09:41:20] INFO root fetch - processPackages [cachetools-async]: Downloading https://files.pythonhosted.org/packages/a3/33/7f8138beddb1cd45acac3da26a67d07349bd7fa6032dfae90ed3d1c842d0/cachetools_async-0.0.3.tar.gz
+[2024-04-16 09:41:20] INFO root fetch - processPackages [odoo-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/b4/b4/3d59f7e3eb420b8de98d77a5caff013eee01815b6e23e9d1bcee4fe27fad/odoo_addon_stock_request-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-16 09:41:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: executing diffoscope
+[2024-04-16 09:41:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_reporting-16.0.20240314.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_reporting-16.0.20240415.0-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-stock-logistics-reporting/16.0.20240314.0-16.0.20240415.0/README.md --exclude *.pyd
+[2024-04-16 09:41:20] INFO root fetch - processPackages [odoo-addon-stock-request]: executing diffoscope
+[2024-04-16 09:41:20] INFO root fetch - processPackages [odoo-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_request-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_request-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-stock-request/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-16 09:41:20] INFO root fetch - processPackages [cachetools-async]: executing diffoscope
+[2024-04-16 09:41:20] INFO root fetch - processPackages [cachetools-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetools_async-0.0.2.tar.gz tmp/cachetools_async-0.0.3.tar.gz --markdown 20240416/c/cachetools-async/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 09:41:20] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2024-04-16 09:41:20] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.4.8a8.tar.gz tmp/pygwalker-0.4.9a0.tar.gz --markdown 20240416/p/pygwalker/0.4.8a8-0.4.9a0/README.md --exclude *.pyd
+[2024-04-16 09:41:20] INFO root fetch - processPackages [f-tools-pkg]: Remove: archive file [/home/abi/fetcher/tmp/f_tools_pkg-0.0.7.tar.gz]
+[2024-04-16 09:41:20] INFO root fetch - processPackages [f-tools-pkg]: Remove: archive file [/home/abi/fetcher/tmp/f_tools_pkg-0.0.8.tar.gz]
+[2024-04-16 09:41:20] INFO root fetch - main [MainThread]: End processing [f-tools-pkg]: success
+[2024-04-16 09:41:20] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_interface_storage_plugins-3.1.1.tar.gz]
+[2024-04-16 09:41:20] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_interface_storage_plugins-3.2.0.tar.gz]
+[2024-04-16 09:41:20] INFO root fetch - main [MainThread]: End processing [snakemake-interface-storage-plugins]: success
+[2024-04-16 09:41:20] INFO root fetch - processPackages [maxwell-utils]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_utils-0.6.4.tar.gz]
+[2024-04-16 09:41:20] INFO root fetch - processPackages [maxwell-utils]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_utils-0.6.5.tar.gz]
+[2024-04-16 09:41:20] INFO root fetch - main [MainThread]: End processing [maxwell-utils]: success
+[2024-04-16 09:41:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_reporting-16.0.20240314.0-py3-none-any.whl.zip]
+[2024-04-16 09:41:20] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_reporting-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-04-16 09:41:20] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-reporting]: success
+[2024-04-16 09:41:21] INFO root fetch - processPackages [cachetools-async]: Remove: archive file [/home/abi/fetcher/tmp/cachetools_async-0.0.2.tar.gz]
+[2024-04-16 09:41:21] INFO root fetch - processPackages [cachetools-async]: Remove: archive file [/home/abi/fetcher/tmp/cachetools_async-0.0.3.tar.gz]
+[2024-04-16 09:41:21] INFO root fetch - main [MainThread]: End processing [cachetools-async]: success
+[2024-04-16 09:41:21] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-16 09:41:21] INFO root fetch - processPackages [odoo-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_request-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-16 09:41:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-request]: success
+[2024-04-16 09:41:51] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.8a8.tar.gz]
+[2024-04-16 09:41:51] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a0.tar.gz]
+[2024-04-16 09:41:51] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2024-04-16 09:41:51] INFO root fetch - main [MainThread]: Store serial: [22783869]
