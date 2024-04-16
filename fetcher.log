@@ -2814,3 +2814,20 @@
 [2024-04-16 02:44:55] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404150242.tar.gz]
 [2024-04-16 02:44:55] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-16 02:44:55] INFO root fetch - main [MainThread]: Store serial: [22780987]
+[2024-04-16 02:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780987]
+[2024-04-16 02:47:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 02:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nm-magic-wand-nightly
+[2024-04-16 02:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-wall
+[2024-04-16 02:47:05] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240416] Old Version: [0.2.2.20240415]
+[2024-04-16 02:47:05] INFO root fetch - processPackages [jupyterlab-wall]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 02:47:05] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/5d/5d/3ec69b69d96323ac0af33ef06805ea78fc719da5a8f5b67ec58ed5f96a16/nm_magic_wand_nightly-0.2.2.20240415-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-16 02:47:05] INFO root fetch - processPackages [jupyterlab-wall]: Downloading https://files.pythonhosted.org/packages/c2/73/c24212b13dde01457765e1455a239c81e0af6f13a8dd00d6221a93609c17/jupyterlab_wall-0.1.0-py3-none-any.whl
+[2024-04-16 02:47:05] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 78349311>=10485760
+[2024-04-16 02:47:05] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-16 02:47:06] INFO root fetch - processPackages [jupyterlab-wall]: Downloading https://files.pythonhosted.org/packages/8f/dd/8a59c4bb02ce93a5692b64069abb4eca4b3f53af53770ea68b820ac0c289/jupyterlab_wall-0.1.1-py3-none-any.whl
+[2024-04-16 02:47:06] INFO root fetch - processPackages [jupyterlab-wall]: executing diffoscope
+[2024-04-16 02:47:06] INFO root fetch - processPackages [jupyterlab-wall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_wall-0.1.0-py3-none-any.whl.zip tmp/jupyterlab_wall-0.1.1-py3-none-any.whl.zip --markdown 20240416/j/jupyterlab-wall/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 02:47:07] INFO root fetch - processPackages [jupyterlab-wall]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_wall-0.1.0-py3-none-any.whl.zip]
+[2024-04-16 02:47:07] INFO root fetch - processPackages [jupyterlab-wall]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_wall-0.1.1-py3-none-any.whl.zip]
+[2024-04-16 02:47:07] INFO root fetch - main [MainThread]: End processing [jupyterlab-wall]: success
+[2024-04-16 02:47:07] INFO root fetch - main [MainThread]: Store serial: [22780992]
