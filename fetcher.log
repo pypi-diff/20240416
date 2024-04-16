@@ -12577,3 +12577,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:26:18] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-16 11:26:18] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-16 11:26:18] INFO root fetch - main [MainThread]: Store serial: [22785361]
+[2024-04-16 11:28:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785361]
+[2024-04-16 11:28:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 11:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl-dev
+[2024-04-16 11:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pikepdf
+[2024-04-16 11:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylabeladjust
+[2024-04-16 11:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: newsworthycharts
+[2024-04-16 11:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: structifyai
+[2024-04-16 11:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinjected
+[2024-04-16 11:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: research-roc-utils
+[2024-04-16 11:28:32] INFO root fetch - processPackages [pikepdf]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-04-16 11:28:32] INFO root fetch - processPackages [pylabeladjust]: New version: [0.1.1.8] Old Version: [0.1.1.7]
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pinjected]: New version: [0.2.31] Old Version: [0.2.30]
+[2024-04-16 11:28:33] INFO root fetch - processPackages [research-roc-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 11:28:33] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 11:28:33] INFO root fetch - processPackages [structifyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 11:28:33] INFO root fetch - processPackages [newsworthycharts]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-16 11:28:33] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/3f/87/aeed0c05640a655a9f7a9651405c023e800537ac5400c580f59a119cd1bf/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 11:28:33] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/b6/24/005951376cc8a02f85cc69d476a5df16b8bd32514a096ca3e76d78db7e6b/research_roc_utils-0.0.2.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pylabeladjust]: Downloading https://files.pythonhosted.org/packages/7f/91/8ddd64906d8b243803f0c0cd9d07555b7defa0fb58ba1e9c2219ab0927f3/pylabeladjust-0.1.1.7.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/b1/e0/f3e40c8121f09147e1e31c7b32f0768e574d77f649d6f6c013db949bb95a/pikepdf-8.8.0.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/03/70/99e7e3e179b9dd949b9b89eda2ec86c5899fb2a402080ff0f1598bedfb54/pinjected-0.2.30.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/fb/48/d8ae9d97526f9fe8aaa87dbd3738a9f0181f42d8069e6296ef3dc95ba011/structifyai-0.8.0.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [newsworthycharts]: Downloading https://files.pythonhosted.org/packages/7c/39/c5d93994b0e8197ecb0d330391e5e7328e5539b5865431922763521cb80d/newsworthycharts-1.9.1.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pylabeladjust]: Downloading https://files.pythonhosted.org/packages/74/fe/cc3ec165015d8783d90cfdc2066fc1ec23d01376e74f49ccc85bdcf81131/pylabeladjust-0.1.1.8.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/a5/d2/ea46662ea1cfe75674d2caae6a6fd4d3aa34c5a55a7099872a4f2c189fce/pinjected-0.2.31.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/a2/30/35ee236f19dac5e3f595bedeabbbb3e29fee055ddc18222df1f7e833f066/structifyai-0.9.0.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/c1/f6/1b455f03978ff6075bbc1cf8ac2aa7cf59feb43e6914afd2f269206fd3fc/research_roc_utils-0.0.3.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-16 11:28:33] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/c/composabl-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-16 11:28:33] INFO root fetch - processPackages [newsworthycharts]: Downloading https://files.pythonhosted.org/packages/e5/50/8fca96f3730b1e659f00dc8c2c0c0ad4724580ba4a970d622d59b091f069/newsworthycharts-1.9.2.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pylabeladjust]: executing diffoscope
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pylabeladjust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylabeladjust-0.1.1.7.tar.gz tmp/pylabeladjust-0.1.1.8.tar.gz --markdown 20240416/p/pylabeladjust/0.1.1.7-0.1.1.8/README.md --exclude *.pyd
+[2024-04-16 11:28:33] INFO root fetch - processPackages [research-roc-utils]: executing diffoscope
+[2024-04-16 11:28:33] INFO root fetch - processPackages [research-roc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_roc_utils-0.0.2.tar.gz tmp/research_roc_utils-0.0.3.tar.gz --markdown 20240416/r/research-roc-utils/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.30.tar.gz tmp/pinjected-0.2.31.tar.gz --markdown 20240416/p/pinjected/0.2.30-0.2.31/README.md --exclude *.pyd
+[2024-04-16 11:28:33] INFO root fetch - processPackages [structifyai]: executing diffoscope
+[2024-04-16 11:28:33] INFO root fetch - processPackages [structifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structifyai-0.8.0.tar.gz tmp/structifyai-0.9.0.tar.gz --markdown 20240416/s/structifyai/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 11:28:33] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/bf/58/5070ce7ff15a29d1f0aa8faa4604a97d3606645a5a09fbfbc04521482ea4/pikepdf-8.9.0.tar.gz
+[2024-04-16 11:28:33] INFO root fetch - processPackages [newsworthycharts]: executing diffoscope
+[2024-04-16 11:28:33] INFO root fetch - processPackages [newsworthycharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsworthycharts-1.9.1.tar.gz tmp/newsworthycharts-1.9.2.tar.gz --markdown 20240416/n/newsworthycharts/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-16 11:28:34] INFO root fetch - processPackages [pikepdf]: executing diffoscope
+[2024-04-16 11:28:34] INFO root fetch - processPackages [pikepdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikepdf-8.8.0.tar.gz tmp/pikepdf-8.9.0.tar.gz --markdown 20240416/p/pikepdf/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-04-16 11:28:34] INFO root fetch - processPackages [pylabeladjust]: Remove: archive file [/home/abi/fetcher/tmp/pylabeladjust-0.1.1.7.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - processPackages [pylabeladjust]: Remove: archive file [/home/abi/fetcher/tmp/pylabeladjust-0.1.1.8.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - main [MainThread]: End processing [pylabeladjust]: success
+[2024-04-16 11:28:34] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 11:28:34] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 11:28:34] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-16 11:28:34] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.8.0.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.9.0.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - main [MainThread]: End processing [structifyai]: success
+[2024-04-16 11:28:34] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.2.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.3.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - main [MainThread]: End processing [research-roc-utils]: success
+[2024-04-16 11:28:34] INFO root fetch - processPackages [newsworthycharts]: Remove: archive file [/home/abi/fetcher/tmp/newsworthycharts-1.9.1.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - processPackages [newsworthycharts]: Remove: archive file [/home/abi/fetcher/tmp/newsworthycharts-1.9.2.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - main [MainThread]: End processing [newsworthycharts]: success
+[2024-04-16 11:28:34] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.30.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.31.tar.gz]
+[2024-04-16 11:28:34] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-16 11:28:36] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.8.0.tar.gz]
+[2024-04-16 11:28:36] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.9.0.tar.gz]
+[2024-04-16 11:28:36] INFO root fetch - main [MainThread]: End processing [pikepdf]: success
+[2024-04-16 11:28:36] INFO root fetch - main [MainThread]: Store serial: [22785446]
