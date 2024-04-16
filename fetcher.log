@@ -17401,3 +17401,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:38:30] INFO root fetch - processPackages [amsdal_data]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_data-0.1.6-cp311-cp311-win_amd64.whl.zip]
 [2024-04-16 14:38:30] INFO root fetch - main [MainThread]: End processing [amsdal_data]: success
 [2024-04-16 14:38:30] INFO root fetch - main [MainThread]: Store serial: [22787534]
+[2024-04-16 14:40:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787534]
+[2024-04-16 14:40:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 14:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-vpc20160428-py2
+[2024-04-16 14:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorcircuit-nightly
+[2024-04-16 14:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peewee
+[2024-04-16 14:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe-esimd
+[2024-04-16 14:40:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wassncplot
+[2024-04-16 14:40:40] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-16 14:40:40] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-16 14:40:40] INFO root fetch - processPackages [wassncplot]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-04-16 14:40:40] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: New version: [5.7.1] Old Version: [5.7.0]
+[2024-04-16 14:40:40] INFO root fetch - processPackages [peewee]: New version: [3.9.6] Old Version: [3.9.5]
+[2024-04-16 14:40:40] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-16 14:40:40] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Downloading https://files.pythonhosted.org/packages/36/7c/e983d9a328e1a6cc77b54191e6e1491050f74e561faeaf2c66effe4a0792/alibabacloud_vpc20160428_py2-5.7.0.tar.gz
+[2024-04-16 14:40:40] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/0d/a2/f61a091a7a657505bec55ef68428ea37a8200fbecd087090b2f8cfd2e2b0/bigdl_core_xe_esimd-2.5.0b20240414-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-16 14:40:40] INFO root fetch - processPackages [peewee]: Downloading https://files.pythonhosted.org/packages/ec/72/784eaf8c15d1dd0d5c126b2180bf3dd860611f7ba2b746c8e9cacee9a172/peewee-3.9.5.tar.gz
+[2024-04-16 14:40:40] INFO root fetch - processPackages [wassncplot]: Downloading https://files.pythonhosted.org/packages/f2/73/e658c227bda96893683c78f1a3e77c2c8d19b96c4428a2f8aa1a8af7466f/wassncplot-2.5.tar.gz
+[2024-04-16 14:40:40] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-16 14:40:40] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61865775>=10485760
+[2024-04-16 14:40:40] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-16 14:40:40] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-16 14:40:40] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240416/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-04-16 14:40:40] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Downloading https://files.pythonhosted.org/packages/51/84/4e256029f174a1da4a7214db743f412cb29ace3cc34cbb0809e3602f23c5/alibabacloud_vpc20160428_py2-5.7.1.tar.gz
+[2024-04-16 14:40:40] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: executing diffoscope
+[2024-04-16 14:40:40] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_vpc20160428_py2-5.7.0.tar.gz tmp/alibabacloud_vpc20160428_py2-5.7.1.tar.gz --markdown 20240416/a/alibabacloud-vpc20160428-py2/5.7.0-5.7.1/README.md --exclude *.pyd
+[2024-04-16 14:40:40] INFO root fetch - processPackages [peewee]: Downloading https://files.pythonhosted.org/packages/5e/66/5902f91abec78be8ef41eff4e547fe595c9e7b6c20f4be3d8cfb8e079061/peewee-3.9.6.tar.gz
+[2024-04-16 14:40:40] INFO root fetch - processPackages [wassncplot]: Downloading https://files.pythonhosted.org/packages/f0/bd/8abed468cb5227bc937162fb344c51649d46245d795f4016055873b83d57/wassncplot-2.5.1.tar.gz
+[2024-04-16 14:40:41] INFO root fetch - processPackages [peewee]: executing diffoscope
+[2024-04-16 14:40:41] INFO root fetch - processPackages [peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peewee-3.9.5.tar.gz tmp/peewee-3.9.6.tar.gz --markdown 20240416/p/peewee/3.9.5-3.9.6/README.md --exclude *.pyd
+[2024-04-16 14:40:41] INFO root fetch - processPackages [wassncplot]: executing diffoscope
+[2024-04-16 14:40:41] INFO root fetch - processPackages [wassncplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wassncplot-2.5.tar.gz tmp/wassncplot-2.5.1.tar.gz --markdown 20240416/w/wassncplot/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-04-16 14:40:41] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-16 14:40:41] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-16 14:40:41] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-16 14:40:41] INFO root fetch - processPackages [wassncplot]: Remove: archive file [/home/abi/fetcher/tmp/wassncplot-2.5.tar.gz]
+[2024-04-16 14:40:41] INFO root fetch - processPackages [wassncplot]: Remove: archive file [/home/abi/fetcher/tmp/wassncplot-2.5.1.tar.gz]
+[2024-04-16 14:40:41] INFO root fetch - main [MainThread]: End processing [wassncplot]: success
+[2024-04-16 14:40:43] INFO root fetch - processPackages [peewee]: Remove: archive file [/home/abi/fetcher/tmp/peewee-3.9.5.tar.gz]
+[2024-04-16 14:40:43] INFO root fetch - processPackages [peewee]: Remove: archive file [/home/abi/fetcher/tmp/peewee-3.9.6.tar.gz]
+[2024-04-16 14:40:43] INFO root fetch - main [MainThread]: End processing [peewee]: success
+[2024-04-16 14:40:44] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428_py2-5.7.0.tar.gz]
+[2024-04-16 14:40:44] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428_py2-5.7.1.tar.gz]
+[2024-04-16 14:40:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428-py2]: success
+[2024-04-16 14:40:44] INFO root fetch - main [MainThread]: Store serial: [22787550]
