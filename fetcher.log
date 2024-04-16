@@ -18490,3 +18490,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:05:07] INFO root fetch - processPackages [mat-data]: Remove: archive file [/home/abi/fetcher/tmp/mat-data-0.1b9.tar.gz]
 [2024-04-16 15:05:07] INFO root fetch - main [MainThread]: End processing [mat-data]: success
 [2024-04-16 15:05:07] INFO root fetch - main [MainThread]: Store serial: [22787922]
+[2024-04-16 15:07:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787922]
+[2024-04-16 15:07:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 15:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PALs
+[2024-04-16 15:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-user-bot
+[2024-04-16 15:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trubrics-beta
+[2024-04-16 15:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lkcom
+[2024-04-16 15:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: convcom
+[2024-04-16 15:07:17] INFO root fetch - processPackages [lkcom]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-16 15:07:17] ERROR root fetch - processPackages [convcom]: Unable to get metadata: No such project 'convcom'
+[2024-04-16 15:07:17] INFO root fetch - main [MainThread]: End processing [convcom] error
+[2024-04-16 15:07:17] INFO root fetch - processPackages [trubrics-beta]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-04-16 15:07:17] INFO root fetch - processPackages [PALs]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-04-16 15:07:17] WARNING root fetch - processPackages [discord-user-bot]: Skipping, unable to determine old version
+[2024-04-16 15:07:17] INFO root fetch - main [MainThread]: End processing [discord-user-bot] error
+[2024-04-16 15:07:17] INFO root fetch - processPackages [lkcom]: Downloading https://files.pythonhosted.org/packages/f8/5b/6d2cbb832e45ebacb096c0b554b46ade6d815f313124ebe6cf4ff949e2f1/lkcom-0.5.3.tar.gz
+[2024-04-16 15:07:17] INFO root fetch - processPackages [trubrics-beta]: Downloading https://files.pythonhosted.org/packages/28/5d/b7b2a207760d9f9687ecf94125044fbc78344f0e5e26374d4454fed9dac9/trubrics-beta-0.0.2.tar.gz
+[2024-04-16 15:07:17] INFO root fetch - processPackages [PALs]: Downloading https://files.pythonhosted.org/packages/30/24/4e6be92977cc94d8f9411f0dcba72ab369e8227b7a3cb6dbde29b12ff466/PALs-0.3.5.tar.gz
+[2024-04-16 15:07:17] INFO root fetch - processPackages [trubrics-beta]: Downloading https://files.pythonhosted.org/packages/7c/69/aa114ddeb709da292cde67d10185534b0cf1cc210cd40f4936d9fedd1617/trubrics_beta-0.1.0.tar.gz
+[2024-04-16 15:07:17] INFO root fetch - processPackages [PALs]: Downloading https://files.pythonhosted.org/packages/86/6d/cd1f6a89e818226afcfee2eb8e7f7dc088005aab86265ad5886ba044ea7b/PALs-0.4.0.tar.gz
+[2024-04-16 15:07:17] INFO root fetch - processPackages [lkcom]: Downloading https://files.pythonhosted.org/packages/6d/7e/6b1e7b1b0920ddcbbfaf55def55871becb3ac7f26558073c87bd2554bced/lkcom-0.5.4.tar.gz
+[2024-04-16 15:07:18] INFO root fetch - processPackages [trubrics-beta]: executing diffoscope
+[2024-04-16 15:07:18] INFO root fetch - processPackages [trubrics-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trubrics-beta-0.0.2.tar.gz tmp/trubrics_beta-0.1.0.tar.gz --markdown 20240416/t/trubrics-beta/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-04-16 15:07:18] INFO root fetch - processPackages [PALs]: executing diffoscope
+[2024-04-16 15:07:18] INFO root fetch - processPackages [PALs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PALs-0.3.5.tar.gz tmp/PALs-0.4.0.tar.gz --markdown 20240416/P/PALs/0.3.5-0.4.0/README.md --exclude *.pyd
+[2024-04-16 15:07:18] INFO root fetch - processPackages [lkcom]: executing diffoscope
+[2024-04-16 15:07:18] INFO root fetch - processPackages [lkcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lkcom-0.5.3.tar.gz tmp/lkcom-0.5.4.tar.gz --markdown 20240416/l/lkcom/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-16 15:07:18] INFO root fetch - processPackages [trubrics-beta]: Remove: archive file [/home/abi/fetcher/tmp/trubrics-beta-0.0.2.tar.gz]
+[2024-04-16 15:07:18] INFO root fetch - processPackages [trubrics-beta]: Remove: archive file [/home/abi/fetcher/tmp/trubrics_beta-0.1.0.tar.gz]
+[2024-04-16 15:07:18] INFO root fetch - main [MainThread]: End processing [trubrics-beta]: success
+[2024-04-16 15:07:18] INFO root fetch - processPackages [PALs]: Remove: archive file [/home/abi/fetcher/tmp/PALs-0.3.5.tar.gz]
+[2024-04-16 15:07:18] INFO root fetch - processPackages [PALs]: Remove: archive file [/home/abi/fetcher/tmp/PALs-0.4.0.tar.gz]
+[2024-04-16 15:07:18] INFO root fetch - main [MainThread]: End processing [PALs]: success
+[2024-04-16 15:07:18] INFO root fetch - processPackages [lkcom]: Remove: archive file [/home/abi/fetcher/tmp/lkcom-0.5.3.tar.gz]
+[2024-04-16 15:07:18] INFO root fetch - processPackages [lkcom]: Remove: archive file [/home/abi/fetcher/tmp/lkcom-0.5.4.tar.gz]
+[2024-04-16 15:07:18] INFO root fetch - main [MainThread]: End processing [lkcom]: success
+[2024-04-16 15:07:18] INFO root fetch - main [MainThread]: Store serial: [22787941]
