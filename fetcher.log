@@ -8553,3 +8553,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:08:59] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-04-16 09:08:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-shipping-info-helper]: success
 [2024-04-16 09:08:59] INFO root fetch - main [MainThread]: Store serial: [22783541]
+[2024-04-16 09:11:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783541]
+[2024-04-16 09:11:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-mongo-log
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-elaboration
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecodev-front
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-force-invoiced
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LENSE-STREAM
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yandex-music-utilities
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsk-monster
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxparrow
+[2024-04-16 09:11:08] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 09:11:08] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.0.0]
+[2024-04-16 09:11:08] INFO root fetch - processPackages [lazy-mongo-log]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 09:11:08] WARNING root fetch - processPackages [yandex-music-utilities]: Skipping, unable to determine old version
+[2024-04-16 09:11:08] INFO root fetch - main [MainThread]: End processing [yandex-music-utilities] error
+[2024-04-16 09:11:08] WARNING root fetch - processPackages [LENSE-STREAM]: Skipping, unable to determine old version
+[2024-04-16 09:11:08] INFO root fetch - main [MainThread]: End processing [LENSE-STREAM] error
+[2024-04-16 09:11:08] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: New version: [16.0.1.4.0.2] Old Version: [16.0.1.4.0.1]
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ecodev-front]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 09:11:08] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-16 09:11:08] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/ac/06/0693983ccfbd93c3cad205aeeaf296a540921d29a72e11795a69d6df2547/odoo_addon_sale_force_invoiced-16.0.2.0.0-py3-none-any.whl
+[2024-04-16 09:11:08] INFO root fetch - processPackages [jaxparrow]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 09:11:08] INFO root fetch - processPackages [lazy-mongo-log]: Downloading https://files.pythonhosted.org/packages/84/2c/15ddb12d6098b9ec24fbb07a77c5b7a318e71ee3fc13f34195c64a7b666d/lazy_mongo_log-0.1.2.tar.gz
+[2024-04-16 09:11:08] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/43/f0/7cc2b403a6fb123a73b3916972f2999638c7045326090fa13afa43fa275a/odoo_addon_sale_elaboration-16.0.1.4.0.1-py3-none-any.whl
+[2024-04-16 09:11:08] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/e1/8e/5abd72f94e7281a7ac942b93dfceeb7cf72944b8636048ea4e2a431e97cb/ecodev_front-0.0.8.tar.gz
+[2024-04-16 09:11:08] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-16 09:11:08] INFO root fetch - processPackages [jaxparrow]: Downloading https://files.pythonhosted.org/packages/27/ef/1dd6292f447c1d92849c69bad97bf765dc0db9ae679855dd0fc1f474f275/jaxparrow-0.1.3.tar.gz
+[2024-04-16 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/95/2f/6e909b8fd08501a237638f79132ca1a7be018a57cb91deab6c9d79b917a5/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 09:11:09] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-16 09:11:09] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240416/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 09:11:09] INFO root fetch - processPackages [lazy-mongo-log]: Downloading https://files.pythonhosted.org/packages/77/cb/337518a6483df5433fe60f0997b3abf9ac83383cc8903ebcea7c232af49e/lazy_mongo_log-0.1.3.tar.gz
+[2024-04-16 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2024-04-16 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-sale-force-invoiced/16.0.2.0.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-16 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/f5/84/d06954fac2847bdfea8995597ade4996f2ef778ad03280c258b2578f324c/odoo_addon_sale_elaboration-16.0.1.4.0.2-py3-none-any.whl
+[2024-04-16 09:11:09] INFO root fetch - processPackages [ecodev-front]: Downloading https://files.pythonhosted.org/packages/ef/3b/29d539e8b5eb474efa8d86ebcb55b4f77cea8ce23c96510b93d36095f666/ecodev_front-0.0.9.tar.gz
+[2024-04-16 09:11:09] INFO root fetch - processPackages [lazy-mongo-log]: executing diffoscope
+[2024-04-16 09:11:09] INFO root fetch - processPackages [lazy-mongo-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_mongo_log-0.1.2.tar.gz tmp/lazy_mongo_log-0.1.3.tar.gz --markdown 20240416/l/lazy-mongo-log/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: executing diffoscope
+[2024-04-16 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_elaboration-16.0.1.4.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_elaboration-16.0.1.4.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-sale-elaboration/16.0.1.4.0.1-16.0.1.4.0.2/README.md --exclude *.pyd
+[2024-04-16 09:11:09] INFO root fetch - processPackages [ecodev-front]: executing diffoscope
+[2024-04-16 09:11:09] INFO root fetch - processPackages [ecodev-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecodev_front-0.0.8.tar.gz tmp/ecodev_front-0.0.9.tar.gz --markdown 20240416/e/ecodev-front/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 09:11:09] INFO root fetch - processPackages [jaxparrow]: Downloading https://files.pythonhosted.org/packages/af/42/9db17f282feb51f86af1e6a3eac86f070d1d4f1807613749d7c8533dfe4b/jaxparrow-0.1.4.tar.gz
+[2024-04-16 09:11:09] INFO root fetch - processPackages [jaxparrow]: executing diffoscope
+[2024-04-16 09:11:09] INFO root fetch - processPackages [jaxparrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxparrow-0.1.3.tar.gz tmp/jaxparrow-0.1.4.tar.gz --markdown 20240416/j/jaxparrow/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 09:11:09] INFO root fetch - processPackages [lazy-mongo-log]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo_log-0.1.2.tar.gz]
+[2024-04-16 09:11:09] INFO root fetch - processPackages [lazy-mongo-log]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo_log-0.1.3.tar.gz]
+[2024-04-16 09:11:09] INFO root fetch - main [MainThread]: End processing [lazy-mongo-log]: success
+[2024-04-16 09:11:09] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-16 09:11:09] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-16 09:11:09] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-16 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-16 09:11:09] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 09:11:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2024-04-16 09:11:10] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.8.tar.gz]
+[2024-04-16 09:11:10] INFO root fetch - processPackages [ecodev-front]: Remove: archive file [/home/abi/fetcher/tmp/ecodev_front-0.0.9.tar.gz]
+[2024-04-16 09:11:10] INFO root fetch - main [MainThread]: End processing [ecodev-front]: success
+[2024-04-16 09:11:10] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.4.0.1-py3-none-any.whl.zip]
+[2024-04-16 09:11:10] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.4.0.2-py3-none-any.whl.zip]
+[2024-04-16 09:11:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
+[2024-04-16 09:11:10] INFO root fetch - processPackages [jaxparrow]: Remove: archive file [/home/abi/fetcher/tmp/jaxparrow-0.1.3.tar.gz]
+[2024-04-16 09:11:10] INFO root fetch - processPackages [jaxparrow]: Remove: archive file [/home/abi/fetcher/tmp/jaxparrow-0.1.4.tar.gz]
+[2024-04-16 09:11:10] INFO root fetch - main [MainThread]: End processing [jaxparrow]: success
+[2024-04-16 09:11:10] INFO root fetch - main [MainThread]: Store serial: [22783565]
