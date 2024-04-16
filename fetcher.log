@@ -13401,3 +13401,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:54:30] INFO root fetch - processPackages [defi-state-querier]: Remove: archive file [/home/abi/fetcher/tmp/defi-state-querier-0.4.9.tar.gz]
 [2024-04-16 11:54:30] INFO root fetch - main [MainThread]: End processing [defi-state-querier]: success
 [2024-04-16 11:54:30] INFO root fetch - main [MainThread]: Store serial: [22785741]
+[2024-04-16 11:56:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785741]
+[2024-04-16 11:56:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 11:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dualPredictor
+[2024-04-16 11:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fysh-barracuda
+[2024-04-16 11:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prusek-spheroid
+[2024-04-16 11:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netorca-sdk
+[2024-04-16 11:56:38] INFO root fetch - processPackages [dualPredictor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 11:56:38] INFO root fetch - processPackages [prusek-spheroid]: New version: [6.0] Old Version: [5.9]
+[2024-04-16 11:56:38] WARNING root fetch - processPackages [fysh-barracuda]: Skipping, unable to determine old version
+[2024-04-16 11:56:38] INFO root fetch - main [MainThread]: End processing [fysh-barracuda] error
+[2024-04-16 11:56:38] INFO root fetch - processPackages [netorca-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 11:56:38] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/b3/99/b2c5ae81b8c8c7a346d3d6f8192907802692d0c7a72ec5a607adecbd0202/dualPredictor-0.0.8.tar.gz
+[2024-04-16 11:56:38] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/d9/83/7378fa5c50073a5be12283792b76fd3a0474cb6fc3ecdcc4c1ec4dcadd10/prusek_spheroid-5.9.tar.gz
+[2024-04-16 11:56:39] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/97/6d/e22b220c8f18b05be2c28fbad2676a40ff97211a71ca27f49b8628be12d0/netorca-sdk-0.1.8.tar.gz
+[2024-04-16 11:56:39] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/aa/35/aece7cff1e9e7885b4a6cca30122595e0619daf7e03f425ec434392cf6c8/dualPredictor-0.0.9.tar.gz
+[2024-04-16 11:56:39] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/2b/b7/8ec203775eb93ea40a506678457a7388e93dbc7038b12d7ce330cb306af9/prusek_spheroid-6.0.tar.gz
+[2024-04-16 11:56:39] INFO root fetch - processPackages [dualPredictor]: executing diffoscope
+[2024-04-16 11:56:39] INFO root fetch - processPackages [dualPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualPredictor-0.0.8.tar.gz tmp/dualPredictor-0.0.9.tar.gz --markdown 20240416/d/dualPredictor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 11:56:39] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-16 11:56:39] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-5.9.tar.gz tmp/prusek_spheroid-6.0.tar.gz --markdown 20240416/p/prusek-spheroid/5.9-6.0/README.md --exclude *.pyd
+[2024-04-16 11:56:39] INFO root fetch - processPackages [netorca-sdk]: Downloading https://files.pythonhosted.org/packages/02/d6/7748bb882abc2fe1daab1372c275052f999cb5cd591255919047da038959/netorca-sdk-0.1.9.tar.gz
+[2024-04-16 11:56:39] INFO root fetch - processPackages [netorca-sdk]: executing diffoscope
+[2024-04-16 11:56:39] INFO root fetch - processPackages [netorca-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netorca-sdk-0.1.8.tar.gz tmp/netorca-sdk-0.1.9.tar.gz --markdown 20240416/n/netorca-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 11:56:39] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.8.tar.gz]
+[2024-04-16 11:56:39] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.9.tar.gz]
+[2024-04-16 11:56:39] INFO root fetch - main [MainThread]: End processing [dualPredictor]: success
+[2024-04-16 11:56:39] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-5.9.tar.gz]
+[2024-04-16 11:56:39] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-6.0.tar.gz]
+[2024-04-16 11:56:39] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-16 11:56:40] INFO root fetch - processPackages [netorca-sdk]: Remove: archive file [/home/abi/fetcher/tmp/netorca-sdk-0.1.8.tar.gz]
+[2024-04-16 11:56:40] INFO root fetch - processPackages [netorca-sdk]: Remove: archive file [/home/abi/fetcher/tmp/netorca-sdk-0.1.9.tar.gz]
+[2024-04-16 11:56:40] INFO root fetch - main [MainThread]: End processing [netorca-sdk]: success
+[2024-04-16 11:56:40] INFO root fetch - main [MainThread]: Store serial: [22785755]
