@@ -5934,3 +5934,36 @@
 [2024-04-16 06:24:58] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.2.30.tar.gz]
 [2024-04-16 06:24:58] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
 [2024-04-16 06:24:58] INFO root fetch - main [MainThread]: Store serial: [22782514]
+[2024-04-16 06:27:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782514]
+[2024-04-16 06:27:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 06:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdf-doctor
+[2024-04-16 06:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmdsky-debug-py
+[2024-04-16 06:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apollo-lunar
+[2024-04-16 06:27:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchtitan
+[2024-04-16 06:27:06] INFO root fetch - processPackages [apollo-lunar]: New version: [2024.4.4rc1] Old Version: [2024.4.4]
+[2024-04-16 06:27:06] INFO root fetch - processPackages [rdf-doctor]: New version: [1.1.0rc3] Old Version: [1.1.0rc2]
+[2024-04-16 06:27:06] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/a7/d1/da315750c330973c1ef139a12c8e514b80c836abc6647ae2db699b1dae35/apollo_lunar-2024.4.4.tar.gz
+[2024-04-16 06:27:06] ERROR root fetch - processPackages [torchtitan]: Unable to get metadata: No such project 'torchtitan'
+[2024-04-16 06:27:06] INFO root fetch - main [MainThread]: End processing [torchtitan] error
+[2024-04-16 06:27:06] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-04-16 06:27:06] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/b4/ec/fabe8c8c89c90a76b80b244f89fd38d5f40cdab1783dd026a48a652340f9/rdf_doctor-1.1.0rc2-py3-none-any.whl
+[2024-04-16 06:27:06] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/33/eb/4fec645489c62e47f76637800291fdb912026058b33adb6b93856fb83b80/pmdsky_debug_py-9.0.8-py3-none-any.whl
+[2024-04-16 06:27:06] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/2b/7d/ac278e0c2b56e554ec91a1fe5793ba9eec4ac940340d612bc809f49fb825/apollo_lunar-2024.4.4rc1.tar.gz
+[2024-04-16 06:27:06] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2024-04-16 06:27:06] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_lunar-2024.4.4.tar.gz tmp/apollo_lunar-2024.4.4rc1.tar.gz --markdown 20240416/a/apollo-lunar/2024.4.4-2024.4.4rc1/README.md --exclude *.pyd
+[2024-04-16 06:27:06] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/09/13/1125a1b9c9c02e4eb603a0cec4b072d46cf6133841ced394d84d4ce17cb1/rdf_doctor-1.1.0rc3-py3-none-any.whl
+[2024-04-16 06:27:06] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/78/90/3ae42c4f8e39ed28cfa302c2db60b1605399688c48f721f7261802bd8a29/pmdsky_debug_py-9.0.9-py3-none-any.whl
+[2024-04-16 06:27:07] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2024-04-16 06:27:07] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-1.1.0rc2-py3-none-any.whl.zip tmp/rdf_doctor-1.1.0rc3-py3-none-any.whl.zip --markdown 20240416/r/rdf-doctor/1.1.0rc2-1.1.0rc3/README.md --exclude *.pyd
+[2024-04-16 06:27:07] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2024-04-16 06:27:07] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip --markdown 20240416/p/pmdsky-debug-py/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-04-16 06:27:07] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4.tar.gz]
+[2024-04-16 06:27:07] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
+[2024-04-16 06:27:07] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2024-04-16 06:27:07] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.0rc2-py3-none-any.whl.zip]
+[2024-04-16 06:27:07] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.1.0rc3-py3-none-any.whl.zip]
+[2024-04-16 06:27:07] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2024-04-16 06:27:09] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.8-py3-none-any.whl.zip]
+[2024-04-16 06:27:09] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip]
+[2024-04-16 06:27:09] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2024-04-16 06:27:09] INFO root fetch - main [MainThread]: Store serial: [22782525]
