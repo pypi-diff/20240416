@@ -16010,3 +16010,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:44:56] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.2.tar.gz]
 [2024-04-16 13:44:56] INFO root fetch - main [MainThread]: End processing [clovers-leafgame]: success
 [2024-04-16 13:44:56] INFO root fetch - main [MainThread]: Store serial: [22786960]
+[2024-04-16 13:47:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786960]
+[2024-04-16 13:47:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-disconnect-notice
+[2024-04-16 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rk-extractor
+[2024-04-16 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rx-hqm
+[2024-04-16 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbcli-mig
+[2024-04-16 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trial-IGNchinmay
+[2024-04-16 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multipie
+[2024-04-16 13:47:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickfix-py
+[2024-04-16 13:47:05] INFO root fetch - processPackages [trial-IGNchinmay]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 13:47:05] INFO root fetch - processPackages [rx-hqm]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 13:47:05] INFO root fetch - processPackages [rk-extractor]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-16 13:47:05] INFO root fetch - processPackages [quickfix-py]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 13:47:05] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 13:47:05] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-16 13:47:05] INFO root fetch - processPackages [rx-hqm]: Downloading https://files.pythonhosted.org/packages/8e/7c/870b37a202f21d436eae437631f1118f56c0a08a87b2dc242507967c206c/rx_hqm-0.1.3.tar.gz
+[2024-04-16 13:47:05] INFO root fetch - processPackages [multipie]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-16 13:47:05] INFO root fetch - processPackages [trial-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/3f/f8/803a28c1ad1bc19bdcb2356acd2d7dac4aec693552840c1c7abdc3115bfd/trial_IGNchinmay-0.0.8.tar.gz
+[2024-04-16 13:47:05] INFO root fetch - processPackages [rk-extractor]: Downloading https://files.pythonhosted.org/packages/99/0a/dfa8f40199c70582e0d06a9b379aae86654fc7f4f3c353e25fdb604e0933/rk_extractor-0.8.8.tar.gz
+[2024-04-16 13:47:05] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-16 13:47:05] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/81/a9/12c706ab5886de1d8c5fa67d8a15d175ed1ab0bf3da935237287c221161c/nonebot_plugin_disconnect_notice-0.2.0.tar.gz
+[2024-04-16 13:47:05] INFO root fetch - processPackages [quickfix-py]: Downloading https://files.pythonhosted.org/packages/dc/e1/b116708bedb9ca6e61fb779020b071ce1b0c0c4bf6544fe8b99ffef15885/quickfix-py-0.0.1.tar.gz
+[2024-04-16 13:47:05] INFO root fetch - processPackages [trial-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/c1/aa/01bc5c2c90b1601076c77fd81058368f4f694227ae5e34dd150487d5c27e/trial_IGNchinmay-0.0.9.tar.gz
+[2024-04-16 13:47:05] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/00/6f/45a558125dcb3c4e92f82f878fc126b60f177da6388705ac66dd80431f91/multipie-1.2.8.tar.gz
+[2024-04-16 13:47:05] INFO root fetch - processPackages [rk-extractor]: Downloading https://files.pythonhosted.org/packages/c4/5d/e02576684edf30cdb8f5d9f15ae876592900a74db282a485fd154a17934e/rk_extractor-0.8.9.tar.gz
+[2024-04-16 13:47:05] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-16 13:47:06] INFO root fetch - processPackages [trial-IGNchinmay]: executing diffoscope
+[2024-04-16 13:47:06] INFO root fetch - processPackages [trial-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trial_IGNchinmay-0.0.8.tar.gz tmp/trial_IGNchinmay-0.0.9.tar.gz --markdown 20240416/t/trial-IGNchinmay/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 13:47:06] INFO root fetch - processPackages [rx-hqm]: Downloading https://files.pythonhosted.org/packages/0c/a7/f9eb848b49beb8cc7db2f93746a534fd258a5aba6f511a55c06b603eb5bf/rx_hqm-0.1.4.tar.gz
+[2024-04-16 13:47:06] INFO root fetch - processPackages [rk-extractor]: executing diffoscope
+[2024-04-16 13:47:06] INFO root fetch - processPackages [rk-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rk_extractor-0.8.8.tar.gz tmp/rk_extractor-0.8.9.tar.gz --markdown 20240416/r/rk-extractor/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-16 13:47:06] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-16 13:47:06] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240416/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 13:47:06] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Downloading https://files.pythonhosted.org/packages/74/5a/dbd0984fc6ced4563fbc75dcbbdb553bc7541a3d130cd0a1803918ebb157/nonebot_plugin_disconnect_notice-0.2.1.tar.gz
+[2024-04-16 13:47:06] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: executing diffoscope
+[2024-04-16 13:47:06] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_disconnect_notice-0.2.0.tar.gz tmp/nonebot_plugin_disconnect_notice-0.2.1.tar.gz --markdown 20240416/n/nonebot-plugin-disconnect-notice/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-16 13:47:06] INFO root fetch - processPackages [quickfix-py]: Downloading https://files.pythonhosted.org/packages/8e/2b/e5c628373292df367bef8a11ea2dd67f4b2df3378a2b27d205de32d6a5c7/quickfix_py-0.0.2.tar.gz
+[2024-04-16 13:47:06] INFO root fetch - processPackages [rx-hqm]: executing diffoscope
+[2024-04-16 13:47:06] INFO root fetch - processPackages [rx-hqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rx_hqm-0.1.3.tar.gz tmp/rx_hqm-0.1.4.tar.gz --markdown 20240416/r/rx-hqm/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 13:47:06] INFO root fetch - processPackages [trial-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/trial_IGNchinmay-0.0.8.tar.gz]
+[2024-04-16 13:47:06] INFO root fetch - processPackages [trial-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/trial_IGNchinmay-0.0.9.tar.gz]
+[2024-04-16 13:47:06] INFO root fetch - main [MainThread]: End processing [trial-IGNchinmay]: success
+[2024-04-16 13:47:06] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.2.0.tar.gz]
+[2024-04-16 13:47:06] INFO root fetch - processPackages [nonebot-plugin-disconnect-notice]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_disconnect_notice-0.2.1.tar.gz]
+[2024-04-16 13:47:06] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-disconnect-notice]: success
+[2024-04-16 13:47:06] INFO root fetch - processPackages [quickfix-py]: executing diffoscope
+[2024-04-16 13:47:06] INFO root fetch - processPackages [quickfix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfix-py-0.0.1.tar.gz tmp/quickfix_py-0.0.2.tar.gz --markdown 20240416/q/quickfix-py/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 13:47:07] INFO root fetch - processPackages [rk-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rk_extractor-0.8.8.tar.gz]
+[2024-04-16 13:47:07] INFO root fetch - processPackages [rk-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rk_extractor-0.8.9.tar.gz]
+[2024-04-16 13:47:07] INFO root fetch - main [MainThread]: End processing [rk-extractor]: success
+[2024-04-16 13:47:07] INFO root fetch - processPackages [multipie]: Downloading https://files.pythonhosted.org/packages/74/64/6c6f6228098f8ee00ea7ec5c5578e0d3e6d476beab852beee7f374215ab9/multipie-1.2.9.tar.gz
+[2024-04-16 13:47:07] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-16 13:47:07] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-16 13:47:07] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-16 13:47:08] INFO root fetch - processPackages [rx-hqm]: Remove: archive file [/home/abi/fetcher/tmp/rx_hqm-0.1.3.tar.gz]
+[2024-04-16 13:47:08] INFO root fetch - processPackages [rx-hqm]: Remove: archive file [/home/abi/fetcher/tmp/rx_hqm-0.1.4.tar.gz]
+[2024-04-16 13:47:08] INFO root fetch - main [MainThread]: End processing [rx-hqm]: success
+[2024-04-16 13:47:08] INFO root fetch - processPackages [multipie]: executing diffoscope
+[2024-04-16 13:47:08] INFO root fetch - processPackages [multipie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multipie-1.2.8.tar.gz tmp/multipie-1.2.9.tar.gz --markdown 20240416/m/multipie/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-16 13:47:10] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.2.8.tar.gz]
+[2024-04-16 13:47:10] INFO root fetch - processPackages [multipie]: Remove: archive file [/home/abi/fetcher/tmp/multipie-1.2.9.tar.gz]
+[2024-04-16 13:47:10] INFO root fetch - main [MainThread]: End processing [multipie]: success
+[2024-04-16 13:47:11] INFO root fetch - processPackages [quickfix-py]: Remove: archive file [/home/abi/fetcher/tmp/quickfix-py-0.0.1.tar.gz]
+[2024-04-16 13:47:11] INFO root fetch - processPackages [quickfix-py]: Remove: archive file [/home/abi/fetcher/tmp/quickfix_py-0.0.2.tar.gz]
+[2024-04-16 13:47:11] INFO root fetch - main [MainThread]: End processing [quickfix-py]: success
+[2024-04-16 13:47:11] INFO root fetch - main [MainThread]: Store serial: [22786983]
