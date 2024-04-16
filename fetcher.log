@@ -20664,3 +20664,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:19:21] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b1.tar.gz]
 [2024-04-16 16:19:21] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
 [2024-04-16 16:19:21] INFO root fetch - main [MainThread]: Store serial: [22788821]
+[2024-04-16 16:21:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788821]
+[2024-04-16 16:21:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sysrev
+[2024-04-16 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subspyces
+[2024-04-16 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: credentialdigger
+[2024-04-16 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: illuminatapp
+[2024-04-16 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pya2l
+[2024-04-16 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syntrac-opentelemetry-semantic-conventions-ai
+[2024-04-16 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pptx2md
+[2024-04-16 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: magictk
+[2024-04-16 16:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tgit
+[2024-04-16 16:21:31] INFO root fetch - processPackages [sysrev]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-16 16:21:31] WARNING root fetch - processPackages [tgit]: Skipping, unable to determine old version
+[2024-04-16 16:21:31] INFO root fetch - main [MainThread]: End processing [tgit] error
+[2024-04-16 16:21:31] INFO root fetch - processPackages [pya2l]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 16:21:31] INFO root fetch - processPackages [illuminatapp]: New version: [1.1.8] Old Version: [1.1.6]
+[2024-04-16 16:21:31] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/47/c6/58c24cd8e323ba47636daf442726516a7804b3e1bc007e62f85cdb52138f/sysrev-1.3.2.tar.gz
+[2024-04-16 16:21:31] INFO root fetch - processPackages [syntrac-opentelemetry-semantic-conventions-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:21:31] WARNING root fetch - processPackages [subspyces]: Skipping, unable to determine old version
+[2024-04-16 16:21:31] INFO root fetch - main [MainThread]: End processing [subspyces] error
+[2024-04-16 16:21:31] INFO root fetch - processPackages [credentialdigger]: New version: [4.9.5] Old Version: [4.9.4]
+[2024-04-16 16:21:31] INFO root fetch - processPackages [pptx2md]: New version: [1.7.1] Old Version: [1.6.1]
+[2024-04-16 16:21:31] WARNING root fetch - processPackages [magictk]: Skipping, unable to determine old version
+[2024-04-16 16:21:31] INFO root fetch - main [MainThread]: End processing [magictk] error
+[2024-04-16 16:21:31] INFO root fetch - processPackages [pya2l]: Downloading https://files.pythonhosted.org/packages/fe/31/c3a4a991c70caebd41d7a540e9df200ecac7cef5a9fded85816fc36b0259/pya2l-0.1.2.tar.gz
+[2024-04-16 16:21:31] INFO root fetch - processPackages [illuminatapp]: Downloading https://files.pythonhosted.org/packages/52/4c/1c33198e85c8f8fe6a7580052fe0e17923b58f34f62dc3c3660b22fe6fdb/illuminatapp-1.1.6.tar.gz
+[2024-04-16 16:21:31] WARNING root fetch - processPackages [illuminatapp]: Skipping package: exceeds size limit 47138832>=10485760
+[2024-04-16 16:21:31] INFO root fetch - main [MainThread]: End processing [illuminatapp] error
+[2024-04-16 16:21:31] INFO root fetch - processPackages [syntrac-opentelemetry-semantic-conventions-ai]: Downloading https://files.pythonhosted.org/packages/a8/11/2d82407ffe0f2272d5e9492695b8a48f5cd07342183db6fb9fb334fcdf3c/syntrac_opentelemetry_semantic_conventions_ai-0.0.1.tar.gz
+[2024-04-16 16:21:31] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/b1/ef/146d9c6f737e9d4f32540cb493ec4331ae28173a3062f776258c24a0663e/sysrev-1.3.3.tar.gz
+[2024-04-16 16:21:31] INFO root fetch - processPackages [pptx2md]: Downloading https://files.pythonhosted.org/packages/69/f2/f6ac9ec2900a3768ac897c42df248f8b20e379ef990326c59532fbfd4ccc/pptx2md-1.6.1.tar.gz
+[2024-04-16 16:21:31] INFO root fetch - processPackages [credentialdigger]: Downloading https://files.pythonhosted.org/packages/8d/9d/9043c3fa963a5beeadd30f40bcdf11f057a83edde2b408a39bfe9e4296c9/credentialdigger-4.9.4-py3-none-any.whl
+[2024-04-16 16:21:31] WARNING root fetch - processPackages [pya2l]: Skipping package: exceeds size limit 23561551>=10485760
+[2024-04-16 16:21:31] INFO root fetch - main [MainThread]: End processing [pya2l] error
+[2024-04-16 16:21:31] INFO root fetch - processPackages [sysrev]: executing diffoscope
+[2024-04-16 16:21:31] INFO root fetch - processPackages [sysrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysrev-1.3.2.tar.gz tmp/sysrev-1.3.3.tar.gz --markdown 20240416/s/sysrev/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-04-16 16:21:32] INFO root fetch - processPackages [syntrac-opentelemetry-semantic-conventions-ai]: Downloading https://files.pythonhosted.org/packages/50/dc/cca629efecf284d44d824fd53d3cc48f3d5fe4a25d8ce29301225d765da1/syntrac_opentelemetry_semantic_conventions_ai-0.0.2.tar.gz
+[2024-04-16 16:21:32] INFO root fetch - processPackages [pptx2md]: Downloading https://files.pythonhosted.org/packages/3c/58/0d753ac2e107944f6ccd51032b1bc3eafece07e8b1d6e92a8e79119fdb98/pptx2md-1.7.1.tar.gz
+[2024-04-16 16:21:32] INFO root fetch - processPackages [credentialdigger]: Downloading https://files.pythonhosted.org/packages/ab/85/2e1c8d484b898c52c4e71b1c389c5760e1405a56d1529861c12f9bd8ce64/credentialdigger-4.9.5-py3-none-any.whl
+[2024-04-16 16:21:32] INFO root fetch - processPackages [syntrac-opentelemetry-semantic-conventions-ai]: executing diffoscope
+[2024-04-16 16:21:32] INFO root fetch - processPackages [syntrac-opentelemetry-semantic-conventions-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_semantic_conventions_ai-0.0.1.tar.gz tmp/syntrac_opentelemetry_semantic_conventions_ai-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-semantic-conventions-ai/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:21:32] INFO root fetch - processPackages [pptx2md]: executing diffoscope
+[2024-04-16 16:21:32] INFO root fetch - processPackages [pptx2md]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pptx2md-1.6.1.tar.gz tmp/pptx2md-1.7.1.tar.gz --markdown 20240416/p/pptx2md/1.6.1-1.7.1/README.md --exclude *.pyd
+[2024-04-16 16:21:32] INFO root fetch - processPackages [credentialdigger]: executing diffoscope
+[2024-04-16 16:21:32] INFO root fetch - processPackages [credentialdigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credentialdigger-4.9.4-py3-none-any.whl.zip tmp/credentialdigger-4.9.5-py3-none-any.whl.zip --markdown 20240416/c/credentialdigger/4.9.4-4.9.5/README.md --exclude *.pyd
+[2024-04-16 16:21:32] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.3.2.tar.gz]
+[2024-04-16 16:21:32] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.3.3.tar.gz]
+[2024-04-16 16:21:32] INFO root fetch - main [MainThread]: End processing [sysrev]: success
+[2024-04-16 16:21:32] INFO root fetch - processPackages [pptx2md]: Remove: archive file [/home/abi/fetcher/tmp/pptx2md-1.6.1.tar.gz]
+[2024-04-16 16:21:32] INFO root fetch - processPackages [pptx2md]: Remove: archive file [/home/abi/fetcher/tmp/pptx2md-1.7.1.tar.gz]
+[2024-04-16 16:21:32] INFO root fetch - main [MainThread]: End processing [pptx2md]: success
+[2024-04-16 16:21:32] INFO root fetch - processPackages [syntrac-opentelemetry-semantic-conventions-ai]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_semantic_conventions_ai-0.0.1.tar.gz]
+[2024-04-16 16:21:32] INFO root fetch - processPackages [syntrac-opentelemetry-semantic-conventions-ai]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_semantic_conventions_ai-0.0.2.tar.gz]
+[2024-04-16 16:21:32] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-semantic-conventions-ai]: success
+[2024-04-16 16:21:32] INFO root fetch - processPackages [credentialdigger]: Remove: archive file [/home/abi/fetcher/tmp/credentialdigger-4.9.4-py3-none-any.whl.zip]
+[2024-04-16 16:21:32] INFO root fetch - processPackages [credentialdigger]: Remove: archive file [/home/abi/fetcher/tmp/credentialdigger-4.9.5-py3-none-any.whl.zip]
+[2024-04-16 16:21:32] INFO root fetch - main [MainThread]: End processing [credentialdigger]: success
+[2024-04-16 16:21:32] INFO root fetch - main [MainThread]: Store serial: [22788850]
