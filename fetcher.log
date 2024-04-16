@@ -9667,3 +9667,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:50:42] INFO root fetch - processPackages [templatise]: Remove: archive file [/home/abi/fetcher/tmp/templatise-2.2.5.tar.gz]
 [2024-04-16 09:50:42] INFO root fetch - main [MainThread]: End processing [templatise]: success
 [2024-04-16 09:50:42] INFO root fetch - main [MainThread]: Store serial: [22783998]
+[2024-04-16 09:52:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783998]
+[2024-04-16 09:52:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 09:52:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: versol
+[2024-04-16 09:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speedtab
+[2024-04-16 09:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surquest-split-balancer
+[2024-04-16 09:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: censoredsummarystats
+[2024-04-16 09:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wah
+[2024-04-16 09:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata
+[2024-04-16 09:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osparc-filecomms
+[2024-04-16 09:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udata
+[2024-04-16 09:52:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tokeninputblob
+[2024-04-16 09:52:51] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 09:52:51] WARNING root fetch - processPackages [versol]: Skipping, unable to determine old version
+[2024-04-16 09:52:51] INFO root fetch - main [MainThread]: End processing [versol] error
+[2024-04-16 09:52:51] INFO root fetch - processPackages [udata]: New version: [7.0.7.dev28678] Old Version: [7.0.7.dev28669]
+[2024-04-16 09:52:51] INFO root fetch - processPackages [udata]: New version: [7.0.7.dev28678] Old Version: [7.0.7.dev28669]
+[2024-04-16 09:52:51] INFO root fetch - processPackages [surquest-split-balancer]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 09:52:51] WARNING root fetch - processPackages [tokeninputblob]: Skipping, unable to determine old version
+[2024-04-16 09:52:51] INFO root fetch - main [MainThread]: End processing [tokeninputblob] error
+[2024-04-16 09:52:51] INFO root fetch - processPackages [osparc-filecomms]: New version: [0.9.dev5] Old Version: [0.9.dev3]
+[2024-04-16 09:52:51] INFO root fetch - processPackages [censoredsummarystats]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 09:52:51] INFO root fetch - processPackages [speedtab]: New version: [0.2.1.6] Old Version: [0.2.1.5]
+[2024-04-16 09:52:51] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-04-16 09:52:51] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/72/5c/31856100fa8ee8b23ecfdaf4c4ea1b4b13ac38b4cd6349d15de4744884d7/udata-7.0.7.dev28669-py2.py3-none-any.whl
+[2024-04-16 09:52:51] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/72/5c/31856100fa8ee8b23ecfdaf4c4ea1b4b13ac38b4cd6349d15de4744884d7/udata-7.0.7.dev28669-py2.py3-none-any.whl
+[2024-04-16 09:52:51] INFO root fetch - processPackages [surquest-split-balancer]: Downloading https://files.pythonhosted.org/packages/c1/a3/b76e70e559c6ca7939f37d1412aadaa41f6e5fba048b22b73b7d11f75398/surquest_split_balancer-0.0.4.tar.gz
+[2024-04-16 09:52:51] INFO root fetch - processPackages [osparc-filecomms]: Downloading https://files.pythonhosted.org/packages/36/76/efa32647c167dcf2256adca51dec46e35020b54c92bd603c7a8479219f7c/osparc_filecomms-0.9.dev3-py2.py3-none-any.whl
+[2024-04-16 09:52:51] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/0c/38/005da997e6e135b24db5e3254ab92153e42b230251340cdac8d0b35540a7/censoredsummarystats-0.2.8.tar.gz
+[2024-04-16 09:52:51] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/6e/ab/5af6b6932684d2014c77a5a1fd32d545a9bd68ed66108e45249684bdc426/speedtab-0.2.1.5.tar.gz
+[2024-04-16 09:52:51] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19777264>=10485760
+[2024-04-16 09:52:51] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-16 09:52:51] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19777264>=10485760
+[2024-04-16 09:52:51] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-16 09:52:51] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-04-16 09:52:51] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-04-16 09:52:51] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240416/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 09:52:51] INFO root fetch - processPackages [surquest-split-balancer]: Downloading https://files.pythonhosted.org/packages/15/40/e92aa9ec196f33726f29e71e423cd54950cd088dede3478a2e30a7b27c59/surquest_split_balancer-0.0.5.tar.gz
+[2024-04-16 09:52:51] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/1d/8f/5c02ab3a2dc478902b0cd5f23145ddda44763f89a6b22f94598a7825680a/censoredsummarystats-0.2.9.tar.gz
+[2024-04-16 09:52:51] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/f3/42/4bbc1875408bcbe4f0668ddd2ae0f85b0fc2bd90fe8443801348ab21f5e6/speedtab-0.2.1.6.tar.gz
+[2024-04-16 09:52:51] INFO root fetch - processPackages [surquest-split-balancer]: executing diffoscope
+[2024-04-16 09:52:51] INFO root fetch - processPackages [surquest-split-balancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surquest_split_balancer-0.0.4.tar.gz tmp/surquest_split_balancer-0.0.5.tar.gz --markdown 20240416/s/surquest-split-balancer/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 09:52:51] INFO root fetch - processPackages [osparc-filecomms]: Downloading https://files.pythonhosted.org/packages/8c/41/92c80c339a54d60763b433a66ca89dadab9a7e64127e3841f9d9949bb821/osparc_filecomms-0.9.dev5-py2.py3-none-any.whl
+[2024-04-16 09:52:51] INFO root fetch - processPackages [censoredsummarystats]: executing diffoscope
+[2024-04-16 09:52:51] INFO root fetch - processPackages [censoredsummarystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredsummarystats-0.2.8.tar.gz tmp/censoredsummarystats-0.2.9.tar.gz --markdown 20240416/c/censoredsummarystats/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 09:52:52] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2024-04-16 09:52:52] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.2.1.5.tar.gz tmp/speedtab-0.2.1.6.tar.gz --markdown 20240416/s/speedtab/0.2.1.5-0.2.1.6/README.md --exclude *.pyd
+[2024-04-16 09:52:52] INFO root fetch - processPackages [osparc-filecomms]: executing diffoscope
+[2024-04-16 09:52:52] INFO root fetch - processPackages [osparc-filecomms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osparc_filecomms-0.9.dev3-py2.py3-none-any.whl.zip tmp/osparc_filecomms-0.9.dev5-py2.py3-none-any.whl.zip --markdown 20240416/o/osparc-filecomms/0.9.dev3-0.9.dev5/README.md --exclude *.pyd
+[2024-04-16 09:52:52] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-04-16 09:52:52] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-04-16 09:52:52] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-04-16 09:52:52] INFO root fetch - processPackages [surquest-split-balancer]: Remove: archive file [/home/abi/fetcher/tmp/surquest_split_balancer-0.0.4.tar.gz]
+[2024-04-16 09:52:52] INFO root fetch - processPackages [surquest-split-balancer]: Remove: archive file [/home/abi/fetcher/tmp/surquest_split_balancer-0.0.5.tar.gz]
+[2024-04-16 09:52:52] INFO root fetch - main [MainThread]: End processing [surquest-split-balancer]: success
+[2024-04-16 09:52:52] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.8.tar.gz]
+[2024-04-16 09:52:52] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.9.tar.gz]
+[2024-04-16 09:52:52] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
+[2024-04-16 09:52:53] INFO root fetch - processPackages [osparc-filecomms]: Remove: archive file [/home/abi/fetcher/tmp/osparc_filecomms-0.9.dev3-py2.py3-none-any.whl.zip]
+[2024-04-16 09:52:53] INFO root fetch - processPackages [osparc-filecomms]: Remove: archive file [/home/abi/fetcher/tmp/osparc_filecomms-0.9.dev5-py2.py3-none-any.whl.zip]
+[2024-04-16 09:52:53] INFO root fetch - main [MainThread]: End processing [osparc-filecomms]: success
+[2024-04-16 09:52:53] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.5.tar.gz]
+[2024-04-16 09:52:53] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.6.tar.gz]
+[2024-04-16 09:52:53] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2024-04-16 09:52:53] INFO root fetch - main [MainThread]: Store serial: [22784031]
