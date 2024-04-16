@@ -3785,3 +3785,42 @@
 [2024-04-16 04:03:46] INFO root fetch - processPackages [flaskz]: Remove: archive file [/home/abi/fetcher/tmp/flaskz-1.7.3rc1.tar.gz]
 [2024-04-16 04:03:46] INFO root fetch - main [MainThread]: End processing [flaskz]: success
 [2024-04-16 04:03:46] INFO root fetch - main [MainThread]: Store serial: [22781466]
+[2024-04-16 04:05:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781466]
+[2024-04-16 04:05:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 04:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: termichat
+[2024-04-16 04:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apollo-lunar
+[2024-04-16 04:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaraco.home
+[2024-04-16 04:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kucoin-futures-lib
+[2024-04-16 04:05:55] INFO root fetch - processPackages [termichat]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 04:05:55] INFO root fetch - processPackages [kucoin-futures-lib]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 04:05:55] INFO root fetch - processPackages [jaraco.home]: New version: [3.8.1] Old Version: [3.8.0]
+[2024-04-16 04:05:55] INFO root fetch - processPackages [apollo-lunar]: New version: [2024.4.4rc1] Old Version: [2024.4.4]
+[2024-04-16 04:05:55] INFO root fetch - processPackages [termichat]: Downloading https://files.pythonhosted.org/packages/72/87/56e358f8f4938045bfe873d361d949f2a1d016271f57fcb336c6d8823f74/termichat-0.0.1.tar.gz
+[2024-04-16 04:05:55] INFO root fetch - processPackages [jaraco.home]: Downloading https://files.pythonhosted.org/packages/ab/8c/2dda88f64037d5a13b58744ee570fd8bfe098082b59fbb262cf36fceb8d3/jaraco.home-3.8.0.tar.gz
+[2024-04-16 04:05:55] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/a7/d1/da315750c330973c1ef139a12c8e514b80c836abc6647ae2db699b1dae35/apollo_lunar-2024.4.4.tar.gz
+[2024-04-16 04:05:55] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/5d/eb/71e3dc106cc0416cabaf6da1adf160c29249cbdf7caed2c9e285d84f0100/kucoin_futures_lib-0.8.0.tar.gz
+[2024-04-16 04:05:55] INFO root fetch - processPackages [termichat]: Downloading https://files.pythonhosted.org/packages/19/5f/684f7aec23e53f8995513d5b867101ec67d7e8cc0b5a8ba57a42b21ea23b/termichat-0.0.2.tar.gz
+[2024-04-16 04:05:55] INFO root fetch - processPackages [termichat]: executing diffoscope
+[2024-04-16 04:05:55] INFO root fetch - processPackages [termichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termichat-0.0.1.tar.gz tmp/termichat-0.0.2.tar.gz --markdown 20240416/t/termichat/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 04:05:55] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/2b/7d/ac278e0c2b56e554ec91a1fe5793ba9eec4ac940340d612bc809f49fb825/apollo_lunar-2024.4.4rc1.tar.gz
+[2024-04-16 04:05:55] INFO root fetch - processPackages [jaraco.home]: Downloading https://files.pythonhosted.org/packages/5e/a8/b0736b83e4aa8aabdf6f12b590a767dee610f0442fd13f7de1e0ca5692d8/jaraco_home-3.8.1.tar.gz
+[2024-04-16 04:05:55] INFO root fetch - processPackages [kucoin-futures-lib]: Downloading https://files.pythonhosted.org/packages/4a/b4/b024a06fa2177409013f4772c2c5e89aece2041a394861c64c2312756ebf/kucoin_futures_lib-0.9.0.tar.gz
+[2024-04-16 04:05:55] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2024-04-16 04:05:55] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_lunar-2024.4.4.tar.gz tmp/apollo_lunar-2024.4.4rc1.tar.gz --markdown 20240416/a/apollo-lunar/2024.4.4-2024.4.4rc1/README.md --exclude *.pyd
+[2024-04-16 04:05:55] INFO root fetch - processPackages [kucoin-futures-lib]: executing diffoscope
+[2024-04-16 04:05:55] INFO root fetch - processPackages [kucoin-futures-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kucoin_futures_lib-0.8.0.tar.gz tmp/kucoin_futures_lib-0.9.0.tar.gz --markdown 20240416/k/kucoin-futures-lib/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 04:05:55] INFO root fetch - processPackages [jaraco.home]: executing diffoscope
+[2024-04-16 04:05:55] INFO root fetch - processPackages [jaraco.home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.home-3.8.0.tar.gz tmp/jaraco_home-3.8.1.tar.gz --markdown 20240416/j/jaraco.home/3.8.0-3.8.1/README.md --exclude *.pyd
+[2024-04-16 04:05:56] INFO root fetch - processPackages [termichat]: Remove: archive file [/home/abi/fetcher/tmp/termichat-0.0.1.tar.gz]
+[2024-04-16 04:05:56] INFO root fetch - processPackages [termichat]: Remove: archive file [/home/abi/fetcher/tmp/termichat-0.0.2.tar.gz]
+[2024-04-16 04:05:56] INFO root fetch - main [MainThread]: End processing [termichat]: success
+[2024-04-16 04:05:56] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.8.0.tar.gz]
+[2024-04-16 04:05:56] INFO root fetch - processPackages [kucoin-futures-lib]: Remove: archive file [/home/abi/fetcher/tmp/kucoin_futures_lib-0.9.0.tar.gz]
+[2024-04-16 04:05:56] INFO root fetch - main [MainThread]: End processing [kucoin-futures-lib]: success
+[2024-04-16 04:05:56] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4.tar.gz]
+[2024-04-16 04:05:56] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
+[2024-04-16 04:05:56] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2024-04-16 04:05:56] INFO root fetch - processPackages [jaraco.home]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.home-3.8.0.tar.gz]
+[2024-04-16 04:05:56] INFO root fetch - processPackages [jaraco.home]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_home-3.8.1.tar.gz]
+[2024-04-16 04:05:56] INFO root fetch - main [MainThread]: End processing [jaraco.home]: success
+[2024-04-16 04:05:56] INFO root fetch - main [MainThread]: Store serial: [22781478]
