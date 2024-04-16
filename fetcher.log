@@ -9419,3 +9419,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:41:51] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a0.tar.gz]
 [2024-04-16 09:41:51] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2024-04-16 09:41:51] INFO root fetch - main [MainThread]: Store serial: [22783869]
+[2024-04-16 09:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783869]
+[2024-04-16 09:43:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 09:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arch-flow
+[2024-04-16 09:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: game-prediction2
+[2024-04-16 09:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-stock-request
+[2024-04-16 09:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linktest
+[2024-04-16 09:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serializor
+[2024-04-16 09:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-cli-dev
+[2024-04-16 09:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyees
+[2024-04-16 09:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aerospike-flask-cache
+[2024-04-16 09:44:00] INFO root fetch - processPackages [linktest]: New version: [2.5.1] Old Version: [2.4.9]
+[2024-04-16 09:44:00] INFO root fetch - processPackages [aerospike-flask-cache]: New version: [0.1.1rc5] Old Version: [0.1.1rc4]
+[2024-04-16 09:44:00] INFO root fetch - processPackages [arch-flow]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 09:44:00] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/fd/37/e9e9e7e868eaf40c92b8024f3fa1245950e054567e924feae99a78896699/linktest-2.4.9.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [game-prediction2]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-16 09:44:00] INFO root fetch - processPackages [odoo12-addon-stock-request]: New version: [12.0.1.5.0.99.dev9] Old Version: [12.0.1.5.0.99.dev8]
+[2024-04-16 09:44:00] INFO root fetch - processPackages [aerospike-flask-cache]: Downloading https://files.pythonhosted.org/packages/ba/8b/c076b3e1ee8d473a99e4e82034cfa4062f8e0f7c5c602addaa5c68d72f33/aerospike_flask_cache-0.1.1rc4.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [pyees]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-16 09:44:00] INFO root fetch - processPackages [serializor]: New version: [1.0.0] Old Version: [0.1.12.8]
+[2024-04-16 09:44:00] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/bd/92/b5f1107ed051acfa30ad6072602e15b3838902c50fbbcd7c7fc1a9a93f07/arch_flow-0.0.7.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [game-prediction2]: Downloading https://files.pythonhosted.org/packages/03/3c/9be35fd2b83f2741326fc5b96f569ede88638dc1b1f306872e878c8ea696/game-prediction2-0.1.6.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 09:44:00] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/3a/dc/bc42f5c4c46cdaa7720386252d0f19d321794211e108148c3930ace4cd32/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl
+[2024-04-16 09:44:00] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/41/c1/42bc59205fdcbc8adbb72b0b02555f408303e0082912edd32134309df3c8/pyees-1.9.1.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [serializor]: Downloading https://files.pythonhosted.org/packages/cb/6d/91d07843f1af3021972015373ad51cafa00a339260367f90f14aeb78022d/serializor-0.1.12.8.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/25/0c/238381f15e76a4c4250536c8759d5ad6dfb5d56c7da690037db007b72157/linktest-2.5.1.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/2a/e7/1e54fca48770a58448766f7777380f4c8a10ee89d527d088586d3f12ff80/arch_flow-0.0.8.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [aerospike-flask-cache]: Downloading https://files.pythonhosted.org/packages/c1/b0/1cfbb8b942280e9f6aa591db5c6d0c52dc94f7101644e338759323888463/aerospike_flask_cache-0.1.1rc5.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-16 09:44:00] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.4.9.tar.gz tmp/linktest-2.5.1.tar.gz --markdown 20240416/l/linktest/2.4.9-2.5.1/README.md --exclude *.pyd
+[2024-04-16 09:44:00] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/d5/b9/11fd9112091b8548d9b8fcbf58f48a6d09c00d9bd49b1c25636873971c2b/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 09:44:00] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-04-16 09:44:00] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.0.7.tar.gz tmp/arch_flow-0.0.8.tar.gz --markdown 20240416/a/arch-flow/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 09:44:00] INFO root fetch - processPackages [game-prediction2]: Downloading https://files.pythonhosted.org/packages/1f/93/3b405d856c1eea847586a656e05b4a1abc24ef902302d92e05c5d65d2001/game_prediction2-0.1.7.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [aerospike-flask-cache]: executing diffoscope
+[2024-04-16 09:44:00] INFO root fetch - processPackages [aerospike-flask-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerospike_flask_cache-0.1.1rc4.tar.gz tmp/aerospike_flask_cache-0.1.1rc5.tar.gz --markdown 20240416/a/aerospike-flask-cache/0.1.1rc4-0.1.1rc5/README.md --exclude *.pyd
+[2024-04-16 09:44:00] INFO root fetch - processPackages [pyees]: Downloading https://files.pythonhosted.org/packages/2a/4c/147e6fcfd557d9096eb794fe6ad331025a29f698adf1cc307b205fa2f66c/pyees-1.9.2.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [game-prediction2]: executing diffoscope
+[2024-04-16 09:44:00] INFO root fetch - processPackages [game-prediction2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/game-prediction2-0.1.6.tar.gz tmp/game_prediction2-0.1.7.tar.gz --markdown 20240416/g/game-prediction2/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-16 09:44:00] INFO root fetch - processPackages [odoo12-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/ac/b2/a9bece9f7386e26cb70f57438f2ad264677d4ce0c0eaec498fc9fb40d7d2/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl
+[2024-04-16 09:44:00] INFO root fetch - processPackages [serializor]: Downloading https://files.pythonhosted.org/packages/b1/08/c58efe3b8b9a2155afc08c022e15b698f6ac8d0a42f68e0a1993fe147cba/serializor-1.0.0.tar.gz
+[2024-04-16 09:44:00] INFO root fetch - processPackages [odoo12-addon-stock-request]: executing diffoscope
+[2024-04-16 09:44:00] INFO root fetch - processPackages [odoo12-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip --markdown 20240416/o/odoo12-addon-stock-request/12.0.1.5.0.99.dev8-12.0.1.5.0.99.dev9/README.md --exclude *.pyd
+[2024-04-16 09:44:00] INFO root fetch - processPackages [pyees]: executing diffoscope
+[2024-04-16 09:44:00] INFO root fetch - processPackages [pyees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyees-1.9.1.tar.gz tmp/pyees-1.9.2.tar.gz --markdown 20240416/p/pyees/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-16 09:44:01] INFO root fetch - processPackages [serializor]: executing diffoscope
+[2024-04-16 09:44:01] INFO root fetch - processPackages [serializor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializor-0.1.12.8.tar.gz tmp/serializor-1.0.0.tar.gz --markdown 20240416/s/serializor/0.1.12.8-1.0.0/README.md --exclude *.pyd
+[2024-04-16 09:44:01] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.7.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.8.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-04-16 09:44:01] INFO root fetch - processPackages [aerospike-flask-cache]: Remove: archive file [/home/abi/fetcher/tmp/aerospike_flask_cache-0.1.1rc4.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - processPackages [aerospike-flask-cache]: Remove: archive file [/home/abi/fetcher/tmp/aerospike_flask_cache-0.1.1rc5.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - main [MainThread]: End processing [aerospike-flask-cache]: success
+[2024-04-16 09:44:01] INFO root fetch - processPackages [game-prediction2]: Remove: archive file [/home/abi/fetcher/tmp/game-prediction2-0.1.6.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - processPackages [game-prediction2]: Remove: archive file [/home/abi/fetcher/tmp/game_prediction2-0.1.7.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - main [MainThread]: End processing [game-prediction2]: success
+[2024-04-16 09:44:01] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.9.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.1.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-16 09:44:01] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.9.1.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - processPackages [pyees]: Remove: archive file [/home/abi/fetcher/tmp/pyees-1.9.2.tar.gz]
+[2024-04-16 09:44:01] INFO root fetch - main [MainThread]: End processing [pyees]: success
+[2024-04-16 09:44:01] INFO root fetch - processPackages [odoo12-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev8-py3-none-any.whl.zip]
+[2024-04-16 09:44:01] INFO root fetch - processPackages [odoo12-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_request-12.0.1.5.0.99.dev9-py3-none-any.whl.zip]
+[2024-04-16 09:44:01] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-request]: success
+[2024-04-16 09:44:02] INFO root fetch - processPackages [serializor]: Remove: archive file [/home/abi/fetcher/tmp/serializor-0.1.12.8.tar.gz]
+[2024-04-16 09:44:02] INFO root fetch - processPackages [serializor]: Remove: archive file [/home/abi/fetcher/tmp/serializor-1.0.0.tar.gz]
+[2024-04-16 09:44:02] INFO root fetch - main [MainThread]: End processing [serializor]: success
+[2024-04-16 09:44:02] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 09:44:03] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-04-16 09:44:03] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/c/composabl-cli-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-16 09:44:06] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 09:44:06] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 09:44:06] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-04-16 09:44:06] INFO root fetch - main [MainThread]: Store serial: [22783912]
