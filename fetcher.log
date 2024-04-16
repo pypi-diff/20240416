@@ -13219,3 +13219,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:47:28] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a8.tar.gz]
 [2024-04-16 11:47:28] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
 [2024-04-16 11:47:28] INFO root fetch - main [MainThread]: Store serial: [22785655]
+[2024-04-16 11:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785655]
+[2024-04-16 11:49:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: napari-imodmodel
+[2024-04-16 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garbevents
+[2024-04-16 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybigbuy
+[2024-04-16 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pslines
+[2024-04-16 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iterdir
+[2024-04-16 11:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xcloud-client
+[2024-04-16 11:49:37] WARNING root fetch - processPackages [pslines]: Skipping, unable to determine old version
+[2024-04-16 11:49:37] INFO root fetch - main [MainThread]: End processing [pslines] error
+[2024-04-16 11:49:37] WARNING root fetch - processPackages [iterdir]: Skipping, unable to determine old version
+[2024-04-16 11:49:37] INFO root fetch - main [MainThread]: End processing [iterdir] error
+[2024-04-16 11:49:37] WARNING root fetch - processPackages [napari-imodmodel]: Skipping, unable to determine old version
+[2024-04-16 11:49:37] INFO root fetch - main [MainThread]: End processing [napari-imodmodel] error
+[2024-04-16 11:49:37] INFO root fetch - processPackages [garbevents]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-16 11:49:37] INFO root fetch - processPackages [xcloud-client]: New version: [3.3] Old Version: [3.2]
+[2024-04-16 11:49:37] INFO root fetch - processPackages [pybigbuy]: New version: [3.19.6] Old Version: [3.19.5]
+[2024-04-16 11:49:37] INFO root fetch - processPackages [garbevents]: Downloading https://files.pythonhosted.org/packages/73/23/bf68bf44e713aab238b6ed8e13ca10c8726731899d9372c21031841c088e/garbevents-2.1.6.tar.gz
+[2024-04-16 11:49:37] INFO root fetch - processPackages [pybigbuy]: Downloading https://files.pythonhosted.org/packages/0b/14/16b90cf143d524dd8e76b03df8596b01b2fe61b0bfff2f715cbae01a4c1d/pybigbuy-3.19.5.tar.gz
+[2024-04-16 11:49:37] INFO root fetch - processPackages [xcloud-client]: Downloading https://files.pythonhosted.org/packages/13/a0/28ea86ac48d167f37d362e1d7f986800c11287271d5399e86e602ffbe919/xcloud_client-3.2.tar.gz
+[2024-04-16 11:49:37] INFO root fetch - processPackages [pybigbuy]: Downloading https://files.pythonhosted.org/packages/db/d3/aef32e45ed4909b01de720eec8b8edc3359311a2c45f511efb84510f17e5/pybigbuy-3.19.6.tar.gz
+[2024-04-16 11:49:37] INFO root fetch - processPackages [pybigbuy]: executing diffoscope
+[2024-04-16 11:49:37] INFO root fetch - processPackages [pybigbuy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybigbuy-3.19.5.tar.gz tmp/pybigbuy-3.19.6.tar.gz --markdown 20240416/p/pybigbuy/3.19.5-3.19.6/README.md --exclude *.pyd
+[2024-04-16 11:49:37] INFO root fetch - processPackages [xcloud-client]: Downloading https://files.pythonhosted.org/packages/da/d5/cf31457b01705f2a2c5c9aa904459fa11f380a376b4b389947367fd32214/xcloud_client-3.3.tar.gz
+[2024-04-16 11:49:38] INFO root fetch - processPackages [garbevents]: Downloading https://files.pythonhosted.org/packages/18/08/8e993c07dba3a68371f1759ff13e4af87ad8863d196ca0c0e3d68d425c15/garbevents-2.1.7.tar.gz
+[2024-04-16 11:49:38] INFO root fetch - processPackages [garbevents]: executing diffoscope
+[2024-04-16 11:49:38] INFO root fetch - processPackages [garbevents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garbevents-2.1.6.tar.gz tmp/garbevents-2.1.7.tar.gz --markdown 20240416/g/garbevents/2.1.6-2.1.7/README.md --exclude *.pyd
+[2024-04-16 11:49:38] INFO root fetch - processPackages [pybigbuy]: Remove: archive file [/home/abi/fetcher/tmp/pybigbuy-3.19.5.tar.gz]
+[2024-04-16 11:49:38] INFO root fetch - processPackages [pybigbuy]: Remove: archive file [/home/abi/fetcher/tmp/pybigbuy-3.19.6.tar.gz]
+[2024-04-16 11:49:38] INFO root fetch - main [MainThread]: End processing [pybigbuy]: success
+[2024-04-16 11:49:38] INFO root fetch - processPackages [xcloud-client]: executing diffoscope
+[2024-04-16 11:49:38] INFO root fetch - processPackages [xcloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloud_client-3.2.tar.gz tmp/xcloud_client-3.3.tar.gz --markdown 20240416/x/xcloud-client/3.2-3.3/README.md --exclude *.pyd
+[2024-04-16 11:49:39] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-3.2.tar.gz]
+[2024-04-16 11:49:39] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-3.3.tar.gz]
+[2024-04-16 11:49:39] INFO root fetch - main [MainThread]: End processing [xcloud-client]: success
+[2024-04-16 11:49:44] INFO root fetch - processPackages [garbevents]: Remove: archive file [/home/abi/fetcher/tmp/garbevents-2.1.6.tar.gz]
+[2024-04-16 11:49:44] INFO root fetch - processPackages [garbevents]: Remove: archive file [/home/abi/fetcher/tmp/garbevents-2.1.7.tar.gz]
+[2024-04-16 11:49:44] INFO root fetch - main [MainThread]: End processing [garbevents]: success
+[2024-04-16 11:49:44] INFO root fetch - main [MainThread]: Store serial: [22785677]
