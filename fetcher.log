@@ -9072,3 +9072,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:30:19] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a0.tar.gz]
 [2024-04-16 09:30:19] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2024-04-16 09:30:19] INFO root fetch - main [MainThread]: Store serial: [22783728]
+[2024-04-16 09:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783728]
+[2024-04-16 09:32:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-server-ux
+[2024-04-16 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arch-flow
+[2024-04-16 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bx-django-utils
+[2024-04-16 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aerospike-flask-cache
+[2024-04-16 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nanoCEM
+[2024-04-16 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lenstr
+[2024-04-16 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lakeapi2sql
+[2024-04-16 09:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tokenizers2sblob
+[2024-04-16 09:32:30] INFO root fetch - processPackages [bx-django-utils]: New version: [9] Old Version: [8]
+[2024-04-16 09:32:30] WARNING root fetch - processPackages [lenstr]: Skipping, unable to determine old version
+[2024-04-16 09:32:30] INFO root fetch - processPackages [aerospike-flask-cache]: New version: [0.1.1rc3] Old Version: [0.1.1rc2]
+[2024-04-16 09:32:30] INFO root fetch - main [MainThread]: End processing [lenstr] error
+[2024-04-16 09:32:30] INFO root fetch - processPackages [arch-flow]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-16 09:32:30] INFO root fetch - processPackages [lakeapi2sql]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-16 09:32:30] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.5.5] Old Version: [0.0.5.4]
+[2024-04-16 09:32:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20240415.0] Old Version: [16.0.20240412.0]
+[2024-04-16 09:32:30] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/17/ee/04312a5126727b2019f29f8198385dbb8bd31277e7a0d48720d856b95c80/arch_flow-0.0.5.tar.gz
+[2024-04-16 09:32:30] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/e1/a8/662c5c1693a8b46677247ea78ff327e329c3097b5aca3391d2bda224116e/lakeapi2sql-0.8.0.tar.gz
+[2024-04-16 09:32:30] WARNING root fetch - processPackages [tokenizers2sblob]: Skipping, unable to determine old version
+[2024-04-16 09:32:30] INFO root fetch - main [MainThread]: End processing [tokenizers2sblob] error
+[2024-04-16 09:32:30] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/1e/0c/ff3d5a5c26c498b48bf149a2a08540a5812c585c9bfb59f4e303198aa123/bx_django_utils-8.tar.gz
+[2024-04-16 09:32:30] INFO root fetch - processPackages [aerospike-flask-cache]: Downloading https://files.pythonhosted.org/packages/43/cf/5202fbf614503c1aa756930e3fe3a9f65f539a781f845071255c664ef175/aerospike_flask_cache-0.1.1rc2.tar.gz
+[2024-04-16 09:32:30] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/14/d0/e8aadfbcce9f46fc9c06abda4303171fd922c7c167782005906e88fe225e/nanoCEM-0.0.5.4.tar.gz
+[2024-04-16 09:32:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/d6/0f/9d8c085e7580e37f326d037d9f9d15fe400c54baf64edf69277ff28b1876/odoo_addons_oca_server_ux-16.0.20240412.0-py3-none-any.whl
+[2024-04-16 09:32:30] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/65/2f/0166750556c5cf000208de681d3e0547373a921a9e1e322efcba34def645/lakeapi2sql-0.8.1.tar.gz
+[2024-04-16 09:32:30] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/79/24/6f2bee0b23b0b7283a2db74a2acef9b9117cb8dc0ade77919bbba5c5b68d/arch_flow-0.0.6.tar.gz
+[2024-04-16 09:32:30] INFO root fetch - processPackages [lakeapi2sql]: executing diffoscope
+[2024-04-16 09:32:30] INFO root fetch - processPackages [lakeapi2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi2sql-0.8.0.tar.gz tmp/lakeapi2sql-0.8.1.tar.gz --markdown 20240416/l/lakeapi2sql/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-16 09:32:30] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/54/d4/2d84a752b75ada677f105d10a35e7407344ecc889078c710400ee5a51549/nanoCEM-0.0.5.5.tar.gz
+[2024-04-16 09:32:30] INFO root fetch - processPackages [bx-django-utils]: Downloading https://files.pythonhosted.org/packages/2b/63/3e7d67b2f7c3cbfbf0e086e97103b8d3e82088f05b5c20e488922c2fe0f7/bx_django_utils-9.tar.gz
+[2024-04-16 09:32:30] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-04-16 09:32:30] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.0.5.tar.gz tmp/arch_flow-0.0.6.tar.gz --markdown 20240416/a/arch-flow/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-16 09:32:30] INFO root fetch - processPackages [aerospike-flask-cache]: Downloading https://files.pythonhosted.org/packages/70/5a/760c1689e23ae7d2a2dac07f3c01c5bb3fecc422526935225d23fcd870cc/aerospike_flask_cache-0.1.1rc3.tar.gz
+[2024-04-16 09:32:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/c2/30/531bab397333696a9f1093c60d081963d1ecd05afb57256361e442b1fefe/odoo_addons_oca_server_ux-16.0.20240415.0-py3-none-any.whl
+[2024-04-16 09:32:31] INFO root fetch - processPackages [bx-django-utils]: executing diffoscope
+[2024-04-16 09:32:31] INFO root fetch - processPackages [bx-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bx_django_utils-8.tar.gz tmp/bx_django_utils-9.tar.gz --markdown 20240416/b/bx-django-utils/8-9/README.md --exclude *.pyd
+[2024-04-16 09:32:31] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2024-04-16 09:32:31] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20240412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20240415.0-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-server-ux/16.0.20240412.0-16.0.20240415.0/README.md --exclude *.pyd
+[2024-04-16 09:32:31] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2024-04-16 09:32:31] INFO root fetch - processPackages [aerospike-flask-cache]: executing diffoscope
+[2024-04-16 09:32:31] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.5.4.tar.gz tmp/nanoCEM-0.0.5.5.tar.gz --markdown 20240416/n/nanoCEM/0.0.5.4-0.0.5.5/README.md --exclude *.pyd
+[2024-04-16 09:32:31] INFO root fetch - processPackages [aerospike-flask-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aerospike_flask_cache-0.1.1rc2.tar.gz tmp/aerospike_flask_cache-0.1.1rc3.tar.gz --markdown 20240416/a/aerospike-flask-cache/0.1.1rc2-0.1.1rc3/README.md --exclude *.pyd
+[2024-04-16 09:32:31] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.5.tar.gz]
+[2024-04-16 09:32:31] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.6.tar.gz]
+[2024-04-16 09:32:31] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-04-16 09:32:31] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.8.0.tar.gz]
+[2024-04-16 09:32:31] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.8.1.tar.gz]
+[2024-04-16 09:32:31] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
+[2024-04-16 09:32:32] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20240412.0-py3-none-any.whl.zip]
+[2024-04-16 09:32:32] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20240415.0-py3-none-any.whl.zip]
+[2024-04-16 09:32:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2024-04-16 09:32:32] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-8.tar.gz]
+[2024-04-16 09:32:32] INFO root fetch - processPackages [bx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/bx_django_utils-9.tar.gz]
+[2024-04-16 09:32:32] INFO root fetch - main [MainThread]: End processing [bx-django-utils]: success
+[2024-04-16 09:32:32] INFO root fetch - processPackages [aerospike-flask-cache]: Remove: archive file [/home/abi/fetcher/tmp/aerospike_flask_cache-0.1.1rc2.tar.gz]
+[2024-04-16 09:32:32] INFO root fetch - processPackages [aerospike-flask-cache]: Remove: archive file [/home/abi/fetcher/tmp/aerospike_flask_cache-0.1.1rc3.tar.gz]
+[2024-04-16 09:32:32] INFO root fetch - main [MainThread]: End processing [aerospike-flask-cache]: success
+[2024-04-16 09:32:32] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.4.tar.gz]
+[2024-04-16 09:32:32] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.5.tar.gz]
+[2024-04-16 09:32:32] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2024-04-16 09:32:32] INFO root fetch - main [MainThread]: Store serial: [22783760]
