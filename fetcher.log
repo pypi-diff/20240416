@@ -10723,3 +10723,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:21:42] INFO root fetch - processPackages [aws-syndicate]: Remove: archive file [/home/abi/fetcher/tmp/aws-syndicate-1.9.6.tar.gz]
 [2024-04-16 10:21:42] INFO root fetch - main [MainThread]: End processing [aws-syndicate]: success
 [2024-04-16 10:21:42] INFO root fetch - main [MainThread]: Store serial: [22784418]
+[2024-04-16 10:23:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784418]
+[2024-04-16 10:23:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micromechanics-indentationGUI
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danila-lib
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazy-schema
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: knatch
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dol
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythia-client
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gmsofttest
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ewatercycle-HBV
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: th2-data-services
+[2024-04-16 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meshed
+[2024-04-16 10:23:51] INFO root fetch - processPackages [danila-lib]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [pythia-client]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [lazy-schema]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [gmsofttest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [micromechanics-indentationGUI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [knatch]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [ewatercycle-HBV]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/5c/96/d3260b99515b2f206ae9ff60e8874cc05fbf42906dcbc17ce345da4b47e0/danila-lib-1.0.4.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/41/96/fed10f5a43ab06876e71eedf26de1656a828c13968a6c905d27b8bcee772/pythia_client-0.1.4.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [dol]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/ec/7a/b9a4cb548311649f86f20a862dde4245e41cca25e621c086eb8454f7e713/lazy_schema-0.2.2.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8702324290] Old Version: [2.0.0.dev8662586819]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/7f/67/cb0e9d6615cc6b38cc7d601ec8556643fcbadac37ba872d5620b902d14a8/micromechanics_indentationGUI-0.1.8-py3-none-any.whl
+[2024-04-16 10:23:51] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/eb/c9/80a2e9566b35349b1eb8378e20b5a4ed2e0f534992281be6f39de2183dfc/gmsofttest-0.0.8.tar.gz
+[2024-04-16 10:23:51] WARNING root fetch - processPackages [micromechanics-indentationGUI]: Skipping package: exceeds size limit 26728255>=10485760
+[2024-04-16 10:23:51] INFO root fetch - processPackages [micromechanics-indentationGUI]: Start processing: bridgecrew
+[2024-04-16 10:23:51] INFO root fetch - main [MainThread]: End processing [micromechanics-indentationGUI] error
+[2024-04-16 10:23:51] INFO root fetch - processPackages [knatch]: Downloading https://files.pythonhosted.org/packages/46/62/480b17b6c29551c4b721c26a3d00702f6866d42e3866f2867d0f57b5770a/knatch-1.0.2.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [ewatercycle-HBV]: Downloading https://files.pythonhosted.org/packages/38/e3/96f91d508846c7273a628b3a97603a7c6747671dd372cd3c1cd2c47158f8/ewatercycle_hbv-1.8.0.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/ec/66/ec18e469de7a31199ec17594f774aa629498f1f4b963deea16117918bef2/meshed-0.1.98.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/6f/c5/f8a89851ec9b6dd7de8b9fa052a348669681083d710557cbc207275200c6/dol-0.2.9.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-16 10:23:51] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/67/8d/630c7416cb2672562edc66671d35c3705a67220869d47d5bd584cd4d0a7b/th2_data_services-2.0.0.dev8662586819.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/ed/9f/122493f4e3bf0b258a259a6fe55e73fbee9bdfc4fad41c41616c86d64327/gmsofttest-0.0.9.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/a3/59/e6578cc4ad698135accbc112f641187cb3daffc3351a70435a5b813c30bb/danila-lib-1.0.5.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/02/58/212fa89f60bd0b215d7cb841472cc9033aa79f50fcb3921bb84010f6ced1/lazy_schema-0.2.3.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/bb/05/2977e1e29b4354a8fa7a349adb3ab82d5d6827b9356934b7992c8a77c08c/pythia_client-0.1.6.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [gmsofttest]: executing diffoscope
+[2024-04-16 10:23:51] INFO root fetch - processPackages [gmsofttest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsofttest-0.0.8.tar.gz tmp/gmsofttest-0.0.9.tar.gz --markdown 20240416/g/gmsofttest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 10:23:51] INFO root fetch - processPackages [lazy-schema]: executing diffoscope
+[2024-04-16 10:23:51] INFO root fetch - processPackages [lazy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_schema-0.2.2.tar.gz tmp/lazy_schema-0.2.3.tar.gz --markdown 20240416/l/lazy-schema/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 10:23:51] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-04-16 10:23:51] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.0.4.tar.gz tmp/danila-lib-1.0.5.tar.gz --markdown 20240416/d/danila-lib/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-16 10:23:51] INFO root fetch - processPackages [knatch]: Downloading https://files.pythonhosted.org/packages/ac/7b/a0cfbb601080df426d25b47ea12ebac304f6cde4d51ecd4457c883b10b42/knatch-1.0.3.tar.gz
+[2024-04-16 10:23:51] INFO root fetch - processPackages [ewatercycle-HBV]: Downloading https://files.pythonhosted.org/packages/c4/a3/332ce875d87135195e18f9265f7b9d33d6edcca2f1ea6e83d6637c44ee8d/ewatercycle_hbv-1.8.1.tar.gz
+[2024-04-16 10:23:52] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/aa/7c/251ef8cfa17a0594ba968d250587da7996c66e18b43375d08036c07d2cf4/th2_data_services-2.0.0.dev8702324290.tar.gz
+[2024-04-16 10:23:52] INFO root fetch - processPackages [pythia-client]: executing diffoscope
+[2024-04-16 10:23:52] INFO root fetch - processPackages [pythia-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythia_client-0.1.4.tar.gz tmp/pythia_client-0.1.6.tar.gz --markdown 20240416/p/pythia-client/0.1.4-0.1.6/README.md --exclude *.pyd
+[2024-04-16 10:23:52] INFO root fetch - processPackages [knatch]: executing diffoscope
+[2024-04-16 10:23:52] INFO root fetch - processPackages [knatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knatch-1.0.2.tar.gz tmp/knatch-1.0.3.tar.gz --markdown 20240416/k/knatch/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-16 10:23:52] INFO root fetch - processPackages [dol]: Downloading https://files.pythonhosted.org/packages/54/9b/84ff7b37c9e8a531f64432c812ef371ae4074c27398d60140e842e70443f/dol-0.3.0.tar.gz
+[2024-04-16 10:23:52] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/52/c3/21e2c03ab6607bd25fb9f6efb994798b3e75db906daf491bf961ee733450/meshed-0.1.99.tar.gz
+[2024-04-16 10:23:52] INFO root fetch - processPackages [ewatercycle-HBV]: executing diffoscope
+[2024-04-16 10:23:52] INFO root fetch - processPackages [ewatercycle-HBV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewatercycle_hbv-1.8.0.tar.gz tmp/ewatercycle_hbv-1.8.1.tar.gz --markdown 20240416/e/ewatercycle-HBV/1.8.0-1.8.1/README.md --exclude *.pyd
+[2024-04-16 10:23:52] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-04-16 10:23:52] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-04-16 10:23:52] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8662586819.tar.gz tmp/th2_data_services-2.0.0.dev8702324290.tar.gz --markdown 20240416/t/th2-data-services/2.0.0.dev8662586819-2.0.0.dev8702324290/README.md --exclude *.pyd
+[2024-04-16 10:23:52] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-04-16 10:23:52] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240416/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-16 10:23:52] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2024-04-16 10:23:52] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20240416/m/meshed/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 10:23:52] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.0.4.tar.gz]
+[2024-04-16 10:23:52] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.0.5.tar.gz]
+[2024-04-16 10:23:52] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-04-16 10:23:52] INFO root fetch - processPackages [dol]: executing diffoscope
+[2024-04-16 10:23:52] INFO root fetch - processPackages [dol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dol-0.2.9.tar.gz tmp/dol-0.3.0.tar.gz --markdown 20240416/d/dol/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-16 10:23:52] INFO root fetch - processPackages [knatch]: Remove: archive file [/home/abi/fetcher/tmp/knatch-1.0.2.tar.gz]
+[2024-04-16 10:23:52] INFO root fetch - processPackages [knatch]: Remove: archive file [/home/abi/fetcher/tmp/knatch-1.0.3.tar.gz]
+[2024-04-16 10:23:52] INFO root fetch - main [MainThread]: End processing [knatch]: success
+[2024-04-16 10:23:52] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.4.tar.gz]
+[2024-04-16 10:23:52] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.6.tar.gz]
+[2024-04-16 10:23:52] INFO root fetch - main [MainThread]: End processing [pythia-client]: success
+[2024-04-16 10:23:53] INFO root fetch - processPackages [ewatercycle-HBV]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_hbv-1.8.0.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - processPackages [ewatercycle-HBV]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_hbv-1.8.1.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - main [MainThread]: End processing [ewatercycle-HBV]: success
+[2024-04-16 10:23:53] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.8.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.9.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - main [MainThread]: End processing [gmsofttest]: success
+[2024-04-16 10:23:53] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.2.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.3.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - main [MainThread]: End processing [lazy-schema]: success
+[2024-04-16 10:23:53] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8662586819.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8702324290.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-04-16 10:23:53] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-04-16 10:23:53] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.98.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.99.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2024-04-16 10:23:53] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.2.9.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - processPackages [dol]: Remove: archive file [/home/abi/fetcher/tmp/dol-0.3.0.tar.gz]
+[2024-04-16 10:23:53] INFO root fetch - main [MainThread]: End processing [dol]: success
+[2024-04-16 10:23:53] INFO root fetch - main [MainThread]: Store serial: [22784450]
