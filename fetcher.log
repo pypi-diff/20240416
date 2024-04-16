@@ -23864,3 +23864,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:50:58] INFO root fetch - processPackages [exoplanet]: Remove: archive file [/home/abi/fetcher/tmp/exoplanet-0.6.0rc2.tar.gz]
 [2024-04-16 17:50:58] INFO root fetch - main [MainThread]: End processing [exoplanet]: success
 [2024-04-16 17:50:58] INFO root fetch - main [MainThread]: Store serial: [22790160]
+[2024-04-16 17:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22790160]
+[2024-04-16 17:53:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 17:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aidge-core
+[2024-04-16 17:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-customvueadmin
+[2024-04-16 17:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eptr2
+[2024-04-16 17:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: saur
+[2024-04-16 17:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyroSAR
+[2024-04-16 17:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iotopen-py-lynx
+[2024-04-16 17:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: samgis_core
+[2024-04-16 17:53:08] INFO root fetch - processPackages [samgis_core]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-16 17:53:08] INFO root fetch - processPackages [iotopen-py-lynx]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 17:53:08] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:53:08] INFO root fetch - processPackages [eptr2]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-16 17:53:08] INFO root fetch - processPackages [samgis_core]: Downloading https://files.pythonhosted.org/packages/72/a3/fbbeae6342fe076a5a87edc5bd82f2bc5099ead72db746b6511ebc89bc1d/samgis_core-1.0.8.tar.gz
+[2024-04-16 17:53:08] WARNING root fetch - processPackages [saur]: Skipping, unable to determine old version
+[2024-04-16 17:53:08] INFO root fetch - main [MainThread]: End processing [saur] error
+[2024-04-16 17:53:08] WARNING root fetch - processPackages [aidge-core]: Skipping, unable to determine old version
+[2024-04-16 17:53:08] INFO root fetch - main [MainThread]: End processing [aidge-core] error
+[2024-04-16 17:53:08] INFO root fetch - processPackages [iotopen-py-lynx]: Downloading https://files.pythonhosted.org/packages/89/de/cb72844a1ba03a0f99401af42477214ae8fa5e8b7b0b68a662825848264d/iotopen_py_lynx-1.0.3.tar.gz
+[2024-04-16 17:53:08] INFO root fetch - processPackages [pyroSAR]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-16 17:53:08] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/c5/4d/0d59effed1262f17c1fa142676a62a053cf3bcafbece7f3fdf47d7cb29f3/django-customvueadmin-0.1.8.tar.gz
+[2024-04-16 17:53:08] INFO root fetch - processPackages [eptr2]: Downloading https://files.pythonhosted.org/packages/c2/b8/bfcb3db9006cdae9a0992be30151c6270c6ac40eb75606ff145b0a43bf50/eptr2-0.3.0.tar.gz
+[2024-04-16 17:53:08] INFO root fetch - processPackages [pyroSAR]: Downloading https://files.pythonhosted.org/packages/75/b5/2e9cb282dededa751e53b0efb02efa41774296fd1b142c8e526de5c351f9/pyroSAR-0.9.tar.gz
+[2024-04-16 17:53:08] INFO root fetch - processPackages [iotopen-py-lynx]: Downloading https://files.pythonhosted.org/packages/2b/81/c2dcca3739c018728ea8de2dd07f8bc0fa1e17c850aae2b1745b106ba600/iotopen_py_lynx-1.0.4.tar.gz
+[2024-04-16 17:53:08] INFO root fetch - processPackages [samgis_core]: Downloading https://files.pythonhosted.org/packages/f8/72/48feb8b676a0961bd2d612f130577aaa9d144bad176795d688cd9c0d5d62/samgis_core-1.1.0.tar.gz
+[2024-04-16 17:53:08] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-04-16 17:53:08] INFO root fetch - processPackages [iotopen-py-lynx]: executing diffoscope
+[2024-04-16 17:53:08] INFO root fetch - processPackages [iotopen-py-lynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotopen_py_lynx-1.0.3.tar.gz tmp/iotopen_py_lynx-1.0.4.tar.gz --markdown 20240416/i/iotopen-py-lynx/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-16 17:53:08] INFO root fetch - processPackages [samgis_core]: executing diffoscope
+[2024-04-16 17:53:08] INFO root fetch - processPackages [samgis_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samgis_core-1.0.8.tar.gz tmp/samgis_core-1.1.0.tar.gz --markdown 20240416/s/samgis_core/1.0.8-1.1.0/README.md --exclude *.pyd
+[2024-04-16 17:53:08] INFO root fetch - processPackages [eptr2]: Downloading https://files.pythonhosted.org/packages/26/17/33c70bc497476fcaa42233d226fffd45816794852125a2e9ec9f50c64551/eptr2-0.4.0.tar.gz
+[2024-04-16 17:53:08] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-04-16 17:53:08] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.8.tar.gz tmp/django-customvueadmin-0.1.9.tar.gz --markdown 20240416/d/django-customvueadmin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:53:08] INFO root fetch - processPackages [eptr2]: executing diffoscope
+[2024-04-16 17:53:08] INFO root fetch - processPackages [eptr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eptr2-0.3.0.tar.gz tmp/eptr2-0.4.0.tar.gz --markdown 20240416/e/eptr2/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-16 17:53:09] INFO root fetch - processPackages [samgis_core]: Remove: archive file [/home/abi/fetcher/tmp/samgis_core-1.0.8.tar.gz]
+[2024-04-16 17:53:09] INFO root fetch - processPackages [samgis_core]: Remove: archive file [/home/abi/fetcher/tmp/samgis_core-1.1.0.tar.gz]
+[2024-04-16 17:53:09] INFO root fetch - main [MainThread]: End processing [samgis_core]: success
+[2024-04-16 17:53:09] INFO root fetch - processPackages [iotopen-py-lynx]: Remove: archive file [/home/abi/fetcher/tmp/iotopen_py_lynx-1.0.3.tar.gz]
+[2024-04-16 17:53:09] INFO root fetch - processPackages [iotopen-py-lynx]: Remove: archive file [/home/abi/fetcher/tmp/iotopen_py_lynx-1.0.4.tar.gz]
+[2024-04-16 17:53:09] INFO root fetch - main [MainThread]: End processing [iotopen-py-lynx]: success
+[2024-04-16 17:53:09] INFO root fetch - processPackages [eptr2]: Remove: archive file [/home/abi/fetcher/tmp/eptr2-0.3.0.tar.gz]
+[2024-04-16 17:53:09] INFO root fetch - processPackages [eptr2]: Remove: archive file [/home/abi/fetcher/tmp/eptr2-0.4.0.tar.gz]
+[2024-04-16 17:53:09] INFO root fetch - main [MainThread]: End processing [eptr2]: success
+[2024-04-16 17:53:09] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.8.tar.gz]
+[2024-04-16 17:53:09] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-04-16 17:53:09] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-04-16 17:53:10] INFO root fetch - processPackages [pyroSAR]: Downloading https://files.pythonhosted.org/packages/ab/b2/53814cc97f6b97f09f9ba6641442c89bd4e7aea235c28fc23aacd06de735/pyroSAR-0.9.1.tar.gz
+[2024-04-16 17:53:13] INFO root fetch - processPackages [pyroSAR]: executing diffoscope
+[2024-04-16 17:53:13] INFO root fetch - processPackages [pyroSAR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroSAR-0.9.tar.gz tmp/pyroSAR-0.9.1.tar.gz --markdown 20240416/p/pyroSAR/0.9-0.9.1/README.md --exclude *.pyd
+[2024-04-16 17:53:14] INFO root fetch - processPackages [pyroSAR]: Remove: archive file [/home/abi/fetcher/tmp/pyroSAR-0.9.tar.gz]
+[2024-04-16 17:53:14] INFO root fetch - processPackages [pyroSAR]: Remove: archive file [/home/abi/fetcher/tmp/pyroSAR-0.9.1.tar.gz]
+[2024-04-16 17:53:14] INFO root fetch - main [MainThread]: End processing [pyroSAR]: success
+[2024-04-16 17:53:14] INFO root fetch - main [MainThread]: Store serial: [22790185]
