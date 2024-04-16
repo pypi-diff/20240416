@@ -14360,3 +14360,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:32:18] INFO root fetch - processPackages [bw25ui]: Remove: archive file [/home/abi/fetcher/tmp/bw25ui-0.37.0.tar.gz]
 [2024-04-16 12:32:18] INFO root fetch - main [MainThread]: End processing [bw25ui]: success
 [2024-04-16 12:32:18] INFO root fetch - main [MainThread]: Store serial: [22786277]
+[2024-04-16 12:34:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786277]
+[2024-04-16 12:34:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 12:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secretscraper
+[2024-04-16 12:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-iris
+[2024-04-16 12:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xy-health-measurement-sdk
+[2024-04-16 12:34:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vt-py
+[2024-04-16 12:34:27] INFO root fetch - processPackages [langchain-iris]: New version: [0.1.2b2] Old Version: [0.1.2b1]
+[2024-04-16 12:34:27] INFO root fetch - processPackages [xy-health-measurement-sdk]: New version: [2.0.0rc3] Old Version: [2.0.0rc2]
+[2024-04-16 12:34:27] INFO root fetch - processPackages [xy-health-measurement-sdk]: Downloading https://files.pythonhosted.org/packages/32/02/bd01c886995a16439ef0fac8c0324e19c5b56c1087858a13c0ff071216d5/xy_health_measurement_sdk-2.0.0rc2.tar.gz
+[2024-04-16 12:34:27] INFO root fetch - processPackages [langchain-iris]: Downloading https://files.pythonhosted.org/packages/c0/2b/2459b49a22aac4fed0cec9c886d9bcfb87cf4ff7b1ed3f4f5ee29b8c3e41/langchain_iris-0.1.2b1.tar.gz
+[2024-04-16 12:34:27] INFO root fetch - processPackages [vt-py]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 12:34:27] WARNING root fetch - processPackages [secretscraper]: Skipping, unable to determine old version
+[2024-04-16 12:34:27] INFO root fetch - main [MainThread]: End processing [secretscraper] error
+[2024-04-16 12:34:27] INFO root fetch - processPackages [vt-py]: Downloading https://files.pythonhosted.org/packages/b7/c2/ea53172c1d4fd377ab882faaf6e786a1c6bbd0c3f1ce7ac5efaf3aa16c92/vt-py-0.8.0.tar.gz
+[2024-04-16 12:34:27] INFO root fetch - processPackages [langchain-iris]: Downloading https://files.pythonhosted.org/packages/d6/6d/542de3880aaf607e0a60e67a7310880eb29babf37807bd67eb6a3fe3500e/langchain_iris-0.1.2b2.tar.gz
+[2024-04-16 12:34:28] INFO root fetch - processPackages [langchain-iris]: executing diffoscope
+[2024-04-16 12:34:28] INFO root fetch - processPackages [langchain-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_iris-0.1.2b1.tar.gz tmp/langchain_iris-0.1.2b2.tar.gz --markdown 20240416/l/langchain-iris/0.1.2b1-0.1.2b2/README.md --exclude *.pyd
+[2024-04-16 12:34:28] INFO root fetch - processPackages [vt-py]: Downloading https://files.pythonhosted.org/packages/dd/c6/6a071fa597adc9a06d74abf6b1cfe22c027b24cf0ebe40fc59e4bcd2f9cd/vt-py-0.9.0.tar.gz
+[2024-04-16 12:34:28] INFO root fetch - processPackages [xy-health-measurement-sdk]: Downloading https://files.pythonhosted.org/packages/6c/3a/143431e6b72bf4fc12a3ccae97331c3a12c58eafa4e6b4f525ba80789125/xy_health_measurement_sdk-2.0.0rc3.tar.gz
+[2024-04-16 12:34:28] INFO root fetch - processPackages [vt-py]: executing diffoscope
+[2024-04-16 12:34:28] INFO root fetch - processPackages [vt-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vt-py-0.8.0.tar.gz tmp/vt-py-0.9.0.tar.gz --markdown 20240416/v/vt-py/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 12:34:28] INFO root fetch - processPackages [langchain-iris]: Remove: archive file [/home/abi/fetcher/tmp/langchain_iris-0.1.2b1.tar.gz]
+[2024-04-16 12:34:28] INFO root fetch - processPackages [langchain-iris]: Remove: archive file [/home/abi/fetcher/tmp/langchain_iris-0.1.2b2.tar.gz]
+[2024-04-16 12:34:28] INFO root fetch - main [MainThread]: End processing [langchain-iris]: success
+[2024-04-16 12:34:28] INFO root fetch - processPackages [vt-py]: Remove: archive file [/home/abi/fetcher/tmp/vt-py-0.8.0.tar.gz]
+[2024-04-16 12:34:28] INFO root fetch - processPackages [vt-py]: Remove: archive file [/home/abi/fetcher/tmp/vt-py-0.9.0.tar.gz]
+[2024-04-16 12:34:28] INFO root fetch - main [MainThread]: End processing [vt-py]: success
+[2024-04-16 12:34:29] INFO root fetch - processPackages [xy-health-measurement-sdk]: executing diffoscope
+[2024-04-16 12:34:29] INFO root fetch - processPackages [xy-health-measurement-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xy_health_measurement_sdk-2.0.0rc2.tar.gz tmp/xy_health_measurement_sdk-2.0.0rc3.tar.gz --markdown 20240416/x/xy-health-measurement-sdk/2.0.0rc2-2.0.0rc3/README.md --exclude *.pyd
+[2024-04-16 12:34:29] INFO root fetch - processPackages [xy-health-measurement-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xy_health_measurement_sdk-2.0.0rc2.tar.gz]
+[2024-04-16 12:34:29] INFO root fetch - processPackages [xy-health-measurement-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xy_health_measurement_sdk-2.0.0rc3.tar.gz]
+[2024-04-16 12:34:29] INFO root fetch - main [MainThread]: End processing [xy-health-measurement-sdk]: success
+[2024-04-16 12:34:29] INFO root fetch - main [MainThread]: Store serial: [22786291]
