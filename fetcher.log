@@ -15041,3 +15041,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:03:08] INFO root fetch - processPackages [webdriver-kaifuku]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_kaifuku-24.4.16.0.tar.gz]
 [2024-04-16 13:03:08] INFO root fetch - main [MainThread]: End processing [webdriver-kaifuku]: success
 [2024-04-16 13:03:08] INFO root fetch - main [MainThread]: Store serial: [22786565]
+[2024-04-16 13:05:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786565]
+[2024-04-16 13:05:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 13:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-arbmark-fagfunksjoner
+[2024-04-16 13:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udps
+[2024-04-16 13:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auptitcafe
+[2024-04-16 13:05:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exchanges-wrapper
+[2024-04-16 13:05:16] INFO root fetch - processPackages [auptitcafe]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 13:05:16] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 13:05:16] INFO root fetch - processPackages [udps]: New version: [0.1.34] Old Version: [0.1.33]
+[2024-04-16 13:05:16] INFO root fetch - processPackages [exchanges-wrapper]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-16 13:05:16] INFO root fetch - processPackages [auptitcafe]: Downloading https://files.pythonhosted.org/packages/52/b9/cb1f123f502d78acacc4b454869bc1c42fdcffc7d3a463c7b6d07894acc4/auptitcafe-0.1.8.tar.gz
+[2024-04-16 13:05:16] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/9f/7c/1d1bf4a90d5ede0b772f70ffaf7c329b82aca9a236519be5b287a69a02a2/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz
+[2024-04-16 13:05:16] INFO root fetch - processPackages [udps]: Downloading https://files.pythonhosted.org/packages/40/a4/c4ebe05e414983709a5d417d18d9d8e7b6faaea9a5c3c60b4976fb5ec92a/udps-0.1.33.tar.gz
+[2024-04-16 13:05:16] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/46/33/e6d19730f59ca833c5721e7a4c1695c97cb5c1a1de95ddd50bcf1df8e18a/exchanges_wrapper-2.1.8.tar.gz
+[2024-04-16 13:05:16] INFO root fetch - processPackages [auptitcafe]: Downloading https://files.pythonhosted.org/packages/60/f4/77ee7f025a369ae154a96c2ef577a3657361c7e2a907d493bae103e19091/auptitcafe-0.1.9.tar.gz
+[2024-04-16 13:05:17] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/30/58/1aae8e7ab8bdc135378e36ac87d04487156f4cb588548148276269523f2c/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz
+[2024-04-16 13:05:17] INFO root fetch - processPackages [udps]: Downloading https://files.pythonhosted.org/packages/a0/34/e7d6b2426e45cba8465320931f36fe68ebd3dc5fae5bc21309011e452aa1/udps-0.1.34.tar.gz
+[2024-04-16 13:05:17] INFO root fetch - processPackages [auptitcafe]: executing diffoscope
+[2024-04-16 13:05:17] INFO root fetch - processPackages [auptitcafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auptitcafe-0.1.8.tar.gz tmp/auptitcafe-0.1.9.tar.gz --markdown 20240416/a/auptitcafe/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 13:05:17] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: executing diffoscope
+[2024-04-16 13:05:17] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz --markdown 20240416/s/ssb-arbmark-fagfunksjoner/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 13:05:17] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/ff/a0/f4da17fd280747e485a819a01ca94b415d48601964b2dc7c2577ffcf11ca/exchanges_wrapper-2.1.9.tar.gz
+[2024-04-16 13:05:17] INFO root fetch - processPackages [udps]: executing diffoscope
+[2024-04-16 13:05:17] INFO root fetch - processPackages [udps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udps-0.1.33.tar.gz tmp/udps-0.1.34.tar.gz --markdown 20240416/u/udps/0.1.33-0.1.34/README.md --exclude *.pyd
+[2024-04-16 13:05:17] INFO root fetch - processPackages [exchanges-wrapper]: executing diffoscope
+[2024-04-16 13:05:17] INFO root fetch - processPackages [exchanges-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchanges_wrapper-2.1.8.tar.gz tmp/exchanges_wrapper-2.1.9.tar.gz --markdown 20240416/e/exchanges-wrapper/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-16 13:05:17] INFO root fetch - processPackages [auptitcafe]: Remove: archive file [/home/abi/fetcher/tmp/auptitcafe-0.1.8.tar.gz]
+[2024-04-16 13:05:17] INFO root fetch - processPackages [auptitcafe]: Remove: archive file [/home/abi/fetcher/tmp/auptitcafe-0.1.9.tar.gz]
+[2024-04-16 13:05:17] INFO root fetch - main [MainThread]: End processing [auptitcafe]: success
+[2024-04-16 13:05:17] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz]
+[2024-04-16 13:05:17] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz]
+[2024-04-16 13:05:17] INFO root fetch - main [MainThread]: End processing [ssb-arbmark-fagfunksjoner]: success
+[2024-04-16 13:05:18] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges_wrapper-2.1.8.tar.gz]
+[2024-04-16 13:05:18] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges_wrapper-2.1.9.tar.gz]
+[2024-04-16 13:05:18] INFO root fetch - main [MainThread]: End processing [exchanges-wrapper]: success
+[2024-04-16 13:05:18] INFO root fetch - processPackages [udps]: Remove: archive file [/home/abi/fetcher/tmp/udps-0.1.33.tar.gz]
+[2024-04-16 13:05:18] INFO root fetch - processPackages [udps]: Remove: archive file [/home/abi/fetcher/tmp/udps-0.1.34.tar.gz]
+[2024-04-16 13:05:18] INFO root fetch - main [MainThread]: End processing [udps]: success
+[2024-04-16 13:05:18] INFO root fetch - main [MainThread]: Store serial: [22786575]
