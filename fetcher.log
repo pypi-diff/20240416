@@ -17855,3 +17855,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:49:46] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
 [2024-04-16 14:49:46] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
 [2024-04-16 14:49:46] INFO root fetch - main [MainThread]: Store serial: [22787708]
+[2024-04-16 14:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787708]
+[2024-04-16 14:51:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 14:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BoatBuddy
+[2024-04-16 14:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gov-uk-dashboards
+[2024-04-16 14:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: not-my-board
+[2024-04-16 14:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pan-ztp-patcher
+[2024-04-16 14:51:55] INFO root fetch - processPackages [not-my-board]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-16 14:51:55] INFO root fetch - processPackages [BoatBuddy]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-16 14:51:55] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-04-16 14:51:55] INFO root fetch - processPackages [pan-ztp-patcher]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-16 14:51:55] INFO root fetch - processPackages [not-my-board]: Downloading https://files.pythonhosted.org/packages/f7/52/14634ff3f48522c5f4f6e5ab0e994a604a5aab4acab0bad8e27bd490167f/not_my_board-0.5.0.tar.gz
+[2024-04-16 14:51:55] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/bf/4d/9e321cfe04d1c06153ff54a1253eda867fdd54ee3739262e5d7cfc51b1c7/boatbuddy-0.9.4.tar.gz
+[2024-04-16 14:51:55] INFO root fetch - processPackages [pan-ztp-patcher]: Downloading https://files.pythonhosted.org/packages/03/28/386a8a92402a3200420efa6c259e1970a4f94acfc8d3b0d6d6dac22659f4/pan_ztp_patcher-0.1.2.tar.gz
+[2024-04-16 14:51:55] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2024-04-16 14:51:55] INFO root fetch - processPackages [pan-ztp-patcher]: Downloading https://files.pythonhosted.org/packages/d8/05/8f5fd31e795e7bdf485a7ae002caeebbd967771c2e5ac21a83fd90a07741/pan_ztp_patcher-0.2.0.tar.gz
+[2024-04-16 14:51:55] INFO root fetch - processPackages [not-my-board]: Downloading https://files.pythonhosted.org/packages/ae/2e/00aca6dca3d4b736578fb0a47876b09a481ac9bb9c104c1c8932e3d87bf3/not_my_board-0.6.0.tar.gz
+[2024-04-16 14:51:55] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2024-04-16 14:51:56] INFO root fetch - processPackages [pan-ztp-patcher]: executing diffoscope
+[2024-04-16 14:51:56] INFO root fetch - processPackages [pan-ztp-patcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pan_ztp_patcher-0.1.2.tar.gz tmp/pan_ztp_patcher-0.2.0.tar.gz --markdown 20240416/p/pan-ztp-patcher/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-16 14:51:56] INFO root fetch - processPackages [not-my-board]: executing diffoscope
+[2024-04-16 14:51:56] INFO root fetch - processPackages [not-my-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not_my_board-0.5.0.tar.gz tmp/not_my_board-0.6.0.tar.gz --markdown 20240416/n/not-my-board/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-16 14:51:56] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/fd/f5/139785198b6a0e3c5ca20dae7046eff9e2b660f9a02f1ecd73546dfff321/boatbuddy-0.9.5.tar.gz
+[2024-04-16 14:51:56] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2024-04-16 14:51:56] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20240416/g/gov-uk-dashboards/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-04-16 14:51:56] INFO root fetch - processPackages [BoatBuddy]: executing diffoscope
+[2024-04-16 14:51:56] INFO root fetch - processPackages [BoatBuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boatbuddy-0.9.4.tar.gz tmp/boatbuddy-0.9.5.tar.gz --markdown 20240416/B/BoatBuddy/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-16 14:51:56] INFO root fetch - processPackages [pan-ztp-patcher]: Remove: archive file [/home/abi/fetcher/tmp/pan_ztp_patcher-0.1.2.tar.gz]
+[2024-04-16 14:51:56] INFO root fetch - processPackages [pan-ztp-patcher]: Remove: archive file [/home/abi/fetcher/tmp/pan_ztp_patcher-0.2.0.tar.gz]
+[2024-04-16 14:51:56] INFO root fetch - main [MainThread]: End processing [pan-ztp-patcher]: success
+[2024-04-16 14:51:56] INFO root fetch - processPackages [not-my-board]: Remove: archive file [/home/abi/fetcher/tmp/not_my_board-0.5.0.tar.gz]
+[2024-04-16 14:51:56] INFO root fetch - processPackages [not-my-board]: Remove: archive file [/home/abi/fetcher/tmp/not_my_board-0.6.0.tar.gz]
+[2024-04-16 14:51:56] INFO root fetch - main [MainThread]: End processing [not-my-board]: success
+[2024-04-16 14:51:57] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2024-04-16 14:51:57] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2024-04-16 14:51:57] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2024-04-16 14:52:04] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.4.tar.gz]
+[2024-04-16 14:52:04] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
+[2024-04-16 14:52:04] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
+[2024-04-16 14:52:04] INFO root fetch - main [MainThread]: Store serial: [22787725]
