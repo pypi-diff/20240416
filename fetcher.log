@@ -6810,3 +6810,18 @@
 [2024-04-16 07:33:53] INFO root fetch - processPackages [async-irc]: Remove: archive file [/home/abi/fetcher/tmp/async_irc-0.2.0.tar.gz]
 [2024-04-16 07:33:53] INFO root fetch - main [MainThread]: End processing [async-irc]: success
 [2024-04-16 07:33:53] INFO root fetch - main [MainThread]: Store serial: [22782899]
+[2024-04-16 07:35:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782899]
+[2024-04-16 07:36:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 07:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: law_dictionary
+[2024-04-16 07:36:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dictrule
+[2024-04-16 07:36:01] WARNING root fetch - processPackages [dictrule]: Skipping, unable to determine old version
+[2024-04-16 07:36:01] INFO root fetch - main [MainThread]: End processing [dictrule] error
+[2024-04-16 07:36:01] INFO root fetch - processPackages [law_dictionary]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 07:36:02] INFO root fetch - processPackages [law_dictionary]: Downloading https://files.pythonhosted.org/packages/c1/f1/54333fc41e355fd4b825a1315d57c54ac946b774c1ddd19e7a4fd061fba2/law_dictionary-1.0.8.tar.gz
+[2024-04-16 07:36:02] INFO root fetch - processPackages [law_dictionary]: Downloading https://files.pythonhosted.org/packages/a3/b7/d50fcdbc8500152306444eec671e35c931976bdf23dfd87c3f877d712070/law_dictionary-1.0.9.tar.gz
+[2024-04-16 07:36:02] INFO root fetch - processPackages [law_dictionary]: executing diffoscope
+[2024-04-16 07:36:02] INFO root fetch - processPackages [law_dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/law_dictionary-1.0.8.tar.gz tmp/law_dictionary-1.0.9.tar.gz --markdown 20240416/l/law_dictionary/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 07:36:03] INFO root fetch - processPackages [law_dictionary]: Remove: archive file [/home/abi/fetcher/tmp/law_dictionary-1.0.8.tar.gz]
+[2024-04-16 07:36:03] INFO root fetch - processPackages [law_dictionary]: Remove: archive file [/home/abi/fetcher/tmp/law_dictionary-1.0.9.tar.gz]
+[2024-04-16 07:36:03] INFO root fetch - main [MainThread]: End processing [law_dictionary]: success
+[2024-04-16 07:36:03] INFO root fetch - main [MainThread]: Store serial: [22782905]
