@@ -6798,3 +6798,15 @@
 [2024-04-16 07:31:43] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.1.9.8.tar.gz]
 [2024-04-16 07:31:43] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
 [2024-04-16 07:31:43] INFO root fetch - main [MainThread]: Store serial: [22782895]
+[2024-04-16 07:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782895]
+[2024-04-16 07:33:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 07:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-irc
+[2024-04-16 07:33:52] INFO root fetch - processPackages [async-irc]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-16 07:33:52] INFO root fetch - processPackages [async-irc]: Downloading https://files.pythonhosted.org/packages/e3/3b/c796da35cd115929237216b5e493053317b35a20f26d2ed08543161b4ea5/async-irc-0.1.8.tar.gz
+[2024-04-16 07:33:52] INFO root fetch - processPackages [async-irc]: Downloading https://files.pythonhosted.org/packages/b4/8b/e1ffc629cf77d9e0f26a06e9302bf631008bdf83d2eaf0625e03aaf44214/async_irc-0.2.0.tar.gz
+[2024-04-16 07:33:52] INFO root fetch - processPackages [async-irc]: executing diffoscope
+[2024-04-16 07:33:52] INFO root fetch - processPackages [async-irc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-irc-0.1.8.tar.gz tmp/async_irc-0.2.0.tar.gz --markdown 20240416/a/async-irc/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-04-16 07:33:53] INFO root fetch - processPackages [async-irc]: Remove: archive file [/home/abi/fetcher/tmp/async-irc-0.1.8.tar.gz]
+[2024-04-16 07:33:53] INFO root fetch - processPackages [async-irc]: Remove: archive file [/home/abi/fetcher/tmp/async_irc-0.2.0.tar.gz]
+[2024-04-16 07:33:53] INFO root fetch - main [MainThread]: End processing [async-irc]: success
+[2024-04-16 07:33:53] INFO root fetch - main [MainThread]: Store serial: [22782899]
