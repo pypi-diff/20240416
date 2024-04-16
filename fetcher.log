@@ -17200,3 +17200,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:29:46] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
 [2024-04-16 14:29:46] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
 [2024-04-16 14:29:46] INFO root fetch - main [MainThread]: Store serial: [22787464]
+[2024-04-16 14:31:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787464]
+[2024-04-16 14:31:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 14:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htpy
+[2024-04-16 14:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentf-tools-nightly
+[2024-04-16 14:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-dcor-schemas
+[2024-04-16 14:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypylib
+[2024-04-16 14:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hypermea
+[2024-04-16 14:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hypermea-core
+[2024-04-16 14:31:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypcremote
+[2024-04-16 14:31:55] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.47.0.dev734] Old Version: [0.47.0.dev730]
+[2024-04-16 14:31:55] INFO root fetch - processPackages [mypylib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 14:31:55] INFO root fetch - processPackages [hypermea]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-04-16 14:31:55] INFO root fetch - processPackages [mypcremote]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-16 14:31:55] INFO root fetch - processPackages [hypermea-core]: New version: [0.9.31] Old Version: [0.9.30]
+[2024-04-16 14:31:55] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/a9/02/621227a6933bc7309234aa9d3fe5a42c643159ddd61434ec56280a3bc584/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl
+[2024-04-16 14:31:55] INFO root fetch - processPackages [htpy]: New version: [24.4.0] Old Version: [24.3.9]
+[2024-04-16 14:31:55] INFO root fetch - processPackages [ckanext-dcor-schemas]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-16 14:31:55] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/3d/e4/489bfbd911884d65e44567a30f5619dad64fda245ecbfc9d18cd522d642c/mypylib-0.2.2.tar.gz
+[2024-04-16 14:31:55] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/20/5b/2564b6dce1eedfef7069f5695d232032c437079ae6c553b2c5ed8349d3f2/hypermea-0.9.7-py3-none-any.whl
+[2024-04-16 14:31:55] INFO root fetch - processPackages [mypcremote]: Downloading https://files.pythonhosted.org/packages/aa/fe/efea7d94687b79a06255124291fb40a85f429b3746836026817b0800446d/mypcremote-0.5.2.tar.gz
+[2024-04-16 14:31:55] INFO root fetch - processPackages [hypermea-core]: Downloading https://files.pythonhosted.org/packages/98/ea/13113224f796c51239d2b9cae2f228e19ca3fd37dcaf841984bdf0f47de7/hypermea_core-0.9.30-py3-none-any.whl
+[2024-04-16 14:31:55] INFO root fetch - processPackages [ckanext-dcor-schemas]: Downloading https://files.pythonhosted.org/packages/31/7d/aa435646331bb819f2fa2389b3b38c6dc285d3676303ed2be13a9d316224/ckanext-dcor_schemas-0.9.4.tar.gz
+[2024-04-16 14:31:55] INFO root fetch - processPackages [htpy]: Downloading https://files.pythonhosted.org/packages/21/30/ab7603b652e8221d567e0ef60696c2671a00bc5c9a45da1133ebb3fb17dd/htpy-24.3.9.tar.gz
+[2024-04-16 14:31:55] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/4b/62/14960af22b5a480cf3f11ec43848cb41e811e3134d3c8c1af548774c98a3/opentf_tools_nightly-0.47.0.dev734-py3-none-any.whl
+[2024-04-16 14:31:56] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/16/55/90220eec1337456f9f6cedef18ca8eba508f564dc8226170b12a262c0297/mypylib-0.2.3.tar.gz
+[2024-04-16 14:31:56] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2024-04-16 14:31:56] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.47.0.dev734-py3-none-any.whl.zip --markdown 20240416/o/opentf-tools-nightly/0.47.0.dev730-0.47.0.dev734/README.md --exclude *.pyd
+[2024-04-16 14:31:56] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2024-04-16 14:31:56] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.2.2.tar.gz tmp/mypylib-0.2.3.tar.gz --markdown 20240416/m/mypylib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 14:31:56] INFO root fetch - processPackages [mypcremote]: Downloading https://files.pythonhosted.org/packages/f4/4b/b29c329c32473e7e65cb8e6b67998e85705b9911c206a924feb85e049e74/mypcremote-0.5.3.tar.gz
+[2024-04-16 14:31:56] INFO root fetch - processPackages [hypermea-core]: Downloading https://files.pythonhosted.org/packages/10/90/bdbba593fd0f38485a3f4e421bded3958213c04a350f34eb157acfd2f3c2/hypermea_core-0.9.31-py3-none-any.whl
+[2024-04-16 14:31:56] INFO root fetch - processPackages [htpy]: Downloading https://files.pythonhosted.org/packages/5a/be/e52d9b6fbe8fceb6c5f60b1c39ed5de80aa8c166b36262d09a13c3cc8ea2/htpy-24.4.0.tar.gz
+[2024-04-16 14:31:56] INFO root fetch - processPackages [ckanext-dcor-schemas]: Downloading https://files.pythonhosted.org/packages/4b/ab/9e7314cf0a7fe2d2ead4b26056a12757a6238c55a51fa7d77cf0f6320596/ckanext-dcor_schemas-0.9.5.tar.gz
+[2024-04-16 14:31:56] INFO root fetch - processPackages [hypermea]: Downloading https://files.pythonhosted.org/packages/99/7e/cf6e6a1c9f576e7f34df531dda089047c00a693551f273d25607b425b2ac/hypermea-0.9.9-py3-none-any.whl
+[2024-04-16 14:31:56] INFO root fetch - processPackages [hypermea-core]: executing diffoscope
+[2024-04-16 14:31:56] INFO root fetch - processPackages [hypermea-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypermea_core-0.9.30-py3-none-any.whl.zip tmp/hypermea_core-0.9.31-py3-none-any.whl.zip --markdown 20240416/h/hypermea-core/0.9.30-0.9.31/README.md --exclude *.pyd
+[2024-04-16 14:31:56] INFO root fetch - processPackages [mypcremote]: executing diffoscope
+[2024-04-16 14:31:56] INFO root fetch - processPackages [mypcremote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypcremote-0.5.2.tar.gz tmp/mypcremote-0.5.3.tar.gz --markdown 20240416/m/mypcremote/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-16 14:31:56] INFO root fetch - processPackages [ckanext-dcor-schemas]: executing diffoscope
+[2024-04-16 14:31:56] INFO root fetch - processPackages [ckanext-dcor-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-dcor_schemas-0.9.4.tar.gz tmp/ckanext-dcor_schemas-0.9.5.tar.gz --markdown 20240416/c/ckanext-dcor-schemas/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-16 14:31:56] INFO root fetch - processPackages [htpy]: executing diffoscope
+[2024-04-16 14:31:56] INFO root fetch - processPackages [htpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htpy-24.3.9.tar.gz tmp/htpy-24.4.0.tar.gz --markdown 20240416/h/htpy/24.3.9-24.4.0/README.md --exclude *.pyd
+[2024-04-16 14:31:56] INFO root fetch - processPackages [hypermea]: executing diffoscope
+[2024-04-16 14:31:56] INFO root fetch - processPackages [hypermea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypermea-0.9.7-py3-none-any.whl.zip tmp/hypermea-0.9.9-py3-none-any.whl.zip --markdown 20240416/h/hypermea/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-04-16 14:31:56] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl.zip]
+[2024-04-16 14:31:56] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev734-py3-none-any.whl.zip]
+[2024-04-16 14:31:56] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2024-04-16 14:31:57] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.2.2.tar.gz]
+[2024-04-16 14:31:57] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.2.3.tar.gz]
+[2024-04-16 14:31:57] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2024-04-16 14:31:57] INFO root fetch - processPackages [mypcremote]: Remove: archive file [/home/abi/fetcher/tmp/mypcremote-0.5.2.tar.gz]
+[2024-04-16 14:31:57] INFO root fetch - processPackages [mypcremote]: Remove: archive file [/home/abi/fetcher/tmp/mypcremote-0.5.3.tar.gz]
+[2024-04-16 14:31:57] INFO root fetch - main [MainThread]: End processing [mypcremote]: success
+[2024-04-16 14:31:57] INFO root fetch - processPackages [ckanext-dcor-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dcor_schemas-0.9.4.tar.gz]
+[2024-04-16 14:31:57] INFO root fetch - processPackages [ckanext-dcor-schemas]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dcor_schemas-0.9.5.tar.gz]
+[2024-04-16 14:31:57] INFO root fetch - main [MainThread]: End processing [ckanext-dcor-schemas]: success
+[2024-04-16 14:31:57] INFO root fetch - processPackages [htpy]: Remove: archive file [/home/abi/fetcher/tmp/htpy-24.3.9.tar.gz]
+[2024-04-16 14:31:57] INFO root fetch - processPackages [htpy]: Remove: archive file [/home/abi/fetcher/tmp/htpy-24.4.0.tar.gz]
+[2024-04-16 14:31:57] INFO root fetch - main [MainThread]: End processing [htpy]: success
+[2024-04-16 14:31:57] INFO root fetch - processPackages [hypermea-core]: Remove: archive file [/home/abi/fetcher/tmp/hypermea_core-0.9.30-py3-none-any.whl.zip]
+[2024-04-16 14:31:57] INFO root fetch - processPackages [hypermea-core]: Remove: archive file [/home/abi/fetcher/tmp/hypermea_core-0.9.31-py3-none-any.whl.zip]
+[2024-04-16 14:31:57] INFO root fetch - main [MainThread]: End processing [hypermea-core]: success
+[2024-04-16 14:31:57] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.7-py3-none-any.whl.zip]
+[2024-04-16 14:31:57] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.9-py3-none-any.whl.zip]
+[2024-04-16 14:31:57] INFO root fetch - main [MainThread]: End processing [hypermea]: success
+[2024-04-16 14:31:57] INFO root fetch - main [MainThread]: Store serial: [22787484]
