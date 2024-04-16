@@ -2953,3 +2953,17 @@
 [2024-04-16 02:58:15] INFO root fetch - processPackages [pyrevm-contract]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm_contract-0.3.0.tar.gz]
 [2024-04-16 02:58:15] INFO root fetch - main [MainThread]: End processing [pyrevm-contract]: success
 [2024-04-16 02:58:15] INFO root fetch - main [MainThread]: Store serial: [22781040]
+[2024-04-16 03:00:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781040]
+[2024-04-16 03:00:23] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-16 03:02:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781040]
+[2024-04-16 03:02:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 03:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ehdg-pupil-detector
+[2024-04-16 03:02:29] INFO root fetch - processPackages [ehdg-pupil-detector]: New version: [3.0.0] Old Version: [2.0.1]
+[2024-04-16 03:02:29] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/bc/e1/eaddfcb57863f2404d420207c971db056608e3337d3a9092354f6e9f4d74/ehdg_pupil_detector-2.0.1.tar.gz
+[2024-04-16 03:02:29] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/62/db/1bd7348f71b2e82aa8f1853c0231074e8d1cc5a8690de440c883caf7a1c3/ehdg_pupil_detector-3.0.0.tar.gz
+[2024-04-16 03:02:29] INFO root fetch - processPackages [ehdg-pupil-detector]: executing diffoscope
+[2024-04-16 03:02:29] INFO root fetch - processPackages [ehdg-pupil-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_pupil_detector-2.0.1.tar.gz tmp/ehdg_pupil_detector-3.0.0.tar.gz --markdown 20240416/e/ehdg-pupil-detector/2.0.1-3.0.0/README.md --exclude *.pyd
+[2024-04-16 03:02:29] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-2.0.1.tar.gz]
+[2024-04-16 03:02:29] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.0.0.tar.gz]
+[2024-04-16 03:02:30] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
+[2024-04-16 03:02:30] INFO root fetch - main [MainThread]: Store serial: [22781046]
