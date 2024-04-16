@@ -4646,3 +4646,32 @@
 [2024-04-16 05:01:41] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.35.tar.gz]
 [2024-04-16 05:01:41] INFO root fetch - main [MainThread]: End processing [sampa]: success
 [2024-04-16 05:01:41] INFO root fetch - main [MainThread]: Store serial: [22781878]
+[2024-04-16 05:03:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781878]
+[2024-04-16 05:03:50] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-16 05:05:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781888]
+[2024-04-16 05:05:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 05:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modulojordan
+[2024-04-16 05:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runtimepy
+[2024-04-16 05:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhdl-if
+[2024-04-16 05:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dds20151201-py2
+[2024-04-16 05:05:57] WARNING root fetch - processPackages [modulojordan]: Skipping, unable to determine old version
+[2024-04-16 05:05:57] INFO root fetch - main [MainThread]: End processing [modulojordan] error
+[2024-04-16 05:05:57] WARNING root fetch - processPackages [pyhdl-if]: Skipping, unable to determine old version
+[2024-04-16 05:05:57] INFO root fetch - main [MainThread]: End processing [pyhdl-if] error
+[2024-04-16 05:05:57] INFO root fetch - processPackages [runtimepy]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-04-16 05:05:57] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: New version: [5.0.0] Old Version: [4.4.1]
+[2024-04-16 05:05:57] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/96/c0/6155b9e93938953cc682478dd939fddd27dff4af63da073f938129c87392/runtimepy-4.1.0.tar.gz
+[2024-04-16 05:05:57] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Downloading https://files.pythonhosted.org/packages/0e/83/dd07058a16825b1ba86cda1d517ed524720858e262e7eaa1b7c01e147ab1/alibabacloud_dds20151201_py2-4.4.1.tar.gz
+[2024-04-16 05:05:58] INFO root fetch - processPackages [runtimepy]: Downloading https://files.pythonhosted.org/packages/14/81/3df3ff7f850def18e044e271e60c451d11dac06436d8c8890790035969cf/runtimepy-4.1.1.tar.gz
+[2024-04-16 05:05:58] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Downloading https://files.pythonhosted.org/packages/6f/af/6a3aea54d484b46888648d61e7a14c4a07e495afff45bb2a5d8c36cc5a91/alibabacloud_dds20151201_py2-5.0.0-py3-none-any.whl
+[2024-04-16 05:05:58] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2024-04-16 05:05:58] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-4.1.0.tar.gz tmp/runtimepy-4.1.1.tar.gz --markdown 20240416/r/runtimepy/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-04-16 05:05:58] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: executing diffoscope
+[2024-04-16 05:05:58] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dds20151201_py2-4.4.1.tar.gz tmp/alibabacloud_dds20151201_py2-5.0.0-py3-none-any.whl.zip --markdown 20240416/a/alibabacloud-dds20151201-py2/4.4.1-5.0.0/README.md --exclude *.pyd
+[2024-04-16 05:05:59] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.1.0.tar.gz]
+[2024-04-16 05:05:59] INFO root fetch - processPackages [runtimepy]: Remove: archive file [/home/abi/fetcher/tmp/runtimepy-4.1.1.tar.gz]
+[2024-04-16 05:05:59] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2024-04-16 05:06:00] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201_py2-4.4.1.tar.gz]
+[2024-04-16 05:06:00] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201_py2-5.0.0-py3-none-any.whl.zip]
+[2024-04-16 05:06:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-dds20151201-py2]: success
+[2024-04-16 05:06:00] INFO root fetch - main [MainThread]: Store serial: [22781907]
