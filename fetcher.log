@@ -16271,3 +16271,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:55:02] INFO root fetch - processPackages [ailist]: Remove: archive file [/home/abi/fetcher/tmp/ailist-2.1.2.tar.gz]
 [2024-04-16 13:55:02] INFO root fetch - main [MainThread]: End processing [ailist]: success
 [2024-04-16 13:55:02] INFO root fetch - main [MainThread]: Store serial: [22787082]
+[2024-04-16 13:57:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787082]
+[2024-04-16 13:57:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ailist
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sae-lens
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chainlit
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xboc
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hu-neuro-pipeline
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qase-python-commons
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ailist]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-16 13:57:10] INFO root fetch - processPackages [sae-lens]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-16 13:57:10] INFO root fetch - processPackages [xboc]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 13:57:10] INFO root fetch - processPackages [chainlit]: New version: [1.0.503] Old Version: [1.0.502]
+[2024-04-16 13:57:10] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240416.9.8.426175] Old Version: [20240416.9.33.376136]
+[2024-04-16 13:57:10] INFO root fetch - processPackages [hu-neuro-pipeline]: New version: [0.8.5] Old Version: [0.8.3]
+[2024-04-16 13:57:10] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/01/7e/1665851bb643a039128b2e6b9fd8eb3d8625c0ffa3ef60ab56765f6ca045/chainlit-1.0.502.tar.gz
+[2024-04-16 13:57:10] INFO root fetch - processPackages [ailist]: Downloading https://files.pythonhosted.org/packages/e2/0b/db5f80d9a5003f5a872f8f13b9f9019d78812b659d844e2f7f1536c906ac/ailist-2.1.2.tar.gz
+[2024-04-16 13:57:11] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/c2/d0/2c3e3e3b7263cdc52b521c5175b490f852e03384992f82ca399ffb78c6c8/sae_lens-0.2.2.tar.gz
+[2024-04-16 13:57:11] INFO root fetch - processPackages [qase-python-commons]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-16 13:57:11] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-16 13:57:11] ERROR root fetch - processPackages [xboc]: Unable to fetch info: No such project/version 'xboc' 0.1.0
+[2024-04-16 13:57:11] INFO root fetch - main [MainThread]: End processing [xboc] error
+[2024-04-16 13:57:11] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/02/f5/59d81d7b4a72114ce1ff0d496fdff280286614d26b365247ff8f25a9fd2b/certora-cli-alpha-master-20240416.9.33.376136.tar.gz
+[2024-04-16 13:57:11] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14521391>=10485760
+[2024-04-16 13:57:11] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-16 13:57:11] INFO root fetch - processPackages [hu-neuro-pipeline]: Downloading https://files.pythonhosted.org/packages/d1/05/7e8fe7e76be3feec4f2920ff09aa72f57405eeed5777ea80e745019e2c49/hu-neuro-pipeline-0.8.3.tar.gz
+[2024-04-16 13:57:11] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/05/de/62153e1dabd57fbfe82545a37e622f0ff0f17b976166ffb6a41231da75af/qase-python-commons-2.0.8.tar.gz
+[2024-04-16 13:57:11] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/bc/40/0497a66db52c929f7889f8fea02511b805da52a3820b851a97e1629870d8/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl
+[2024-04-16 13:57:11] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/48/31/3593baf804fb91c6caa0fcb0db58c29faca60686d023d5c5531bc60b9f0b/sae_lens-0.3.0.tar.gz
+[2024-04-16 13:57:11] INFO root fetch - processPackages [ailist]: Downloading https://files.pythonhosted.org/packages/32/6b/d51299f5fdec5ddb714b7193456a4f0365ab37e9fa07122893f1d8476169/ailist-2.1.3.tar.gz
+[2024-04-16 13:57:11] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/f0/14/b33e0bf87b4194feb70c5da8171148232873969bbdbc14e0f8569d5e0e49/chainlit-1.0.503.tar.gz
+[2024-04-16 13:57:11] INFO root fetch - processPackages [sae-lens]: executing diffoscope
+[2024-04-16 13:57:11] INFO root fetch - processPackages [sae-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sae_lens-0.2.2.tar.gz tmp/sae_lens-0.3.0.tar.gz --markdown 20240416/s/sae-lens/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-16 13:57:11] INFO root fetch - processPackages [hu-neuro-pipeline]: Downloading https://files.pythonhosted.org/packages/33/77/071946b7ea61dc263f06d6815fcacb9a36eae017ceb39b298b4cc7337e44/hu_neuro_pipeline-0.8.5.tar.gz
+[2024-04-16 13:57:11] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/4b/91/9c09af43f48761575fadc8c27e183825d8325dc754d9cb584a99719d1238/qase-python-commons-2.0.9.tar.gz
+[2024-04-16 13:57:11] INFO root fetch - processPackages [qase-python-commons]: executing diffoscope
+[2024-04-16 13:57:11] INFO root fetch - processPackages [qase-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase-python-commons-2.0.8.tar.gz tmp/qase-python-commons-2.0.9.tar.gz --markdown 20240416/q/qase-python-commons/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-16 13:57:11] INFO root fetch - processPackages [hu-neuro-pipeline]: executing diffoscope
+[2024-04-16 13:57:11] INFO root fetch - processPackages [hu-neuro-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hu-neuro-pipeline-0.8.3.tar.gz tmp/hu_neuro_pipeline-0.8.5.tar.gz --markdown 20240416/h/hu-neuro-pipeline/0.8.3-0.8.5/README.md --exclude *.pyd
+[2024-04-16 13:57:11] INFO root fetch - processPackages [ailist]: executing diffoscope
+[2024-04-16 13:57:11] INFO root fetch - processPackages [ailist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailist-2.1.2.tar.gz tmp/ailist-2.1.3.tar.gz --markdown 20240416/a/ailist/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-16 13:57:11] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/46/94/c1fdba5bbd06f6dabd6e16e9ba63745d338d8275486059a0ab7f1b21f68c/bigdl_core_xe_esimd_21-2.5.0b20240416-cp39-cp39-win_amd64.whl
+[2024-04-16 13:57:11] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-04-16 13:57:11] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.0.502.tar.gz tmp/chainlit-1.0.503.tar.gz --markdown 20240416/c/chainlit/1.0.502-1.0.503/README.md --exclude *.pyd
+[2024-04-16 13:57:12] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-16 13:57:12] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240416-cp39-cp39-win_amd64.whl.zip --markdown 20240416/b/bigdl-core-xe-esimd-21/2.5.0b20240415-2.5.0b20240416/README.md --exclude *.pyd
+[2024-04-16 13:57:12] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-0.2.2.tar.gz]
+[2024-04-16 13:57:12] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-0.3.0.tar.gz]
+[2024-04-16 13:57:12] INFO root fetch - main [MainThread]: End processing [sae-lens]: success
+[2024-04-16 13:57:12] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase-python-commons-2.0.8.tar.gz]
+[2024-04-16 13:57:12] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase-python-commons-2.0.9.tar.gz]
+[2024-04-16 13:57:12] INFO root fetch - main [MainThread]: End processing [qase-python-commons]: success
+[2024-04-16 13:57:12] INFO root fetch - processPackages [hu-neuro-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/hu-neuro-pipeline-0.8.3.tar.gz]
+[2024-04-16 13:57:12] INFO root fetch - processPackages [hu-neuro-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/hu_neuro_pipeline-0.8.5.tar.gz]
+[2024-04-16 13:57:12] INFO root fetch - main [MainThread]: End processing [hu-neuro-pipeline]: success
+[2024-04-16 13:57:12] INFO root fetch - processPackages [ailist]: Remove: archive file [/home/abi/fetcher/tmp/ailist-2.1.2.tar.gz]
+[2024-04-16 13:57:12] INFO root fetch - processPackages [ailist]: Remove: archive file [/home/abi/fetcher/tmp/ailist-2.1.3.tar.gz]
+[2024-04-16 13:57:12] INFO root fetch - main [MainThread]: End processing [ailist]: success
+[2024-04-16 13:57:12] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 13:57:12] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240416-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 13:57:12] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21]: success
+[2024-04-16 13:59:02] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.502.tar.gz]
+[2024-04-16 13:59:02] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.503.tar.gz]
+[2024-04-16 13:59:02] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-04-16 13:59:02] INFO root fetch - main [MainThread]: Store serial: [22787107]
