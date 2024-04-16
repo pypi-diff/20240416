@@ -19684,3 +19684,52 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:43:52] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-16 15:43:52] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-16 15:43:52] INFO root fetch - main [MainThread]: Store serial: [22788405]
+[2024-04-16 15:45:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788405]
+[2024-04-16 15:46:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 15:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubicweb-conference
+[2024-04-16 15:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LogGabor
+[2024-04-16 15:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-intel
+[2024-04-16 15:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openapi-service-client
+[2024-04-16 15:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optimum
+[2024-04-16 15:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openedx-ledger
+[2024-04-16 15:46:01] INFO root fetch - processPackages [LogGabor]: New version: [20240419] Old Version: [20191113]
+[2024-04-16 15:46:01] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240415] Old Version: [2.17.0.dev20240412]
+[2024-04-16 15:46:01] INFO root fetch - processPackages [LogGabor]: Downloading https://files.pythonhosted.org/packages/1f/cd/83ba211d84ae54353bfe4973b88007c6ba4a082b5a8558852986fcf91e09/LogGabor-20191113.tar.gz
+[2024-04-16 15:46:01] INFO root fetch - processPackages [cubicweb-conference]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 15:46:01] INFO root fetch - processPackages [openedx-ledger]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-16 15:46:01] INFO root fetch - processPackages [optimum]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 15:46:02] WARNING root fetch - processPackages [LogGabor]: Skipping package: exceeds size limit 28160227>=10485760
+[2024-04-16 15:46:02] INFO root fetch - main [MainThread]: End processing [LogGabor] error
+[2024-04-16 15:46:02] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/08/c9/8424b1c9e730683e60f4e0d17e1028d342377cbf279d6d41b9bc21fc20fe/tf_nightly_intel-2.17.0.dev20240412-cp39-cp39-win_amd64.whl
+[2024-04-16 15:46:02] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 212564821>=10485760
+[2024-04-16 15:46:02] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-04-16 15:46:02] INFO root fetch - processPackages [openapi-service-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 15:46:02] INFO root fetch - processPackages [cubicweb-conference]: Downloading https://files.pythonhosted.org/packages/dc/fb/8c63805bf2c9d0e392211d316ff17a2d46d244b66dd7d619be9afcdbdab0/cubicweb-conference-1.0.0.tar.gz
+[2024-04-16 15:46:02] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/a7/24/410e1ddb5012dee559f2eaca7a0f04688b8817501ac63d08eac5dc5d2f97/optimum-1.9.0.tar.gz
+[2024-04-16 15:46:02] INFO root fetch - processPackages [openedx-ledger]: Downloading https://files.pythonhosted.org/packages/ce/4e/234fb2ad768a3ba338269bfd4a86f45c2c487b866550f90ababed4423296/openedx-ledger-1.4.1.tar.gz
+[2024-04-16 15:46:02] INFO root fetch - processPackages [openapi-service-client]: Downloading https://files.pythonhosted.org/packages/d5/35/ba81f32de40e915f7d79dcd02cdcf7174dc8b1f08d7fe04f1e7ab9448ad4/openapi_service_client-0.0.6.tar.gz
+[2024-04-16 15:46:02] INFO root fetch - processPackages [optimum]: Downloading https://files.pythonhosted.org/packages/26/9c/afc49f230da15aa18ff17f6fc4290263455100ca8de672984a9917131a88/optimum-1.9.1.tar.gz
+[2024-04-16 15:46:02] INFO root fetch - processPackages [openedx-ledger]: Downloading https://files.pythonhosted.org/packages/34/fa/3b06719f9f86df290586aa37a046a62a9fd67b3c6e8d8c539986bb5470e4/openedx_ledger-1.4.2.tar.gz
+[2024-04-16 15:46:02] INFO root fetch - processPackages [cubicweb-conference]: Downloading https://files.pythonhosted.org/packages/a8/45/8492925b74930492da5bafb2fe9c4562c744cfe9ba5acdce64cfcd8d0091/cubicweb-conference-1.0.1.tar.gz
+[2024-04-16 15:46:02] INFO root fetch - processPackages [openapi-service-client]: Downloading https://files.pythonhosted.org/packages/3f/78/b1e3705a2c5f0b38ed7bbbc1c1f800c6410198bb4205163eb815088b04f2/openapi_service_client-0.0.7.tar.gz
+[2024-04-16 15:46:02] INFO root fetch - processPackages [optimum]: executing diffoscope
+[2024-04-16 15:46:02] INFO root fetch - processPackages [optimum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimum-1.9.0.tar.gz tmp/optimum-1.9.1.tar.gz --markdown 20240416/o/optimum/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 15:46:02] INFO root fetch - processPackages [cubicweb-conference]: executing diffoscope
+[2024-04-16 15:46:02] INFO root fetch - processPackages [cubicweb-conference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-conference-1.0.0.tar.gz tmp/cubicweb-conference-1.0.1.tar.gz --markdown 20240416/c/cubicweb-conference/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 15:46:02] INFO root fetch - processPackages [openedx-ledger]: executing diffoscope
+[2024-04-16 15:46:02] INFO root fetch - processPackages [openedx-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-ledger-1.4.1.tar.gz tmp/openedx_ledger-1.4.2.tar.gz --markdown 20240416/o/openedx-ledger/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-16 15:46:02] INFO root fetch - processPackages [openapi-service-client]: executing diffoscope
+[2024-04-16 15:46:02] INFO root fetch - processPackages [openapi-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_service_client-0.0.6.tar.gz tmp/openapi_service_client-0.0.7.tar.gz --markdown 20240416/o/openapi-service-client/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 15:46:03] INFO root fetch - processPackages [openedx-ledger]: Remove: archive file [/home/abi/fetcher/tmp/openedx-ledger-1.4.1.tar.gz]
+[2024-04-16 15:46:03] INFO root fetch - processPackages [openedx-ledger]: Remove: archive file [/home/abi/fetcher/tmp/openedx_ledger-1.4.2.tar.gz]
+[2024-04-16 15:46:03] INFO root fetch - main [MainThread]: End processing [openedx-ledger]: success
+[2024-04-16 15:46:03] INFO root fetch - processPackages [cubicweb-conference]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-conference-1.0.0.tar.gz]
+[2024-04-16 15:46:03] INFO root fetch - processPackages [cubicweb-conference]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-conference-1.0.1.tar.gz]
+[2024-04-16 15:46:03] INFO root fetch - main [MainThread]: End processing [cubicweb-conference]: success
+[2024-04-16 15:46:03] INFO root fetch - processPackages [openapi-service-client]: Remove: archive file [/home/abi/fetcher/tmp/openapi_service_client-0.0.6.tar.gz]
+[2024-04-16 15:46:03] INFO root fetch - processPackages [openapi-service-client]: Remove: archive file [/home/abi/fetcher/tmp/openapi_service_client-0.0.7.tar.gz]
+[2024-04-16 15:46:03] INFO root fetch - main [MainThread]: End processing [openapi-service-client]: success
+[2024-04-16 15:46:03] INFO root fetch - processPackages [optimum]: Remove: archive file [/home/abi/fetcher/tmp/optimum-1.9.0.tar.gz]
+[2024-04-16 15:46:03] INFO root fetch - processPackages [optimum]: Remove: archive file [/home/abi/fetcher/tmp/optimum-1.9.1.tar.gz]
+[2024-04-16 15:46:03] INFO root fetch - main [MainThread]: End processing [optimum]: success
+[2024-04-16 15:46:03] INFO root fetch - main [MainThread]: Store serial: [22788424]
