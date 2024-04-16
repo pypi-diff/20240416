@@ -3581,3 +3581,42 @@
 [2024-04-16 03:48:31] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.2.tar.gz]
 [2024-04-16 03:48:31] INFO root fetch - main [MainThread]: End processing [gaphor]: success
 [2024-04-16 03:48:31] INFO root fetch - main [MainThread]: Store serial: [22781376]
+[2024-04-16 03:50:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781376]
+[2024-04-16 03:50:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 03:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dfss
+[2024-04-16 03:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal
+[2024-04-16 03:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2024-04-16 03:50:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi
+[2024-04-16 03:50:39] INFO root fetch - processPackages [dfss]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-16 03:50:39] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 03:50:39] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 03:50:39] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-04-16 03:50:39] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/3c/05/cc06bd160cc7ceabf7c8a9fbb1a12bb41285287a5ad59c978b7e1f4ef92d/dfss-1.6.8.tar.gz
+[2024-04-16 03:50:39] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-16 03:50:39] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-16 03:50:39] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-04-16 03:50:39] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-16 03:50:39] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/53/e4/eb1b79783b9a45ea3bcb4726a998f6787e63d4d269053f4a5dea9fbb9ea7/dfss-1.6.9.tar.gz
+[2024-04-16 03:50:40] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-04-16 03:50:40] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-16 03:50:40] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 03:50:40] INFO root fetch - processPackages [dfss]: executing diffoscope
+[2024-04-16 03:50:40] INFO root fetch - processPackages [dfss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfss-1.6.8.tar.gz tmp/dfss-1.6.9.tar.gz --markdown 20240416/d/dfss/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-16 03:50:40] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-16 03:50:40] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-04-16 03:50:40] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240416/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-04-16 03:50:40] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-16 03:50:40] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 03:50:40] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 03:50:40] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 03:50:40] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-16 03:50:40] INFO root fetch - processPackages [dfss]: Remove: archive file [/home/abi/fetcher/tmp/dfss-1.6.8.tar.gz]
+[2024-04-16 03:50:40] INFO root fetch - processPackages [dfss]: Remove: archive file [/home/abi/fetcher/tmp/dfss-1.6.9.tar.gz]
+[2024-04-16 03:50:40] INFO root fetch - main [MainThread]: End processing [dfss]: success
+[2024-04-16 03:50:40] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-04-16 03:50:40] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-04-16 03:50:40] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-04-16 03:50:41] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 03:50:41] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 03:50:41] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-16 03:50:41] INFO root fetch - main [MainThread]: Store serial: [22781388]
