@@ -4607,3 +4607,42 @@
 [2024-04-16 04:59:29] INFO root fetch - processPackages [st-input-slider]: Remove: archive file [/home/abi/fetcher/tmp/st-input-slider-0.0.7.tar.gz]
 [2024-04-16 04:59:29] INFO root fetch - main [MainThread]: End processing [st-input-slider]: success
 [2024-04-16 04:59:29] INFO root fetch - main [MainThread]: Store serial: [22781868]
+[2024-04-16 05:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781868]
+[2024-04-16 05:01:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 05:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stis-cti
+[2024-04-16 05:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sampa
+[2024-04-16 05:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ehpc20230701-py2
+[2024-04-16 05:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-ehpc20230701
+[2024-04-16 05:01:39] INFO root fetch - processPackages [stis-cti]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-16 05:01:39] INFO root fetch - processPackages [alibabacloud-ehpc20230701-py2]: New version: [3.0.0] Old Version: [2.2.0]
+[2024-04-16 05:01:39] INFO root fetch - processPackages [alibabacloud-ehpc20230701]: New version: [3.0.0] Old Version: [2.2.0]
+[2024-04-16 05:01:39] INFO root fetch - processPackages [sampa]: New version: [1.0.0.35] Old Version: [1.0.0.34]
+[2024-04-16 05:01:39] INFO root fetch - processPackages [alibabacloud-ehpc20230701]: Downloading https://files.pythonhosted.org/packages/3f/39/a1e3ad0dc34e63704894517b67bd56c36f368687e250960f6cb6f3dc0486/alibabacloud_ehpc20230701-2.2.0.tar.gz
+[2024-04-16 05:01:39] INFO root fetch - processPackages [stis-cti]: Downloading https://files.pythonhosted.org/packages/d0/7e/d662ad44e6a9f412fc58d07f03bbb4c1ac6ba99af258a36414175b211903/stis_cti-1.6.0.tar.gz
+[2024-04-16 05:01:39] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/de/e3/7f9ef6a11b0c033ad53559022ec1229197f313b6e3ea6f15d14fae3f32f3/sampa-1.0.0.34.tar.gz
+[2024-04-16 05:01:39] INFO root fetch - processPackages [alibabacloud-ehpc20230701-py2]: Downloading https://files.pythonhosted.org/packages/71/68/5034a858361cc7df3608812cc23b8f0651fe583e7fb759a0ea89ba64ae07/alibabacloud_ehpc20230701_py2-2.2.0.tar.gz
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701]: Downloading https://files.pythonhosted.org/packages/c1/16/73b4f77ff67db1942ccee47aa0e17dfb35279b1da017e5d7d1f9a14be0ef/alibabacloud_ehpc20230701-3.0.0.tar.gz
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701-py2]: Downloading https://files.pythonhosted.org/packages/87/36/4ddae1b342670ca9cd5fe92463347d7413eef04df8bdeb3ebbd203604f61/alibabacloud_ehpc20230701_py2-3.0.0.tar.gz
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701-py2]: executing diffoscope
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ehpc20230701_py2-2.2.0.tar.gz tmp/alibabacloud_ehpc20230701_py2-3.0.0.tar.gz --markdown 20240416/a/alibabacloud-ehpc20230701-py2/2.2.0-3.0.0/README.md --exclude *.pyd
+[2024-04-16 05:01:40] INFO root fetch - processPackages [stis-cti]: Downloading https://files.pythonhosted.org/packages/60/9c/b54269af3b82656030042af8a3cecddfabd8003adf7f59cae3b5ffffc32c/stis_cti-1.6.1.tar.gz
+[2024-04-16 05:01:40] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/21/ab/6823c698f04f58183650517a6105ba48ce2e3ad54e96d6363c1ce77ade20/sampa-1.0.0.35.tar.gz
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701]: executing diffoscope
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ehpc20230701-2.2.0.tar.gz tmp/alibabacloud_ehpc20230701-3.0.0.tar.gz --markdown 20240416/a/alibabacloud-ehpc20230701/2.2.0-3.0.0/README.md --exclude *.pyd
+[2024-04-16 05:01:40] INFO root fetch - processPackages [stis-cti]: executing diffoscope
+[2024-04-16 05:01:40] INFO root fetch - processPackages [stis-cti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stis_cti-1.6.0.tar.gz tmp/stis_cti-1.6.1.tar.gz --markdown 20240416/s/stis-cti/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-16 05:01:40] INFO root fetch - processPackages [sampa]: executing diffoscope
+[2024-04-16 05:01:40] INFO root fetch - processPackages [sampa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampa-1.0.0.34.tar.gz tmp/sampa-1.0.0.35.tar.gz --markdown 20240416/s/sampa/1.0.0.34-1.0.0.35/README.md --exclude *.pyd
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpc20230701_py2-2.2.0.tar.gz]
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpc20230701_py2-3.0.0.tar.gz]
+[2024-04-16 05:01:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-ehpc20230701-py2]: success
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpc20230701-2.2.0.tar.gz]
+[2024-04-16 05:01:40] INFO root fetch - processPackages [alibabacloud-ehpc20230701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ehpc20230701-3.0.0.tar.gz]
+[2024-04-16 05:01:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-ehpc20230701]: success
+[2024-04-16 05:01:41] INFO root fetch - processPackages [stis-cti]: Remove: archive file [/home/abi/fetcher/tmp/stis_cti-1.6.0.tar.gz]
+[2024-04-16 05:01:41] INFO root fetch - processPackages [stis-cti]: Remove: archive file [/home/abi/fetcher/tmp/stis_cti-1.6.1.tar.gz]
+[2024-04-16 05:01:41] INFO root fetch - main [MainThread]: End processing [stis-cti]: success
+[2024-04-16 05:01:41] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.34.tar.gz]
+[2024-04-16 05:01:41] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.35.tar.gz]
+[2024-04-16 05:01:41] INFO root fetch - main [MainThread]: End processing [sampa]: success
+[2024-04-16 05:01:41] INFO root fetch - main [MainThread]: Store serial: [22781878]
