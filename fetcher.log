@@ -4466,3 +4466,45 @@
 [2024-04-16 04:51:57] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
 [2024-04-16 04:51:57] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
 [2024-04-16 04:51:57] INFO root fetch - main [MainThread]: Store serial: [22781810]
+[2024-04-16 04:54:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781810]
+[2024-04-16 04:54:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelbyte-py-sdk
+[2024-04-16 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ths-mongo-training-tools
+[2024-04-16 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: factory_farm
+[2024-04-16 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paracelsus
+[2024-04-16 04:54:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: polymind
+[2024-04-16 04:54:07] INFO root fetch - processPackages [factory_farm]: New version: [1.1.2] Old Version: [1.0.0]
+[2024-04-16 04:54:07] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/f8/1f/05c4a456d32913a274c289dd903b26e7688ad2725de829c08629b826aac5/factory_farm-1.0.0.tar.gz
+[2024-04-16 04:54:07] WARNING root fetch - processPackages [ths-mongo-training-tools]: Skipping, unable to determine old version
+[2024-04-16 04:54:07] INFO root fetch - main [MainThread]: End processing [ths-mongo-training-tools] error
+[2024-04-16 04:54:07] INFO root fetch - processPackages [paracelsus]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-16 04:54:07] INFO root fetch - processPackages [accelbyte-py-sdk]: New version: [0.64.0] Old Version: [0.63.0]
+[2024-04-16 04:54:07] INFO root fetch - processPackages [polymind]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 04:54:07] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/1b/44/46cf80f21933328c3c921c1582370dc81e2212e129428501d1004825d3ca/accelbyte_py_sdk-0.63.0.tar.gz
+[2024-04-16 04:54:07] INFO root fetch - processPackages [paracelsus]: Downloading https://files.pythonhosted.org/packages/42/90/1bbbe5ef577409c227f6292b082b4b1f9bea04655a4f54ee7f20f3a5b485/paracelsus-0.5.0.tar.gz
+[2024-04-16 04:54:07] INFO root fetch - processPackages [polymind]: Downloading https://files.pythonhosted.org/packages/0e/aa/52a8f77530064a4a31bc4aa8116debc14a08e851bf5d42cd670dc896ca1c/polymind-0.0.6.tar.gz
+[2024-04-16 04:54:07] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/d8/a5/e9ed97f3f08b7d85a30eed946c710a60223851814433a6895ec6f58fc815/factory_farm-1.1.2-py3-none-any.whl
+[2024-04-16 04:54:07] INFO root fetch - processPackages [factory_farm]: executing diffoscope
+[2024-04-16 04:54:07] INFO root fetch - processPackages [factory_farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factory_farm-1.0.0.tar.gz tmp/factory_farm-1.1.2-py3-none-any.whl.zip --markdown 20240416/f/factory_farm/1.0.0-1.1.2/README.md --exclude *.pyd
+[2024-04-16 04:54:07] INFO root fetch - processPackages [paracelsus]: Downloading https://files.pythonhosted.org/packages/93/81/e9d26d7c3ab2b5170dee8f4fdb58b753a984cfdb9f51a2c91e6396f96267/paracelsus-0.5.1.tar.gz
+[2024-04-16 04:54:07] INFO root fetch - processPackages [polymind]: Downloading https://files.pythonhosted.org/packages/6b/5d/85efcce46e16627c7bdb1ca311cf5e79cf132fa11e00070c1ef96f3e1aab/polymind-0.0.7.tar.gz
+[2024-04-16 04:54:07] INFO root fetch - processPackages [polymind]: executing diffoscope
+[2024-04-16 04:54:07] INFO root fetch - processPackages [polymind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymind-0.0.6.tar.gz tmp/polymind-0.0.7.tar.gz --markdown 20240416/p/polymind/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 04:54:07] INFO root fetch - processPackages [paracelsus]: executing diffoscope
+[2024-04-16 04:54:07] INFO root fetch - processPackages [paracelsus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paracelsus-0.5.0.tar.gz tmp/paracelsus-0.5.1.tar.gz --markdown 20240416/p/paracelsus/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-16 04:54:07] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/f0/72/4962a17515ff7229fb211ef3156bf8204dceb65e6081e82e89dbb8833f1e/accelbyte_py_sdk-0.64.0.tar.gz
+[2024-04-16 04:54:08] INFO root fetch - processPackages [polymind]: Remove: archive file [/home/abi/fetcher/tmp/polymind-0.0.6.tar.gz]
+[2024-04-16 04:54:08] INFO root fetch - processPackages [polymind]: Remove: archive file [/home/abi/fetcher/tmp/polymind-0.0.7.tar.gz]
+[2024-04-16 04:54:08] INFO root fetch - main [MainThread]: End processing [polymind]: success
+[2024-04-16 04:54:08] INFO root fetch - processPackages [accelbyte-py-sdk]: executing diffoscope
+[2024-04-16 04:54:08] INFO root fetch - processPackages [accelbyte-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk-0.63.0.tar.gz tmp/accelbyte_py_sdk-0.64.0.tar.gz --markdown 20240416/a/accelbyte-py-sdk/0.63.0-0.64.0/README.md --exclude *.pyd
+[2024-04-16 04:54:08] INFO root fetch - processPackages [paracelsus]: Remove: archive file [/home/abi/fetcher/tmp/paracelsus-0.5.0.tar.gz]
+[2024-04-16 04:54:08] INFO root fetch - processPackages [paracelsus]: Remove: archive file [/home/abi/fetcher/tmp/paracelsus-0.5.1.tar.gz]
+[2024-04-16 04:54:08] INFO root fetch - main [MainThread]: End processing [paracelsus]: success
+[2024-04-16 04:54:08] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.0.0.tar.gz]
+[2024-04-16 04:54:08] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.1.2-py3-none-any.whl.zip]
+[2024-04-16 04:54:08] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
+[2024-04-16 04:54:48] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.63.0.tar.gz]
+[2024-04-16 04:54:48] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.64.0.tar.gz]
+[2024-04-16 04:54:48] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk]: success
+[2024-04-16 04:54:48] INFO root fetch - main [MainThread]: Store serial: [22781824]
