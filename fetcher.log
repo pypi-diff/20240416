@@ -16641,3 +16641,91 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:09:36] INFO root fetch - processPackages [haruka-parser]: Remove: archive file [/home/abi/fetcher/tmp/haruka_parser-0.5.1.tar.gz]
 [2024-04-16 14:09:36] INFO root fetch - main [MainThread]: End processing [haruka-parser]: success
 [2024-04-16 14:09:36] INFO root fetch - main [MainThread]: Store serial: [22787252]
+[2024-04-16 14:11:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787252]
+[2024-04-16 14:11:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: niceml
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markdown_convert
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kivymd-utils
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncio-payok
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asyncio-payok
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: markdown2dash
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asyncio-payok
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Dall-ALSA
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: glue-core
+[2024-04-16 14:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: JaxFin
+[2024-04-16 14:11:54] WARNING root fetch - processPackages [Dall-ALSA]: Skipping, unable to determine old version
+[2024-04-16 14:11:54] INFO root fetch - processPackages [Dall-ALSA]: Start processing: cg-devx-core
+[2024-04-16 14:11:54] INFO root fetch - main [MainThread]: End processing [Dall-ALSA] error
+[2024-04-16 14:11:54] INFO root fetch - processPackages [kivymd-utils]: New version: [0.15.0] Old Version: [0.14.1]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [asyncio-payok]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [asyncio-payok]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [asyncio-payok]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [cg-devx-core]: New version: [0.2.7] Old Version: [0.2.5]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [niceml]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [markdown_convert]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [markdown2dash]: New version: [0.1.1] Old Version: [0.1.0a3]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [JaxFin]: New version: [0.3.2.dev0] Old Version: [0.3.2.1.dev0]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [glue-core]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 14:11:54] INFO root fetch - processPackages [cg-devx-core]: Downloading https://files.pythonhosted.org/packages/80/54/d1d74c54317bb19dc77e7e337354a0b422c0d575597dd4e46e9118f6fd72/cg_devx_core-0.2.5.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [kivymd-utils]: Downloading https://files.pythonhosted.org/packages/2d/aa/6f4f2666e6b113239566bc668ebfb66bb9c5e99a48a7acba8ba3991bd19c/kivymd_utils-0.14.1.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [asyncio-payok]: Downloading https://files.pythonhosted.org/packages/55/ed/363279902da33670b30aff4afb7cf085e2868c53c7253b1c3969ac55b915/asyncio_payok-0.0.2.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [asyncio-payok]: Downloading https://files.pythonhosted.org/packages/55/ed/363279902da33670b30aff4afb7cf085e2868c53c7253b1c3969ac55b915/asyncio_payok-0.0.2.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [asyncio-payok]: Downloading https://files.pythonhosted.org/packages/55/ed/363279902da33670b30aff4afb7cf085e2868c53c7253b1c3969ac55b915/asyncio_payok-0.0.2.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/f1/9e/4016171aac734a20af22493836767ec0d9e67f716312dfe1a92a1a4eab09/niceml-0.9.0.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/03/3b/539e16ff47392cca4347e312a690556a06f9d22589335d8de245f691625e/markdown_convert-1.0.8.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [markdown2dash]: Downloading https://files.pythonhosted.org/packages/8d/73/6a5c511573ded04d41a522ffb41a2b5004153b1cd9b9576c43cb7a22574e/markdown2dash-0.1.0a3.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [JaxFin]: Downloading https://files.pythonhosted.org/packages/0b/5a/4f0dc8fa6b639b69e9c8e211d8af60e1379d1c5266a33db28f94739f0472/jaxfin-0.3.2.1.dev0.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [glue-core]: Downloading https://files.pythonhosted.org/packages/95/ad/1355b73695c5a1569d0c4ba90a5322c3bf4dfa1a5cc58a7dc4991206c837/glue-core-1.9.0.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [cg-devx-core]: Downloading https://files.pythonhosted.org/packages/e8/72/ed0db64d1d46f31509da202ec7f5ddf37dc341c48b90882f1a4547606995/cg_devx_core-0.2.7.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [kivymd-utils]: Downloading https://files.pythonhosted.org/packages/d4/5c/f78af88540303b786dd310b7cf902945067da2848285cfd134a1082e0fe4/kivymd_utils-0.15.0.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [cg-devx-core]: executing diffoscope
+[2024-04-16 14:11:54] INFO root fetch - processPackages [cg-devx-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_devx_core-0.2.5.tar.gz tmp/cg_devx_core-0.2.7.tar.gz --markdown 20240416/c/cg-devx-core/0.2.5-0.2.7/README.md --exclude *.pyd
+[2024-04-16 14:11:54] INFO root fetch - processPackages [kivymd-utils]: executing diffoscope
+[2024-04-16 14:11:54] INFO root fetch - processPackages [kivymd-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivymd_utils-0.14.1.tar.gz tmp/kivymd_utils-0.15.0.tar.gz --markdown 20240416/k/kivymd-utils/0.14.1-0.15.0/README.md --exclude *.pyd
+[2024-04-16 14:11:54] INFO root fetch - processPackages [asyncio-payok]: Downloading https://files.pythonhosted.org/packages/df/ef/6d9bd62a2e6728ffeb8f6c05dc4a6825f8e8765fa36d5fa0fe54108c203d/asyncio_payok-0.0.3.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [asyncio-payok]: Downloading https://files.pythonhosted.org/packages/df/ef/6d9bd62a2e6728ffeb8f6c05dc4a6825f8e8765fa36d5fa0fe54108c203d/asyncio_payok-0.0.3.tar.gz
+[2024-04-16 14:11:54] INFO root fetch - processPackages [asyncio-payok]: Downloading https://files.pythonhosted.org/packages/df/ef/6d9bd62a2e6728ffeb8f6c05dc4a6825f8e8765fa36d5fa0fe54108c203d/asyncio_payok-0.0.3.tar.gz
+[2024-04-16 14:11:55] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/6b/d7/15f7baeb3e3f0a97c9ce510181d0b2a73ea241eb5755d7b6d325debe0cdf/markdown_convert-1.0.9.tar.gz
+[2024-04-16 14:11:55] INFO root fetch - processPackages [markdown2dash]: Downloading https://files.pythonhosted.org/packages/2d/dc/2739f103dcb7bfe9bd8075ff850ada602a445e8287e80552c493b8e9ba90/markdown2dash-0.1.1.tar.gz
+[2024-04-16 14:11:55] INFO root fetch - processPackages [asyncio-payok]: executing diffoscope
+[2024-04-16 14:11:55] INFO root fetch - processPackages [asyncio-payok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncio_payok-0.0.2.tar.gz tmp/asyncio_payok-0.0.3.tar.gz --markdown 20240416/a/asyncio-payok/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 14:11:55] INFO root fetch - processPackages [JaxFin]: Downloading https://files.pythonhosted.org/packages/d0/2c/1c74f90987e96a637e1f54e15726c7a7191dcf50828a9815f519bd368758/JaxFin-0.3.2.dev0.tar.gz
+[2024-04-16 14:11:55] INFO root fetch - processPackages [asyncio-payok]: executing diffoscope
+[2024-04-16 14:11:55] INFO root fetch - processPackages [asyncio-payok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncio_payok-0.0.2.tar.gz tmp/asyncio_payok-0.0.3.tar.gz --markdown 20240416/a/asyncio-payok/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 14:11:55] INFO root fetch - processPackages [asyncio-payok]: executing diffoscope
+[2024-04-16 14:11:55] INFO root fetch - processPackages [asyncio-payok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncio_payok-0.0.2.tar.gz tmp/asyncio_payok-0.0.3.tar.gz --markdown 20240416/a/asyncio-payok/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 14:11:55] WARNING root fetch - processPackages [glue-core]: Skipping package: exceeds size limit 23962417>=10485760
+[2024-04-16 14:11:55] INFO root fetch - main [MainThread]: End processing [glue-core] error
+[2024-04-16 14:11:55] INFO root fetch - processPackages [markdown_convert]: executing diffoscope
+[2024-04-16 14:11:55] INFO root fetch - processPackages [markdown_convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_convert-1.0.8.tar.gz tmp/markdown_convert-1.0.9.tar.gz --markdown 20240416/m/markdown_convert/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 14:11:55] INFO root fetch - processPackages [markdown2dash]: executing diffoscope
+[2024-04-16 14:11:55] INFO root fetch - processPackages [markdown2dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown2dash-0.1.0a3.tar.gz tmp/markdown2dash-0.1.1.tar.gz --markdown 20240416/m/markdown2dash/0.1.0a3-0.1.1/README.md --exclude *.pyd
+[2024-04-16 14:11:55] INFO root fetch - processPackages [JaxFin]: executing diffoscope
+[2024-04-16 14:11:55] INFO root fetch - processPackages [JaxFin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxfin-0.3.2.1.dev0.tar.gz tmp/JaxFin-0.3.2.dev0.tar.gz --markdown 20240416/J/JaxFin/0.3.2.1.dev0-0.3.2.dev0/README.md --exclude *.pyd
+[2024-04-16 14:11:55] INFO root fetch - processPackages [kivymd-utils]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_utils-0.14.1.tar.gz]
+[2024-04-16 14:11:55] INFO root fetch - processPackages [kivymd-utils]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_utils-0.15.0.tar.gz]
+[2024-04-16 14:11:55] INFO root fetch - main [MainThread]: End processing [kivymd-utils]: success
+[2024-04-16 14:11:56] INFO root fetch - processPackages [markdown2dash]: Remove: archive file [/home/abi/fetcher/tmp/markdown2dash-0.1.0a3.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - processPackages [markdown2dash]: Remove: archive file [/home/abi/fetcher/tmp/markdown2dash-0.1.1.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - main [MainThread]: End processing [markdown2dash]: success
+[2024-04-16 14:11:56] INFO root fetch - processPackages [asyncio-payok]: Remove: archive file [/home/abi/fetcher/tmp/asyncio_payok-0.0.2.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - processPackages [asyncio-payok]: Remove: archive file [/home/abi/fetcher/tmp/asyncio_payok-0.0.3.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - main [MainThread]: End processing [asyncio-payok]: success
+[2024-04-16 14:11:56] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.0.8.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.0.9.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - main [MainThread]: End processing [markdown_convert]: success
+[2024-04-16 14:11:56] INFO root fetch - main [MainThread]: End processing [asyncio-payok]: success
+[2024-04-16 14:11:56] INFO root fetch - processPackages [niceml]: Downloading https://files.pythonhosted.org/packages/17/c6/f1ce8e83f1654ea1cc81e54c47d75906ba9042e03b122bcd4b45a836ebe2/niceml-0.9.1.tar.gz
+[2024-04-16 14:11:56] INFO root fetch - main [MainThread]: End processing [asyncio-payok]: success
+[2024-04-16 14:11:56] INFO root fetch - processPackages [JaxFin]: Remove: archive file [/home/abi/fetcher/tmp/jaxfin-0.3.2.1.dev0.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - processPackages [JaxFin]: Remove: archive file [/home/abi/fetcher/tmp/JaxFin-0.3.2.dev0.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - main [MainThread]: End processing [JaxFin]: success
+[2024-04-16 14:11:56] INFO root fetch - processPackages [cg-devx-core]: Remove: archive file [/home/abi/fetcher/tmp/cg_devx_core-0.2.5.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - processPackages [cg-devx-core]: Remove: archive file [/home/abi/fetcher/tmp/cg_devx_core-0.2.7.tar.gz]
+[2024-04-16 14:11:56] INFO root fetch - main [MainThread]: End processing [cg-devx-core]: success
+[2024-04-16 14:11:57] INFO root fetch - processPackages [niceml]: executing diffoscope
+[2024-04-16 14:11:57] INFO root fetch - processPackages [niceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niceml-0.9.0.tar.gz tmp/niceml-0.9.1.tar.gz --markdown 20240416/n/niceml/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 14:11:58] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.9.0.tar.gz]
+[2024-04-16 14:11:58] INFO root fetch - processPackages [niceml]: Remove: archive file [/home/abi/fetcher/tmp/niceml-0.9.1.tar.gz]
+[2024-04-16 14:11:58] INFO root fetch - main [MainThread]: End processing [niceml]: success
+[2024-04-16 14:11:58] INFO root fetch - main [MainThread]: Store serial: [22787290]
