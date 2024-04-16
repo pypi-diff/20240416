@@ -14009,3 +14009,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:19:04] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-04-16 12:19:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
 [2024-04-16 12:19:04] INFO root fetch - main [MainThread]: Store serial: [22786100]
+[2024-04-16 12:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786100]
+[2024-04-16 12:21:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pogo-migrate
+[2024-04-16 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: literalai
+[2024-04-16 12:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slurpit_nautobot
+[2024-04-16 12:21:13] INFO root fetch - processPackages [slurpit_nautobot]: New version: [0.8.73] Old Version: [0.8.72]
+[2024-04-16 12:21:13] INFO root fetch - processPackages [pogo-migrate]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 12:21:13] INFO root fetch - processPackages [literalai]: New version: [0.0.504] Old Version: [0.0.503]
+[2024-04-16 12:21:13] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/70/0e/f6ede2d1e2dc74d3fc82927e4d18ace541e684838999e4daa7d919fecb1a/slurpit_nautobot-0.8.72.tar.gz
+[2024-04-16 12:21:13] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/ff/28/461ed536403eebb4134787b235c735858065030ccccb3cc105dd12df902f/pogo_migrate-0.0.8.tar.gz
+[2024-04-16 12:21:14] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/f7/c7/069a1062e35f4c9657e30a5b739099f69f862a036de32bae5a2c33706687/literalai-0.0.503.tar.gz
+[2024-04-16 12:21:14] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/4c/ed/4e80cd70057c49a1dd701d35586efe71de555f6be6238fd87ce00dc59be2/slurpit_nautobot-0.8.73.tar.gz
+[2024-04-16 12:21:14] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/02/aa/e3bf46e082861ed7f89041ee9e1efd453ec18b5267d59c75d03e23b11a09/pogo_migrate-0.0.9.tar.gz
+[2024-04-16 12:21:14] INFO root fetch - processPackages [slurpit_nautobot]: executing diffoscope
+[2024-04-16 12:21:14] INFO root fetch - processPackages [slurpit_nautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_nautobot-0.8.72.tar.gz tmp/slurpit_nautobot-0.8.73.tar.gz --markdown 20240416/s/slurpit_nautobot/0.8.72-0.8.73/README.md --exclude *.pyd
+[2024-04-16 12:21:14] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/e3/4f/d8ebea02363c7102850567a3a6ce27f2211dfc8ca96a49a118f7dddb21cc/literalai-0.0.504.tar.gz
+[2024-04-16 12:21:14] INFO root fetch - processPackages [pogo-migrate]: executing diffoscope
+[2024-04-16 12:21:14] INFO root fetch - processPackages [pogo-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pogo_migrate-0.0.8.tar.gz tmp/pogo_migrate-0.0.9.tar.gz --markdown 20240416/p/pogo-migrate/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 12:21:14] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-04-16 12:21:14] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.503.tar.gz tmp/literalai-0.0.504.tar.gz --markdown 20240416/l/literalai/0.0.503-0.0.504/README.md --exclude *.pyd
+[2024-04-16 12:21:14] INFO root fetch - processPackages [pogo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pogo_migrate-0.0.8.tar.gz]
+[2024-04-16 12:21:14] INFO root fetch - processPackages [pogo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pogo_migrate-0.0.9.tar.gz]
+[2024-04-16 12:21:14] INFO root fetch - main [MainThread]: End processing [pogo-migrate]: success
+[2024-04-16 12:21:15] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.72.tar.gz]
+[2024-04-16 12:21:15] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.73.tar.gz]
+[2024-04-16 12:21:15] INFO root fetch - main [MainThread]: End processing [slurpit_nautobot]: success
+[2024-04-16 12:21:15] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.503.tar.gz]
+[2024-04-16 12:21:15] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.504.tar.gz]
+[2024-04-16 12:21:15] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-04-16 12:21:15] INFO root fetch - main [MainThread]: Store serial: [22786108]
