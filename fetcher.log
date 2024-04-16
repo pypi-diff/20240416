@@ -12697,3 +12697,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:31:55] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev18797-py2.py3-none-any.whl.zip]
 [2024-04-16 11:31:55] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-16 11:31:55] INFO root fetch - main [MainThread]: Store serial: [22785469]
+[2024-04-16 11:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785469]
+[2024-04-16 11:34:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 11:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unstract-adapters
+[2024-04-16 11:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: malevich
+[2024-04-16 11:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygrype
+[2024-04-16 11:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spine-segmentation
+[2024-04-16 11:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: num-dual
+[2024-04-16 11:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: research-roc-utils
+[2024-04-16 11:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-master
+[2024-04-16 11:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sunholo
+[2024-04-16 11:34:07] INFO root fetch - processPackages [spine-segmentation]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 11:34:07] INFO root fetch - processPackages [unstract-adapters]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 11:34:07] INFO root fetch - processPackages [research-roc-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 11:34:07] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240416.9.8.426175] Old Version: [20240415.20.20.554529]
+[2024-04-16 11:34:07] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-16 11:34:07] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e8/8e/065b97ce989e6044404e38526e7f56617c4721e67eb13b24e0b64270bd97/unstract_adapters-0.9.0.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [malevich]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-16 11:34:07] INFO root fetch - processPackages [pygrype]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-16 11:34:07] INFO root fetch - processPackages [num-dual]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 11:34:07] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/0d/11/4e9dc9054c9bd26c474073b03949f8529919b49df39bf065c8eee310acfc/spine_segmentation-0.2.8.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/c1/f6/1b455f03978ff6075bbc1cf8ac2aa7cf59feb43e6914afd2f269206fd3fc/research_roc_utils-0.0.3.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [malevich]: Downloading https://files.pythonhosted.org/packages/09/cd/76802cf97da88490983b7a16a95ac3719bb963792e727cdccfc00e73f22d/malevich-0.3.0.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4c/6a/70515ef96aeab17942f6eed70db4566cd2bea4fa7bfe68c5403015b2b19a/certora-cli-alpha-master-20240415.20.20.554529.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [num-dual]: Downloading https://files.pythonhosted.org/packages/58/4e/552e0028ebc82433238d8de488068485be0eb3cf6ee79e72c7cc9a7675c0/num_dual-0.9.0-cp37-abi3-win_amd64.whl
+[2024-04-16 11:34:07] INFO root fetch - processPackages [pygrype]: Downloading https://files.pythonhosted.org/packages/03/df/403e5fb1b0110d284d3813ef41b8554c9e99efe4f357bd5d94ddfd7e7824/pygrype-0.3.0.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/6f/8e/ce2b23e3f8dd41f9d591f7aae8133bb3bff3bf86aa1c663dc8a4ba504c9e/unstract_adapters-0.9.1.tar.gz
+[2024-04-16 11:34:07] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14521330>=10485760
+[2024-04-16 11:34:07] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-16 11:34:07] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/ba/5c/f922a71e77bfd0f28f4c7a370775300e8ef18b16554940c6e74646199768/research_roc_utils-0.0.4.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-04-16 11:34:07] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.9.0.tar.gz tmp/unstract_adapters-0.9.1.tar.gz --markdown 20240416/u/unstract-adapters/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 11:34:07] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/35/e6/c978d3a1845462d2d7cd5b28c252671fa04b46a945a269bcb636ca2d080d/spine_segmentation-0.2.9.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [malevich]: Downloading https://files.pythonhosted.org/packages/a1/b1/24360676d31079aabe5df6fe31c9871b2f0788c60b041dae050e0b2b4cb1/malevich-0.3.1.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [research-roc-utils]: executing diffoscope
+[2024-04-16 11:34:07] INFO root fetch - processPackages [research-roc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_roc_utils-0.0.3.tar.gz tmp/research_roc_utils-0.0.4.tar.gz --markdown 20240416/r/research-roc-utils/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 11:34:07] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-16 11:34:07] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.2.8.tar.gz tmp/spine_segmentation-0.2.9.tar.gz --markdown 20240416/s/spine-segmentation/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 11:34:07] INFO root fetch - processPackages [pygrype]: Downloading https://files.pythonhosted.org/packages/13/7a/70009a87a72d34a01cf0ea375c45a65a6fd4458f2465c00c75e62db18af8/pygrype-0.3.1.tar.gz
+[2024-04-16 11:34:07] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-16 11:34:07] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240416/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-16 11:34:07] INFO root fetch - processPackages [malevich]: executing diffoscope
+[2024-04-16 11:34:07] INFO root fetch - processPackages [malevich]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malevich-0.3.0.tar.gz tmp/malevich-0.3.1.tar.gz --markdown 20240416/m/malevich/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-16 11:34:07] INFO root fetch - processPackages [pygrype]: executing diffoscope
+[2024-04-16 11:34:07] INFO root fetch - processPackages [pygrype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrype-0.3.0.tar.gz tmp/pygrype-0.3.1.tar.gz --markdown 20240416/p/pygrype/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-16 11:34:08] INFO root fetch - processPackages [num-dual]: Downloading https://files.pythonhosted.org/packages/e7/65/b9e31fd63d8ffbbbc6f16c024c75562581d9a12e83805920fa95ce355d1c/num_dual-0.9.1-cp37-abi3-win_amd64.whl
+[2024-04-16 11:34:08] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.3.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.4.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - main [MainThread]: End processing [research-roc-utils]: success
+[2024-04-16 11:34:08] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.0.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.1.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-04-16 11:34:08] INFO root fetch - processPackages [pygrype]: Remove: archive file [/home/abi/fetcher/tmp/pygrype-0.3.0.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - processPackages [pygrype]: Remove: archive file [/home/abi/fetcher/tmp/pygrype-0.3.1.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - main [MainThread]: End processing [pygrype]: success
+[2024-04-16 11:34:08] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.8.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.9.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-16 11:34:08] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-16 11:34:08] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-16 11:34:09] INFO root fetch - processPackages [malevich]: Remove: archive file [/home/abi/fetcher/tmp/malevich-0.3.0.tar.gz]
+[2024-04-16 11:34:09] INFO root fetch - processPackages [malevich]: Remove: archive file [/home/abi/fetcher/tmp/malevich-0.3.1.tar.gz]
+[2024-04-16 11:34:09] INFO root fetch - main [MainThread]: End processing [malevich]: success
+[2024-04-16 11:34:09] INFO root fetch - processPackages [num-dual]: executing diffoscope
+[2024-04-16 11:34:09] INFO root fetch - processPackages [num-dual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/num_dual-0.9.0-cp37-abi3-win_amd64.whl.zip tmp/num_dual-0.9.1-cp37-abi3-win_amd64.whl.zip --markdown 20240416/n/num-dual/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 11:34:09] INFO root fetch - processPackages [num-dual]: Remove: archive file [/home/abi/fetcher/tmp/num_dual-0.9.0-cp37-abi3-win_amd64.whl.zip]
+[2024-04-16 11:34:09] INFO root fetch - processPackages [num-dual]: Remove: archive file [/home/abi/fetcher/tmp/num_dual-0.9.1-cp37-abi3-win_amd64.whl.zip]
+[2024-04-16 11:34:09] INFO root fetch - main [MainThread]: End processing [num-dual]: success
+[2024-04-16 11:34:09] INFO root fetch - main [MainThread]: Store serial: [22785495]
