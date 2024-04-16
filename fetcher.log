@@ -3517,3 +3517,67 @@
 [2024-04-16 03:46:16] INFO root fetch - processPackages [blackduck-lutils]: Remove: archive file [/home/abi/fetcher/tmp/blackduck_lutils-0.0.9.tar.gz]
 [2024-04-16 03:46:16] INFO root fetch - main [MainThread]: End processing [blackduck-lutils]: success
 [2024-04-16 03:46:16] INFO root fetch - main [MainThread]: Store serial: [22781359]
+[2024-04-16 03:48:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781359]
+[2024-04-16 03:48:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 03:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dfss
+[2024-04-16 03:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: body_scan
+[2024-04-16 03:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: think-sql
+[2024-04-16 03:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stytch
+[2024-04-16 03:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gaphor
+[2024-04-16 03:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zae-engine
+[2024-04-16 03:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dfss
+[2024-04-16 03:48:25] INFO root fetch - processPackages [zae-engine]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 03:48:25] INFO root fetch - processPackages [dfss]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-16 03:48:25] INFO root fetch - processPackages [think-sql]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-16 03:48:25] INFO root fetch - processPackages [dfss]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-16 03:48:25] INFO root fetch - processPackages [zae-engine]: Downloading https://files.pythonhosted.org/packages/be/be/949b3dc9eb2cf2eddbbb13fe6286b8611011a9bd951df7bd7102a3f7bd6f/zae_engine-0.1.2.tar.gz
+[2024-04-16 03:48:25] INFO root fetch - processPackages [body_scan]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-16 03:48:25] INFO root fetch - processPackages [gaphor]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-16 03:48:25] INFO root fetch - processPackages [stytch]: New version: [9.2.0] Old Version: [9.1.0]
+[2024-04-16 03:48:26] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/79/bc/ce02eed117e64f425a780e942d5053d65e25a5cbe65464af5b81a15cd988/think_sql-0.5.1.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [body_scan]: Downloading https://files.pythonhosted.org/packages/e1/96/ec2491d32b3ef799babbbcfc15fe1782a3f46668e4cc8cfc041cb24fe055/body_scan-1.0.6.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/3c/05/cc06bd160cc7ceabf7c8a9fbb1a12bb41285287a5ad59c978b7e1f4ef92d/dfss-1.6.8.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/3c/05/cc06bd160cc7ceabf7c8a9fbb1a12bb41285287a5ad59c978b7e1f4ef92d/dfss-1.6.8.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [stytch]: Downloading https://files.pythonhosted.org/packages/26/fd/86eee27f5f81e52dfa109aaba9cdef01319bcda3386a8ea014500583ba0a/stytch-9.1.0.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [gaphor]: Downloading https://files.pythonhosted.org/packages/e1/05/90c1ad0f606bce93a48d91ddc271ce70e76329a5d75c6db6433a2a1fd963/gaphor-2.9.1.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [zae-engine]: Downloading https://files.pythonhosted.org/packages/00/93/f5edb423375ddcace026aac6be7743e2ac5ce646be6ccbacf93d46f608b5/zae_engine-0.1.3.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [zae-engine]: executing diffoscope
+[2024-04-16 03:48:26] INFO root fetch - processPackages [zae-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zae_engine-0.1.2.tar.gz tmp/zae_engine-0.1.3.tar.gz --markdown 20240416/z/zae-engine/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 03:48:26] INFO root fetch - processPackages [body_scan]: Downloading https://files.pythonhosted.org/packages/b6/98/6306a88680c3158b2059fc3cf956572053c351672e85a99907edb81057f3/body_scan-1.1.0.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/47/44/b9caa3e22c51d2f591314e20f24dc48c2054f51e49226bdd273538e06c9b/think_sql-0.6.0.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [stytch]: Downloading https://files.pythonhosted.org/packages/1d/3e/6cfbd9e126d47396408f8a1a8611c9bcaa8dccf336b2bc6f3d262bf59da1/stytch-9.2.0.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/53/e4/eb1b79783b9a45ea3bcb4726a998f6787e63d4d269053f4a5dea9fbb9ea7/dfss-1.6.9.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [dfss]: Downloading https://files.pythonhosted.org/packages/53/e4/eb1b79783b9a45ea3bcb4726a998f6787e63d4d269053f4a5dea9fbb9ea7/dfss-1.6.9.tar.gz
+[2024-04-16 03:48:26] INFO root fetch - processPackages [think-sql]: executing diffoscope
+[2024-04-16 03:48:26] INFO root fetch - processPackages [think-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/think_sql-0.5.1.tar.gz tmp/think_sql-0.6.0.tar.gz --markdown 20240416/t/think-sql/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-16 03:48:26] INFO root fetch - processPackages [body_scan]: executing diffoscope
+[2024-04-16 03:48:26] INFO root fetch - processPackages [body_scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/body_scan-1.0.6.tar.gz tmp/body_scan-1.1.0.tar.gz --markdown 20240416/b/body_scan/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-04-16 03:48:26] INFO root fetch - processPackages [stytch]: executing diffoscope
+[2024-04-16 03:48:26] INFO root fetch - processPackages [stytch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stytch-9.1.0.tar.gz tmp/stytch-9.2.0.tar.gz --markdown 20240416/s/stytch/9.1.0-9.2.0/README.md --exclude *.pyd
+[2024-04-16 03:48:26] INFO root fetch - processPackages [dfss]: executing diffoscope
+[2024-04-16 03:48:26] INFO root fetch - processPackages [dfss]: executing diffoscope
+[2024-04-16 03:48:26] INFO root fetch - processPackages [dfss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfss-1.6.8.tar.gz tmp/dfss-1.6.9.tar.gz --markdown 20240416/d/dfss/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-16 03:48:26] INFO root fetch - processPackages [dfss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfss-1.6.8.tar.gz tmp/dfss-1.6.9.tar.gz --markdown 20240416/d/dfss/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-16 03:48:26] INFO root fetch - processPackages [gaphor]: Downloading https://files.pythonhosted.org/packages/37/ad/c5079ad568ff279c0469364f4ab40d0c37418d6c55c91804896bf551f07d/gaphor-2.9.2.tar.gz
+[2024-04-16 03:48:27] INFO root fetch - processPackages [gaphor]: executing diffoscope
+[2024-04-16 03:48:27] INFO root fetch - processPackages [gaphor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaphor-2.9.1.tar.gz tmp/gaphor-2.9.2.tar.gz --markdown 20240416/g/gaphor/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-16 03:48:27] INFO root fetch - processPackages [zae-engine]: Remove: archive file [/home/abi/fetcher/tmp/zae_engine-0.1.2.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - processPackages [zae-engine]: Remove: archive file [/home/abi/fetcher/tmp/zae_engine-0.1.3.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - main [MainThread]: End processing [zae-engine]: success
+[2024-04-16 03:48:27] INFO root fetch - processPackages [body_scan]: Remove: archive file [/home/abi/fetcher/tmp/body_scan-1.0.6.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - processPackages [body_scan]: Remove: archive file [/home/abi/fetcher/tmp/body_scan-1.1.0.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - main [MainThread]: End processing [body_scan]: success
+[2024-04-16 03:48:27] INFO root fetch - processPackages [dfss]: Remove: archive file [/home/abi/fetcher/tmp/dfss-1.6.8.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - processPackages [dfss]: Remove: archive file [/home/abi/fetcher/tmp/dfss-1.6.9.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - main [MainThread]: End processing [dfss]: success
+[2024-04-16 03:48:27] INFO root fetch - main [MainThread]: End processing [dfss]: success
+[2024-04-16 03:48:27] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.5.1.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.6.0.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - main [MainThread]: End processing [think-sql]: success
+[2024-04-16 03:48:27] INFO root fetch - processPackages [stytch]: Remove: archive file [/home/abi/fetcher/tmp/stytch-9.1.0.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - processPackages [stytch]: Remove: archive file [/home/abi/fetcher/tmp/stytch-9.2.0.tar.gz]
+[2024-04-16 03:48:27] INFO root fetch - main [MainThread]: End processing [stytch]: success
+[2024-04-16 03:48:31] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.1.tar.gz]
+[2024-04-16 03:48:31] INFO root fetch - processPackages [gaphor]: Remove: archive file [/home/abi/fetcher/tmp/gaphor-2.9.2.tar.gz]
+[2024-04-16 03:48:31] INFO root fetch - main [MainThread]: End processing [gaphor]: success
+[2024-04-16 03:48:31] INFO root fetch - main [MainThread]: Store serial: [22781376]
