@@ -3400,3 +3400,36 @@
 [2024-04-16 03:37:12] INFO root fetch - processPackages [plottool-ibeis]: Remove: archive file [/home/abi/fetcher/tmp/plottool_ibeis-2.3.0.tar.gz]
 [2024-04-16 03:37:12] INFO root fetch - main [MainThread]: End processing [plottool-ibeis]: success
 [2024-04-16 03:37:12] INFO root fetch - main [MainThread]: Store serial: [22781285]
+[2024-04-16 03:39:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781285]
+[2024-04-16 03:39:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kmeans-tjdwill
+[2024-04-16 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hllama
+[2024-04-16 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrevm-contract
+[2024-04-16 03:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jijzept
+[2024-04-16 03:39:20] INFO root fetch - processPackages [pyrevm-contract]: New version: [0.3.0] Old Version: [0.2.8]
+[2024-04-16 03:39:21] INFO root fetch - processPackages [hllama]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 03:39:21] INFO root fetch - processPackages [pyrevm-contract]: Downloading https://files.pythonhosted.org/packages/26/28/017c62938fd1b7afdf839af7cf4f0890320716e62a3b4c873599e1f864a6/pyrevm_contract-0.2.8.tar.gz
+[2024-04-16 03:39:21] WARNING root fetch - processPackages [kmeans-tjdwill]: Skipping, unable to determine old version
+[2024-04-16 03:39:21] INFO root fetch - main [MainThread]: End processing [kmeans-tjdwill] error
+[2024-04-16 03:39:21] INFO root fetch - processPackages [hllama]: Downloading https://files.pythonhosted.org/packages/1e/1a/4918ea58ddeb7a79da77f10778bd1b931bb33d4aac7c09df57315b917c72/hllama-0.0.1-py3-none-any.whl
+[2024-04-16 03:39:21] INFO root fetch - processPackages [pyrevm-contract]: Downloading https://files.pythonhosted.org/packages/35/c7/c38a8dd104642c1f408f2df6ca7018771337d34533b5824f75703123c220/pyrevm_contract-0.3.0.tar.gz
+[2024-04-16 03:39:21] INFO root fetch - processPackages [pyrevm-contract]: executing diffoscope
+[2024-04-16 03:39:21] INFO root fetch - processPackages [pyrevm-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrevm_contract-0.2.8.tar.gz tmp/pyrevm_contract-0.3.0.tar.gz --markdown 20240416/p/pyrevm-contract/0.2.8-0.3.0/README.md --exclude *.pyd
+[2024-04-16 03:39:21] INFO root fetch - processPackages [hllama]: Downloading https://files.pythonhosted.org/packages/3d/03/325a9393af144e557490104152d99631bfd0a6deaea56301c72b606df657/hllama-0.0.2-py3-none-any.whl
+[2024-04-16 03:39:21] INFO root fetch - processPackages [hllama]: executing diffoscope
+[2024-04-16 03:39:21] INFO root fetch - processPackages [hllama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hllama-0.0.1-py3-none-any.whl.zip tmp/hllama-0.0.2-py3-none-any.whl.zip --markdown 20240416/h/hllama/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 03:39:21] INFO root fetch - processPackages [jijzept]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-16 03:39:21] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/72/fb/9a52fe090892437248f15fb11b3c8ee874329278b8f5ee8d6169e88dc0a6/jijzept-1.9.1-cp39-cp39-win_amd64.whl
+[2024-04-16 03:39:21] INFO root fetch - processPackages [pyrevm-contract]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm_contract-0.2.8.tar.gz]
+[2024-04-16 03:39:21] INFO root fetch - processPackages [pyrevm-contract]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm_contract-0.3.0.tar.gz]
+[2024-04-16 03:39:21] INFO root fetch - main [MainThread]: End processing [pyrevm-contract]: success
+[2024-04-16 03:39:22] INFO root fetch - processPackages [hllama]: Remove: archive file [/home/abi/fetcher/tmp/hllama-0.0.1-py3-none-any.whl.zip]
+[2024-04-16 03:39:22] INFO root fetch - processPackages [hllama]: Remove: archive file [/home/abi/fetcher/tmp/hllama-0.0.2-py3-none-any.whl.zip]
+[2024-04-16 03:39:22] INFO root fetch - main [MainThread]: End processing [hllama]: success
+[2024-04-16 03:39:22] INFO root fetch - processPackages [jijzept]: Downloading https://files.pythonhosted.org/packages/a1/bc/e2438f5f8452cd4acef7ef12bfa56f583f3dfd05881f00d6bb416d64ba72/jijzept-1.9.2-cp39-cp39-win_amd64.whl
+[2024-04-16 03:39:22] INFO root fetch - processPackages [jijzept]: executing diffoscope
+[2024-04-16 03:39:22] INFO root fetch - processPackages [jijzept]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240416/j/jijzept/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-16 03:39:23] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 03:39:23] INFO root fetch - processPackages [jijzept]: Remove: archive file [/home/abi/fetcher/tmp/jijzept-1.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 03:39:23] INFO root fetch - main [MainThread]: End processing [jijzept]: success
+[2024-04-16 03:39:23] INFO root fetch - main [MainThread]: Store serial: [22781302]
