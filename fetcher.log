@@ -3055,3 +3055,24 @@
 [2024-04-16 03:09:00] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
 [2024-04-16 03:09:01] INFO root fetch - main [MainThread]: End processing [deepeval]: success
 [2024-04-16 03:09:01] INFO root fetch - main [MainThread]: Store serial: [22781090]
+[2024-04-16 03:11:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781090]
+[2024-04-16 03:11:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 03:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blackduck-lutils
+[2024-04-16 03:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpp-components
+[2024-04-16 03:11:09] INFO root fetch - processPackages [blackduck-lutils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 03:11:09] INFO root fetch - processPackages [blackduck-lutils]: Downloading https://files.pythonhosted.org/packages/ec/13/118ce1789d2ed6430810b9da64c02bf5ee9235b9e210c2e24312a54577a2/blackduck_lutils-0.0.7.tar.gz
+[2024-04-16 03:11:09] INFO root fetch - processPackages [gpp-components]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-16 03:11:09] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/04/e6/65945b1d65922396295690eaa96d111786a957816b0aac9069b5fe11e2c7/gpp_components-0.0.9.tar.gz
+[2024-04-16 03:11:10] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/44/79/b337d580c1aedb26d85ccc4c63e427a464f8384ab87b7fe0fb756cdd3831/gpp_components-0.1.0.tar.gz
+[2024-04-16 03:11:10] INFO root fetch - processPackages [blackduck-lutils]: Downloading https://files.pythonhosted.org/packages/39/08/f334e3efa45504e006f351b90712c749618b49770b1e46b2db0261e5d59d/blackduck_lutils-0.0.8.tar.gz
+[2024-04-16 03:11:10] INFO root fetch - processPackages [gpp-components]: executing diffoscope
+[2024-04-16 03:11:10] INFO root fetch - processPackages [gpp-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpp_components-0.0.9.tar.gz tmp/gpp_components-0.1.0.tar.gz --markdown 20240416/g/gpp-components/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-16 03:11:10] INFO root fetch - processPackages [blackduck-lutils]: executing diffoscope
+[2024-04-16 03:11:10] INFO root fetch - processPackages [blackduck-lutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackduck_lutils-0.0.7.tar.gz tmp/blackduck_lutils-0.0.8.tar.gz --markdown 20240416/b/blackduck-lutils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 03:11:10] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.0.9.tar.gz]
+[2024-04-16 03:11:10] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.0.tar.gz]
+[2024-04-16 03:11:10] INFO root fetch - main [MainThread]: End processing [gpp-components]: success
+[2024-04-16 03:11:30] INFO root fetch - processPackages [blackduck-lutils]: Remove: archive file [/home/abi/fetcher/tmp/blackduck_lutils-0.0.7.tar.gz]
+[2024-04-16 03:11:30] INFO root fetch - processPackages [blackduck-lutils]: Remove: archive file [/home/abi/fetcher/tmp/blackduck_lutils-0.0.8.tar.gz]
+[2024-04-16 03:11:30] INFO root fetch - main [MainThread]: End processing [blackduck-lutils]: success
+[2024-04-16 03:11:30] INFO root fetch - main [MainThread]: Store serial: [22781096]
