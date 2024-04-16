@@ -22791,3 +22791,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:18:37] INFO root fetch - processPackages [bisheng-pybackend-libs]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_pybackend_libs-0.0.6.4-py3-none-any.whl.zip]
 [2024-04-16 17:18:37] INFO root fetch - main [MainThread]: End processing [bisheng-pybackend-libs]: success
 [2024-04-16 17:18:37] INFO root fetch - main [MainThread]: Store serial: [22789781]
+[2024-04-16 17:20:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789781]
+[2024-04-16 17:20:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 17:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shinywidgets
+[2024-04-16 17:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simfempy
+[2024-04-16 17:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: make_distribution
+[2024-04-16 17:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geo-skeletons
+[2024-04-16 17:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twikit
+[2024-04-16 17:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: firebase-functions
+[2024-04-16 17:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coworks
+[2024-04-16 17:20:47] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 17:20:47] INFO root fetch - processPackages [simfempy]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-04-16 17:20:47] INFO root fetch - processPackages [coworks]: New version: [0.9.4a3] Old Version: [0.9.4a2]
+[2024-04-16 17:20:47] INFO root fetch - processPackages [shinywidgets]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-16 17:20:47] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [firebase-functions]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-16 17:20:47] WARNING root fetch - processPackages [make_distribution]: Skipping, unable to determine old version
+[2024-04-16 17:20:47] INFO root fetch - main [MainThread]: End processing [make_distribution] error
+[2024-04-16 17:20:47] INFO root fetch - processPackages [twikit]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-16 17:20:47] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/2e/33/571a2b65f25318a3086175bf6d6f45e8de6d57f13586342b57f73d02ba03/simfempy-2.2.6.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/bb/0a/df67d43c1286e44646a76a378b8b4ca71ab0c8561038e34ffffe7e5fb551/coworks-0.9.4a2.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [shinywidgets]: Downloading https://files.pythonhosted.org/packages/72/72/a585ed33ac574cb16c906313cf7447574f2511f59b8295b3f80497a91bae/shinywidgets-0.3.1.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [firebase-functions]: Downloading https://files.pythonhosted.org/packages/19/db/4222f609a2a15338fb0c064c5ae2f8fd7f5318f3bff9498b9e7770b2b047/firebase_functions-0.3.0.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/15/df/dd5c727889f092013ac62bd4bc28ffd7439aa01fbb374dae9cb2f010e38d/twikit-1.5.0.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/9b/80/893000269dbb8eb40aa93fbf99ed35a5fb7bc458ba0bddcf947d35b05543/simfempy-2.2.7.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/41/96/3771e87df0eced04efb12c754a9ceed61c87e09e149f702af42ddb7a3e9f/coworks-0.9.4a3.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-16 17:20:47] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240416/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 17:20:47] INFO root fetch - processPackages [simfempy]: executing diffoscope
+[2024-04-16 17:20:47] INFO root fetch - processPackages [simfempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfempy-2.2.6.tar.gz tmp/simfempy-2.2.7.tar.gz --markdown 20240416/s/simfempy/2.2.6-2.2.7/README.md --exclude *.pyd
+[2024-04-16 17:20:47] INFO root fetch - processPackages [firebase-functions]: Downloading https://files.pythonhosted.org/packages/43/d8/8511548cd1ebcb971702e21d70bd5e0f87c6f65895bd89938ad4c056fc91/firebase_functions-0.4.0.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/a7/87/e5f70c9d2bb76301907a05fd62b5f5802334b842a0fe88d1c1db0c0db438/twikit-1.5.1.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [coworks]: executing diffoscope
+[2024-04-16 17:20:47] INFO root fetch - processPackages [coworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coworks-0.9.4a2.tar.gz tmp/coworks-0.9.4a3.tar.gz --markdown 20240416/c/coworks/0.9.4a2-0.9.4a3/README.md --exclude *.pyd
+[2024-04-16 17:20:47] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-04-16 17:20:47] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.5.0.tar.gz tmp/twikit-1.5.1.tar.gz --markdown 20240416/t/twikit/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-16 17:20:47] INFO root fetch - processPackages [shinywidgets]: Downloading https://files.pythonhosted.org/packages/8e/33/d2880cfeca982ac10a976871dbb41f4644dacd1e5dee63cd04ab8a9bff8e/shinywidgets-0.3.2.tar.gz
+[2024-04-16 17:20:47] INFO root fetch - processPackages [firebase-functions]: executing diffoscope
+[2024-04-16 17:20:47] INFO root fetch - processPackages [firebase-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebase_functions-0.3.0.tar.gz tmp/firebase_functions-0.4.0.tar.gz --markdown 20240416/f/firebase-functions/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-16 17:20:48] INFO root fetch - processPackages [shinywidgets]: executing diffoscope
+[2024-04-16 17:20:48] INFO root fetch - processPackages [shinywidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinywidgets-0.3.1.tar.gz tmp/shinywidgets-0.3.2.tar.gz --markdown 20240416/s/shinywidgets/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-16 17:20:48] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-16 17:20:48] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.6.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.7.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - main [MainThread]: End processing [simfempy]: success
+[2024-04-16 17:20:48] INFO root fetch - processPackages [coworks]: Remove: archive file [/home/abi/fetcher/tmp/coworks-0.9.4a2.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - processPackages [coworks]: Remove: archive file [/home/abi/fetcher/tmp/coworks-0.9.4a3.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - main [MainThread]: End processing [coworks]: success
+[2024-04-16 17:20:48] INFO root fetch - processPackages [firebase-functions]: Remove: archive file [/home/abi/fetcher/tmp/firebase_functions-0.3.0.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - processPackages [firebase-functions]: Remove: archive file [/home/abi/fetcher/tmp/firebase_functions-0.4.0.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - main [MainThread]: End processing [firebase-functions]: success
+[2024-04-16 17:20:48] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.0.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.1.tar.gz]
+[2024-04-16 17:20:48] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-04-16 17:20:49] INFO root fetch - processPackages [shinywidgets]: Remove: archive file [/home/abi/fetcher/tmp/shinywidgets-0.3.1.tar.gz]
+[2024-04-16 17:20:49] INFO root fetch - processPackages [shinywidgets]: Remove: archive file [/home/abi/fetcher/tmp/shinywidgets-0.3.2.tar.gz]
+[2024-04-16 17:20:49] INFO root fetch - main [MainThread]: End processing [shinywidgets]: success
+[2024-04-16 17:20:49] INFO root fetch - main [MainThread]: Store serial: [22789807]
