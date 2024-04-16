@@ -16076,3 +16076,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:47:11] INFO root fetch - processPackages [quickfix-py]: Remove: archive file [/home/abi/fetcher/tmp/quickfix_py-0.0.2.tar.gz]
 [2024-04-16 13:47:11] INFO root fetch - main [MainThread]: End processing [quickfix-py]: success
 [2024-04-16 13:47:11] INFO root fetch - main [MainThread]: Store serial: [22786983]
+[2024-04-16 13:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786983]
+[2024-04-16 13:49:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 13:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YYJ
+[2024-04-16 13:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-archiver
+[2024-04-16 13:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xboc
+[2024-04-16 13:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moodle-dl
+[2024-04-16 13:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secretflow
+[2024-04-16 13:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secretflow-lite
+[2024-04-16 13:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sergio-rs
+[2024-04-16 13:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funboost
+[2024-04-16 13:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esa-2scm
+[2024-04-16 13:49:20] WARNING root fetch - processPackages [xboc]: Skipping, unable to determine old version
+[2024-04-16 13:49:20] INFO root fetch - main [MainThread]: End processing [xboc] error
+[2024-04-16 13:49:20] INFO root fetch - processPackages [auto-archiver]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 13:49:21] INFO root fetch - processPackages [moodle-dl]: New version: [2.3.4] Old Version: [2.3.3]
+[2024-04-16 13:49:21] INFO root fetch - processPackages [YYJ]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 13:49:21] INFO root fetch - processPackages [secretflow-lite]: New version: [1.5.0a2] Old Version: [1.5.0.dev20240321]
+[2024-04-16 13:49:21] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/42/6a/2b3bf6de83657fa7406a5bd065b3dd7571dc5d5f0f5048661f566d0d5d8f/auto_archiver-0.9.8.tar.gz
+[2024-04-16 13:49:21] INFO root fetch - processPackages [secretflow]: New version: [1.5.0a2] Old Version: [1.5.0.dev20240321]
+[2024-04-16 13:49:21] INFO root fetch - processPackages [funboost]: New version: [43.4] Old Version: [43.3]
+[2024-04-16 13:49:21] WARNING root fetch - processPackages [sergio-rs]: Skipping, unable to determine old version
+[2024-04-16 13:49:21] INFO root fetch - main [MainThread]: End processing [sergio-rs] error
+[2024-04-16 13:49:21] INFO root fetch - processPackages [esa-2scm]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-16 13:49:21] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/31/c5/c53fd84e2e4e3d4aabb8728bd71c7cc3aba4bf5b26c40c7273396a67050c/moodle_dl-2.3.3.tar.gz
+[2024-04-16 13:49:21] INFO root fetch - processPackages [YYJ]: Downloading https://files.pythonhosted.org/packages/f5/d8/d06595467fac861883f3a015edd396c03ab97464d0f5bccf11f196875e43/YYJ-1.0.0.tar.gz
+[2024-04-16 13:49:21] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/93/1d/0289b18696fd4117863b581e7c2e5235d8278783ce4960c246ab76e8978b/secretflow_lite-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-16 13:49:21] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/59/66/3ab918013f8362d0acbc25db39bf960379bfb6bb30004edf7f37bd7225e8/auto_archiver-0.9.9.tar.gz
+[2024-04-16 13:49:21] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/51/7b/2c08b6c36382640f914c699332a06991e86a5890d88dfcfc35a929575cb8/secretflow-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-16 13:49:21] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/33/26/9029d11976a4b8570f003251a72805d06369ddd85999adc54c425a3c630b/esa-2scm-0.2.5.tar.gz
+[2024-04-16 13:49:21] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/ac/2e/001b5a8da29bf623fd467278d4b28af0b9e9dfb754d076b1e52023254396/funboost-43.3.tar.gz
+[2024-04-16 13:49:21] INFO root fetch - processPackages [auto-archiver]: executing diffoscope
+[2024-04-16 13:49:21] INFO root fetch - processPackages [auto-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_archiver-0.9.8.tar.gz tmp/auto_archiver-0.9.9.tar.gz --markdown 20240416/a/auto-archiver/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 13:49:21] INFO root fetch - processPackages [YYJ]: Downloading https://files.pythonhosted.org/packages/a3/9b/4f4a0a9247d84ae461301f8e8b6d4c1a66735b09181f2c555cfe0e103f4d/YYJ-1.0.1.tar.gz
+[2024-04-16 13:49:21] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/1c/e3/98d012d958cf4f4fa7f09bb9b188f9d81a78eb6d4d040f218e80c133c1cc/moodle_dl-2.3.4.tar.gz
+[2024-04-16 13:49:21] INFO root fetch - processPackages [YYJ]: executing diffoscope
+[2024-04-16 13:49:21] INFO root fetch - processPackages [YYJ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YYJ-1.0.0.tar.gz tmp/YYJ-1.0.1.tar.gz --markdown 20240416/Y/YYJ/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 13:49:21] INFO root fetch - processPackages [moodle-dl]: executing diffoscope
+[2024-04-16 13:49:21] INFO root fetch - processPackages [moodle-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moodle_dl-2.3.3.tar.gz tmp/moodle_dl-2.3.4.tar.gz --markdown 20240416/m/moodle-dl/2.3.3-2.3.4/README.md --exclude *.pyd
+[2024-04-16 13:49:21] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/75/f6/fc2065597cbb9a161d48505c51adf76092df6356e176c677a2a5478cca63/esa_2scm-0.2.6-py3-none-any.whl
+[2024-04-16 13:49:21] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/3b/a8/d68ff5b214ee4c3bda19b21f8263949a3c3ab0b9f38a104a6c24fe12953c/funboost-43.4.tar.gz
+[2024-04-16 13:49:22] INFO root fetch - processPackages [esa-2scm]: executing diffoscope
+[2024-04-16 13:49:22] INFO root fetch - processPackages [esa-2scm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esa-2scm-0.2.5.tar.gz tmp/esa_2scm-0.2.6-py3-none-any.whl.zip --markdown 20240416/e/esa-2scm/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-16 13:49:22] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/09/b4/3e0b693026ba9ad409769ae57f68f24b9e877a8f1ab0dd98e286d1bee64c/secretflow_lite-1.5.0a2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-16 13:49:22] INFO root fetch - processPackages [YYJ]: Remove: archive file [/home/abi/fetcher/tmp/YYJ-1.0.0.tar.gz]
+[2024-04-16 13:49:22] INFO root fetch - processPackages [YYJ]: Remove: archive file [/home/abi/fetcher/tmp/YYJ-1.0.1.tar.gz]
+[2024-04-16 13:49:22] INFO root fetch - main [MainThread]: End processing [YYJ]: success
+[2024-04-16 13:49:22] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.9.8.tar.gz]
+[2024-04-16 13:49:22] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.9.9.tar.gz]
+[2024-04-16 13:49:22] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
+[2024-04-16 13:49:22] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle_dl-2.3.3.tar.gz]
+[2024-04-16 13:49:22] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle_dl-2.3.4.tar.gz]
+[2024-04-16 13:49:22] INFO root fetch - main [MainThread]: End processing [moodle-dl]: success
+[2024-04-16 13:49:22] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa-2scm-0.2.5.tar.gz]
+[2024-04-16 13:49:22] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa_2scm-0.2.6-py3-none-any.whl.zip]
+[2024-04-16 13:49:22] INFO root fetch - main [MainThread]: End processing [esa-2scm]: success
+[2024-04-16 13:49:22] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2024-04-16 13:49:22] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-43.3.tar.gz tmp/funboost-43.4.tar.gz --markdown 20240416/f/funboost/43.3-43.4/README.md --exclude *.pyd
+[2024-04-16 13:49:23] INFO root fetch - processPackages [secretflow-lite]: executing diffoscope
+[2024-04-16 13:49:23] INFO root fetch - processPackages [secretflow-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_lite-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/secretflow_lite-1.5.0a2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240416/s/secretflow-lite/1.5.0.dev20240321-1.5.0a2/README.md --exclude *.pyd
+[2024-04-16 13:49:23] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/6b/49/cac575603ee51d2ad46a9883d506b94e267c382aefc90a8686299b5acf80/secretflow-1.5.0a2-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-16 13:49:24] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.3.tar.gz]
+[2024-04-16 13:49:24] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.4.tar.gz]
+[2024-04-16 13:49:24] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2024-04-16 13:49:24] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2024-04-16 13:49:24] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/secretflow-1.5.0a2-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240416/s/secretflow/1.5.0.dev20240321-1.5.0a2/README.md --exclude *.pyd
+[2024-04-16 13:50:09] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-16 13:50:09] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.5.0a2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-16 13:50:09] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
+[2024-04-16 13:50:11] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-16 13:50:11] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.5.0a2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-16 13:50:11] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2024-04-16 13:50:11] INFO root fetch - main [MainThread]: Store serial: [22787024]
