@@ -3232,3 +3232,45 @@
 [2024-04-16 03:23:52] INFO root fetch - processPackages [iii-api-helper]: Remove: archive file [/home/abi/fetcher/tmp/iii_api_helper-0.0.9.tar.gz]
 [2024-04-16 03:23:52] INFO root fetch - main [MainThread]: End processing [iii-api-helper]: success
 [2024-04-16 03:23:52] INFO root fetch - main [MainThread]: Store serial: [22781184]
+[2024-04-16 03:25:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781184]
+[2024-04-16 03:26:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benanalysis
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediff
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebtorch
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediffx
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: speech-mongo-training-tools
+[2024-04-16 03:26:01] WARNING root fetch - processPackages [speech-mongo-training-tools]: Skipping, unable to determine old version
+[2024-04-16 03:26:01] INFO root fetch - main [MainThread]: End processing [speech-mongo-training-tools] error
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ebtorch]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202404150245] Old Version: [1.0.0.dev202404140132]
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202404150245] Old Version: [1.0.0.dev202404140132]
+[2024-04-16 03:26:01] INFO root fetch - processPackages [benanalysis]: New version: [4.0.6] Old Version: [4.0.5]
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/f6/0b/a141fd3156848e8d2e2fc182cbf6bf93f48c8fe81f58d13605672b1a15c6/ebtorch-0.9.8.tar.gz
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/b5/29/032ea71c78a531770b94839290ab7bdd09fe602e658711af92ddd90f6dc0/onediffx-1.0.0.dev202404140132.tar.gz
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/41/23/9f9a3a285f252cd3a590f32497a0ea5f558cd5afcff509805655695a2e21/onediff-1.0.0.dev202404140132.tar.gz
+[2024-04-16 03:26:01] INFO root fetch - processPackages [benanalysis]: Downloading https://files.pythonhosted.org/packages/34/64/73f1b694b52965d078aaeb58ac72ac82e5863d96aa0bca703e241270482b/benanalysis-4.0.5-cp39-cp39-win_amd64.whl
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/de/e0/a625d79a43753923a509b28ef3011cc592fc185573d78146dda1a45d149a/ebtorch-0.9.9.tar.gz
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/df/10/ed613b83e26f2f61c67c1ede64b03f0a6cb81118f0051cb053c5a38fb667/onediffx-1.0.0.dev202404150245.tar.gz
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b0/de/7eb355dbf466aaaa72a36df0d80810cb27794914d4e6750e07dfba196008/onediff-1.0.0.dev202404150245.tar.gz
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2024-04-16 03:26:01] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.8.tar.gz tmp/ebtorch-0.9.9.tar.gz --markdown 20240416/e/ebtorch/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404140132.tar.gz tmp/onediffx-1.0.0.dev202404150245.tar.gz --markdown 20240416/o/onediffx/1.0.0.dev202404140132-1.0.0.dev202404150245/README.md --exclude *.pyd
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-16 03:26:01] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202404140132.tar.gz tmp/onediff-1.0.0.dev202404150245.tar.gz --markdown 20240416/o/onediff/1.0.0.dev202404140132-1.0.0.dev202404150245/README.md --exclude *.pyd
+[2024-04-16 03:26:02] INFO root fetch - processPackages [benanalysis]: Downloading https://files.pythonhosted.org/packages/bd/84/b0708eee04a5eb263888df3fe8f390a1b0895b92175bcdf3eed9ef8ef24b/benanalysis-4.0.6-cp39-cp39-win_amd64.whl
+[2024-04-16 03:26:02] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404140132.tar.gz]
+[2024-04-16 03:26:02] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404150245.tar.gz]
+[2024-04-16 03:26:02] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-16 03:26:02] INFO root fetch - processPackages [benanalysis]: executing diffoscope
+[2024-04-16 03:26:02] INFO root fetch - processPackages [benanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benanalysis-4.0.5-cp39-cp39-win_amd64.whl.zip tmp/benanalysis-4.0.6-cp39-cp39-win_amd64.whl.zip --markdown 20240416/b/benanalysis/4.0.5-4.0.6/README.md --exclude *.pyd
+[2024-04-16 03:26:02] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404140132.tar.gz]
+[2024-04-16 03:26:02] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404150245.tar.gz]
+[2024-04-16 03:26:02] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-16 03:26:02] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.8.tar.gz]
+[2024-04-16 03:26:02] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.9.tar.gz]
+[2024-04-16 03:26:02] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2024-04-16 03:26:14] INFO root fetch - processPackages [benanalysis]: Remove: archive file [/home/abi/fetcher/tmp/benanalysis-4.0.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 03:26:14] INFO root fetch - processPackages [benanalysis]: Remove: archive file [/home/abi/fetcher/tmp/benanalysis-4.0.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 03:26:14] INFO root fetch - main [MainThread]: End processing [benanalysis]: success
+[2024-04-16 03:26:14] INFO root fetch - main [MainThread]: Store serial: [22781210]
