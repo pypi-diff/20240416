@@ -3635,3 +3635,33 @@
 [2024-04-16 03:52:52] INFO root fetch - processPackages [immanuel]: Remove: archive file [/home/abi/fetcher/tmp/immanuel-1.3.1.tar.gz]
 [2024-04-16 03:52:52] INFO root fetch - main [MainThread]: End processing [immanuel]: success
 [2024-04-16 03:52:52] INFO root fetch - main [MainThread]: Store serial: [22781396]
+[2024-04-16 03:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781396]
+[2024-04-16 03:55:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 03:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-mongo
+[2024-04-16 03:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpg-workflows
+[2024-04-16 03:55:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2024-04-16 03:55:00] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 03:55:00] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-16 03:55:00] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-16 03:55:00] INFO root fetch - processPackages [lazy-mongo]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 03:55:00] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-16 03:55:00] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/5f/67/fd563ecc5e92d93221857f8f8952b94f89fed4f792867937a9d5eecabace/lazy_mongo-0.2.2.tar.gz
+[2024-04-16 03:55:01] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-16 03:55:01] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-16 03:55:01] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-16 03:55:01] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240416/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 03:55:01] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/c9/be/e4195b62a834266cd1d93a30899d0674377ad87ce8da57f8f16485d854fc/lazy_mongo-0.2.3.tar.gz
+[2024-04-16 03:55:01] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-16 03:55:01] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240416/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-16 03:55:01] INFO root fetch - processPackages [lazy-mongo]: executing diffoscope
+[2024-04-16 03:55:01] INFO root fetch - processPackages [lazy-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_mongo-0.2.2.tar.gz tmp/lazy_mongo-0.2.3.tar.gz --markdown 20240416/l/lazy-mongo/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 03:55:01] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.2.2.tar.gz]
+[2024-04-16 03:55:01] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.2.3.tar.gz]
+[2024-04-16 03:55:01] INFO root fetch - main [MainThread]: End processing [lazy-mongo]: success
+[2024-04-16 03:55:02] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-16 03:55:02] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-16 03:55:02] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-16 03:55:02] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-16 03:55:02] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-16 03:55:02] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-16 03:55:02] INFO root fetch - main [MainThread]: Store serial: [22781405]
