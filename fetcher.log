@@ -2220,3 +2220,105 @@
 [2024-04-16 02:13:01] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc4.tar.gz]
 [2024-04-16 02:13:01] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-04-16 02:13:01] INFO root fetch - main [MainThread]: Store serial: [22780692]
+[2024-04-16 02:15:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780692]
+[2024-04-16 02:15:11] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-ignite
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CryptMaster
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: thepipe-api
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-gitlab-runner
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-core
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-skylight
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esbuild-py
+[2024-04-16 02:15:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elastic
+[2024-04-16 02:15:11] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [thepipe-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [elastic]: New version: [5.2.2.2] Old Version: [5.2.1.5]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240415] Old Version: [0.6.0.dev20240414]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [langchain-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/f3/ab/c339cda365542f789b22b966ff0587535ab2b4d0578f8ed2d8851288d70f/thepipe_api-0.1.8.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/8e/a4/25f72b4c0da4f3c21f7a75b19c6c8a9aed46c569be0a74f375186152c372/elastic-5.2.1.5.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [esbuild-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/78/d4/be7feafab43dccc838ae5b2529e18717d0135d401ea625fb2d575aff43d7/pytorch-ignite-0.6.0.dev20240414.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-16 02:15:11] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/cc/69/b95eb186fa3ff696ee719ed57a5e1f839c0cb3c40c82b1160696062f8b66/langchain_core-0.1.8.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [esbuild-py]: Downloading https://files.pythonhosted.org/packages/d3/e5/b0139ab4dee0c1a015dc6a20368f88202571e084922cbe223c4d4ad05834/esbuild_py-0.1.4.tar.gz
+[2024-04-16 02:15:11] INFO root fetch - processPackages [thepipe-api]: Downloading https://files.pythonhosted.org/packages/92/97/35b504dc780e8e994b1ad3ba43f095f5a8a03f71813669768258cc809a26/thepipe_api-0.1.9.tar.gz
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-04-16 02:15:12] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-04-16 02:15:12] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240416/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-16 02:15:12] INFO root fetch - processPackages [thepipe-api]: executing diffoscope
+[2024-04-16 02:15:12] INFO root fetch - processPackages [thepipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thepipe_api-0.1.8.tar.gz tmp/thepipe_api-0.1.9.tar.gz --markdown 20240416/t/thepipe-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 02:15:12] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/8f/37/af69c00bbfd671cb6b6361baedfa689958ab0a1c295a6c0b0b36631d40a0/elastic-5.2.2.2.tar.gz
+[2024-04-16 02:15:12] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/fe/de/8aab5e752b7241a1ba2747c5b64baf37b9aa0379269e54021a25d9aa43c5/pytorch-ignite-0.6.0.dev20240415.tar.gz
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240416/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-16 02:15:12] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/1b/97/8c742f024d6a7e8793382452545b4432130e5ac741883e6ebcd92f46fc53/langchain_core-0.1.9.tar.gz
+[2024-04-16 02:15:12] INFO root fetch - processPackages [elastic]: executing diffoscope
+[2024-04-16 02:15:12] INFO root fetch - processPackages [elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-5.2.1.5.tar.gz tmp/elastic-5.2.2.2.tar.gz --markdown 20240416/e/elastic/5.2.1.5-5.2.2.2/README.md --exclude *.pyd
+[2024-04-16 02:15:12] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-16 02:15:12] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240414.tar.gz tmp/pytorch-ignite-0.6.0.dev20240415.tar.gz --markdown 20240416/p/pytorch-ignite/0.6.0.dev20240414-0.6.0.dev20240415/README.md --exclude *.pyd
+[2024-04-16 02:15:12] INFO root fetch - processPackages [esbuild-py]: Downloading https://files.pythonhosted.org/packages/18/28/b0106265b84a2e0fb18e8bfa857cc641fba37584bfdd9c8212bafbbe5638/esbuild_py-0.1.5-cp39-cp39-musllinux_1_1_x86_64.whl
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-04-16 02:15:12] INFO root fetch - processPackages [langchain-core]: executing diffoscope
+[2024-04-16 02:15:12] INFO root fetch - processPackages [langchain-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_core-0.1.8.tar.gz tmp/langchain_core-0.1.9.tar.gz --markdown 20240416/l/langchain-core/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240416/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-04-16 02:15:12] INFO root fetch - processPackages [cdktf-gitlab-runner]: Start processing: Red-Web-Dashboard
+[2024-04-16 02:15:12] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-04-16 02:15:12] INFO root fetch - processPackages [Red-Web-Dashboard]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-16 02:15:12] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 02:15:13] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-16 02:15:13] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.1.8.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - processPackages [thepipe-api]: Remove: archive file [/home/abi/fetcher/tmp/thepipe_api-0.1.9.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - main [MainThread]: End processing [thepipe-api]: success
+[2024-04-16 02:15:13] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-16 02:15:13] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240416/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-16 02:15:13] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/ee/41/9808c736580154f6c75a089cca2229fced3e9d99f3bc076f4c1e652c1be0/red_web_dashboard-1.2.0.tar.gz
+[2024-04-16 02:15:13] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-04-16 02:15:13] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240414.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240415.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.8.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-16 02:15:13] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.9.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - main [MainThread]: End processing [langchain-core]: success
+[2024-04-16 02:15:13] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/8b/46/c02d5fbdf2f92ddf941c913052679270bc30849c57815a810ca0ab6fdf8c/red_web_dashboard-1.3.0.tar.gz
+[2024-04-16 02:15:13] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-16 02:15:13] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.1.5.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.2.tar.gz]
+[2024-04-16 02:15:13] INFO root fetch - main [MainThread]: End processing [elastic]: success
+[2024-04-16 02:15:13] INFO root fetch - processPackages [Red-Web-Dashboard]: executing diffoscope
+[2024-04-16 02:15:13] INFO root fetch - processPackages [Red-Web-Dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_web_dashboard-1.2.0.tar.gz tmp/red_web_dashboard-1.3.0.tar.gz --markdown 20240416/R/Red-Web-Dashboard/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-16 02:15:15] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.2.0.tar.gz]
+[2024-04-16 02:15:15] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.3.0.tar.gz]
+[2024-04-16 02:15:15] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
+[2024-04-16 02:15:19] INFO root fetch - processPackages [esbuild-py]: executing diffoscope
+[2024-04-16 02:15:19] INFO root fetch - processPackages [esbuild-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esbuild_py-0.1.4.tar.gz tmp/esbuild_py-0.1.5-cp39-cp39-musllinux_1_1_x86_64.whl.zip --markdown 20240416/e/esbuild-py/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 02:15:20] INFO root fetch - processPackages [esbuild-py]: Remove: archive file [/home/abi/fetcher/tmp/esbuild_py-0.1.4.tar.gz]
+[2024-04-16 02:15:20] INFO root fetch - processPackages [esbuild-py]: Remove: archive file [/home/abi/fetcher/tmp/esbuild_py-0.1.5-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2024-04-16 02:15:20] INFO root fetch - main [MainThread]: End processing [esbuild-py]: success
+[2024-04-16 02:15:20] INFO root fetch - main [MainThread]: Store serial: [22780768]
