@@ -6646,3 +6646,54 @@
 [2024-04-16 07:22:30] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1a1.tar.gz]
 [2024-04-16 07:22:30] INFO root fetch - main [MainThread]: End processing [bavisitter]: success
 [2024-04-16 07:22:30] INFO root fetch - main [MainThread]: Store serial: [22782831]
+[2024-04-16 07:24:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782831]
+[2024-04-16 07:24:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 07:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linktest
+[2024-04-16 07:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ALLMDEV
+[2024-04-16 07:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trm-woodburn
+[2024-04-16 07:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bavisitter
+[2024-04-16 07:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openst
+[2024-04-16 07:24:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaea-tracker
+[2024-04-16 07:24:39] INFO root fetch - processPackages [bavisitter]: New version: [0.0.2a0] Old Version: [0.0.1a1]
+[2024-04-16 07:24:39] INFO root fetch - processPackages [gaea-tracker]: New version: [1.2.0.4] Old Version: [1.2.0.3]
+[2024-04-16 07:24:39] INFO root fetch - processPackages [linktest]: New version: [2.4.6] Old Version: [2.4.5]
+[2024-04-16 07:24:39] INFO root fetch - processPackages [openst]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 07:24:39] INFO root fetch - processPackages [trm-woodburn]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 07:24:39] WARNING root fetch - processPackages [ALLMDEV]: Skipping, unable to determine old version
+[2024-04-16 07:24:39] INFO root fetch - main [MainThread]: End processing [ALLMDEV] error
+[2024-04-16 07:24:39] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/64/58/bb6aa3566e4f037abb770e60552c969c91a38c78040fa2711bf73c3498b7/bavisitter-0.0.1a1.tar.gz
+[2024-04-16 07:24:39] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/86/f9/7bc1b7f131e50cb03e6788598a83e0f6685df24d715f060a2efa5a8cf51a/gaea_tracker-1.2.0.3-py3-none-any.whl
+[2024-04-16 07:24:39] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/02/78/8f587dc0cdf5509d58ed00c5bec2f005d93ef1060d6151bbdf9c20015179/linktest-2.4.5.tar.gz
+[2024-04-16 07:24:39] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/a7/90/2e0653208c64b2f000bad1e0bf6dfd8523840e1b44f1bb6c9005715383d0/trm_woodburn-0.0.8.tar.gz
+[2024-04-16 07:24:39] INFO root fetch - processPackages [openst]: Downloading https://files.pythonhosted.org/packages/28/1f/6cb411c246cf53b7025aee8793ac1663078b72e800900bc86d63a4540c96/openst-0.0.7.tar.gz
+[2024-04-16 07:24:39] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/1c/7f/a8135f0cb59a6c5b025b518236adc9d6a58295a52f758b46414aa589b53e/gaea_tracker-1.2.0.4-py3-none-any.whl
+[2024-04-16 07:24:39] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/9c/52/1dbf0c3743671e8c68ee46e23a9262ac2ffe2769c7d0322d44ea4c05deff/trm_woodburn-0.0.9.tar.gz
+[2024-04-16 07:24:39] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/f4/8b/0c597bc114f8ee75bd9d3b097a0544c70c03b14d2d7203a58b0d1ff49126/linktest-2.4.6.tar.gz
+[2024-04-16 07:24:39] INFO root fetch - processPackages [openst]: Downloading https://files.pythonhosted.org/packages/fe/99/d584e8de52a334c5c8c7ca44594aef3cfb3f71f9f3f75fd02e29ce233100/openst-0.0.8.tar.gz
+[2024-04-16 07:24:39] INFO root fetch - processPackages [gaea-tracker]: executing diffoscope
+[2024-04-16 07:24:39] INFO root fetch - processPackages [gaea-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_tracker-1.2.0.3-py3-none-any.whl.zip tmp/gaea_tracker-1.2.0.4-py3-none-any.whl.zip --markdown 20240416/g/gaea-tracker/1.2.0.3-1.2.0.4/README.md --exclude *.pyd
+[2024-04-16 07:24:39] INFO root fetch - processPackages [trm-woodburn]: executing diffoscope
+[2024-04-16 07:24:39] INFO root fetch - processPackages [trm-woodburn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trm_woodburn-0.0.8.tar.gz tmp/trm_woodburn-0.0.9.tar.gz --markdown 20240416/t/trm-woodburn/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 07:24:39] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-16 07:24:39] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.4.5.tar.gz tmp/linktest-2.4.6.tar.gz --markdown 20240416/l/linktest/2.4.5-2.4.6/README.md --exclude *.pyd
+[2024-04-16 07:24:40] INFO root fetch - processPackages [openst]: executing diffoscope
+[2024-04-16 07:24:40] INFO root fetch - processPackages [openst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openst-0.0.7.tar.gz tmp/openst-0.0.8.tar.gz --markdown 20240416/o/openst/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 07:24:40] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/6a/f5/b927c8c39eb633ee8a513c3976ab45d6cb4860920290505d14046a60de7d/bavisitter-0.0.2a0.tar.gz
+[2024-04-16 07:24:40] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.3-py3-none-any.whl.zip]
+[2024-04-16 07:24:40] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.4-py3-none-any.whl.zip]
+[2024-04-16 07:24:40] INFO root fetch - main [MainThread]: End processing [gaea-tracker]: success
+[2024-04-16 07:24:40] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.8.tar.gz]
+[2024-04-16 07:24:40] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.9.tar.gz]
+[2024-04-16 07:24:40] INFO root fetch - main [MainThread]: End processing [trm-woodburn]: success
+[2024-04-16 07:24:40] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.5.tar.gz]
+[2024-04-16 07:24:40] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.6.tar.gz]
+[2024-04-16 07:24:40] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-16 07:24:40] INFO root fetch - processPackages [openst]: Remove: archive file [/home/abi/fetcher/tmp/openst-0.0.7.tar.gz]
+[2024-04-16 07:24:40] INFO root fetch - processPackages [openst]: Remove: archive file [/home/abi/fetcher/tmp/openst-0.0.8.tar.gz]
+[2024-04-16 07:24:40] INFO root fetch - main [MainThread]: End processing [openst]: success
+[2024-04-16 07:24:41] INFO root fetch - processPackages [bavisitter]: executing diffoscope
+[2024-04-16 07:24:41] INFO root fetch - processPackages [bavisitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bavisitter-0.0.1a1.tar.gz tmp/bavisitter-0.0.2a0.tar.gz --markdown 20240416/b/bavisitter/0.0.1a1-0.0.2a0/README.md --exclude *.pyd
+[2024-04-16 07:25:03] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1a1.tar.gz]
+[2024-04-16 07:25:03] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.2a0.tar.gz]
+[2024-04-16 07:25:03] INFO root fetch - main [MainThread]: End processing [bavisitter]: success
+[2024-04-16 07:25:03] INFO root fetch - main [MainThread]: Store serial: [22782849]
