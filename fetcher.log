@@ -4068,3 +4068,24 @@
 [2024-04-16 04:23:24] INFO root fetch - processPackages [ligo.skymap]: Remove: archive file [/home/abi/fetcher/tmp/ligo.skymap-2.0.0rc4.tar.gz]
 [2024-04-16 04:23:24] INFO root fetch - main [MainThread]: End processing [ligo.skymap]: success
 [2024-04-16 04:23:24] INFO root fetch - main [MainThread]: Store serial: [22781575]
+[2024-04-16 04:25:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781575]
+[2024-04-16 04:25:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 04:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-04-16 04:25:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: l3c
+[2024-04-16 04:25:33] INFO root fetch - processPackages [l3c]: New version: [0.1.0.1] Old Version: [0.1.0]
+[2024-04-16 04:25:33] INFO root fetch - processPackages [pyqqq]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-16 04:25:33] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/bf/3c/078a0dbd8778e58241cedba5eeaf8a303b0c320c9447cfbdde86ac7b4d11/pyqqq-0.7.6.tar.gz
+[2024-04-16 04:25:33] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/36/a9/b669396e712e9a6c8fae3ee71035b19d2e654daeca4e9d622b804ebd1833/l3c-0.1.0.tar.gz
+[2024-04-16 04:25:33] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/46/d9/bc3acfde542af1dbe64ef7bdd93da3f4118882b5843bb73f447074a730ed/l3c-0.1.0.1.tar.gz
+[2024-04-16 04:25:33] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/b8/66/f15bb9ed43db42ce6d76c176b22d5d551f72ae61682fae68b9d2dd0f5d3f/pyqqq-0.7.7.tar.gz
+[2024-04-16 04:25:33] INFO root fetch - processPackages [l3c]: executing diffoscope
+[2024-04-16 04:25:33] INFO root fetch - processPackages [l3c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l3c-0.1.0.tar.gz tmp/l3c-0.1.0.1.tar.gz --markdown 20240416/l/l3c/0.1.0-0.1.0.1/README.md --exclude *.pyd
+[2024-04-16 04:25:33] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-16 04:25:33] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.7.6.tar.gz tmp/pyqqq-0.7.7.tar.gz --markdown 20240416/p/pyqqq/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-04-16 04:25:34] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.6.tar.gz]
+[2024-04-16 04:25:34] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.7.tar.gz]
+[2024-04-16 04:25:34] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-16 04:25:34] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.tar.gz]
+[2024-04-16 04:25:34] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.1.tar.gz]
+[2024-04-16 04:25:34] INFO root fetch - main [MainThread]: End processing [l3c]: success
+[2024-04-16 04:25:34] INFO root fetch - main [MainThread]: Store serial: [22781583]
