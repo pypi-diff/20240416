@@ -21648,3 +21648,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:46:01] INFO root fetch - processPackages [lightshow]: Remove: archive file [/home/abi/fetcher/tmp/lightshow-1.2.3.tar.gz]
 [2024-04-16 16:46:01] INFO root fetch - main [MainThread]: End processing [lightshow]: success
 [2024-04-16 16:46:01] INFO root fetch - main [MainThread]: Store serial: [22789298]
+[2024-04-16 16:48:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789298]
+[2024-04-16 16:48:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 16:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal
+[2024-04-16 16:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal-client
+[2024-04-16 16:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fab-react-toolkit
+[2024-04-16 16:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pharmcat-runner
+[2024-04-16 16:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-repo-client
+[2024-04-16 16:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ntgcalls
+[2024-04-16 16:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentence-transformers-train-callable
+[2024-04-16 16:48:10] INFO root fetch - processPackages [pharmcat-runner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 16:48:10] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 16:48:10] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 16:48:10] INFO root fetch - processPackages [pharmcat-runner]: Downloading https://files.pythonhosted.org/packages/f5/f8/c65048769b1a74b37b9550ca7bc94a7ab59a729bccffaeaf97ed2fa186e1/pharmcat_runner-0.0.7.tar.gz
+[2024-04-16 16:48:10] WARNING root fetch - processPackages [sentence-transformers-train-callable]: Skipping, unable to determine old version
+[2024-04-16 16:48:10] INFO root fetch - main [MainThread]: End processing [sentence-transformers-train-callable] error
+[2024-04-16 16:48:10] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-16 16:48:10] INFO root fetch - processPackages [data-repo-client]: New version: [2.39.0] Old Version: [2.38.0]
+[2024-04-16 16:48:10] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-16 16:48:10] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-16 16:48:10] INFO root fetch - processPackages [ntgcalls]: New version: [1.2.0b9] Old Version: [1.2.0b8]
+[2024-04-16 16:48:10] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/02/eb/84c3d6f486a219de87709772eb634a44f75f220a75fe498a0a2a1f29199a/fab-react-toolkit-0.4.1.tar.gz
+[2024-04-16 16:48:10] INFO root fetch - processPackages [pharmcat-runner]: Downloading https://files.pythonhosted.org/packages/46/60/844014c15c2d8bb4eb5cfeeadfd9332157c9d9d1dae3ae6148e8a25df107/pharmcat_runner-0.0.8.tar.gz
+[2024-04-16 16:48:10] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-16 16:48:10] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/11/1f/c20f20c072ab0a815803be4cab1a81019e9ed13708ee6b18c1a57d74d3e1/data-repo-client-2.38.0.tar.gz
+[2024-04-16 16:48:10] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-16 16:48:11] INFO root fetch - processPackages [pharmcat-runner]: executing diffoscope
+[2024-04-16 16:48:11] INFO root fetch - processPackages [pharmcat-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharmcat_runner-0.0.7.tar.gz tmp/pharmcat_runner-0.0.8.tar.gz --markdown 20240416/p/pharmcat-runner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 16:48:11] INFO root fetch - processPackages [ntgcalls]: Downloading https://files.pythonhosted.org/packages/02/1c/2c9cbe7063a76be70bbc3f3e77ccc089c159693dc2e6eab7e14727e528ed/ntgcalls-1.2.0b8.tar.gz
+[2024-04-16 16:48:11] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-16 16:48:11] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 16:48:11] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-16 16:48:11] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 16:48:11] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/90/1e/3f74898b62a14653356249afd28d9f77ca33e08c29cc719c75b5d854afc6/fab_react_toolkit-0.4.2.tar.gz
+[2024-04-16 16:48:11] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/16/ef/63e7d2dbdbe7d84a694514a3872e8fa9fd6445c19a31bfff5e691e205a13/data-repo-client-2.39.0.tar.gz
+[2024-04-16 16:48:11] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-04-16 16:48:11] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab-react-toolkit-0.4.1.tar.gz tmp/fab_react_toolkit-0.4.2.tar.gz --markdown 20240416/f/fab-react-toolkit/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-16 16:48:11] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-04-16 16:48:11] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.38.0.tar.gz tmp/data-repo-client-2.39.0.tar.gz --markdown 20240416/d/data-repo-client/2.38.0-2.39.0/README.md --exclude *.pyd
+[2024-04-16 16:48:11] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 16:48:11] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 16:48:11] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-16 16:48:11] INFO root fetch - processPackages [pharmcat-runner]: Remove: archive file [/home/abi/fetcher/tmp/pharmcat_runner-0.0.7.tar.gz]
+[2024-04-16 16:48:11] INFO root fetch - processPackages [pharmcat-runner]: Remove: archive file [/home/abi/fetcher/tmp/pharmcat_runner-0.0.8.tar.gz]
+[2024-04-16 16:48:11] INFO root fetch - main [MainThread]: End processing [pharmcat-runner]: success
+[2024-04-16 16:48:11] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.4.1.tar.gz]
+[2024-04-16 16:48:11] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.2.tar.gz]
+[2024-04-16 16:48:11] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-04-16 16:48:12] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 16:48:12] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 16:48:12] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-16 16:48:13] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.38.0.tar.gz]
+[2024-04-16 16:48:13] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.39.0.tar.gz]
+[2024-04-16 16:48:13] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-04-16 16:48:13] INFO root fetch - processPackages [ntgcalls]: Downloading https://files.pythonhosted.org/packages/02/c2/34a28e461c46d812ee4702530b307c61df5ec3b3fde09afe9bc5bd5b2168/ntgcalls-1.2.0b9.tar.gz
+[2024-04-16 16:48:16] INFO root fetch - processPackages [ntgcalls]: executing diffoscope
+[2024-04-16 16:48:16] INFO root fetch - processPackages [ntgcalls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntgcalls-1.2.0b8.tar.gz tmp/ntgcalls-1.2.0b9.tar.gz --markdown 20240416/n/ntgcalls/1.2.0b8-1.2.0b9/README.md --exclude *.pyd
+[2024-04-16 16:48:21] INFO root fetch - processPackages [ntgcalls]: Remove: archive file [/home/abi/fetcher/tmp/ntgcalls-1.2.0b8.tar.gz]
+[2024-04-16 16:48:21] INFO root fetch - processPackages [ntgcalls]: Remove: archive file [/home/abi/fetcher/tmp/ntgcalls-1.2.0b9.tar.gz]
+[2024-04-16 16:48:21] INFO root fetch - main [MainThread]: End processing [ntgcalls]: success
+[2024-04-16 16:48:21] INFO root fetch - main [MainThread]: Store serial: [22789335]
