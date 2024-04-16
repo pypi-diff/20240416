@@ -21082,3 +21082,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:30:25] INFO root fetch - processPackages [analogic-framework]: Remove: archive file [/home/abi/fetcher/tmp/analogic-framework-4.1.9.tar.gz]
 [2024-04-16 16:30:25] INFO root fetch - main [MainThread]: End processing [analogic-framework]: success
 [2024-04-16 16:30:25] INFO root fetch - main [MainThread]: Store serial: [22788988]
+[2024-04-16 16:32:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788988]
+[2024-04-16 16:32:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 16:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: junifer
+[2024-04-16 16:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lama2923
+[2024-04-16 16:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zohocrmsdk2-1
+[2024-04-16 16:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lakefs
+[2024-04-16 16:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-core-dev
+[2024-04-16 16:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biosppy
+[2024-04-16 16:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syntrac-opentelemetry-instrumentation-langchain
+[2024-04-16 16:32:34] INFO root fetch - processPackages [lama2923]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 16:32:34] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 16:32:34] INFO root fetch - processPackages [junifer]: New version: [0.0.5.dev33] Old Version: [0.0.5.dev27]
+[2024-04-16 16:32:34] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/4b/54/86599a2e3af9937cf0a33de01698c88aa2ef3aa0c298a2170df5443d97fd/lama2923-1.0.0.tar.gz
+[2024-04-16 16:32:34] INFO root fetch - processPackages [biosppy]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-04-16 16:32:34] INFO root fetch - processPackages [lakefs]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-16 16:32:34] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:32:34] INFO root fetch - processPackages [zohocrmsdk2-1]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-04-16 16:32:34] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/4a/a0/fae4202dc7e27017437fbafdfdb9257b93f97fc3d65b2bca67f173871cab/composabl_core_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:32:35] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21365442>=10485760
+[2024-04-16 16:32:35] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-16 16:32:35] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/e8/02/e527ec3e947e3d19011b85c30d7cf1f71514d1160808b324e69d3ef43c7a/junifer-0.0.5.dev27.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [lakefs]: Downloading https://files.pythonhosted.org/packages/f1/c1/88f6ad3cb4a1b314279a24ad33244de20d12fe96e5d87048d295a7f1b3ea/lakefs-0.5.0.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [zohocrmsdk2-1]: Downloading https://files.pythonhosted.org/packages/c8/a8/202a4b12de2f8ed2d5fc432009cd835d61940b8afb941d4e6f3cb71292b5/zohocrmsdk2_1-2.1.0.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/f0/0c/dde00b31e0fce4baba4fdbc7a93fa88801373eea0097a90ba13469ff8805/lama2923-1.0.1.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: Downloading https://files.pythonhosted.org/packages/04/36/fe129bdba46f313997c873cd2307e33fe78993e8ed700c2b17d6e243cd7e/syntrac_opentelemetry_instrumentation_langchain-0.0.1.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [biosppy]: Downloading https://files.pythonhosted.org/packages/79/bf/b310de39ad990900042b2ce878afba38c8fffc81ef62d6dec51a1a800094/biosppy-2.1.2.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [lama2923]: executing diffoscope
+[2024-04-16 16:32:35] INFO root fetch - processPackages [lama2923]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama2923-1.0.0.tar.gz tmp/lama2923-1.0.1.tar.gz --markdown 20240416/l/lama2923/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 16:32:35] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/38/e7/4338ba543bdac1639203c70903417c990560a4179794f5cc6ee171f457aa/junifer-0.0.5.dev33.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [zohocrmsdk2-1]: Downloading https://files.pythonhosted.org/packages/fd/9c/a0f74297e4bc3a7f6562da34af0499027bd4ae021625604510e3ef1ab20f/zohocrmsdk2_1-3.0.0.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: Downloading https://files.pythonhosted.org/packages/a7/17/12527452faf9b77bea115cf2703bb3a2c77b9a9758886864a15bab94f612/syntrac_opentelemetry_instrumentation_langchain-0.0.2.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [biosppy]: Downloading https://files.pythonhosted.org/packages/4e/3c/51f6c39e3941ecaf87caefb4e31a0ab7605e5ac6b780f7e37518003d5ca2/biosppy-2.2.0.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [lakefs]: Downloading https://files.pythonhosted.org/packages/6f/46/1b6a34d3f197ae01cce0b867726fc3990b4e186af4890321ff7925cc1268/lakefs-0.6.0.tar.gz
+[2024-04-16 16:32:35] INFO root fetch - processPackages [zohocrmsdk2-1]: executing diffoscope
+[2024-04-16 16:32:35] INFO root fetch - processPackages [zohocrmsdk2-1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zohocrmsdk2_1-2.1.0.tar.gz tmp/zohocrmsdk2_1-3.0.0.tar.gz --markdown 20240416/z/zohocrmsdk2-1/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-04-16 16:32:35] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-04-16 16:32:35] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.5.dev27.tar.gz tmp/junifer-0.0.5.dev33.tar.gz --markdown 20240416/j/junifer/0.0.5.dev27-0.0.5.dev33/README.md --exclude *.pyd
+[2024-04-16 16:32:35] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: executing diffoscope
+[2024-04-16 16:32:35] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_langchain-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_langchain-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-langchain/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:32:35] INFO root fetch - processPackages [lakefs]: executing diffoscope
+[2024-04-16 16:32:35] INFO root fetch - processPackages [lakefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-0.5.0.tar.gz tmp/lakefs-0.6.0.tar.gz --markdown 20240416/l/lakefs/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-16 16:32:35] INFO root fetch - processPackages [biosppy]: executing diffoscope
+[2024-04-16 16:32:35] INFO root fetch - processPackages [biosppy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosppy-2.1.2.tar.gz tmp/biosppy-2.2.0.tar.gz --markdown 20240416/b/biosppy/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-04-16 16:32:35] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.0.tar.gz]
+[2024-04-16 16:32:35] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.1.tar.gz]
+[2024-04-16 16:32:35] INFO root fetch - main [MainThread]: End processing [lama2923]: success
+[2024-04-16 16:32:36] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_langchain-0.0.1.tar.gz]
+[2024-04-16 16:32:36] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-langchain]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_langchain-0.0.2.tar.gz]
+[2024-04-16 16:32:36] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-langchain]: success
+[2024-04-16 16:32:36] INFO root fetch - processPackages [lakefs]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-0.5.0.tar.gz]
+[2024-04-16 16:32:36] INFO root fetch - processPackages [lakefs]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-0.6.0.tar.gz]
+[2024-04-16 16:32:36] INFO root fetch - main [MainThread]: End processing [lakefs]: success
+[2024-04-16 16:32:36] INFO root fetch - processPackages [biosppy]: Remove: archive file [/home/abi/fetcher/tmp/biosppy-2.1.2.tar.gz]
+[2024-04-16 16:32:36] INFO root fetch - processPackages [biosppy]: Remove: archive file [/home/abi/fetcher/tmp/biosppy-2.2.0.tar.gz]
+[2024-04-16 16:32:36] INFO root fetch - main [MainThread]: End processing [biosppy]: success
+[2024-04-16 16:32:37] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev27.tar.gz]
+[2024-04-16 16:32:37] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev33.tar.gz]
+[2024-04-16 16:32:37] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-04-16 16:32:37] INFO root fetch - processPackages [zohocrmsdk2-1]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk2_1-2.1.0.tar.gz]
+[2024-04-16 16:32:37] INFO root fetch - processPackages [zohocrmsdk2-1]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk2_1-3.0.0.tar.gz]
+[2024-04-16 16:32:37] INFO root fetch - main [MainThread]: End processing [zohocrmsdk2-1]: success
+[2024-04-16 16:32:37] INFO root fetch - main [MainThread]: Store serial: [22789025]
