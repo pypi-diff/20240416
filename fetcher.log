@@ -20426,3 +20426,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:10:22] INFO root fetch - processPackages [jgdv]: Remove: archive file [/home/abi/fetcher/tmp/jgdv-0.1.1.tar.gz]
 [2024-04-16 16:10:22] INFO root fetch - main [MainThread]: End processing [jgdv]: success
 [2024-04-16 16:10:22] INFO root fetch - main [MainThread]: Store serial: [22788727]
+[2024-04-16 16:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788727]
+[2024-04-16 16:12:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 16:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: philander
+[2024-04-16 16:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GlobalPayments.Api
+[2024-04-16 16:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ops-py-azure-key-vault-report
+[2024-04-16 16:12:31] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-04-16 16:12:31] INFO root fetch - processPackages [philander]: New version: [0.1.2a0] Old Version: [0.1.1]
+[2024-04-16 16:12:31] INFO root fetch - processPackages [GlobalPayments.Api]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 16:12:31] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/84/d0/e31bc4697a92ecf721a7f08cd1f0514ae0f1df7e9def382d9ff3b66dce57/ops_py_azure_key_vault_report-5.0.0.tar.gz
+[2024-04-16 16:12:31] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/30/3d/15403695b4c676c13ebe8da87a64aa8a75efd39d5dc8459cebe37daf0824/philander-0.1.1.tar.gz
+[2024-04-16 16:12:31] INFO root fetch - processPackages [GlobalPayments.Api]: Downloading https://files.pythonhosted.org/packages/f2/6d/0cc2bbcc716855a06f8edce5d9abb5c114ea7f33bec211640d4ac65ae18a/GlobalPayments.Api-1.0.8.tar.gz
+[2024-04-16 16:12:31] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/3a/37/ea212fe9580be659d7154d62afb10e6e889e01fc4e1a064cd48bf3118b3d/ops_py_azure_key_vault_report-5.0.1.tar.gz
+[2024-04-16 16:12:31] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/84/d3/cfec04f85a744285c344b6e20a22812f7b1c8f94506380531da14fa9038e/philander-0.1.2a0.tar.gz
+[2024-04-16 16:12:31] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: executing diffoscope
+[2024-04-16 16:12:31] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops_py_azure_key_vault_report-5.0.0.tar.gz tmp/ops_py_azure_key_vault_report-5.0.1.tar.gz --markdown 20240416/o/ops-py-azure-key-vault-report/5.0.0-5.0.1/README.md --exclude *.pyd
+[2024-04-16 16:12:32] INFO root fetch - processPackages [philander]: executing diffoscope
+[2024-04-16 16:12:32] INFO root fetch - processPackages [philander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philander-0.1.1.tar.gz tmp/philander-0.1.2a0.tar.gz --markdown 20240416/p/philander/0.1.1-0.1.2a0/README.md --exclude *.pyd
+[2024-04-16 16:12:32] INFO root fetch - processPackages [GlobalPayments.Api]: Downloading https://files.pythonhosted.org/packages/95/c0/d983f8b25b8b0eb8f461992e722852de3e1ea92d7cb207177bb6b3296825/GlobalPayments.Api-1.0.9.tar.gz
+[2024-04-16 16:12:32] INFO root fetch - processPackages [GlobalPayments.Api]: executing diffoscope
+[2024-04-16 16:12:32] INFO root fetch - processPackages [GlobalPayments.Api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GlobalPayments.Api-1.0.8.tar.gz tmp/GlobalPayments.Api-1.0.9.tar.gz --markdown 20240416/G/GlobalPayments.Api/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 16:12:32] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_report-5.0.0.tar.gz]
+[2024-04-16 16:12:32] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_report-5.0.1.tar.gz]
+[2024-04-16 16:12:32] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-report]: success
+[2024-04-16 16:12:32] INFO root fetch - processPackages [GlobalPayments.Api]: Remove: archive file [/home/abi/fetcher/tmp/GlobalPayments.Api-1.0.8.tar.gz]
+[2024-04-16 16:12:32] INFO root fetch - processPackages [GlobalPayments.Api]: Remove: archive file [/home/abi/fetcher/tmp/GlobalPayments.Api-1.0.9.tar.gz]
+[2024-04-16 16:12:32] INFO root fetch - main [MainThread]: End processing [GlobalPayments.Api]: success
+[2024-04-16 16:12:38] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.1.tar.gz]
+[2024-04-16 16:12:38] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.2a0.tar.gz]
+[2024-04-16 16:12:38] INFO root fetch - main [MainThread]: End processing [philander]: success
+[2024-04-16 16:12:38] INFO root fetch - main [MainThread]: Store serial: [22788735]
