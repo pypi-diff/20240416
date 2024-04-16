@@ -22645,3 +22645,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:14:10] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
 [2024-04-16 17:14:10] INFO root fetch - main [MainThread]: End processing [irispie]: success
 [2024-04-16 17:14:10] INFO root fetch - main [MainThread]: Store serial: [22789720]
+[2024-04-16 17:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789720]
+[2024-04-16 17:16:20] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bicleaner-ai
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BrickBundles
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BrickAgx
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ruleopt
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DragonPyEmulator
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: utubes
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coworks
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OASYS1-ESRF-Extensions
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tahrir-api
+[2024-04-16 17:16:20] INFO root fetch - processPackages [bicleaner-ai]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-16 17:16:20] INFO root fetch - processPackages [utubes]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-16 17:16:20] INFO root fetch - processPackages [coworks]: New version: [0.9.4a2] Old Version: [0.9.4a1]
+[2024-04-16 17:16:20] INFO root fetch - processPackages [DragonPyEmulator]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-16 17:16:20] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/13/28/36f54e1fe793c6dbcb8c95cf17892a28f4ceeae1bdc675df1c455d917386/utubes-0.0.5.tar.gz
+[2024-04-16 17:16:20] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/d4/fd/7c268333c5bae4298430aa2b6c1db4821c6694b4e5edc074a5fbd277060a/coworks-0.9.4a1.tar.gz
+[2024-04-16 17:16:20] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/11/c7/4652f403d6a9e5fdcac981ca152385dd61132e4ea3b7919a0c2e5461efa7/bicleaner_ai-3.0.0.tar.gz
+[2024-04-16 17:16:20] INFO root fetch - processPackages [OASYS1-ESRF-Extensions]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 17:16:20] INFO root fetch - processPackages [BrickBundles]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-16 17:16:20] INFO root fetch - processPackages [BrickAgx]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-16 17:16:20] INFO root fetch - processPackages [tahrir-api]: New version: [1.0.0] Old Version: [0.8.1]
+[2024-04-16 17:16:20] INFO root fetch - processPackages [ruleopt]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-16 17:16:21] INFO root fetch - processPackages [DragonPyEmulator]: Downloading https://files.pythonhosted.org/packages/84/c8/264788140a564c6adba3905cb4ec0fe19f3b715b005db01fa8753abb8ede/DragonPyEmulator-0.9.1.tar.gz
+[2024-04-16 17:16:21] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/57/28/5bd580fa6ee62ce3cb9d6bfe4c4f14d81bd4999be3a367f2aeca96bf5419/brickbundles-0.6.0-py3-none-any.whl
+[2024-04-16 17:16:21] INFO root fetch - processPackages [OASYS1-ESRF-Extensions]: Downloading https://files.pythonhosted.org/packages/ae/bc/b3739d36258ff540cef2a09d28f0d148b0f7b4363a63477bacecad24248f/OASYS1-ESRF-Extensions-0.0.8.tar.gz
+[2024-04-16 17:16:21] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/f3/8e/e5661e71515c04ddd3ba086fe487756ff08d6a04f4b41e558cdd4e9edb9b/brickagx-0.6.0-cp39-cp39-win_amd64.whl
+[2024-04-16 17:16:21] INFO root fetch - processPackages [ruleopt]: Downloading https://files.pythonhosted.org/packages/c6/41/ceed12f7613268e02940aa2dd16b0d11cb9b4d66325637d4c0351be294d4/ruleopt-0.1.5-cp39-cp39-win_amd64.whl
+[2024-04-16 17:16:21] INFO root fetch - processPackages [tahrir-api]: Downloading https://files.pythonhosted.org/packages/4f/ef/ce3144508877aa94fa0e49dfd134dc1979d5502a656fd1b7589253643a2b/tahrir-api-0.8.1.tar.gz
+[2024-04-16 17:16:21] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/62/72/bddc71767b1d38d7c809c22e413a33ae8ddb705309a7700efe4290c5e0e3/utubes-0.0.6.tar.gz
+[2024-04-16 17:16:21] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/99/ab/f617d2845a2744f4ffa38a8c8ed8b08bbad31f832420d335d28dd6cb7168/bicleaner_ai-3.0.1.tar.gz
+[2024-04-16 17:16:21] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/bb/0a/df67d43c1286e44646a76a378b8b4ca71ab0c8561038e34ffffe7e5fb551/coworks-0.9.4a2.tar.gz
+[2024-04-16 17:16:21] INFO root fetch - processPackages [utubes]: executing diffoscope
+[2024-04-16 17:16:21] INFO root fetch - processPackages [utubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utubes-0.0.5.tar.gz tmp/utubes-0.0.6.tar.gz --markdown 20240416/u/utubes/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-16 17:16:21] INFO root fetch - processPackages [bicleaner-ai]: executing diffoscope
+[2024-04-16 17:16:21] INFO root fetch - processPackages [bicleaner-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bicleaner_ai-3.0.0.tar.gz tmp/bicleaner_ai-3.0.1.tar.gz --markdown 20240416/b/bicleaner-ai/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-16 17:16:21] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/00/2d/33f85a04fc4bb5598e994c3f42795219b822b14625fcdbfe220c944d7c97/brickbundles-0.6.1-py3-none-any.whl
+[2024-04-16 17:16:21] INFO root fetch - processPackages [coworks]: executing diffoscope
+[2024-04-16 17:16:21] INFO root fetch - processPackages [coworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coworks-0.9.4a1.tar.gz tmp/coworks-0.9.4a2.tar.gz --markdown 20240416/c/coworks/0.9.4a1-0.9.4a2/README.md --exclude *.pyd
+[2024-04-16 17:16:21] INFO root fetch - processPackages [tahrir-api]: Downloading https://files.pythonhosted.org/packages/ff/f0/bbf743e5fb1d271c00780ec73afdcb216d6364b994ab103d881333345dc9/tahrir_api-1.0.0.tar.gz
+[2024-04-16 17:16:21] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-04-16 17:16:21] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.6.0-py3-none-any.whl.zip tmp/brickbundles-0.6.1-py3-none-any.whl.zip --markdown 20240416/B/BrickBundles/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-16 17:16:21] INFO root fetch - processPackages [ruleopt]: Downloading https://files.pythonhosted.org/packages/bf/a4/abafe32bca14b9f029148ee97537d289cecf4f0059f0e31f3b28f34ec280/ruleopt-0.1.6-cp39-cp39-macosx_11_0_arm64.whl
+[2024-04-16 17:16:21] INFO root fetch - processPackages [DragonPyEmulator]: Downloading https://files.pythonhosted.org/packages/bc/4b/ebf3b4761e064655fcd90c0361ef7a12d571992461a878a327c9d9581794/dragonpyemulator-0.9.2.tar.gz
+[2024-04-16 17:16:21] INFO root fetch - processPackages [tahrir-api]: executing diffoscope
+[2024-04-16 17:16:21] INFO root fetch - processPackages [tahrir-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tahrir-api-0.8.1.tar.gz tmp/tahrir_api-1.0.0.tar.gz --markdown 20240416/t/tahrir-api/0.8.1-1.0.0/README.md --exclude *.pyd
+[2024-04-16 17:16:21] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/1c/7f/b1d61f95e2a20dbfc4bf27e49d57ba38c735dfb40252f67b360562facca1/brickagx-0.6.1-cp39-cp39-win_amd64.whl
+[2024-04-16 17:16:21] INFO root fetch - processPackages [OASYS1-ESRF-Extensions]: Downloading https://files.pythonhosted.org/packages/3e/c4/eab574cede9a1f555be342bc1ae103760e7fcd991cd6ccf7c4e2375e4184/OASYS1-ESRF-Extensions-0.0.9.tar.gz
+[2024-04-16 17:16:21] INFO root fetch - processPackages [ruleopt]: executing diffoscope
+[2024-04-16 17:16:21] INFO root fetch - processPackages [ruleopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleopt-0.1.5-cp39-cp39-win_amd64.whl.zip tmp/ruleopt-0.1.6-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240416/r/ruleopt/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-16 17:16:22] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.5.tar.gz]
+[2024-04-16 17:16:22] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.6.tar.gz]
+[2024-04-16 17:16:22] INFO root fetch - main [MainThread]: End processing [utubes]: success
+[2024-04-16 17:16:22] INFO root fetch - processPackages [DragonPyEmulator]: executing diffoscope
+[2024-04-16 17:16:22] INFO root fetch - processPackages [DragonPyEmulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DragonPyEmulator-0.9.1.tar.gz tmp/dragonpyemulator-0.9.2.tar.gz --markdown 20240416/D/DragonPyEmulator/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-16 17:16:22] INFO root fetch - processPackages [coworks]: Remove: archive file [/home/abi/fetcher/tmp/coworks-0.9.4a1.tar.gz]
+[2024-04-16 17:16:22] INFO root fetch - processPackages [coworks]: Remove: archive file [/home/abi/fetcher/tmp/coworks-0.9.4a2.tar.gz]
+[2024-04-16 17:16:22] INFO root fetch - main [MainThread]: End processing [coworks]: success
+[2024-04-16 17:16:22] INFO root fetch - processPackages [OASYS1-ESRF-Extensions]: executing diffoscope
+[2024-04-16 17:16:22] INFO root fetch - processPackages [OASYS1-ESRF-Extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OASYS1-ESRF-Extensions-0.0.8.tar.gz tmp/OASYS1-ESRF-Extensions-0.0.9.tar.gz --markdown 20240416/O/OASYS1-ESRF-Extensions/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 17:16:22] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner_ai-3.0.0.tar.gz]
+[2024-04-16 17:16:22] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner_ai-3.0.1.tar.gz]
+[2024-04-16 17:16:22] INFO root fetch - main [MainThread]: End processing [bicleaner-ai]: success
+[2024-04-16 17:16:22] INFO root fetch - processPackages [tahrir-api]: Remove: archive file [/home/abi/fetcher/tmp/tahrir-api-0.8.1.tar.gz]
+[2024-04-16 17:16:22] INFO root fetch - processPackages [tahrir-api]: Remove: archive file [/home/abi/fetcher/tmp/tahrir_api-1.0.0.tar.gz]
+[2024-04-16 17:16:22] INFO root fetch - main [MainThread]: End processing [tahrir-api]: success
+[2024-04-16 17:16:23] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.6.0-py3-none-any.whl.zip]
+[2024-04-16 17:16:23] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.6.1-py3-none-any.whl.zip]
+[2024-04-16 17:16:23] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-04-16 17:16:23] INFO root fetch - processPackages [ruleopt]: Remove: archive file [/home/abi/fetcher/tmp/ruleopt-0.1.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 17:16:23] INFO root fetch - processPackages [ruleopt]: Remove: archive file [/home/abi/fetcher/tmp/ruleopt-0.1.6-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-04-16 17:16:23] INFO root fetch - main [MainThread]: End processing [ruleopt]: success
+[2024-04-16 17:16:23] INFO root fetch - processPackages [OASYS1-ESRF-Extensions]: Remove: archive file [/home/abi/fetcher/tmp/OASYS1-ESRF-Extensions-0.0.8.tar.gz]
+[2024-04-16 17:16:23] INFO root fetch - processPackages [OASYS1-ESRF-Extensions]: Remove: archive file [/home/abi/fetcher/tmp/OASYS1-ESRF-Extensions-0.0.9.tar.gz]
+[2024-04-16 17:16:23] INFO root fetch - main [MainThread]: End processing [OASYS1-ESRF-Extensions]: success
+[2024-04-16 17:16:23] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-04-16 17:16:23] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.6.0-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.6.1-cp39-cp39-win_amd64.whl.zip --markdown 20240416/B/BrickAgx/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-16 17:16:23] INFO root fetch - processPackages [DragonPyEmulator]: Remove: archive file [/home/abi/fetcher/tmp/DragonPyEmulator-0.9.1.tar.gz]
+[2024-04-16 17:16:23] INFO root fetch - processPackages [DragonPyEmulator]: Remove: archive file [/home/abi/fetcher/tmp/dragonpyemulator-0.9.2.tar.gz]
+[2024-04-16 17:16:23] INFO root fetch - main [MainThread]: End processing [DragonPyEmulator]: success
+[2024-04-16 17:16:25] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.6.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 17:16:25] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.6.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 17:16:25] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-04-16 17:16:25] INFO root fetch - main [MainThread]: Store serial: [22789754]
