@@ -13820,3 +13820,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:10:18] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041509.tar.gz]
 [2024-04-16 12:10:18] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-04-16 12:10:18] INFO root fetch - main [MainThread]: Store serial: [22786017]
+[2024-04-16 12:12:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786017]
+[2024-04-16 12:12:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 12:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KUtil-jakubaugustyn
+[2024-04-16 12:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jiebanlp
+[2024-04-16 12:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corebridge
+[2024-04-16 12:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: admap
+[2024-04-16 12:12:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hahomematic
+[2024-04-16 12:12:27] INFO root fetch - processPackages [admap]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-16 12:12:27] INFO root fetch - processPackages [jiebanlp]: New version: [2.1.0] Old Version: [1.1.0]
+[2024-04-16 12:12:27] INFO root fetch - processPackages [admap]: Downloading https://files.pythonhosted.org/packages/bf/de/5f8fb2c482a04caa4c5794e8628d7d5c06b0b81050252aff61576beb1844/admap-2.0.1.tar.gz
+[2024-04-16 12:12:27] INFO root fetch - processPackages [corebridge]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-04-16 12:12:27] INFO root fetch - processPackages [KUtil-jakubaugustyn]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 12:12:27] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/f0/c2/04afe01f1fdc3f41e6068cf1c6275d1d6455c531d485a26a0c359a4b1b25/jiebanlp-1.1.0.tar.gz
+[2024-04-16 12:12:28] INFO root fetch - processPackages [hahomematic]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-16 12:12:28] INFO root fetch - processPackages [corebridge]: Downloading https://files.pythonhosted.org/packages/a0/d1/cd43c2a09888f35c0cd72b321a00a5bc7d84d2f3fdd4b6ec3693af7c146e/corebridge-0.0.3.tar.gz
+[2024-04-16 12:12:28] INFO root fetch - processPackages [KUtil-jakubaugustyn]: Downloading https://files.pythonhosted.org/packages/93/d6/312882d5ebe23346ed6fcba0d30e798087496c86e39764ff0d92069a47f6/KUtil-jakubaugustyn-0.0.3.tar.gz
+[2024-04-16 12:12:28] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/89/db/b6ed8e6f8c004c1045bb18c3a0582f5609730d9afada53264a277c2e2dab/jiebanlp-2.1.0.tar.gz
+[2024-04-16 12:12:28] INFO root fetch - processPackages [admap]: Downloading https://files.pythonhosted.org/packages/a5/a5/9049a27c59119f1511e8cd8165e012eb967ce53902a9b09d81e82969e200/admap-2.0.2.tar.gz
+[2024-04-16 12:12:28] INFO root fetch - processPackages [jiebanlp]: executing diffoscope
+[2024-04-16 12:12:28] INFO root fetch - processPackages [jiebanlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiebanlp-1.1.0.tar.gz tmp/jiebanlp-2.1.0.tar.gz --markdown 20240416/j/jiebanlp/1.1.0-2.1.0/README.md --exclude *.pyd
+[2024-04-16 12:12:28] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/60/ea/c36247a154b2207b2475325aed66f4fabc64bf9b6e288fdf0cd9d66a6e45/hahomematic-2024.4.7.tar.gz
+[2024-04-16 12:12:28] INFO root fetch - processPackages [admap]: executing diffoscope
+[2024-04-16 12:12:28] INFO root fetch - processPackages [admap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admap-2.0.1.tar.gz tmp/admap-2.0.2.tar.gz --markdown 20240416/a/admap/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-16 12:12:28] INFO root fetch - processPackages [KUtil-jakubaugustyn]: Downloading https://files.pythonhosted.org/packages/c9/32/8b2a25e31ec7d1360867302a43a8f573936b9972ddecfd9901705d213a14/kutil_jakubaugustyn-0.0.4.tar.gz
+[2024-04-16 12:12:28] INFO root fetch - processPackages [corebridge]: Downloading https://files.pythonhosted.org/packages/ea/d8/c05cb93a9ac3e1231122b083c7c811096de2db1c66866633119d8f709b0f/corebridge-0.0.5.tar.gz
+[2024-04-16 12:12:28] INFO root fetch - processPackages [KUtil-jakubaugustyn]: executing diffoscope
+[2024-04-16 12:12:28] INFO root fetch - processPackages [KUtil-jakubaugustyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KUtil-jakubaugustyn-0.0.3.tar.gz tmp/kutil_jakubaugustyn-0.0.4.tar.gz --markdown 20240416/K/KUtil-jakubaugustyn/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 12:12:28] INFO root fetch - processPackages [corebridge]: executing diffoscope
+[2024-04-16 12:12:28] INFO root fetch - processPackages [corebridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corebridge-0.0.3.tar.gz tmp/corebridge-0.0.5.tar.gz --markdown 20240416/c/corebridge/0.0.3-0.0.5/README.md --exclude *.pyd
+[2024-04-16 12:12:28] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/58/91/e03813874aa18ae00ecc64dffa2073f0b67908d208a491a95dd8b9131bbc/hahomematic-2024.4.8.tar.gz
+[2024-04-16 12:12:28] INFO root fetch - processPackages [admap]: Remove: archive file [/home/abi/fetcher/tmp/admap-2.0.1.tar.gz]
+[2024-04-16 12:12:28] INFO root fetch - processPackages [admap]: Remove: archive file [/home/abi/fetcher/tmp/admap-2.0.2.tar.gz]
+[2024-04-16 12:12:28] INFO root fetch - main [MainThread]: End processing [admap]: success
+[2024-04-16 12:12:28] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-04-16 12:12:28] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.4.7.tar.gz tmp/hahomematic-2024.4.8.tar.gz --markdown 20240416/h/hahomematic/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-16 12:12:29] INFO root fetch - processPackages [corebridge]: Remove: archive file [/home/abi/fetcher/tmp/corebridge-0.0.3.tar.gz]
+[2024-04-16 12:12:29] INFO root fetch - processPackages [corebridge]: Remove: archive file [/home/abi/fetcher/tmp/corebridge-0.0.5.tar.gz]
+[2024-04-16 12:12:29] INFO root fetch - main [MainThread]: End processing [corebridge]: success
+[2024-04-16 12:12:29] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-1.1.0.tar.gz]
+[2024-04-16 12:12:29] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-2.1.0.tar.gz]
+[2024-04-16 12:12:29] INFO root fetch - main [MainThread]: End processing [jiebanlp]: success
+[2024-04-16 12:12:29] INFO root fetch - processPackages [KUtil-jakubaugustyn]: Remove: archive file [/home/abi/fetcher/tmp/KUtil-jakubaugustyn-0.0.3.tar.gz]
+[2024-04-16 12:12:29] INFO root fetch - processPackages [KUtil-jakubaugustyn]: Remove: archive file [/home/abi/fetcher/tmp/kutil_jakubaugustyn-0.0.4.tar.gz]
+[2024-04-16 12:12:29] INFO root fetch - main [MainThread]: End processing [KUtil-jakubaugustyn]: success
+[2024-04-16 12:12:30] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.7.tar.gz]
+[2024-04-16 12:12:30] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.8.tar.gz]
+[2024-04-16 12:12:30] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-04-16 12:12:30] INFO root fetch - main [MainThread]: Store serial: [22786037]
