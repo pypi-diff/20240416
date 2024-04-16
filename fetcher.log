@@ -18074,3 +18074,209 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:58:27] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-04-16 14:58:27] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-04-16 14:58:27] INFO root fetch - main [MainThread]: Store serial: [22787792]
+[2024-04-16 15:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787792]
+[2024-04-16 15:00:36] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: design.plone.contenttypes
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari-stress
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redhat-qe-cloud-tools
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: climsight
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rosa-python-client
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openshift-python-utilities
+[2024-04-16 15:00:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openshift-python-wrapper
+[2024-04-16 15:00:36] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [napari-stress]: New version: [0.3.5] Old Version: [0.3.3]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [climsight]: New version: [0.2.0] Old Version: [0.0.1]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [openshift-python-utilities]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.81]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.2.3] Old Version: [6.2.2]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-16 15:00:36] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-16 15:00:36] INFO root fetch - processPackages [napari-stress]: Downloading https://files.pythonhosted.org/packages/5a/6c/fac427647eec2169c7236e281de4ef5efb7660bc310c3d3e345970000da3/napari_stress-0.3.3.tar.gz
+[2024-04-16 15:00:36] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/36/2a/4d3b56746e3b9605accd9dd265f6e6e9e986b3926bf9d2121ad5aad83999/rosa_python_client-1.0.81.tar.gz
+[2024-04-16 15:00:36] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-16 15:00:36] INFO root fetch - processPackages [climsight]: Downloading https://files.pythonhosted.org/packages/74/b8/8cf0aca411423a5ac1363a837ebe905343c1503961efad5170827df379e3/climsight-0.0.1.tar.gz
+[2024-04-16 15:00:36] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2024-04-16 15:00:36] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-16 15:00:36] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/b7/61/e342e9c3a0627bb3b27e538437a296ba6764aed1e50c6d1cc4d597cde127/design.plone.contenttypes-6.2.2.tar.gz
+[2024-04-16 15:00:36] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/a1/84/0ac268323fbbc1a4a48fcfe6455c6dbedf14088e2e9907e1466ec7e5e972/openshift_python_utilities-5.0.8.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-16 15:00:37] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240416/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-16 15:00:37] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [climsight]: Downloading https://files.pythonhosted.org/packages/55/a2/a9979ecc91734adef0e5c7e7f78cbd6e6e6c49b35f8fbf7a1e06744e21d2/climsight-0.2.0.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2024-04-16 15:00:37] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.81.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20240416/r/rosa-python-client/1.0.81-1.0.9/README.md --exclude *.pyd
+[2024-04-16 15:00:37] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/7b/78/66d243a59e9422cfcadc2d7b5152e1df536abf957977cb00100cbd7f1164/design.plone.contenttypes-6.2.3.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2024-04-16 15:00:37] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.8.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20240416/r/redhat-qe-cloud-tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 15:00:37] INFO root fetch - processPackages [climsight]: executing diffoscope
+[2024-04-16 15:00:37] INFO root fetch - processPackages [climsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/climsight-0.0.1.tar.gz tmp/climsight-0.2.0.tar.gz --markdown 20240416/c/climsight/0.0.1-0.2.0/README.md --exclude *.pyd
+[2024-04-16 15:00:37] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/3c/95/4138254900b73e3ff11e5c55d9ea9996866a1087a8366f13039f0590e401/openshift_python_utilities-5.0.9.tar.gz
+[2024-04-16 15:00:37] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-16 15:00:37] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240416/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-16 15:00:37] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-16 15:00:37] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240416/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-16 15:00:37] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-04-16 15:00:37] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240416/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/README.md --exclude *.pyd
+[2024-04-16 15:00:37] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2024-04-16 15:00:37] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.2.2.tar.gz tmp/design.plone.contenttypes-6.2.3.tar.gz --markdown 20240416/d/design.plone.contenttypes/6.2.2-6.2.3/README.md --exclude *.pyd
+[2024-04-16 15:00:37] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2024-04-16 15:00:37] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_python_utilities-5.0.8.tar.gz tmp/openshift_python_utilities-5.0.9.tar.gz --markdown 20240416/o/openshift-python-utilities/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-04-16 15:00:37] INFO root fetch - processPackages [napari-stress]: Downloading https://files.pythonhosted.org/packages/84/c0/0c59c0b34a606875e861c6c98ddbdbb1d566dc51f5cbccf8d69bd6de8c45/napari_stress-0.3.5.tar.gz
+[2024-04-16 15:00:38] INFO root fetch - processPackages [napari-stress]: executing diffoscope
+[2024-04-16 15:00:38] INFO root fetch - processPackages [napari-stress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_stress-0.3.3.tar.gz tmp/napari_stress-0.3.5.tar.gz --markdown 20240416/n/napari-stress/0.3.3-0.3.5/README.md --exclude *.pyd
+[2024-04-16 15:00:38] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.81.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [rosa-python-client]: Start processing: openshift-python-wrapper
+[2024-04-16 15:00:38] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2024-04-16 15:00:38] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [climsight]: Remove: archive file [/home/abi/fetcher/tmp/climsight-0.0.1.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [climsight]: Remove: archive file [/home/abi/fetcher/tmp/climsight-0.2.0.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [climsight]: Start processing: HawaData
+[2024-04-16 15:00:38] INFO root fetch - main [MainThread]: End processing [climsight]: success
+[2024-04-16 15:00:38] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Start processing: AIPyS
+[2024-04-16 15:00:38] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2024-04-16 15:00:38] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-04-16 15:00:38] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240416/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/README.md --exclude *.pyd
+[2024-04-16 15:00:38] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [AIPyS]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-16 15:00:38] INFO root fetch - processPackages [AIPyS]: Downloading https://files.pythonhosted.org/packages/2b/f2/baee6dcf64c3fff24d14266612b4e56c11a41639da884fb85ab6909e2731/AIPyS-0.0.4.tar.gz
+[2024-04-16 15:00:38] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: composio-core
+[2024-04-16 15:00:38] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-16 15:00:38] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_utilities-5.0.8.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_utilities-5.0.9.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [openshift-python-utilities]: Start processing: gov-uk-dashboards
+[2024-04-16 15:00:38] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2024-04-16 15:00:38] INFO root fetch - processPackages [composio-core]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [openshift-python-wrapper]: Start processing: composio-langchain
+[2024-04-16 15:00:38] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-04-16 15:00:38] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-16 15:00:38] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-04-16 15:00:38] INFO root fetch - processPackages [AIPyS]: Downloading https://files.pythonhosted.org/packages/64/e5/9b81b447f3baf81bb401a0a52578a451251ca24f86d7c8af6e773eb1da67/AIPyS-0.0.5.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-16 15:00:39] ERROR root fetch - processPackages [openshift-python-wrapper]: Diffoscope failed: time="2024-04-16T15:00:38+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/openshift-python-wrapper-4.9.7.12.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/openshift-python-wrapper-4.9.9.12.tar.gz: No such file or directory
+
+[2024-04-16 15:00:39] INFO root fetch - processPackages [openshift-python-wrapper]: Start processing: smaht-submitr
+[2024-04-16 15:00:39] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper] error
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/ad/ff/fd68e64d29e0d70d6e05f8aa2e5206bcd05db27d67a919d1580ddb7960a4/composio_langchain-0.2.3.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-16 15:00:39] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240416/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-16 15:00:39] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/35/13/ac0f003a9e29f1058b11fc2f0d90728189d7649d829984266cc381eb5edf/composio_core-0.2.4.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [AIPyS]: executing diffoscope
+[2024-04-16 15:00:39] INFO root fetch - processPackages [AIPyS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIPyS-0.0.4.tar.gz tmp/AIPyS-0.0.5.tar.gz --markdown 20240416/A/AIPyS/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 15:00:39] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-16 15:00:39] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-16 15:00:39] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: openshift-python-wrapper
+[2024-04-16 15:00:39] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-16 15:00:39] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/13/80/8b2f5df63810118569dd70f11c7815519bf65363ed7112011c1a18db5455/composio_core-0.2.5.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/ad/dc/80de69cbe32b91258e0a71bc42ce131c96afb7243f7415343fb780052db8/composio_langchain-0.2.4.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [napari-stress]: Remove: archive file [/home/abi/fetcher/tmp/napari_stress-0.3.3.tar.gz]
+[2024-04-16 15:00:39] INFO root fetch - processPackages [napari-stress]: Remove: archive file [/home/abi/fetcher/tmp/napari_stress-0.3.5.tar.gz]
+[2024-04-16 15:00:39] INFO root fetch - processPackages [napari-stress]: Start processing: composio-crewai
+[2024-04-16 15:00:39] INFO root fetch - main [MainThread]: End processing [napari-stress]: success
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.3.tar.gz tmp/composio_langchain-0.2.4.tar.gz --markdown 20240416/c/composio-langchain/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/59/53/f600846b33db5f673176406176194a57df8fb68fada8f14b5948b1bc57bd/composio_crewai-0.2.3.tar.gz
+[2024-04-16 15:00:39] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-16 15:00:39] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240416/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-16 15:00:39] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2024-04-16 15:00:39] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20240416/g/gov-uk-dashboards/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-16 15:00:39] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.4.tar.gz tmp/composio_core-0.2.5.tar.gz --markdown 20240416/c/composio-core/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 15:00:39] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-04-16 15:00:40] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [HawaData]: Start processing: composio-autogen
+[2024-04-16 15:00:40] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-16 15:00:40] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-04-16 15:00:40] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240416/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/README.md --exclude *.pyd
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/d4/1f/3b71c5d7bf6e68465a69152c9784e7e7fad90b0b2dc714d16bf945827f8e/composio_crewai-0.2.4.tar.gz
+[2024-04-16 15:00:40] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.2.2.tar.gz]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [design.plone.contenttypes]: Remove: archive file [/home/abi/fetcher/tmp/design.plone.contenttypes-6.2.3.tar.gz]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [design.plone.contenttypes]: Start processing: llmware
+[2024-04-16 15:00:40] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/d2/cb/0199e4fc19a97cce28f257bbfdf352691154de7a07abf54b571fb4d5f914/composio_autogen-0.2.3.tar.gz
+[2024-04-16 15:00:40] INFO root fetch - processPackages [llmware]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.3.tar.gz tmp/composio_crewai-0.2.4.tar.gz --markdown 20240416/c/composio-crewai/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-16 15:00:40] INFO root fetch - processPackages [AIPyS]: Remove: archive file [/home/abi/fetcher/tmp/AIPyS-0.0.4.tar.gz]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [AIPyS]: Remove: archive file [/home/abi/fetcher/tmp/AIPyS-0.0.5.tar.gz]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [AIPyS]: Start processing: composio-lyzr
+[2024-04-16 15:00:40] INFO root fetch - main [MainThread]: End processing [AIPyS]: success
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/18/35/307bf63f55fed06ae5c2c1fb47a2773d6a4e425ce202e55a668349ef6998/composio_lyzr-0.2.3.tar.gz
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.3.tar.gz]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.4.tar.gz]
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-langchain]: Start processing: AIPyS
+[2024-04-16 15:00:40] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-16 15:00:40] INFO root fetch - processPackages [llmware]: Downloading https://files.pythonhosted.org/packages/4d/21/4672a53b26db92deb1117cea11feaaa74f3279ed29198c6a7f77ff2c8ca2/llmware-0.2.8-py3-none-any.whl
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fa/c7/0a816791e2c4d7c9e4df08acb5d1fb7a2fd05f4bfd040216019fb9aedb36/composio_autogen-0.2.4.tar.gz
+[2024-04-16 15:00:40] INFO root fetch - processPackages [AIPyS]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 15:00:40] WARNING root fetch - processPackages [llmware]: Skipping package: exceeds size limit 39931855>=10485760
+[2024-04-16 15:00:40] INFO root fetch - main [MainThread]: End processing [llmware] error
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-16 15:00:40] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.3.tar.gz tmp/composio_autogen-0.2.4.tar.gz --markdown 20240416/c/composio-autogen/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-16 15:00:40] INFO root fetch - processPackages [AIPyS]: Downloading https://files.pythonhosted.org/packages/33/eb/0c32e84640da95509735171d38b8896853586fcf76b75cfd16b24476f709/AIPyS-0.0.6.tar.gz
+[2024-04-16 15:00:41] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/54/3f/eaaf6208d7048528c0e0c5d989f01cd311fdb2fa46619f3187f1748046cd/composio_lyzr-0.2.4.tar.gz
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.4.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.5.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-16 15:00:41] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.3.tar.gz tmp/composio_lyzr-0.2.4.tar.gz --markdown 20240416/c/composio-lyzr/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-16 15:00:41] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2024-04-16 15:00:41] INFO root fetch - processPackages [AIPyS]: Downloading https://files.pythonhosted.org/packages/95/47/dd0a7a4e11a6b7925db9554d0113fa38a65cc6816cb47b66430dfe08d150/AIPyS-0.0.7.tar.gz
+[2024-04-16 15:00:41] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.3.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.4.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-16 15:00:41] INFO root fetch - processPackages [AIPyS]: executing diffoscope
+[2024-04-16 15:00:41] INFO root fetch - processPackages [AIPyS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIPyS-0.0.6.tar.gz tmp/AIPyS-0.0.7.tar.gz --markdown 20240416/A/AIPyS/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.3.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.4.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.3.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.4.tar.gz]
+[2024-04-16 15:00:41] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-16 15:00:42] INFO root fetch - processPackages [AIPyS]: Remove: archive file [/home/abi/fetcher/tmp/AIPyS-0.0.6.tar.gz]
+[2024-04-16 15:00:42] INFO root fetch - processPackages [AIPyS]: Remove: archive file [/home/abi/fetcher/tmp/AIPyS-0.0.7.tar.gz]
+[2024-04-16 15:00:42] INFO root fetch - main [MainThread]: End processing [AIPyS]: success
+[2024-04-16 15:00:42] INFO root fetch - main [MainThread]: Store serial: [22787854]
