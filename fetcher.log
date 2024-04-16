@@ -15256,3 +15256,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:14:04] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-04-16 13:14:04] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-04-16 13:14:04] INFO root fetch - main [MainThread]: Store serial: [22786668]
+[2024-04-16 13:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786668]
+[2024-04-16 13:16:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 13:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulpo-dev
+[2024-04-16 13:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-16 13:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiktok-dlpy
+[2024-04-16 13:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finch-tensor
+[2024-04-16 13:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botnikkk
+[2024-04-16 13:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: download-stats
+[2024-04-16 13:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aries-cloudcontroller
+[2024-04-16 13:16:13] INFO root fetch - processPackages [pulpo-dev]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 13:16:13] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-16 13:16:13] INFO root fetch - processPackages [pulpo-dev]: Downloading https://files.pythonhosted.org/packages/26/f0/2a6035042f8f1388999e4dd729fceb195091876dea6990c6f9900ed46015/pulpo-dev-0.0.2.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [tiktok-dlpy]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-16 13:16:13] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/dd/30/5b4804f16cf4228e8cc18c5762d416169ce7926a9aabc9cc119080f4458c/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl
+[2024-04-16 13:16:13] INFO root fetch - processPackages [download-stats]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-16 13:16:13] INFO root fetch - processPackages [finch-tensor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 13:16:13] INFO root fetch - processPackages [botnikkk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 13:16:13] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.9.0.post2] Old Version: [0.9.0.post1]
+[2024-04-16 13:16:13] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/82/efef881b97762b0b5e32321a21e64063e76ef0ef1ee2a2b5d8741aa88ac3/finch_tensor-0.1.8.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [tiktok-dlpy]: Downloading https://files.pythonhosted.org/packages/07/bf/ff6ca5d44712808049d542d304fa74ba20b553033d5abe386a9c1c51b7c3/tiktok-dlpy-2.0.1.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [download-stats]: Downloading https://files.pythonhosted.org/packages/df/12/b7fd762ae73d3640c1ce9e004b63bbd8aaeefd5373dd3b028d9bd8bef02c/download_stats-1.3.0.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/0d/28/8a118acf5f9490e28ba0ca35f3084afb03e888b1a52096491a56871c22e7/botnikkk-0.1.1.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/57/58/6eddb4d0c5aa15e90bcccb3a6f7381d1286236a75a96de6183034a955f08/aries_cloudcontroller-0.9.0.post1.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [pulpo-dev]: Downloading https://files.pythonhosted.org/packages/a9/bd/221def34d29758028358ed2995abbe8457edba92acd510bcea5a3c3beb96/pulpo-dev-0.0.3.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/bc/40/0497a66db52c929f7889f8fea02511b805da52a3820b851a97e1629870d8/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl
+[2024-04-16 13:16:13] INFO root fetch - processPackages [pulpo-dev]: executing diffoscope
+[2024-04-16 13:16:13] INFO root fetch - processPackages [pulpo-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpo-dev-0.0.2.tar.gz tmp/pulpo-dev-0.0.3.tar.gz --markdown 20240416/p/pulpo-dev/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 13:16:13] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/31/266166b70a1683a8f5cfb91db4b1c2df4edda648ff5e60e26f6a79710cb5/finch_tensor-0.1.9.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [tiktok-dlpy]: Downloading https://files.pythonhosted.org/packages/bb/a1/9721c25dcc272c6d9f02d8dcc1ce90010810010dc8575647af26f4d61fbe/tiktok-dlpy-2.1.0.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/20/a2/70936f054a60fc9bee89ab37c642e29f696c59f5fe0edf9cf00dbe5cc56d/botnikkk-0.1.2.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-16 13:16:13] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl.zip --markdown 20240416/b/bigdl-core-xe-esimd-21/2.5.0b20240414-2.5.0b20240415/README.md --exclude *.pyd
+[2024-04-16 13:16:13] INFO root fetch - processPackages [download-stats]: Downloading https://files.pythonhosted.org/packages/20/89/c7c07b98d8696e79fcafe6435ce4d1aaa5ed5c546756768c4586f0926f7d/download_stats-1.3.1.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/ff/e8/72596cbf2395e14ebe7b8b564e849df6e0cc60a3e4ecd567c391f164e708/aries_cloudcontroller-0.9.0.post2.tar.gz
+[2024-04-16 13:16:13] INFO root fetch - processPackages [finch-tensor]: executing diffoscope
+[2024-04-16 13:16:13] INFO root fetch - processPackages [finch-tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_tensor-0.1.8.tar.gz tmp/finch_tensor-0.1.9.tar.gz --markdown 20240416/f/finch-tensor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 13:16:13] INFO root fetch - processPackages [tiktok-dlpy]: executing diffoscope
+[2024-04-16 13:16:13] INFO root fetch - processPackages [tiktok-dlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiktok-dlpy-2.0.1.tar.gz tmp/tiktok-dlpy-2.1.0.tar.gz --markdown 20240416/t/tiktok-dlpy/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-16 13:16:14] INFO root fetch - processPackages [botnikkk]: executing diffoscope
+[2024-04-16 13:16:14] INFO root fetch - processPackages [botnikkk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botnikkk-0.1.1.tar.gz tmp/botnikkk-0.1.2.tar.gz --markdown 20240416/b/botnikkk/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 13:16:14] INFO root fetch - processPackages [download-stats]: executing diffoscope
+[2024-04-16 13:16:14] INFO root fetch - processPackages [download-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/download_stats-1.3.0.tar.gz tmp/download_stats-1.3.1.tar.gz --markdown 20240416/d/download-stats/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-16 13:16:14] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2024-04-16 13:16:14] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.9.0.post1.tar.gz tmp/aries_cloudcontroller-0.9.0.post2.tar.gz --markdown 20240416/a/aries-cloudcontroller/0.9.0.post1-0.9.0.post2/README.md --exclude *.pyd
+[2024-04-16 13:16:14] INFO root fetch - processPackages [pulpo-dev]: Remove: archive file [/home/abi/fetcher/tmp/pulpo-dev-0.0.2.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - processPackages [pulpo-dev]: Remove: archive file [/home/abi/fetcher/tmp/pulpo-dev-0.0.3.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - main [MainThread]: End processing [pulpo-dev]: success
+[2024-04-16 13:16:14] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 13:16:14] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 13:16:14] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21]: success
+[2024-04-16 13:16:14] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.8.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.9.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - main [MainThread]: End processing [finch-tensor]: success
+[2024-04-16 13:16:14] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.1.1.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.1.2.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - main [MainThread]: End processing [botnikkk]: success
+[2024-04-16 13:16:14] INFO root fetch - processPackages [tiktok-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/tiktok-dlpy-2.0.1.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - processPackages [tiktok-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/tiktok-dlpy-2.1.0.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - main [MainThread]: End processing [tiktok-dlpy]: success
+[2024-04-16 13:16:14] INFO root fetch - processPackages [download-stats]: Remove: archive file [/home/abi/fetcher/tmp/download_stats-1.3.0.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - processPackages [download-stats]: Remove: archive file [/home/abi/fetcher/tmp/download_stats-1.3.1.tar.gz]
+[2024-04-16 13:16:14] INFO root fetch - main [MainThread]: End processing [download-stats]: success
+[2024-04-16 13:16:17] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0.post1.tar.gz]
+[2024-04-16 13:16:17] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0.post2.tar.gz]
+[2024-04-16 13:16:17] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2024-04-16 13:16:17] INFO root fetch - main [MainThread]: Store serial: [22786688]
