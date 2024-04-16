@@ -12284,3 +12284,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:16:14] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-16 11:16:14] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-16 11:16:14] INFO root fetch - main [MainThread]: Store serial: [22785182]
+[2024-04-16 11:18:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785182]
+[2024-04-16 11:18:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-sscma
+[2024-04-16 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: healpix
+[2024-04-16 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akasha-terminal
+[2024-04-16 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linktest
+[2024-04-16 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zhanshop
+[2024-04-16 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylabeladjust
+[2024-04-16 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Bgolearn
+[2024-04-16 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decthings-model
+[2024-04-16 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tbp-nightly
+[2024-04-16 11:18:24] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-16 11:18:24] INFO root fetch - processPackages [linktest]: New version: [2.5.2] Old Version: [2.5.1]
+[2024-04-16 11:18:24] INFO root fetch - processPackages [pylabeladjust]: New version: [0.1.1.7] Old Version: [0.1.1.6]
+[2024-04-16 11:18:24] INFO root fetch - processPackages [Bgolearn]: New version: [2.3.0] Old Version: [2.2.4]
+[2024-04-16 11:18:24] INFO root fetch - processPackages [python-sscma]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-16 11:18:24] INFO root fetch - processPackages [decthings-model]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 11:18:24] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/25/0c/238381f15e76a4c4250536c8759d5ad6dfb5d56c7da690037db007b72157/linktest-2.5.1.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [zhanshop]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 11:18:24] INFO root fetch - processPackages [akasha-terminal]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-16 11:18:24] INFO root fetch - processPackages [python-sscma]: Downloading https://files.pythonhosted.org/packages/aa/55/49781a36618cb348e5e7e4712d22240235da92c94633a4a4ccd4fc62235f/python-sscma-0.5.0.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/9a/85/374dd655f0998fe47d425b7753802c4dd70813ead99eb06ed11a0184edc0/Bgolearn-2.2.4.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [pylabeladjust]: Downloading https://files.pythonhosted.org/packages/dd/35/1d65ae5ec88da9bded68e117f72ab4de00d493ad6768611c553699419a76/pylabeladjust-0.1.1.6.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [healpix]: New version: [2024.1] Old Version: [2023.4]
+[2024-04-16 11:18:24] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [decthings-model]: Downloading https://files.pythonhosted.org/packages/91/65/04ef150ceeda3f312d103290d80851dfe144445d09c7cd94d003a258f058/decthings-model-0.0.2.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [zhanshop]: Downloading https://files.pythonhosted.org/packages/30/8e/ca5f7107acb11f8abdc9c71b3fd3af94e8f99d1103fb44e1b22ad7e3be49/zhanshop-0.0.1.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/44/ba/ad1af60540b73410a76351edea1ffacfe2c1e951eed2d58a4031be3ad8fc/akasha-terminal-0.8.8.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [healpix]: Downloading https://files.pythonhosted.org/packages/fc/5b/05a89937881a83b3183b585622da4d8ae7eb2346fb8962eef29d82ff4de5/healpix-2023.4.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [Bgolearn]: Downloading https://files.pythonhosted.org/packages/20/33/aea5ee8509ce0c70183f2038cd3d7be3049799aa02d8fd06768d8a9c9eff/Bgolearn-2.3.0.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/06/10/8661217c1747a0fd5732c52f63e91b696e4039a57446711dbe84ba686e0b/linktest-2.5.2.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [pylabeladjust]: Downloading https://files.pythonhosted.org/packages/7f/91/8ddd64906d8b243803f0c0cd9d07555b7defa0fb58ba1e9c2219ab0927f3/pylabeladjust-0.1.1.7.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [Bgolearn]: executing diffoscope
+[2024-04-16 11:18:24] INFO root fetch - processPackages [Bgolearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bgolearn-2.2.4.tar.gz tmp/Bgolearn-2.3.0.tar.gz --markdown 20240416/B/Bgolearn/2.2.4-2.3.0/README.md --exclude *.pyd
+[2024-04-16 11:18:24] INFO root fetch - processPackages [python-sscma]: Downloading https://files.pythonhosted.org/packages/f9/73/c10157252f43693178122a9573ba75c582d5296129e47132bcbad38cbfb3/python-sscma-0.5.1.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-16 11:18:24] INFO root fetch - processPackages [decthings-model]: Downloading https://files.pythonhosted.org/packages/d6/2b/ef48f9ca2874e3ed9f235fc975d6df9cfe653229a8e5b4157c0579fc4037/decthings_model-0.0.3.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.5.1.tar.gz tmp/linktest-2.5.2.tar.gz --markdown 20240416/l/linktest/2.5.1-2.5.2/README.md --exclude *.pyd
+[2024-04-16 11:18:24] INFO root fetch - processPackages [pylabeladjust]: executing diffoscope
+[2024-04-16 11:18:24] INFO root fetch - processPackages [pylabeladjust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylabeladjust-0.1.1.6.tar.gz tmp/pylabeladjust-0.1.1.7.tar.gz --markdown 20240416/p/pylabeladjust/0.1.1.6-0.1.1.7/README.md --exclude *.pyd
+[2024-04-16 11:18:24] INFO root fetch - processPackages [zhanshop]: Downloading https://files.pythonhosted.org/packages/24/b6/78e463e0a6dde32ee366f4e8acf376a054bf5aafe2c61452960dd2d50a74/zhanshop-0.0.2.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/22/cd/bc4da2cd3d8a9b0bdd6542c2a920f376fc7abf8fa3d60f48b60bd6f3f13e/akasha-terminal-0.8.9.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [healpix]: Downloading https://files.pythonhosted.org/packages/dd/15/0e587aef008813d87170dc6dc50b65b45cf5ef3b60cbaa95e055af48b6b9/healpix-2024.1.tar.gz
+[2024-04-16 11:18:24] INFO root fetch - processPackages [decthings-model]: executing diffoscope
+[2024-04-16 11:18:24] INFO root fetch - processPackages [decthings-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decthings-model-0.0.2.tar.gz tmp/decthings_model-0.0.3.tar.gz --markdown 20240416/d/decthings-model/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 11:18:24] INFO root fetch - processPackages [python-sscma]: executing diffoscope
+[2024-04-16 11:18:24] INFO root fetch - processPackages [python-sscma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sscma-0.5.0.tar.gz tmp/python-sscma-0.5.1.tar.gz --markdown 20240416/p/python-sscma/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-16 11:18:24] INFO root fetch - processPackages [zhanshop]: executing diffoscope
+[2024-04-16 11:18:24] INFO root fetch - processPackages [zhanshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhanshop-0.0.1.tar.gz tmp/zhanshop-0.0.2.tar.gz --markdown 20240416/z/zhanshop/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 11:18:24] INFO root fetch - processPackages [akasha-terminal]: executing diffoscope
+[2024-04-16 11:18:24] INFO root fetch - processPackages [akasha-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasha-terminal-0.8.8.tar.gz tmp/akasha-terminal-0.8.9.tar.gz --markdown 20240416/a/akasha-terminal/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-16 11:18:25] INFO root fetch - processPackages [healpix]: executing diffoscope
+[2024-04-16 11:18:25] INFO root fetch - processPackages [healpix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healpix-2023.4.tar.gz tmp/healpix-2024.1.tar.gz --markdown 20240416/h/healpix/2023.4-2024.1/README.md --exclude *.pyd
+[2024-04-16 11:18:25] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-16 11:18:25] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240416/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-16 11:18:25] INFO root fetch - processPackages [pylabeladjust]: Remove: archive file [/home/abi/fetcher/tmp/pylabeladjust-0.1.1.6.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - processPackages [pylabeladjust]: Remove: archive file [/home/abi/fetcher/tmp/pylabeladjust-0.1.1.7.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - main [MainThread]: End processing [pylabeladjust]: success
+[2024-04-16 11:18:25] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.2.4.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - processPackages [Bgolearn]: Remove: archive file [/home/abi/fetcher/tmp/Bgolearn-2.3.0.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - main [MainThread]: End processing [Bgolearn]: success
+[2024-04-16 11:18:25] INFO root fetch - processPackages [decthings-model]: Remove: archive file [/home/abi/fetcher/tmp/decthings-model-0.0.2.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - processPackages [decthings-model]: Remove: archive file [/home/abi/fetcher/tmp/decthings_model-0.0.3.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - main [MainThread]: End processing [decthings-model]: success
+[2024-04-16 11:18:25] INFO root fetch - processPackages [zhanshop]: Remove: archive file [/home/abi/fetcher/tmp/zhanshop-0.0.1.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - processPackages [zhanshop]: Remove: archive file [/home/abi/fetcher/tmp/zhanshop-0.0.2.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - main [MainThread]: End processing [zhanshop]: success
+[2024-04-16 11:18:25] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.1.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.5.2.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-16 11:18:25] INFO root fetch - processPackages [python-sscma]: Remove: archive file [/home/abi/fetcher/tmp/python-sscma-0.5.0.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - processPackages [python-sscma]: Remove: archive file [/home/abi/fetcher/tmp/python-sscma-0.5.1.tar.gz]
+[2024-04-16 11:18:25] INFO root fetch - main [MainThread]: End processing [python-sscma]: success
+[2024-04-16 11:18:26] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.8.tar.gz]
+[2024-04-16 11:18:26] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.9.tar.gz]
+[2024-04-16 11:18:26] INFO root fetch - main [MainThread]: End processing [akasha-terminal]: success
+[2024-04-16 11:18:26] INFO root fetch - processPackages [healpix]: Remove: archive file [/home/abi/fetcher/tmp/healpix-2023.4.tar.gz]
+[2024-04-16 11:18:26] INFO root fetch - processPackages [healpix]: Remove: archive file [/home/abi/fetcher/tmp/healpix-2024.1.tar.gz]
+[2024-04-16 11:18:26] INFO root fetch - main [MainThread]: End processing [healpix]: success
+[2024-04-16 11:18:27] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-16 11:18:27] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-16 11:18:27] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-16 11:18:27] INFO root fetch - main [MainThread]: Store serial: [22785265]
