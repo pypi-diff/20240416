@@ -13505,3 +13505,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:58:54] INFO root fetch - processPackages [tstype-py]: Remove: archive file [/home/abi/fetcher/tmp/tstype_py-0.1.5-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2024-04-16 11:58:54] INFO root fetch - main [MainThread]: End processing [tstype-py]: success
 [2024-04-16 11:58:54] INFO root fetch - main [MainThread]: Store serial: [22785833]
+[2024-04-16 12:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785833]
+[2024-04-16 12:01:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 12:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetry-build-compact
+[2024-04-16 12:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitmovin-api-sdk
+[2024-04-16 12:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prusek-spheroid
+[2024-04-16 12:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg-devx-core
+[2024-04-16 12:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: izihawa-trident-client
+[2024-04-16 12:01:05] INFO root fetch - processPackages [poetry-build-compact]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-16 12:01:05] INFO root fetch - processPackages [prusek-spheroid]: New version: [6.1] Old Version: [6.0]
+[2024-04-16 12:01:05] INFO root fetch - processPackages [poetry-build-compact]: Downloading https://files.pythonhosted.org/packages/64/fd/5a8d683b6be2470f26a9fd3df6acd5fa58e3f34debe17a592e3205bc5afc/poetry_build_compact-1.1.0.tar.gz
+[2024-04-16 12:01:05] INFO root fetch - processPackages [cg-devx-core]: New version: [0.2.7] Old Version: [0.2.5]
+[2024-04-16 12:01:05] INFO root fetch - processPackages [izihawa-trident-client]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-16 12:01:05] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/2b/b7/8ec203775eb93ea40a506678457a7388e93dbc7038b12d7ce330cb306af9/prusek_spheroid-6.0.tar.gz
+[2024-04-16 12:01:05] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-16 12:01:05] INFO root fetch - processPackages [cg-devx-core]: Downloading https://files.pythonhosted.org/packages/80/54/d1d74c54317bb19dc77e7e337354a0b422c0d575597dd4e46e9118f6fd72/cg_devx_core-0.2.5.tar.gz
+[2024-04-16 12:01:05] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2024-04-16 12:01:05] INFO root fetch - processPackages [izihawa-trident-client]: Downloading https://files.pythonhosted.org/packages/bc/9c/09b11c5b9ff0487f5fc316a2d02b575bebc58baacfb6862c9a9859d1d39d/izihawa_trident_client-1.2.2.tar.gz
+[2024-04-16 12:01:06] INFO root fetch - processPackages [poetry-build-compact]: Downloading https://files.pythonhosted.org/packages/dd/2e/cc84bc7709bcee30a49176b37cad1f560ca4600b4d88b58f85b66fdde7c8/poetry_build_compact-1.2.0.tar.gz
+[2024-04-16 12:01:06] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/e9/ab/9d7fe6244163535c2adab1d7c9abf5602464b67aac56f47579ac207a0d1f/prusek_spheroid-6.1.tar.gz
+[2024-04-16 12:01:06] INFO root fetch - processPackages [izihawa-trident-client]: Downloading https://files.pythonhosted.org/packages/bf/71/fd63441b4113b96cc543af61ac1d6e51be308400fc8b10059aa09437446e/izihawa_trident_client-1.2.3.tar.gz
+[2024-04-16 12:01:06] INFO root fetch - processPackages [cg-devx-core]: Downloading https://files.pythonhosted.org/packages/e8/72/ed0db64d1d46f31509da202ec7f5ddf37dc341c48b90882f1a4547606995/cg_devx_core-0.2.7.tar.gz
+[2024-04-16 12:01:06] INFO root fetch - processPackages [poetry-build-compact]: executing diffoscope
+[2024-04-16 12:01:06] INFO root fetch - processPackages [poetry-build-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_build_compact-1.1.0.tar.gz tmp/poetry_build_compact-1.2.0.tar.gz --markdown 20240416/p/poetry-build-compact/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-16 12:01:06] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2024-04-16 12:01:06] INFO root fetch - processPackages [izihawa-trident-client]: executing diffoscope
+[2024-04-16 12:01:06] INFO root fetch - processPackages [izihawa-trident-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_trident_client-1.2.2.tar.gz tmp/izihawa_trident_client-1.2.3.tar.gz --markdown 20240416/i/izihawa-trident-client/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-16 12:01:06] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-16 12:01:06] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-6.0.tar.gz tmp/prusek_spheroid-6.1.tar.gz --markdown 20240416/p/prusek-spheroid/6.0-6.1/README.md --exclude *.pyd
+[2024-04-16 12:01:06] INFO root fetch - processPackages [cg-devx-core]: executing diffoscope
+[2024-04-16 12:01:06] INFO root fetch - processPackages [cg-devx-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_devx_core-0.2.5.tar.gz tmp/cg_devx_core-0.2.7.tar.gz --markdown 20240416/c/cg-devx-core/0.2.5-0.2.7/README.md --exclude *.pyd
+[2024-04-16 12:01:07] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2024-04-16 12:01:07] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20240416/b/bitmovin-api-sdk/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-16 12:01:07] INFO root fetch - processPackages [poetry-build-compact]: Remove: archive file [/home/abi/fetcher/tmp/poetry_build_compact-1.1.0.tar.gz]
+[2024-04-16 12:01:07] INFO root fetch - processPackages [poetry-build-compact]: Remove: archive file [/home/abi/fetcher/tmp/poetry_build_compact-1.2.0.tar.gz]
+[2024-04-16 12:01:07] INFO root fetch - main [MainThread]: End processing [poetry-build-compact]: success
+[2024-04-16 12:01:07] INFO root fetch - processPackages [izihawa-trident-client]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_trident_client-1.2.2.tar.gz]
+[2024-04-16 12:01:07] INFO root fetch - processPackages [izihawa-trident-client]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_trident_client-1.2.3.tar.gz]
+[2024-04-16 12:01:07] INFO root fetch - main [MainThread]: End processing [izihawa-trident-client]: success
+[2024-04-16 12:01:07] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-6.0.tar.gz]
+[2024-04-16 12:01:07] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-6.1.tar.gz]
+[2024-04-16 12:01:07] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-16 12:01:07] INFO root fetch - processPackages [cg-devx-core]: Remove: archive file [/home/abi/fetcher/tmp/cg_devx_core-0.2.5.tar.gz]
+[2024-04-16 12:01:07] INFO root fetch - processPackages [cg-devx-core]: Remove: archive file [/home/abi/fetcher/tmp/cg_devx_core-0.2.7.tar.gz]
+[2024-04-16 12:01:07] INFO root fetch - main [MainThread]: End processing [cg-devx-core]: success
+[2024-04-16 12:01:14] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.98.0.tar.gz]
+[2024-04-16 12:01:14] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
+[2024-04-16 12:01:14] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2024-04-16 12:01:14] INFO root fetch - main [MainThread]: Store serial: [22785877]
