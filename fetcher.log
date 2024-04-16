@@ -19733,3 +19733,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:46:03] INFO root fetch - processPackages [optimum]: Remove: archive file [/home/abi/fetcher/tmp/optimum-1.9.1.tar.gz]
 [2024-04-16 15:46:03] INFO root fetch - main [MainThread]: End processing [optimum]: success
 [2024-04-16 15:46:03] INFO root fetch - main [MainThread]: Store serial: [22788424]
+[2024-04-16 15:48:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788424]
+[2024-04-16 15:48:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyiter
+[2024-04-16 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drex
+[2024-04-16 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tui-dsmt
+[2024-04-16 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bpkio-python-sdk
+[2024-04-16 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eea.dexterity.indicators
+[2024-04-16 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssb-arbmark-fagfunksjoner
+[2024-04-16 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigrandomgraphs
+[2024-04-16 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deker-server-adapters
+[2024-04-16 15:48:13] INFO root fetch - processPackages [pyiter]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-16 15:48:13] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 15:48:13] INFO root fetch - processPackages [tui-dsmt]: New version: [202404161244] Old Version: [202404160633]
+[2024-04-16 15:48:13] INFO root fetch - processPackages [drex]: New version: [0.0.242] Old Version: [0.0.241]
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bigrandomgraphs]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bpkio-python-sdk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 15:48:13] INFO root fetch - processPackages [eea.dexterity.indicators]: New version: [9.6] Old Version: [9.5]
+[2024-04-16 15:48:13] INFO root fetch - processPackages [pyiter]: Downloading https://files.pythonhosted.org/packages/42/ae/8caca5d7ccfe298d80ad3222de158041c43cf411fd49791ebb8559463bb8/pyiter-0.8.3.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/9f/7c/1d1bf4a90d5ede0b772f70ffaf7c329b82aca9a236519be5b287a69a02a2/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/e6/72/d64818debfdf52f24495794cbcd868a8dc999c6b1f9d5c40d1067635c587/tui_dsmt-202404160633.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [deker-server-adapters]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 15:48:13] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/e7/39/3f869ca3a586a128e932468d46a43c957c5d0f0c6f5f1ccec545407fba09/drex-0.0.241.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/ee/c84fb639d4cac54c71c1595941f7335e7c764576fcf3328b95c75c515775/bpkio_python_sdk-1.8.0.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/f6/75/5390831e1796808544d784a05a9dfafef8ebdc0da61a2e613f5b35ec52c8/eea.dexterity.indicators-9.5.zip
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bigrandomgraphs]: Downloading https://files.pythonhosted.org/packages/50/46/06d7d600a2804dfeff08b5ea728c66011f54aae84d6cdab45cd1fd85b54d/bigrandomgraphs-0.0.3.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [pyiter]: Downloading https://files.pythonhosted.org/packages/24/0a/fef183a0363b55a06c7c95cb7f7955fd15b684f93c900b14148de8a61014/pyiter-0.8.4.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [deker-server-adapters]: Downloading https://files.pythonhosted.org/packages/32/8f/d46d8d322d99b80003fd4206bb1aeb3a59a2e2d79505875971f84c271227/deker_server_adapters-1.0.4.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/30/58/1aae8e7ab8bdc135378e36ac87d04487156f4cb588548148276269523f2c/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/da/12/4a3e89e5bff27921840368eb2ce36523ab97609f4f2a98f6d0931107eb70/tui_dsmt-202404161244.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [pyiter]: executing diffoscope
+[2024-04-16 15:48:13] INFO root fetch - processPackages [pyiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiter-0.8.3.tar.gz tmp/pyiter-0.8.4.tar.gz --markdown 20240416/p/pyiter/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-16 15:48:13] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: executing diffoscope
+[2024-04-16 15:48:13] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz --markdown 20240416/s/ssb-arbmark-fagfunksjoner/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 15:48:13] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-16 15:48:13] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404160633.tar.gz tmp/tui_dsmt-202404161244.tar.gz --markdown 20240416/t/tui-dsmt/202404160633-202404161244/README.md --exclude *.pyd
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bigrandomgraphs]: Downloading https://files.pythonhosted.org/packages/2d/ac/29bfd6d8ebb952199b09628a049b2dbb7047e4b0a9f7e4b4cdae37188316/bigrandomgraphs-0.0.4.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bpkio-python-sdk]: Downloading https://files.pythonhosted.org/packages/a5/2c/8f8bdb0146700b07e5188162ba4c1eb295aa63ef3ee082505bffa55899d2/bpkio_python_sdk-1.9.0.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/1e/31/30e54efd7cbcdbdf07fecd849e1997a6053521aecdbe7f047e49966add7d/drex-0.0.242.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [deker-server-adapters]: Downloading https://files.pythonhosted.org/packages/d5/ef/f3b12e95166368c2fb63b5dfbdafc8975c2c99639bb7d4ff02283d551afa/deker_server_adapters-1.0.5.tar.gz
+[2024-04-16 15:48:13] INFO root fetch - processPackages [eea.dexterity.indicators]: Downloading https://files.pythonhosted.org/packages/f0/33/5d027fbe9238b740705c2d94eb81fadfcc01c2ea03692ea16af7d5bf00c0/eea.dexterity.indicators-9.6.zip
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bpkio-python-sdk]: executing diffoscope
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bpkio-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_python_sdk-1.8.0.tar.gz tmp/bpkio_python_sdk-1.9.0.tar.gz --markdown 20240416/b/bpkio-python-sdk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-16 15:48:13] INFO root fetch - processPackages [drex]: executing diffoscope
+[2024-04-16 15:48:13] INFO root fetch - processPackages [drex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drex-0.0.241.tar.gz tmp/drex-0.0.242.tar.gz --markdown 20240416/d/drex/0.0.241-0.0.242/README.md --exclude *.pyd
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bigrandomgraphs]: executing diffoscope
+[2024-04-16 15:48:13] INFO root fetch - processPackages [bigrandomgraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigrandomgraphs-0.0.3.tar.gz tmp/bigrandomgraphs-0.0.4.tar.gz --markdown 20240416/b/bigrandomgraphs/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 15:48:13] INFO root fetch - processPackages [eea.dexterity.indicators]: executing diffoscope
+[2024-04-16 15:48:13] INFO root fetch - processPackages [eea.dexterity.indicators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.dexterity.indicators-9.5.zip tmp/eea.dexterity.indicators-9.6.zip --markdown 20240416/e/eea.dexterity.indicators/9.5-9.6/README.md --exclude *.pyd
+[2024-04-16 15:48:14] INFO root fetch - processPackages [deker-server-adapters]: executing diffoscope
+[2024-04-16 15:48:14] INFO root fetch - processPackages [deker-server-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deker_server_adapters-1.0.4.tar.gz tmp/deker_server_adapters-1.0.5.tar.gz --markdown 20240416/d/deker-server-adapters/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-16 15:48:14] INFO root fetch - processPackages [pyiter]: Remove: archive file [/home/abi/fetcher/tmp/pyiter-0.8.3.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - processPackages [pyiter]: Remove: archive file [/home/abi/fetcher/tmp/pyiter-0.8.4.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - main [MainThread]: End processing [pyiter]: success
+[2024-04-16 15:48:14] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - main [MainThread]: End processing [ssb-arbmark-fagfunksjoner]: success
+[2024-04-16 15:48:14] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404160633.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404161244.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-16 15:48:14] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.241.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.242.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - main [MainThread]: End processing [drex]: success
+[2024-04-16 15:48:14] INFO root fetch - processPackages [bpkio-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_python_sdk-1.8.0.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - processPackages [bpkio-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_python_sdk-1.9.0.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - main [MainThread]: End processing [bpkio-python-sdk]: success
+[2024-04-16 15:48:14] INFO root fetch - processPackages [bigrandomgraphs]: Remove: archive file [/home/abi/fetcher/tmp/bigrandomgraphs-0.0.3.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - processPackages [bigrandomgraphs]: Remove: archive file [/home/abi/fetcher/tmp/bigrandomgraphs-0.0.4.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - main [MainThread]: End processing [bigrandomgraphs]: success
+[2024-04-16 15:48:14] INFO root fetch - processPackages [deker-server-adapters]: Remove: archive file [/home/abi/fetcher/tmp/deker_server_adapters-1.0.4.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - processPackages [deker-server-adapters]: Remove: archive file [/home/abi/fetcher/tmp/deker_server_adapters-1.0.5.tar.gz]
+[2024-04-16 15:48:14] INFO root fetch - main [MainThread]: End processing [deker-server-adapters]: success
+[2024-04-16 15:48:15] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-9.5.zip]
+[2024-04-16 15:48:15] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-9.6.zip]
+[2024-04-16 15:48:15] INFO root fetch - main [MainThread]: End processing [eea.dexterity.indicators]: success
+[2024-04-16 15:48:15] INFO root fetch - main [MainThread]: Store serial: [22788447]
