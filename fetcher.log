@@ -4927,3 +4927,90 @@
 [2024-04-16 05:21:30] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.9-py3-none-any.whl.zip]
 [2024-04-16 05:21:30] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-04-16 05:21:30] INFO root fetch - main [MainThread]: Store serial: [22782007]
+[2024-04-16 05:23:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782007]
+[2024-04-16 05:23:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepfacey
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nightly
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: harry-potter-yonier
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub-airflow-plugin
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycaret
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genomeshader
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: publicsuffixlist
+[2024-04-16 05:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pystaleds
+[2024-04-16 05:23:38] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.17a1713234623] Old Version: [0.0.17a1713232707]
+[2024-04-16 05:23:39] INFO root fetch - processPackages [keras-nightly]: New version: [3.2.1.dev2024041504] Old Version: [3.2.1.dev2024041403]
+[2024-04-16 05:23:39] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-16 05:23:39] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/bc/75/1c148372c4a0a7ddf14222ba53fca4fc84c25089c343fdcf97093c1d92a5/pulumi_kubernetes_the_hard_way-0.0.17a1713232707.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [deepfacey]: New version: [0.0.86] Old Version: [0.0.85]
+[2024-04-16 05:23:39] WARNING root fetch - processPackages [harry-potter-yonier]: Skipping, unable to determine old version
+[2024-04-16 05:23:39] INFO root fetch - main [MainThread]: End processing [harry-potter-yonier] error
+[2024-04-16 05:23:39] INFO root fetch - processPackages [pycaret]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-16 05:23:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/61/c9/22f0ef5977c94d0fcc2dd531fffaadc73dae9560d6cf47305d4fd04534d6/keras_nightly-3.2.1.dev2024041403.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [publicsuffixlist]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [pystaleds]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-16 05:23:39] INFO root fetch - processPackages [deepfacey]: Downloading https://files.pythonhosted.org/packages/a3/41/192c49432a0ed2c59247687c5efc9282fd22a0b24e8975c2b3505f9c2202/deepfacey-0.0.85.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [pycaret]: Downloading https://files.pythonhosted.org/packages/c7/d8/4e703f17f17d7d7764fe6d586872e787ce3a248640221f5f2d586f671eee/pycaret-3.3.0-py3-none-any.whl
+[2024-04-16 05:23:39] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/e9/d3/789ccc7b502183c3ca52f463a65a341194fd8caf884d33f4eedf4ae8f390/publicsuffixlist-0.9.3.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/db/a5/b9701f40772808b578be22171ca77cec51dfbfb79f8ef129372b013fb5b7/keras_nightly-3.2.1.dev2024041504.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/41/50/cb85330f957bcdd9c8c6ea7799ec62f80adca2c471d92e68ef568e12e155/pulumi_kubernetes_the_hard_way-0.0.17a1713234623.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240416/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [pystaleds]: Downloading https://files.pythonhosted.org/packages/9e/af/a69e2d4294bcb8ef02c9cb735a95b8f7e1d8d79f51e182321c8164f7939b/pystaleds-0.1.5.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-04-16 05:23:39] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240416/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 05:23:39] INFO root fetch - processPackages [deepfacey]: Downloading https://files.pythonhosted.org/packages/2f/08/eb46d76b7f140a67e729fe1efa29bb6c63cf2802abde2a33f1e48f5613d4/deepfacey-0.0.86.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-16 05:23:39] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.2.1.dev2024041403.tar.gz tmp/keras_nightly-3.2.1.dev2024041504.tar.gz --markdown 20240416/k/keras-nightly/3.2.1.dev2024041403-3.2.1.dev2024041504/README.md --exclude *.pyd
+[2024-04-16 05:23:39] INFO root fetch - processPackages [pycaret]: Downloading https://files.pythonhosted.org/packages/30/4a/3d4453d5d110c61063d9418e07a29bd4196b6a3c78ac64659f9de4e4e4bb/pycaret-3.3.1-py3-none-any.whl
+[2024-04-16 05:23:39] INFO root fetch - processPackages [deepfacey]: executing diffoscope
+[2024-04-16 05:23:39] INFO root fetch - processPackages [deepfacey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfacey-0.0.85.tar.gz tmp/deepfacey-0.0.86.tar.gz --markdown 20240416/d/deepfacey/0.0.85-0.0.86/README.md --exclude *.pyd
+[2024-04-16 05:23:39] INFO root fetch - processPackages [publicsuffixlist]: Downloading https://files.pythonhosted.org/packages/3c/09/9dc48e18dc8c917eb66fe2caef48273e4f55dea0f8d56f9f6a427373c08b/publicsuffixlist-0.9.4.tar.gz
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-04-16 05:23:39] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240416/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-04-16 05:23:39] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-16 05:23:39] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713232707.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713234623.tar.gz --markdown 20240416/p/pulumi-kubernetes-the-hard-way/0.0.17a1713232707-0.0.17a1713234623/README.md --exclude *.pyd
+[2024-04-16 05:23:40] INFO root fetch - processPackages [publicsuffixlist]: executing diffoscope
+[2024-04-16 05:23:40] INFO root fetch - processPackages [publicsuffixlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/publicsuffixlist-0.9.3.tar.gz tmp/publicsuffixlist-0.9.4.tar.gz --markdown 20240416/p/publicsuffixlist/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-16 05:23:40] INFO root fetch - processPackages [pycaret]: executing diffoscope
+[2024-04-16 05:23:40] INFO root fetch - processPackages [pycaret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaret-3.3.0-py3-none-any.whl.zip tmp/pycaret-3.3.1-py3-none-any.whl.zip --markdown 20240416/p/pycaret/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-04-16 05:23:40] INFO root fetch - processPackages [pystaleds]: Downloading https://files.pythonhosted.org/packages/a7/bb/69223f42bf2d86f90ea9b9ee108b88cf6b17b6915ceb3ba6c65c5c430046/pystaleds-0.1.6-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-16 05:23:40] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-04-16 05:23:40] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-04-16 05:23:40] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-04-16 05:23:40] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-04-16 05:23:40] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-04-16 05:23:40] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-04-16 05:23:40] INFO root fetch - processPackages [pystaleds]: executing diffoscope
+[2024-04-16 05:23:40] INFO root fetch - processPackages [pystaleds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystaleds-0.1.5.tar.gz tmp/pystaleds-0.1.6-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240416/p/pystaleds/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-16 05:23:40] INFO root fetch - processPackages [deepfacey]: Remove: archive file [/home/abi/fetcher/tmp/deepfacey-0.0.85.tar.gz]
+[2024-04-16 05:23:40] INFO root fetch - processPackages [deepfacey]: Remove: archive file [/home/abi/fetcher/tmp/deepfacey-0.0.86.tar.gz]
+[2024-04-16 05:23:40] INFO root fetch - main [MainThread]: End processing [deepfacey]: success
+[2024-04-16 05:23:40] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.3.tar.gz]
+[2024-04-16 05:23:40] INFO root fetch - processPackages [publicsuffixlist]: Remove: archive file [/home/abi/fetcher/tmp/publicsuffixlist-0.9.4.tar.gz]
+[2024-04-16 05:23:40] INFO root fetch - main [MainThread]: End processing [publicsuffixlist]: success
+[2024-04-16 05:23:41] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713232707.tar.gz]
+[2024-04-16 05:23:41] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713234623.tar.gz]
+[2024-04-16 05:23:41] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-16 05:23:41] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.5.tar.gz]
+[2024-04-16 05:23:41] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.6-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-16 05:23:41] INFO root fetch - main [MainThread]: End processing [pystaleds]: success
+[2024-04-16 05:23:41] INFO root fetch - processPackages [pycaret]: Remove: archive file [/home/abi/fetcher/tmp/pycaret-3.3.0-py3-none-any.whl.zip]
+[2024-04-16 05:23:41] INFO root fetch - processPackages [pycaret]: Remove: archive file [/home/abi/fetcher/tmp/pycaret-3.3.1-py3-none-any.whl.zip]
+[2024-04-16 05:23:41] INFO root fetch - main [MainThread]: End processing [pycaret]: success
+[2024-04-16 05:23:42] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.2.1.dev2024041403.tar.gz]
+[2024-04-16 05:23:42] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.2.1.dev2024041504.tar.gz]
+[2024-04-16 05:23:42] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-16 05:23:42] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-04-16 05:23:42] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-04-16 05:23:42] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-04-16 05:23:42] INFO root fetch - main [MainThread]: Store serial: [22782039]
