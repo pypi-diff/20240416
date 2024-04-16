@@ -19009,3 +19009,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:23:48] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.73.1.tar.gz]
 [2024-04-16 15:23:48] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
 [2024-04-16 15:23:48] INFO root fetch - main [MainThread]: Store serial: [22788142]
+[2024-04-16 15:25:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788142]
+[2024-04-16 15:25:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SparseEdges
+[2024-04-16 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SparseEdges
+[2024-04-16 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: greentext-to-video
+[2024-04-16 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: livemark
+[2024-04-16 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: joptional
+[2024-04-16 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isobuilder
+[2024-04-16 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wiwb
+[2024-04-16 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Products.PloneMeeting
+[2024-04-16 15:25:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optidata-core
+[2024-04-16 15:25:57] WARNING root fetch - processPackages [joptional]: Skipping, unable to determine old version
+[2024-04-16 15:25:57] INFO root fetch - main [MainThread]: End processing [joptional] error
+[2024-04-16 15:25:57] INFO root fetch - processPackages [isobuilder]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-16 15:25:57] INFO root fetch - processPackages [wiwb]: New version: [2024.4.0] Old Version: [2024.3.0]
+[2024-04-16 15:25:57] INFO root fetch - processPackages [SparseEdges]: New version: [20240419] Old Version: [20240418]
+[2024-04-16 15:25:57] INFO root fetch - processPackages [SparseEdges]: New version: [20240419] Old Version: [20240418]
+[2024-04-16 15:25:57] INFO root fetch - processPackages [optidata-core]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 15:25:57] INFO root fetch - processPackages [isobuilder]: Downloading https://files.pythonhosted.org/packages/f8/e3/42f94fbbaddcdc2385354b370ad7237f401c6234eac6b7cb01932d06ec0b/isobuilder-0.4.6.tar.gz
+[2024-04-16 15:25:57] WARNING root fetch - processPackages [greentext-to-video]: Skipping, unable to determine old version
+[2024-04-16 15:25:57] INFO root fetch - processPackages [wiwb]: Downloading https://files.pythonhosted.org/packages/9f/00/6a66db3bb0b622a1ffd241d0acb1ac63667be2475bd47bd344263ec8898b/wiwb-2024.3.0.tar.gz
+[2024-04-16 15:25:57] INFO root fetch - main [MainThread]: End processing [greentext-to-video] error
+[2024-04-16 15:25:57] INFO root fetch - processPackages [Products.PloneMeeting]: New version: [4.2rc9] Old Version: [4.2rc8]
+[2024-04-16 15:25:57] INFO root fetch - processPackages [livemark]: New version: [0.96.0] Old Version: [0.95.0]
+[2024-04-16 15:25:57] WARNING root fetch - processPackages [isobuilder]: Skipping package: exceeds size limit 20503081>=10485760
+[2024-04-16 15:25:57] INFO root fetch - main [MainThread]: End processing [isobuilder] error
+[2024-04-16 15:25:58] INFO root fetch - processPackages [SparseEdges]: Downloading https://files.pythonhosted.org/packages/aa/d2/c40540bccec1c2958637f40f701a16f5fb162d56a239f77575f968595fd6/SparseEdges-20240418.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [SparseEdges]: Downloading https://files.pythonhosted.org/packages/aa/d2/c40540bccec1c2958637f40f701a16f5fb162d56a239f77575f968595fd6/SparseEdges-20240418.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [optidata-core]: Downloading https://files.pythonhosted.org/packages/c5/4e/635687137fdc095db76c4efe89965e6301c067406c20fb621d086abd19e6/optidata-core-1.8.0.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [livemark]: Downloading https://files.pythonhosted.org/packages/bd/14/b7abd11d36cdbd09b7d58e41e14c4c1bf2eceb6f52831587f97bb0d08789/livemark-0.95.0.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [wiwb]: Downloading https://files.pythonhosted.org/packages/5a/91/2a57567b21d6315ad466de6906f8c6e3e16d14a5df7c8fa6815e1bcef12e/wiwb-2024.4.0.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [Products.PloneMeeting]: Downloading https://files.pythonhosted.org/packages/c5/27/88c328fff8634a5d92b06394de742157768b7eb70f527ab947c7c5a9214b/Products.PloneMeeting-4.2rc8.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [wiwb]: executing diffoscope
+[2024-04-16 15:25:58] INFO root fetch - processPackages [wiwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiwb-2024.3.0.tar.gz tmp/wiwb-2024.4.0.tar.gz --markdown 20240416/w/wiwb/2024.3.0-2024.4.0/README.md --exclude *.pyd
+[2024-04-16 15:25:58] INFO root fetch - processPackages [SparseEdges]: Downloading https://files.pythonhosted.org/packages/20/23/d1c320c8836799c83c1b173afa87c98741e96a5f61a8d180bf24cf545d39/SparseEdges-20240419.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [SparseEdges]: Downloading https://files.pythonhosted.org/packages/20/23/d1c320c8836799c83c1b173afa87c98741e96a5f61a8d180bf24cf545d39/SparseEdges-20240419.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [livemark]: Downloading https://files.pythonhosted.org/packages/c9/05/d8499d22bc2afa76da89143c94600aa650e3f471958578068e5d998163e4/livemark-0.96.0.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [optidata-core]: Downloading https://files.pythonhosted.org/packages/0c/f5/7fba937798364d4ec773353f59e812b916554d6b4fb79dacf2e8bb001ff4/optidata-core-1.9.0.tar.gz
+[2024-04-16 15:25:58] INFO root fetch - processPackages [SparseEdges]: executing diffoscope
+[2024-04-16 15:25:58] INFO root fetch - processPackages [SparseEdges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SparseEdges-20240418.tar.gz tmp/SparseEdges-20240419.tar.gz --markdown 20240416/S/SparseEdges/20240418-20240419/README.md --exclude *.pyd
+[2024-04-16 15:25:58] INFO root fetch - processPackages [SparseEdges]: executing diffoscope
+[2024-04-16 15:25:58] INFO root fetch - processPackages [SparseEdges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SparseEdges-20240418.tar.gz tmp/SparseEdges-20240419.tar.gz --markdown 20240416/S/SparseEdges/20240418-20240419/README.md --exclude *.pyd
+[2024-04-16 15:25:58] INFO root fetch - processPackages [optidata-core]: executing diffoscope
+[2024-04-16 15:25:58] INFO root fetch - processPackages [optidata-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optidata-core-1.8.0.tar.gz tmp/optidata-core-1.9.0.tar.gz --markdown 20240416/o/optidata-core/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-16 15:25:58] INFO root fetch - processPackages [livemark]: executing diffoscope
+[2024-04-16 15:25:58] INFO root fetch - processPackages [livemark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livemark-0.95.0.tar.gz tmp/livemark-0.96.0.tar.gz --markdown 20240416/l/livemark/0.95.0-0.96.0/README.md --exclude *.pyd
+[2024-04-16 15:25:59] INFO root fetch - processPackages [wiwb]: Remove: archive file [/home/abi/fetcher/tmp/wiwb-2024.3.0.tar.gz]
+[2024-04-16 15:25:59] INFO root fetch - processPackages [wiwb]: Remove: archive file [/home/abi/fetcher/tmp/wiwb-2024.4.0.tar.gz]
+[2024-04-16 15:25:59] INFO root fetch - main [MainThread]: End processing [wiwb]: success
+[2024-04-16 15:25:59] INFO root fetch - processPackages [SparseEdges]: Remove: archive file [/home/abi/fetcher/tmp/SparseEdges-20240418.tar.gz]
+[2024-04-16 15:25:59] INFO root fetch - processPackages [SparseEdges]: Remove: archive file [/home/abi/fetcher/tmp/SparseEdges-20240419.tar.gz]
+[2024-04-16 15:25:59] INFO root fetch - main [MainThread]: End processing [SparseEdges]: success
+[2024-04-16 15:25:59] INFO root fetch - processPackages [optidata-core]: Remove: archive file [/home/abi/fetcher/tmp/optidata-core-1.8.0.tar.gz]
+[2024-04-16 15:25:59] INFO root fetch - processPackages [optidata-core]: Remove: archive file [/home/abi/fetcher/tmp/optidata-core-1.9.0.tar.gz]
+[2024-04-16 15:25:59] INFO root fetch - main [MainThread]: End processing [optidata-core]: success
+[2024-04-16 15:25:59] INFO root fetch - main [MainThread]: End processing [SparseEdges]: success
+[2024-04-16 15:26:00] INFO root fetch - processPackages [Products.PloneMeeting]: Downloading https://files.pythonhosted.org/packages/75/9a/768e08c24d0dc476680b9a14f7cbe6721b3eb4e11e322f043eaa7eff6cd7/Products.PloneMeeting-4.2rc9.tar.gz
+[2024-04-16 15:26:00] INFO root fetch - processPackages [livemark]: Remove: archive file [/home/abi/fetcher/tmp/livemark-0.95.0.tar.gz]
+[2024-04-16 15:26:00] INFO root fetch - processPackages [livemark]: Remove: archive file [/home/abi/fetcher/tmp/livemark-0.96.0.tar.gz]
+[2024-04-16 15:26:00] INFO root fetch - main [MainThread]: End processing [livemark]: success
+[2024-04-16 15:26:00] INFO root fetch - processPackages [Products.PloneMeeting]: executing diffoscope
+[2024-04-16 15:26:00] INFO root fetch - processPackages [Products.PloneMeeting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.PloneMeeting-4.2rc8.tar.gz tmp/Products.PloneMeeting-4.2rc9.tar.gz --markdown 20240416/P/Products.PloneMeeting/4.2rc8-4.2rc9/README.md --exclude *.pyd
+[2024-04-16 15:26:03] INFO root fetch - processPackages [Products.PloneMeeting]: Remove: archive file [/home/abi/fetcher/tmp/Products.PloneMeeting-4.2rc8.tar.gz]
+[2024-04-16 15:26:03] INFO root fetch - processPackages [Products.PloneMeeting]: Remove: archive file [/home/abi/fetcher/tmp/Products.PloneMeeting-4.2rc9.tar.gz]
+[2024-04-16 15:26:03] INFO root fetch - main [MainThread]: End processing [Products.PloneMeeting]: success
+[2024-04-16 15:26:03] INFO root fetch - main [MainThread]: Store serial: [22788167]
