@@ -18355,3 +18355,138 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:02:54] INFO root fetch - processPackages [atxm]: Remove: archive file [/home/abi/fetcher/tmp/atxm-0.3.0.tar.gz]
 [2024-04-16 15:02:54] INFO root fetch - main [MainThread]: End processing [atxm]: success
 [2024-04-16 15:02:54] INFO root fetch - main [MainThread]: Store serial: [22787874]
+[2024-04-16 15:04:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787874]
+[2024-04-16 15:05:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openshift-cli-installer
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iqrfpy-diagnostics
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RsCmwGprfMeas
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: function2widgets
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-utility-scripts
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mat-data
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-core
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-langchain
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: github-webhook-server
+[2024-04-16 15:05:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-crewai
+[2024-04-16 15:05:03] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 15:05:03] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 15:05:03] INFO root fetch - processPackages [composio-core]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 15:05:03] INFO root fetch - processPackages [python-utility-scripts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 15:05:03] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/ad/dc/80de69cbe32b91258e0a71bc42ce131c96afb7243f7415343fb780052db8/composio_langchain-0.2.4.tar.gz
+[2024-04-16 15:05:03] WARNING root fetch - processPackages [iqrfpy-diagnostics]: Skipping, unable to determine old version
+[2024-04-16 15:05:03] INFO root fetch - processPackages [iqrfpy-diagnostics]: Start processing: mycloudlab1
+[2024-04-16 15:05:03] INFO root fetch - main [MainThread]: End processing [iqrfpy-diagnostics] error
+[2024-04-16 15:05:03] INFO root fetch - processPackages [github-webhook-server]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 15:05:03] INFO root fetch - processPackages [RsCmwGprfMeas]: New version: [4.0.140] Old Version: [3.7.30.31]
+[2024-04-16 15:05:03] INFO root fetch - processPackages [mat-data]: New version: [0.1b9] Old Version: [0.1b8]
+[2024-04-16 15:05:03] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/d4/1f/3b71c5d7bf6e68465a69152c9784e7e7fad90b0b2dc714d16bf945827f8e/composio_crewai-0.2.4.tar.gz
+[2024-04-16 15:05:03] INFO root fetch - processPackages [openshift-cli-installer]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-16 15:05:03] INFO root fetch - processPackages [function2widgets]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-16 15:05:03] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/35/13/ac0f003a9e29f1058b11fc2f0d90728189d7649d829984266cc381eb5edf/composio_core-0.2.4.tar.gz
+[2024-04-16 15:05:03] WARNING root fetch - processPackages [mycloudlab1]: Skipping, unable to determine old version
+[2024-04-16 15:05:03] INFO root fetch - processPackages [mycloudlab1]: Start processing: composio-autogen
+[2024-04-16 15:05:03] INFO root fetch - main [MainThread]: End processing [mycloudlab1] error
+[2024-04-16 15:05:03] INFO root fetch - processPackages [mat-data]: Downloading https://files.pythonhosted.org/packages/c8/45/8368bbb8e097d87576abf3c7ec7e7280f6faa0ba4c8d691fa89aa484872e/mat-data-0.1b8.tar.gz
+[2024-04-16 15:05:03] INFO root fetch - processPackages [RsCmwGprfMeas]: Downloading https://files.pythonhosted.org/packages/dd/f7/c7ded13979f7adb740f29305bab02918c6997f790361325881bc6469d1b3/RsCmwGprfMeas-3.7.30.31.tar.gz
+[2024-04-16 15:05:03] INFO root fetch - processPackages [python-utility-scripts]: Downloading https://files.pythonhosted.org/packages/6c/01/51bfeb2fcf48de8e85393b7dc865596d4ef5a95d7c36d178832b3a4f77bb/python_utility_scripts-0.0.8.tar.gz
+[2024-04-16 15:05:03] INFO root fetch - processPackages [github-webhook-server]: Downloading https://files.pythonhosted.org/packages/c0/56/cbab23c1ea2749d68d60c632e7929ca52c454aa52c5dc3fb32ac65b94db9/github_webhook_server-1.0.8.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 15:05:04] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/93/ea/081916b4f7f911ee0b4d2373be0df43c7c020915e4dc0daddae9d0c85d23/openshift_cli_installer-2.0.8.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/8d/1f/9c80cc0aab57113a16bdbcc707f880482de6978e247d641da138c8c8c73d/function2widgets-0.6.8.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/13/80/8b2f5df63810118569dd70f11c7815519bf65363ed7112011c1a18db5455/composio_core-0.2.5.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fa/c7/0a816791e2c4d7c9e4df08acb5d1fb7a2fd05f4bfd040216019fb9aedb36/composio_autogen-0.2.4.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/1a/3d/e5edad3da96accb2c5021c4c66f893f2af700807b00d4ecdaae59f70176d/composio_langchain-0.2.5.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/d8/3c/0065a993b53ad9186b5419311bf596b368a7e0a20b1ecb229a4d59044071/composio_crewai-0.2.5.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.4.tar.gz tmp/composio_core-0.2.5.tar.gz --markdown 20240416/c/composio-core/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.4.tar.gz tmp/composio_langchain-0.2.5.tar.gz --markdown 20240416/c/composio-langchain/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 15:05:04] INFO root fetch - processPackages [python-utility-scripts]: Downloading https://files.pythonhosted.org/packages/b5/1f/a795660b71037e5c289d162daebc6fa80614879af1af487e37846d02355e/python_utility_scripts-0.0.9.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [github-webhook-server]: Downloading https://files.pythonhosted.org/packages/d8/e5/6af680dbe8cc52383de6fd1b59cc6f4255b6801fe51655bd031999867ecf/github_webhook_server-1.0.9.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [RsCmwGprfMeas]: Downloading https://files.pythonhosted.org/packages/eb/42/a1720f9611b5c420cfbee71e070fd8dbb6e219b07b0b3bc656ccdeb54062/RsCmwGprfMeas-4.0.140.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.4.tar.gz tmp/composio_crewai-0.2.5.tar.gz --markdown 20240416/c/composio-crewai/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 15:05:04] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/33/ed/124419d49f595a1f7fda6ac265ce6834078b604e525ad52a5c3168e69ad1/function2widgets-0.6.9.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [python-utility-scripts]: executing diffoscope
+[2024-04-16 15:05:04] INFO root fetch - processPackages [python-utility-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_utility_scripts-0.0.8.tar.gz tmp/python_utility_scripts-0.0.9.tar.gz --markdown 20240416/p/python-utility-scripts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 15:05:04] INFO root fetch - processPackages [openshift-cli-installer]: Downloading https://files.pythonhosted.org/packages/2e/36/23bd27005a72d5bc87d2d81bd55477f2c4cbdee088189ef184dea2fb149c/openshift_cli_installer-2.0.9.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/d4/d1/51cc203515a754994a8ec9e504d9276507c9c941725d923795486064410a/composio_autogen-0.2.5.tar.gz
+[2024-04-16 15:05:04] INFO root fetch - processPackages [github-webhook-server]: executing diffoscope
+[2024-04-16 15:05:04] INFO root fetch - processPackages [github-webhook-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_webhook_server-1.0.8.tar.gz tmp/github_webhook_server-1.0.9.tar.gz --markdown 20240416/g/github-webhook-server/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 15:05:04] INFO root fetch - processPackages [RsCmwGprfMeas]: executing diffoscope
+[2024-04-16 15:05:04] INFO root fetch - processPackages [RsCmwGprfMeas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCmwGprfMeas-3.7.30.31.tar.gz tmp/RsCmwGprfMeas-4.0.140.tar.gz --markdown 20240416/R/RsCmwGprfMeas/3.7.30.31-4.0.140/README.md --exclude *.pyd
+[2024-04-16 15:05:04] INFO root fetch - processPackages [function2widgets]: executing diffoscope
+[2024-04-16 15:05:04] INFO root fetch - processPackages [function2widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function2widgets-0.6.8.tar.gz tmp/function2widgets-0.6.9.tar.gz --markdown 20240416/f/function2widgets/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-16 15:05:04] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.4.tar.gz tmp/composio_autogen-0.2.5.tar.gz --markdown 20240416/c/composio-autogen/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 15:05:04] INFO root fetch - processPackages [openshift-cli-installer]: executing diffoscope
+[2024-04-16 15:05:04] INFO root fetch - processPackages [openshift-cli-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cli_installer-2.0.8.tar.gz tmp/openshift_cli_installer-2.0.9.tar.gz --markdown 20240416/o/openshift-cli-installer/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-16 15:05:05] INFO root fetch - processPackages [mat-data]: Downloading https://files.pythonhosted.org/packages/58/98/665876b7be323fc301e67df5c5ef6b9c418531845be7e12fcd7a3b24f332/mat-data-0.1b9.tar.gz
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.4.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.5.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-core]: Start processing: melobot
+[2024-04-16 15:05:05] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.4.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.5.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-crewai]: Start processing: composio-lyzr
+[2024-04-16 15:05:05] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-16 15:05:05] INFO root fetch - processPackages [melobot]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [python-utility-scripts]: Remove: archive file [/home/abi/fetcher/tmp/python_utility_scripts-0.0.8.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [python-utility-scripts]: Remove: archive file [/home/abi/fetcher/tmp/python_utility_scripts-0.0.9.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [python-utility-scripts]: Start processing: dictrule
+[2024-04-16 15:05:05] INFO root fetch - main [MainThread]: End processing [python-utility-scripts]: success
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.4.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.5.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-langchain]: Start processing: acslib
+[2024-04-16 15:05:05] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-16 15:05:05] INFO root fetch - processPackages [dictrule]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.4.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.5.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-16 15:05:05] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/54/3f/eaaf6208d7048528c0e0c5d989f01cd311fdb2fa46619f3187f1748046cd/composio_lyzr-0.2.4.tar.gz
+[2024-04-16 15:05:05] INFO root fetch - processPackages [melobot]: Downloading https://files.pythonhosted.org/packages/a4/ee/0c1e25409a8ac4858b0ee1e4e3d5aebb24f9fd10b32b890fd5705a7f9ee2/melobot-2.5.8.tar.gz
+[2024-04-16 15:05:05] INFO root fetch - processPackages [acslib]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [mat-data]: executing diffoscope
+[2024-04-16 15:05:05] INFO root fetch - processPackages [mat-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat-data-0.1b8.tar.gz tmp/mat-data-0.1b9.tar.gz --markdown 20240416/m/mat-data/0.1b8-0.1b9/README.md --exclude *.pyd
+[2024-04-16 15:05:05] INFO root fetch - processPackages [github-webhook-server]: Remove: archive file [/home/abi/fetcher/tmp/github_webhook_server-1.0.8.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [github-webhook-server]: Remove: archive file [/home/abi/fetcher/tmp/github_webhook_server-1.0.9.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - main [MainThread]: End processing [github-webhook-server]: success
+[2024-04-16 15:05:05] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.8.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.9.tar.gz]
+[2024-04-16 15:05:05] INFO root fetch - main [MainThread]: End processing [function2widgets]: success
+[2024-04-16 15:05:06] INFO root fetch - processPackages [dictrule]: Downloading https://files.pythonhosted.org/packages/3d/1f/42f9c70225eda983cc62c205d306bc3f8e429fb725438d4d1149e678d87f/dictrule-0.2.0.tar.gz
+[2024-04-16 15:05:06] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.8.tar.gz]
+[2024-04-16 15:05:06] INFO root fetch - processPackages [openshift-cli-installer]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cli_installer-2.0.9.tar.gz]
+[2024-04-16 15:05:06] INFO root fetch - main [MainThread]: End processing [openshift-cli-installer]: success
+[2024-04-16 15:05:06] INFO root fetch - processPackages [acslib]: Downloading https://files.pythonhosted.org/packages/28/98/6778495d2294be732ca4cb3b06b8e08454815356edac99b8b103115cf8a2/acslib-0.1.4.tar.gz
+[2024-04-16 15:05:06] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/0c/9c/eeee3a32876b55bef3f2f91e8d2cc21c3940b73d3fb718c67c227671bb67/composio_lyzr-0.2.5.tar.gz
+[2024-04-16 15:05:06] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-16 15:05:06] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.4.tar.gz tmp/composio_lyzr-0.2.5.tar.gz --markdown 20240416/c/composio-lyzr/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 15:05:06] INFO root fetch - processPackages [melobot]: Downloading https://files.pythonhosted.org/packages/7a/22/a5b2baa3b113da213865a10258449637123d7e6b0667e58e193f56193a04/melobot-2.5.9.tar.gz
+[2024-04-16 15:05:06] INFO root fetch - processPackages [dictrule]: Downloading https://files.pythonhosted.org/packages/8b/b6/22681c8ff68514219ec53389b6c033f044c8e69f5892457dfc773f050b8a/dictrule-0.3.0.tar.gz
+[2024-04-16 15:05:06] INFO root fetch - processPackages [acslib]: Downloading https://files.pythonhosted.org/packages/a0/54/7e81e7bdd21e291bc756f03a617fc3e3e9fd412c025098568ce207d735da/acslib-0.1.6.tar.gz
+[2024-04-16 15:05:06] INFO root fetch - processPackages [melobot]: executing diffoscope
+[2024-04-16 15:05:06] INFO root fetch - processPackages [melobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melobot-2.5.8.tar.gz tmp/melobot-2.5.9.tar.gz --markdown 20240416/m/melobot/2.5.8-2.5.9/README.md --exclude *.pyd
+[2024-04-16 15:05:06] INFO root fetch - processPackages [dictrule]: executing diffoscope
+[2024-04-16 15:05:06] INFO root fetch - processPackages [dictrule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dictrule-0.2.0.tar.gz tmp/dictrule-0.3.0.tar.gz --markdown 20240416/d/dictrule/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-16 15:05:06] INFO root fetch - processPackages [acslib]: executing diffoscope
+[2024-04-16 15:05:06] INFO root fetch - processPackages [acslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acslib-0.1.4.tar.gz tmp/acslib-0.1.6.tar.gz --markdown 20240416/a/acslib/0.1.4-0.1.6/README.md --exclude *.pyd
+[2024-04-16 15:05:07] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.4.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.5.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-16 15:05:07] INFO root fetch - processPackages [dictrule]: Remove: archive file [/home/abi/fetcher/tmp/dictrule-0.2.0.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - processPackages [dictrule]: Remove: archive file [/home/abi/fetcher/tmp/dictrule-0.3.0.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - main [MainThread]: End processing [dictrule]: success
+[2024-04-16 15:05:07] INFO root fetch - processPackages [acslib]: Remove: archive file [/home/abi/fetcher/tmp/acslib-0.1.4.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - processPackages [acslib]: Remove: archive file [/home/abi/fetcher/tmp/acslib-0.1.6.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - processPackages [RsCmwGprfMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwGprfMeas-3.7.30.31.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - main [MainThread]: End processing [acslib]: success
+[2024-04-16 15:05:07] INFO root fetch - processPackages [RsCmwGprfMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCmwGprfMeas-4.0.140.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - main [MainThread]: End processing [RsCmwGprfMeas]: success
+[2024-04-16 15:05:07] INFO root fetch - processPackages [melobot]: Remove: archive file [/home/abi/fetcher/tmp/melobot-2.5.8.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - processPackages [melobot]: Remove: archive file [/home/abi/fetcher/tmp/melobot-2.5.9.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - main [MainThread]: End processing [melobot]: success
+[2024-04-16 15:05:07] INFO root fetch - processPackages [mat-data]: Remove: archive file [/home/abi/fetcher/tmp/mat-data-0.1b8.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - processPackages [mat-data]: Remove: archive file [/home/abi/fetcher/tmp/mat-data-0.1b9.tar.gz]
+[2024-04-16 15:05:07] INFO root fetch - main [MainThread]: End processing [mat-data]: success
+[2024-04-16 15:05:07] INFO root fetch - main [MainThread]: Store serial: [22787922]
