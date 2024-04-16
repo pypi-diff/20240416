@@ -20980,3 +20980,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:28:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-16 16:28:11] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-16 16:28:11] INFO root fetch - main [MainThread]: Store serial: [22788938]
+[2024-04-16 16:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788938]
+[2024-04-16 16:30:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: find-similar
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-transmuter
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyGRF
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: analogic-framework
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-config-sync
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-apps-chat
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: peaka
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TypeDAL
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peaka
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ploomber-cloud
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 16:30:20] INFO root fetch - processPackages [analogic-framework]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-16 16:30:20] INFO root fetch - processPackages [find-similar]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-16 16:30:20] WARNING root fetch - processPackages [peaka]: Skipping, unable to determine old version
+[2024-04-16 16:30:20] INFO root fetch - processPackages [peaka]: Start processing: ryomen
+[2024-04-16 16:30:20] INFO root fetch - main [MainThread]: End processing [peaka] error
+[2024-04-16 16:30:20] WARNING root fetch - processPackages [peaka]: Skipping, unable to determine old version
+[2024-04-16 16:30:20] INFO root fetch - processPackages [peaka]: Start processing: mastsel
+[2024-04-16 16:30:20] INFO root fetch - main [MainThread]: End processing [peaka] error
+[2024-04-16 16:30:20] INFO root fetch - processPackages [py-transmuter]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/09/b7/440dcb1a0920e2be01c8f414f613165ff78c6816833a687736a9dc9162b1/ploomber-cloud-0.1.8.tar.gz
+[2024-04-16 16:30:20] INFO root fetch - processPackages [PyGRF]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-16 16:30:20] INFO root fetch - processPackages [simple-config-sync]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-16 16:30:20] INFO root fetch - processPackages [google-apps-chat]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 16:30:20] INFO root fetch - processPackages [TypeDAL]: New version: [3.0.1] Old Version: [3.0.0b4]
+[2024-04-16 16:30:20] WARNING root fetch - processPackages [ryomen]: Skipping, unable to determine old version
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ryomen]: Start processing: pyhdl-if
+[2024-04-16 16:30:20] INFO root fetch - main [MainThread]: End processing [ryomen] error
+[2024-04-16 16:30:20] INFO root fetch - processPackages [analogic-framework]: Downloading https://files.pythonhosted.org/packages/98/74/501ef05cf43d57823ed10935b7cca46ed0b00274c9375535a799a8c48fd0/analogic-framework-4.1.8.tar.gz
+[2024-04-16 16:30:20] INFO root fetch - processPackages [find-similar]: Downloading https://files.pythonhosted.org/packages/c2/d1/014775791bdadff82bd3073c8eddf2417c9bb69ccd68cb998ffcd22c12ae/find-similar-2.1.0.tar.gz
+[2024-04-16 16:30:20] INFO root fetch - processPackages [mastsel]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-04-16 16:30:20] INFO root fetch - processPackages [simple-config-sync]: Downloading https://files.pythonhosted.org/packages/49/89/c60133a7f042faa793c6f19f6b5b2f348daf561fabafab7d22a700f38a64/simple_config_sync-0.1.6.tar.gz
+[2024-04-16 16:30:20] INFO root fetch - processPackages [pyhdl-if]: New version: [0.0.1.8707444140] Old Version: [0.0.1.8699949903]
+[2024-04-16 16:30:20] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/e6/f8/f4451ff0cb54c012c89da5286d33c3f73ca21e606814f7366bd6cda4738a/ploomber-cloud-0.1.9.tar.gz
+[2024-04-16 16:30:20] INFO root fetch - processPackages [TypeDAL]: Downloading https://files.pythonhosted.org/packages/f4/c8/ed9518e456a0ceb2b10bcfe7f772317215ea3e190306b291f81b9b22bc26/typedal-3.0.0b4.tar.gz
+[2024-04-16 16:30:20] INFO root fetch - processPackages [py-transmuter]: Downloading https://files.pythonhosted.org/packages/24/40/de017b3a27babcffd68bede5ad7f8b724ce5eeda196f543d4da02564cbef/py_transmuter-0.1.2.tar.gz
+[2024-04-16 16:30:20] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/07/0b/252d93b9b4a59052495b025fe713e1f894cfdbd832fc68aa3286c4355530/PyGRF-0.1.5.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [google-apps-chat]: Downloading https://files.pythonhosted.org/packages/e4/fb/2a4a36ec656640df63a88f8bd7a1a15e7f2dd64a5bbd15594cafbef30b96/google-apps-chat-0.1.2.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.1.8.tar.gz tmp/ploomber-cloud-0.1.9.tar.gz --markdown 20240416/p/ploomber-cloud/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 16:30:21] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/3a/2b/f307c197bb3b88e348f3e15d8433135492d4870c36120cc531aa758ca33f/mastsel-1.2.6.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [pyhdl-if]: Downloading https://files.pythonhosted.org/packages/d6/61/6300fd3fd61ebdf21bd9b57976e115652f87e14f2bd09c8203eb40b1304c/pyhdl_if-0.0.1.8699949903-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:30:21] INFO root fetch - processPackages [find-similar]: Downloading https://files.pythonhosted.org/packages/cb/cc/947cc3748b1ef8be6ce52fea971f3c1d7cab73e5be50ad387d68b9f4c859/find_similar-2.2.0.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [simple-config-sync]: Downloading https://files.pythonhosted.org/packages/20/f0/47b8ec57d269b474c7dc22ddfc0125ecc553a91635f0e18273c840b377b8/simple_config_sync-0.1.7.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [analogic-framework]: Downloading https://files.pythonhosted.org/packages/cd/ce/09017b84d3dbd60dd976cda67cd198bf77de7a26939328c92e42de6003e2/analogic-framework-4.1.9.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [py-transmuter]: Downloading https://files.pythonhosted.org/packages/e8/e4/5e736a0d617524688ea4d0e2f084a6ccdf9ce04cd7d21207c38f6d6cdd8b/py_transmuter-0.2.0.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [PyGRF]: Downloading https://files.pythonhosted.org/packages/88/1c/3a226e5ac0e6de22b9e59304c2f6ea679d8e0abf756d835443879f251283/PyGRF-0.1.6.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [find-similar]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [find-similar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/find-similar-2.1.0.tar.gz tmp/find_similar-2.2.0.tar.gz --markdown 20240416/f/find-similar/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-16 16:30:21] INFO root fetch - processPackages [simple-config-sync]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [simple-config-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_config_sync-0.1.6.tar.gz tmp/simple_config_sync-0.1.7.tar.gz --markdown 20240416/s/simple-config-sync/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-16 16:30:21] INFO root fetch - processPackages [mastsel]: Downloading https://files.pythonhosted.org/packages/67/ad/100dfda7026a3ab2a0a2e59ec3bbdb9bc5882a8a770f8d30b6c4a05cb5b2/mastsel-1.2.7.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [google-apps-chat]: Downloading https://files.pythonhosted.org/packages/2a/bf/5c82d8f18d70c31e1f18dda323d93799997d5a0d92a9997b5e17b0eeff83/google-apps-chat-0.1.3.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [py-transmuter]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [py-transmuter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_transmuter-0.1.2.tar.gz tmp/py_transmuter-0.2.0.tar.gz --markdown 20240416/p/py-transmuter/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-16 16:30:21] INFO root fetch - processPackages [PyGRF]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [PyGRF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGRF-0.1.5.tar.gz tmp/PyGRF-0.1.6.tar.gz --markdown 20240416/P/PyGRF/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-16 16:30:21] INFO root fetch - processPackages [pyhdl-if]: Downloading https://files.pythonhosted.org/packages/a9/58/b4910f937635d5189b933ee9bb68dcfbf0f746764bbf8a6c7856a7c49298/pyhdl_if-0.0.1.8707444140-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 16:30:21] INFO root fetch - processPackages [analogic-framework]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [analogic-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analogic-framework-4.1.8.tar.gz tmp/analogic-framework-4.1.9.tar.gz --markdown 20240416/a/analogic-framework/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-04-16 16:30:21] INFO root fetch - processPackages [mastsel]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [mastsel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastsel-1.2.6.tar.gz tmp/mastsel-1.2.7.tar.gz --markdown 20240416/m/mastsel/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-04-16 16:30:21] INFO root fetch - processPackages [google-apps-chat]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [google-apps-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-apps-chat-0.1.2.tar.gz tmp/google-apps-chat-0.1.3.tar.gz --markdown 20240416/g/google-apps-chat/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 16:30:21] INFO root fetch - processPackages [TypeDAL]: Downloading https://files.pythonhosted.org/packages/47/b9/182c45004b048def691eab9641450ef88ad45ede61840354f00940697b17/typedal-3.0.1.tar.gz
+[2024-04-16 16:30:21] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.8.tar.gz]
+[2024-04-16 16:30:21] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
+[2024-04-16 16:30:21] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-04-16 16:30:21] INFO root fetch - processPackages [pyhdl-if]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [pyhdl-if]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdl_if-0.0.1.8699949903-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyhdl_if-0.0.1.8707444140-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/p/pyhdl-if/0.0.1.8699949903-0.0.1.8707444140/README.md --exclude *.pyd
+[2024-04-16 16:30:21] INFO root fetch - processPackages [TypeDAL]: executing diffoscope
+[2024-04-16 16:30:21] INFO root fetch - processPackages [TypeDAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedal-3.0.0b4.tar.gz tmp/typedal-3.0.1.tar.gz --markdown 20240416/T/TypeDAL/3.0.0b4-3.0.1/README.md --exclude *.pyd
+[2024-04-16 16:30:22] INFO root fetch - processPackages [simple-config-sync]: Remove: archive file [/home/abi/fetcher/tmp/simple_config_sync-0.1.6.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - processPackages [simple-config-sync]: Remove: archive file [/home/abi/fetcher/tmp/simple_config_sync-0.1.7.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - main [MainThread]: End processing [simple-config-sync]: success
+[2024-04-16 16:30:22] INFO root fetch - processPackages [find-similar]: Remove: archive file [/home/abi/fetcher/tmp/find-similar-2.1.0.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - processPackages [find-similar]: Remove: archive file [/home/abi/fetcher/tmp/find_similar-2.2.0.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - main [MainThread]: End processing [find-similar]: success
+[2024-04-16 16:30:22] INFO root fetch - processPackages [py-transmuter]: Remove: archive file [/home/abi/fetcher/tmp/py_transmuter-0.1.2.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - processPackages [py-transmuter]: Remove: archive file [/home/abi/fetcher/tmp/py_transmuter-0.2.0.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - main [MainThread]: End processing [py-transmuter]: success
+[2024-04-16 16:30:22] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.1.5.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - processPackages [PyGRF]: Remove: archive file [/home/abi/fetcher/tmp/PyGRF-0.1.6.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - main [MainThread]: End processing [PyGRF]: success
+[2024-04-16 16:30:22] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-1.2.6.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - processPackages [mastsel]: Remove: archive file [/home/abi/fetcher/tmp/mastsel-1.2.7.tar.gz]
+[2024-04-16 16:30:22] INFO root fetch - main [MainThread]: End processing [mastsel]: success
+[2024-04-16 16:30:22] INFO root fetch - processPackages [pyhdl-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_if-0.0.1.8699949903-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 16:30:22] INFO root fetch - processPackages [pyhdl-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_if-0.0.1.8707444140-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 16:30:22] INFO root fetch - main [MainThread]: End processing [pyhdl-if]: success
+[2024-04-16 16:30:23] INFO root fetch - processPackages [google-apps-chat]: Remove: archive file [/home/abi/fetcher/tmp/google-apps-chat-0.1.2.tar.gz]
+[2024-04-16 16:30:23] INFO root fetch - processPackages [google-apps-chat]: Remove: archive file [/home/abi/fetcher/tmp/google-apps-chat-0.1.3.tar.gz]
+[2024-04-16 16:30:23] INFO root fetch - main [MainThread]: End processing [google-apps-chat]: success
+[2024-04-16 16:30:24] INFO root fetch - processPackages [TypeDAL]: Remove: archive file [/home/abi/fetcher/tmp/typedal-3.0.0b4.tar.gz]
+[2024-04-16 16:30:24] INFO root fetch - processPackages [TypeDAL]: Remove: archive file [/home/abi/fetcher/tmp/typedal-3.0.1.tar.gz]
+[2024-04-16 16:30:24] INFO root fetch - main [MainThread]: End processing [TypeDAL]: success
+[2024-04-16 16:30:25] INFO root fetch - processPackages [analogic-framework]: Remove: archive file [/home/abi/fetcher/tmp/analogic-framework-4.1.8.tar.gz]
+[2024-04-16 16:30:25] INFO root fetch - processPackages [analogic-framework]: Remove: archive file [/home/abi/fetcher/tmp/analogic-framework-4.1.9.tar.gz]
+[2024-04-16 16:30:25] INFO root fetch - main [MainThread]: End processing [analogic-framework]: success
+[2024-04-16 16:30:25] INFO root fetch - main [MainThread]: Store serial: [22788988]
