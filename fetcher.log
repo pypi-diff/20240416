@@ -11080,3 +11080,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:30:44] INFO root fetch - processPackages [nabu]: Remove: archive file [/home/abi/fetcher/tmp/nabu-2024.1.5.tar.gz]
 [2024-04-16 10:30:44] INFO root fetch - main [MainThread]: End processing [nabu]: success
 [2024-04-16 10:30:44] INFO root fetch - main [MainThread]: Store serial: [22784600]
+[2024-04-16 10:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784600]
+[2024-04-16 10:32:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eli-utils
+[2024-04-16 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: celitech-sdk
+[2024-04-16 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qleegss
+[2024-04-16 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: th2-data-services
+[2024-04-16 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-genesiscloud
+[2024-04-16 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2024-04-16 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eli-utils
+[2024-04-16 10:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: healthsageai
+[2024-04-16 10:32:54] INFO root fetch - processPackages [eli-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 10:32:54] INFO root fetch - processPackages [pulumi-genesiscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 10:32:54] INFO root fetch - processPackages [eli-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 10:32:54] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 10:32:54] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8702324290] Old Version: [2.0.0.dev8662586819]
+[2024-04-16 10:32:55] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240416060436] Old Version: [3.3.1.dev20240416055920]
+[2024-04-16 10:32:55] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/7b/eb/c1987063b7330a56617c62d967ff70d44c2fde9e6c027effd7bd05f44cfc/pulumi_genesiscloud-0.0.8.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [healthsageai]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 10:32:55] INFO root fetch - processPackages [celitech-sdk]: New version: [1.1.50] Old Version: [1.1.49]
+[2024-04-16 10:32:55] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/67/8d/630c7416cb2672562edc66671d35c3705a67220869d47d5bd584cd4d0a7b/th2_data_services-2.0.0.dev8662586819.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [eli-utils]: Downloading https://files.pythonhosted.org/packages/96/fd/76b60702d262a3e21b7e5a2c0ad15c4dd42efcf4d555a04a945e1ccd3801/eli_utils-0.0.8.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [eli-utils]: Downloading https://files.pythonhosted.org/packages/96/fd/76b60702d262a3e21b7e5a2c0ad15c4dd42efcf4d555a04a945e1ccd3801/eli_utils-0.0.8.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/74/5f/f52b1a072b5ad6aad74a2814d92ca14048306341d516738a7fbe59a210fe/localstack_core-3.3.1.dev20240416055920.tar.gz
+[2024-04-16 10:32:55] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-04-16 10:32:55] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-04-16 10:32:55] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/d3/2d/963c178bf748b61ac0e3cb7d2a59fd230b6ed19ae81dab91bd6c154ed8f7/celitech-sdk-1.1.49.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [healthsageai]: Downloading https://files.pythonhosted.org/packages/40/31/e634c71370c1b667462c8be6baeb695f464bfb35f71782697ad21f31bdd1/healthsageai-0.1.3.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [eli-utils]: Downloading https://files.pythonhosted.org/packages/73/2a/74ec53f957b2e7c07b8cb2f0fc15a6d2fded4f8a4100e708e5f0a5789774/eli_utils-0.0.9.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [eli-utils]: Downloading https://files.pythonhosted.org/packages/73/2a/74ec53f957b2e7c07b8cb2f0fc15a6d2fded4f8a4100e708e5f0a5789774/eli_utils-0.0.9.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/aa/7c/251ef8cfa17a0594ba968d250587da7996c66e18b43375d08036c07d2cf4/th2_data_services-2.0.0.dev8702324290.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/85/48/c33e3e8789275770f6ecf59b3f8ba30057d291ef8fff95f7d0077bb2638c/pulumi_genesiscloud-0.0.9.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [eli-utils]: executing diffoscope
+[2024-04-16 10:32:55] INFO root fetch - processPackages [eli-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eli_utils-0.0.8.tar.gz tmp/eli_utils-0.0.9.tar.gz --markdown 20240416/e/eli-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 10:32:55] INFO root fetch - processPackages [eli-utils]: executing diffoscope
+[2024-04-16 10:32:55] INFO root fetch - processPackages [eli-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eli_utils-0.0.8.tar.gz tmp/eli_utils-0.0.9.tar.gz --markdown 20240416/e/eli-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 10:32:55] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-04-16 10:32:55] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8662586819.tar.gz tmp/th2_data_services-2.0.0.dev8702324290.tar.gz --markdown 20240416/t/th2-data-services/2.0.0.dev8662586819-2.0.0.dev8702324290/README.md --exclude *.pyd
+[2024-04-16 10:32:55] INFO root fetch - processPackages [pulumi-genesiscloud]: executing diffoscope
+[2024-04-16 10:32:55] INFO root fetch - processPackages [pulumi-genesiscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_genesiscloud-0.0.8.tar.gz tmp/pulumi_genesiscloud-0.0.9.tar.gz --markdown 20240416/p/pulumi-genesiscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 10:32:55] INFO root fetch - processPackages [celitech-sdk]: Downloading https://files.pythonhosted.org/packages/6a/54/addb00c2e41b749cab6cfbadb9aad26c0924c3e348727c1183944a4ef5f9/celitech_sdk-1.1.50.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9c/6b/b88c981126b60a2d5d79be48cd3aa90ccfa3ba9800dce91c343c558dca27/localstack_core-3.3.1.dev20240416060436.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [healthsageai]: Downloading https://files.pythonhosted.org/packages/8b/2b/dddeea64eb5303cbd0db1aa52a5dc8e171b6f14093b0517b575b48f80445/healthsageai-0.1.4.tar.gz
+[2024-04-16 10:32:55] INFO root fetch - processPackages [celitech-sdk]: executing diffoscope
+[2024-04-16 10:32:55] INFO root fetch - processPackages [celitech-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celitech-sdk-1.1.49.tar.gz tmp/celitech_sdk-1.1.50.tar.gz --markdown 20240416/c/celitech-sdk/1.1.49-1.1.50/README.md --exclude *.pyd
+[2024-04-16 10:32:55] INFO root fetch - processPackages [healthsageai]: executing diffoscope
+[2024-04-16 10:32:55] INFO root fetch - processPackages [healthsageai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healthsageai-0.1.3.tar.gz tmp/healthsageai-0.1.4.tar.gz --markdown 20240416/h/healthsageai/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 10:32:55] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-16 10:32:55] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240416055920.tar.gz tmp/localstack_core-3.3.1.dev20240416060436.tar.gz --markdown 20240416/l/localstack-core/3.3.1.dev20240416055920-3.3.1.dev20240416060436/README.md --exclude *.pyd
+[2024-04-16 10:32:56] INFO root fetch - processPackages [eli-utils]: Remove: archive file [/home/abi/fetcher/tmp/eli_utils-0.0.8.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - processPackages [eli-utils]: Remove: archive file [/home/abi/fetcher/tmp/eli_utils-0.0.9.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - main [MainThread]: End processing [eli-utils]: success
+[2024-04-16 10:32:56] INFO root fetch - main [MainThread]: End processing [eli-utils]: success
+[2024-04-16 10:32:56] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.8.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
+[2024-04-16 10:32:56] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8662586819.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8702324290.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-04-16 10:32:56] INFO root fetch - processPackages [healthsageai]: Remove: archive file [/home/abi/fetcher/tmp/healthsageai-0.1.3.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - processPackages [healthsageai]: Remove: archive file [/home/abi/fetcher/tmp/healthsageai-0.1.4.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - main [MainThread]: End processing [healthsageai]: success
+[2024-04-16 10:32:56] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech-sdk-1.1.49.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - processPackages [celitech-sdk]: Remove: archive file [/home/abi/fetcher/tmp/celitech_sdk-1.1.50.tar.gz]
+[2024-04-16 10:32:56] INFO root fetch - main [MainThread]: End processing [celitech-sdk]: success
+[2024-04-16 10:32:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416055920.tar.gz]
+[2024-04-16 10:32:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416060436.tar.gz]
+[2024-04-16 10:32:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-16 10:32:59] INFO root fetch - main [MainThread]: Store serial: [22784622]
