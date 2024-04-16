@@ -5575,3 +5575,95 @@
 [2024-04-16 06:05:01] INFO root fetch - processPackages [pyacp]: Remove: archive file [/home/abi/fetcher/tmp/pyacp-0.2.0.tar.gz]
 [2024-04-16 06:05:01] INFO root fetch - main [MainThread]: End processing [pyacp]: success
 [2024-04-16 06:05:01] INFO root fetch - main [MainThread]: Store serial: [22782332]
+[2024-04-16 06:07:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782332]
+[2024-04-16 06:07:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-dbt
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rippling-flux-sdk
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imface
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trove-newspaper-images
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xy-health-measurement-sdk
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chromedriver-binary
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chromedriver-binary
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dictrule
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: algokit
+[2024-04-16 06:07:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-website-sale-hide-price
+[2024-04-16 06:07:26] INFO root fetch - processPackages [trove-newspaper-images]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-16 06:07:26] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.0.0.3]
+[2024-04-16 06:07:26] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-16 06:07:26] INFO root fetch - processPackages [xy-health-measurement-sdk]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2024-04-16 06:07:26] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-16 06:07:26] INFO root fetch - processPackages [shipyard-dbt]: New version: [0.2.0a3] Old Version: [0.2.0a2]
+[2024-04-16 06:07:26] INFO root fetch - processPackages [imface]: New version: [0.0.0.4.4] Old Version: [0.0.0.4.3]
+[2024-04-16 06:07:26] INFO root fetch - processPackages [rippling-flux-sdk]: New version: [0.9.27] Old Version: [0.9.26]
+[2024-04-16 06:07:26] WARNING root fetch - processPackages [dictrule]: Skipping, unable to determine old version
+[2024-04-16 06:07:26] INFO root fetch - processPackages [dictrule]: Start processing: imface
+[2024-04-16 06:07:26] INFO root fetch - main [MainThread]: End processing [dictrule] error
+[2024-04-16 06:07:26] INFO root fetch - processPackages [algokit]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-16 06:07:26] INFO root fetch - processPackages [trove-newspaper-images]: Downloading https://files.pythonhosted.org/packages/dc/f8/bf50e3dcb9d53ed6135ec9ce3e1767d903af1643d043ac00b0440b1fc92e/trove_newspaper_images-0.2.1.tar.gz
+[2024-04-16 06:07:26] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/57/9e/e3e25859febaf360683780f9e2f0d77f00f958598c9f5ca0f4cf83c6c03e/odoo_addon_website_sale_hide_price-16.0.2.0.0.3-py3-none-any.whl
+[2024-04-16 06:07:26] INFO root fetch - processPackages [xy-health-measurement-sdk]: Downloading https://files.pythonhosted.org/packages/2c/5f/b02fc317e07da3d620f0de636da7fc935ac85db24e164de4288c1889f98d/xy_health_measurement_sdk-2.0.0rc1.tar.gz
+[2024-04-16 06:07:26] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-16 06:07:26] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-16 06:07:26] INFO root fetch - processPackages [imface]: New version: [0.0.0.4.4] Old Version: [0.0.0.4.3]
+[2024-04-16 06:07:26] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/0f/9d/f4cd2d2adeaab6fdd684b7eaf8d691c14ca1bef27a4a2790c5e7e06cfff6/rippling_flux_sdk-0.9.26.tar.gz
+[2024-04-16 06:07:26] INFO root fetch - processPackages [shipyard-dbt]: Downloading https://files.pythonhosted.org/packages/82/22/4ebeffe1fe243091f148d5f7a0d628540bb5de0469eb92253e4e9b108b73/shipyard_dbt-0.2.0a2.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [imface]: Downloading https://files.pythonhosted.org/packages/26/74/41d75a9856e481518f68a628662ac18b019c8b058e84f2d2385d99811a65/imface-0.0.0.4.3.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/10/02/b8fa89fdc49eb5f842604704e4f206a75afc5c23e30b7474dce16e4a9b96/algokit-2.0.2-py3-none-any.whl
+[2024-04-16 06:07:27] INFO root fetch - processPackages [imface]: Downloading https://files.pythonhosted.org/packages/26/74/41d75a9856e481518f68a628662ac18b019c8b058e84f2d2385d99811a65/imface-0.0.0.4.3.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [trove-newspaper-images]: Downloading https://files.pythonhosted.org/packages/46/03/c2bc82c25bd776a84b18d1dd7c02b863db9493e69042cbf6a8d1cdab4a36/trove_newspaper_images-0.3.0.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/9c/fe/2edfaef51ffa063dec21acc3bfdc7e22472ce0b69c0c97861ea7610af3cc/odoo_addon_website_sale_hide_price-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 06:07:27] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [trove-newspaper-images]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [trove-newspaper-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trove_newspaper_images-0.2.1.tar.gz tmp/trove_newspaper_images-0.3.0.tar.gz --markdown 20240416/t/trove-newspaper-images/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-16 06:07:27] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240416/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-16 06:07:27] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_hide_price-16.0.2.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-website-sale-hide-price/16.0.2.0.0.3-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-16 06:07:27] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240416/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-16 06:07:27] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/94/03/093a310cfb4ff2c4b673f26d4895395ebf647cc4efa7d58bf63c31013fed/rippling_flux_sdk-0.9.27.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [xy-health-measurement-sdk]: Downloading https://files.pythonhosted.org/packages/32/02/bd01c886995a16439ef0fac8c0324e19c5b56c1087858a13c0ff071216d5/xy_health_measurement_sdk-2.0.0rc2.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [shipyard-dbt]: Downloading https://files.pythonhosted.org/packages/a5/cf/515c36f4828ee32b18520836f5189ee20e38c2291f1230845fa9932f4992/shipyard_dbt-0.2.0a3.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [imface]: Downloading https://files.pythonhosted.org/packages/a7/31/5ff22f7a322b36b99aa9270eecaf3e2efac70d328460a3bf500dd84c97ec/imface-0.0.0.4.4.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [imface]: Downloading https://files.pythonhosted.org/packages/a7/31/5ff22f7a322b36b99aa9270eecaf3e2efac70d328460a3bf500dd84c97ec/imface-0.0.0.4.4.tar.gz
+[2024-04-16 06:07:27] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/67/d7/256032fbb4359ca28c9f1e1677b1d41445e108ea9a5ae7973c16da86e9f1/algokit-2.0.3-py3-none-any.whl
+[2024-04-16 06:07:27] INFO root fetch - processPackages [rippling-flux-sdk]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [rippling-flux-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_sdk-0.9.26.tar.gz tmp/rippling_flux_sdk-0.9.27.tar.gz --markdown 20240416/r/rippling-flux-sdk/0.9.26-0.9.27/README.md --exclude *.pyd
+[2024-04-16 06:07:27] INFO root fetch - processPackages [shipyard-dbt]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [shipyard-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_dbt-0.2.0a2.tar.gz tmp/shipyard_dbt-0.2.0a3.tar.gz --markdown 20240416/s/shipyard-dbt/0.2.0a2-0.2.0a3/README.md --exclude *.pyd
+[2024-04-16 06:07:27] INFO root fetch - processPackages [algokit]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [algokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit-2.0.2-py3-none-any.whl.zip tmp/algokit-2.0.3-py3-none-any.whl.zip --markdown 20240416/a/algokit/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-16 06:07:27] INFO root fetch - processPackages [imface]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [imface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imface-0.0.0.4.3.tar.gz tmp/imface-0.0.0.4.4.tar.gz --markdown 20240416/i/imface/0.0.0.4.3-0.0.0.4.4/README.md --exclude *.pyd
+[2024-04-16 06:07:27] INFO root fetch - processPackages [imface]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [imface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imface-0.0.0.4.3.tar.gz tmp/imface-0.0.0.4.4.tar.gz --markdown 20240416/i/imface/0.0.0.4.3-0.0.0.4.4/README.md --exclude *.pyd
+[2024-04-16 06:07:27] INFO root fetch - processPackages [xy-health-measurement-sdk]: executing diffoscope
+[2024-04-16 06:07:27] INFO root fetch - processPackages [xy-health-measurement-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xy_health_measurement_sdk-2.0.0rc1.tar.gz tmp/xy_health_measurement_sdk-2.0.0rc2.tar.gz --markdown 20240416/x/xy-health-measurement-sdk/2.0.0rc1-2.0.0rc2/README.md --exclude *.pyd
+[2024-04-16 06:07:28] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-16 06:07:28] INFO root fetch - processPackages [trove-newspaper-images]: Remove: archive file [/home/abi/fetcher/tmp/trove_newspaper_images-0.2.1.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - processPackages [trove-newspaper-images]: Remove: archive file [/home/abi/fetcher/tmp/trove_newspaper_images-0.3.0.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [trove-newspaper-images]: success
+[2024-04-16 06:07:28] INFO root fetch - processPackages [shipyard-dbt]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_dbt-0.2.0a2.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - processPackages [shipyard-dbt]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_dbt-0.2.0a3.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [shipyard-dbt]: success
+[2024-04-16 06:07:28] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.26.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
+[2024-04-16 06:07:28] INFO root fetch - processPackages [imface]: Remove: archive file [/home/abi/fetcher/tmp/imface-0.0.0.4.3.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - processPackages [imface]: Remove: archive file [/home/abi/fetcher/tmp/imface-0.0.0.4.4.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [imface]: success
+[2024-04-16 06:07:28] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-16.0.2.0.0.3-py3-none-any.whl.zip]
+[2024-04-16 06:07:28] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [imface]: success
+[2024-04-16 06:07:28] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.2-py3-none-any.whl.zip]
+[2024-04-16 06:07:28] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.3-py3-none-any.whl.zip]
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [algokit]: success
+[2024-04-16 06:07:28] INFO root fetch - processPackages [xy-health-measurement-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xy_health_measurement_sdk-2.0.0rc1.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - processPackages [xy-health-measurement-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xy_health_measurement_sdk-2.0.0rc2.tar.gz]
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [xy-health-measurement-sdk]: success
+[2024-04-16 06:07:28] INFO root fetch - main [MainThread]: Store serial: [22782364]
