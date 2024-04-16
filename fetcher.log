@@ -17894,3 +17894,144 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:52:04] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
 [2024-04-16 14:52:04] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
 [2024-04-16 14:52:04] INFO root fetch - main [MainThread]: Store serial: [22787725]
+[2024-04-16 14:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787725]
+[2024-04-16 14:54:12] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ops-py-azure-key-vault-report
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tui-dsmt
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scematk
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qiskit-iqm
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astro-extras
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mat-model
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: policyengine-core
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composio-core
+[2024-04-16 14:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-langchain
+[2024-04-16 14:54:13] INFO root fetch - processPackages [astro-extras]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [tui-dsmt]: New version: [202404160633] Old Version: [202404111315]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [composio-core]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: New version: [5.0.0] Old Version: [4.0.1]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/ea/80/f4a2841dd56b545e7c7711fcf3d3c029b317f213ec0268d45a43f8aabdad/astro_extras-0.0.8.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [mat-model]: New version: [0.1b12] Old Version: [0.1b11]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [policyengine-core]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-04-16 14:54:13] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/c7/0d/5ba8c356cf016fcb00e3e236fb133afda58fea61be247632d0d4913e0c7a/composio_core-0.2.2.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/c5/94/23c42465fe0a92d9000625342994de8d476083937847511ec15d79880c44/tui_dsmt-202404111315.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/9c/ba/230da61361bd867222a89e5ac8012c5fd318b31b13c34399cddd288ae0d1/composio_langchain-0.2.2.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/c4/42/ed76a37f668cc027ee4063393e976c8d0806f87389a8452a4fd7ab389efe/ops-py-azure-key-vault-report-4.0.1.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [mat-model]: Downloading https://files.pythonhosted.org/packages/f8/bd/0095021443f34924c001d0284fd4c4b05cf7215e38e1ab8290838da0570a/mat-model-0.1b11.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/58/f6/9fd45c5536eb5a52340a5ab664ae6ac49c5e0460455426cfef38901b5d59/astro_extras-0.0.9.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/73/03/4dd83232c6d1fac5ed7c73e822dcf2115cf2979eef49d4d8cbf55d58c526/composio_core-0.2.3.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/07/97/2bc82753b761563058e4b2a2d1fdfa98561d4e4c738445057c8cab7cc095/policyengine-core-2.8.2.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/e6/72/d64818debfdf52f24495794cbcd868a8dc999c6b1f9d5c40d1067635c587/tui_dsmt-202404160633.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/84/d0/e31bc4697a92ecf721a7f08cd1f0514ae0f1df7e9def382d9ff3b66dce57/ops_py_azure_key_vault_report-5.0.0.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-16 14:54:13] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.2.tar.gz tmp/composio_core-0.2.3.tar.gz --markdown 20240416/c/composio-core/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 14:54:13] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/ad/ff/fd68e64d29e0d70d6e05f8aa2e5206bcd05db27d67a919d1580ddb7960a4/composio_langchain-0.2.3.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [astro-extras]: executing diffoscope
+[2024-04-16 14:54:13] INFO root fetch - processPackages [astro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_extras-0.0.8.tar.gz tmp/astro_extras-0.0.9.tar.gz --markdown 20240416/a/astro-extras/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 14:54:13] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: executing diffoscope
+[2024-04-16 14:54:13] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-py-azure-key-vault-report-4.0.1.tar.gz tmp/ops_py_azure_key_vault_report-5.0.0.tar.gz --markdown 20240416/o/ops-py-azure-key-vault-report/4.0.1-5.0.0/README.md --exclude *.pyd
+[2024-04-16 14:54:13] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-16 14:54:13] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202404111315.tar.gz tmp/tui_dsmt-202404160633.tar.gz --markdown 20240416/t/tui-dsmt/202404111315-202404160633/README.md --exclude *.pyd
+[2024-04-16 14:54:13] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-16 14:54:13] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240416/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-16 14:54:13] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2024-04-16 14:54:13] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-04-16 14:54:13] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240416/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-16 14:54:14] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-16 14:54:14] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.2.tar.gz tmp/composio_langchain-0.2.3.tar.gz --markdown 20240416/c/composio-langchain/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 14:54:14] INFO root fetch - processPackages [mat-model]: Downloading https://files.pythonhosted.org/packages/56/4a/97a86c29b13edf2a3803cf346293b1768ddb9395c40a248084a364e6e45c/mat_model-0.1b12.tar.gz
+[2024-04-16 14:54:14] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2024-04-16 14:54:14] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20240416/q/qiskit-iqm/8.3-9.0/README.md --exclude *.pyd
+[2024-04-16 14:54:14] INFO root fetch - processPackages [mat-model]: executing diffoscope
+[2024-04-16 14:54:14] INFO root fetch - processPackages [mat-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat-model-0.1b11.tar.gz tmp/mat_model-0.1b12.tar.gz --markdown 20240416/m/mat-model/0.1b11-0.1b12/README.md --exclude *.pyd
+[2024-04-16 14:54:14] INFO root fetch - processPackages [policyengine-core]: Downloading https://files.pythonhosted.org/packages/26/a2/83d36d4b568d37e6724b68831dc58b4b0c74c437e7537f296c45353a7986/policyengine-core-2.9.0.tar.gz
+[2024-04-16 14:54:14] INFO root fetch - processPackages [policyengine-core]: executing diffoscope
+[2024-04-16 14:54:14] INFO root fetch - processPackages [policyengine-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-core-2.8.2.tar.gz tmp/policyengine-core-2.9.0.tar.gz --markdown 20240416/p/policyengine-core/2.8.2-2.9.0/README.md --exclude *.pyd
+[2024-04-16 14:54:14] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.2.tar.gz]
+[2024-04-16 14:54:14] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.3.tar.gz]
+[2024-04-16 14:54:14] INFO root fetch - processPackages [composio-langchain]: Start processing: composio-crewai
+[2024-04-16 14:54:14] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-16 14:54:14] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.2.tar.gz]
+[2024-04-16 14:54:14] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.3.tar.gz]
+[2024-04-16 14:54:14] INFO root fetch - processPackages [composio-core]: Start processing: rnaformer
+[2024-04-16 14:54:14] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-16 14:54:14] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops-py-azure-key-vault-report-4.0.1.tar.gz]
+[2024-04-16 14:54:14] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_report-5.0.0.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Start processing: composio-autogen
+[2024-04-16 14:54:15] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-report]: success
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [scematk]: Start processing: composio-lyzr
+[2024-04-16 14:54:15] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-16 14:54:15] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.0.8.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.0.9.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [astro-extras]: Start processing: waymore
+[2024-04-16 14:54:15] INFO root fetch - main [MainThread]: End processing [astro-extras]: success
+[2024-04-16 14:54:15] WARNING root fetch - processPackages [rnaformer]: Skipping, unable to determine old version
+[2024-04-16 14:54:15] INFO root fetch - processPackages [rnaformer]: Start processing: xfem
+[2024-04-16 14:54:15] INFO root fetch - main [MainThread]: End processing [rnaformer] error
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/99/62/86908d4dd5b8dcacf756869c76c3638b6a003cc37641f61ddd564cf40f2a/composio_autogen-0.2.2.tar.gz
+[2024-04-16 14:54:15] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404111315.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404160633.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/cf/6d/c95f8c492c0338dc01087908d3aad3baca2f98ed358cceabe5dab3631a68/composio_crewai-0.2.2.tar.gz
+[2024-04-16 14:54:15] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-04-16 14:54:15] INFO root fetch - processPackages [mat-model]: Remove: archive file [/home/abi/fetcher/tmp/mat-model-0.1b11.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [mat-model]: Remove: archive file [/home/abi/fetcher/tmp/mat_model-0.1b12.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - main [MainThread]: End processing [mat-model]: success
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/28/87/da7e33ba9dec3bd0e3e9d3ead36012ab96030fb34172f0b6846b53fbfcff/composio_lyzr-0.2.2.tar.gz
+[2024-04-16 14:54:15] INFO root fetch - processPackages [waymore]: New version: [4.2] Old Version: [4.1]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/59/53/f600846b33db5f673176406176194a57df8fb68fada8f14b5948b1bc57bd/composio_crewai-0.2.3.tar.gz
+[2024-04-16 14:54:15] INFO root fetch - processPackages [xfem]: New version: [2.1.2303.post8.dev0] Old Version: [2.1.2303.post72.dev0]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.2.tar.gz tmp/composio_crewai-0.2.3.tar.gz --markdown 20240416/c/composio-crewai/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 14:54:15] INFO root fetch - processPackages [waymore]: Downloading https://files.pythonhosted.org/packages/8b/14/29bd7e5bc389d0487152d44a96788aec9b83d9eca1c0d2aaec3d21cbe378/waymore-4.1.tar.gz
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/d2/cb/0199e4fc19a97cce28f257bbfdf352691154de7a07abf54b571fb4d5f914/composio_autogen-0.2.3.tar.gz
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.2.tar.gz tmp/composio_autogen-0.2.3.tar.gz --markdown 20240416/c/composio-autogen/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 14:54:15] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/87/fd/f4834c6ab5c429c6e4ef3593e3d68f12588c07888f4fd9eebc432448c459/xfem-2.1.2303.post72.dev0.tar.gz
+[2024-04-16 14:54:15] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.8.2.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - processPackages [policyengine-core]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-core-2.9.0.tar.gz]
+[2024-04-16 14:54:15] INFO root fetch - main [MainThread]: End processing [policyengine-core]: success
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/18/35/307bf63f55fed06ae5c2c1fb47a2773d6a4e425ce202e55a668349ef6998/composio_lyzr-0.2.3.tar.gz
+[2024-04-16 14:54:15] INFO root fetch - processPackages [waymore]: Downloading https://files.pythonhosted.org/packages/4b/43/0561358e1a227e04dbc992d061334d69d319b05e2ed07587a7934dd2a662/waymore-4.2.tar.gz
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-16 14:54:15] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.2.tar.gz tmp/composio_lyzr-0.2.3.tar.gz --markdown 20240416/c/composio-lyzr/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 14:54:16] INFO root fetch - processPackages [waymore]: executing diffoscope
+[2024-04-16 14:54:16] INFO root fetch - processPackages [waymore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waymore-4.1.tar.gz tmp/waymore-4.2.tar.gz --markdown 20240416/w/waymore/4.1-4.2/README.md --exclude *.pyd
+[2024-04-16 14:54:16] INFO root fetch - processPackages [xfem]: Downloading https://files.pythonhosted.org/packages/35/d6/4c8b24e6e5c0e58e9ab2aa154bfc41c03f619fe51b491df644350bf3ffae/xfem-2.1.2303.post8.dev0.tar.gz
+[2024-04-16 14:54:16] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.2.tar.gz]
+[2024-04-16 14:54:16] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.3.tar.gz]
+[2024-04-16 14:54:16] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-16 14:54:16] INFO root fetch - processPackages [xfem]: executing diffoscope
+[2024-04-16 14:54:16] INFO root fetch - processPackages [xfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfem-2.1.2303.post72.dev0.tar.gz tmp/xfem-2.1.2303.post8.dev0.tar.gz --markdown 20240416/x/xfem/2.1.2303.post72.dev0-2.1.2303.post8.dev0/README.md --exclude *.pyd
+[2024-04-16 14:54:16] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.2.tar.gz]
+[2024-04-16 14:54:16] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.3.tar.gz]
+[2024-04-16 14:54:16] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-16 14:54:16] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.2.tar.gz]
+[2024-04-16 14:54:16] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.3.tar.gz]
+[2024-04-16 14:54:16] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-16 14:54:16] INFO root fetch - processPackages [waymore]: Remove: archive file [/home/abi/fetcher/tmp/waymore-4.1.tar.gz]
+[2024-04-16 14:54:16] INFO root fetch - processPackages [waymore]: Remove: archive file [/home/abi/fetcher/tmp/waymore-4.2.tar.gz]
+[2024-04-16 14:54:16] INFO root fetch - main [MainThread]: End processing [waymore]: success
+[2024-04-16 14:54:17] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post72.dev0.tar.gz]
+[2024-04-16 14:54:17] INFO root fetch - processPackages [xfem]: Remove: archive file [/home/abi/fetcher/tmp/xfem-2.1.2303.post8.dev0.tar.gz]
+[2024-04-16 14:54:17] INFO root fetch - main [MainThread]: End processing [xfem]: success
+[2024-04-16 14:54:17] INFO root fetch - main [MainThread]: Store serial: [22787777]
