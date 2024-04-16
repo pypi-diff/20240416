@@ -2903,3 +2903,24 @@
 [2024-04-16 02:51:45] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
 [2024-04-16 02:51:45] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2024-04-16 02:51:45] INFO root fetch - main [MainThread]: Store serial: [22781020]
+[2024-04-16 02:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781020]
+[2024-04-16 02:53:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 02:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meerkatio
+[2024-04-16 02:53:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2024-04-16 02:53:54] INFO root fetch - processPackages [pih]: New version: [0.36.6] Old Version: [0.36.5]
+[2024-04-16 02:53:54] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/36/e5/e9f1b8690daef71e0284682a08e4c1c20e93fe878170eb1461c1648f8447/pih-0.36.5.tar.gz
+[2024-04-16 02:53:54] INFO root fetch - processPackages [meerkatio]: New version: [1.9] Old Version: [1.8]
+[2024-04-16 02:53:54] INFO root fetch - processPackages [meerkatio]: Downloading https://files.pythonhosted.org/packages/e5/fd/261dc958ee6d8a3e53b051c78ad8edcf248e7d4658a3e2c110f3ffe869e3/meerkatio-1.8.tar.gz
+[2024-04-16 02:53:54] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/c6/31/ffad4ecc04f0e4393b34f127e1f117141ae8ed5e0b78ab4ef2902efb22da/pih-0.36.6.tar.gz
+[2024-04-16 02:53:54] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-16 02:53:54] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.5.tar.gz tmp/pih-0.36.6.tar.gz --markdown 20240416/p/pih/0.36.5-0.36.6/README.md --exclude *.pyd
+[2024-04-16 02:53:55] INFO root fetch - processPackages [meerkatio]: Downloading https://files.pythonhosted.org/packages/02/4a/5748f5d36887df5b8fec7273a9e74215ee90bb6fca85518af3e2eef28f76/meerkatio-1.9.tar.gz
+[2024-04-16 02:53:55] INFO root fetch - processPackages [meerkatio]: executing diffoscope
+[2024-04-16 02:53:55] INFO root fetch - processPackages [meerkatio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerkatio-1.8.tar.gz tmp/meerkatio-1.9.tar.gz --markdown 20240416/m/meerkatio/1.8-1.9/README.md --exclude *.pyd
+[2024-04-16 02:53:55] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.5.tar.gz]
+[2024-04-16 02:53:55] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.6.tar.gz]
+[2024-04-16 02:53:55] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-16 02:53:55] INFO root fetch - processPackages [meerkatio]: Remove: archive file [/home/abi/fetcher/tmp/meerkatio-1.8.tar.gz]
+[2024-04-16 02:53:55] INFO root fetch - processPackages [meerkatio]: Remove: archive file [/home/abi/fetcher/tmp/meerkatio-1.9.tar.gz]
+[2024-04-16 02:53:55] INFO root fetch - main [MainThread]: End processing [meerkatio]: success
+[2024-04-16 02:53:55] INFO root fetch - main [MainThread]: Store serial: [22781026]
