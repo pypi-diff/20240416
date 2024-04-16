@@ -6487,3 +6487,27 @@
 [2024-04-16 07:14:54] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.9.tar.gz]
 [2024-04-16 07:14:54] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
 [2024-04-16 07:14:54] INFO root fetch - main [MainThread]: Store serial: [22782773]
+[2024-04-16 07:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782773]
+[2024-04-16 07:17:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 07:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-mxgnxs
+[2024-04-16 07:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xiaobai-id-validator
+[2024-04-16 07:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tokive
+[2024-04-16 07:17:03] WARNING root fetch - processPackages [example-package-mxgnxs]: Skipping, unable to determine old version
+[2024-04-16 07:17:03] INFO root fetch - main [MainThread]: End processing [example-package-mxgnxs] error
+[2024-04-16 07:17:03] INFO root fetch - processPackages [xiaobai-id-validator]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 07:17:03] INFO root fetch - processPackages [tokive]: New version: [1.5] Old Version: [1.4]
+[2024-04-16 07:17:03] INFO root fetch - processPackages [xiaobai-id-validator]: Downloading https://files.pythonhosted.org/packages/d1/a5/7102be821678f3c54e224c226290aa5703e58f1b49de94fd8a1752560c9e/xiaobai_id_validator-1.0.0.tar.gz
+[2024-04-16 07:17:03] INFO root fetch - processPackages [tokive]: Downloading https://files.pythonhosted.org/packages/63/28/fa50b7ee5c310b73e2e327940383df464fc5712d88a3ee6c7cc01931bc90/tokive-1.4.tar.gz
+[2024-04-16 07:17:03] INFO root fetch - processPackages [tokive]: Downloading https://files.pythonhosted.org/packages/66/c3/ff68f41b5efd2a8e49911312f0174c4dad3adcb1a1c729cbb3a980340ac5/tokive-1.5.tar.gz
+[2024-04-16 07:17:03] INFO root fetch - processPackages [xiaobai-id-validator]: Downloading https://files.pythonhosted.org/packages/9e/18/9c675b2f43ff67eea5c89151ff70331241132bbadeb9d3d41c3be60e57af/xiaobai_id_validator-1.0.1.tar.gz
+[2024-04-16 07:17:04] INFO root fetch - processPackages [xiaobai-id-validator]: executing diffoscope
+[2024-04-16 07:17:04] INFO root fetch - processPackages [xiaobai-id-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaobai_id_validator-1.0.0.tar.gz tmp/xiaobai_id_validator-1.0.1.tar.gz --markdown 20240416/x/xiaobai-id-validator/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 07:17:04] INFO root fetch - processPackages [tokive]: executing diffoscope
+[2024-04-16 07:17:04] INFO root fetch - processPackages [tokive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokive-1.4.tar.gz tmp/tokive-1.5.tar.gz --markdown 20240416/t/tokive/1.4-1.5/README.md --exclude *.pyd
+[2024-04-16 07:17:04] INFO root fetch - processPackages [xiaobai-id-validator]: Remove: archive file [/home/abi/fetcher/tmp/xiaobai_id_validator-1.0.0.tar.gz]
+[2024-04-16 07:17:04] INFO root fetch - processPackages [xiaobai-id-validator]: Remove: archive file [/home/abi/fetcher/tmp/xiaobai_id_validator-1.0.1.tar.gz]
+[2024-04-16 07:17:04] INFO root fetch - main [MainThread]: End processing [xiaobai-id-validator]: success
+[2024-04-16 07:17:04] INFO root fetch - processPackages [tokive]: Remove: archive file [/home/abi/fetcher/tmp/tokive-1.4.tar.gz]
+[2024-04-16 07:17:04] INFO root fetch - processPackages [tokive]: Remove: archive file [/home/abi/fetcher/tmp/tokive-1.5.tar.gz]
+[2024-04-16 07:17:04] INFO root fetch - main [MainThread]: End processing [tokive]: success
+[2024-04-16 07:17:04] INFO root fetch - main [MainThread]: Store serial: [22782781]
