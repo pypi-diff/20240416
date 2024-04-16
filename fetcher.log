@@ -23278,3 +23278,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:33:59] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-04-16 17:34:00] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-04-16 17:34:00] INFO root fetch - main [MainThread]: Store serial: [22789943]
+[2024-04-16 17:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789943]
+[2024-04-16 17:36:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 17:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minet
+[2024-04-16 17:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsugu
+[2024-04-16 17:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: servir-aces
+[2024-04-16 17:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-putaway-product-template
+[2024-04-16 17:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-identity-sdk
+[2024-04-16 17:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: epochalyst
+[2024-04-16 17:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lindi
+[2024-04-16 17:36:10] INFO root fetch - processPackages [servir-aces]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 17:36:10] INFO root fetch - processPackages [minet]: New version: [2.0.0] Old Version: [1.5.1]
+[2024-04-16 17:36:10] INFO root fetch - processPackages [tsugu]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-16 17:36:10] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-16 17:36:10] INFO root fetch - processPackages [epochalyst]: New version: [0.3] Old Version: [0.2]
+[2024-04-16 17:36:10] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/1f/7e/1ebd82a4535d9b3856f5d6b55aa57d396f85634ae4b2ecd36f38e7538365/servir-aces-0.0.6.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/4d/0240ba5af8407f605a5b9dbe662cc853a63e633a12b48160344616c3d787/tsugu-0.4.8.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [lindi]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-16 17:36:10] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/bb/9b/e275e68765395b04765ac0328bcd2acc7a1f577193cb30f5a0777c2641f5/finbourne_identity_sdk-2.1.5.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/ad/44/22bb5304a3c2c6cdfb19f93fd2876792f498e1189d788f311465b9b6811f/minet-1.5.1.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [odoo-addon-stock-putaway-product-template]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2024-04-16 17:36:10] INFO root fetch - processPackages [epochalyst]: Downloading https://files.pythonhosted.org/packages/be/2c/ac5ac2e6070f213d2163fa56e825b85eec8ec92dc773415fa099ce0f7321/epochalyst-0.2.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/1a/20/aa11dbd0c43c200302667324b90aba7691c8a534a67ec5f7587067f7e4e6/tsugu-0.4.9.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/6b/59/7d1f805fabc2c2487a411a7f7525de65130d325dae7ced0c08b2168ddc29/servir_aces-0.0.7.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/5a/ab/8944663340d45b8b6e8988fb3b72676c4eaabc0915697cb6464002ba6196/lindi-0.2.0.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/36/a8/6df0d1eccb540be77d01c73323e0d9186e87451aa33ef5aadbd8236a7d92/finbourne_identity_sdk-2.1.6.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [odoo-addon-stock-putaway-product-template]: Downloading https://files.pythonhosted.org/packages/3a/0b/b6df7b6df463e281799931348fb19d97a3e32859f6398c308e018027d340/odoo_addon_stock_putaway_product_template-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-16 17:36:10] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-16 17:36:10] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.8.tar.gz tmp/tsugu-0.4.9.tar.gz --markdown 20240416/t/tsugu/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-16 17:36:10] INFO root fetch - processPackages [minet]: Downloading https://files.pythonhosted.org/packages/ba/52/af41c815d2c1a971edcfa055cd40a731b9448ece34fd1ee5127a40f59a12/minet-2.0.0.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-16 17:36:10] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.5.tar.gz tmp/finbourne_identity_sdk-2.1.6.tar.gz --markdown 20240416/f/finbourne-identity-sdk/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-16 17:36:10] INFO root fetch - processPackages [servir-aces]: executing diffoscope
+[2024-04-16 17:36:10] INFO root fetch - processPackages [servir-aces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servir-aces-0.0.6.tar.gz tmp/servir_aces-0.0.7.tar.gz --markdown 20240416/s/servir-aces/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 17:36:10] INFO root fetch - processPackages [minet]: executing diffoscope
+[2024-04-16 17:36:10] INFO root fetch - processPackages [minet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minet-1.5.1.tar.gz tmp/minet-2.0.0.tar.gz --markdown 20240416/m/minet/1.5.1-2.0.0/README.md --exclude *.pyd
+[2024-04-16 17:36:10] INFO root fetch - processPackages [epochalyst]: Downloading https://files.pythonhosted.org/packages/5f/bf/b5f45f422c590f8e2eda514233fa155deabdf6eead3c1880bcb03f5ad9ee/epochalyst-0.3.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/e6/51/e62904173e1c11b0ccc3f5bb2ffb9238692549a18da30100d0a16306585a/lindi-0.2.1.tar.gz
+[2024-04-16 17:36:10] INFO root fetch - processPackages [odoo-addon-stock-putaway-product-template]: Downloading https://files.pythonhosted.org/packages/07/88/ed41c56a0229f1c9d0eefd2df4322bb2e9ee7134775f2287c68fdf8e373f/odoo_addon_stock_putaway_product_template-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-16 17:36:11] INFO root fetch - processPackages [epochalyst]: executing diffoscope
+[2024-04-16 17:36:11] INFO root fetch - processPackages [epochalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epochalyst-0.2.tar.gz tmp/epochalyst-0.3.tar.gz --markdown 20240416/e/epochalyst/0.2-0.3/README.md --exclude *.pyd
+[2024-04-16 17:36:11] INFO root fetch - processPackages [odoo-addon-stock-putaway-product-template]: executing diffoscope
+[2024-04-16 17:36:11] INFO root fetch - processPackages [odoo-addon-stock-putaway-product-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_putaway_product_template-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_putaway_product_template-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-stock-putaway-product-template/16.0.1.0.0.4-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-04-16 17:36:11] INFO root fetch - processPackages [lindi]: executing diffoscope
+[2024-04-16 17:36:11] INFO root fetch - processPackages [lindi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lindi-0.2.0.tar.gz tmp/lindi-0.2.1.tar.gz --markdown 20240416/l/lindi/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-16 17:36:11] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.8.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.9.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-16 17:36:11] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.5.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.6.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-16 17:36:11] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir-aces-0.0.6.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir_aces-0.0.7.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - main [MainThread]: End processing [servir-aces]: success
+[2024-04-16 17:36:11] INFO root fetch - processPackages [odoo-addon-stock-putaway-product-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_putaway_product_template-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-16 17:36:11] INFO root fetch - processPackages [odoo-addon-stock-putaway-product-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_putaway_product_template-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-16 17:36:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-putaway-product-template]: success
+[2024-04-16 17:36:11] INFO root fetch - processPackages [epochalyst]: Remove: archive file [/home/abi/fetcher/tmp/epochalyst-0.2.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - processPackages [epochalyst]: Remove: archive file [/home/abi/fetcher/tmp/epochalyst-0.3.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - main [MainThread]: End processing [epochalyst]: success
+[2024-04-16 17:36:11] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.2.0.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.2.1.tar.gz]
+[2024-04-16 17:36:11] INFO root fetch - main [MainThread]: End processing [lindi]: success
+[2024-04-16 17:36:12] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-1.5.1.tar.gz]
+[2024-04-16 17:36:12] INFO root fetch - processPackages [minet]: Remove: archive file [/home/abi/fetcher/tmp/minet-2.0.0.tar.gz]
+[2024-04-16 17:36:12] INFO root fetch - main [MainThread]: End processing [minet]: success
+[2024-04-16 17:36:12] INFO root fetch - main [MainThread]: Store serial: [22789981]
