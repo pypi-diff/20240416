@@ -10059,3 +10059,15 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:03:51] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.4.tar.gz]
 [2024-04-16 10:03:51] INFO root fetch - main [MainThread]: End processing [panda-server]: success
 [2024-04-16 10:03:51] INFO root fetch - main [MainThread]: Store serial: [22784163]
+[2024-04-16 10:05:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784163]
+[2024-04-16 10:06:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 10:06:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adbutils
+[2024-04-16 10:06:00] INFO root fetch - processPackages [adbutils]: New version: [2.4.0] Old Version: [2.3.1]
+[2024-04-16 10:06:01] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/ff/99/8f950e5b7d29796713c3037ff26723eb63420a8fa1e9d2cacef0c5eaf2cd/adbutils-2.3.1.tar.gz
+[2024-04-16 10:06:01] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/4b/5d/b53df10a92ebcfc0c41a254afd5b6ed981eb9a13674262f76fd420b43530/adbutils-2.4.0.tar.gz
+[2024-04-16 10:06:01] INFO root fetch - processPackages [adbutils]: executing diffoscope
+[2024-04-16 10:06:01] INFO root fetch - processPackages [adbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbutils-2.3.1.tar.gz tmp/adbutils-2.4.0.tar.gz --markdown 20240416/a/adbutils/2.3.1-2.4.0/README.md --exclude *.pyd
+[2024-04-16 10:06:02] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.3.1.tar.gz]
+[2024-04-16 10:06:02] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.4.0.tar.gz]
+[2024-04-16 10:06:02] INFO root fetch - main [MainThread]: End processing [adbutils]: success
+[2024-04-16 10:06:02] INFO root fetch - main [MainThread]: Store serial: [22784179]
