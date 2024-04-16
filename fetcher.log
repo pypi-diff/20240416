@@ -6774,3 +6774,27 @@
 [2024-04-16 07:29:30] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.1.tar.gz]
 [2024-04-16 07:29:30] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
 [2024-04-16 07:29:30] INFO root fetch - main [MainThread]: Store serial: [22782880]
+[2024-04-16 07:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782880]
+[2024-04-16 07:31:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 07:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MaaFw
+[2024-04-16 07:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerc-hub
+[2024-04-16 07:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-package-mxgnxs
+[2024-04-16 07:31:38] INFO root fetch - processPackages [example-package-mxgnxs]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 07:31:38] INFO root fetch - processPackages [example-package-mxgnxs]: Downloading https://files.pythonhosted.org/packages/4b/96/34e43fb140c6668ae3b0b5112e31ee82f6e4cfb35e9503bafbfb77931751/example_package_mxgnxs-0.0.2.tar.gz
+[2024-04-16 07:31:38] WARNING root fetch - processPackages [MaaFw]: Skipping, unable to determine old version
+[2024-04-16 07:31:38] INFO root fetch - main [MainThread]: End processing [MaaFw] error
+[2024-04-16 07:31:38] INFO root fetch - processPackages [cerc-hub]: New version: [0.1.9.8] Old Version: [0.1.9.7]
+[2024-04-16 07:31:39] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/d2/8e/ce0e57ad09fd5aa0696635d2222714bbcb3c7f17d47dbb0a9da45ea021c9/cerc-hub-0.1.9.7.tar.gz
+[2024-04-16 07:31:39] INFO root fetch - processPackages [example-package-mxgnxs]: Downloading https://files.pythonhosted.org/packages/7b/69/b52418509bb4e932a4470030905f6905771810634c4547ed68cc8df09f7f/example_package_mxgnxs-0.0.3.tar.gz
+[2024-04-16 07:31:39] INFO root fetch - processPackages [example-package-mxgnxs]: executing diffoscope
+[2024-04-16 07:31:39] INFO root fetch - processPackages [example-package-mxgnxs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_mxgnxs-0.0.2.tar.gz tmp/example_package_mxgnxs-0.0.3.tar.gz --markdown 20240416/e/example-package-mxgnxs/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 07:31:39] INFO root fetch - processPackages [cerc-hub]: Downloading https://files.pythonhosted.org/packages/7c/6b/370c624b8adf78387984ee9d20a9f42ee13680ae4fd2ff0d21ef771c0aaf/cerc_hub-0.1.9.8.tar.gz
+[2024-04-16 07:31:39] INFO root fetch - processPackages [example-package-mxgnxs]: Remove: archive file [/home/abi/fetcher/tmp/example_package_mxgnxs-0.0.2.tar.gz]
+[2024-04-16 07:31:39] INFO root fetch - processPackages [example-package-mxgnxs]: Remove: archive file [/home/abi/fetcher/tmp/example_package_mxgnxs-0.0.3.tar.gz]
+[2024-04-16 07:31:39] INFO root fetch - main [MainThread]: End processing [example-package-mxgnxs]: success
+[2024-04-16 07:31:40] INFO root fetch - processPackages [cerc-hub]: executing diffoscope
+[2024-04-16 07:31:40] INFO root fetch - processPackages [cerc-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc-hub-0.1.9.7.tar.gz tmp/cerc_hub-0.1.9.8.tar.gz --markdown 20240416/c/cerc-hub/0.1.9.7-0.1.9.8/README.md --exclude *.pyd
+[2024-04-16 07:31:43] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc-hub-0.1.9.7.tar.gz]
+[2024-04-16 07:31:43] INFO root fetch - processPackages [cerc-hub]: Remove: archive file [/home/abi/fetcher/tmp/cerc_hub-0.1.9.8.tar.gz]
+[2024-04-16 07:31:43] INFO root fetch - main [MainThread]: End processing [cerc-hub]: success
+[2024-04-16 07:31:43] INFO root fetch - main [MainThread]: Store serial: [22782895]
