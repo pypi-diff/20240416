@@ -7146,3 +7146,33 @@
 [2024-04-16 07:55:39] INFO root fetch - processPackages [clophfit]: Remove: archive file [/home/abi/fetcher/tmp/clophfit-0.9.1.tar.gz]
 [2024-04-16 07:55:39] INFO root fetch - main [MainThread]: End processing [clophfit]: success
 [2024-04-16 07:55:39] INFO root fetch - main [MainThread]: Store serial: [22783032]
+[2024-04-16 07:57:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783032]
+[2024-04-16 07:57:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 07:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywbem
+[2024-04-16 07:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixel-font-builder
+[2024-04-16 07:57:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dankware
+[2024-04-16 07:57:49] INFO root fetch - processPackages [pixel-font-builder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 07:57:49] INFO root fetch - processPackages [dankware]: New version: [3.6.1] Old Version: [3.6]
+[2024-04-16 07:57:49] INFO root fetch - processPackages [pywbem]: New version: [1.7.0] Old Version: [1.6.3]
+[2024-04-16 07:57:49] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/79/ad/e5074cef3451521cb8b859d7f8e55bc7e0b814fc84479c02b995ced8b444/pixel-font-builder-0.0.8.tar.gz
+[2024-04-16 07:57:50] INFO root fetch - processPackages [dankware]: Downloading https://files.pythonhosted.org/packages/88/6c/dfd4750cb46e171b2aee2011f2780796ec2f2183fee53504f05b1a1bc7c9/dankware-3.6.tar.gz
+[2024-04-16 07:57:50] INFO root fetch - processPackages [pywbem]: Downloading https://files.pythonhosted.org/packages/32/0a/6f5b38f852a6008610a59174596a810757f30bca165d85c3a85de070118a/pywbem-1.6.3.tar.gz
+[2024-04-16 07:57:50] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/a9/a0/9853b02b59999eb2eb450c7c1946ce7c2565d6c50e8c02d4f3f0fd55d95c/pixel-font-builder-0.0.9.tar.gz
+[2024-04-16 07:57:50] INFO root fetch - processPackages [pixel-font-builder]: executing diffoscope
+[2024-04-16 07:57:50] INFO root fetch - processPackages [pixel-font-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixel-font-builder-0.0.8.tar.gz tmp/pixel-font-builder-0.0.9.tar.gz --markdown 20240416/p/pixel-font-builder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 07:57:50] INFO root fetch - processPackages [dankware]: Downloading https://files.pythonhosted.org/packages/e1/4d/f7e049af7cf312f9e2099be005068384ad79e05d2fa8c81f0c2c719cf7da/dankware-3.6.1.tar.gz
+[2024-04-16 07:57:50] INFO root fetch - processPackages [dankware]: executing diffoscope
+[2024-04-16 07:57:50] INFO root fetch - processPackages [dankware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dankware-3.6.tar.gz tmp/dankware-3.6.1.tar.gz --markdown 20240416/d/dankware/3.6-3.6.1/README.md --exclude *.pyd
+[2024-04-16 07:57:50] INFO root fetch - processPackages [pywbem]: Downloading https://files.pythonhosted.org/packages/f9/fe/0aaa4b2fb22be99aebf15b2fba6da1460687dc037313ff6cf3d0828e5e7d/pywbem-1.7.0.tar.gz
+[2024-04-16 07:57:50] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.8.tar.gz]
+[2024-04-16 07:57:50] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.9.tar.gz]
+[2024-04-16 07:57:50] INFO root fetch - main [MainThread]: End processing [pixel-font-builder]: success
+[2024-04-16 07:57:51] INFO root fetch - processPackages [dankware]: Remove: archive file [/home/abi/fetcher/tmp/dankware-3.6.tar.gz]
+[2024-04-16 07:57:51] INFO root fetch - processPackages [dankware]: Remove: archive file [/home/abi/fetcher/tmp/dankware-3.6.1.tar.gz]
+[2024-04-16 07:57:51] INFO root fetch - main [MainThread]: End processing [dankware]: success
+[2024-04-16 07:57:51] INFO root fetch - processPackages [pywbem]: executing diffoscope
+[2024-04-16 07:57:51] INFO root fetch - processPackages [pywbem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywbem-1.6.3.tar.gz tmp/pywbem-1.7.0.tar.gz --markdown 20240416/p/pywbem/1.6.3-1.7.0/README.md --exclude *.pyd
+[2024-04-16 07:58:01] INFO root fetch - processPackages [pywbem]: Remove: archive file [/home/abi/fetcher/tmp/pywbem-1.6.3.tar.gz]
+[2024-04-16 07:58:01] INFO root fetch - processPackages [pywbem]: Remove: archive file [/home/abi/fetcher/tmp/pywbem-1.7.0.tar.gz]
+[2024-04-16 07:58:01] INFO root fetch - main [MainThread]: End processing [pywbem]: success
+[2024-04-16 07:58:01] INFO root fetch - main [MainThread]: Store serial: [22783042]
