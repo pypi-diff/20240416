@@ -12416,3 +12416,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:20:39] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2024-04-16 11:20:39] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2024-04-16 11:20:39] INFO root fetch - main [MainThread]: Store serial: [22785279]
+[2024-04-16 11:22:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785279]
+[2024-04-16 11:22:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 11:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanomotif
+[2024-04-16 11:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mongo-objects
+[2024-04-16 11:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinjected
+[2024-04-16 11:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MuonDataLib
+[2024-04-16 11:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsss
+[2024-04-16 11:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glytrait
+[2024-04-16 11:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: survival-data-handler
+[2024-04-16 11:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: research-roc-utils
+[2024-04-16 11:22:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyclg
+[2024-04-16 11:22:48] INFO root fetch - processPackages [pinjected]: New version: [0.2.29] Old Version: [0.2.28]
+[2024-04-16 11:22:48] INFO root fetch - processPackages [research-roc-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 11:22:48] INFO root fetch - processPackages [MuonDataLib]: New version: [0.2.0b0] Old Version: [0.1.0b7]
+[2024-04-16 11:22:48] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/db/08/c5283673821fc48b9210d1fa5d61767e99be3476b2771190d3a80ef9bf07/pinjected-0.2.28.tar.gz
+[2024-04-16 11:22:48] INFO root fetch - processPackages [nanomotif]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-16 11:22:48] INFO root fetch - processPackages [glytrait]: New version: [0.2.3] Old Version: [0.1.0]
+[2024-04-16 11:22:48] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/27/d5/58dfea1e3b6c8549bef8cc4b96c9267f055763b7081f1ecfd8aa755a6018/research_roc_utils-0.0.1.tar.gz
+[2024-04-16 11:22:48] WARNING root fetch - processPackages [dsss]: Skipping, unable to determine old version
+[2024-04-16 11:22:48] ERROR root fetch - processPackages [survival-data-handler]: Unable to get metadata: No such project 'survival-data-handler'
+[2024-04-16 11:22:48] INFO root fetch - main [MainThread]: End processing [dsss] error
+[2024-04-16 11:22:48] INFO root fetch - main [MainThread]: End processing [survival-data-handler] error
+[2024-04-16 11:22:48] WARNING root fetch - processPackages [mongo-objects]: Skipping, unable to determine old version
+[2024-04-16 11:22:48] INFO root fetch - main [MainThread]: End processing [mongo-objects] error
+[2024-04-16 11:22:48] WARNING root fetch - processPackages [pyclg]: Skipping, unable to determine old version
+[2024-04-16 11:22:48] INFO root fetch - main [MainThread]: End processing [pyclg] error
+[2024-04-16 11:22:48] INFO root fetch - processPackages [MuonDataLib]: Downloading https://files.pythonhosted.org/packages/79/f4/48533996d648aaf262e2f86879d6da1818e60dc66608685e5e803bd8bd23/muondatalib-0.1.0b7.tar.gz
+[2024-04-16 11:22:48] INFO root fetch - processPackages [glytrait]: Downloading https://files.pythonhosted.org/packages/2d/a8/598e775d6b7de399fa09e4b1c157e9209ce9f944f989d0e7f9cae86cad7d/glytrait-0.1.0.tar.gz
+[2024-04-16 11:22:48] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/20/0d/06eae0aeb2c18392860b3208e85b3ba4c885398d51afc1627c88d408c4e2/nanomotif-0.2.0.tar.gz
+[2024-04-16 11:22:48] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/b6/24/005951376cc8a02f85cc69d476a5df16b8bd32514a096ca3e76d78db7e6b/research_roc_utils-0.0.2.tar.gz
+[2024-04-16 11:22:48] INFO root fetch - processPackages [MuonDataLib]: Downloading https://files.pythonhosted.org/packages/c3/fd/7bfe311f7327ea55309cf36a0d9ace89c5ce7daa3072565599c288b0716a/muondatalib-0.2.0b0.tar.gz
+[2024-04-16 11:22:48] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/df/88/b363f4b4d09873beaf717a84e848f6803d912ebe773800304c90bfdc812c/pinjected-0.2.29.tar.gz
+[2024-04-16 11:22:49] INFO root fetch - processPackages [research-roc-utils]: executing diffoscope
+[2024-04-16 11:22:49] INFO root fetch - processPackages [research-roc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_roc_utils-0.0.1.tar.gz tmp/research_roc_utils-0.0.2.tar.gz --markdown 20240416/r/research-roc-utils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 11:22:49] INFO root fetch - processPackages [MuonDataLib]: executing diffoscope
+[2024-04-16 11:22:49] INFO root fetch - processPackages [MuonDataLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muondatalib-0.1.0b7.tar.gz tmp/muondatalib-0.2.0b0.tar.gz --markdown 20240416/M/MuonDataLib/0.1.0b7-0.2.0b0/README.md --exclude *.pyd
+[2024-04-16 11:22:49] INFO root fetch - processPackages [glytrait]: Downloading https://files.pythonhosted.org/packages/f3/95/bca8c99b3084ec829ae695d4110eb553cde7918b682c6e0b6ad85fcda1ca/glytrait-0.2.3.tar.gz
+[2024-04-16 11:22:49] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-16 11:22:49] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.28.tar.gz tmp/pinjected-0.2.29.tar.gz --markdown 20240416/p/pinjected/0.2.28-0.2.29/README.md --exclude *.pyd
+[2024-04-16 11:22:49] INFO root fetch - processPackages [glytrait]: executing diffoscope
+[2024-04-16 11:22:49] INFO root fetch - processPackages [glytrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glytrait-0.1.0.tar.gz tmp/glytrait-0.2.3.tar.gz --markdown 20240416/g/glytrait/0.1.0-0.2.3/README.md --exclude *.pyd
+[2024-04-16 11:22:49] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.1.tar.gz]
+[2024-04-16 11:22:49] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.2.tar.gz]
+[2024-04-16 11:22:49] INFO root fetch - main [MainThread]: End processing [research-roc-utils]: success
+[2024-04-16 11:22:49] INFO root fetch - processPackages [nanomotif]: Downloading https://files.pythonhosted.org/packages/ec/f9/56487fba43c16217ac3beca43e66ae8a67865a5f8be65346530e0a145a74/nanomotif-0.2.1.tar.gz
+[2024-04-16 11:22:49] INFO root fetch - processPackages [MuonDataLib]: Remove: archive file [/home/abi/fetcher/tmp/muondatalib-0.1.0b7.tar.gz]
+[2024-04-16 11:22:49] INFO root fetch - processPackages [MuonDataLib]: Remove: archive file [/home/abi/fetcher/tmp/muondatalib-0.2.0b0.tar.gz]
+[2024-04-16 11:22:49] INFO root fetch - main [MainThread]: End processing [MuonDataLib]: success
+[2024-04-16 11:22:49] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.28.tar.gz]
+[2024-04-16 11:22:49] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.29.tar.gz]
+[2024-04-16 11:22:49] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-16 11:22:50] INFO root fetch - processPackages [nanomotif]: executing diffoscope
+[2024-04-16 11:22:50] INFO root fetch - processPackages [nanomotif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomotif-0.2.0.tar.gz tmp/nanomotif-0.2.1.tar.gz --markdown 20240416/n/nanomotif/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-16 11:22:50] INFO root fetch - processPackages [glytrait]: Remove: archive file [/home/abi/fetcher/tmp/glytrait-0.1.0.tar.gz]
+[2024-04-16 11:22:50] INFO root fetch - processPackages [glytrait]: Remove: archive file [/home/abi/fetcher/tmp/glytrait-0.2.3.tar.gz]
+[2024-04-16 11:22:50] INFO root fetch - main [MainThread]: End processing [glytrait]: success
+[2024-04-16 11:22:52] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.2.0.tar.gz]
+[2024-04-16 11:22:52] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.2.1.tar.gz]
+[2024-04-16 11:22:52] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
+[2024-04-16 11:22:52] INFO root fetch - main [MainThread]: Store serial: [22785315]
