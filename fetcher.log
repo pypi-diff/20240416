@@ -7343,3 +7343,24 @@
 [2024-04-16 08:09:04] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.9.4.tar.gz]
 [2024-04-16 08:09:04] INFO root fetch - main [MainThread]: End processing [cyclonedx-editor-validator]: success
 [2024-04-16 08:09:04] INFO root fetch - main [MainThread]: Store serial: [22783099]
+[2024-04-16 08:11:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783099]
+[2024-04-16 08:11:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 08:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-ai-python
+[2024-04-16 08:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arch-flow
+[2024-04-16 08:11:13] INFO root fetch - processPackages [arch-flow]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 08:11:13] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-16 08:11:13] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-16 08:11:13] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/b8/88/0fcd00f2d95a2224fd3789b61540b3a68b1aa388164265397478e893a12a/arch_flow-0.0.1.tar.gz
+[2024-04-16 08:11:14] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-16 08:11:14] INFO root fetch - processPackages [arch-flow]: Downloading https://files.pythonhosted.org/packages/1f/02/7d9fae956f60eb9d547c591188e3edb4f4e409a0a5fc561cf2f63d5e3183/arch_flow-0.0.2.tar.gz
+[2024-04-16 08:11:14] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-16 08:11:14] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240416/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-16 08:11:14] INFO root fetch - processPackages [arch-flow]: executing diffoscope
+[2024-04-16 08:11:14] INFO root fetch - processPackages [arch-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arch_flow-0.0.1.tar.gz tmp/arch_flow-0.0.2.tar.gz --markdown 20240416/a/arch-flow/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 08:11:14] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.1.tar.gz]
+[2024-04-16 08:11:14] INFO root fetch - processPackages [arch-flow]: Remove: archive file [/home/abi/fetcher/tmp/arch_flow-0.0.2.tar.gz]
+[2024-04-16 08:11:14] INFO root fetch - main [MainThread]: End processing [arch-flow]: success
+[2024-04-16 08:11:15] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-16 08:11:15] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-16 08:11:15] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-16 08:11:15] INFO root fetch - main [MainThread]: Store serial: [22783104]
