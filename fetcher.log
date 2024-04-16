@@ -4508,3 +4508,63 @@
 [2024-04-16 04:54:48] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.64.0.tar.gz]
 [2024-04-16 04:54:48] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk]: success
 [2024-04-16 04:54:48] INFO root fetch - main [MainThread]: Store serial: [22781824]
+[2024-04-16 04:56:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781824]
+[2024-04-16 04:56:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 04:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polymind
+[2024-04-16 04:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vnpy-ib
+[2024-04-16 04:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OZI
+[2024-04-16 04:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: r3f
+[2024-04-16 04:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qoria-ujson
+[2024-04-16 04:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-imgui-redux
+[2024-04-16 04:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: factory_farm
+[2024-04-16 04:56:57] INFO root fetch - processPackages [factory_farm]: New version: [1.1.2] Old Version: [1.0.1]
+[2024-04-16 04:56:57] INFO root fetch - processPackages [polymind]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 04:56:57] INFO root fetch - processPackages [OZI]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 04:56:57] INFO root fetch - processPackages [py-imgui-redux]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-16 04:56:57] INFO root fetch - processPackages [vnpy-ib]: New version: [9.81.1.6] Old Version: [9.81.1.5]
+[2024-04-16 04:56:57] WARNING root fetch - processPackages [qoria-ujson]: Skipping, unable to determine old version
+[2024-04-16 04:56:57] INFO root fetch - main [MainThread]: End processing [qoria-ujson] error
+[2024-04-16 04:56:57] INFO root fetch - processPackages [r3f]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-16 04:56:57] INFO root fetch - processPackages [polymind]: Downloading https://files.pythonhosted.org/packages/0e/aa/52a8f77530064a4a31bc4aa8116debc14a08e851bf5d42cd670dc896ca1c/polymind-0.0.6.tar.gz
+[2024-04-16 04:56:57] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/38/2b/d8f8ce2f774ca66b1e32e65068783b15ac56715cbfa1ab1faef6d2c91a13/OZI-0.0.98-py39-none-any.whl
+[2024-04-16 04:56:57] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/0b/94/179deed2607fce006bf6313500f63eeefa0c818247af7e27c397cf6aad72/factory_farm-1.0.1.tar.gz
+[2024-04-16 04:56:57] INFO root fetch - processPackages [vnpy-ib]: Downloading https://files.pythonhosted.org/packages/a2/eb/7eb3d908e654b2c825de87fbfa5b7271da5f1c9252ce385258e576489690/vnpy_ib-9.81.1.5.tar.gz
+[2024-04-16 04:56:57] INFO root fetch - processPackages [r3f]: Downloading https://files.pythonhosted.org/packages/9f/40/cdcf0856fa80bc58d51cdefb211682e12620cd06b85ddd2f20ed02e85851/r3f-2.0.2.tar.gz
+[2024-04-16 04:56:57] INFO root fetch - processPackages [py-imgui-redux]: Downloading https://files.pythonhosted.org/packages/93/4d/6e03db57f6934045bc707d95e116434e955016ec4e4fec8e5c9e6d91d299/py-imgui-redux-2.1.0.tar.gz
+[2024-04-16 04:56:57] INFO root fetch - processPackages [polymind]: Downloading https://files.pythonhosted.org/packages/6b/5d/85efcce46e16627c7bdb1ca311cf5e79cf132fa11e00070c1ef96f3e1aab/polymind-0.0.7.tar.gz
+[2024-04-16 04:56:58] INFO root fetch - processPackages [polymind]: executing diffoscope
+[2024-04-16 04:56:58] INFO root fetch - processPackages [polymind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymind-0.0.6.tar.gz tmp/polymind-0.0.7.tar.gz --markdown 20240416/p/polymind/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 04:56:58] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4c/bb/b5eaa9984b59532639030a4989b508e0252f662844d9a3e3f9a3d9aeef2c/OZI-0.0.99-py39-none-any.whl
+[2024-04-16 04:56:58] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/d8/a5/e9ed97f3f08b7d85a30eed946c710a60223851814433a6895ec6f58fc815/factory_farm-1.1.2-py3-none-any.whl
+[2024-04-16 04:56:58] INFO root fetch - processPackages [vnpy-ib]: Downloading https://files.pythonhosted.org/packages/94/2c/d1f12c0239b32eb8861e7c3cdcee69b497a0c730be455da9c27ca11b88e2/vnpy_ib-9.81.1.6.tar.gz
+[2024-04-16 04:56:58] INFO root fetch - processPackages [r3f]: Downloading https://files.pythonhosted.org/packages/0c/38/d9064b73a5476dde62e9c222ea1af7b7de03f51a390485cdb849b310f735/r3f-2.0.3.tar.gz
+[2024-04-16 04:56:58] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-16 04:56:58] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.98-py39-none-any.whl.zip tmp/OZI-0.0.99-py39-none-any.whl.zip --markdown 20240416/O/OZI/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 04:56:58] INFO root fetch - processPackages [vnpy-ib]: executing diffoscope
+[2024-04-16 04:56:58] INFO root fetch - processPackages [vnpy-ib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_ib-9.81.1.5.tar.gz tmp/vnpy_ib-9.81.1.6.tar.gz --markdown 20240416/v/vnpy-ib/9.81.1.5-9.81.1.6/README.md --exclude *.pyd
+[2024-04-16 04:56:58] INFO root fetch - processPackages [factory_farm]: executing diffoscope
+[2024-04-16 04:56:58] INFO root fetch - processPackages [factory_farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factory_farm-1.0.1.tar.gz tmp/factory_farm-1.1.2-py3-none-any.whl.zip --markdown 20240416/f/factory_farm/1.0.1-1.1.2/README.md --exclude *.pyd
+[2024-04-16 04:56:58] INFO root fetch - processPackages [r3f]: executing diffoscope
+[2024-04-16 04:56:58] INFO root fetch - processPackages [r3f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r3f-2.0.2.tar.gz tmp/r3f-2.0.3.tar.gz --markdown 20240416/r/r3f/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-16 04:56:58] INFO root fetch - processPackages [polymind]: Remove: archive file [/home/abi/fetcher/tmp/polymind-0.0.6.tar.gz]
+[2024-04-16 04:56:58] INFO root fetch - processPackages [polymind]: Remove: archive file [/home/abi/fetcher/tmp/polymind-0.0.7.tar.gz]
+[2024-04-16 04:56:58] INFO root fetch - main [MainThread]: End processing [polymind]: success
+[2024-04-16 04:56:59] INFO root fetch - processPackages [vnpy-ib]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_ib-9.81.1.5.tar.gz]
+[2024-04-16 04:56:59] INFO root fetch - processPackages [vnpy-ib]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_ib-9.81.1.6.tar.gz]
+[2024-04-16 04:56:59] INFO root fetch - main [MainThread]: End processing [vnpy-ib]: success
+[2024-04-16 04:56:59] INFO root fetch - processPackages [r3f]: Remove: archive file [/home/abi/fetcher/tmp/r3f-2.0.2.tar.gz]
+[2024-04-16 04:56:59] INFO root fetch - processPackages [r3f]: Remove: archive file [/home/abi/fetcher/tmp/r3f-2.0.3.tar.gz]
+[2024-04-16 04:56:59] INFO root fetch - main [MainThread]: End processing [r3f]: success
+[2024-04-16 04:56:59] INFO root fetch - processPackages [py-imgui-redux]: Downloading https://files.pythonhosted.org/packages/9d/4c/03c6e89a66ba478b62b895381e674e0624e0ea080bd9d314d9aea437db8e/py_imgui_redux-2.2.0-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-16 04:56:59] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.0.1.tar.gz]
+[2024-04-16 04:56:59] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.1.2-py3-none-any.whl.zip]
+[2024-04-16 04:56:59] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
+[2024-04-16 04:56:59] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.98-py39-none-any.whl.zip]
+[2024-04-16 04:56:59] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
+[2024-04-16 04:56:59] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-16 04:56:59] INFO root fetch - processPackages [py-imgui-redux]: executing diffoscope
+[2024-04-16 04:56:59] INFO root fetch - processPackages [py-imgui-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-imgui-redux-2.1.0.tar.gz tmp/py_imgui_redux-2.2.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240416/p/py-imgui-redux/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-16 04:57:00] INFO root fetch - processPackages [py-imgui-redux]: Remove: archive file [/home/abi/fetcher/tmp/py-imgui-redux-2.1.0.tar.gz]
+[2024-04-16 04:57:00] INFO root fetch - processPackages [py-imgui-redux]: Remove: archive file [/home/abi/fetcher/tmp/py_imgui_redux-2.2.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-16 04:57:00] INFO root fetch - main [MainThread]: End processing [py-imgui-redux]: success
+[2024-04-16 04:57:00] INFO root fetch - main [MainThread]: Store serial: [22781854]
