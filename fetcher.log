@@ -14608,3 +14608,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:41:10] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-04-16 12:41:10] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-04-16 12:41:10] INFO root fetch - main [MainThread]: Store serial: [22786376]
+[2024-04-16 12:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786376]
+[2024-04-16 12:43:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 12:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: venv-modulefile
+[2024-04-16 12:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wizata-dsapi
+[2024-04-16 12:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Syclops
+[2024-04-16 12:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: music-assistant
+[2024-04-16 12:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-factory-testing-framework
+[2024-04-16 12:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ortfodb
+[2024-04-16 12:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ops-py-azure-key-vault-report
+[2024-04-16 12:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-factory-testing-framework
+[2024-04-16 12:43:19] INFO root fetch - processPackages [venv-modulefile]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 12:43:19] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b137] Old Version: [2.0.0b136]
+[2024-04-16 12:43:19] WARNING root fetch - processPackages [Syclops]: Skipping, unable to determine old version
+[2024-04-16 12:43:19] INFO root fetch - main [MainThread]: End processing [Syclops] error
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: New version: [5.0.0] Old Version: [4.0.1]
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ortfodb]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-16 12:43:19] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-16 12:43:19] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/ce/93/28b68adf38fb9f572ef1caf7b2143aa86bb23d2047be372010c616de74ec/venv-modulefile-0.1.4.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/be/9d/ce0d9f0020dabfe48f2cc80744e7f79edf6d9b61feee0c5e067cb017c747/data_factory_testing_framework-0.2.4.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/be/9d/ce0d9f0020dabfe48f2cc80744e7f79edf6d9b61feee0c5e067cb017c747/data_factory_testing_framework-0.2.4.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f1/0a/0508b1f02ec8c24958430101972d9c902439dc9f16329d030ce8517ea7be/wizata-dsapi-0.4.8.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ortfodb]: Downloading https://files.pythonhosted.org/packages/25/fe/fbefec506309e3247761ad0e1456ab15bd9c4455a0ee5c3b09e5d5a40208/ortfodb-1.2.0.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/c4/42/ed76a37f668cc027ee4063393e976c8d0806f87389a8452a4fd7ab389efe/ops-py-azure-key-vault-report-4.0.1.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/5a/28/a0329f79b1e97d9136922f392fa4c85b007856e64bfd0e63415472e7d06b/music_assistant-2.0.0b136.tar.gz
+[2024-04-16 12:43:19] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 15895095>=10485760
+[2024-04-16 12:43:19] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2024-04-16 12:43:19] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/44/a4/eeb3b81f8f02d248ef2e817ab9b146994d247eaecf959165bd35533e2a27/venv-modulefile-0.1.5.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/1d/43/7baa5e3ebaa85e926162c2bc65cd0cc1ee01f633367f265b3d6565a9d22a/data_factory_testing_framework-0.2.5.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/1d/43/7baa5e3ebaa85e926162c2bc65cd0cc1ee01f633367f265b3d6565a9d22a/data_factory_testing_framework-0.2.5.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Downloading https://files.pythonhosted.org/packages/84/d0/e31bc4697a92ecf721a7f08cd1f0514ae0f1df7e9def382d9ff3b66dce57/ops_py_azure_key_vault_report-5.0.0.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ortfodb]: Downloading https://files.pythonhosted.org/packages/0a/e4/b3b61ed2f3bdbcf83d45f0541166c27d0323f7007e21c5b208b677f7e1ef/ortfodb-1.3.0.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/8d/db/a0ae202d1e8bb1b56d320058ac8bef6d9f6ec02eb54e2cc69f637e04a601/wizata-dsapi-0.4.9.tar.gz
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: executing diffoscope
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: executing diffoscope
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_factory_testing_framework-0.2.4.tar.gz tmp/data_factory_testing_framework-0.2.5.tar.gz --markdown 20240416/d/data-factory-testing-framework/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 12:43:19] INFO root fetch - processPackages [data-factory-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_factory_testing_framework-0.2.4.tar.gz tmp/data_factory_testing_framework-0.2.5.tar.gz --markdown 20240416/d/data-factory-testing-framework/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: executing diffoscope
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-py-azure-key-vault-report-4.0.1.tar.gz tmp/ops_py_azure_key_vault_report-5.0.0.tar.gz --markdown 20240416/o/ops-py-azure-key-vault-report/4.0.1-5.0.0/README.md --exclude *.pyd
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ortfodb]: executing diffoscope
+[2024-04-16 12:43:19] INFO root fetch - processPackages [ortfodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ortfodb-1.2.0.tar.gz tmp/ortfodb-1.3.0.tar.gz --markdown 20240416/o/ortfodb/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-16 12:43:19] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2024-04-16 12:43:19] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.4.8.tar.gz tmp/wizata-dsapi-0.4.9.tar.gz --markdown 20240416/w/wizata-dsapi/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-16 12:43:20] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2024-04-16 12:43:20] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.1.4.tar.gz tmp/venv-modulefile-0.1.5.tar.gz --markdown 20240416/v/venv-modulefile/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 12:43:20] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops-py-azure-key-vault-report-4.0.1.tar.gz]
+[2024-04-16 12:43:20] INFO root fetch - processPackages [ops-py-azure-key-vault-report]: Remove: archive file [/home/abi/fetcher/tmp/ops_py_azure_key_vault_report-5.0.0.tar.gz]
+[2024-04-16 12:43:20] INFO root fetch - main [MainThread]: End processing [ops-py-azure-key-vault-report]: success
+[2024-04-16 12:43:20] INFO root fetch - processPackages [data-factory-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/data_factory_testing_framework-0.2.4.tar.gz]
+[2024-04-16 12:43:20] INFO root fetch - processPackages [data-factory-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/data_factory_testing_framework-0.2.5.tar.gz]
+[2024-04-16 12:43:20] INFO root fetch - main [MainThread]: End processing [data-factory-testing-framework]: success
+[2024-04-16 12:43:20] INFO root fetch - processPackages [ortfodb]: Remove: archive file [/home/abi/fetcher/tmp/ortfodb-1.2.0.tar.gz]
+[2024-04-16 12:43:20] INFO root fetch - processPackages [ortfodb]: Remove: archive file [/home/abi/fetcher/tmp/ortfodb-1.3.0.tar.gz]
+[2024-04-16 12:43:20] INFO root fetch - main [MainThread]: End processing [ortfodb]: success
+[2024-04-16 12:43:20] INFO root fetch - main [MainThread]: End processing [data-factory-testing-framework]: success
+[2024-04-16 12:43:20] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.4.8.tar.gz]
+[2024-04-16 12:43:20] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.4.9.tar.gz]
+[2024-04-16 12:43:20] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2024-04-16 12:43:21] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.4.tar.gz]
+[2024-04-16 12:43:21] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.5.tar.gz]
+[2024-04-16 12:43:21] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2024-04-16 12:43:21] INFO root fetch - main [MainThread]: Store serial: [22786403]
