@@ -6451,3 +6451,24 @@
 [2024-04-16 07:10:34] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.1.tar.gz]
 [2024-04-16 07:10:34] INFO root fetch - main [MainThread]: End processing [DXR-BJ]: success
 [2024-04-16 07:10:34] INFO root fetch - main [MainThread]: Store serial: [22782765]
+[2024-04-16 07:12:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782765]
+[2024-04-16 07:12:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 07:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agave-pyclient
+[2024-04-16 07:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnxsharp
+[2024-04-16 07:12:43] INFO root fetch - processPackages [agave-pyclient]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-16 07:12:43] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/9e/9d/9903c01afd1089868adb7ee6a726ced83487e8d660b6a2a25ffb33b5e180/agave_pyclient-1.6.2.tar.gz
+[2024-04-16 07:12:43] INFO root fetch - processPackages [onnxsharp]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 07:12:43] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/d1/bc/e2c0cecc7b16fdd0e21408b4a12511ade6ea8b74995b41611b6e93d568d8/onnxsharp-0.0.1-py2.py3-none-any.whl
+[2024-04-16 07:12:43] INFO root fetch - processPackages [agave-pyclient]: Downloading https://files.pythonhosted.org/packages/fb/fc/86a3b0f1917fc92cd8add69212a86b6781a9bfe2ce992e121a636dda3a27/agave_pyclient-1.6.3.tar.gz
+[2024-04-16 07:12:43] INFO root fetch - processPackages [agave-pyclient]: executing diffoscope
+[2024-04-16 07:12:43] INFO root fetch - processPackages [agave-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agave_pyclient-1.6.2.tar.gz tmp/agave_pyclient-1.6.3.tar.gz --markdown 20240416/a/agave-pyclient/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-04-16 07:12:43] INFO root fetch - processPackages [onnxsharp]: Downloading https://files.pythonhosted.org/packages/cc/c0/d9052c582ce274042abaa76f9a120a847f5beabded7aa262040767cf9d7c/onnxsharp-0.0.2-py2.py3-none-any.whl
+[2024-04-16 07:12:44] INFO root fetch - processPackages [onnxsharp]: executing diffoscope
+[2024-04-16 07:12:44] INFO root fetch - processPackages [onnxsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxsharp-0.0.1-py2.py3-none-any.whl.zip tmp/onnxsharp-0.0.2-py2.py3-none-any.whl.zip --markdown 20240416/o/onnxsharp/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 07:12:44] INFO root fetch - processPackages [agave-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/agave_pyclient-1.6.2.tar.gz]
+[2024-04-16 07:12:44] INFO root fetch - processPackages [agave-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/agave_pyclient-1.6.3.tar.gz]
+[2024-04-16 07:12:44] INFO root fetch - main [MainThread]: End processing [agave-pyclient]: success
+[2024-04-16 07:12:44] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.1-py2.py3-none-any.whl.zip]
+[2024-04-16 07:12:44] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-16 07:12:44] INFO root fetch - main [MainThread]: End processing [onnxsharp]: success
+[2024-04-16 07:12:44] INFO root fetch - main [MainThread]: Store serial: [22782770]
