@@ -2626,3 +2626,39 @@
 [2024-04-16 02:28:59] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.4.15.1.tar.gz]
 [2024-04-16 02:28:59] INFO root fetch - main [MainThread]: End processing [cabinet]: success
 [2024-04-16 02:28:59] INFO root fetch - main [MainThread]: Store serial: [22780924]
+[2024-04-16 02:31:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780924]
+[2024-04-16 02:31:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 02:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CryptMaster
+[2024-04-16 02:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lunaticoastro-dragonfly-controller
+[2024-04-16 02:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2024-04-16 02:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ploomber-cloud
+[2024-04-16 02:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clovers-apscheduler
+[2024-04-16 02:31:08] WARNING root fetch - processPackages [lunaticoastro-dragonfly-controller]: Skipping, unable to determine old version
+[2024-04-16 02:31:08] INFO root fetch - main [MainThread]: End processing [lunaticoastro-dragonfly-controller] error
+[2024-04-16 02:31:08] WARNING root fetch - processPackages [clovers-apscheduler]: Skipping, unable to determine old version
+[2024-04-16 02:31:08] INFO root fetch - main [MainThread]: End processing [clovers-apscheduler] error
+[2024-04-16 02:31:08] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 02:31:08] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240415] Old Version: [0.1.5.dev20240414]
+[2024-04-16 02:31:08] INFO root fetch - processPackages [ploomber-cloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 02:31:08] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 02:31:08] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/31/49034ab64400410124fa078013bb8f140bb3971d1206b7562b372b872631/aeppl_nightly-0.1.5.dev20240414.tar.gz
+[2024-04-16 02:31:08] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/09/b7/440dcb1a0920e2be01c8f414f613165ff78c6816833a687736a9dc9162b1/ploomber-cloud-0.1.8.tar.gz
+[2024-04-16 02:31:08] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 02:31:08] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/ad/69/73ddae6320dda1cf4ddf23f44f2fa5b82d7166355d09cc18efec2b8379cd/aeppl_nightly-0.1.5.dev20240415.tar.gz
+[2024-04-16 02:31:08] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 02:31:08] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 02:31:08] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-16 02:31:08] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240414.tar.gz tmp/aeppl_nightly-0.1.5.dev20240415.tar.gz --markdown 20240416/a/aeppl-nightly/0.1.5.dev20240414-0.1.5.dev20240415/README.md --exclude *.pyd
+[2024-04-16 02:31:09] INFO root fetch - processPackages [ploomber-cloud]: Downloading https://files.pythonhosted.org/packages/e6/f8/f4451ff0cb54c012c89da5286d33c3f73ca21e606814f7366bd6cda4738a/ploomber-cloud-0.1.9.tar.gz
+[2024-04-16 02:31:09] INFO root fetch - processPackages [ploomber-cloud]: executing diffoscope
+[2024-04-16 02:31:09] INFO root fetch - processPackages [ploomber-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomber-cloud-0.1.8.tar.gz tmp/ploomber-cloud-0.1.9.tar.gz --markdown 20240416/p/ploomber-cloud/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 02:31:09] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 02:31:09] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 02:31:09] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 02:31:09] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240414.tar.gz]
+[2024-04-16 02:31:09] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240415.tar.gz]
+[2024-04-16 02:31:09] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-16 02:31:09] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.8.tar.gz]
+[2024-04-16 02:31:09] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
+[2024-04-16 02:31:09] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
+[2024-04-16 02:31:09] INFO root fetch - main [MainThread]: Store serial: [22780938]
