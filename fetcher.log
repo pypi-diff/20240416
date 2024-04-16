@@ -6039,3 +6039,33 @@
 [2024-04-16 06:31:35] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.2.0.tar.gz]
 [2024-04-16 06:31:35] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
 [2024-04-16 06:31:35] INFO root fetch - main [MainThread]: Store serial: [22782551]
+[2024-04-16 06:33:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782551]
+[2024-04-16 06:33:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 06:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: athina
+[2024-04-16 06:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsonlogic-rs
+[2024-04-16 06:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toollib
+[2024-04-16 06:33:44] INFO root fetch - processPackages [athina]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-16 06:33:44] INFO root fetch - processPackages [toollib]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-16 06:33:44] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/ef/47/9b2ef0f7dd09092fd1f7473c8a302f1fa6450ca51d82832c78a6378d2975/athina-1.2.8.tar.gz
+[2024-04-16 06:33:44] INFO root fetch - processPackages [jsonlogic-rs]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-16 06:33:44] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/34/00/d96674aa4da44eccbc919f204c627518465d234150592e5bdf8720d74501/toollib-1.5.1-py3-none-any.whl
+[2024-04-16 06:33:44] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/8c/7a/9ca31aae0240dac1dcb9ff13ab77af41aabbad7fe4fb02cf9f625581c8cc/athina-1.2.9.tar.gz
+[2024-04-16 06:33:44] INFO root fetch - processPackages [jsonlogic-rs]: Downloading https://files.pythonhosted.org/packages/7e/ac/e22b4527621dca087216d789819447838f5b375ea1b9159370c23184ca55/jsonlogic-rs-0.3.2.tar.gz
+[2024-04-16 06:33:44] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-04-16 06:33:44] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.2.8.tar.gz tmp/athina-1.2.9.tar.gz --markdown 20240416/a/athina/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-16 06:33:44] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/0d/c8/ba5376773943200dbb66ff71003243f6568530ce3f0470dbdfffdaaa8ba3/toollib-1.5.2-py3-none-any.whl
+[2024-04-16 06:33:44] INFO root fetch - processPackages [toollib]: executing diffoscope
+[2024-04-16 06:33:44] INFO root fetch - processPackages [toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toollib-1.5.1-py3-none-any.whl.zip tmp/toollib-1.5.2-py3-none-any.whl.zip --markdown 20240416/t/toollib/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-16 06:33:44] INFO root fetch - processPackages [jsonlogic-rs]: Downloading https://files.pythonhosted.org/packages/f4/8f/4907679d09dc866efd312aa60d47e2e447df7a6f01e8204d607d36e306e0/jsonlogic_rs-0.3.3.tar.gz
+[2024-04-16 06:33:45] INFO root fetch - processPackages [jsonlogic-rs]: executing diffoscope
+[2024-04-16 06:33:45] INFO root fetch - processPackages [jsonlogic-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonlogic-rs-0.3.2.tar.gz tmp/jsonlogic_rs-0.3.3.tar.gz --markdown 20240416/j/jsonlogic-rs/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-16 06:33:45] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.8.tar.gz]
+[2024-04-16 06:33:45] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.9.tar.gz]
+[2024-04-16 06:33:45] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-04-16 06:33:45] INFO root fetch - processPackages [jsonlogic-rs]: Remove: archive file [/home/abi/fetcher/tmp/jsonlogic-rs-0.3.2.tar.gz]
+[2024-04-16 06:33:45] INFO root fetch - processPackages [jsonlogic-rs]: Remove: archive file [/home/abi/fetcher/tmp/jsonlogic_rs-0.3.3.tar.gz]
+[2024-04-16 06:33:45] INFO root fetch - main [MainThread]: End processing [jsonlogic-rs]: success
+[2024-04-16 06:33:45] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.5.1-py3-none-any.whl.zip]
+[2024-04-16 06:33:45] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.5.2-py3-none-any.whl.zip]
+[2024-04-16 06:33:45] INFO root fetch - main [MainThread]: End processing [toollib]: success
+[2024-04-16 06:33:45] INFO root fetch - main [MainThread]: Store serial: [22782563]
