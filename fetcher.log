@@ -7062,3 +7062,36 @@
 [2024-04-16 07:49:06] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
 [2024-04-16 07:49:06] INFO root fetch - main [MainThread]: End processing [cj-package]: success
 [2024-04-16 07:49:06] INFO root fetch - main [MainThread]: Store serial: [22782999]
+[2024-04-16 07:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782999]
+[2024-04-16 07:51:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 07:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: athina-logger
+[2024-04-16 07:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rai-test-utils
+[2024-04-16 07:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arch-flow
+[2024-04-16 07:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linktest
+[2024-04-16 07:51:15] INFO root fetch - processPackages [linktest]: New version: [2.4.7] Old Version: [2.4.6]
+[2024-04-16 07:51:15] WARNING root fetch - processPackages [arch-flow]: Skipping, unable to determine old version
+[2024-04-16 07:51:15] INFO root fetch - main [MainThread]: End processing [arch-flow] error
+[2024-04-16 07:51:15] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/f4/8b/0c597bc114f8ee75bd9d3b097a0544c70c03b14d2d7203a58b0d1ff49126/linktest-2.4.6.tar.gz
+[2024-04-16 07:51:15] INFO root fetch - processPackages [rai-test-utils]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-16 07:51:15] INFO root fetch - processPackages [athina-logger]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-16 07:51:15] INFO root fetch - processPackages [rai-test-utils]: Downloading https://files.pythonhosted.org/packages/06/ab/3ab549ed007a9cd01aa71352548fb7fc22447bffe6fb1bb8bd81b3b3da71/rai_test_utils-0.4.1.tar.gz
+[2024-04-16 07:51:15] INFO root fetch - processPackages [athina-logger]: Downloading https://files.pythonhosted.org/packages/e0/54/3213360ec075f7c1cc09e5adbc42df4e3cdb6c814d0f5197a485afcea4e9/athina_logger-1.2.1.tar.gz
+[2024-04-16 07:51:15] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/1a/f0/84af2e34c01bc438959e35289d2b6e55548580f556195ab462dc17043ffc/linktest-2.4.7.tar.gz
+[2024-04-16 07:51:16] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-16 07:51:16] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.4.6.tar.gz tmp/linktest-2.4.7.tar.gz --markdown 20240416/l/linktest/2.4.6-2.4.7/README.md --exclude *.pyd
+[2024-04-16 07:51:16] INFO root fetch - processPackages [rai-test-utils]: Downloading https://files.pythonhosted.org/packages/40/d1/d777dbcbf710369fca451c9dc9d0180209e6869fb2785a57e2f4d224986a/rai_test_utils-0.4.2.tar.gz
+[2024-04-16 07:51:16] INFO root fetch - processPackages [athina-logger]: Downloading https://files.pythonhosted.org/packages/3f/93/89b1e7d76dae7f455672dff60bd010dacca40e1f1517e96adc80db444bbe/athina_logger-1.2.2.tar.gz
+[2024-04-16 07:51:16] INFO root fetch - processPackages [rai-test-utils]: executing diffoscope
+[2024-04-16 07:51:16] INFO root fetch - processPackages [rai-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai_test_utils-0.4.1.tar.gz tmp/rai_test_utils-0.4.2.tar.gz --markdown 20240416/r/rai-test-utils/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-16 07:51:16] INFO root fetch - processPackages [athina-logger]: executing diffoscope
+[2024-04-16 07:51:16] INFO root fetch - processPackages [athina-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina_logger-1.2.1.tar.gz tmp/athina_logger-1.2.2.tar.gz --markdown 20240416/a/athina-logger/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-16 07:51:16] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.6.tar.gz]
+[2024-04-16 07:51:16] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.7.tar.gz]
+[2024-04-16 07:51:16] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-16 07:51:16] INFO root fetch - processPackages [athina-logger]: Remove: archive file [/home/abi/fetcher/tmp/athina_logger-1.2.1.tar.gz]
+[2024-04-16 07:51:16] INFO root fetch - processPackages [athina-logger]: Remove: archive file [/home/abi/fetcher/tmp/athina_logger-1.2.2.tar.gz]
+[2024-04-16 07:51:16] INFO root fetch - main [MainThread]: End processing [athina-logger]: success
+[2024-04-16 07:51:16] INFO root fetch - processPackages [rai-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/rai_test_utils-0.4.1.tar.gz]
+[2024-04-16 07:51:16] INFO root fetch - processPackages [rai-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/rai_test_utils-0.4.2.tar.gz]
+[2024-04-16 07:51:16] INFO root fetch - main [MainThread]: End processing [rai-test-utils]: success
+[2024-04-16 07:51:16] INFO root fetch - main [MainThread]: Store serial: [22783009]
