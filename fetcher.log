@@ -15978,3 +15978,35 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:42:46] INFO root fetch - processPackages [ls2d]: Remove: archive file [/home/abi/fetcher/tmp/ls2d-1.0.4.tar.gz]
 [2024-04-16 13:42:46] INFO root fetch - main [MainThread]: End processing [ls2d]: success
 [2024-04-16 13:42:46] INFO root fetch - main [MainThread]: Store serial: [22786944]
+[2024-04-16 13:44:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786944]
+[2024-04-16 13:44:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 13:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json_write
+[2024-04-16 13:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clovers-leafgame
+[2024-04-16 13:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovito
+[2024-04-16 13:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syclops
+[2024-04-16 13:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-ed25519-blake2b
+[2024-04-16 13:44:55] WARNING root fetch - processPackages [json_write]: Skipping, unable to determine old version
+[2024-04-16 13:44:55] INFO root fetch - main [MainThread]: End processing [json_write] error
+[2024-04-16 13:44:55] INFO root fetch - processPackages [py-ed25519-blake2b]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 13:44:55] WARNING root fetch - processPackages [syclops]: Skipping, unable to determine old version
+[2024-04-16 13:44:55] INFO root fetch - main [MainThread]: End processing [syclops] error
+[2024-04-16 13:44:55] INFO root fetch - processPackages [py-ed25519-blake2b]: Downloading https://files.pythonhosted.org/packages/f3/26/67e09c346aad9cf5ebb4bcd0f71a3a76a2711c72f4e46f3f466d000b4329/py_ed25519_blake2b-0.1.0-cp39-cp39-macosx_10_9_universal2.whl
+[2024-04-16 13:44:55] INFO root fetch - processPackages [clovers-leafgame]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 13:44:55] INFO root fetch - processPackages [ovito]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-04-16 13:44:55] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/01/e0/415cd196965d5eb0ecc4821d5a07b873dd2dcd0c4ae13c0c8f2a85c5f03b/clovers_leafgame-0.1.1.tar.gz
+[2024-04-16 13:44:55] INFO root fetch - processPackages [py-ed25519-blake2b]: Downloading https://files.pythonhosted.org/packages/60/95/7556bb87c1ecf850cddd43b17082bb5cae33094fb6241ba9835a078e737b/py_ed25519_blake2b-0.1.1-cp39-cp39-macosx_10_9_universal2.whl
+[2024-04-16 13:44:55] INFO root fetch - processPackages [ovito]: Downloading https://files.pythonhosted.org/packages/e9/fc/ac67b3f2827f7c37fbd7a66cf9834f75f4167fc873583c1fa5db45237e8c/ovito-3.9.3-cp39-cp39-win_amd64.whl
+[2024-04-16 13:44:55] INFO root fetch - processPackages [py-ed25519-blake2b]: executing diffoscope
+[2024-04-16 13:44:55] INFO root fetch - processPackages [py-ed25519-blake2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ed25519_blake2b-0.1.0-cp39-cp39-macosx_10_9_universal2.whl.zip tmp/py_ed25519_blake2b-0.1.1-cp39-cp39-macosx_10_9_universal2.whl.zip --markdown 20240416/p/py-ed25519-blake2b/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 13:44:55] INFO root fetch - processPackages [clovers-leafgame]: Downloading https://files.pythonhosted.org/packages/19/61/175384d733f370e502cbe1679642e6b1eafb64c661fdef31f1b6e8ba1bea/clovers_leafgame-0.1.2.tar.gz
+[2024-04-16 13:44:55] INFO root fetch - processPackages [clovers-leafgame]: executing diffoscope
+[2024-04-16 13:44:55] INFO root fetch - processPackages [clovers-leafgame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers_leafgame-0.1.1.tar.gz tmp/clovers_leafgame-0.1.2.tar.gz --markdown 20240416/c/clovers-leafgame/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 13:44:55] WARNING root fetch - processPackages [ovito]: Skipping package: exceeds size limit 74307634>=10485760
+[2024-04-16 13:44:55] INFO root fetch - main [MainThread]: End processing [ovito] error
+[2024-04-16 13:44:56] INFO root fetch - processPackages [py-ed25519-blake2b]: Remove: archive file [/home/abi/fetcher/tmp/py_ed25519_blake2b-0.1.0-cp39-cp39-macosx_10_9_universal2.whl.zip]
+[2024-04-16 13:44:56] INFO root fetch - processPackages [py-ed25519-blake2b]: Remove: archive file [/home/abi/fetcher/tmp/py_ed25519_blake2b-0.1.1-cp39-cp39-macosx_10_9_universal2.whl.zip]
+[2024-04-16 13:44:56] INFO root fetch - main [MainThread]: End processing [py-ed25519-blake2b]: success
+[2024-04-16 13:44:56] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.1.tar.gz]
+[2024-04-16 13:44:56] INFO root fetch - processPackages [clovers-leafgame]: Remove: archive file [/home/abi/fetcher/tmp/clovers_leafgame-0.1.2.tar.gz]
+[2024-04-16 13:44:56] INFO root fetch - main [MainThread]: End processing [clovers-leafgame]: success
+[2024-04-16 13:44:56] INFO root fetch - main [MainThread]: Store serial: [22786960]
