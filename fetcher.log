@@ -13868,3 +13868,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:12:30] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.8.tar.gz]
 [2024-04-16 12:12:30] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
 [2024-04-16 12:12:30] INFO root fetch - main [MainThread]: Store serial: [22786037]
+[2024-04-16 12:14:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786037]
+[2024-04-16 12:14:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 12:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-04-16 12:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ayeaye-fossa
+[2024-04-16 12:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-iris
+[2024-04-16 12:14:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pornhub-downloader
+[2024-04-16 12:14:39] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-16 12:14:39] WARNING root fetch - processPackages [pornhub-downloader]: Skipping, unable to determine old version
+[2024-04-16 12:14:39] INFO root fetch - main [MainThread]: End processing [pornhub-downloader] error
+[2024-04-16 12:14:39] INFO root fetch - processPackages [ayeaye-fossa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 12:14:39] INFO root fetch - processPackages [langchain-iris]: New version: [0.1.2b1] Old Version: [0.1.1b3]
+[2024-04-16 12:14:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-16 12:14:39] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/d8/a1/912b7eb7c2ec90821727eeae723c737b6fccd8c7d43b5b88035f69062531/ayeaye-fossa-0.0.8.tar.gz
+[2024-04-16 12:14:39] INFO root fetch - processPackages [langchain-iris]: Downloading https://files.pythonhosted.org/packages/5b/cd/bea7b42a478a547a2617f522baceff09bd2d3bb70901b85b3a7b399cff20/langchain-iris-0.1.1b3.tar.gz
+[2024-04-16 12:14:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-16 12:14:39] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-16 12:14:39] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240416/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-16 12:14:39] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/3f/3a/f0d0d26d68a1d713e3a4fd112bc9c5730bf2ffb87570f006537da13a4e41/ayeaye-fossa-0.0.9.tar.gz
+[2024-04-16 12:14:39] INFO root fetch - processPackages [langchain-iris]: Downloading https://files.pythonhosted.org/packages/c0/2b/2459b49a22aac4fed0cec9c886d9bcfb87cf4ff7b1ed3f4f5ee29b8c3e41/langchain_iris-0.1.2b1.tar.gz
+[2024-04-16 12:14:39] INFO root fetch - processPackages [ayeaye-fossa]: executing diffoscope
+[2024-04-16 12:14:39] INFO root fetch - processPackages [ayeaye-fossa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-fossa-0.0.8.tar.gz tmp/ayeaye-fossa-0.0.9.tar.gz --markdown 20240416/a/ayeaye-fossa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 12:14:39] INFO root fetch - processPackages [langchain-iris]: executing diffoscope
+[2024-04-16 12:14:39] INFO root fetch - processPackages [langchain-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-iris-0.1.1b3.tar.gz tmp/langchain_iris-0.1.2b1.tar.gz --markdown 20240416/l/langchain-iris/0.1.1b3-0.1.2b1/README.md --exclude *.pyd
+[2024-04-16 12:14:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-16 12:14:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-16 12:14:40] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-16 12:14:40] INFO root fetch - processPackages [langchain-iris]: Remove: archive file [/home/abi/fetcher/tmp/langchain-iris-0.1.1b3.tar.gz]
+[2024-04-16 12:14:40] INFO root fetch - processPackages [langchain-iris]: Remove: archive file [/home/abi/fetcher/tmp/langchain_iris-0.1.2b1.tar.gz]
+[2024-04-16 12:14:40] INFO root fetch - main [MainThread]: End processing [langchain-iris]: success
+[2024-04-16 12:14:40] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.8.tar.gz]
+[2024-04-16 12:14:40] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
+[2024-04-16 12:14:40] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
+[2024-04-16 12:14:40] INFO root fetch - main [MainThread]: Store serial: [22786062]
