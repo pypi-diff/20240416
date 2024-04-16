@@ -2530,3 +2530,42 @@
 [2024-04-16 02:24:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
 [2024-04-16 02:24:36] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
 [2024-04-16 02:24:36] INFO root fetch - main [MainThread]: Store serial: [22780883]
+[2024-04-16 02:26:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780883]
+[2024-04-16 02:26:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-ecs-service-extensions
+[2024-04-16 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-glfw-redux
+[2024-04-16 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-16 02:26:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nyctibius
+[2024-04-16 02:26:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-16 02:26:45] INFO root fetch - processPackages [nyctibius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 02:26:45] INFO root fetch - processPackages [py-glfw-redux]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-16 02:26:45] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-16 02:26:45] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-16 02:26:45] INFO root fetch - processPackages [nyctibius]: Downloading https://files.pythonhosted.org/packages/db/5c/8a79abbeee72a42e3ebc19d89b5c212c05a75fd32792e0220a4456117cfc/nyctibius-0.0.8.tar.gz
+[2024-04-16 02:26:45] INFO root fetch - processPackages [py-glfw-redux]: Downloading https://files.pythonhosted.org/packages/5c/7d/ea2ebb70b782d976d9621bc3371cdb2ce0e1fc3e6192f0c04ba9d25b55ce/py-glfw-redux-1.0.2.tar.gz
+[2024-04-16 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-16 02:26:46] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-16 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-16 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240416/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-16 02:26:46] INFO root fetch - processPackages [nyctibius]: Downloading https://files.pythonhosted.org/packages/1a/2d/a4698cc2fead01307a312fa46b714fc67cc2af1f6639e7012bebb4e3b09e/nyctibius-0.0.9.tar.gz
+[2024-04-16 02:26:46] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-16 02:26:46] INFO root fetch - processPackages [nyctibius]: executing diffoscope
+[2024-04-16 02:26:46] INFO root fetch - processPackages [nyctibius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyctibius-0.0.8.tar.gz tmp/nyctibius-0.0.9.tar.gz --markdown 20240416/n/nyctibius/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 02:26:46] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-16 02:26:46] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240416/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-04-16 02:26:46] INFO root fetch - processPackages [py-glfw-redux]: Downloading https://files.pythonhosted.org/packages/7d/35/742402dce4ae74fcb675b1f760affacf549bf811ee6442bc5d33eaaa62f9/py_glfw_redux-1.1.0.tar.gz
+[2024-04-16 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-16 02:26:46] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-16 02:26:46] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-16 02:26:46] INFO root fetch - processPackages [py-glfw-redux]: executing diffoscope
+[2024-04-16 02:26:46] INFO root fetch - processPackages [py-glfw-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-glfw-redux-1.0.2.tar.gz tmp/py_glfw_redux-1.1.0.tar.gz --markdown 20240416/p/py-glfw-redux/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-16 02:26:47] INFO root fetch - processPackages [nyctibius]: Remove: archive file [/home/abi/fetcher/tmp/nyctibius-0.0.8.tar.gz]
+[2024-04-16 02:26:47] INFO root fetch - processPackages [nyctibius]: Remove: archive file [/home/abi/fetcher/tmp/nyctibius-0.0.9.tar.gz]
+[2024-04-16 02:26:47] INFO root fetch - main [MainThread]: End processing [nyctibius]: success
+[2024-04-16 02:26:47] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-16 02:26:47] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-16 02:26:47] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-16 02:26:48] INFO root fetch - processPackages [py-glfw-redux]: Remove: archive file [/home/abi/fetcher/tmp/py-glfw-redux-1.0.2.tar.gz]
+[2024-04-16 02:26:48] INFO root fetch - processPackages [py-glfw-redux]: Remove: archive file [/home/abi/fetcher/tmp/py_glfw_redux-1.1.0.tar.gz]
+[2024-04-16 02:26:48] INFO root fetch - main [MainThread]: End processing [py-glfw-redux]: success
+[2024-04-16 02:26:48] INFO root fetch - main [MainThread]: Store serial: [22780906]
