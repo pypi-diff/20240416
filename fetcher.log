@@ -8685,3 +8685,89 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:13:24] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-16 09:13:24] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-16 09:13:24] INFO root fetch - main [MainThread]: Store serial: [22783582]
+[2024-04-16 09:15:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783582]
+[2024-04-16 09:15:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lakeapi2sql
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssb-datadoc
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certbot-nginx-unit
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oci-cli
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-bmob
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libs-zip
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: btc-embedded
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyworxcloud
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: linktest
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantulum3
+[2024-04-16 09:15:33] INFO root fetch - processPackages [libs-zip]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-16 09:15:33] INFO root fetch - processPackages [ssb-datadoc]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-16 09:15:34] INFO root fetch - processPackages [linktest]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-16 09:15:34] INFO root fetch - processPackages [pyworxcloud]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-16 09:15:34] INFO root fetch - processPackages [lakeapi2sql]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-16 09:15:34] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.6] Old Version: [24.1.5]
+[2024-04-16 09:15:34] INFO root fetch - processPackages [python-bmob]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-16 09:15:34] INFO root fetch - processPackages [certbot-nginx-unit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 09:15:34] INFO root fetch - processPackages [ssb-datadoc]: Downloading https://files.pythonhosted.org/packages/93/eb/72972eac48f29ff328b338ca2eac5e8dad0e83c487846489dea49edd54fa/ssb_datadoc-0.8.3.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [quantulum3]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 09:15:34] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/12/67/e28e4d4e15e0563a9e25c2c8318071145b648cf66e9f58d51b70a3d97851/linktest-2.4.8.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-16 09:15:34] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/a4/c0/0059322e7b2c1ad481301b528d5d2aeff7bd4818b7d90510f1402d6e1c68/pyworxcloud-4.1.8.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/e1/a8/662c5c1693a8b46677247ea78ff327e329c3097b5aca3391d2bda224116e/lakeapi2sql-0.8.0.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [libs-zip]: Downloading https://files.pythonhosted.org/packages/9c/1e/294d7b57c6e47f2b07ce18ad028719882a83b38ab5a1dd369a37fd3cd358/libs_zip-0.0.0-py3-none-any.whl
+[2024-04-16 09:15:34] INFO root fetch - processPackages [python-bmob]: Downloading https://files.pythonhosted.org/packages/ce/85/2542ed97d2927ac3f995c6354e16a236b42fc78d1aae52cc7eb8867a0c5e/python-bmob-1.6.0.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/8b/e8/9e00e79b018e905f39d99897ba81460a4b885356f929a725f6e9351948bc/btc_embedded-24.1.5.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [certbot-nginx-unit]: Downloading https://files.pythonhosted.org/packages/ee/cf/e798f98e430468e0711bce88be8cf9f29f55a7ca2be48e5d108f03fb7c79/certbot_nginx_unit-1.0.8.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [quantulum3]: Downloading https://files.pythonhosted.org/packages/df/21/30b1e76d6ac1716b8360d41e44ffadae0c627056e29626c1a75f2fcb127e/quantulum3-0.9.0.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/12/4d/2b2447a08954ec87133970966f929613b5b41156b26ecefdd26695183e9a/pyworxcloud-4.1.9.tar.gz
+[2024-04-16 09:15:34] WARNING root fetch - processPackages [quantulum3]: Skipping package: exceeds size limit 10701092>=10485760
+[2024-04-16 09:15:34] INFO root fetch - main [MainThread]: End processing [quantulum3] error
+[2024-04-16 09:15:34] INFO root fetch - processPackages [lakeapi2sql]: Downloading https://files.pythonhosted.org/packages/28/b8/48b598be35dcd004df6dff35f7e20f2cea531ffc08d6ac547eeaf60e1a71/lakeapi2sql-0.8.1-cp310-abi3-macosx_11_0_arm64.whl
+[2024-04-16 09:15:34] INFO root fetch - processPackages [ssb-datadoc]: Downloading https://files.pythonhosted.org/packages/2c/f2/3b818466cf20d322ce14c520f660d1fe8ff56b732b6fcf6255936523fe1d/ssb_datadoc-0.9.0.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/fd/37/e9e9e7e868eaf40c92b8024f3fa1245950e054567e924feae99a78896699/linktest-2.4.9.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [libs-zip]: Downloading https://files.pythonhosted.org/packages/8f/16/07551e61d382f7ce8231641188d5e5ffb0ad0c8b13b1ed8fa97040732492/libs_zip-0.0.1-py3-none-any.whl
+[2024-04-16 09:15:34] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2024-04-16 09:15:34] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20240416/o/oci-cli/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-16 09:15:34] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2024-04-16 09:15:34] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-4.1.8.tar.gz tmp/pyworxcloud-4.1.9.tar.gz --markdown 20240416/p/pyworxcloud/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-04-16 09:15:34] INFO root fetch - processPackages [python-bmob]: Downloading https://files.pythonhosted.org/packages/04/94/9ab8810a90b6ce0899e091af3ddc91031c0cbb5cacaad9732dd5a4165562/python-bmob-1.7.0.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-16 09:15:34] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.4.8.tar.gz tmp/linktest-2.4.9.tar.gz --markdown 20240416/l/linktest/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-16 09:15:34] INFO root fetch - processPackages [ssb-datadoc]: executing diffoscope
+[2024-04-16 09:15:34] INFO root fetch - processPackages [ssb-datadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_datadoc-0.8.3.tar.gz tmp/ssb_datadoc-0.9.0.tar.gz --markdown 20240416/s/ssb-datadoc/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-16 09:15:34] INFO root fetch - processPackages [libs-zip]: executing diffoscope
+[2024-04-16 09:15:34] INFO root fetch - processPackages [libs-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libs_zip-0.0.0-py3-none-any.whl.zip tmp/libs_zip-0.0.1-py3-none-any.whl.zip --markdown 20240416/l/libs-zip/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-16 09:15:34] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [certbot-nginx-unit]: Downloading https://files.pythonhosted.org/packages/8f/ea/886ca44ce000382ba73a34ff68ad35d23d21c5051d5cfe9aaa4aff723a1d/certbot_nginx_unit-1.0.9.tar.gz
+[2024-04-16 09:15:34] INFO root fetch - processPackages [python-bmob]: executing diffoscope
+[2024-04-16 09:15:34] INFO root fetch - processPackages [python-bmob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bmob-1.6.0.tar.gz tmp/python-bmob-1.7.0.tar.gz --markdown 20240416/p/python-bmob/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-16 09:15:34] INFO root fetch - processPackages [lakeapi2sql]: executing diffoscope
+[2024-04-16 09:15:34] INFO root fetch - processPackages [lakeapi2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakeapi2sql-0.8.0.tar.gz tmp/lakeapi2sql-0.8.1-cp310-abi3-macosx_11_0_arm64.whl.zip --markdown 20240416/l/lakeapi2sql/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-16 09:15:34] INFO root fetch - processPackages [certbot-nginx-unit]: executing diffoscope
+[2024-04-16 09:15:34] INFO root fetch - processPackages [certbot-nginx-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot_nginx_unit-1.0.8.tar.gz tmp/certbot_nginx_unit-1.0.9.tar.gz --markdown 20240416/c/certbot-nginx-unit/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 09:15:35] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-04-16 09:15:35] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.5.tar.gz tmp/btc_embedded-24.1.6.tar.gz --markdown 20240416/b/btc-embedded/24.1.5-24.1.6/README.md --exclude *.pyd
+[2024-04-16 09:15:35] INFO root fetch - processPackages [libs-zip]: Remove: archive file [/home/abi/fetcher/tmp/libs_zip-0.0.0-py3-none-any.whl.zip]
+[2024-04-16 09:15:35] INFO root fetch - processPackages [libs-zip]: Remove: archive file [/home/abi/fetcher/tmp/libs_zip-0.0.1-py3-none-any.whl.zip]
+[2024-04-16 09:15:35] INFO root fetch - main [MainThread]: End processing [libs-zip]: success
+[2024-04-16 09:15:35] INFO root fetch - processPackages [certbot-nginx-unit]: Remove: archive file [/home/abi/fetcher/tmp/certbot_nginx_unit-1.0.8.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - processPackages [certbot-nginx-unit]: Remove: archive file [/home/abi/fetcher/tmp/certbot_nginx_unit-1.0.9.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - main [MainThread]: End processing [certbot-nginx-unit]: success
+[2024-04-16 09:15:35] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.8.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.9.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-16 09:15:35] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.8.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.9.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2024-04-16 09:15:35] INFO root fetch - processPackages [python-bmob]: Remove: archive file [/home/abi/fetcher/tmp/python-bmob-1.6.0.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - processPackages [python-bmob]: Remove: archive file [/home/abi/fetcher/tmp/python-bmob-1.7.0.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - main [MainThread]: End processing [python-bmob]: success
+[2024-04-16 09:15:35] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.5.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-04-16 09:15:35] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.8.0.tar.gz]
+[2024-04-16 09:15:35] INFO root fetch - processPackages [lakeapi2sql]: Remove: archive file [/home/abi/fetcher/tmp/lakeapi2sql-0.8.1-cp310-abi3-macosx_11_0_arm64.whl.zip]
+[2024-04-16 09:15:35] INFO root fetch - main [MainThread]: End processing [lakeapi2sql]: success
+[2024-04-16 09:15:36] INFO root fetch - processPackages [ssb-datadoc]: Remove: archive file [/home/abi/fetcher/tmp/ssb_datadoc-0.8.3.tar.gz]
+[2024-04-16 09:15:36] INFO root fetch - processPackages [ssb-datadoc]: Remove: archive file [/home/abi/fetcher/tmp/ssb_datadoc-0.9.0.tar.gz]
+[2024-04-16 09:15:36] INFO root fetch - main [MainThread]: End processing [ssb-datadoc]: success
+[2024-04-16 09:18:34] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2024-04-16 09:18:34] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2024-04-16 09:18:34] INFO root fetch - main [MainThread]: Store serial: [22783613]
