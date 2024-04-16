@@ -14111,3 +14111,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:25:36] INFO root fetch - processPackages [dcor-shared]: Remove: archive file [/home/abi/fetcher/tmp/dcor_shared-0.9.1.tar.gz]
 [2024-04-16 12:25:36] INFO root fetch - main [MainThread]: End processing [dcor-shared]: success
 [2024-04-16 12:25:36] INFO root fetch - main [MainThread]: Store serial: [22786160]
+[2024-04-16 12:27:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786160]
+[2024-04-16 12:27:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 12:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fluidimage
+[2024-04-16 12:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: project-utils-django
+[2024-04-16 12:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wbx-workspaces
+[2024-04-16 12:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: admap
+[2024-04-16 12:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bojanpdf
+[2024-04-16 12:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vk-teams-async-bot
+[2024-04-16 12:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yidas-test
+[2024-04-16 12:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thulearn2018
+[2024-04-16 12:27:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edgeimpulse-api
+[2024-04-16 12:27:45] INFO root fetch - processPackages [admap]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-16 12:27:45] INFO root fetch - processPackages [thulearn2018]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-04-16 12:27:45] INFO root fetch - processPackages [admap]: Downloading https://files.pythonhosted.org/packages/a5/a5/9049a27c59119f1511e8cd8165e012eb967ce53902a9b09d81e82969e200/admap-2.0.2.tar.gz
+[2024-04-16 12:27:45] WARNING root fetch - processPackages [project-utils-django]: Skipping, unable to determine old version
+[2024-04-16 12:27:45] INFO root fetch - main [MainThread]: End processing [project-utils-django] error
+[2024-04-16 12:27:45] INFO root fetch - processPackages [vk-teams-async-bot]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 12:27:45] WARNING root fetch - processPackages [bojanpdf]: Skipping, unable to determine old version
+[2024-04-16 12:27:45] INFO root fetch - main [MainThread]: End processing [bojanpdf] error
+[2024-04-16 12:27:45] INFO root fetch - processPackages [fluidimage]: New version: [0.4.4] Old Version: [0.4.3.post0]
+[2024-04-16 12:27:45] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.6] Old Version: [1.49.5]
+[2024-04-16 12:27:45] INFO root fetch - processPackages [wbx-workspaces]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-04-16 12:27:45] WARNING root fetch - processPackages [yidas-test]: Skipping, unable to determine old version
+[2024-04-16 12:27:45] INFO root fetch - main [MainThread]: End processing [yidas-test] error
+[2024-04-16 12:27:45] INFO root fetch - processPackages [thulearn2018]: Downloading https://files.pythonhosted.org/packages/62/f0/250220b1b61bb8ac937ac9e1dd60bbb52de743a1b66391cc229c711bcec9/thulearn2018-2.4.3.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/ac/b3/8fd02b3b6f4d6366c2eef4fc86cb404d1a0451251deb58a7ff7fb61f4dde/edgeimpulse_api-1.49.5.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [vk-teams-async-bot]: Downloading https://files.pythonhosted.org/packages/f2/d2/c286aae317b8fe7c7e150c3dfca209d30532858d2501b61d667623a2a647/vk_teams_async_bot-0.2.1.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [wbx-workspaces]: Downloading https://files.pythonhosted.org/packages/35/05/9fa9969f8e9671a404d0e7382ef7de9d75a3e6f3d4bbc5c554386779b1f9/wbx_workspaces-1.0.1.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [fluidimage]: Downloading https://files.pythonhosted.org/packages/29/bc/8733733733ad3d4ada10022f5f6d20e1b1f71dbaeb744ca80ba63232da02/fluidimage-0.4.3.post0.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [admap]: Downloading https://files.pythonhosted.org/packages/fa/14/70b92103919cc26d67240d935db3c610edecb144247d371332b7f534773a/admap-2.0.3.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [thulearn2018]: Downloading https://files.pythonhosted.org/packages/f9/30/dc533ce12ee40e47c2246b6d3b4c0ae0cffe8efc6017e918c512b0ae170d/thulearn2018-2.4.4.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [admap]: executing diffoscope
+[2024-04-16 12:27:45] INFO root fetch - processPackages [admap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/admap-2.0.2.tar.gz tmp/admap-2.0.3.tar.gz --markdown 20240416/a/admap/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-16 12:27:45] INFO root fetch - processPackages [thulearn2018]: executing diffoscope
+[2024-04-16 12:27:45] INFO root fetch - processPackages [thulearn2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thulearn2018-2.4.3.tar.gz tmp/thulearn2018-2.4.4.tar.gz --markdown 20240416/t/thulearn2018/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-04-16 12:27:45] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/6f/9d/623eba3b07fa9baa3793e0b694b9793a0b1d95929ef40f5e27108d51dac9/edgeimpulse_api-1.49.6.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [vk-teams-async-bot]: Downloading https://files.pythonhosted.org/packages/49/f1/6c3b5e6aaadbf649b2ae99352733dd3eb501dc16e02680212fb3d557336a/vk_teams_async_bot-0.2.2.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [wbx-workspaces]: Downloading https://files.pythonhosted.org/packages/31/4c/93ecf690939cae97efffd8892c0dde662cc64f4c10f1f24ebf57a485f5e1/wbx_workspaces-1.1.1.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [vk-teams-async-bot]: executing diffoscope
+[2024-04-16 12:27:45] INFO root fetch - processPackages [vk-teams-async-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vk_teams_async_bot-0.2.1.tar.gz tmp/vk_teams_async_bot-0.2.2.tar.gz --markdown 20240416/v/vk-teams-async-bot/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-16 12:27:45] INFO root fetch - processPackages [fluidimage]: Downloading https://files.pythonhosted.org/packages/e7/20/6d5acb22098c5cec12bd83ca1573eb9999db7db1369274d02823a9877e37/fluidimage-0.4.4.tar.gz
+[2024-04-16 12:27:45] INFO root fetch - processPackages [wbx-workspaces]: executing diffoscope
+[2024-04-16 12:27:45] INFO root fetch - processPackages [wbx-workspaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbx_workspaces-1.0.1.tar.gz tmp/wbx_workspaces-1.1.1.tar.gz --markdown 20240416/w/wbx-workspaces/1.0.1-1.1.1/README.md --exclude *.pyd
+[2024-04-16 12:27:46] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-04-16 12:27:46] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.5.tar.gz tmp/edgeimpulse_api-1.49.6.tar.gz --markdown 20240416/e/edgeimpulse-api/1.49.5-1.49.6/README.md --exclude *.pyd
+[2024-04-16 12:27:46] INFO root fetch - processPackages [fluidimage]: executing diffoscope
+[2024-04-16 12:27:46] INFO root fetch - processPackages [fluidimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidimage-0.4.3.post0.tar.gz tmp/fluidimage-0.4.4.tar.gz --markdown 20240416/f/fluidimage/0.4.3.post0-0.4.4/README.md --exclude *.pyd
+[2024-04-16 12:27:46] INFO root fetch - processPackages [admap]: Remove: archive file [/home/abi/fetcher/tmp/admap-2.0.2.tar.gz]
+[2024-04-16 12:27:46] INFO root fetch - processPackages [admap]: Remove: archive file [/home/abi/fetcher/tmp/admap-2.0.3.tar.gz]
+[2024-04-16 12:27:46] INFO root fetch - main [MainThread]: End processing [admap]: success
+[2024-04-16 12:27:46] INFO root fetch - processPackages [thulearn2018]: Remove: archive file [/home/abi/fetcher/tmp/thulearn2018-2.4.3.tar.gz]
+[2024-04-16 12:27:46] INFO root fetch - processPackages [thulearn2018]: Remove: archive file [/home/abi/fetcher/tmp/thulearn2018-2.4.4.tar.gz]
+[2024-04-16 12:27:46] INFO root fetch - main [MainThread]: End processing [thulearn2018]: success
+[2024-04-16 12:27:46] INFO root fetch - processPackages [vk-teams-async-bot]: Remove: archive file [/home/abi/fetcher/tmp/vk_teams_async_bot-0.2.1.tar.gz]
+[2024-04-16 12:27:46] INFO root fetch - processPackages [vk-teams-async-bot]: Remove: archive file [/home/abi/fetcher/tmp/vk_teams_async_bot-0.2.2.tar.gz]
+[2024-04-16 12:27:46] INFO root fetch - main [MainThread]: End processing [vk-teams-async-bot]: success
+[2024-04-16 12:27:46] INFO root fetch - processPackages [wbx-workspaces]: Remove: archive file [/home/abi/fetcher/tmp/wbx_workspaces-1.0.1.tar.gz]
+[2024-04-16 12:27:46] INFO root fetch - processPackages [wbx-workspaces]: Remove: archive file [/home/abi/fetcher/tmp/wbx_workspaces-1.1.1.tar.gz]
+[2024-04-16 12:27:46] INFO root fetch - main [MainThread]: End processing [wbx-workspaces]: success
+[2024-04-16 12:27:48] INFO root fetch - processPackages [fluidimage]: Remove: archive file [/home/abi/fetcher/tmp/fluidimage-0.4.3.post0.tar.gz]
+[2024-04-16 12:27:48] INFO root fetch - processPackages [fluidimage]: Remove: archive file [/home/abi/fetcher/tmp/fluidimage-0.4.4.tar.gz]
+[2024-04-16 12:27:48] INFO root fetch - main [MainThread]: End processing [fluidimage]: success
+[2024-04-16 12:27:49] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.5.tar.gz]
+[2024-04-16 12:27:49] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.6.tar.gz]
+[2024-04-16 12:27:49] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-04-16 12:27:49] INFO root fetch - main [MainThread]: Store serial: [22786212]
