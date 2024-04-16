@@ -20456,3 +20456,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:12:38] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.2a0.tar.gz]
 [2024-04-16 16:12:38] INFO root fetch - main [MainThread]: End processing [philander]: success
 [2024-04-16 16:12:38] INFO root fetch - main [MainThread]: Store serial: [22788735]
+[2024-04-16 16:14:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788735]
+[2024-04-16 16:14:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 16:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qandle
+[2024-04-16 16:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bicleaner-ai
+[2024-04-16 16:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unified-planning
+[2024-04-16 16:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-power-ops
+[2024-04-16 16:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2024-04-16 16:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbnlab-preview
+[2024-04-16 16:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: github-projectv2
+[2024-04-16 16:14:47] INFO root fetch - processPackages [qandle]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 16:14:47] INFO root fetch - processPackages [github-projectv2]: New version: [0.3] Old Version: [0.2.2]
+[2024-04-16 16:14:47] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 16:14:47] INFO root fetch - processPackages [bicleaner-ai]: New version: [3.0.0] Old Version: [2.3.2]
+[2024-04-16 16:14:47] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.94.0] Old Version: [0.93.0]
+[2024-04-16 16:14:47] INFO root fetch - processPackages [unified-planning]: New version: [1.1.0.9.dev1] Old Version: [1.1.0.5.dev1]
+[2024-04-16 16:14:48] INFO root fetch - processPackages [qandle]: Downloading https://files.pythonhosted.org/packages/72/7a/de215d2f4c5173273ed3c6ce85f2ba377270ef854b0ced1736ad1f370c73/qandle-0.0.4.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/52/b2/047d6a76a155e80970a7374bfe3d8659546a1b7451898fca1a209f75a4ed/cognite_power_ops-0.93.0.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/59/df/54b659b4910ee46312c384ec665abb3417905d7cf8ca60b2134af537173d/bicleaner-ai-2.3.2.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/31/1f/f93a27c463e4d0dee95f4e4d837047ad4d5a5088d23a2e48418a2ae052d5/fbnlab_preview-0.1.98-py3-none-any.whl
+[2024-04-16 16:14:48] INFO root fetch - processPackages [github-projectv2]: Downloading https://files.pythonhosted.org/packages/53/09/82665cbfa569da99a2ca948b6007c60441277974f3cdf631a254ef790f59/github_projectv2-0.2.2.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/75/60/84750ec7e344f7f4bec90686f3ea15398b31b461b9c1c4c5aff43879b120/unified_planning-1.1.0.5.dev1.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-16 16:14:48] INFO root fetch - processPackages [github-projectv2]: Downloading https://files.pythonhosted.org/packages/d4/a5/b0d929f8657a8068b86e399ceba0b1460ee7f2d7ca5ba06fb5001f002233/github_projectv2-0.3.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [qandle]: Downloading https://files.pythonhosted.org/packages/88/e3/2234b282cff0545d36e3ac984f108b4be1977ec3fa272d365c765fbf77c1/qandle-0.0.5.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/11/c7/4652f403d6a9e5fdcac981ca152385dd61132e4ea3b7919a0c2e5461efa7/bicleaner_ai-3.0.0.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/ae/02/03b658ee14a5ee7f38f9250c404675ae7ef4ffd4e8c48779f0ffe3a20037/cognite_power_ops-0.94.0.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [qandle]: executing diffoscope
+[2024-04-16 16:14:48] INFO root fetch - processPackages [qandle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qandle-0.0.4.tar.gz tmp/qandle-0.0.5.tar.gz --markdown 20240416/q/qandle/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 16:14:48] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d3/92/cf18e6f74ccb3981cc136936855c3964a7b0025887099f6d2e922a35c7d0/fbnlab_preview-0.1.99-py3-none-any.whl
+[2024-04-16 16:14:48] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/3e/ec/03dc4365f94c5ede698807b6ccad1ecbb2292584f5aef610857104b3073b/unified_planning-1.1.0.9.dev1.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-16 16:14:48] INFO root fetch - processPackages [bicleaner-ai]: executing diffoscope
+[2024-04-16 16:14:48] INFO root fetch - processPackages [bicleaner-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bicleaner-ai-2.3.2.tar.gz tmp/bicleaner_ai-3.0.0.tar.gz --markdown 20240416/b/bicleaner-ai/2.3.2-3.0.0/README.md --exclude *.pyd
+[2024-04-16 16:14:48] INFO root fetch - processPackages [github-projectv2]: executing diffoscope
+[2024-04-16 16:14:48] INFO root fetch - processPackages [github-projectv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_projectv2-0.2.2.tar.gz tmp/github_projectv2-0.3.tar.gz --markdown 20240416/g/github-projectv2/0.2.2-0.3/README.md --exclude *.pyd
+[2024-04-16 16:14:48] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2024-04-16 16:14:48] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.98-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.99-py3-none-any.whl.zip --markdown 20240416/f/fbnlab-preview/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 16:14:48] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2024-04-16 16:14:48] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.93.0.tar.gz tmp/cognite_power_ops-0.94.0.tar.gz --markdown 20240416/c/cognite-power-ops/0.93.0-0.94.0/README.md --exclude *.pyd
+[2024-04-16 16:14:48] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2024-04-16 16:14:48] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.1.0.5.dev1.tar.gz tmp/unified_planning-1.1.0.9.dev1.tar.gz --markdown 20240416/u/unified-planning/1.1.0.5.dev1-1.1.0.9.dev1/README.md --exclude *.pyd
+[2024-04-16 16:14:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-16 16:14:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-16 16:14:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240416/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-16 16:14:49] INFO root fetch - processPackages [qandle]: Remove: archive file [/home/abi/fetcher/tmp/qandle-0.0.4.tar.gz]
+[2024-04-16 16:14:49] INFO root fetch - processPackages [qandle]: Remove: archive file [/home/abi/fetcher/tmp/qandle-0.0.5.tar.gz]
+[2024-04-16 16:14:49] INFO root fetch - main [MainThread]: End processing [qandle]: success
+[2024-04-16 16:14:49] INFO root fetch - processPackages [github-projectv2]: Remove: archive file [/home/abi/fetcher/tmp/github_projectv2-0.2.2.tar.gz]
+[2024-04-16 16:14:49] INFO root fetch - processPackages [github-projectv2]: Remove: archive file [/home/abi/fetcher/tmp/github_projectv2-0.3.tar.gz]
+[2024-04-16 16:14:49] INFO root fetch - main [MainThread]: End processing [github-projectv2]: success
+[2024-04-16 16:14:49] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner-ai-2.3.2.tar.gz]
+[2024-04-16 16:14:49] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner_ai-3.0.0.tar.gz]
+[2024-04-16 16:14:49] INFO root fetch - main [MainThread]: End processing [bicleaner-ai]: success
+[2024-04-16 16:14:49] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.98-py3-none-any.whl.zip]
+[2024-04-16 16:14:49] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.99-py3-none-any.whl.zip]
+[2024-04-16 16:14:49] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2024-04-16 16:14:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-16 16:14:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-16 16:14:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-16 16:14:50] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.5.dev1.tar.gz]
+[2024-04-16 16:14:50] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.9.dev1.tar.gz]
+[2024-04-16 16:14:50] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2024-04-16 16:14:54] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.93.0.tar.gz]
+[2024-04-16 16:14:54] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.94.0.tar.gz]
+[2024-04-16 16:14:54] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2024-04-16 16:14:54] INFO root fetch - main [MainThread]: Store serial: [22788756]
