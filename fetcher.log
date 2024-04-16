@@ -5433,3 +5433,64 @@
 [2024-04-16 05:55:19] INFO root fetch - processPackages [fuxictr]: Remove: archive file [/home/abi/fetcher/tmp/fuxictr-2.2.1.tar.gz]
 [2024-04-16 05:55:19] INFO root fetch - main [MainThread]: End processing [fuxictr]: success
 [2024-04-16 05:55:19] INFO root fetch - main [MainThread]: Store serial: [22782281]
+[2024-04-16 05:57:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782281]
+[2024-04-16 05:57:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 05:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Sqldi
+[2024-04-16 05:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hllama
+[2024-04-16 05:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pasta-man
+[2024-04-16 05:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uform
+[2024-04-16 05:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudparing.aws-cdk
+[2024-04-16 05:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fireducks
+[2024-04-16 05:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplepro
+[2024-04-16 05:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: firefw
+[2024-04-16 05:57:28] INFO root fetch - processPackages [hllama]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 05:57:29] INFO root fetch - processPackages [pasta-man]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 05:57:29] INFO root fetch - processPackages [hllama]: Downloading https://files.pythonhosted.org/packages/3d/03/325a9393af144e557490104152d99631bfd0a6deaea56301c72b606df657/hllama-0.0.2-py3-none-any.whl
+[2024-04-16 05:57:29] INFO root fetch - processPackages [simplepro]: New version: [7.5] Old Version: [7.4]
+[2024-04-16 05:57:29] INFO root fetch - processPackages [firefw]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-16 05:57:29] WARNING root fetch - processPackages [Sqldi]: Skipping, unable to determine old version
+[2024-04-16 05:57:29] INFO root fetch - main [MainThread]: End processing [Sqldi] error
+[2024-04-16 05:57:29] INFO root fetch - processPackages [cloudparing.aws-cdk]: New version: [0.0.17] Old Version: [0.0.16]
+[2024-04-16 05:57:29] INFO root fetch - processPackages [uform]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-16 05:57:29] INFO root fetch - processPackages [fireducks]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-16 05:57:29] INFO root fetch - processPackages [pasta-man]: Downloading https://files.pythonhosted.org/packages/8d/80/d2c5d9a0c88f34976437a370ff08717c2ad4e3231f36abc7c70b111e2996/pasta_man-1.0.4.tar.gz
+[2024-04-16 05:57:29] INFO root fetch - processPackages [uform]: Downloading https://files.pythonhosted.org/packages/a3/46/fa6800b2711b63beb15243db03b1a1a506a677aa82eedfd706f4608be49b/uform-2.1.0.tar.gz
+[2024-04-16 05:57:29] INFO root fetch - processPackages [cloudparing.aws-cdk]: Downloading https://files.pythonhosted.org/packages/4c/d1/2a2dd4092231c46949b0adc9ba4ba356b066665c2c67fc5e7e0970293bd2/cloudparing.aws-cdk-0.0.16.tar.gz
+[2024-04-16 05:57:29] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/f9/48/d01a2249d8e2c6f24d4bfcc92d3d861c0612b9cd68284190260c62212aca/firefw-0.9.7-py3-none-any.whl
+[2024-04-16 05:57:29] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/78/0f/a290b2d62d096a4ab73149c01539d5df72bfbc19489f06fb7b655ca43850/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-16 05:57:29] INFO root fetch - processPackages [hllama]: Downloading https://files.pythonhosted.org/packages/6c/3d/7498a856b68b11483978b433ac9fc94b5b9ccef2dffb0e18b11adac7dcfa/hllama-0.0.3-py3-none-any.whl
+[2024-04-16 05:57:29] INFO root fetch - processPackages [simplepro]: Downloading https://files.pythonhosted.org/packages/8d/6d/beb0ef3be03a98cef9b79e3dced83c6eec80fcf633e00c679a167b7e2cd0/simplepro-7.4.tar.gz
+[2024-04-16 05:57:29] WARNING root fetch - processPackages [cloudparing.aws-cdk]: Skipping package: exceeds size limit 16607695>=10485760
+[2024-04-16 05:57:29] INFO root fetch - main [MainThread]: End processing [cloudparing.aws-cdk] error
+[2024-04-16 05:57:29] INFO root fetch - processPackages [hllama]: executing diffoscope
+[2024-04-16 05:57:29] INFO root fetch - processPackages [hllama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hllama-0.0.2-py3-none-any.whl.zip tmp/hllama-0.0.3-py3-none-any.whl.zip --markdown 20240416/h/hllama/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 05:57:29] WARNING root fetch - processPackages [simplepro]: Skipping package: exceeds size limit 17992215>=10485760
+[2024-04-16 05:57:29] INFO root fetch - main [MainThread]: End processing [simplepro] error
+[2024-04-16 05:57:29] INFO root fetch - processPackages [pasta-man]: Downloading https://files.pythonhosted.org/packages/42/e8/4463e0c58eee2bd93485a7ecefc07bb4337ecddf32d314f151a4cf448e3a/pasta_man-1.0.5.tar.gz
+[2024-04-16 05:57:29] INFO root fetch - processPackages [uform]: Downloading https://files.pythonhosted.org/packages/8b/5e/3dc10dd18205a02076aba5a55df4ad1f2f82b9d36426d31b5339aaec374d/uform-2.1.1.tar.gz
+[2024-04-16 05:57:29] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/00/25/db8bd3c578ec6621a079f24b4b88efc3bc29f92bed8453db00cb5ea05799/firefw-0.9.8-py3-none-any.whl
+[2024-04-16 05:57:29] INFO root fetch - processPackages [pasta-man]: executing diffoscope
+[2024-04-16 05:57:29] INFO root fetch - processPackages [pasta-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_man-1.0.4.tar.gz tmp/pasta_man-1.0.5.tar.gz --markdown 20240416/p/pasta-man/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-16 05:57:29] INFO root fetch - processPackages [uform]: executing diffoscope
+[2024-04-16 05:57:29] INFO root fetch - processPackages [uform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uform-2.1.0.tar.gz tmp/uform-2.1.1.tar.gz --markdown 20240416/u/uform/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-16 05:57:29] INFO root fetch - processPackages [firefw]: executing diffoscope
+[2024-04-16 05:57:29] INFO root fetch - processPackages [firefw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefw-0.9.7-py3-none-any.whl.zip tmp/firefw-0.9.8-py3-none-any.whl.zip --markdown 20240416/f/firefw/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-16 05:57:30] INFO root fetch - processPackages [hllama]: Remove: archive file [/home/abi/fetcher/tmp/hllama-0.0.2-py3-none-any.whl.zip]
+[2024-04-16 05:57:30] INFO root fetch - processPackages [hllama]: Remove: archive file [/home/abi/fetcher/tmp/hllama-0.0.3-py3-none-any.whl.zip]
+[2024-04-16 05:57:30] INFO root fetch - main [MainThread]: End processing [hllama]: success
+[2024-04-16 05:57:30] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/4e/b6/63f73d339120931c81ab9c435df1d08feaef965848223c3d32c513accc54/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-16 05:57:30] INFO root fetch - processPackages [pasta-man]: Remove: archive file [/home/abi/fetcher/tmp/pasta_man-1.0.4.tar.gz]
+[2024-04-16 05:57:30] INFO root fetch - processPackages [pasta-man]: Remove: archive file [/home/abi/fetcher/tmp/pasta_man-1.0.5.tar.gz]
+[2024-04-16 05:57:30] INFO root fetch - main [MainThread]: End processing [pasta-man]: success
+[2024-04-16 05:57:30] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.7-py3-none-any.whl.zip]
+[2024-04-16 05:57:30] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.8-py3-none-any.whl.zip]
+[2024-04-16 05:57:30] INFO root fetch - main [MainThread]: End processing [firefw]: success
+[2024-04-16 05:57:30] INFO root fetch - processPackages [uform]: Remove: archive file [/home/abi/fetcher/tmp/uform-2.1.0.tar.gz]
+[2024-04-16 05:57:30] INFO root fetch - processPackages [uform]: Remove: archive file [/home/abi/fetcher/tmp/uform-2.1.1.tar.gz]
+[2024-04-16 05:57:30] INFO root fetch - main [MainThread]: End processing [uform]: success
+[2024-04-16 05:57:30] INFO root fetch - processPackages [fireducks]: executing diffoscope
+[2024-04-16 05:57:30] INFO root fetch - processPackages [fireducks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240416/f/fireducks/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-16 05:59:12] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-16 05:59:12] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-16 05:59:12] INFO root fetch - main [MainThread]: End processing [fireducks]: success
+[2024-04-16 05:59:12] INFO root fetch - main [MainThread]: Store serial: [22782309]
