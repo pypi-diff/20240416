@@ -10509,3 +10509,158 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:17:14] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a3.tar.gz]
 [2024-04-16 10:17:14] INFO root fetch - main [MainThread]: End processing [reviutils]: success
 [2024-04-16 10:17:14] INFO root fetch - main [MainThread]: Store serial: [22784333]
+[2024-04-16 10:19:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784333]
+[2024-04-16 10:19:24] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-web-field-tooltip
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reviutils
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aina-gradio-theme
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perceval-topicbox
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-web
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tenzir-platform
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FeinCMS
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coworks
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvat-cli
+[2024-04-16 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cvat-sdk
+[2024-04-16 10:19:24] INFO root fetch - processPackages [reviutils]: New version: [1.4.0a3] Old Version: [1.4.0a2]
+[2024-04-16 10:19:24] WARNING root fetch - processPackages [odoo-addon-web-field-tooltip]: Skipping, unable to determine old version
+[2024-04-16 10:19:24] INFO root fetch - processPackages [odoo-addon-web-field-tooltip]: Start processing: perceval-pontoon
+[2024-04-16 10:19:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-field-tooltip] error
+[2024-04-16 10:19:24] INFO root fetch - processPackages [coworks]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-16 10:19:24] INFO root fetch - processPackages [aina-gradio-theme]: New version: [2.3] Old Version: [2.2]
+[2024-04-16 10:19:24] INFO root fetch - processPackages [tenzir-platform]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-16 10:19:24] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/da/43/93d2c11ec5f5d4bc3e8fb28a7223ff4a0e72aafbfbecb9595877ea68373f/reviutils-1.4.0a2.tar.gz
+[2024-04-16 10:19:24] INFO root fetch - processPackages [cvat-cli]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-16 10:19:24] INFO root fetch - processPackages [perceval-topicbox]: New version: [0.1.5rc1] Old Version: [0.1.4rc1]
+[2024-04-16 10:19:25] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20240415.1] Old Version: [16.0.20240322.0]
+[2024-04-16 10:19:25] INFO root fetch - processPackages [cvat-sdk]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-16 10:19:25] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/fb/75/aa228dc1294ede9af19f629545fff958a5c80c08e77b69e089683537626d/coworks-0.9.2.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [FeinCMS]: New version: [24.4.1] Old Version: [24.4.0]
+[2024-04-16 10:19:25] INFO root fetch - processPackages [perceval-pontoon]: New version: [0.1.4rc1] Old Version: [0.1.3rc1]
+[2024-04-16 10:19:25] INFO root fetch - processPackages [aina-gradio-theme]: Downloading https://files.pythonhosted.org/packages/c6/e4/a96321e2e479b27def16d0701aadae440843bc1c0a2d34e959d4b21034ff/aina-gradio-theme-2.2.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/aa/c1/2515c1dbd659ba865a8f028a381ee6cf53e63e3fe6141da712fb234bcfb5/cvat_sdk-2.9.1.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [tenzir-platform]: Downloading https://files.pythonhosted.org/packages/62/22/0a5f48dc576248ff724e575d5e194eeda8c3c36a941a43c9d4c2c449471e/tenzir_platform-0.3.0.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/f5/50/2a978355e9c68c192572f2b2c9775488be5562842d2130c085ddd2664716/cvat-cli-2.9.1.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [perceval-topicbox]: Downloading https://files.pythonhosted.org/packages/d9/f4/d06bbd45fe3cd27334e0d7816a73e514608818b32f44ce79611fb1c76528/perceval_topicbox-0.1.4rc1.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/41/45/2d26383462884e4072c6b553bf051da610b7e8ac60e0bbc3a973a1132b0f/odoo_addons_oca_web-16.0.20240322.0-py3-none-any.whl
+[2024-04-16 10:19:25] INFO root fetch - processPackages [perceval-pontoon]: Downloading https://files.pythonhosted.org/packages/0a/40/0149a52bc629f1e1027653414cd885f8442d32927cace99a740196853ce3/perceval_pontoon-0.1.3rc1.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [coworks]: Downloading https://files.pythonhosted.org/packages/39/38/b4fb3736f55ddffa36171ff5c557978c81d145642ef5a052d5012ddd2e1b/coworks-0.9.3.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [FeinCMS]: Downloading https://files.pythonhosted.org/packages/bb/91/15a255f9e0a21bfe1f96cda0a7af3f9937199ab49ebba8d7d62be3bc41e7/FeinCMS-24.4.0.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [reviutils]: Downloading https://files.pythonhosted.org/packages/0c/98/f9c015fd8c47222f04950b6b37b9f6fea2e66a8c0bacc27f7e4c7dddb69d/reviutils-1.4.0a3.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [coworks]: executing diffoscope
+[2024-04-16 10:19:25] INFO root fetch - processPackages [coworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coworks-0.9.2.tar.gz tmp/coworks-0.9.3.tar.gz --markdown 20240416/c/coworks/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-16 10:19:25] INFO root fetch - processPackages [reviutils]: executing diffoscope
+[2024-04-16 10:19:25] INFO root fetch - processPackages [reviutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviutils-1.4.0a2.tar.gz tmp/reviutils-1.4.0a3.tar.gz --markdown 20240416/r/reviutils/1.4.0a2-1.4.0a3/README.md --exclude *.pyd
+[2024-04-16 10:19:25] INFO root fetch - processPackages [aina-gradio-theme]: Downloading https://files.pythonhosted.org/packages/88/14/b4566acc954563c724a54990ed1d16796fb2f49538bb67bdc9ee57d2af2a/aina_gradio_theme-2.3.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [tenzir-platform]: Downloading https://files.pythonhosted.org/packages/64/ff/73e9fbe4d8904a6c080668a064d577cea37acbf5561b992f39a7da47e5d9/tenzir_platform-0.3.1.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [perceval-topicbox]: Downloading https://files.pythonhosted.org/packages/3c/fa/9d3d5e2979c31f9b9b553c62d8782b6723accea7adbd9c5341bc20b3b61c/perceval_topicbox-0.1.5rc1.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [perceval-pontoon]: Downloading https://files.pythonhosted.org/packages/95/0e/f777001ecc41c939c0fe7e26b47d3fd69705eb8513453c0d5702a1dba847/perceval_pontoon-0.1.4rc1.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/c6/5c/15e74fa4589b90b99d0919ab74e62670e6907e69f2fdd04f828739778476/odoo_addons_oca_web-16.0.20240415.1-py3-none-any.whl
+[2024-04-16 10:19:25] INFO root fetch - processPackages [cvat-cli]: Downloading https://files.pythonhosted.org/packages/cc/e6/4ba5cf76f834d9c9c86561cdead8ee5fa895025e2e7ef0cc373ab5af75db/cvat-cli-2.9.2.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [aina-gradio-theme]: executing diffoscope
+[2024-04-16 10:19:25] INFO root fetch - processPackages [aina-gradio-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aina-gradio-theme-2.2.tar.gz tmp/aina_gradio_theme-2.3.tar.gz --markdown 20240416/a/aina-gradio-theme/2.2-2.3/README.md --exclude *.pyd
+[2024-04-16 10:19:25] INFO root fetch - processPackages [cvat-sdk]: Downloading https://files.pythonhosted.org/packages/d0/2c/0ab11b8c59ed0e74b7cd21737298ead9d7abb46f4eb3c21ba7bdb9a792a3/cvat_sdk-2.9.2.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [tenzir-platform]: executing diffoscope
+[2024-04-16 10:19:25] INFO root fetch - processPackages [tenzir-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenzir_platform-0.3.0.tar.gz tmp/tenzir_platform-0.3.1.tar.gz --markdown 20240416/t/tenzir-platform/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-16 10:19:25] INFO root fetch - processPackages [FeinCMS]: Downloading https://files.pythonhosted.org/packages/ed/48/0ad0cefc6b5065fb1b59250dbfbe1285cffbe2b7e77e95a01d8881b83de2/feincms-24.4.1.tar.gz
+[2024-04-16 10:19:25] INFO root fetch - processPackages [perceval-topicbox]: executing diffoscope
+[2024-04-16 10:19:25] INFO root fetch - processPackages [perceval-topicbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_topicbox-0.1.4rc1.tar.gz tmp/perceval_topicbox-0.1.5rc1.tar.gz --markdown 20240416/p/perceval-topicbox/0.1.4rc1-0.1.5rc1/README.md --exclude *.pyd
+[2024-04-16 10:19:25] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2024-04-16 10:19:25] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20240322.0-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20240415.1-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-web/16.0.20240322.0-16.0.20240415.1/README.md --exclude *.pyd
+[2024-04-16 10:19:25] INFO root fetch - processPackages [perceval-pontoon]: executing diffoscope
+[2024-04-16 10:19:25] INFO root fetch - processPackages [perceval-pontoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_pontoon-0.1.3rc1.tar.gz tmp/perceval_pontoon-0.1.4rc1.tar.gz --markdown 20240416/p/perceval-pontoon/0.1.3rc1-0.1.4rc1/README.md --exclude *.pyd
+[2024-04-16 10:19:25] INFO root fetch - processPackages [cvat-cli]: executing diffoscope
+[2024-04-16 10:19:25] INFO root fetch - processPackages [cvat-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat-cli-2.9.1.tar.gz tmp/cvat-cli-2.9.2.tar.gz --markdown 20240416/c/cvat-cli/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-16 10:19:25] INFO root fetch - processPackages [FeinCMS]: executing diffoscope
+[2024-04-16 10:19:25] INFO root fetch - processPackages [FeinCMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FeinCMS-24.4.0.tar.gz tmp/feincms-24.4.1.tar.gz --markdown 20240416/F/FeinCMS/24.4.0-24.4.1/README.md --exclude *.pyd
+[2024-04-16 10:19:26] INFO root fetch - processPackages [cvat-sdk]: executing diffoscope
+[2024-04-16 10:19:26] INFO root fetch - processPackages [cvat-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk-2.9.1.tar.gz tmp/cvat_sdk-2.9.2.tar.gz --markdown 20240416/c/cvat-sdk/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-16 10:19:26] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a2.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [reviutils]: Remove: archive file [/home/abi/fetcher/tmp/reviutils-1.4.0a3.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [reviutils]: Start processing: lazy-schema
+[2024-04-16 10:19:26] INFO root fetch - main [MainThread]: End processing [reviutils]: success
+[2024-04-16 10:19:26] INFO root fetch - processPackages [lazy-schema]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [perceval-pontoon]: Remove: archive file [/home/abi/fetcher/tmp/perceval_pontoon-0.1.3rc1.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [perceval-pontoon]: Remove: archive file [/home/abi/fetcher/tmp/perceval_pontoon-0.1.4rc1.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [perceval-pontoon]: Start processing: perceval-public-inbox
+[2024-04-16 10:19:26] INFO root fetch - main [MainThread]: End processing [perceval-pontoon]: success
+[2024-04-16 10:19:26] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/96/19/8f8aeac1730424d050d2fc5dd0bb66e90154efbba104906e11bb74174e1c/lazy_schema-0.2.1.tar.gz
+[2024-04-16 10:19:26] INFO root fetch - processPackages [perceval-topicbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_topicbox-0.1.4rc1.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [perceval-topicbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_topicbox-0.1.5rc1.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [perceval-topicbox]: Start processing: step-kit
+[2024-04-16 10:19:26] INFO root fetch - main [MainThread]: End processing [perceval-topicbox]: success
+[2024-04-16 10:19:26] INFO root fetch - processPackages [tenzir-platform]: Remove: archive file [/home/abi/fetcher/tmp/tenzir_platform-0.3.0.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [tenzir-platform]: Remove: archive file [/home/abi/fetcher/tmp/tenzir_platform-0.3.1.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [perceval-public-inbox]: New version: [0.1.9rc1] Old Version: [0.1.9]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [tenzir-platform]: Start processing: bigdl-core-cpp
+[2024-04-16 10:19:26] INFO root fetch - main [MainThread]: End processing [tenzir-platform]: success
+[2024-04-16 10:19:26] INFO root fetch - processPackages [aina-gradio-theme]: Remove: archive file [/home/abi/fetcher/tmp/aina-gradio-theme-2.2.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [aina-gradio-theme]: Remove: archive file [/home/abi/fetcher/tmp/aina_gradio_theme-2.3.tar.gz]
+[2024-04-16 10:19:26] INFO root fetch - processPackages [aina-gradio-theme]: Start processing: selfpkg
+[2024-04-16 10:19:26] INFO root fetch - main [MainThread]: End processing [aina-gradio-theme]: success
+[2024-04-16 10:19:27] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.9.1.tar.gz]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [cvat-cli]: Remove: archive file [/home/abi/fetcher/tmp/cvat-cli-2.9.2.tar.gz]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [cvat-cli]: Start processing: sortinghat-openinfra
+[2024-04-16 10:19:27] INFO root fetch - main [MainThread]: End processing [cvat-cli]: success
+[2024-04-16 10:19:27] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20240322.0-py3-none-any.whl.zip]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20240415.1-py3-none-any.whl.zip]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [odoo-addons-oca-web]: Start processing: nanoCEM
+[2024-04-16 10:19:27] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2024-04-16 10:19:27] INFO root fetch - processPackages [coworks]: Remove: archive file [/home/abi/fetcher/tmp/coworks-0.9.2.tar.gz]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [coworks]: Remove: archive file [/home/abi/fetcher/tmp/coworks-0.9.3.tar.gz]
+[2024-04-16 10:19:27] INFO root fetch - main [MainThread]: End processing [coworks]: success
+[2024-04-16 10:19:27] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [step-kit]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.5.5] Old Version: [0.0.5.4]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [selfpkg]: New version: [0.0.1a2] Old Version: [0.0.0]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [sortinghat-openinfra]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/26/3c/fde8535a489e59cc01b0fd6959630d4e35434f9d2d0108bb9447a45f99a5/bigdl_core_cpp-2.5.0b20240414-py3-none-win_amd64.whl
+[2024-04-16 10:19:27] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 54466752>=10485760
+[2024-04-16 10:19:27] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-16 10:19:27] INFO root fetch - processPackages [perceval-public-inbox]: Downloading https://files.pythonhosted.org/packages/e9/bf/151d607b633b18233937f729d6451113e2551d54c30365805e5f424a8fab/perceval_public_inbox-0.1.9.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/ec/7a/b9a4cb548311649f86f20a862dde4245e41cca25e621c086eb8454f7e713/lazy_schema-0.2.2.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/14/d0/e8aadfbcce9f46fc9c06abda4303171fd922c7c167782005906e88fe225e/nanoCEM-0.0.5.4.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [step-kit]: Downloading https://files.pythonhosted.org/packages/64/10/23f4659ea07b53c456bce4934aed9d802923944558c73ba8e38b11d60add/step_kit-0.2.0.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/45/9d/b1c2bd39319a8fde854485995b4889e069da7887599842198d171c8e7f8f/selfpkg-0.0.0.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [lazy-schema]: executing diffoscope
+[2024-04-16 10:19:27] INFO root fetch - processPackages [lazy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_schema-0.2.1.tar.gz tmp/lazy_schema-0.2.2.tar.gz --markdown 20240416/l/lazy-schema/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-16 10:19:27] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/8a/6c/1c1e61c8d119ea0ebf70c6a41a0cd656d47d222d53e28cf7e6e99cedfdac/sortinghat_openinfra-0.1.8.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/54/d4/2d84a752b75ada677f105d10a35e7407344ecc889078c710400ee5a51549/nanoCEM-0.0.5.5.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [FeinCMS]: Remove: archive file [/home/abi/fetcher/tmp/FeinCMS-24.4.0.tar.gz]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [FeinCMS]: Remove: archive file [/home/abi/fetcher/tmp/feincms-24.4.1.tar.gz]
+[2024-04-16 10:19:27] INFO root fetch - main [MainThread]: End processing [FeinCMS]: success
+[2024-04-16 10:19:27] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2024-04-16 10:19:27] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.5.4.tar.gz tmp/nanoCEM-0.0.5.5.tar.gz --markdown 20240416/n/nanoCEM/0.0.5.4-0.0.5.5/README.md --exclude *.pyd
+[2024-04-16 10:19:27] INFO root fetch - processPackages [perceval-public-inbox]: Downloading https://files.pythonhosted.org/packages/59/ac/5cd6e9ad37bfbcd35a680c569524926123932a79d76c0e4013a590271efd/perceval_public_inbox-0.1.9rc1.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [step-kit]: Downloading https://files.pythonhosted.org/packages/6f/be/a0105cf299e14dffd2aabcc8aa0fb38024dd4e9396d4f058d95183e4c6f6/step_kit-0.2.1.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/8a/56/48ea28231d8816de7bf9f55bf428a82cce3540592f1b0f7b9fce1f460b3e/selfpkg-0.0.1a2.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/0c/84/0bc45c2dd1863f0663b11b86dfc7c4d64f071301cfd272bce23f9140d02e/sortinghat_openinfra-0.1.9.tar.gz
+[2024-04-16 10:19:27] INFO root fetch - processPackages [perceval-public-inbox]: executing diffoscope
+[2024-04-16 10:19:27] INFO root fetch - processPackages [perceval-public-inbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_public_inbox-0.1.9.tar.gz tmp/perceval_public_inbox-0.1.9rc1.tar.gz --markdown 20240416/p/perceval-public-inbox/0.1.9-0.1.9rc1/README.md --exclude *.pyd
+[2024-04-16 10:19:27] INFO root fetch - processPackages [sortinghat-openinfra]: executing diffoscope
+[2024-04-16 10:19:27] INFO root fetch - processPackages [sortinghat-openinfra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat_openinfra-0.1.8.tar.gz tmp/sortinghat_openinfra-0.1.9.tar.gz --markdown 20240416/s/sortinghat-openinfra/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 10:19:27] INFO root fetch - processPackages [step-kit]: executing diffoscope
+[2024-04-16 10:19:27] INFO root fetch - processPackages [step-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/step_kit-0.2.0.tar.gz tmp/step_kit-0.2.1.tar.gz --markdown 20240416/s/step-kit/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-16 10:19:27] INFO root fetch - processPackages [selfpkg]: executing diffoscope
+[2024-04-16 10:19:27] INFO root fetch - processPackages [selfpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfpkg-0.0.0.tar.gz tmp/selfpkg-0.0.1a2.tar.gz --markdown 20240416/s/selfpkg/0.0.0-0.0.1a2/README.md --exclude *.pyd
+[2024-04-16 10:19:27] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.1.tar.gz]
+[2024-04-16 10:19:27] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.2.tar.gz]
+[2024-04-16 10:19:27] INFO root fetch - main [MainThread]: End processing [lazy-schema]: success
+[2024-04-16 10:19:28] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.4.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.5.5.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2024-04-16 10:19:28] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.8.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.9.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - main [MainThread]: End processing [sortinghat-openinfra]: success
+[2024-04-16 10:19:28] INFO root fetch - processPackages [perceval-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_public_inbox-0.1.9.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - processPackages [perceval-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_public_inbox-0.1.9rc1.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - main [MainThread]: End processing [perceval-public-inbox]: success
+[2024-04-16 10:19:28] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.0.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.1a2.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - main [MainThread]: End processing [selfpkg]: success
+[2024-04-16 10:19:28] INFO root fetch - processPackages [step-kit]: Remove: archive file [/home/abi/fetcher/tmp/step_kit-0.2.0.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - processPackages [step-kit]: Remove: archive file [/home/abi/fetcher/tmp/step_kit-0.2.1.tar.gz]
+[2024-04-16 10:19:28] INFO root fetch - main [MainThread]: End processing [step-kit]: success
+[2024-04-16 10:19:30] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.9.1.tar.gz]
+[2024-04-16 10:19:30] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.9.2.tar.gz]
+[2024-04-16 10:19:30] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
+[2024-04-16 10:19:30] INFO root fetch - main [MainThread]: Store serial: [22784387]
