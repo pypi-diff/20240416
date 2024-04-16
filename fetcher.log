@@ -8496,3 +8496,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:06:46] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.9.0rc4.tar.gz]
 [2024-04-16 09:06:46] INFO root fetch - main [MainThread]: End processing [datacube]: success
 [2024-04-16 09:06:46] INFO root fetch - main [MainThread]: Store serial: [22783526]
+[2024-04-16 09:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783526]
+[2024-04-16 09:08:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 09:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2024-04-16 09:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-build-compact
+[2024-04-16 09:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python_dev_utils
+[2024-04-16 09:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-cancel-reason
+[2024-04-16 09:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-form-sale-link
+[2024-04-16 09:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-shipping-info-helper
+[2024-04-16 09:08:55] INFO root fetch - processPackages [python_dev_utils]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.5]
+[2024-04-16 09:08:55] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-16 09:08:55] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/cd/6b/06450198f1cc361e1462d4bfe6465c2299c4817fbab5bbc1fe3df10923fe/python_dev_utils-1.0.6.tar.gz
+[2024-04-16 09:08:55] INFO root fetch - processPackages [poetry-build-compact]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/e5/e2/399b332a51f909f7658776eb855f01af0ec1098afaa9b9a14b4d086ef705/odoo_addon_sale_cancel_reason-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/84/a4/6e6e8c79fc32387a789921390acd927566edf502c4dc82ad2fab74274013/odoo_addon_product_form_sale_link-16.0.1.0.1.5-py3-none-any.whl
+[2024-04-16 09:08:55] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-16 09:08:55] INFO root fetch - processPackages [poetry-build-compact]: Downloading https://files.pythonhosted.org/packages/64/fd/5a8d683b6be2470f26a9fd3df6acd5fa58e3f34debe17a592e3205bc5afc/poetry_build_compact-1.1.0.tar.gz
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/13/a9/44fa93ded2d866abfbfd74abfd6d90e2c2a5e7cccc93c7457c35a9875d39/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 09:08:55] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/6f/95/b96ea3a3fc457f3ad7c33ee18dca676d1eea2ad10a5c30b7738d32d5e505/python_dev_utils-1.1.0.tar.gz
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/d7/b7/b37e125f3a82878a793e1333eea60de30b56bf583453a55787cb0f169795/odoo_addon_product_form_sale_link-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 09:08:55] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-16 09:08:55] INFO root fetch - processPackages [poetry-build-compact]: Downloading https://files.pythonhosted.org/packages/dd/2e/cc84bc7709bcee30a49176b37cad1f560ca4600b4d88b58f85b66fdde7c8/poetry_build_compact-1.2.0.tar.gz
+[2024-04-16 09:08:55] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-04-16 09:08:55] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.0.6.tar.gz tmp/python_dev_utils-1.1.0.tar.gz --markdown 20240416/p/python_dev_utils/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Downloading https://files.pythonhosted.org/packages/6f/57/90a7f04a0185aedd87db6b0170a94c3eeecad1141cde73b22e319975d209/odoo_addon_sale_cancel_reason-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: executing diffoscope
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_form_sale_link-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_product_form_sale_link-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-product-form-sale-link/16.0.1.0.1.5-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-16 09:08:55] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-16 09:08:55] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240416/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-04-16 09:08:55] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/b1/5b/ccbebc2fa4b39aa4bbaffe7e536900c249e6bd4625585bc0e0829cf27748/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-16 09:08:56] INFO root fetch - processPackages [poetry-build-compact]: executing diffoscope
+[2024-04-16 09:08:56] INFO root fetch - processPackages [poetry-build-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_build_compact-1.1.0.tar.gz tmp/poetry_build_compact-1.2.0.tar.gz --markdown 20240416/p/poetry-build-compact/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-16 09:08:56] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: executing diffoscope
+[2024-04-16 09:08:56] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-sale-cancel-reason/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-04-16 09:08:56] INFO root fetch - processPackages [poetry-build-compact]: Remove: archive file [/home/abi/fetcher/tmp/poetry_build_compact-1.1.0.tar.gz]
+[2024-04-16 09:08:56] INFO root fetch - processPackages [poetry-build-compact]: Remove: archive file [/home/abi/fetcher/tmp/poetry_build_compact-1.2.0.tar.gz]
+[2024-04-16 09:08:56] INFO root fetch - main [MainThread]: End processing [poetry-build-compact]: success
+[2024-04-16 09:08:56] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.0.6.tar.gz]
+[2024-04-16 09:08:56] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.1.0.tar.gz]
+[2024-04-16 09:08:56] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-04-16 09:08:56] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-04-16 09:08:56] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 09:08:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-form-sale-link]: success
+[2024-04-16 09:08:56] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-16 09:08:56] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-16 09:08:56] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-16 09:08:57] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 09:08:57] INFO root fetch - processPackages [odoo-addon-sale-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_cancel_reason-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-16 09:08:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-cancel-reason]: success
+[2024-04-16 09:08:59] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: executing diffoscope
+[2024-04-16 09:08:59] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-sale-shipping-info-helper/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-16 09:08:59] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 09:08:59] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-16 09:08:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-shipping-info-helper]: success
+[2024-04-16 09:08:59] INFO root fetch - main [MainThread]: Store serial: [22783541]
