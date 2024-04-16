@@ -23759,3 +23759,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:46:34] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
 [2024-04-16 17:46:34] INFO root fetch - main [MainThread]: End processing [dvc]: success
 [2024-04-16 17:46:34] INFO root fetch - main [MainThread]: Store serial: [22790128]
+[2024-04-16 17:48:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22790128]
+[2024-04-16 17:48:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 17:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pose2sim
+[2024-04-16 17:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baler-operator
+[2024-04-16 17:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cionuke
+[2024-04-16 17:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iLCDirac
+[2024-04-16 17:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nstreamai
+[2024-04-16 17:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Corporal
+[2024-04-16 17:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swane
+[2024-04-16 17:48:43] INFO root fetch - processPackages [nstreamai]: New version: [0.0.2b0] Old Version: [0.0.1]
+[2024-04-16 17:48:43] INFO root fetch - processPackages [iLCDirac]: New version: [35.0.3] Old Version: [35.0.2]
+[2024-04-16 17:48:43] INFO root fetch - processPackages [cionuke]: New version: [0.7.1b1] Old Version: [0.7.0b4]
+[2024-04-16 17:48:43] INFO root fetch - processPackages [swane]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-04-16 17:48:43] WARNING root fetch - processPackages [baler-operator]: Skipping, unable to determine old version
+[2024-04-16 17:48:43] INFO root fetch - main [MainThread]: End processing [baler-operator] error
+[2024-04-16 17:48:43] INFO root fetch - processPackages [Corporal]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:48:43] INFO root fetch - processPackages [pose2sim]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-16 17:48:44] INFO root fetch - processPackages [nstreamai]: Downloading https://files.pythonhosted.org/packages/10/36/60b30e958567e2c3c8554d8f36bfa06e4cce2571ce0c3cfb4ac055a029a6/nstreamai-0.0.1.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [iLCDirac]: Downloading https://files.pythonhosted.org/packages/6d/5e/a93ead340756ae4cf2e39e790fa892b3f8c0ef328d65c43856791121e39c/iLCDirac-35.0.2.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [swane]: Downloading https://files.pythonhosted.org/packages/88/93/4c7b780b084c78ce1bdf6c1c3c190f71c5a13e5ea8a8786ddbbcc2eeb02a/swane-0.0.6.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/a7/20/790930872cf9107877c4cf729695a194b39d952fe9665a66325e0af1fb00/Corporal-0.1.8.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [cionuke]: Downloading https://files.pythonhosted.org/packages/8b/c2/6e9c66ae2a90ef7dd3db0d79e630eae90bf6de0b74310a67a7acc175bb56/cionuke-0.7.0b4-py2.py3-none-any.whl
+[2024-04-16 17:48:44] INFO root fetch - processPackages [pose2sim]: Downloading https://files.pythonhosted.org/packages/3a/c6/9fdd299f30171712dff8fb3f72439cdd49816ee159d4852ebef8c1bdef05/pose2sim-0.8.0.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [nstreamai]: Downloading https://files.pythonhosted.org/packages/1b/f7/dea3ebaefea54e4701e4772972ab6ebe73e9a0fd8efd7dc87e9ec124e2f4/nstreamai-0.0.2b0.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [swane]: Downloading https://files.pythonhosted.org/packages/8e/d5/242e06dfa97999bf66d6c09472e557716b5eda6368089f5d27a87e440a62/swane-0.1.0.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [cionuke]: Downloading https://files.pythonhosted.org/packages/3c/31/8f83ba79a3e231a13deaaa4de5d49e60818bf4206550c812092c4c114114/cionuke-0.7.1b1-py2.py3-none-any.whl
+[2024-04-16 17:48:44] INFO root fetch - processPackages [Corporal]: Downloading https://files.pythonhosted.org/packages/b9/fa/9775531117c313e9c4f8da268d0f31de93a8b1b7fb9db42445e085a5751a/Corporal-0.1.9.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [nstreamai]: executing diffoscope
+[2024-04-16 17:48:44] INFO root fetch - processPackages [nstreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nstreamai-0.0.1.tar.gz tmp/nstreamai-0.0.2b0.tar.gz --markdown 20240416/n/nstreamai/0.0.1-0.0.2b0/README.md --exclude *.pyd
+[2024-04-16 17:48:44] INFO root fetch - processPackages [iLCDirac]: Downloading https://files.pythonhosted.org/packages/1f/df/39c7fde32abf50bd72fdfea8f242f4b847db9369fb10f594ed69b3209a8a/ilcdirac-35.0.3.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [Corporal]: executing diffoscope
+[2024-04-16 17:48:44] INFO root fetch - processPackages [Corporal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Corporal-0.1.8.tar.gz tmp/Corporal-0.1.9.tar.gz --markdown 20240416/C/Corporal/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:48:44] INFO root fetch - processPackages [swane]: executing diffoscope
+[2024-04-16 17:48:44] INFO root fetch - processPackages [swane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swane-0.0.6.tar.gz tmp/swane-0.1.0.tar.gz --markdown 20240416/s/swane/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-04-16 17:48:44] INFO root fetch - processPackages [cionuke]: executing diffoscope
+[2024-04-16 17:48:44] INFO root fetch - processPackages [cionuke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cionuke-0.7.0b4-py2.py3-none-any.whl.zip tmp/cionuke-0.7.1b1-py2.py3-none-any.whl.zip --markdown 20240416/c/cionuke/0.7.0b4-0.7.1b1/README.md --exclude *.pyd
+[2024-04-16 17:48:44] INFO root fetch - processPackages [pose2sim]: Downloading https://files.pythonhosted.org/packages/b1/dc/1148609340b0e0c51a0325eb3b32287b1c92420aeaa0cc382e84898ee97f/pose2sim-0.8.1.tar.gz
+[2024-04-16 17:48:44] INFO root fetch - processPackages [iLCDirac]: executing diffoscope
+[2024-04-16 17:48:44] INFO root fetch - processPackages [iLCDirac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iLCDirac-35.0.2.tar.gz tmp/ilcdirac-35.0.3.tar.gz --markdown 20240416/i/iLCDirac/35.0.2-35.0.3/README.md --exclude *.pyd
+[2024-04-16 17:48:45] WARNING root fetch - processPackages [pose2sim]: Skipping package: exceeds size limit 27114888>=10485760
+[2024-04-16 17:48:45] INFO root fetch - main [MainThread]: End processing [pose2sim] error
+[2024-04-16 17:48:45] INFO root fetch - processPackages [nstreamai]: Remove: archive file [/home/abi/fetcher/tmp/nstreamai-0.0.1.tar.gz]
+[2024-04-16 17:48:45] INFO root fetch - processPackages [nstreamai]: Remove: archive file [/home/abi/fetcher/tmp/nstreamai-0.0.2b0.tar.gz]
+[2024-04-16 17:48:45] INFO root fetch - main [MainThread]: End processing [nstreamai]: success
+[2024-04-16 17:48:45] INFO root fetch - processPackages [Corporal]: Remove: archive file [/home/abi/fetcher/tmp/Corporal-0.1.8.tar.gz]
+[2024-04-16 17:48:45] INFO root fetch - processPackages [Corporal]: Remove: archive file [/home/abi/fetcher/tmp/Corporal-0.1.9.tar.gz]
+[2024-04-16 17:48:45] INFO root fetch - main [MainThread]: End processing [Corporal]: success
+[2024-04-16 17:48:45] INFO root fetch - processPackages [cionuke]: Remove: archive file [/home/abi/fetcher/tmp/cionuke-0.7.0b4-py2.py3-none-any.whl.zip]
+[2024-04-16 17:48:45] INFO root fetch - processPackages [cionuke]: Remove: archive file [/home/abi/fetcher/tmp/cionuke-0.7.1b1-py2.py3-none-any.whl.zip]
+[2024-04-16 17:48:45] INFO root fetch - main [MainThread]: End processing [cionuke]: success
+[2024-04-16 17:48:45] INFO root fetch - processPackages [swane]: Remove: archive file [/home/abi/fetcher/tmp/swane-0.0.6.tar.gz]
+[2024-04-16 17:48:45] INFO root fetch - processPackages [swane]: Remove: archive file [/home/abi/fetcher/tmp/swane-0.1.0.tar.gz]
+[2024-04-16 17:48:45] INFO root fetch - main [MainThread]: End processing [swane]: success
+[2024-04-16 17:48:46] INFO root fetch - processPackages [iLCDirac]: Remove: archive file [/home/abi/fetcher/tmp/iLCDirac-35.0.2.tar.gz]
+[2024-04-16 17:48:46] INFO root fetch - processPackages [iLCDirac]: Remove: archive file [/home/abi/fetcher/tmp/ilcdirac-35.0.3.tar.gz]
+[2024-04-16 17:48:46] INFO root fetch - main [MainThread]: End processing [iLCDirac]: success
+[2024-04-16 17:48:46] INFO root fetch - main [MainThread]: Store serial: [22790147]
