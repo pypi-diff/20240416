@@ -2385,3 +2385,68 @@
 [2024-04-16 02:18:03] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.737.1.tar.gz]
 [2024-04-16 02:18:03] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-16 02:18:03] INFO root fetch - main [MainThread]: Store serial: [22780820]
+[2024-04-16 02:20:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780820]
+[2024-04-16 02:20:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ligo-softioc
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchao-nightly
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mdod
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-with-comments
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trailml
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-cr-constructs
+[2024-04-16 02:20:13] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-16 02:20:13] WARNING root fetch - processPackages [mdod]: Skipping, unable to determine old version
+[2024-04-16 02:20:13] INFO root fetch - main [MainThread]: End processing [mdod] error
+[2024-04-16 02:20:13] INFO root fetch - processPackages [trailml]: New version: [1.1.3] Old Version: [1.1.0]
+[2024-04-16 02:20:13] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-16 02:20:13] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ligo-softioc]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 02:20:13] INFO root fetch - processPackages [json-with-comments]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-16 02:20:13] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.428] Old Version: [2.1.427]
+[2024-04-16 02:20:13] INFO root fetch - processPackages [trailml]: Downloading https://files.pythonhosted.org/packages/60/f0/148001522ba1e4f8d1ff0a496ef5ad3bbc1289ce63605aaec8bc6c19c696/trailml-1.1.0.tar.gz
+[2024-04-16 02:20:13] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 02:20:13] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-16 02:20:13] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-16 02:20:13] INFO root fetch - processPackages [trailml]: Downloading https://files.pythonhosted.org/packages/b4/14/7ad1c90908180df1dc03cec97a2c1859312f20ab688bc04cbce417a929d8/trailml-1.1.3.tar.gz
+[2024-04-16 02:20:13] INFO root fetch - processPackages [json-with-comments]: Downloading https://files.pythonhosted.org/packages/ab/ce/e4271a88dbb48637cce37fac0c678cf0ea79e6b1fca793eb383d106e518d/json_with_comments-1.2.5.tar.gz
+[2024-04-16 02:20:13] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/84/ae/e00f22bfaf3c3d6d6b35ff71cb99942181697015f5c6110b0dcb372d1e07/cdk-cr-constructs-2.1.427.tar.gz
+[2024-04-16 02:20:13] INFO root fetch - processPackages [ligo-softioc]: Downloading https://files.pythonhosted.org/packages/09/57/fd697e7aaebee9aceedd3a9a8605b738d4084f576210733a4fd0d357cf43/ligo_softioc-0.1.1.tar.gz
+[2024-04-16 02:20:14] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-16 02:20:14] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15102065>=10485760
+[2024-04-16 02:20:14] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-16 02:20:14] INFO root fetch - processPackages [trailml]: executing diffoscope
+[2024-04-16 02:20:14] INFO root fetch - processPackages [trailml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trailml-1.1.0.tar.gz tmp/trailml-1.1.3.tar.gz --markdown 20240416/t/trailml/1.1.0-1.1.3/README.md --exclude *.pyd
+[2024-04-16 02:20:14] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-16 02:20:14] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240416/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-16 02:20:14] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-16 02:20:14] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-16 02:20:14] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240416/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-16 02:20:14] INFO root fetch - processPackages [ligo-softioc]: Downloading https://files.pythonhosted.org/packages/57/1e/6a3c1af74ca91eef07efe04c07cf74d1b14f4d82659800948522a068fa59/ligo_softioc-0.1.2.tar.gz
+[2024-04-16 02:20:14] INFO root fetch - processPackages [json-with-comments]: Downloading https://files.pythonhosted.org/packages/2b/ef/f9fc9336ffa8ad1f59947c71ebf84f95e0ef159b33066202dfb34209c9c8/json_with_comments-1.2.6.tar.gz
+[2024-04-16 02:20:14] INFO root fetch - processPackages [ligo-softioc]: executing diffoscope
+[2024-04-16 02:20:14] INFO root fetch - processPackages [ligo-softioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo_softioc-0.1.1.tar.gz tmp/ligo_softioc-0.1.2.tar.gz --markdown 20240416/l/ligo-softioc/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 02:20:14] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-16 02:20:14] INFO root fetch - processPackages [json-with-comments]: executing diffoscope
+[2024-04-16 02:20:14] INFO root fetch - processPackages [json-with-comments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_with_comments-1.2.5.tar.gz tmp/json_with_comments-1.2.6.tar.gz --markdown 20240416/j/json-with-comments/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-04-16 02:20:14] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-16 02:20:14] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240416/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 02:20:14] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-16 02:20:14] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-16 02:20:14] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-16 02:20:14] INFO root fetch - processPackages [trailml]: Remove: archive file [/home/abi/fetcher/tmp/trailml-1.1.0.tar.gz]
+[2024-04-16 02:20:14] INFO root fetch - processPackages [trailml]: Remove: archive file [/home/abi/fetcher/tmp/trailml-1.1.3.tar.gz]
+[2024-04-16 02:20:14] INFO root fetch - main [MainThread]: End processing [trailml]: success
+[2024-04-16 02:20:14] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-16 02:20:14] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-16 02:20:14] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-16 02:20:15] INFO root fetch - processPackages [ligo-softioc]: Remove: archive file [/home/abi/fetcher/tmp/ligo_softioc-0.1.1.tar.gz]
+[2024-04-16 02:20:15] INFO root fetch - processPackages [ligo-softioc]: Remove: archive file [/home/abi/fetcher/tmp/ligo_softioc-0.1.2.tar.gz]
+[2024-04-16 02:20:15] INFO root fetch - main [MainThread]: End processing [ligo-softioc]: success
+[2024-04-16 02:20:15] INFO root fetch - processPackages [json-with-comments]: Remove: archive file [/home/abi/fetcher/tmp/json_with_comments-1.2.5.tar.gz]
+[2024-04-16 02:20:15] INFO root fetch - processPackages [json-with-comments]: Remove: archive file [/home/abi/fetcher/tmp/json_with_comments-1.2.6.tar.gz]
+[2024-04-16 02:20:15] INFO root fetch - main [MainThread]: End processing [json-with-comments]: success
+[2024-04-16 02:20:15] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-16 02:20:15] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-16 02:20:15] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-16 02:20:15] INFO root fetch - main [MainThread]: Store serial: [22780846]
