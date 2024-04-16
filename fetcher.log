@@ -13162,3 +13162,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:45:16] INFO root fetch - processPackages [rocs-client]: Remove: archive file [/home/abi/fetcher/tmp/rocs_client-1.3.7.tar.gz]
 [2024-04-16 11:45:16] INFO root fetch - main [MainThread]: End processing [rocs-client]: success
 [2024-04-16 11:45:16] INFO root fetch - main [MainThread]: Store serial: [22785637]
+[2024-04-16 11:47:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785637]
+[2024-04-16 11:47:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fractal-server
+[2024-04-16 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notion-util
+[2024-04-16 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpas
+[2024-04-16 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ANBUtils
+[2024-04-16 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandasaurus-cxg
+[2024-04-16 11:47:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg-devx-core
+[2024-04-16 11:47:26] INFO root fetch - processPackages [cg-devx-core]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-16 11:47:26] INFO root fetch - processPackages [gpas]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2024-04-16 11:47:26] INFO root fetch - processPackages [notion-util]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 11:47:26] INFO root fetch - processPackages [cg-devx-core]: Downloading https://files.pythonhosted.org/packages/9c/f5/69fa0ba52247f78f2ffba6230c2855fc249a9ebba82c945fc920a10eae60/cg_devx_core-0.2.3.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [pandasaurus-cxg]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 11:47:26] INFO root fetch - processPackages [ANBUtils]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-04-16 11:47:26] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a8] Old Version: [2.0.0a6]
+[2024-04-16 11:47:26] INFO root fetch - processPackages [gpas]: Downloading https://files.pythonhosted.org/packages/4d/5b/75ed4ced5f1299262530a762f8fd55a971a3cc4da262d1f0c4b1f0d0f428/gpas-1.0.1a1.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [notion-util]: Downloading https://files.pythonhosted.org/packages/82/a1/3a3c2ecda0dddc593441c9cb3a4f48c15ab3e475f2d0e94bda4e98e85f8f/notion-util-0.0.2.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [pandasaurus-cxg]: Downloading https://files.pythonhosted.org/packages/64/2d/2807af122db034b8d83afa963e466965df075172e9f2ec27fd8a2417c4da/pandasaurus_cxg-0.1.8.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/2e/ae/518345510deda992f5ad17d98b9904da6d129e5fc047b9ce3f77dbbdb4e6/ANBUtils-1.7.3.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/05/5a/ddcd6d1713dce9817d28d7988221ad5f9286569b86baec16b40a460efc5c/fractal_server-2.0.0a6.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [cg-devx-core]: Downloading https://files.pythonhosted.org/packages/19/be/b73315708ef2baf530646aca7a67f80196b3dee493d4e4cd7a284d33eb02/cg_devx_core-0.2.4.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [gpas]: Downloading https://files.pythonhosted.org/packages/7e/15/ca40dfa57cf90c189ba9e8b51a015d68dbcb5f59807ec5eaddc4ca7d7067/gpas-1.0.1a2.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [notion-util]: Downloading https://files.pythonhosted.org/packages/e3/d9/e20f92a6521dfdbcfc23bf9c92fcf554e3fe4a2935433eac5232129eed3e/notion-util-0.0.3.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [cg-devx-core]: executing diffoscope
+[2024-04-16 11:47:26] INFO root fetch - processPackages [cg-devx-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_devx_core-0.2.3.tar.gz tmp/cg_devx_core-0.2.4.tar.gz --markdown 20240416/c/cg-devx-core/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-16 11:47:26] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/4b/0e/24a8013e2fcdf8f89cc0080fa480fd0ac68a597f626df86b01fdafaa3ecc/ANBUtils-1.7.4.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [pandasaurus-cxg]: Downloading https://files.pythonhosted.org/packages/3b/11/12c892f1b671db289eb4b886a4e9dadafc1d823fa0f5894656044b3f4022/pandasaurus_cxg-0.1.9.tar.gz
+[2024-04-16 11:47:26] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/f8/12/2335911669aec79c0cce439c399ad2e0c9d58f6b47d866cbef3122364b97/fractal_server-2.0.0a8.tar.gz
+[2024-04-16 11:47:27] INFO root fetch - processPackages [notion-util]: executing diffoscope
+[2024-04-16 11:47:27] INFO root fetch - processPackages [notion-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notion-util-0.0.2.tar.gz tmp/notion-util-0.0.3.tar.gz --markdown 20240416/n/notion-util/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 11:47:27] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2024-04-16 11:47:27] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.7.3.tar.gz tmp/ANBUtils-1.7.4.tar.gz --markdown 20240416/A/ANBUtils/1.7.3-1.7.4/README.md --exclude *.pyd
+[2024-04-16 11:47:27] INFO root fetch - processPackages [pandasaurus-cxg]: executing diffoscope
+[2024-04-16 11:47:27] INFO root fetch - processPackages [pandasaurus-cxg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasaurus_cxg-0.1.8.tar.gz tmp/pandasaurus_cxg-0.1.9.tar.gz --markdown 20240416/p/pandasaurus-cxg/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 11:47:27] INFO root fetch - processPackages [gpas]: executing diffoscope
+[2024-04-16 11:47:27] INFO root fetch - processPackages [gpas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpas-1.0.1a1.tar.gz tmp/gpas-1.0.1a2.tar.gz --markdown 20240416/g/gpas/1.0.1a1-1.0.1a2/README.md --exclude *.pyd
+[2024-04-16 11:47:27] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-16 11:47:27] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a6.tar.gz tmp/fractal_server-2.0.0a8.tar.gz --markdown 20240416/f/fractal-server/2.0.0a6-2.0.0a8/README.md --exclude *.pyd
+[2024-04-16 11:47:27] INFO root fetch - processPackages [notion-util]: Remove: archive file [/home/abi/fetcher/tmp/notion-util-0.0.2.tar.gz]
+[2024-04-16 11:47:27] INFO root fetch - processPackages [notion-util]: Remove: archive file [/home/abi/fetcher/tmp/notion-util-0.0.3.tar.gz]
+[2024-04-16 11:47:27] INFO root fetch - main [MainThread]: End processing [notion-util]: success
+[2024-04-16 11:47:28] INFO root fetch - processPackages [gpas]: Remove: archive file [/home/abi/fetcher/tmp/gpas-1.0.1a1.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - processPackages [gpas]: Remove: archive file [/home/abi/fetcher/tmp/gpas-1.0.1a2.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - main [MainThread]: End processing [gpas]: success
+[2024-04-16 11:47:28] INFO root fetch - processPackages [pandasaurus-cxg]: Remove: archive file [/home/abi/fetcher/tmp/pandasaurus_cxg-0.1.8.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - processPackages [pandasaurus-cxg]: Remove: archive file [/home/abi/fetcher/tmp/pandasaurus_cxg-0.1.9.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - main [MainThread]: End processing [pandasaurus-cxg]: success
+[2024-04-16 11:47:28] INFO root fetch - processPackages [cg-devx-core]: Remove: archive file [/home/abi/fetcher/tmp/cg_devx_core-0.2.3.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - processPackages [cg-devx-core]: Remove: archive file [/home/abi/fetcher/tmp/cg_devx_core-0.2.4.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - main [MainThread]: End processing [cg-devx-core]: success
+[2024-04-16 11:47:28] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.7.3.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.7.4.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2024-04-16 11:47:28] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a6.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a8.tar.gz]
+[2024-04-16 11:47:28] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-16 11:47:28] INFO root fetch - main [MainThread]: Store serial: [22785655]
