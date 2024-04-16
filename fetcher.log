@@ -5216,3 +5216,43 @@
 [2024-04-16 05:38:56] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
 [2024-04-16 05:38:56] INFO root fetch - main [MainThread]: End processing [wuji]: success
 [2024-04-16 05:38:56] INFO root fetch - main [MainThread]: Store serial: [22782220]
+[2024-04-16 05:41:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782220]
+[2024-04-16 05:41:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-google
+[2024-04-16 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: names-generator
+[2024-04-16 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pcffont
+[2024-04-16 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoto-api
+[2024-04-16 05:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-google-beta
+[2024-04-16 05:41:05] INFO root fetch - processPackages [yoto-api]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-16 05:41:05] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/da/3a/1136335a9366a24bd4cb44beb616a14c6473a61f9e286a81dceedd0381d1/yoto_api-1.2.0.tar.gz
+[2024-04-16 05:41:05] INFO root fetch - processPackages [names-generator]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-16 05:41:05] INFO root fetch - processPackages [pcffont]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 05:41:05] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-04-16 05:41:05] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-04-16 05:41:05] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/ad/78/2a9a567045e6354786918c00cd19955229c9088c0af5e645a5a94639694c/pcffont-0.0.3.tar.gz
+[2024-04-16 05:41:05] INFO root fetch - processPackages [names-generator]: Downloading https://files.pythonhosted.org/packages/e5/07/61bf80261e47a4b4f827023c83756414b02860c067e4ce593e829b6d46be/names_generator-0.1.0.tar.gz
+[2024-04-16 05:41:05] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/38/8e/fcb0358ec1a555837d4cad74bbe97207bd6fe247dc32a5f79b90aaaac8b8/cdktf-cdktf-provider-google-9.0.4.tar.gz
+[2024-04-16 05:41:05] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/6b/1d/26b78c5622a7e070e696eccc3cd63d7699fcc33f5ed33fa07891147b770b/cdktf-cdktf-provider-google_beta-9.0.4.tar.gz
+[2024-04-16 05:41:05] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 22123916>=10485760
+[2024-04-16 05:41:05] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2024-04-16 05:41:05] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 24918885>=10485760
+[2024-04-16 05:41:05] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2024-04-16 05:41:05] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/1a/68/92753a6a967aa2d8dab89842eeaa1ddfa5364ae07c783bb452e92275625a/yoto_api-1.2.1.tar.gz
+[2024-04-16 05:41:06] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-16 05:41:06] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.2.0.tar.gz tmp/yoto_api-1.2.1.tar.gz --markdown 20240416/y/yoto-api/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-16 05:41:06] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/47/8c/f9a9b5e0377db09235c1e4a967509019912f490e88211a645cc136555835/pcffont-0.0.4.tar.gz
+[2024-04-16 05:41:06] INFO root fetch - processPackages [names-generator]: Downloading https://files.pythonhosted.org/packages/fd/de/60c26d1488db2ffdb050d2c0e6007998c2afd90760a4d7b23d32cde5b446/names_generator-0.2.0.tar.gz
+[2024-04-16 05:41:06] INFO root fetch - processPackages [names-generator]: executing diffoscope
+[2024-04-16 05:41:06] INFO root fetch - processPackages [names-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/names_generator-0.1.0.tar.gz tmp/names_generator-0.2.0.tar.gz --markdown 20240416/n/names-generator/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-16 05:41:06] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.2.0.tar.gz]
+[2024-04-16 05:41:06] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.2.1.tar.gz]
+[2024-04-16 05:41:06] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-16 05:41:06] INFO root fetch - processPackages [names-generator]: Remove: archive file [/home/abi/fetcher/tmp/names_generator-0.1.0.tar.gz]
+[2024-04-16 05:41:06] INFO root fetch - processPackages [names-generator]: Remove: archive file [/home/abi/fetcher/tmp/names_generator-0.2.0.tar.gz]
+[2024-04-16 05:41:06] INFO root fetch - main [MainThread]: End processing [names-generator]: success
+[2024-04-16 05:41:06] INFO root fetch - processPackages [pcffont]: executing diffoscope
+[2024-04-16 05:41:06] INFO root fetch - processPackages [pcffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcffont-0.0.3.tar.gz tmp/pcffont-0.0.4.tar.gz --markdown 20240416/p/pcffont/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 05:41:07] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.3.tar.gz]
+[2024-04-16 05:41:07] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.4.tar.gz]
+[2024-04-16 05:41:07] INFO root fetch - main [MainThread]: End processing [pcffont]: success
+[2024-04-16 05:41:07] INFO root fetch - main [MainThread]: Store serial: [22782235]
