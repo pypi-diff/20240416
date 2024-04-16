@@ -22242,3 +22242,123 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:04:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-04-16 17:04:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-04-16 17:04:53] INFO root fetch - main [MainThread]: Store serial: [22789573]
+[2024-04-16 17:06:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789573]
+[2024-04-16 17:07:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dice-cli
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vortexasdk
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gradio-demotest
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-ipython-client
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bec-lib
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hearthstone
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bec-server
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bpm-ai-core
+[2024-04-16 17:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sunholo
+[2024-04-16 17:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-lib]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-server]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [dice-cli]: New version: [2023.7.11] Old Version: [2023.11.1]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/d1/88/4820c37a582760264244b886a1d4fea3ee476793efc5686a6936a62bb606/bec_lib-2.4.0.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-16 17:07:03] WARNING root fetch - processPackages [gradio-demotest]: Skipping, unable to determine old version
+[2024-04-16 17:07:03] INFO root fetch - processPackages [gradio-demotest]: Start processing: ll-la
+[2024-04-16 17:07:03] INFO root fetch - main [MainThread]: End processing [gradio-demotest] error
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bpm-ai-core]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [vortexasdk]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.4.2] Old Version: [1.9.0]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [hearthstone]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/e6/09/65ae23177f501cbff2119ceaa39608af3495ec9c01819b63d6bdc27799e5/bec-server-2.4.0.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/2d/d5/50d7c63d944dffb211e87a025ce0deaa6775dc07bb229dc123fea0d8331c/bpm_ai_core-2.4.0.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [vortexasdk]: Downloading https://files.pythonhosted.org/packages/a1/63/5e62928d10b53b9d7e36e95cb81551f518531b388257d5884afa2ac4c880/vortexasdk-0.9.1.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [ll-la]: New version: [0.9] Old Version: [0.28.0]
+[2024-04-16 17:07:03] INFO root fetch - processPackages [dice-cli]: Downloading https://files.pythonhosted.org/packages/b2/0f/585d6bfe7e7d388a33ea25a2f08d08480ba957ba3336485e09ae69182418/dice_cli-2023.11.1.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/fd/47/fe2307dff2ca27ee4561c1c282d6c3da7a89e3ab61f188bd20af5324d3e2/hearthstone-9.0.1.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/e8/7e/d89aca4c33fc8b53dafa6a5e9063ce80fe2892b46a75b3129d1de6a072d0/bec_ipython_client-1.9.0.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/f8/79/ed5bb88b779a88c60907f7996fd48de7dccfc39d8465cc7e2db177e8262b/bec_lib-2.4.1.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [ll-la]: Downloading https://files.pythonhosted.org/packages/5b/75/13de0a9a3bd5e2b907a1e64261f1313644d1175614024dddbfd4598d569b/ll-la-0.28.0.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [vortexasdk]: Downloading https://files.pythonhosted.org/packages/9a/31/e1cc1cd981ce5e6d81530725d9809ba21ee5447abe7cd2a52f8c0d15989f/vortexasdk-0.9.2.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-16 17:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240416/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.4.0.tar.gz tmp/bec_lib-2.4.1.tar.gz --markdown 20240416/b/bec-lib/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/dd/c3/85b3a14c37be0dbc6619bbc8ff34d1f59b6f4005eaa4028015d27ab861fc/bec-server-2.4.1.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/94/fc/c5d6a409104de519cd7cefc6de1d76a4b2e727d71d065660dcd2d5ee53bf/bpm_ai_core-2.4.1.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [dice-cli]: Downloading https://files.pythonhosted.org/packages/a8/49/19c9f4b51e768910013b23c1b35983f86bfd5ad7200478a190868b97da41/dice_cli-2023.7.11.tar.gz
+[2024-04-16 17:07:03] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-16 17:07:03] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240416/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-16 17:07:04] INFO root fetch - processPackages [vortexasdk]: executing diffoscope
+[2024-04-16 17:07:04] INFO root fetch - processPackages [vortexasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vortexasdk-0.9.1.tar.gz tmp/vortexasdk-0.9.2.tar.gz --markdown 20240416/v/vortexasdk/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-16 17:07:04] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/39/5c/8bbe527caa76d19e89e20b5cba656f9a4d0e33f6eabb6c4b402898db37bf/bec_ipython_client-2.4.2.tar.gz
+[2024-04-16 17:07:04] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/00/81/ac135fa7bf29dd4da36b862916c2f45ba11fb91fc055cc4375fcac6f557e/hearthstone-9.1.0.tar.gz
+[2024-04-16 17:07:04] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-04-16 17:07:04] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-2.4.0.tar.gz tmp/bec-server-2.4.1.tar.gz --markdown 20240416/b/bec-server/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-16 17:07:04] INFO root fetch - processPackages [bpm-ai-core]: executing diffoscope
+[2024-04-16 17:07:04] INFO root fetch - processPackages [bpm-ai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_core-2.4.0.tar.gz tmp/bpm_ai_core-2.4.1.tar.gz --markdown 20240416/b/bpm-ai-core/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-16 17:07:04] INFO root fetch - processPackages [dice-cli]: executing diffoscope
+[2024-04-16 17:07:04] INFO root fetch - processPackages [dice-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dice_cli-2023.11.1.tar.gz tmp/dice_cli-2023.7.11.tar.gz --markdown 20240416/d/dice-cli/2023.11.1-2023.7.11/README.md --exclude *.pyd
+[2024-04-16 17:07:04] INFO root fetch - processPackages [hearthstone]: executing diffoscope
+[2024-04-16 17:07:04] INFO root fetch - processPackages [hearthstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hearthstone-9.0.1.tar.gz tmp/hearthstone-9.1.0.tar.gz --markdown 20240416/h/hearthstone/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-04-16 17:07:04] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-04-16 17:07:04] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-1.9.0.tar.gz tmp/bec_ipython_client-2.4.2.tar.gz --markdown 20240416/b/bec-ipython-client/1.9.0-2.4.2/README.md --exclude *.pyd
+[2024-04-16 17:07:04] INFO root fetch - processPackages [ll-la]: Downloading https://files.pythonhosted.org/packages/cd/7d/2663a91ca3ddd23e86ad13b5b56335f6fe4783101219f0ce832a549ef1c6/ll-la-0.9.tar.gz
+[2024-04-16 17:07:04] INFO root fetch - processPackages [ll-la]: executing diffoscope
+[2024-04-16 17:07:04] INFO root fetch - processPackages [ll-la]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ll-la-0.28.0.tar.gz tmp/ll-la-0.9.tar.gz --markdown 20240416/l/ll-la/0.28.0-0.9/README.md --exclude *.pyd
+[2024-04-16 17:07:05] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: upgini
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.4.0.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.4.1.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bec-lib]: Start processing: lde-online-dep
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-04-16 17:07:05] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-2.4.0.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-2.4.1.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bec-server]: Start processing: ptpython-aioipfs
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.4.0.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.4.1.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bpm-ai-core]: Start processing: finbourne-access-sdk
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [bpm-ai-core]: success
+[2024-04-16 17:07:05] WARNING root fetch - processPackages [lde-online-dep]: Skipping, unable to determine old version
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [lde-online-dep] error
+[2024-04-16 17:07:05] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-04-16 17:07:05] INFO root fetch - processPackages [vortexasdk]: Remove: archive file [/home/abi/fetcher/tmp/vortexasdk-0.9.1.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [vortexasdk]: Remove: archive file [/home/abi/fetcher/tmp/vortexasdk-0.9.2.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [vortexasdk]: success
+[2024-04-16 17:07:05] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [dice-cli]: Remove: archive file [/home/abi/fetcher/tmp/dice_cli-2023.11.1.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [dice-cli]: Remove: archive file [/home/abi/fetcher/tmp/dice_cli-2023.7.11.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [dice-cli]: success
+[2024-04-16 17:07:05] WARNING root fetch - processPackages [ptpython-aioipfs]: Skipping, unable to determine old version
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [ptpython-aioipfs] error
+[2024-04-16 17:07:05] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-16 17:07:05] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-16 17:07:05] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-1.9.0.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.4.2.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-04-16 17:07:05] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-9.0.1.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-9.1.0.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [hearthstone]: success
+[2024-04-16 17:07:05] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-16 17:07:05] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-04-16 17:07:05] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240416/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-16 17:07:05] INFO root fetch - processPackages [ll-la]: Remove: archive file [/home/abi/fetcher/tmp/ll-la-0.28.0.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - processPackages [ll-la]: Remove: archive file [/home/abi/fetcher/tmp/ll-la-0.9.tar.gz]
+[2024-04-16 17:07:05] INFO root fetch - main [MainThread]: End processing [ll-la]: success
+[2024-04-16 17:07:05] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-16 17:07:05] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240416/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-16 17:07:06] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-16 17:07:06] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-16 17:07:06] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-16 17:07:06] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-04-16 17:07:06] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-04-16 17:07:06] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-04-16 17:07:06] INFO root fetch - main [MainThread]: Store serial: [22789624]
