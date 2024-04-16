@@ -15163,3 +15163,29 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:09:42] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-16 13:09:42] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-04-16 13:09:42] INFO root fetch - main [MainThread]: Store serial: [22786635]
+[2024-04-16 13:11:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786635]
+[2024-04-16 13:11:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Heron-42ad
+[2024-04-16 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: password-library
+[2024-04-16 13:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openunmix
+[2024-04-16 13:11:51] INFO root fetch - processPackages [password-library]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-16 13:11:51] INFO root fetch - processPackages [password-library]: Downloading https://files.pythonhosted.org/packages/1a/8d/ebe50559ceec71456d3af304f579eac74d57f626b1ed8ddc07030912d3dc/password-library-0.4.0.tar.gz
+[2024-04-16 13:11:51] INFO root fetch - processPackages [openunmix]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-16 13:11:51] INFO root fetch - processPackages [Heron-42ad]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-16 13:11:51] INFO root fetch - processPackages [openunmix]: Downloading https://files.pythonhosted.org/packages/f2/76/3a4370b06497bcf5510c8870b05fef47e37b5307c30e2c7745aab2f2aa8b/openunmix-1.2.1.tar.gz
+[2024-04-16 13:11:51] INFO root fetch - processPackages [Heron-42ad]: Downloading https://files.pythonhosted.org/packages/53/d9/3ff8e68fa968d05f6a64cd09f89981726542e1910e3131cf5e834feddf43/Heron-42ad-0.7.3.tar.gz
+[2024-04-16 13:11:51] INFO root fetch - processPackages [password-library]: Downloading https://files.pythonhosted.org/packages/a4/97/605ac35d29e8cbcb9c084a632a0edce3c376f11392dedcca78ecbae27297/password_library-0.4.1.tar.gz
+[2024-04-16 13:11:51] INFO root fetch - processPackages [password-library]: executing diffoscope
+[2024-04-16 13:11:51] INFO root fetch - processPackages [password-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/password-library-0.4.0.tar.gz tmp/password_library-0.4.1.tar.gz --markdown 20240416/p/password-library/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-16 13:11:51] INFO root fetch - processPackages [openunmix]: Downloading https://files.pythonhosted.org/packages/42/ef/4ad54e3ecb1e89f7f7bdb4c7b751e43754e892d3c32a8550e5d0882565df/openunmix-1.3.0.tar.gz
+[2024-04-16 13:11:51] WARNING root fetch - processPackages [Heron-42ad]: Skipping package: exceeds size limit 16054648>=10485760
+[2024-04-16 13:11:51] INFO root fetch - main [MainThread]: End processing [Heron-42ad] error
+[2024-04-16 13:11:51] INFO root fetch - processPackages [openunmix]: executing diffoscope
+[2024-04-16 13:11:51] INFO root fetch - processPackages [openunmix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openunmix-1.2.1.tar.gz tmp/openunmix-1.3.0.tar.gz --markdown 20240416/o/openunmix/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-04-16 13:11:52] INFO root fetch - processPackages [password-library]: Remove: archive file [/home/abi/fetcher/tmp/password-library-0.4.0.tar.gz]
+[2024-04-16 13:11:52] INFO root fetch - processPackages [password-library]: Remove: archive file [/home/abi/fetcher/tmp/password_library-0.4.1.tar.gz]
+[2024-04-16 13:11:52] INFO root fetch - main [MainThread]: End processing [password-library]: success
+[2024-04-16 13:11:52] INFO root fetch - processPackages [openunmix]: Remove: archive file [/home/abi/fetcher/tmp/openunmix-1.2.1.tar.gz]
+[2024-04-16 13:11:52] INFO root fetch - processPackages [openunmix]: Remove: archive file [/home/abi/fetcher/tmp/openunmix-1.3.0.tar.gz]
+[2024-04-16 13:11:52] INFO root fetch - main [MainThread]: End processing [openunmix]: success
+[2024-04-16 13:11:52] INFO root fetch - main [MainThread]: Store serial: [22786645]
