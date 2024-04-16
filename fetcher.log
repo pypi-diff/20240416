@@ -14282,3 +14282,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:30:07] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.1.dev1.tar.gz]
 [2024-04-16 12:30:07] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
 [2024-04-16 12:30:07] INFO root fetch - main [MainThread]: Store serial: [22786245]
+[2024-04-16 12:32:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786245]
+[2024-04-16 12:32:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: q2rad
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckanext-dc-serve
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Velkoz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: project-utils-django
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyProfQueue
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drfexts
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-parrot-audio
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bw25ui
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bw2ui
+[2024-04-16 12:32:16] INFO root fetch - processPackages [PyProfQueue]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-16 12:32:16] INFO root fetch - processPackages [project-utils-django]: New version: [1.0.1] Old Version: [0.3.19]
+[2024-04-16 12:32:16] INFO root fetch - processPackages [drfexts]: New version: [3.8.2] Old Version: [3.8.1]
+[2024-04-16 12:32:16] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/da/9a/83940f990559aa134ba6b07f4ac5cd63bbba7014888637210dd1c77d618f/PyProfQueue-0.1.7.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [bw2ui]: New version: [0.8.1] Old Version: [0.8]
+[2024-04-16 12:32:16] INFO root fetch - processPackages [Velkoz]: New version: [0.0.5] Old Version: [0.0.46]
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ckanext-dc-serve]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-16 12:32:16] WARNING root fetch - processPackages [robotframework-parrot-audio]: Skipping, unable to determine old version
+[2024-04-16 12:32:16] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-audio] error
+[2024-04-16 12:32:16] INFO root fetch - processPackages [bw25ui]: New version: [0.37.0] Old Version: [0.36.0]
+[2024-04-16 12:32:16] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/b5/77/61f396173ead6cf64f66430860762338198102cca3d2f6390e4162c3d50b/drfexts-3.8.1.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 12:32:16] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/82/47/f484b2941fb749b7439258bbbfaab804dfc2bfb8dccbd3aa635ff1da1bcf/project-utils-django-0.3.19.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [Velkoz]: Downloading https://files.pythonhosted.org/packages/98/fe/6397ec807bb3ee8533956d569d0eaee9e4cb42b1bcecf00261a351c95fe2/Velkoz-0.0.46.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [ckanext-dc-serve]: Downloading https://files.pythonhosted.org/packages/91/75/de4f8e7a0c6632f278d47cba7ffe8073874d23d49026ce5ccd66006107a9/ckanext-dc_serve-0.9.4.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [bw2ui]: Downloading https://files.pythonhosted.org/packages/b9/db/717771c3f4456284da280709fffcefccbb04fe1d4a025a56e2ae0dd363a2/bw2ui-0.8.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [bw25ui]: Downloading https://files.pythonhosted.org/packages/3f/a4/2ed2bd6c7d374c9280faa9c1caf8ab8f373122fe2767a8d4b940f132d7d1/bw25ui-0.36.0.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/a8/d3/de4b4bdcbbe0507543bd419b80c797f11cd1d64ec0805529a43e1489ad3c/PyProfQueue-0.1.8.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/cb/bc/4b14e1447e005706ce794f63cae9b8a5514cdfdb26f42439213d19b1b055/drfexts-3.8.2.tar.gz
+[2024-04-16 12:32:16] INFO root fetch - processPackages [project-utils-django]: Downloading https://files.pythonhosted.org/packages/7a/22/a11667f042d68a601611db12049232b0f78bd4f1fee51705e7d0a86eb6d5/project-utils-django-1.0.1.tar.gz
+[2024-04-16 12:32:17] INFO root fetch - processPackages [PyProfQueue]: executing diffoscope
+[2024-04-16 12:32:17] INFO root fetch - processPackages [PyProfQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProfQueue-0.1.7.tar.gz tmp/PyProfQueue-0.1.8.tar.gz --markdown 20240416/P/PyProfQueue/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-16 12:32:17] INFO root fetch - processPackages [Velkoz]: Downloading https://files.pythonhosted.org/packages/df/c7/23c444b89a81fd2c82c77689b8f2450b870096e15e6ff436c9ac1f897543/Velkoz-0.0.5.tar.gz
+[2024-04-16 12:32:17] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2024-04-16 12:32:17] INFO root fetch - processPackages [ckanext-dc-serve]: Downloading https://files.pythonhosted.org/packages/fd/f1/a13147acdffced969cdb04865379b686343be9353b05279ab9c0f6c8d88b/ckanext-dc_serve-0.9.5.tar.gz
+[2024-04-16 12:32:17] INFO root fetch - processPackages [drfexts]: executing diffoscope
+[2024-04-16 12:32:17] INFO root fetch - processPackages [drfexts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drfexts-3.8.1.tar.gz tmp/drfexts-3.8.2.tar.gz --markdown 20240416/d/drfexts/3.8.1-3.8.2/README.md --exclude *.pyd
+[2024-04-16 12:32:17] INFO root fetch - processPackages [project-utils-django]: executing diffoscope
+[2024-04-16 12:32:17] INFO root fetch - processPackages [project-utils-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-utils-django-0.3.19.tar.gz tmp/project-utils-django-1.0.1.tar.gz --markdown 20240416/p/project-utils-django/0.3.19-1.0.1/README.md --exclude *.pyd
+[2024-04-16 12:32:17] INFO root fetch - processPackages [bw2ui]: Downloading https://files.pythonhosted.org/packages/86/70/1598040a3c738e4f02a8df7a5be7810011d3ebab255cd39917a339f2a289/bw2ui-0.8.1.tar.gz
+[2024-04-16 12:32:17] INFO root fetch - processPackages [Velkoz]: executing diffoscope
+[2024-04-16 12:32:17] INFO root fetch - processPackages [Velkoz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Velkoz-0.0.46.tar.gz tmp/Velkoz-0.0.5.tar.gz --markdown 20240416/V/Velkoz/0.0.46-0.0.5/README.md --exclude *.pyd
+[2024-04-16 12:32:17] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2024-04-16 12:32:17] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20240416/q/q2rad/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 12:32:17] INFO root fetch - processPackages [ckanext-dc-serve]: executing diffoscope
+[2024-04-16 12:32:17] INFO root fetch - processPackages [ckanext-dc-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-dc_serve-0.9.4.tar.gz tmp/ckanext-dc_serve-0.9.5.tar.gz --markdown 20240416/c/ckanext-dc-serve/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-16 12:32:17] INFO root fetch - processPackages [bw25ui]: Downloading https://files.pythonhosted.org/packages/32/9e/126886f22ddbb1ab552e0ca525edb5a39b4545f9a741f25a5a465e043713/bw25ui-0.37.0.tar.gz
+[2024-04-16 12:32:17] INFO root fetch - processPackages [bw2ui]: executing diffoscope
+[2024-04-16 12:32:17] INFO root fetch - processPackages [bw2ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw2ui-0.8.tar.gz tmp/bw2ui-0.8.1.tar.gz --markdown 20240416/b/bw2ui/0.8-0.8.1/README.md --exclude *.pyd
+[2024-04-16 12:32:17] INFO root fetch - processPackages [bw25ui]: executing diffoscope
+[2024-04-16 12:32:17] INFO root fetch - processPackages [bw25ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw25ui-0.36.0.tar.gz tmp/bw25ui-0.37.0.tar.gz --markdown 20240416/b/bw25ui/0.36.0-0.37.0/README.md --exclude *.pyd
+[2024-04-16 12:32:17] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.7.tar.gz]
+[2024-04-16 12:32:17] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.8.tar.gz]
+[2024-04-16 12:32:17] INFO root fetch - main [MainThread]: End processing [PyProfQueue]: success
+[2024-04-16 12:32:18] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2024-04-16 12:32:18] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.8.1.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.8.2.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - main [MainThread]: End processing [drfexts]: success
+[2024-04-16 12:32:18] INFO root fetch - processPackages [Velkoz]: Remove: archive file [/home/abi/fetcher/tmp/Velkoz-0.0.46.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - processPackages [Velkoz]: Remove: archive file [/home/abi/fetcher/tmp/Velkoz-0.0.5.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - main [MainThread]: End processing [Velkoz]: success
+[2024-04-16 12:32:18] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-0.3.19.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - processPackages [project-utils-django]: Remove: archive file [/home/abi/fetcher/tmp/project-utils-django-1.0.1.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - main [MainThread]: End processing [project-utils-django]: success
+[2024-04-16 12:32:18] INFO root fetch - processPackages [ckanext-dc-serve]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_serve-0.9.4.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - processPackages [ckanext-dc-serve]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dc_serve-0.9.5.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - main [MainThread]: End processing [ckanext-dc-serve]: success
+[2024-04-16 12:32:18] INFO root fetch - processPackages [bw2ui]: Remove: archive file [/home/abi/fetcher/tmp/bw2ui-0.8.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - processPackages [bw2ui]: Remove: archive file [/home/abi/fetcher/tmp/bw2ui-0.8.1.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - main [MainThread]: End processing [bw2ui]: success
+[2024-04-16 12:32:18] INFO root fetch - processPackages [bw25ui]: Remove: archive file [/home/abi/fetcher/tmp/bw25ui-0.36.0.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - processPackages [bw25ui]: Remove: archive file [/home/abi/fetcher/tmp/bw25ui-0.37.0.tar.gz]
+[2024-04-16 12:32:18] INFO root fetch - main [MainThread]: End processing [bw25ui]: success
+[2024-04-16 12:32:18] INFO root fetch - main [MainThread]: Store serial: [22786277]
