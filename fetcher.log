@@ -14393,3 +14393,41 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:34:29] INFO root fetch - processPackages [xy-health-measurement-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xy_health_measurement_sdk-2.0.0rc3.tar.gz]
 [2024-04-16 12:34:29] INFO root fetch - main [MainThread]: End processing [xy-health-measurement-sdk]: success
 [2024-04-16 12:34:29] INFO root fetch - main [MainThread]: Store serial: [22786291]
+[2024-04-16 12:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786291]
+[2024-04-16 12:36:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hydamo-validation
+[2024-04-16 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rucio
+[2024-04-16 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rucio-clients
+[2024-04-16 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rucio-webui
+[2024-04-16 12:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grooveshop-django-api
+[2024-04-16 12:36:38] INFO root fetch - processPackages [grooveshop-django-api]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-16 12:36:38] WARNING root fetch - processPackages [hydamo-validation]: Skipping, unable to determine old version
+[2024-04-16 12:36:38] INFO root fetch - main [MainThread]: End processing [hydamo-validation] error
+[2024-04-16 12:36:38] INFO root fetch - processPackages [grooveshop-django-api]: Downloading https://files.pythonhosted.org/packages/7f/a7/0d6a615cddf282a20c5473422783b8e46581bf1c77d73c7dfc581210dc37/grooveshop_django_api-0.99.0.tar.gz
+[2024-04-16 12:36:38] INFO root fetch - processPackages [rucio]: New version: [34.2.0] Old Version: [34.1.0]
+[2024-04-16 12:36:38] INFO root fetch - processPackages [rucio-clients]: New version: [34.2.0] Old Version: [34.1.0]
+[2024-04-16 12:36:38] INFO root fetch - processPackages [rucio-webui]: New version: [34.2.0] Old Version: [34.1.0]
+[2024-04-16 12:36:38] WARNING root fetch - processPackages [grooveshop-django-api]: Skipping package: exceeds size limit 33783695>=10485760
+[2024-04-16 12:36:38] INFO root fetch - main [MainThread]: End processing [grooveshop-django-api] error
+[2024-04-16 12:36:38] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/be/ef/a0704d4e22716b2535324ae4648ca610fc173a422f0ffbebd205e695840e/rucio-34.1.0.tar.gz
+[2024-04-16 12:36:38] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/32/56/06b1cc162d7e7be7f02c1650531c681b3a8659397f7bafbd7571e2c662ca/rucio-clients-34.1.0.tar.gz
+[2024-04-16 12:36:38] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/f0/3d/5952f8460efaa2ff4ae7a336affb9d9df62596be7f256ab48d04bada9ae6/rucio-webui-34.1.0.tar.gz
+[2024-04-16 12:36:39] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/89/a1/6e4bb7dbd67c12e25339a0b0357c4e63ef9ef34e6493abaf984c14503f20/rucio-34.2.0.tar.gz
+[2024-04-16 12:36:39] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/1b/cb/b8154b34fff2dc58d3cf91bc2cdd717b4aa4dff63690c46f16adda9f775f/rucio_clients-34.2.0.tar.gz
+[2024-04-16 12:36:39] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/e9/f5/76564afef1f01d14015f0c4f87ccf9f391daca8737151e7aa721b16593dd/rucio_webui-34.2.0.tar.gz
+[2024-04-16 12:36:39] INFO root fetch - processPackages [rucio-clients]: executing diffoscope
+[2024-04-16 12:36:39] INFO root fetch - processPackages [rucio-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-clients-34.1.0.tar.gz tmp/rucio_clients-34.2.0.tar.gz --markdown 20240416/r/rucio-clients/34.1.0-34.2.0/README.md --exclude *.pyd
+[2024-04-16 12:36:39] INFO root fetch - processPackages [rucio-webui]: executing diffoscope
+[2024-04-16 12:36:39] INFO root fetch - processPackages [rucio-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-webui-34.1.0.tar.gz tmp/rucio_webui-34.2.0.tar.gz --markdown 20240416/r/rucio-webui/34.1.0-34.2.0/README.md --exclude *.pyd
+[2024-04-16 12:36:39] INFO root fetch - processPackages [rucio]: executing diffoscope
+[2024-04-16 12:36:39] INFO root fetch - processPackages [rucio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-34.1.0.tar.gz tmp/rucio-34.2.0.tar.gz --markdown 20240416/r/rucio/34.1.0-34.2.0/README.md --exclude *.pyd
+[2024-04-16 12:36:40] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio-clients-34.1.0.tar.gz]
+[2024-04-16 12:36:40] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio_clients-34.2.0.tar.gz]
+[2024-04-16 12:36:40] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
+[2024-04-16 12:36:40] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio-webui-34.1.0.tar.gz]
+[2024-04-16 12:36:40] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio_webui-34.2.0.tar.gz]
+[2024-04-16 12:36:40] INFO root fetch - main [MainThread]: End processing [rucio-webui]: success
+[2024-04-16 12:36:42] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-34.1.0.tar.gz]
+[2024-04-16 12:36:42] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-34.2.0.tar.gz]
+[2024-04-16 12:36:42] INFO root fetch - main [MainThread]: End processing [rucio]: success
+[2024-04-16 12:36:42] INFO root fetch - main [MainThread]: Store serial: [22786308]
