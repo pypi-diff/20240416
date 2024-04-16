@@ -6245,3 +6245,15 @@
 [2024-04-16 06:51:04] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts_soup-0.1.9.tar.gz]
 [2024-04-16 06:51:04] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
 [2024-04-16 06:51:04] INFO root fetch - main [MainThread]: Store serial: [22782668]
+[2024-04-16 06:53:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782668]
+[2024-04-16 06:53:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 06:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webchanges
+[2024-04-16 06:53:13] INFO root fetch - processPackages [webchanges]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-16 06:53:13] INFO root fetch - processPackages [webchanges]: Downloading https://files.pythonhosted.org/packages/3a/da/8ad85216768f581c8731f21db668f2100807c6746b4cbd86b49a52f4530d/webchanges-3.9.1-py3-none-any.whl
+[2024-04-16 06:53:13] INFO root fetch - processPackages [webchanges]: Downloading https://files.pythonhosted.org/packages/29/d4/4af55d7368e67b485c2dcb70df83495442f37e316d5c178d889b7a140ad2/webchanges-3.9.2-py3-none-any.whl
+[2024-04-16 06:53:13] INFO root fetch - processPackages [webchanges]: executing diffoscope
+[2024-04-16 06:53:13] INFO root fetch - processPackages [webchanges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webchanges-3.9.1-py3-none-any.whl.zip tmp/webchanges-3.9.2-py3-none-any.whl.zip --markdown 20240416/w/webchanges/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-16 06:53:14] INFO root fetch - processPackages [webchanges]: Remove: archive file [/home/abi/fetcher/tmp/webchanges-3.9.1-py3-none-any.whl.zip]
+[2024-04-16 06:53:14] INFO root fetch - processPackages [webchanges]: Remove: archive file [/home/abi/fetcher/tmp/webchanges-3.9.2-py3-none-any.whl.zip]
+[2024-04-16 06:53:14] INFO root fetch - main [MainThread]: End processing [webchanges]: success
+[2024-04-16 06:53:14] INFO root fetch - main [MainThread]: Store serial: [22782672]
