@@ -4089,3 +4089,51 @@
 [2024-04-16 04:25:34] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.1.tar.gz]
 [2024-04-16 04:25:34] INFO root fetch - main [MainThread]: End processing [l3c]: success
 [2024-04-16 04:25:34] INFO root fetch - main [MainThread]: Store serial: [22781583]
+[2024-04-16 04:27:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781583]
+[2024-04-16 04:27:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 04:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turbobus
+[2024-04-16 04:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apollo-lunar
+[2024-04-16 04:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowchat
+[2024-04-16 04:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qdls
+[2024-04-16 04:27:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-aws
+[2024-04-16 04:27:44] INFO root fetch - processPackages [qdls]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 04:27:44] INFO root fetch - processPackages [turbobus]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-16 04:27:44] INFO root fetch - processPackages [apollo-lunar]: New version: [2024.4.4rc1] Old Version: [2024.4.4]
+[2024-04-16 04:27:44] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-16 04:27:44] INFO root fetch - processPackages [flowchat]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-16 04:27:44] INFO root fetch - processPackages [turbobus]: Downloading https://files.pythonhosted.org/packages/b5/9a/7055074c325d1d6f4038f6c19cc15b66d3861de94c162c9ebc4ca3e989b1/turbobus-1.0.0a8.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/a7/d1/da315750c330973c1ef139a12c8e514b80c836abc6647ae2db699b1dae35/apollo_lunar-2024.4.4.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [qdls]: Downloading https://files.pythonhosted.org/packages/d8/c2/68e8ba74edf05a1d84968eac2d0c0b2bd2adb0b0e16e0c4a0fb84ff99687/qdls-0.1.4.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [flowchat]: Downloading https://files.pythonhosted.org/packages/8d/ba/953f545a270140507a9d7d8006e0b42cea3697fae6fc1698c4a8c1def825/flowchat-1.1.4.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [turbobus]: Downloading https://files.pythonhosted.org/packages/d0/97/b52586992acfb9498c9ee77bd7139774af6fe36ec1a679aa509484808f58/turbobus-1.0.0a9.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/2b/7d/ac278e0c2b56e554ec91a1fe5793ba9eec4ac940340d612bc809f49fb825/apollo_lunar-2024.4.4rc1.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [turbobus]: executing diffoscope
+[2024-04-16 04:27:44] INFO root fetch - processPackages [turbobus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbobus-1.0.0a8.tar.gz tmp/turbobus-1.0.0a9.tar.gz --markdown 20240416/t/turbobus/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-04-16 04:27:44] INFO root fetch - processPackages [qdls]: Downloading https://files.pythonhosted.org/packages/b6/b9/45ec838b6ea9e048a021217914b9104e08171b6e5050a5569b550a6e9ae5/qdls-0.1.5.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2024-04-16 04:27:44] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_lunar-2024.4.4.tar.gz tmp/apollo_lunar-2024.4.4rc1.tar.gz --markdown 20240416/a/apollo-lunar/2024.4.4-2024.4.4rc1/README.md --exclude *.pyd
+[2024-04-16 04:27:44] INFO root fetch - processPackages [flowchat]: Downloading https://files.pythonhosted.org/packages/7c/86/ec1f9d33153d0b9802cd54387721927b0f00ee9dd0fb63895e9b16412ccb/flowchat-1.2.0.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [qdls]: executing diffoscope
+[2024-04-16 04:27:44] INFO root fetch - processPackages [qdls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdls-0.1.4.tar.gz tmp/qdls-0.1.5.tar.gz --markdown 20240416/q/qdls/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 04:27:44] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-16 04:27:44] INFO root fetch - processPackages [flowchat]: executing diffoscope
+[2024-04-16 04:27:44] INFO root fetch - processPackages [flowchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowchat-1.1.4.tar.gz tmp/flowchat-1.2.0.tar.gz --markdown 20240416/f/flowchat/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-04-16 04:27:45] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-16 04:27:45] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240416/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-16 04:27:45] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4.tar.gz]
+[2024-04-16 04:27:45] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
+[2024-04-16 04:27:45] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2024-04-16 04:27:45] INFO root fetch - processPackages [turbobus]: Remove: archive file [/home/abi/fetcher/tmp/turbobus-1.0.0a8.tar.gz]
+[2024-04-16 04:27:45] INFO root fetch - processPackages [turbobus]: Remove: archive file [/home/abi/fetcher/tmp/turbobus-1.0.0a9.tar.gz]
+[2024-04-16 04:27:45] INFO root fetch - main [MainThread]: End processing [turbobus]: success
+[2024-04-16 04:27:45] INFO root fetch - processPackages [flowchat]: Remove: archive file [/home/abi/fetcher/tmp/flowchat-1.1.4.tar.gz]
+[2024-04-16 04:27:45] INFO root fetch - processPackages [flowchat]: Remove: archive file [/home/abi/fetcher/tmp/flowchat-1.2.0.tar.gz]
+[2024-04-16 04:27:45] INFO root fetch - main [MainThread]: End processing [flowchat]: success
+[2024-04-16 04:27:45] INFO root fetch - processPackages [qdls]: Remove: archive file [/home/abi/fetcher/tmp/qdls-0.1.4.tar.gz]
+[2024-04-16 04:27:45] INFO root fetch - processPackages [qdls]: Remove: archive file [/home/abi/fetcher/tmp/qdls-0.1.5.tar.gz]
+[2024-04-16 04:27:45] INFO root fetch - main [MainThread]: End processing [qdls]: success
+[2024-04-16 04:28:01] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-16 04:28:01] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-16 04:28:01] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-16 04:28:01] INFO root fetch - main [MainThread]: Store serial: [22781615]
