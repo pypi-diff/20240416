@@ -3274,3 +3274,30 @@
 [2024-04-16 03:26:14] INFO root fetch - processPackages [benanalysis]: Remove: archive file [/home/abi/fetcher/tmp/benanalysis-4.0.6-cp39-cp39-win_amd64.whl.zip]
 [2024-04-16 03:26:14] INFO root fetch - main [MainThread]: End processing [benanalysis]: success
 [2024-04-16 03:26:14] INFO root fetch - main [MainThread]: Store serial: [22781210]
+[2024-04-16 03:28:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781210]
+[2024-04-16 03:28:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 03:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu
+[2024-04-16 03:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chatmemoryc
+[2024-04-16 03:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zae-engine
+[2024-04-16 03:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hllama
+[2024-04-16 03:28:27] INFO root fetch - processPackages [tsugu]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-16 03:28:27] WARNING root fetch - processPackages [hllama]: Skipping, unable to determine old version
+[2024-04-16 03:28:27] INFO root fetch - main [MainThread]: End processing [hllama] error
+[2024-04-16 03:28:27] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/4d/0240ba5af8407f605a5b9dbe662cc853a63e633a12b48160344616c3d787/tsugu-0.4.8.tar.gz
+[2024-04-16 03:28:27] WARNING root fetch - processPackages [chatmemoryc]: Skipping, unable to determine old version
+[2024-04-16 03:28:27] INFO root fetch - main [MainThread]: End processing [chatmemoryc] error
+[2024-04-16 03:28:27] INFO root fetch - processPackages [zae-engine]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 03:28:27] INFO root fetch - processPackages [zae-engine]: Downloading https://files.pythonhosted.org/packages/be/be/949b3dc9eb2cf2eddbbb13fe6286b8611011a9bd951df7bd7102a3f7bd6f/zae_engine-0.1.2.tar.gz
+[2024-04-16 03:28:27] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/1a/20/aa11dbd0c43c200302667324b90aba7691c8a534a67ec5f7587067f7e4e6/tsugu-0.4.9.tar.gz
+[2024-04-16 03:28:27] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-16 03:28:27] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.8.tar.gz tmp/tsugu-0.4.9.tar.gz --markdown 20240416/t/tsugu/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-16 03:28:28] INFO root fetch - processPackages [zae-engine]: Downloading https://files.pythonhosted.org/packages/00/93/f5edb423375ddcace026aac6be7743e2ac5ce646be6ccbacf93d46f608b5/zae_engine-0.1.3.tar.gz
+[2024-04-16 03:28:28] INFO root fetch - processPackages [zae-engine]: executing diffoscope
+[2024-04-16 03:28:28] INFO root fetch - processPackages [zae-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zae_engine-0.1.2.tar.gz tmp/zae_engine-0.1.3.tar.gz --markdown 20240416/z/zae-engine/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 03:28:28] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.8.tar.gz]
+[2024-04-16 03:28:28] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.9.tar.gz]
+[2024-04-16 03:28:28] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-16 03:28:29] INFO root fetch - processPackages [zae-engine]: Remove: archive file [/home/abi/fetcher/tmp/zae_engine-0.1.2.tar.gz]
+[2024-04-16 03:28:29] INFO root fetch - processPackages [zae-engine]: Remove: archive file [/home/abi/fetcher/tmp/zae_engine-0.1.3.tar.gz]
+[2024-04-16 03:28:29] INFO root fetch - main [MainThread]: End processing [zae-engine]: success
+[2024-04-16 03:28:29] INFO root fetch - main [MainThread]: Store serial: [22781225]
