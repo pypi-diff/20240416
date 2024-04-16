@@ -6412,3 +6412,42 @@
 [2024-04-16 07:08:23] INFO root fetch - processPackages [devine]: Remove: archive file [/home/abi/fetcher/tmp/devine-3.3.2.tar.gz]
 [2024-04-16 07:08:23] INFO root fetch - main [MainThread]: End processing [devine]: success
 [2024-04-16 07:08:23] INFO root fetch - main [MainThread]: Store serial: [22782753]
+[2024-04-16 07:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782753]
+[2024-04-16 07:10:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 07:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-l10n-it-asset-history-import
+[2024-04-16 07:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DXR-BJ
+[2024-04-16 07:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqqq-cli
+[2024-04-16 07:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-it-asset-management
+[2024-04-16 07:10:32] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 07:10:32] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/33/ea/be22b1fa4980026d0c2f62b88812022b8afe9f01a1e3f5d4981f5d41bb9f/pyqqq_cli-0.2.2.tar.gz
+[2024-04-16 07:10:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2024-04-16 07:10:32] INFO root fetch - processPackages [DXR-BJ]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 07:10:32] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: New version: [16.0.1.0.0.14] Old Version: [16.0.1.0.0.13]
+[2024-04-16 07:10:32] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/e9/4e/6de71b9c352c99d7e53c730773fcd989bd427fbee64850c0ae0b30488aee/DXR_BJ-1.0.0.tar.gz
+[2024-04-16 07:10:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/ca/43/d54890b9f432589722c301b5e2582bf7abd3e992361639d27ec0f91c5e55/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-04-16 07:10:32] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: Downloading https://files.pythonhosted.org/packages/bd/f7/c75adee99e238f277b4632046e64b98c29bb298fe2d3992568d2bd1e678e/odoo_addon_l10n_it_asset_management-16.0.1.0.0.13-py3-none-any.whl
+[2024-04-16 07:10:32] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/6a/7c/4e54c62da0adb745d407df8993b76673da85d2feef811555e1ec4dd3f601/pyqqq_cli-0.2.3.tar.gz
+[2024-04-16 07:10:32] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-04-16 07:10:32] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.2.2.tar.gz tmp/pyqqq_cli-0.2.3.tar.gz --markdown 20240416/p/pyqqq-cli/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 07:10:32] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: Downloading https://files.pythonhosted.org/packages/fc/9b/66d254999545d0000b0a6dd3624a098630bf28c6553a94dae7fe92eac95c/odoo_addon_l10n_it_asset_management-16.0.1.0.0.14-py3-none-any.whl
+[2024-04-16 07:10:32] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: Downloading https://files.pythonhosted.org/packages/1d/5d/f539ac3d06fe7611cbdc49580bfc603d61177d02bbbb4f4cfd4316252e7e/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-04-16 07:10:33] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: executing diffoscope
+[2024-04-16 07:10:33] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_asset_management-16.0.1.0.0.13-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_asset_management-16.0.1.0.0.14-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-l10n-it-asset-management/16.0.1.0.0.13-16.0.1.0.0.14/README.md --exclude *.pyd
+[2024-04-16 07:10:33] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/0e/5c/97886f4ff083408a13270e91fe95719f27dc2b6765761ba7bb5310a4dbaf/DXR_BJ-1.0.1.tar.gz
+[2024-04-16 07:10:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: executing diffoscope
+[2024-04-16 07:10:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240416/o/odoo14-addon-l10n-it-asset-history-import/14.0.1.0.1.dev8-14.0.1.0.1.dev9/README.md --exclude *.pyd
+[2024-04-16 07:10:33] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.2.tar.gz]
+[2024-04-16 07:10:33] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.3.tar.gz]
+[2024-04-16 07:10:33] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-04-16 07:10:33] INFO root fetch - processPackages [DXR-BJ]: executing diffoscope
+[2024-04-16 07:10:33] INFO root fetch - processPackages [DXR-BJ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR_BJ-1.0.0.tar.gz tmp/DXR_BJ-1.0.1.tar.gz --markdown 20240416/D/DXR-BJ/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 07:10:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-04-16 07:10:33] INFO root fetch - processPackages [odoo14-addon-l10n-it-asset-history-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_asset_history_import-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-04-16 07:10:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-asset-history-import]: success
+[2024-04-16 07:10:33] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_asset_management-16.0.1.0.0.13-py3-none-any.whl.zip]
+[2024-04-16 07:10:33] INFO root fetch - processPackages [odoo-addon-l10n-it-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_asset_management-16.0.1.0.0.14-py3-none-any.whl.zip]
+[2024-04-16 07:10:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-asset-management]: success
+[2024-04-16 07:10:34] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.0.tar.gz]
+[2024-04-16 07:10:34] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.1.tar.gz]
+[2024-04-16 07:10:34] INFO root fetch - main [MainThread]: End processing [DXR-BJ]: success
+[2024-04-16 07:10:34] INFO root fetch - main [MainThread]: Store serial: [22782765]
