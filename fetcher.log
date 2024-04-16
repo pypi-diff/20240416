@@ -11988,3 +11988,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:06:07] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
 [2024-04-16 11:06:07] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
 [2024-04-16 11:06:07] INFO root fetch - main [MainThread]: Store serial: [22785033]
+[2024-04-16 11:08:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785033]
+[2024-04-16 11:08:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 11:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sortinghat-openinfra
+[2024-04-16 11:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: celus-nigiri
+[2024-04-16 11:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elastic
+[2024-04-16 11:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-fastly
+[2024-04-16 11:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal
+[2024-04-16 11:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dlt
+[2024-04-16 11:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal-client
+[2024-04-16 11:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vbimagetotext
+[2024-04-16 11:08:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: selfpkg
+[2024-04-16 11:08:16] INFO root fetch - processPackages [sortinghat-openinfra]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 11:08:16] INFO root fetch - processPackages [selfpkg]: New version: [0.0.1b3] Old Version: [0.0.1b2]
+[2024-04-16 11:08:16] INFO root fetch - processPackages [elastic]: New version: [5.2.2.6] Old Version: [5.2.2.5]
+[2024-04-16 11:08:16] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 11:08:16] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-16 11:08:16] INFO root fetch - processPackages [celus-nigiri]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-16 11:08:16] INFO root fetch - processPackages [dlt]: New version: [0.4.9a1] Old Version: [0.4.9a0]
+[2024-04-16 11:08:16] WARNING root fetch - processPackages [vbimagetotext]: Skipping, unable to determine old version
+[2024-04-16 11:08:16] INFO root fetch - main [MainThread]: End processing [vbimagetotext] error
+[2024-04-16 11:08:16] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-16 11:08:16] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.6.0a1713257333] Old Version: [8.6.0a1712986611]
+[2024-04-16 11:08:16] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/58/1d/85f599055ee0520186124271dd0adfec42a9aeed3ce56061611be55b4c5a/selfpkg-0.0.1b2.tar.gz
+[2024-04-16 11:08:16] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/8a/6c/1c1e61c8d119ea0ebf70c6a41a0cd656d47d222d53e28cf7e6e99cedfdac/sortinghat_openinfra-0.1.8.tar.gz
+[2024-04-16 11:08:16] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/22/1c/42f6e4040afaf17b21c6ba084a14538366cac70a65a395822d98128961f1/elastic-5.2.2.5.tar.gz
+[2024-04-16 11:08:16] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-16 11:08:16] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/a8/ef/d04bc706cdfd9811ce5ac4185d3d1343e54b2abb599a5b1fdd11578e271a/celus_nigiri-2.0.0.tar.gz
+[2024-04-16 11:08:16] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/84/be/bb1c4fe1e861e356c30d762ce820c819f50170a82528c5655768c0d2792c/dlt-0.4.9a0.tar.gz
+[2024-04-16 11:08:17] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/ab/67/0facbae0fc91adb8c458aeb693093866e575eb003f4c8cc1ee778c425dc8/pulumi_fastly-8.6.0a1712986611.tar.gz
+[2024-04-16 11:08:17] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-16 11:08:17] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/0c/84/0bc45c2dd1863f0663b11b86dfc7c4d64f071301cfd272bce23f9140d02e/sortinghat_openinfra-0.1.9.tar.gz
+[2024-04-16 11:08:17] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-16 11:08:17] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/b5/c5/0e95a9201aa394d71a19d46c2ef5caba41307d84b5e8623d72417da5a3e9/selfpkg-0.0.1b3.tar.gz
+[2024-04-16 11:08:17] INFO root fetch - processPackages [sortinghat-openinfra]: executing diffoscope
+[2024-04-16 11:08:17] INFO root fetch - processPackages [sortinghat-openinfra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat_openinfra-0.1.8.tar.gz tmp/sortinghat_openinfra-0.1.9.tar.gz --markdown 20240416/s/sortinghat-openinfra/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 11:08:17] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-16 11:08:17] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 11:08:17] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/3e/eb/18ec4305c1e429f83cb997485c6d1103c4066b766db021c2c796bf476811/elastic-5.2.2.6.tar.gz
+[2024-04-16 11:08:17] INFO root fetch - processPackages [celus-nigiri]: Downloading https://files.pythonhosted.org/packages/34/ff/54ecb00ea6c45ef7ce1b3d67a6afa03388acfd99d1998c62dd074e4669bd/celus_nigiri-2.1.0.tar.gz
+[2024-04-16 11:08:17] INFO root fetch - processPackages [selfpkg]: executing diffoscope
+[2024-04-16 11:08:17] INFO root fetch - processPackages [selfpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfpkg-0.0.1b2.tar.gz tmp/selfpkg-0.0.1b3.tar.gz --markdown 20240416/s/selfpkg/0.0.1b2-0.0.1b3/README.md --exclude *.pyd
+[2024-04-16 11:08:17] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/ae/38/4a9d614d3b32a76a463cfc5a32ae71952d16404062d630344e9efd0d9d6e/pulumi_fastly-8.6.0a1713257333.tar.gz
+[2024-04-16 11:08:17] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-16 11:08:17] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240416/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-16 11:08:17] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/05/ee/6ffac4e898ce64eedd4b03a6d7925596d4a1959c0d2de78570cdfb266d85/dlt-0.4.9a1.tar.gz
+[2024-04-16 11:08:17] INFO root fetch - processPackages [celus-nigiri]: executing diffoscope
+[2024-04-16 11:08:17] INFO root fetch - processPackages [celus-nigiri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celus_nigiri-2.0.0.tar.gz tmp/celus_nigiri-2.1.0.tar.gz --markdown 20240416/c/celus-nigiri/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-16 11:08:17] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2024-04-16 11:08:17] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.4.9a0.tar.gz tmp/dlt-0.4.9a1.tar.gz --markdown 20240416/d/dlt/0.4.9a0-0.4.9a1/README.md --exclude *.pyd
+[2024-04-16 11:08:17] INFO root fetch - processPackages [elastic]: executing diffoscope
+[2024-04-16 11:08:17] INFO root fetch - processPackages [elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-5.2.2.5.tar.gz tmp/elastic-5.2.2.6.tar.gz --markdown 20240416/e/elastic/5.2.2.5-5.2.2.6/README.md --exclude *.pyd
+[2024-04-16 11:08:17] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-04-16 11:08:17] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.6.0a1712986611.tar.gz tmp/pulumi_fastly-8.6.0a1713257333.tar.gz --markdown 20240416/p/pulumi-fastly/8.6.0a1712986611-8.6.0a1713257333/README.md --exclude *.pyd
+[2024-04-16 11:08:18] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.8.tar.gz]
+[2024-04-16 11:08:18] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.9.tar.gz]
+[2024-04-16 11:08:18] INFO root fetch - main [MainThread]: End processing [sortinghat-openinfra]: success
+[2024-04-16 11:08:18] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.1b2.tar.gz]
+[2024-04-16 11:08:18] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.1b3.tar.gz]
+[2024-04-16 11:08:18] INFO root fetch - main [MainThread]: End processing [selfpkg]: success
+[2024-04-16 11:08:18] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 11:08:18] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 11:08:18] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-16 11:08:18] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.0.0.tar.gz]
+[2024-04-16 11:08:18] INFO root fetch - processPackages [celus-nigiri]: Remove: archive file [/home/abi/fetcher/tmp/celus_nigiri-2.1.0.tar.gz]
+[2024-04-16 11:08:18] INFO root fetch - main [MainThread]: End processing [celus-nigiri]: success
+[2024-04-16 11:08:18] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-16 11:08:18] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-16 11:08:18] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-16 11:08:18] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.6.0a1712986611.tar.gz]
+[2024-04-16 11:08:18] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.6.0a1713257333.tar.gz]
+[2024-04-16 11:08:18] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-04-16 11:08:19] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.5.tar.gz]
+[2024-04-16 11:08:19] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.6.tar.gz]
+[2024-04-16 11:08:19] INFO root fetch - main [MainThread]: End processing [elastic]: success
+[2024-04-16 11:08:19] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a0.tar.gz]
+[2024-04-16 11:08:19] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a1.tar.gz]
+[2024-04-16 11:08:19] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2024-04-16 11:08:19] INFO root fetch - main [MainThread]: Store serial: [22785073]
