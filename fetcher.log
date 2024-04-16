@@ -4568,3 +4568,42 @@
 [2024-04-16 04:57:00] INFO root fetch - processPackages [py-imgui-redux]: Remove: archive file [/home/abi/fetcher/tmp/py_imgui_redux-2.2.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-04-16 04:57:00] INFO root fetch - main [MainThread]: End processing [py-imgui-redux]: success
 [2024-04-16 04:57:00] INFO root fetch - main [MainThread]: Store serial: [22781854]
+[2024-04-16 04:59:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781854]
+[2024-04-16 04:59:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 04:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws
+[2024-04-16 04:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gradio-awsbr-mmchatbot
+[2024-04-16 04:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vbll
+[2024-04-16 04:59:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: st-input-slider
+[2024-04-16 04:59:08] INFO root fetch - processPackages [gradio-awsbr-mmchatbot]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 04:59:08] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-16 04:59:08] INFO root fetch - processPackages [vbll]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 04:59:08] INFO root fetch - processPackages [st-input-slider]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 04:59:08] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-16 04:59:08] INFO root fetch - processPackages [gradio-awsbr-mmchatbot]: Downloading https://files.pythonhosted.org/packages/f1/10/3eb15b728074c33e1192dbfe8d6fda14e480f82c839a2a9619b2c8da4abb/gradio_awsbr_mmchatbot-0.0.1.tar.gz
+[2024-04-16 04:59:08] INFO root fetch - processPackages [st-input-slider]: Downloading https://files.pythonhosted.org/packages/20/64/4d4b0c0073c5add89e58e79801c1a2b6ec38f7e6021dcf1bf0f1c069a6c9/st-input-slider-0.0.6.tar.gz
+[2024-04-16 04:59:08] INFO root fetch - processPackages [vbll]: Downloading https://files.pythonhosted.org/packages/b1/7c/f23fd913f80905894f0898e0707bc1152980f53eb6b4321e4ec682e9eace/vbll-0.1.1.tar.gz
+[2024-04-16 04:59:09] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-16 04:59:09] INFO root fetch - processPackages [gradio-awsbr-mmchatbot]: Downloading https://files.pythonhosted.org/packages/42/04/960e00efcca01f03fa10a06a7b6cdc14669f4c840c43734255ce5a73a9a0/gradio_awsbr_mmchatbot-0.0.2.tar.gz
+[2024-04-16 04:59:09] INFO root fetch - processPackages [st-input-slider]: Downloading https://files.pythonhosted.org/packages/59/5f/6492a8ccda01cfc8d7c1564089673b987c42d5a3fdb0c9de6bd91ffcdb56/st-input-slider-0.0.7.tar.gz
+[2024-04-16 04:59:09] INFO root fetch - processPackages [vbll]: Downloading https://files.pythonhosted.org/packages/99/2c/5ba8a9372bfc78d6b2de7e2f0ec9bde7c45355493e3398416a1d1aadd8bf/vbll-0.1.2.tar.gz
+[2024-04-16 04:59:09] INFO root fetch - processPackages [vbll]: executing diffoscope
+[2024-04-16 04:59:09] INFO root fetch - processPackages [vbll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbll-0.1.1.tar.gz tmp/vbll-0.1.2.tar.gz --markdown 20240416/v/vbll/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 04:59:09] INFO root fetch - processPackages [gradio-awsbr-mmchatbot]: executing diffoscope
+[2024-04-16 04:59:09] INFO root fetch - processPackages [gradio-awsbr-mmchatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_awsbr_mmchatbot-0.0.1.tar.gz tmp/gradio_awsbr_mmchatbot-0.0.2.tar.gz --markdown 20240416/g/gradio-awsbr-mmchatbot/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 04:59:09] INFO root fetch - processPackages [st-input-slider]: executing diffoscope
+[2024-04-16 04:59:09] INFO root fetch - processPackages [st-input-slider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st-input-slider-0.0.6.tar.gz tmp/st-input-slider-0.0.7.tar.gz --markdown 20240416/s/st-input-slider/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 04:59:09] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-16 04:59:09] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240416/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-16 04:59:09] INFO root fetch - processPackages [vbll]: Remove: archive file [/home/abi/fetcher/tmp/vbll-0.1.1.tar.gz]
+[2024-04-16 04:59:09] INFO root fetch - processPackages [vbll]: Remove: archive file [/home/abi/fetcher/tmp/vbll-0.1.2.tar.gz]
+[2024-04-16 04:59:09] INFO root fetch - main [MainThread]: End processing [vbll]: success
+[2024-04-16 04:59:10] INFO root fetch - processPackages [gradio-awsbr-mmchatbot]: Remove: archive file [/home/abi/fetcher/tmp/gradio_awsbr_mmchatbot-0.0.1.tar.gz]
+[2024-04-16 04:59:10] INFO root fetch - processPackages [gradio-awsbr-mmchatbot]: Remove: archive file [/home/abi/fetcher/tmp/gradio_awsbr_mmchatbot-0.0.2.tar.gz]
+[2024-04-16 04:59:10] INFO root fetch - main [MainThread]: End processing [gradio-awsbr-mmchatbot]: success
+[2024-04-16 04:59:25] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-16 04:59:25] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-16 04:59:25] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-16 04:59:29] INFO root fetch - processPackages [st-input-slider]: Remove: archive file [/home/abi/fetcher/tmp/st-input-slider-0.0.6.tar.gz]
+[2024-04-16 04:59:29] INFO root fetch - processPackages [st-input-slider]: Remove: archive file [/home/abi/fetcher/tmp/st-input-slider-0.0.7.tar.gz]
+[2024-04-16 04:59:29] INFO root fetch - main [MainThread]: End processing [st-input-slider]: success
+[2024-04-16 04:59:29] INFO root fetch - main [MainThread]: Store serial: [22781868]
