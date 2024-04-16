@@ -3121,3 +3121,72 @@
 [2024-04-16 03:16:56] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.97.tar.gz]
 [2024-04-16 03:16:56] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2024-04-16 03:16:56] INFO root fetch - main [MainThread]: Store serial: [22781112]
+[2024-04-16 03:19:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781112]
+[2024-04-16 03:19:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-dinkum-listener
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speech-mongo-training-tools
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powerpax
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ehdg-pupil-detector
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ebtorch
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: otter-service-stdalone
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DXR-BJ
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eidolon_ai_client
+[2024-04-16 03:19:07] INFO root fetch - processPackages [DXR-BJ]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ehdg-pupil-detector]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ovos-dinkum-listener]: New version: [0.0.3a9] Old Version: [0.0.3a8]
+[2024-04-16 03:19:07] INFO root fetch - processPackages [powerpax]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ebtorch]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 03:19:07] WARNING root fetch - processPackages [speech-mongo-training-tools]: Skipping, unable to determine old version
+[2024-04-16 03:19:07] INFO root fetch - main [MainThread]: End processing [speech-mongo-training-tools] error
+[2024-04-16 03:19:07] INFO root fetch - processPackages [eidolon_ai_client]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/62/db/1bd7348f71b2e82aa8f1853c0231074e8d1cc5a8690de440c883caf7a1c3/ehdg_pupil_detector-3.0.0.tar.gz
+[2024-04-16 03:19:07] INFO root fetch - processPackages [otter-service-stdalone]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ovos-dinkum-listener]: Downloading https://files.pythonhosted.org/packages/39/63/db189baaa13533fbd35dadc710e7531c833d88d1b295d2b468b0bf5a542b/ovos-dinkum-listener-0.0.3a8.tar.gz
+[2024-04-16 03:19:07] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/54/20/b2fc15a0a52a4bda9db1946de92a0923e9d44cdcb13dbc47863bb6515055/DXR_BJ-0.0.1.tar.gz
+[2024-04-16 03:19:07] INFO root fetch - processPackages [powerpax]: Downloading https://files.pythonhosted.org/packages/24/97/7ebbae3d0ee19e8d4265d2cd3cc06b753cbb412e40b62f3e1862412a95b7/powerpax-0.1.1.tar.gz
+[2024-04-16 03:19:07] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/f6/0b/a141fd3156848e8d2e2fc182cbf6bf93f48c8fe81f58d13605672b1a15c6/ebtorch-0.9.8.tar.gz
+[2024-04-16 03:19:07] INFO root fetch - processPackages [eidolon_ai_client]: Downloading https://files.pythonhosted.org/packages/6f/ec/6d43b4d12e38fb4714a61a6b714ecae86c3fbaea954939b37671037dbf4e/eidolon_ai_client-0.1.5.tar.gz
+[2024-04-16 03:19:07] INFO root fetch - processPackages [otter-service-stdalone]: Downloading https://files.pythonhosted.org/packages/18/82/451a22e95572b231133eb9559930e4147365ab2c7d86c3af894c4a3badf2/otter_service_stdalone-0.1.7.tar.gz
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ovos-dinkum-listener]: Downloading https://files.pythonhosted.org/packages/e5/5c/8edc5e23dfe2905957531961f3dcbead7d4598edbe052e4b3a806a71b58d/ovos-dinkum-listener-0.0.3a9.tar.gz
+[2024-04-16 03:19:08] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/8d/fd/9781b16aacaa1e2eda4916f3972fd69b067a181b82e1af85b955d8aaba59/DXR_BJ-0.0.2.tar.gz
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/2e/b4/6dae7108c14bae6bd3093b557fd59f6e63237467e71ab5937449c5e0ce15/ehdg_pupil_detector-3.1.0.tar.gz
+[2024-04-16 03:19:08] INFO root fetch - processPackages [eidolon_ai_client]: Downloading https://files.pythonhosted.org/packages/3e/77/172b4aa11c13172af3658b4c3fca91993a858b2349646d6cf3c1dbdb986a/eidolon_ai_client-0.1.6.tar.gz
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ovos-dinkum-listener]: executing diffoscope
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ovos-dinkum-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-dinkum-listener-0.0.3a8.tar.gz tmp/ovos-dinkum-listener-0.0.3a9.tar.gz --markdown 20240416/o/ovos-dinkum-listener/0.0.3a8-0.0.3a9/README.md --exclude *.pyd
+[2024-04-16 03:19:08] INFO root fetch - processPackages [otter-service-stdalone]: Downloading https://files.pythonhosted.org/packages/30/05/c0616c34d4e2721e791342f2ae9ce0054d57f0cbf1b4fb2a4c0439b24de0/otter_service_stdalone-0.1.8.tar.gz
+[2024-04-16 03:19:08] INFO root fetch - processPackages [DXR-BJ]: executing diffoscope
+[2024-04-16 03:19:08] INFO root fetch - processPackages [DXR-BJ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR_BJ-0.0.1.tar.gz tmp/DXR_BJ-0.0.2.tar.gz --markdown 20240416/D/DXR-BJ/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 03:19:08] INFO root fetch - processPackages [powerpax]: Downloading https://files.pythonhosted.org/packages/ae/4f/b87bd42b3cf9f0181c2c514321da11ff5aeb8425e05430d696cdb93002d9/powerpax-0.1.2.tar.gz
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ehdg-pupil-detector]: executing diffoscope
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ehdg-pupil-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_pupil_detector-3.0.0.tar.gz tmp/ehdg_pupil_detector-3.1.0.tar.gz --markdown 20240416/e/ehdg-pupil-detector/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/de/e0/a625d79a43753923a509b28ef3011cc592fc185573d78146dda1a45d149a/ebtorch-0.9.9.tar.gz
+[2024-04-16 03:19:08] INFO root fetch - processPackages [otter-service-stdalone]: executing diffoscope
+[2024-04-16 03:19:08] INFO root fetch - processPackages [otter-service-stdalone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otter_service_stdalone-0.1.7.tar.gz tmp/otter_service_stdalone-0.1.8.tar.gz --markdown 20240416/o/otter-service-stdalone/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-16 03:19:08] INFO root fetch - processPackages [eidolon_ai_client]: executing diffoscope
+[2024-04-16 03:19:08] INFO root fetch - processPackages [eidolon_ai_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_client-0.1.5.tar.gz tmp/eidolon_ai_client-0.1.6.tar.gz --markdown 20240416/e/eidolon_ai_client/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-16 03:19:08] INFO root fetch - processPackages [powerpax]: executing diffoscope
+[2024-04-16 03:19:08] INFO root fetch - processPackages [powerpax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerpax-0.1.1.tar.gz tmp/powerpax-0.1.2.tar.gz --markdown 20240416/p/powerpax/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.8.tar.gz tmp/ebtorch-0.9.9.tar.gz --markdown 20240416/e/ebtorch/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 03:19:08] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-0.0.1.tar.gz]
+[2024-04-16 03:19:08] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-0.0.2.tar.gz]
+[2024-04-16 03:19:08] INFO root fetch - main [MainThread]: End processing [DXR-BJ]: success
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ovos-dinkum-listener]: Remove: archive file [/home/abi/fetcher/tmp/ovos-dinkum-listener-0.0.3a8.tar.gz]
+[2024-04-16 03:19:08] INFO root fetch - processPackages [ovos-dinkum-listener]: Remove: archive file [/home/abi/fetcher/tmp/ovos-dinkum-listener-0.0.3a9.tar.gz]
+[2024-04-16 03:19:08] INFO root fetch - main [MainThread]: End processing [ovos-dinkum-listener]: success
+[2024-04-16 03:19:09] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.0.0.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.1.0.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
+[2024-04-16 03:19:09] INFO root fetch - processPackages [otter-service-stdalone]: Remove: archive file [/home/abi/fetcher/tmp/otter_service_stdalone-0.1.7.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - processPackages [otter-service-stdalone]: Remove: archive file [/home/abi/fetcher/tmp/otter_service_stdalone-0.1.8.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - main [MainThread]: End processing [otter-service-stdalone]: success
+[2024-04-16 03:19:09] INFO root fetch - processPackages [eidolon_ai_client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.5.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - processPackages [eidolon_ai_client]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_client-0.1.6.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - main [MainThread]: End processing [eidolon_ai_client]: success
+[2024-04-16 03:19:09] INFO root fetch - processPackages [powerpax]: Remove: archive file [/home/abi/fetcher/tmp/powerpax-0.1.1.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - processPackages [powerpax]: Remove: archive file [/home/abi/fetcher/tmp/powerpax-0.1.2.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - main [MainThread]: End processing [powerpax]: success
+[2024-04-16 03:19:09] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.8.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.9.tar.gz]
+[2024-04-16 03:19:09] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2024-04-16 03:19:09] INFO root fetch - main [MainThread]: Store serial: [22781140]
