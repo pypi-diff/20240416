@@ -2967,3 +2967,21 @@
 [2024-04-16 03:02:29] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.0.0.tar.gz]
 [2024-04-16 03:02:30] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
 [2024-04-16 03:02:30] INFO root fetch - main [MainThread]: Store serial: [22781046]
+[2024-04-16 03:04:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781046]
+[2024-04-16 03:04:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 03:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stringformatter0320
+[2024-04-16 03:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datascope-experiments
+[2024-04-16 03:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: speech-training-tools
+[2024-04-16 03:04:38] INFO root fetch - processPackages [datascope-experiments]: New version: [0.0.9] Old Version: [0.0.81]
+[2024-04-16 03:04:38] WARNING root fetch - processPackages [stringformatter0320]: Skipping, unable to determine old version
+[2024-04-16 03:04:38] WARNING root fetch - processPackages [speech-training-tools]: Skipping, unable to determine old version
+[2024-04-16 03:04:38] INFO root fetch - main [MainThread]: End processing [stringformatter0320] error
+[2024-04-16 03:04:38] INFO root fetch - main [MainThread]: End processing [speech-training-tools] error
+[2024-04-16 03:04:38] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/66/98/780c33f65ca0b8b6ce9e1dc746e4019dc1a572119c991df9f04fddc9527f/datascope-experiments-0.0.81.tar.gz
+[2024-04-16 03:04:39] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/b1/bc/05ddc96ba1314c3a59709691d24646790023b2b8b38620c39e9ae4412371/datascope-experiments-0.0.9.tar.gz
+[2024-04-16 03:04:39] INFO root fetch - processPackages [datascope-experiments]: executing diffoscope
+[2024-04-16 03:04:39] INFO root fetch - processPackages [datascope-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-experiments-0.0.81.tar.gz tmp/datascope-experiments-0.0.9.tar.gz --markdown 20240416/d/datascope-experiments/0.0.81-0.0.9/README.md --exclude *.pyd
+[2024-04-16 03:04:39] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.81.tar.gz]
+[2024-04-16 03:04:39] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.9.tar.gz]
+[2024-04-16 03:04:39] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
+[2024-04-16 03:04:39] INFO root fetch - main [MainThread]: Store serial: [22781058]
