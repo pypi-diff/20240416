@@ -22019,3 +22019,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:58:17] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.90.2.tar.gz]
 [2024-04-16 16:58:17] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-04-16 16:58:17] INFO root fetch - main [MainThread]: Store serial: [22789468]
+[2024-04-16 17:00:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789468]
+[2024-04-16 17:00:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 17:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-api-python-client
+[2024-04-16 17:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ncmlistdownloader
+[2024-04-16 17:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itkdb
+[2024-04-16 17:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zalando-kubectl
+[2024-04-16 17:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iterdir
+[2024-04-16 17:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snakemake-storage-plugin-fs
+[2024-04-16 17:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bitmat-tl
+[2024-04-16 17:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cs2solutions
+[2024-04-16 17:00:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ome-model
+[2024-04-16 17:00:27] INFO root fetch - processPackages [iterdir]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2024-04-16 17:00:27] INFO root fetch - processPackages [cs2solutions]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-16 17:00:27] INFO root fetch - processPackages [bitmat-tl]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-16 17:00:27] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2024-04-16 17:00:27] INFO root fetch - processPackages [google-api-python-client]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-04-16 17:00:27] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 17:00:27] INFO root fetch - processPackages [ncmlistdownloader]: New version: [1.0.0.240416a1] Old Version: [1.0.0.240414]
+[2024-04-16 17:00:27] INFO root fetch - processPackages [itkdb]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-16 17:00:27] INFO root fetch - processPackages [ome-model]: New version: [6.3.5] Old Version: [6.3.4]
+[2024-04-16 17:00:27] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/bc/88/8f462e4fb6fadcce3523a0058ad4d3e6478f33782b3c05ea879d344707bd/iterdir-0.0.2.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/ea/bc/6ae4d9eafe5d7c6b7b92f6faf1b245ce9e19945e9176d1ba5adf76184186/bitmat_tl-0.3.4.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/08/61/6906ad1bb42e7ac459d96920765e307f887f4293c22a7ab82341fa4994d0/cs2solutions-0.6.2.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [google-api-python-client]: Downloading https://files.pythonhosted.org/packages/67/71/292b30cae130a9d187619a5058671833733f9ef835252e67f88dbbcca9bf/google-api-python-client-2.98.0.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/b1/67/3f1c124b20eb144009d8487e5d78a8171f357127f7a59b4f77ab29b8a026/ncmlistdownloader-1.0.0.240414.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/e9/6c/abcb3261e86ba3fd7dc6fbf9754ec0cb82b9210d0081742443859e4bd2ba/itkdb-0.5.1.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Downloading https://files.pythonhosted.org/packages/34/57/8f8d69a2067c559e710f9872ba12f1636bf355eda6f1fdc18aab22d043ca/snakemake_storage_plugin_fs-1.0.0.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [ome-model]: Downloading https://files.pythonhosted.org/packages/d2/41/af55d5f836596f219c2b821e6cd8b4ed377827a2dc5443dbb8a942b751d3/ome-model-6.3.4.tar.gz
+[2024-04-16 17:00:27] WARNING root fetch - processPackages [google-api-python-client]: Skipping package: exceeds size limit 11651975>=10485760
+[2024-04-16 17:00:27] INFO root fetch - main [MainThread]: End processing [google-api-python-client] error
+[2024-04-16 17:00:27] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/27/1b/5ebbd2946159a24de98dcc7fa628fa68ce04448545f4b703142fcfca1237/bitmat_tl-0.3.5.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/5f/54/f20dce748f216bb1a6b4821a8674d2666997fb789e64e8f763de7ac1b039/iterdir-0.0.2.1.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [bitmat-tl]: executing diffoscope
+[2024-04-16 17:00:27] INFO root fetch - processPackages [bitmat-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmat_tl-0.3.4.tar.gz tmp/bitmat_tl-0.3.5.tar.gz --markdown 20240416/b/bitmat-tl/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-16 17:00:27] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/94/ea/8209ae702920ec90d96786f9aac2e00ecb27381eea69906d2f459a178ba0/cs2solutions-0.6.3.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [iterdir]: executing diffoscope
+[2024-04-16 17:00:27] INFO root fetch - processPackages [iterdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterdir-0.0.2.tar.gz tmp/iterdir-0.0.2.1.tar.gz --markdown 20240416/i/iterdir/0.0.2-0.0.2.1/README.md --exclude *.pyd
+[2024-04-16 17:00:27] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Downloading https://files.pythonhosted.org/packages/56/01/41446580d4d9e85b9dae808f52629489c4c781de3d4f3fa9539bd935cc45/snakemake_storage_plugin_fs-1.0.1.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [ncmlistdownloader]: Downloading https://files.pythonhosted.org/packages/78/9b/991f0c67bf248e8e98f4d2c5f33a1b841ed396c0dd71e207584b0050cfda/ncmlistdownloader-1.0.0.240416a1.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [ome-model]: Downloading https://files.pythonhosted.org/packages/83/fb/bd10e56f2f8e3e2db0018a44189d97ca995fceca53d9bd0b94f9bde0a228/ome-model-6.3.5.tar.gz
+[2024-04-16 17:00:27] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2024-04-16 17:00:27] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20240416/z/zalando-kubectl/1.9.3.45-1.9.3.46/README.md --exclude *.pyd
+[2024-04-16 17:00:27] INFO root fetch - processPackages [cs2solutions]: executing diffoscope
+[2024-04-16 17:00:27] INFO root fetch - processPackages [cs2solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2solutions-0.6.2.tar.gz tmp/cs2solutions-0.6.3.tar.gz --markdown 20240416/c/cs2solutions/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-16 17:00:28] INFO root fetch - processPackages [itkdb]: Downloading https://files.pythonhosted.org/packages/82/a7/5e7c15004b657b693b1bd6cdaca8da07fd9eec51242068a5c7382f831313/itkdb-0.6.0.tar.gz
+[2024-04-16 17:00:28] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: executing diffoscope
+[2024-04-16 17:00:28] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_storage_plugin_fs-1.0.0.tar.gz tmp/snakemake_storage_plugin_fs-1.0.1.tar.gz --markdown 20240416/s/snakemake-storage-plugin-fs/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 17:00:28] INFO root fetch - processPackages [ome-model]: executing diffoscope
+[2024-04-16 17:00:28] INFO root fetch - processPackages [ome-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome-model-6.3.4.tar.gz tmp/ome-model-6.3.5.tar.gz --markdown 20240416/o/ome-model/6.3.4-6.3.5/README.md --exclude *.pyd
+[2024-04-16 17:00:28] INFO root fetch - processPackages [ncmlistdownloader]: executing diffoscope
+[2024-04-16 17:00:28] INFO root fetch - processPackages [ncmlistdownloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncmlistdownloader-1.0.0.240414.tar.gz tmp/ncmlistdownloader-1.0.0.240416a1.tar.gz --markdown 20240416/n/ncmlistdownloader/1.0.0.240414-1.0.0.240416a1/README.md --exclude *.pyd
+[2024-04-16 17:00:28] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.2.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.2.1.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - main [MainThread]: End processing [iterdir]: success
+[2024-04-16 17:00:28] INFO root fetch - processPackages [itkdb]: executing diffoscope
+[2024-04-16 17:00:28] INFO root fetch - processPackages [itkdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb-0.5.1.tar.gz tmp/itkdb-0.6.0.tar.gz --markdown 20240416/i/itkdb/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-16 17:00:28] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat_tl-0.3.4.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat_tl-0.3.5.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - main [MainThread]: End processing [bitmat-tl]: success
+[2024-04-16 17:00:28] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2024-04-16 17:00:28] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.6.2.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.6.3.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - main [MainThread]: End processing [cs2solutions]: success
+[2024-04-16 17:00:28] INFO root fetch - processPackages [ome-model]: Remove: archive file [/home/abi/fetcher/tmp/ome-model-6.3.4.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - processPackages [ome-model]: Remove: archive file [/home/abi/fetcher/tmp/ome-model-6.3.5.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - main [MainThread]: End processing [ome-model]: success
+[2024-04-16 17:00:28] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_fs-1.0.0.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - processPackages [snakemake-storage-plugin-fs]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_fs-1.0.1.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - main [MainThread]: End processing [snakemake-storage-plugin-fs]: success
+[2024-04-16 17:00:28] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.0.0.240414.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - processPackages [ncmlistdownloader]: Remove: archive file [/home/abi/fetcher/tmp/ncmlistdownloader-1.0.0.240416a1.tar.gz]
+[2024-04-16 17:00:28] INFO root fetch - main [MainThread]: End processing [ncmlistdownloader]: success
+[2024-04-16 17:00:29] INFO root fetch - processPackages [itkdb]: Remove: archive file [/home/abi/fetcher/tmp/itkdb-0.5.1.tar.gz]
+[2024-04-16 17:00:29] INFO root fetch - processPackages [itkdb]: Remove: archive file [/home/abi/fetcher/tmp/itkdb-0.6.0.tar.gz]
+[2024-04-16 17:00:29] INFO root fetch - main [MainThread]: End processing [itkdb]: success
+[2024-04-16 17:00:29] INFO root fetch - main [MainThread]: Store serial: [22789495]
