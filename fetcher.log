@@ -20522,3 +20522,106 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:14:54] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.94.0.tar.gz]
 [2024-04-16 16:14:54] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
 [2024-04-16 16:14:54] INFO root fetch - main [MainThread]: Store serial: [22788756]
+[2024-04-16 16:16:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788756]
+[2024-04-16 16:17:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mixture-of-depth
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplenote-local
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-pbx-admin
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdo-sdk-python
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buildz
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isagog-ai
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyBlindRL
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plopp
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: raga-llm-eval
+[2024-04-16 16:17:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyBlindRL
+[2024-04-16 16:17:03] INFO root fetch - processPackages [isagog-ai]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-16 16:17:03] INFO root fetch - processPackages [mixture-of-depth]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-16 16:17:03] INFO root fetch - processPackages [pyBlindRL]: New version: [0.0.3rc74.post1] Old Version: [0.0.3rc73.post1]
+[2024-04-16 16:17:03] INFO root fetch - processPackages [pyBlindRL]: New version: [0.0.3rc74.post1] Old Version: [0.0.3rc73.post1]
+[2024-04-16 16:17:03] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.86]
+[2024-04-16 16:17:03] WARNING root fetch - processPackages [simplenote-local]: Skipping, unable to determine old version
+[2024-04-16 16:17:03] INFO root fetch - processPackages [simplenote-local]: Start processing: sysrev
+[2024-04-16 16:17:03] INFO root fetch - main [MainThread]: End processing [simplenote-local] error
+[2024-04-16 16:17:03] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b0] Old Version: [2.0.0b9]
+[2024-04-16 16:17:04] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-16 16:17:04] INFO root fetch - processPackages [plopp]: New version: [24.4.0] Old Version: [24.2.0]
+[2024-04-16 16:17:04] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/a6/4d/1df0ab3e3236ed8d373a345fc990c00ad98f7fe3546405881cd31a8fc418/pyblindrl-0.0.3rc73.post1.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [buildz]: New version: [0.4.91] Old Version: [0.4.9]
+[2024-04-16 16:17:04] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/1f/dc/c4eeda9f0f0c6f381ad8d976802d5622f3e34f334ee2b57653ef54f92efc/isagog_ai-0.8.3.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [mixture-of-depth]: Downloading https://files.pythonhosted.org/packages/03/25/6cdc385ffd747f681186cc1a7be3c9aa20035f7e714749010a266f5f8e2a/mixture-of-depth-1.1.4.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/a6/4d/1df0ab3e3236ed8d373a345fc990c00ad98f7fe3546405881cd31a8fc418/pyblindrl-0.0.3rc73.post1.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/ad/78/5728def629549bb553cb0bdcda53b4397cbdee2e8996bb48315245dbfb05/raga-llm-eval-2.0.0b9.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [sysrev]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-16 16:17:04] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/df/73/193022172f78e903c830dacee09204ba781e016c5fb4d2f20ad7786f3076/cdo-sdk-python-1.0.86.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2024-04-16 16:17:04] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/47/c6/58c24cd8e323ba47636daf442726516a7804b3e1bc007e62f85cdb52138f/sysrev-1.3.2.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [buildz]: Downloading https://files.pythonhosted.org/packages/28/eb/82cff75d43c33b7f37782dec06198b23fb0a9dcf61b059943ec0c4319681/buildz-0.4.9.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/fd/54/d11e8bf450b186399669a6920a6f901275adf0d497e55176827607677e75/pyblindrl-0.0.3rc74.post1.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [plopp]: Downloading https://files.pythonhosted.org/packages/1b/62/d9a24b3a36f70210618d08120e215e77ac9fd39797ab6a1e3e10ef5c850e/plopp-24.2.0.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/fd/54/d11e8bf450b186399669a6920a6f901275adf0d497e55176827607677e75/pyblindrl-0.0.3rc74.post1.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/4e/58/ba08e38cbca3d7e14f010533845b652f30777c782eb7847fdf066cb2f258/isagog_ai-0.8.4.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [mixture-of-depth]: Downloading https://files.pythonhosted.org/packages/0f/66/45e4ef6e837d79f8e2eecad521ca795653f19ad393d6cbcb490e496e865b/mixture-of-depth-1.1.5.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-04-16 16:17:04] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.0.3rc73.post1.tar.gz tmp/pyblindrl-0.0.3rc74.post1.tar.gz --markdown 20240416/p/pyBlindRL/0.0.3rc73.post1-0.0.3rc74.post1/README.md --exclude *.pyd
+[2024-04-16 16:17:04] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-04-16 16:17:04] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.0.3rc73.post1.tar.gz tmp/pyblindrl-0.0.3rc74.post1.tar.gz --markdown 20240416/p/pyBlindRL/0.0.3rc73.post1-0.0.3rc74.post1/README.md --exclude *.pyd
+[2024-04-16 16:17:04] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/90/d1/65eec6bdd807de9349b24992a98a4070c6ea90bfaf76f81bf04cbecef8a3/raga_llm_eval-2.1.0b0.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [isagog-ai]: executing diffoscope
+[2024-04-16 16:17:04] INFO root fetch - processPackages [isagog-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isagog_ai-0.8.3.tar.gz tmp/isagog_ai-0.8.4.tar.gz --markdown 20240416/i/isagog-ai/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-16 16:17:04] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/b1/ef/146d9c6f737e9d4f32540cb493ec4331ae28173a3062f776258c24a0663e/sysrev-1.3.3.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [mixture-of-depth]: executing diffoscope
+[2024-04-16 16:17:04] INFO root fetch - processPackages [mixture-of-depth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-depth-1.1.4.tar.gz tmp/mixture-of-depth-1.1.5.tar.gz --markdown 20240416/m/mixture-of-depth/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-16 16:17:04] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-16 16:17:04] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.86.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240416/c/cdo-sdk-python/1.0.86-1.0.9/README.md --exclude *.pyd
+[2024-04-16 16:17:04] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-16 16:17:04] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-llm-eval-2.0.0b9.tar.gz tmp/raga_llm_eval-2.1.0b0.tar.gz --markdown 20240416/r/raga-llm-eval/2.0.0b9-2.1.0b0/README.md --exclude *.pyd
+[2024-04-16 16:17:04] INFO root fetch - processPackages [buildz]: Downloading https://files.pythonhosted.org/packages/15/a8/978c751b1004e00fc8791645193351980ef4615a42988d252293be624c31/buildz-0.4.91.tar.gz
+[2024-04-16 16:17:04] INFO root fetch - processPackages [sysrev]: executing diffoscope
+[2024-04-16 16:17:04] INFO root fetch - processPackages [sysrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysrev-1.3.2.tar.gz tmp/sysrev-1.3.3.tar.gz --markdown 20240416/s/sysrev/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-04-16 16:17:05] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2024-04-16 16:17:05] INFO root fetch - processPackages [buildz]: executing diffoscope
+[2024-04-16 16:17:05] INFO root fetch - processPackages [buildz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildz-0.4.9.tar.gz tmp/buildz-0.4.91.tar.gz --markdown 20240416/b/buildz/0.4.9-0.4.91/README.md --exclude *.pyd
+[2024-04-16 16:17:05] INFO root fetch - processPackages [plopp]: Downloading https://files.pythonhosted.org/packages/bd/9f/d02fb5c70f2c79338c55459258463119296f12cfe7269cca10d0d5cb2bd4/plopp-24.4.0.tar.gz
+[2024-04-16 16:17:05] INFO root fetch - processPackages [plopp]: executing diffoscope
+[2024-04-16 16:17:05] INFO root fetch - processPackages [plopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plopp-24.2.0.tar.gz tmp/plopp-24.4.0.tar.gz --markdown 20240416/p/plopp/24.2.0-24.4.0/README.md --exclude *.pyd
+[2024-04-16 16:17:05] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.0.3rc73.post1.tar.gz]
+[2024-04-16 16:17:05] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.0.3rc74.post1.tar.gz]
+[2024-04-16 16:17:05] INFO root fetch - processPackages [pyBlindRL]: Start processing: spine-segmentation
+[2024-04-16 16:17:05] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-04-16 16:17:05] INFO root fetch - processPackages [spine-segmentation]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-16 16:17:05] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.3.tar.gz]
+[2024-04-16 16:17:05] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.4.tar.gz]
+[2024-04-16 16:17:05] INFO root fetch - main [MainThread]: End processing [isagog-ai]: success
+[2024-04-16 16:17:05] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/35/e6/c978d3a1845462d2d7cd5b28c252671fa04b46a945a269bcb636ca2d080d/spine_segmentation-0.2.9.tar.gz
+[2024-04-16 16:17:05] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-04-16 16:17:05] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.3.2.tar.gz]
+[2024-04-16 16:17:05] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.3.3.tar.gz]
+[2024-04-16 16:17:05] INFO root fetch - main [MainThread]: End processing [sysrev]: success
+[2024-04-16 16:17:05] INFO root fetch - processPackages [mixture-of-depth]: Remove: archive file [/home/abi/fetcher/tmp/mixture-of-depth-1.1.4.tar.gz]
+[2024-04-16 16:17:05] INFO root fetch - processPackages [mixture-of-depth]: Remove: archive file [/home/abi/fetcher/tmp/mixture-of-depth-1.1.5.tar.gz]
+[2024-04-16 16:17:05] INFO root fetch - main [MainThread]: End processing [mixture-of-depth]: success
+[2024-04-16 16:17:06] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/52/52/7f65756d19dca48ec21aa9698c3dfb98b30f868c17a01142a111fff43413/spine_segmentation-0.3.0.tar.gz
+[2024-04-16 16:17:06] INFO root fetch - processPackages [buildz]: Remove: archive file [/home/abi/fetcher/tmp/buildz-0.4.9.tar.gz]
+[2024-04-16 16:17:06] INFO root fetch - processPackages [buildz]: Remove: archive file [/home/abi/fetcher/tmp/buildz-0.4.91.tar.gz]
+[2024-04-16 16:17:06] INFO root fetch - main [MainThread]: End processing [buildz]: success
+[2024-04-16 16:17:06] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-16 16:17:06] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.2.9.tar.gz tmp/spine_segmentation-0.3.0.tar.gz --markdown 20240416/s/spine-segmentation/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-16 16:17:06] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.9.tar.gz]
+[2024-04-16 16:17:06] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.3.0.tar.gz]
+[2024-04-16 16:17:06] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-16 16:17:06] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga-llm-eval-2.0.0b9.tar.gz]
+[2024-04-16 16:17:06] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b0.tar.gz]
+[2024-04-16 16:17:06] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-16 16:17:07] INFO root fetch - processPackages [plopp]: Remove: archive file [/home/abi/fetcher/tmp/plopp-24.2.0.tar.gz]
+[2024-04-16 16:17:07] INFO root fetch - processPackages [plopp]: Remove: archive file [/home/abi/fetcher/tmp/plopp-24.4.0.tar.gz]
+[2024-04-16 16:17:07] INFO root fetch - main [MainThread]: End processing [plopp]: success
+[2024-04-16 16:17:07] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.86.tar.gz]
+[2024-04-16 16:17:07] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-16 16:17:07] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-16 16:17:08] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2024-04-16 16:17:08] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20240416/d/django-pbx-admin/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-16 16:17:09] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2024-04-16 16:17:09] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2024-04-16 16:17:09] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2024-04-16 16:17:09] INFO root fetch - main [MainThread]: Store serial: [22788790]
