@@ -4289,3 +4289,45 @@
 [2024-04-16 04:41:01] WARNING root fetch - processPackages [python-geotiepoints]: None
 [2024-04-16 04:41:01] INFO root fetch - main [MainThread]: End processing [python-geotiepoints] error
 [2024-04-16 04:41:01] INFO root fetch - main [MainThread]: Store serial: [22781746]
+[2024-04-16 04:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781746]
+[2024-04-16 04:43:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HawaData
+[2024-04-16 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-16 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xiaoranli
+[2024-04-16 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gradio-awsbr-mmchatbot
+[2024-04-16 04:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-bridge
+[2024-04-16 04:43:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.17a1713232707] Old Version: [0.0.16a1713207022]
+[2024-04-16 04:43:10] WARNING root fetch - processPackages [gradio-awsbr-mmchatbot]: Skipping, unable to determine old version
+[2024-04-16 04:43:10] INFO root fetch - main [MainThread]: End processing [gradio-awsbr-mmchatbot] error
+[2024-04-16 04:43:10] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-16 04:43:10] INFO root fetch - processPackages [xiaoranli]: New version: [0.7.8] Old Version: [0.7.25]
+[2024-04-16 04:43:10] INFO root fetch - processPackages [python-bridge]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 04:43:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/26/d9/1ead8ecac8ace51620b9b41a23f6a92e5f6d242e2f62c84179ed949572a6/pulumi_kubernetes_the_hard_way-0.0.16a1713207022.tar.gz
+[2024-04-16 04:43:10] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-16 04:43:10] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/ba/c8/0692f6a806c43a35b6a405f7f9c733328aced0560a5d48f878f1d852cd76/xiaoranli-0.7.25-py3-none-any.whl
+[2024-04-16 04:43:10] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/c5/c9/b5b1d62afac8d93d29018f85100d08bc884a1dccba33a02d555fbf8fc920/python-bridge-0.0.8.tar.gz
+[2024-04-16 04:43:10] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-16 04:43:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/bc/75/1c148372c4a0a7ddf14222ba53fca4fc84c25089c343fdcf97093c1d92a5/pulumi_kubernetes_the_hard_way-0.0.17a1713232707.tar.gz
+[2024-04-16 04:43:10] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-16 04:43:10] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240416/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-16 04:43:10] INFO root fetch - processPackages [python-bridge]: Downloading https://files.pythonhosted.org/packages/1f/52/c4e5d94983ea8a5b67c53cc5dfeb6455843ec969b9cefd97071318edcff6/python-bridge-0.0.9.tar.gz
+[2024-04-16 04:43:10] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/e9/5b/e43b6250e9f8891fffdc1165cb4f968bb072984d6dfa0c333957416e2092/xiaoranli-0.7.8-py3-none-any.whl
+[2024-04-16 04:43:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-16 04:43:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.16a1713207022.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713232707.tar.gz --markdown 20240416/p/pulumi-kubernetes-the-hard-way/0.0.16a1713207022-0.0.17a1713232707/README.md --exclude *.pyd
+[2024-04-16 04:43:10] INFO root fetch - processPackages [python-bridge]: executing diffoscope
+[2024-04-16 04:43:10] INFO root fetch - processPackages [python-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bridge-0.0.8.tar.gz tmp/python-bridge-0.0.9.tar.gz --markdown 20240416/p/python-bridge/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 04:43:11] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2024-04-16 04:43:11] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-0.7.25-py3-none-any.whl.zip tmp/xiaoranli-0.7.8-py3-none-any.whl.zip --markdown 20240416/x/xiaoranli/0.7.25-0.7.8/README.md --exclude *.pyd
+[2024-04-16 04:43:11] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-16 04:43:11] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-16 04:43:11] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-16 04:43:11] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.8.tar.gz]
+[2024-04-16 04:43:11] INFO root fetch - processPackages [python-bridge]: Remove: archive file [/home/abi/fetcher/tmp/python-bridge-0.0.9.tar.gz]
+[2024-04-16 04:43:11] INFO root fetch - main [MainThread]: End processing [python-bridge]: success
+[2024-04-16 04:43:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.16a1713207022.tar.gz]
+[2024-04-16 04:43:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713232707.tar.gz]
+[2024-04-16 04:43:11] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-16 04:43:12] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.25-py3-none-any.whl.zip]
+[2024-04-16 04:43:12] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
+[2024-04-16 04:43:12] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2024-04-16 04:43:12] INFO root fetch - main [MainThread]: Store serial: [22781762]
