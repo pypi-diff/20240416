@@ -2932,3 +2932,24 @@
 [2024-04-16 02:56:05] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40188235>=10485760
 [2024-04-16 02:56:05] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
 [2024-04-16 02:56:05] INFO root fetch - main [MainThread]: Store serial: [22781029]
+[2024-04-16 02:58:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781029]
+[2024-04-16 02:58:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 02:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrevm-contract
+[2024-04-16 02:58:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoto-api
+[2024-04-16 02:58:14] INFO root fetch - processPackages [yoto-api]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-16 02:58:14] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/dd/fc/9028c89f560b09df606b46c91f2818d47044c4085734bee3ca16853a869f/yoto_api-1.1.0.tar.gz
+[2024-04-16 02:58:14] INFO root fetch - processPackages [pyrevm-contract]: New version: [0.3.0] Old Version: [0.2.8]
+[2024-04-16 02:58:14] INFO root fetch - processPackages [pyrevm-contract]: Downloading https://files.pythonhosted.org/packages/26/28/017c62938fd1b7afdf839af7cf4f0890320716e62a3b4c873599e1f864a6/pyrevm_contract-0.2.8.tar.gz
+[2024-04-16 02:58:14] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/da/3a/1136335a9366a24bd4cb44beb616a14c6473a61f9e286a81dceedd0381d1/yoto_api-1.2.0.tar.gz
+[2024-04-16 02:58:14] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-16 02:58:14] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.1.0.tar.gz tmp/yoto_api-1.2.0.tar.gz --markdown 20240416/y/yoto-api/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-16 02:58:14] INFO root fetch - processPackages [pyrevm-contract]: Downloading https://files.pythonhosted.org/packages/35/c7/c38a8dd104642c1f408f2df6ca7018771337d34533b5824f75703123c220/pyrevm_contract-0.3.0.tar.gz
+[2024-04-16 02:58:15] INFO root fetch - processPackages [pyrevm-contract]: executing diffoscope
+[2024-04-16 02:58:15] INFO root fetch - processPackages [pyrevm-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrevm_contract-0.2.8.tar.gz tmp/pyrevm_contract-0.3.0.tar.gz --markdown 20240416/p/pyrevm-contract/0.2.8-0.3.0/README.md --exclude *.pyd
+[2024-04-16 02:58:15] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.1.0.tar.gz]
+[2024-04-16 02:58:15] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.2.0.tar.gz]
+[2024-04-16 02:58:15] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-16 02:58:15] INFO root fetch - processPackages [pyrevm-contract]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm_contract-0.2.8.tar.gz]
+[2024-04-16 02:58:15] INFO root fetch - processPackages [pyrevm-contract]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm_contract-0.3.0.tar.gz]
+[2024-04-16 02:58:15] INFO root fetch - main [MainThread]: End processing [pyrevm-contract]: success
+[2024-04-16 02:58:15] INFO root fetch - main [MainThread]: Store serial: [22781040]
