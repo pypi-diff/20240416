@@ -11814,3 +11814,177 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:03:52] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.3.tar.gz]
 [2024-04-16 11:03:52] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-04-16 11:03:52] INFO root fetch - main [MainThread]: Store serial: [22784969]
+[2024-04-16 11:05:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784969]
+[2024-04-16 11:06:02] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.common
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogluon.core
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prerun
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.features
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perceval-public-inbox
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perceval-pontoon
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.tabular
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elastic
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: perceval-topicbox
+[2024-04-16 11:06:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.multimodal
+[2024-04-16 11:06:02] INFO root fetch - processPackages [prerun]: New version: [1.0.0] Old Version: [0.1.8]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [perceval-pontoon]: New version: [0.1.4rc1] Old Version: [0.1.3rc1]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [perceval-public-inbox]: New version: [0.1.9rc1] Old Version: [0.1.9]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [perceval-topicbox]: New version: [0.1.5rc1] Old Version: [0.1.4rc1]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [elastic]: New version: [5.2.2.5] Old Version: [5.2.2.4]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.0b20240415] Old Version: [1.1.0b20240414]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.0b20240415] Old Version: [1.1.0b20240414]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.0b20240415] Old Version: [1.1.0b20240414]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.0b20240415] Old Version: [1.1.0b20240414]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.0b20240415] Old Version: [1.1.0b20240414]
+[2024-04-16 11:06:02] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/96/48/e984a836ff4258781ed37c21d3905da8a4645b9e571dabdba31cbcb08ee2/elastic-5.2.2.4.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/a4/8e/8b3945e85cf5472c2620e981ab2eba91be98c668f5115f00e1fe27113c02/prerun-0.1.8.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [perceval-public-inbox]: Downloading https://files.pythonhosted.org/packages/e9/bf/151d607b633b18233937f729d6451113e2551d54c30365805e5f424a8fab/perceval_public_inbox-0.1.9.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [perceval-topicbox]: Downloading https://files.pythonhosted.org/packages/d9/f4/d06bbd45fe3cd27334e0d7816a73e514608818b32f44ce79611fb1c76528/perceval_topicbox-0.1.4rc1.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [perceval-pontoon]: Downloading https://files.pythonhosted.org/packages/0a/40/0149a52bc629f1e1027653414cd885f8442d32927cace99a740196853ce3/perceval_pontoon-0.1.3rc1.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/26/af/587c772089abacf79d3bf0d3f0650813bff17d007aea86359a98521a1bea/autogluon.features-1.1.0b20240414.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/18/28/5b102d22babfc4ab8001f29d1ae67d4c0dd0f0664ad2b496c33c7e35c130/autogluon.multimodal-1.1.0b20240414.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/d7/3b/0d6f7bb0fdb0c5481e15ba1c8cbbde343fd4123c6aaff4ccc16be43b359e/autogluon.core-1.1.0b20240414.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/dd/c4/89bac75c56114b1cdbc67b3124159f2db51b7216aaec194e5b35501cea62/autogluon.common-1.1.0b20240414.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/78/31/66e5e5df6b20a849da4fe42df5ca0d13c4f5eb3564ab3e77a21f4affc417/autogluon.tabular-1.1.0b20240414.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [perceval-topicbox]: Downloading https://files.pythonhosted.org/packages/3c/fa/9d3d5e2979c31f9b9b553c62d8782b6723accea7adbd9c5341bc20b3b61c/perceval_topicbox-0.1.5rc1.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [perceval-public-inbox]: Downloading https://files.pythonhosted.org/packages/59/ac/5cd6e9ad37bfbcd35a680c569524926123932a79d76c0e4013a590271efd/perceval_public_inbox-0.1.9rc1.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [prerun]: Downloading https://files.pythonhosted.org/packages/10/fe/a99357f56652030377d5fe219756226156751038a4c441a0e41608f41784/prerun-1.0.0.tar.gz
+[2024-04-16 11:06:02] INFO root fetch - processPackages [perceval-pontoon]: Downloading https://files.pythonhosted.org/packages/95/0e/f777001ecc41c939c0fe7e26b47d3fd69705eb8513453c0d5702a1dba847/perceval_pontoon-0.1.4rc1.tar.gz
+[2024-04-16 11:06:03] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/22/1c/42f6e4040afaf17b21c6ba084a14538366cac70a65a395822d98128961f1/elastic-5.2.2.5.tar.gz
+[2024-04-16 11:06:03] INFO root fetch - processPackages [perceval-topicbox]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [perceval-topicbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_topicbox-0.1.4rc1.tar.gz tmp/perceval_topicbox-0.1.5rc1.tar.gz --markdown 20240416/p/perceval-topicbox/0.1.4rc1-0.1.5rc1/README.md --exclude *.pyd
+[2024-04-16 11:06:03] INFO root fetch - processPackages [prerun]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [prerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prerun-0.1.8.tar.gz tmp/prerun-1.0.0.tar.gz --markdown 20240416/p/prerun/0.1.8-1.0.0/README.md --exclude *.pyd
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/5b/8a/56b9da52de350a5215f8c2dcc8cc01f1abd00850bd977765a305abcaa3c3/autogluon.features-1.1.0b20240415.tar.gz
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/0b/c5/6f4ccccd066231fa1344b6edd9cfe96009776ae914aa99a50b2cd37d4094/autogluon.common-1.1.0b20240415.tar.gz
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/b0/69/2d65fe62b6977d5772ce9460a98d069247d038f24c5b4763ac95656b5428/autogluon.core-1.1.0b20240415.tar.gz
+[2024-04-16 11:06:03] INFO root fetch - processPackages [perceval-pontoon]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [perceval-pontoon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_pontoon-0.1.3rc1.tar.gz tmp/perceval_pontoon-0.1.4rc1.tar.gz --markdown 20240416/p/perceval-pontoon/0.1.3rc1-0.1.4rc1/README.md --exclude *.pyd
+[2024-04-16 11:06:03] INFO root fetch - processPackages [perceval-public-inbox]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [perceval-public-inbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval_public_inbox-0.1.9.tar.gz tmp/perceval_public_inbox-0.1.9rc1.tar.gz --markdown 20240416/p/perceval-public-inbox/0.1.9-0.1.9rc1/README.md --exclude *.pyd
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/c1/f3/a3d28f0ad95c0bdaa79402349e54f9b6137b5791ed902822513cd6e7a2bf/autogluon.multimodal-1.1.0b20240415.tar.gz
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.0b20240414.tar.gz tmp/autogluon.features-1.1.0b20240415.tar.gz --markdown 20240416/a/autogluon.features/1.1.0b20240414-1.1.0b20240415/README.md --exclude *.pyd
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.0b20240414.tar.gz tmp/autogluon.common-1.1.0b20240415.tar.gz --markdown 20240416/a/autogluon.common/1.1.0b20240414-1.1.0b20240415/README.md --exclude *.pyd
+[2024-04-16 11:06:03] INFO root fetch - processPackages [elastic]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-5.2.2.4.tar.gz tmp/elastic-5.2.2.5.tar.gz --markdown 20240416/e/elastic/5.2.2.4-5.2.2.5/README.md --exclude *.pyd
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.0b20240414.tar.gz tmp/autogluon.core-1.1.0b20240415.tar.gz --markdown 20240416/a/autogluon.core/1.1.0b20240414-1.1.0b20240415/README.md --exclude *.pyd
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.0b20240414.tar.gz tmp/autogluon.multimodal-1.1.0b20240415.tar.gz --markdown 20240416/a/autogluon.multimodal/1.1.0b20240414-1.1.0b20240415/README.md --exclude *.pyd
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/80/6f/7e3b8ea2fcbd224cd07ab653f895b4d46129e9781ebdacd686255e498757/autogluon.tabular-1.1.0b20240415.tar.gz
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-16 11:06:03] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.0b20240414.tar.gz tmp/autogluon.tabular-1.1.0b20240415.tar.gz --markdown 20240416/a/autogluon.tabular/1.1.0b20240414-1.1.0b20240415/README.md --exclude *.pyd
+[2024-04-16 11:06:04] INFO root fetch - processPackages [perceval-topicbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_topicbox-0.1.4rc1.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [perceval-topicbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_topicbox-0.1.5rc1.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [perceval-topicbox]: Start processing: bec-client
+[2024-04-16 11:06:04] INFO root fetch - main [MainThread]: End processing [perceval-topicbox]: success
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-client]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [perceval-pontoon]: Remove: archive file [/home/abi/fetcher/tmp/perceval_pontoon-0.1.3rc1.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [perceval-pontoon]: Remove: archive file [/home/abi/fetcher/tmp/perceval_pontoon-0.1.4rc1.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [perceval-pontoon]: Start processing: bec-lib
+[2024-04-16 11:06:04] INFO root fetch - main [MainThread]: End processing [perceval-pontoon]: success
+[2024-04-16 11:06:04] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-0.1.8.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [prerun]: Remove: archive file [/home/abi/fetcher/tmp/prerun-1.0.0.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [prerun]: Start processing: bec-server
+[2024-04-16 11:06:04] INFO root fetch - main [MainThread]: End processing [prerun]: success
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/07/a1/f192d0935e2c6576c593b3636be61e0b72d7a347f5777ebe3abaf2cb673b/bec_client-2.3.0.tar.gz
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-server]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [perceval-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_public_inbox-0.1.9.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [perceval-public-inbox]: Remove: archive file [/home/abi/fetcher/tmp/perceval_public_inbox-0.1.9rc1.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [perceval-public-inbox]: Start processing: autogluon.timeseries
+[2024-04-16 11:06:04] INFO root fetch - main [MainThread]: End processing [perceval-public-inbox]: success
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-lib]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.0b20240415] Old Version: [1.1.0b20240414]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/d1/88/4820c37a582760264244b886a1d4fea3ee476793efc5686a6936a62bb606/bec_lib-2.4.0.tar.gz
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240414.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240414.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240415.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240415.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon
+[2024-04-16 11:06:04] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.features]: Start processing: merlin-batch-predictor
+[2024-04-16 11:06:04] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/36/a0/5977cf5f712db8df65f60ae2725e70f2c78e1d90b4eb6e4a82b35b1af3a1/autogluon.timeseries-1.1.0b20240414.tar.gz
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/38/c9/2d000ccfaa3083a5b705db0d955e2e40251560f46e838145b77d55d1bc13/bec-server-2.3.0.tar.gz
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/40/e3/a4ee1395fc2051dd46061d82374d1c774a082d406215354ed9bbfd7e035b/bec_client-2.4.0.tar.gz
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon]: New version: [1.1.0b20240415] Old Version: [1.1.0b20240414]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240414.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240415.tar.gz]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon.core]: Start processing: jaxsim
+[2024-04-16 11:06:04] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-16 11:06:04] INFO root fetch - processPackages [merlin-batch-predictor]: New version: [0.41.2rc2] Old Version: [0.41.2rc1]
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-client]: executing diffoscope
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_client-2.3.0.tar.gz tmp/bec_client-2.4.0.tar.gz --markdown 20240416/b/bec-client/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-16 11:06:04] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/57/37/001b043c7fbf8822a92179bdea1a896149dcde2f96bc4d98de9ae8e192c3/autogluon-1.1.0b20240414.tar.gz
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/e6/09/65ae23177f501cbff2119ceaa39608af3495ec9c01819b63d6bdc27799e5/bec-server-2.4.0.tar.gz
+[2024-04-16 11:06:04] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/f8/79/ed5bb88b779a88c60907f7996fd48de7dccfc39d8465cc7e2db177e8262b/bec_lib-2.4.1.tar.gz
+[2024-04-16 11:06:04] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240414.tar.gz]
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240415.tar.gz]
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon.multimodal]: Start processing: merlin-sdk
+[2024-04-16 11:06:05] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-16 11:06:05] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/47/c8/b0e1017a468f3dfef6ec6ba3ca83f91e7ed803b414512b840c37a584e404/merlin-batch-predictor-0.41.2rc1.tar.gz
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/32/ed/36d2370f2eab3486bdd17965ce6812c90cacec176256c3fce1e34935e3bb/autogluon.timeseries-1.1.0b20240415.tar.gz
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240414.tar.gz]
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240415.tar.gz]
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon.tabular]: Start processing: merlin-pyfunc-server
+[2024-04-16 11:06:05] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/67/cb/b5f58bf5313cc930a7a5d326292b25474550b9a316bd92ceb29f95dea1ab/autogluon-1.1.0b20240415.tar.gz
+[2024-04-16 11:06:05] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2024-04-16 11:06:05] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-04-16 11:06:05] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-04-16 11:06:05] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.4.0.tar.gz tmp/bec_lib-2.4.1.tar.gz --markdown 20240416/b/bec-lib/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-16 11:06:05] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-04-16 11:06:05] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-2.3.0.tar.gz tmp/bec-server-2.4.0.tar.gz --markdown 20240416/b/bec-server/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.0b20240414.tar.gz tmp/autogluon.timeseries-1.1.0b20240415.tar.gz --markdown 20240416/a/autogluon.timeseries/1.1.0b20240414-1.1.0b20240415/README.md --exclude *.pyd
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-16 11:06:05] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.0b20240414.tar.gz tmp/autogluon-1.1.0b20240415.tar.gz --markdown 20240416/a/autogluon/1.1.0b20240414-1.1.0b20240415/README.md --exclude *.pyd
+[2024-04-16 11:06:05] INFO root fetch - processPackages [merlin-pyfunc-server]: New version: [0.41.2rc2] Old Version: [0.41.2rc1]
+[2024-04-16 11:06:05] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2024-04-16 11:06:05] INFO root fetch - processPackages [merlin-batch-predictor]: Downloading https://files.pythonhosted.org/packages/da/15/969f136e980dd34b6e5284899caef13883dc045b3a84e757894a6994fdca/merlin-batch-predictor-0.41.2rc2.tar.gz
+[2024-04-16 11:06:05] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/17/c5/90fdd196df0f127c561fa73be7ee30053e8507bee2e6a610f4a9a5e9ef0e/merlin-pyfunc-server-0.41.2rc1.tar.gz
+[2024-04-16 11:06:05] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.4.tar.gz]
+[2024-04-16 11:06:05] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.5.tar.gz]
+[2024-04-16 11:06:05] INFO root fetch - main [MainThread]: End processing [elastic]: success
+[2024-04-16 11:06:05] INFO root fetch - processPackages [merlin-batch-predictor]: executing diffoscope
+[2024-04-16 11:06:05] INFO root fetch - processPackages [merlin-batch-predictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-batch-predictor-0.41.2rc1.tar.gz tmp/merlin-batch-predictor-0.41.2rc2.tar.gz --markdown 20240416/m/merlin-batch-predictor/0.41.2rc1-0.41.2rc2/README.md --exclude *.pyd
+[2024-04-16 11:06:05] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-04-16 11:06:05] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-2.3.0.tar.gz]
+[2024-04-16 11:06:05] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-2.4.0.tar.gz]
+[2024-04-16 11:06:05] INFO root fetch - main [MainThread]: End processing [bec-client]: success
+[2024-04-16 11:06:05] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2024-04-16 11:06:06] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-04-16 11:06:06] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240416/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-04-16 11:06:06] INFO root fetch - processPackages [merlin-pyfunc-server]: Downloading https://files.pythonhosted.org/packages/f3/ef/4f83e58ada0f77ca0593a6394ba9f9b9c7b83f8f4daed85a074853930f2b/merlin-pyfunc-server-0.41.2rc2.tar.gz
+[2024-04-16 11:06:06] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2024-04-16 11:06:06] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20240416/m/merlin-sdk/0.9.0.dev0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 11:06:06] INFO root fetch - processPackages [merlin-pyfunc-server]: executing diffoscope
+[2024-04-16 11:06:06] INFO root fetch - processPackages [merlin-pyfunc-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-pyfunc-server-0.41.2rc1.tar.gz tmp/merlin-pyfunc-server-0.41.2rc2.tar.gz --markdown 20240416/m/merlin-pyfunc-server/0.41.2rc1-0.41.2rc2/README.md --exclude *.pyd
+[2024-04-16 11:06:06] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-2.3.0.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-2.4.0.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-04-16 11:06:06] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240414.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240415.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-16 11:06:06] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240414.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240415.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-16 11:06:06] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.4.0.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.4.1.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-04-16 11:06:06] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.2rc1.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - processPackages [merlin-batch-predictor]: Remove: archive file [/home/abi/fetcher/tmp/merlin-batch-predictor-0.41.2rc2.tar.gz]
+[2024-04-16 11:06:06] INFO root fetch - main [MainThread]: End processing [merlin-batch-predictor]: success
+[2024-04-16 11:06:07] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-04-16 11:06:07] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-04-16 11:06:07] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-04-16 11:06:07] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.2rc1.tar.gz]
+[2024-04-16 11:06:07] INFO root fetch - processPackages [merlin-pyfunc-server]: Remove: archive file [/home/abi/fetcher/tmp/merlin-pyfunc-server-0.41.2rc2.tar.gz]
+[2024-04-16 11:06:07] INFO root fetch - main [MainThread]: End processing [merlin-pyfunc-server]: success
+[2024-04-16 11:06:07] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2024-04-16 11:06:07] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2024-04-16 11:06:07] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2024-04-16 11:06:07] INFO root fetch - main [MainThread]: Store serial: [22785033]
