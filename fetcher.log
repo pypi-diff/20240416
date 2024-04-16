@@ -14671,3 +14671,18 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:43:21] INFO root fetch - processPackages [venv-modulefile]: Remove: archive file [/home/abi/fetcher/tmp/venv-modulefile-0.1.5.tar.gz]
 [2024-04-16 12:43:21] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
 [2024-04-16 12:43:21] INFO root fetch - main [MainThread]: Store serial: [22786403]
+[2024-04-16 12:45:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786403]
+[2024-04-16 12:45:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 12:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ATL-Tools
+[2024-04-16 12:45:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-parrot-relaycontroller
+[2024-04-16 12:45:29] INFO root fetch - processPackages [ATL-Tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 12:45:29] WARNING root fetch - processPackages [robotframework-parrot-relaycontroller]: Skipping, unable to determine old version
+[2024-04-16 12:45:29] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-relaycontroller] error
+[2024-04-16 12:45:30] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/fc/4c/96f1577bdcff2055d984bd88a78974fcfcee8e8d357c9568879c08a94d8d/atl_tools-1.0.8.tar.gz
+[2024-04-16 12:45:30] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/25/3c/39a03cfd10f44986d5dd21ce1762105fa538eb798a21c008d83792494c22/atl_tools-1.0.9.tar.gz
+[2024-04-16 12:45:30] INFO root fetch - processPackages [ATL-Tools]: executing diffoscope
+[2024-04-16 12:45:30] INFO root fetch - processPackages [ATL-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atl_tools-1.0.8.tar.gz tmp/atl_tools-1.0.9.tar.gz --markdown 20240416/A/ATL-Tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 12:45:30] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.0.8.tar.gz]
+[2024-04-16 12:45:30] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.0.9.tar.gz]
+[2024-04-16 12:45:30] INFO root fetch - main [MainThread]: End processing [ATL-Tools]: success
+[2024-04-16 12:45:30] INFO root fetch - main [MainThread]: Store serial: [22786411]
