@@ -12643,3 +12643,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:28:36] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.9.0.tar.gz]
 [2024-04-16 11:28:36] INFO root fetch - main [MainThread]: End processing [pikepdf]: success
 [2024-04-16 11:28:36] INFO root fetch - main [MainThread]: Store serial: [22785446]
+[2024-04-16 11:30:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785446]
+[2024-04-16 11:30:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 11:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morphdb-utils
+[2024-04-16 11:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anemoi-datasets
+[2024-04-16 11:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elastic
+[2024-04-16 11:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: momo-data-validation-service
+[2024-04-16 11:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snudda
+[2024-04-16 11:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-front
+[2024-04-16 11:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meteo-icm
+[2024-04-16 11:30:44] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 11:30:44] INFO root fetch - processPackages [elastic]: New version: [5.2.3.1] Old Version: [5.2.2.7]
+[2024-04-16 11:30:44] INFO root fetch - processPackages [udata-front]: New version: [3.5.6.dev18797] Old Version: [3.5.5a117434]
+[2024-04-16 11:30:44] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-04-16 11:30:44] INFO root fetch - processPackages [snudda]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-16 11:30:44] INFO root fetch - processPackages [momo-data-validation-service]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-16 11:30:45] WARNING root fetch - processPackages [anemoi-datasets]: Skipping, unable to determine old version
+[2024-04-16 11:30:45] INFO root fetch - main [MainThread]: End processing [anemoi-datasets] error
+[2024-04-16 11:30:45] WARNING root fetch - processPackages [meteo-icm]: Skipping, unable to determine old version
+[2024-04-16 11:30:45] INFO root fetch - main [MainThread]: End processing [meteo-icm] error
+[2024-04-16 11:30:45] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/4f/4c/b0c2a826b16f44b79105e998b5d73d61475a9af49c5be60108bacec9bf23/elastic-5.2.2.7.tar.gz
+[2024-04-16 11:30:45] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-16 11:30:45] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-04-16 11:30:45] INFO root fetch - processPackages [momo-data-validation-service]: Downloading https://files.pythonhosted.org/packages/8e/d1/48f5247ae812efcf8712404974e4387cce9ffa06f97e878ce0d591905528/momo-data-validation-service-1.1.0.tar.gz
+[2024-04-16 11:30:45] INFO root fetch - processPackages [snudda]: Downloading https://files.pythonhosted.org/packages/cd/eb/4c66583132496e31dbf9263a0a786b03d2e6120748c24d3d1f3550224031/snudda-2.0.1.tar.gz
+[2024-04-16 11:30:45] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-04-16 11:30:45] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240416/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 11:30:45] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/b1/d5/a8143deeedb3892224731d763ca07a09d49dccf2a074e1e572c8cf99b029/elastic-5.2.3.1.tar.gz
+[2024-04-16 11:30:45] INFO root fetch - processPackages [momo-data-validation-service]: Downloading https://files.pythonhosted.org/packages/c5/1a/ed94a4dbec23335c51312e2161bcf1cd56187ecdab0bbba950aa94302155/momo_data_validation_service-1.2.0.tar.gz
+[2024-04-16 11:30:45] INFO root fetch - processPackages [elastic]: executing diffoscope
+[2024-04-16 11:30:45] INFO root fetch - processPackages [elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-5.2.2.7.tar.gz tmp/elastic-5.2.3.1.tar.gz --markdown 20240416/e/elastic/5.2.2.7-5.2.3.1/README.md --exclude *.pyd
+[2024-04-16 11:30:45] INFO root fetch - processPackages [momo-data-validation-service]: executing diffoscope
+[2024-04-16 11:30:45] INFO root fetch - processPackages [momo-data-validation-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momo-data-validation-service-1.1.0.tar.gz tmp/momo_data_validation_service-1.2.0.tar.gz --markdown 20240416/m/momo-data-validation-service/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-16 11:30:45] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/9b/04/e1294130cef18fc9a896cc79aea28de292084b8614dab2f90e667488f01f/udata_front-3.5.6.dev18797-py2.py3-none-any.whl
+[2024-04-16 11:30:45] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-04-16 11:30:45] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-04-16 11:30:45] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-04-16 11:30:45] INFO root fetch - processPackages [snudda]: Downloading https://files.pythonhosted.org/packages/a6/a3/79d52dc4a8e29879b1e8a6f2b207c2ebb708cc948f5dcce92b1440881e79/snudda-2.0.2.tar.gz
+[2024-04-16 11:30:46] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-16 11:30:46] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip tmp/udata_front-3.5.6.dev18797-py2.py3-none-any.whl.zip --markdown 20240416/u/udata-front/3.5.5a117434-3.5.6.dev18797/README.md --exclude *.pyd
+[2024-04-16 11:30:46] INFO root fetch - processPackages [momo-data-validation-service]: Remove: archive file [/home/abi/fetcher/tmp/momo-data-validation-service-1.1.0.tar.gz]
+[2024-04-16 11:30:46] INFO root fetch - processPackages [momo-data-validation-service]: Remove: archive file [/home/abi/fetcher/tmp/momo_data_validation_service-1.2.0.tar.gz]
+[2024-04-16 11:30:46] INFO root fetch - main [MainThread]: End processing [momo-data-validation-service]: success
+[2024-04-16 11:30:47] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.7.tar.gz]
+[2024-04-16 11:30:47] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.3.1.tar.gz]
+[2024-04-16 11:30:47] INFO root fetch - main [MainThread]: End processing [elastic]: success
+[2024-04-16 11:30:47] INFO root fetch - processPackages [snudda]: executing diffoscope
+[2024-04-16 11:30:47] INFO root fetch - processPackages [snudda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snudda-2.0.1.tar.gz tmp/snudda-2.0.2.tar.gz --markdown 20240416/s/snudda/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-16 11:30:51] INFO root fetch - processPackages [snudda]: Remove: archive file [/home/abi/fetcher/tmp/snudda-2.0.1.tar.gz]
+[2024-04-16 11:30:51] INFO root fetch - processPackages [snudda]: Remove: archive file [/home/abi/fetcher/tmp/snudda-2.0.2.tar.gz]
+[2024-04-16 11:30:51] INFO root fetch - main [MainThread]: End processing [snudda]: success
+[2024-04-16 11:31:55] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-16 11:31:55] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev18797-py2.py3-none-any.whl.zip]
+[2024-04-16 11:31:55] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-16 11:31:55] INFO root fetch - main [MainThread]: Store serial: [22785469]
