@@ -3898,3 +3898,42 @@
 [2024-04-16 04:10:18] INFO root fetch - processPackages [gradio-awsBedrock-multimodalChatbot]: Remove: archive file [/home/abi/fetcher/tmp/gradio_awsbedrock_multimodalchatbot-0.0.2.tar.gz]
 [2024-04-16 04:10:18] INFO root fetch - main [MainThread]: End processing [gradio-awsBedrock-multimodalChatbot]: success
 [2024-04-16 04:10:18] INFO root fetch - main [MainThread]: Store serial: [22781515]
+[2024-04-16 04:12:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781515]
+[2024-04-16 04:12:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 04:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudben
+[2024-04-16 04:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DXR-BJ
+[2024-04-16 04:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dgenerate
+[2024-04-16 04:12:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PerplexiPy
+[2024-04-16 04:12:26] INFO root fetch - processPackages [DXR-BJ]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 04:12:26] INFO root fetch - processPackages [dgenerate]: New version: [3.4.4] Old Version: [3.4.3]
+[2024-04-16 04:12:26] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/8d/fd/9781b16aacaa1e2eda4916f3972fd69b067a181b82e1af85b955d8aaba59/DXR_BJ-0.0.2.tar.gz
+[2024-04-16 04:12:26] INFO root fetch - processPackages [cloudben]: New version: [1.0.0] Old Version: [0.1.3]
+[2024-04-16 04:12:27] INFO root fetch - processPackages [PerplexiPy]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-16 04:12:27] INFO root fetch - processPackages [dgenerate]: Downloading https://files.pythonhosted.org/packages/92/38/572228c92bce04d1fb5225f917eb9c4e3aaaaa4d8bd790ef32b4a8111bb3/dgenerate-3.4.3.tar.gz
+[2024-04-16 04:12:27] INFO root fetch - processPackages [cloudben]: Downloading https://files.pythonhosted.org/packages/80/e9/21dfd1f6d20aacf0c70930bc680c44a192512c78e08b7ed46fcfdfba3b80/cloudben-0.1.3.tar.gz
+[2024-04-16 04:12:27] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/b9/d0/d3d49f2af24e1ad29efceeb18c535b2c04b918c77ecb523036bf481900e8/PerplexiPy-0.2.2-py3-none-any.whl
+[2024-04-16 04:12:27] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/bd/f7/8701441b181e95d93b29f36f835ae7668b3bd5ea87560a33a229bc660b34/DXR_BJ-0.0.3.tar.gz
+[2024-04-16 04:12:27] INFO root fetch - processPackages [dgenerate]: Downloading https://files.pythonhosted.org/packages/72/2a/8920af982a785763d229b43a96e7e8d0b9dabac21844c134db338c9dacf6/dgenerate-3.4.4.tar.gz
+[2024-04-16 04:12:27] INFO root fetch - processPackages [cloudben]: Downloading https://files.pythonhosted.org/packages/5e/98/bf25645feaddd8f56773f74c830bd877b5503d1565e4eb28610216d43955/cloudben-1.0.0.tar.gz
+[2024-04-16 04:12:27] INFO root fetch - processPackages [PerplexiPy]: Downloading https://files.pythonhosted.org/packages/fe/47/3f44cd2addbfb6cec15bafc3a34d28ba624d738f87e113647730c6dfd83b/PerplexiPy-0.3.0-py3-none-any.whl
+[2024-04-16 04:12:27] INFO root fetch - processPackages [dgenerate]: executing diffoscope
+[2024-04-16 04:12:27] INFO root fetch - processPackages [dgenerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgenerate-3.4.3.tar.gz tmp/dgenerate-3.4.4.tar.gz --markdown 20240416/d/dgenerate/3.4.3-3.4.4/README.md --exclude *.pyd
+[2024-04-16 04:12:27] INFO root fetch - processPackages [cloudben]: executing diffoscope
+[2024-04-16 04:12:27] INFO root fetch - processPackages [cloudben]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudben-0.1.3.tar.gz tmp/cloudben-1.0.0.tar.gz --markdown 20240416/c/cloudben/0.1.3-1.0.0/README.md --exclude *.pyd
+[2024-04-16 04:12:27] INFO root fetch - processPackages [PerplexiPy]: executing diffoscope
+[2024-04-16 04:12:27] INFO root fetch - processPackages [PerplexiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PerplexiPy-0.2.2-py3-none-any.whl.zip tmp/PerplexiPy-0.3.0-py3-none-any.whl.zip --markdown 20240416/P/PerplexiPy/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-16 04:12:28] INFO root fetch - processPackages [cloudben]: Remove: archive file [/home/abi/fetcher/tmp/cloudben-0.1.3.tar.gz]
+[2024-04-16 04:12:28] INFO root fetch - processPackages [cloudben]: Remove: archive file [/home/abi/fetcher/tmp/cloudben-1.0.0.tar.gz]
+[2024-04-16 04:12:28] INFO root fetch - main [MainThread]: End processing [cloudben]: success
+[2024-04-16 04:12:28] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-0.2.2-py3-none-any.whl.zip]
+[2024-04-16 04:12:28] INFO root fetch - processPackages [PerplexiPy]: Remove: archive file [/home/abi/fetcher/tmp/PerplexiPy-0.3.0-py3-none-any.whl.zip]
+[2024-04-16 04:12:28] INFO root fetch - main [MainThread]: End processing [PerplexiPy]: success
+[2024-04-16 04:12:28] INFO root fetch - processPackages [DXR-BJ]: executing diffoscope
+[2024-04-16 04:12:28] INFO root fetch - processPackages [DXR-BJ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR_BJ-0.0.2.tar.gz tmp/DXR_BJ-0.0.3.tar.gz --markdown 20240416/D/DXR-BJ/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 04:12:29] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-0.0.2.tar.gz]
+[2024-04-16 04:12:29] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-0.0.3.tar.gz]
+[2024-04-16 04:12:29] INFO root fetch - main [MainThread]: End processing [DXR-BJ]: success
+[2024-04-16 04:12:29] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.4.3.tar.gz]
+[2024-04-16 04:12:29] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.4.4.tar.gz]
+[2024-04-16 04:12:29] INFO root fetch - main [MainThread]: End processing [dgenerate]: success
+[2024-04-16 04:12:29] INFO root fetch - main [MainThread]: Store serial: [22781527]
