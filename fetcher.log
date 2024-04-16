@@ -7663,3 +7663,69 @@
 [2024-04-16 08:31:17] INFO root fetch - processPackages [drawdraw]: Remove: archive file [/home/abi/fetcher/tmp/drawdraw-0.0.2-py3-none-any.whl.zip]
 [2024-04-16 08:31:17] INFO root fetch - main [MainThread]: End processing [drawdraw]: success
 [2024-04-16 08:31:17] INFO root fetch - main [MainThread]: Store serial: [22783226]
+[2024-04-16 08:33:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783226]
+[2024-04-16 08:33:25] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokenized-input-blobs
+[2024-04-16 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aonvif
+[2024-04-16 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysimmods
+[2024-04-16 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pre5g
+[2024-04-16 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxzscxiezhifeng1
+[2024-04-16 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pennylane-kq
+[2024-04-16 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: haskellian-asyn
+[2024-04-16 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-deeplinker
+[2024-04-16 08:33:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-purchase-request
+[2024-04-16 08:33:25] WARNING root fetch - processPackages [tokenized-input-blobs]: Skipping, unable to determine old version
+[2024-04-16 08:33:25] INFO root fetch - main [MainThread]: End processing [tokenized-input-blobs] error
+[2024-04-16 08:33:25] INFO root fetch - processPackages [pre5g]: New version: [3.8] Old Version: [3.7]
+[2024-04-16 08:33:25] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/01/c8/78d208638cab0ef5bd1662042c5b8fcc3413ec85e7f716995e782d8031cd/pre5g-3.7.tar.gz
+[2024-04-16 08:33:25] WARNING root fetch - processPackages [cxzscxiezhifeng1]: Skipping, unable to determine old version
+[2024-04-16 08:33:25] INFO root fetch - main [MainThread]: End processing [cxzscxiezhifeng1] error
+[2024-04-16 08:33:25] INFO root fetch - processPackages [pennylane-kq]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-16 08:33:25] INFO root fetch - processPackages [aonvif]: New version: [1.0.0rc8] Old Version: [1.0.0rc6]
+[2024-04-16 08:33:25] INFO root fetch - processPackages [pysimmods]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 08:33:25] WARNING root fetch - processPackages [streamlit-deeplinker]: Skipping, unable to determine old version
+[2024-04-16 08:33:25] INFO root fetch - main [MainThread]: End processing [streamlit-deeplinker] error
+[2024-04-16 08:33:25] INFO root fetch - processPackages [odoo12-addon-purchase-request]: New version: [12.0.5.4.0.99.dev2] Old Version: [12.0.5.4.0.99.dev1]
+[2024-04-16 08:33:25] INFO root fetch - processPackages [haskellian-asyn]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/b2/96/1dabe5f84bdb9973245eb814bcad71e5d17887690faa99ef772bc7772f74/pennylane-kq-0.0.5.tar.gz
+[2024-04-16 08:33:26] INFO root fetch - processPackages [aonvif]: Downloading https://files.pythonhosted.org/packages/fe/13/02657b9b58b233865ac8d24341f87f5391ad964a4005f1c066141a04fa2e/aonvif-1.0.0rc6.tar.gz
+[2024-04-16 08:33:26] INFO root fetch - processPackages [haskellian-asyn]: Downloading https://files.pythonhosted.org/packages/b4/e4/1216329d7921a2b6c92f9d9a69cb89ffa29adb51ca1b7acaa5a9771c845e/haskellian-asyn-0.3.2.tar.gz
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pysimmods]: Downloading https://files.pythonhosted.org/packages/76/58/52e952b0fc9b1c8e0de55a0178f751ff40740803deb75fbadacb32f41507/pysimmods-0.9.0.tar.gz
+[2024-04-16 08:33:26] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/02/61/44079d2893f5051c5d264c32309afc02f4861fc191eedcdeb60f070a6b4f/odoo12_addon_purchase_request-12.0.5.4.0.99.dev1-py3-none-any.whl
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/df/31/2867bb0677dfe9652b16bb4dc05c6ef943d0cc1c61c1abbe0c98fb319f32/pre5g-3.8.tar.gz
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-3.7.tar.gz tmp/pre5g-3.8.tar.gz --markdown 20240416/p/pre5g/3.7-3.8/README.md --exclude *.pyd
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/75/c6/80606533b6bf664d46f0d2300480eca7533e7ee996f188d99f47d79935f4/pennylane_kq-0.0.6.tar.gz
+[2024-04-16 08:33:26] INFO root fetch - processPackages [haskellian-asyn]: Downloading https://files.pythonhosted.org/packages/d4/4c/e6cf358caeb96339e2772b96738fbe37fff8dff6ece157da6370786b5556/haskellian_asyn-0.3.3.tar.gz
+[2024-04-16 08:33:26] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/1f/a8/dfc770662b452a3af93bd4c7e86da73d0478615049e559838750a89ac1ea/odoo12_addon_purchase_request-12.0.5.4.0.99.dev2-py3-none-any.whl
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pennylane-kq]: executing diffoscope
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pennylane-kq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-kq-0.0.5.tar.gz tmp/pennylane_kq-0.0.6.tar.gz --markdown 20240416/p/pennylane-kq/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pysimmods]: Downloading https://files.pythonhosted.org/packages/19/37/4317e28c97bb2b6306eb6d4fc24c733fcc27f92f8d63575146a45de6e361/pysimmods-0.9.1.tar.gz
+[2024-04-16 08:33:26] INFO root fetch - processPackages [aonvif]: Downloading https://files.pythonhosted.org/packages/51/1b/87e966f114f1af14245b41cbf670b17c8e825481447a158a08e6b3f2401e/aonvif-1.0.0rc8.tar.gz
+[2024-04-16 08:33:26] INFO root fetch - processPackages [haskellian-asyn]: executing diffoscope
+[2024-04-16 08:33:26] INFO root fetch - processPackages [haskellian-asyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-asyn-0.3.2.tar.gz tmp/haskellian_asyn-0.3.3.tar.gz --markdown 20240416/h/haskellian-asyn/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pysimmods]: executing diffoscope
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pysimmods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysimmods-0.9.0.tar.gz tmp/pysimmods-0.9.1.tar.gz --markdown 20240416/p/pysimmods/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 08:33:26] INFO root fetch - processPackages [odoo12-addon-purchase-request]: executing diffoscope
+[2024-04-16 08:33:26] INFO root fetch - processPackages [odoo12-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_purchase_request-12.0.5.4.0.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_purchase_request-12.0.5.4.0.99.dev2-py3-none-any.whl.zip --markdown 20240416/o/odoo12-addon-purchase-request/12.0.5.4.0.99.dev1-12.0.5.4.0.99.dev2/README.md --exclude *.pyd
+[2024-04-16 08:33:26] INFO root fetch - processPackages [aonvif]: executing diffoscope
+[2024-04-16 08:33:26] INFO root fetch - processPackages [aonvif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aonvif-1.0.0rc6.tar.gz tmp/aonvif-1.0.0rc8.tar.gz --markdown 20240416/a/aonvif/1.0.0rc6-1.0.0rc8/README.md --exclude *.pyd
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.7.tar.gz]
+[2024-04-16 08:33:26] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.8.tar.gz]
+[2024-04-16 08:33:26] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-16 08:33:27] INFO root fetch - processPackages [haskellian-asyn]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-asyn-0.3.2.tar.gz]
+[2024-04-16 08:33:27] INFO root fetch - processPackages [haskellian-asyn]: Remove: archive file [/home/abi/fetcher/tmp/haskellian_asyn-0.3.3.tar.gz]
+[2024-04-16 08:33:27] INFO root fetch - main [MainThread]: End processing [haskellian-asyn]: success
+[2024-04-16 08:33:27] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.5.tar.gz]
+[2024-04-16 08:33:27] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane_kq-0.0.6.tar.gz]
+[2024-04-16 08:33:27] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
+[2024-04-16 08:33:27] INFO root fetch - processPackages [pysimmods]: Remove: archive file [/home/abi/fetcher/tmp/pysimmods-0.9.0.tar.gz]
+[2024-04-16 08:33:27] INFO root fetch - processPackages [pysimmods]: Remove: archive file [/home/abi/fetcher/tmp/pysimmods-0.9.1.tar.gz]
+[2024-04-16 08:33:27] INFO root fetch - main [MainThread]: End processing [pysimmods]: success
+[2024-04-16 08:33:27] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.4.0.99.dev1-py3-none-any.whl.zip]
+[2024-04-16 08:33:27] INFO root fetch - processPackages [odoo12-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_purchase_request-12.0.5.4.0.99.dev2-py3-none-any.whl.zip]
+[2024-04-16 08:33:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-purchase-request]: success
+[2024-04-16 08:33:28] INFO root fetch - processPackages [aonvif]: Remove: archive file [/home/abi/fetcher/tmp/aonvif-1.0.0rc6.tar.gz]
+[2024-04-16 08:33:28] INFO root fetch - processPackages [aonvif]: Remove: archive file [/home/abi/fetcher/tmp/aonvif-1.0.0rc8.tar.gz]
+[2024-04-16 08:33:28] INFO root fetch - main [MainThread]: End processing [aonvif]: success
+[2024-04-16 08:33:28] INFO root fetch - main [MainThread]: Store serial: [22783258]
