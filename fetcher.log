@@ -13075,3 +13075,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:43:03] INFO root fetch - processPackages [digiflow]: Remove: archive file [/home/abi/fetcher/tmp/digiflow-3.9.2.tar.gz]
 [2024-04-16 11:43:03] INFO root fetch - main [MainThread]: End processing [digiflow]: success
 [2024-04-16 11:43:03] INFO root fetch - main [MainThread]: Store serial: [22785608]
+[2024-04-16 11:45:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785608]
+[2024-04-16 11:45:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certbot-dns-ionos-cloud
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prusek-spheroid
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg-devx-core
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rocs-client
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: text_lloom
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mosamaticdesktop
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teradatamodelops
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fireblocks-sdk
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: upgini
+[2024-04-16 11:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jhu
+[2024-04-16 11:45:12] INFO root fetch - processPackages [rocs-client]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-04-16 11:45:12] INFO root fetch - processPackages [cg-devx-core]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 11:45:12] INFO root fetch - processPackages [prusek-spheroid]: New version: [5.9] Old Version: [5.8]
+[2024-04-16 11:45:12] INFO root fetch - processPackages [mosamaticdesktop]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 11:45:12] WARNING root fetch - processPackages [certbot-dns-ionos-cloud]: Skipping, unable to determine old version
+[2024-04-16 11:45:12] INFO root fetch - main [MainThread]: End processing [certbot-dns-ionos-cloud] error
+[2024-04-16 11:45:12] INFO root fetch - processPackages [jhu]: New version: [1.5.0] Old Version: [1.4.2]
+[2024-04-16 11:45:12] INFO root fetch - processPackages [rocs-client]: Downloading https://files.pythonhosted.org/packages/2c/0c/440cca2dfda4d5eacfcd729891114de3bc1cf2b6bbdc326d93fcb3888734/rocs_client-1.3.6-py3-none-any.whl
+[2024-04-16 11:45:12] INFO root fetch - processPackages [teradatamodelops]: New version: [7.0.6rc1] Old Version: [7.0.5b5]
+[2024-04-16 11:45:12] INFO root fetch - processPackages [text_lloom]: New version: [0.4] Old Version: [0.3]
+[2024-04-16 11:45:12] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/8b/43/e947ac2d84d263d87c86e994b813bea1d28b70c7c1773b95fc87057f422a/prusek_spheroid-5.8.tar.gz
+[2024-04-16 11:45:12] INFO root fetch - processPackages [fireblocks-sdk]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-04-16 11:45:12] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-16 11:45:12] INFO root fetch - processPackages [cg-devx-core]: Downloading https://files.pythonhosted.org/packages/b8/0c/eaa963daf2dbf38dd77a989d1770824ed96dd9c1ab8edf69327494fee841/cg_devx_core-0.2.2.tar.gz
+[2024-04-16 11:45:12] INFO root fetch - processPackages [mosamaticdesktop]: Downloading https://files.pythonhosted.org/packages/82/03/2406a4ae700478199e7724c07289b8b70d4042f0fbd63c5c37c2b8961c48/mosamaticdesktop-1.8.0.tar.gz
+[2024-04-16 11:45:12] INFO root fetch - processPackages [jhu]: Downloading https://files.pythonhosted.org/packages/8c/c9/3d180577dd27fd11ed9b2dd34e1e49d41eeeee72b2ce821758ad176e21be/jhu-1.4.2.tar.gz
+[2024-04-16 11:45:12] INFO root fetch - processPackages [teradatamodelops]: Downloading https://files.pythonhosted.org/packages/70/f4/974710430bce4f6fb3deb0e7854e434be96360f580f275df76e93fd81c9b/teradatamodelops-7.0.5b5.tar.gz
+[2024-04-16 11:45:12] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/fe/5d/4a6661c8b2ec232a06ccd86513251068846177b9c0248e6aee802e2c4ab2/text_lloom-0.3.tar.gz
+[2024-04-16 11:45:12] INFO root fetch - processPackages [fireblocks-sdk]: Downloading https://files.pythonhosted.org/packages/91/c2/db20a64d9d3d4c6dfe532e1f682f153eb1d76b4734ffcb5bc6ff29c1c713/fireblocks_sdk-2.8.0.tar.gz
+[2024-04-16 11:45:12] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-04-16 11:45:12] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/d9/83/7378fa5c50073a5be12283792b76fd3a0474cb6fc3ecdcc4c1ec4dcadd10/prusek_spheroid-5.9.tar.gz
+[2024-04-16 11:45:12] INFO root fetch - processPackages [rocs-client]: Downloading https://files.pythonhosted.org/packages/ff/bd/8bc922b938f1751b74ddadab67ecacfc0653779b1c5d1366dbdaa1f2a252/rocs_client-1.3.7.tar.gz
+[2024-04-16 11:45:13] INFO root fetch - processPackages [cg-devx-core]: Downloading https://files.pythonhosted.org/packages/9c/f5/69fa0ba52247f78f2ffba6230c2855fc249a9ebba82c945fc920a10eae60/cg_devx_core-0.2.3.tar.gz
+[2024-04-16 11:45:13] INFO root fetch - processPackages [mosamaticdesktop]: Downloading https://files.pythonhosted.org/packages/1b/b2/214eebd120dbaed1da0c793dd8d6cc53f40a2eba7e7f2f1293e059e2ab2a/mosamaticdesktop-1.9.0.tar.gz
+[2024-04-16 11:45:13] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-16 11:45:13] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-5.8.tar.gz tmp/prusek_spheroid-5.9.tar.gz --markdown 20240416/p/prusek-spheroid/5.8-5.9/README.md --exclude *.pyd
+[2024-04-16 11:45:13] INFO root fetch - processPackages [jhu]: Downloading https://files.pythonhosted.org/packages/bb/a1/12f292c4f1f489d2d6e5c3e6cbe132b95dbd1a360c639057b3d1fcda322d/jhu-1.5.0.tar.gz
+[2024-04-16 11:45:13] INFO root fetch - processPackages [cg-devx-core]: executing diffoscope
+[2024-04-16 11:45:13] INFO root fetch - processPackages [cg-devx-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_devx_core-0.2.2.tar.gz tmp/cg_devx_core-0.2.3.tar.gz --markdown 20240416/c/cg-devx-core/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 11:45:13] INFO root fetch - processPackages [fireblocks-sdk]: Downloading https://files.pythonhosted.org/packages/34/c6/7f223c2230a97a63dd25a68c47bb998f3016a84a7e7a9becc7223c65bcc9/fireblocks_sdk-2.8.1.tar.gz
+[2024-04-16 11:45:13] INFO root fetch - processPackages [text_lloom]: Downloading https://files.pythonhosted.org/packages/86/9c/8b93e7bdb7be4e09c633d4adc716d531f7b6221a33398e70bb852a8fa9b9/text_lloom-0.4.tar.gz
+[2024-04-16 11:45:13] INFO root fetch - processPackages [mosamaticdesktop]: executing diffoscope
+[2024-04-16 11:45:13] INFO root fetch - processPackages [mosamaticdesktop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosamaticdesktop-1.8.0.tar.gz tmp/mosamaticdesktop-1.9.0.tar.gz --markdown 20240416/m/mosamaticdesktop/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-16 11:45:13] INFO root fetch - processPackages [teradatamodelops]: Downloading https://files.pythonhosted.org/packages/b9/18/d9231d45aba4bda546277d385cd0b2f0fdbeaad3b9de7c23d4081bd11eb3/teradatamodelops-7.0.6rc1.tar.gz
+[2024-04-16 11:45:13] INFO root fetch - processPackages [jhu]: executing diffoscope
+[2024-04-16 11:45:13] INFO root fetch - processPackages [jhu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhu-1.4.2.tar.gz tmp/jhu-1.5.0.tar.gz --markdown 20240416/j/jhu/1.4.2-1.5.0/README.md --exclude *.pyd
+[2024-04-16 11:45:13] INFO root fetch - processPackages [rocs-client]: executing diffoscope
+[2024-04-16 11:45:13] INFO root fetch - processPackages [rocs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocs_client-1.3.6-py3-none-any.whl.zip tmp/rocs_client-1.3.7.tar.gz --markdown 20240416/r/rocs-client/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-04-16 11:45:13] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-04-16 11:45:13] INFO root fetch - processPackages [fireblocks-sdk]: executing diffoscope
+[2024-04-16 11:45:13] INFO root fetch - processPackages [fireblocks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireblocks_sdk-2.8.0.tar.gz tmp/fireblocks_sdk-2.8.1.tar.gz --markdown 20240416/f/fireblocks-sdk/2.8.0-2.8.1/README.md --exclude *.pyd
+[2024-04-16 11:45:13] INFO root fetch - processPackages [text_lloom]: executing diffoscope
+[2024-04-16 11:45:13] INFO root fetch - processPackages [text_lloom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_lloom-0.3.tar.gz tmp/text_lloom-0.4.tar.gz --markdown 20240416/t/text_lloom/0.3-0.4/README.md --exclude *.pyd
+[2024-04-16 11:45:13] INFO root fetch - processPackages [teradatamodelops]: executing diffoscope
+[2024-04-16 11:45:13] INFO root fetch - processPackages [teradatamodelops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teradatamodelops-7.0.5b5.tar.gz tmp/teradatamodelops-7.0.6rc1.tar.gz --markdown 20240416/t/teradatamodelops/7.0.5b5-7.0.6rc1/README.md --exclude *.pyd
+[2024-04-16 11:45:13] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-04-16 11:45:13] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240416/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-16 11:45:14] INFO root fetch - processPackages [jhu]: Remove: archive file [/home/abi/fetcher/tmp/jhu-1.4.2.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - processPackages [jhu]: Remove: archive file [/home/abi/fetcher/tmp/jhu-1.5.0.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - main [MainThread]: End processing [jhu]: success
+[2024-04-16 11:45:14] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-5.8.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-5.9.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-16 11:45:14] INFO root fetch - processPackages [cg-devx-core]: Remove: archive file [/home/abi/fetcher/tmp/cg_devx_core-0.2.2.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - processPackages [cg-devx-core]: Remove: archive file [/home/abi/fetcher/tmp/cg_devx_core-0.2.3.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - main [MainThread]: End processing [cg-devx-core]: success
+[2024-04-16 11:45:14] INFO root fetch - processPackages [fireblocks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fireblocks_sdk-2.8.0.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - processPackages [fireblocks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fireblocks_sdk-2.8.1.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - main [MainThread]: End processing [fireblocks-sdk]: success
+[2024-04-16 11:45:14] INFO root fetch - processPackages [mosamaticdesktop]: Remove: archive file [/home/abi/fetcher/tmp/mosamaticdesktop-1.8.0.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - processPackages [mosamaticdesktop]: Remove: archive file [/home/abi/fetcher/tmp/mosamaticdesktop-1.9.0.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - main [MainThread]: End processing [mosamaticdesktop]: success
+[2024-04-16 11:45:14] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.3.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - processPackages [text_lloom]: Remove: archive file [/home/abi/fetcher/tmp/text_lloom-0.4.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - main [MainThread]: End processing [text_lloom]: success
+[2024-04-16 11:45:14] INFO root fetch - processPackages [teradatamodelops]: Remove: archive file [/home/abi/fetcher/tmp/teradatamodelops-7.0.5b5.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - processPackages [teradatamodelops]: Remove: archive file [/home/abi/fetcher/tmp/teradatamodelops-7.0.6rc1.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - main [MainThread]: End processing [teradatamodelops]: success
+[2024-04-16 11:45:14] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-04-16 11:45:14] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-04-16 11:45:16] INFO root fetch - processPackages [rocs-client]: Remove: archive file [/home/abi/fetcher/tmp/rocs_client-1.3.6-py3-none-any.whl.zip]
+[2024-04-16 11:45:16] INFO root fetch - processPackages [rocs-client]: Remove: archive file [/home/abi/fetcher/tmp/rocs_client-1.3.7.tar.gz]
+[2024-04-16 11:45:16] INFO root fetch - main [MainThread]: End processing [rocs-client]: success
+[2024-04-16 11:45:16] INFO root fetch - main [MainThread]: Store serial: [22785637]
