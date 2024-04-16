@@ -2766,3 +2766,51 @@
 [2024-04-16 02:42:36] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.738.0.tar.gz]
 [2024-04-16 02:42:36] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-16 02:42:36] INFO root fetch - main [MainThread]: Store serial: [22780972]
+[2024-04-16 02:44:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780972]
+[2024-04-16 02:44:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 02:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethyca-fides
+[2024-04-16 02:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-my-hours
+[2024-04-16 02:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CryptMaster
+[2024-04-16 02:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfds-nightly
+[2024-04-16 02:44:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yoto-api
+[2024-04-16 02:44:45] INFO root fetch - processPackages [yoto-api]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-16 02:44:45] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 02:44:45] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404150242] Old Version: [4.9.4.dev202404140044]
+[2024-04-16 02:44:45] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-16 02:44:45] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/29/29/1b344cc343dfdd31eed135d8da17d3752522853f41f4af8843665d80102f/yoto_api-1.0.9.tar.gz
+[2024-04-16 02:44:45] INFO root fetch - processPackages [airbyte-source-my-hours]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-16 02:44:45] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/6b/ef/a8df3ee18cb34c4d7fd007503c7c4c736dac46cac6327446e753a3a74dbd/tfds-nightly-4.9.4.dev202404140044.tar.gz
+[2024-04-16 02:44:45] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-04-16 02:44:45] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 02:44:45] INFO root fetch - processPackages [airbyte-source-my-hours]: Downloading https://files.pythonhosted.org/packages/4b/fb/2a229a766c2dc74819830a45c8473f698c423fd58f00ed69bf94e31cd150/airbyte-source-my-hours-0.1.2.tar.gz
+[2024-04-16 02:44:45] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 02:44:45] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-04-16 02:44:45] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/dd/fc/9028c89f560b09df606b46c91f2818d47044c4085734bee3ca16853a869f/yoto_api-1.1.0.tar.gz
+[2024-04-16 02:44:45] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 02:44:45] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 02:44:45] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/f2/03/00fa8f9b2118b48557883261594a6abe8f7cfbd672d5cd9774466c6a9eab/tfds-nightly-4.9.4.dev202404150242.tar.gz
+[2024-04-16 02:44:45] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-16 02:44:45] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.0.9.tar.gz tmp/yoto_api-1.1.0.tar.gz --markdown 20240416/y/yoto-api/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-16 02:44:46] INFO root fetch - processPackages [airbyte-source-my-hours]: Downloading https://files.pythonhosted.org/packages/9f/f4/7f67af360de048277e94acf47ac9c83f1ccf805fc233c95e49a9b8f144e7/airbyte_source_my_hours-0.2.0.tar.gz
+[2024-04-16 02:44:46] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-04-16 02:44:46] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240416/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-16 02:44:46] INFO root fetch - processPackages [airbyte-source-my-hours]: executing diffoscope
+[2024-04-16 02:44:46] INFO root fetch - processPackages [airbyte-source-my-hours]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-my-hours-0.1.2.tar.gz tmp/airbyte_source_my_hours-0.2.0.tar.gz --markdown 20240416/a/airbyte-source-my-hours/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-16 02:44:46] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-16 02:44:46] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404140044.tar.gz tmp/tfds-nightly-4.9.4.dev202404150242.tar.gz --markdown 20240416/t/tfds-nightly/4.9.4.dev202404140044-4.9.4.dev202404150242/README.md --exclude *.pyd
+[2024-04-16 02:44:46] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.9.tar.gz]
+[2024-04-16 02:44:46] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.1.0.tar.gz]
+[2024-04-16 02:44:46] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-16 02:44:46] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 02:44:46] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 02:44:46] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 02:44:46] INFO root fetch - processPackages [airbyte-source-my-hours]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-my-hours-0.1.2.tar.gz]
+[2024-04-16 02:44:46] INFO root fetch - processPackages [airbyte-source-my-hours]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_my_hours-0.2.0.tar.gz]
+[2024-04-16 02:44:46] INFO root fetch - main [MainThread]: End processing [airbyte-source-my-hours]: success
+[2024-04-16 02:44:49] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-04-16 02:44:49] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-04-16 02:44:49] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-04-16 02:44:55] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404140044.tar.gz]
+[2024-04-16 02:44:55] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404150242.tar.gz]
+[2024-04-16 02:44:55] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-16 02:44:55] INFO root fetch - main [MainThread]: Store serial: [22780987]
