@@ -2985,3 +2985,36 @@
 [2024-04-16 03:04:39] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.9.tar.gz]
 [2024-04-16 03:04:39] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
 [2024-04-16 03:04:39] INFO root fetch - main [MainThread]: Store serial: [22781058]
+[2024-04-16 03:06:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781058]
+[2024-04-16 03:06:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 03:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DXR-BJ
+[2024-04-16 03:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ubo-app
+[2024-04-16 03:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tsugu
+[2024-04-16 03:06:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leafmap
+[2024-04-16 03:06:49] WARNING root fetch - processPackages [DXR-BJ]: Skipping, unable to determine old version
+[2024-04-16 03:06:49] INFO root fetch - main [MainThread]: End processing [DXR-BJ] error
+[2024-04-16 03:06:49] INFO root fetch - processPackages [tsugu]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-16 03:06:49] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/27/76/37598c3ed951d44890d340b57fafb566d7e2120786132ef05ff59445a16a/tsugu-0.4.6.tar.gz
+[2024-04-16 03:06:49] INFO root fetch - processPackages [leafmap]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-16 03:06:49] INFO root fetch - processPackages [ubo-app]: New version: [0.9.9] Old Version: [0.9.8a4]
+[2024-04-16 03:06:49] INFO root fetch - processPackages [ubo-app]: Downloading https://files.pythonhosted.org/packages/95/e9/c4e16198ab3bdf6b007857bc40357fe1bb068e7391f5fe793ca7f6e9819d/ubo_app-0.9.8a4.tar.gz
+[2024-04-16 03:06:49] INFO root fetch - processPackages [leafmap]: Downloading https://files.pythonhosted.org/packages/c7/06/719b97b642d663f4528bd69b8bd0c22e66eb9d8cab0e459bbabc20094b8d/leafmap-0.9.5.tar.gz
+[2024-04-16 03:06:49] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/90/fc/f618468bd09db0c7c819da7bb151a7fb8f98d89309cb78c31dbd9be2a35e/tsugu-0.4.7.tar.gz
+[2024-04-16 03:06:49] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-16 03:06:49] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.6.tar.gz tmp/tsugu-0.4.7.tar.gz --markdown 20240416/t/tsugu/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-04-16 03:06:50] INFO root fetch - processPackages [ubo-app]: Downloading https://files.pythonhosted.org/packages/13/b7/3d42c344f38a9c5bf598c3ea5d71758fc78c30b3d3bf5b039ef153cf16b2/ubo_app-0.9.9.tar.gz
+[2024-04-16 03:06:50] INFO root fetch - processPackages [leafmap]: Downloading https://files.pythonhosted.org/packages/74/59/375f8e1ca2eb029e521f2e04761219f715186963c29a089229743730a6cd/leafmap-0.9.6.tar.gz
+[2024-04-16 03:06:50] INFO root fetch - processPackages [leafmap]: executing diffoscope
+[2024-04-16 03:06:50] INFO root fetch - processPackages [leafmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leafmap-0.9.5.tar.gz tmp/leafmap-0.9.6.tar.gz --markdown 20240416/l/leafmap/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-16 03:06:50] INFO root fetch - processPackages [ubo-app]: executing diffoscope
+[2024-04-16 03:06:50] INFO root fetch - processPackages [ubo-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubo_app-0.9.8a4.tar.gz tmp/ubo_app-0.9.9.tar.gz --markdown 20240416/u/ubo-app/0.9.8a4-0.9.9/README.md --exclude *.pyd
+[2024-04-16 03:06:50] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.6.tar.gz]
+[2024-04-16 03:06:50] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.7.tar.gz]
+[2024-04-16 03:06:50] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-16 03:06:50] INFO root fetch - processPackages [ubo-app]: Remove: archive file [/home/abi/fetcher/tmp/ubo_app-0.9.8a4.tar.gz]
+[2024-04-16 03:06:50] INFO root fetch - processPackages [ubo-app]: Remove: archive file [/home/abi/fetcher/tmp/ubo_app-0.9.9.tar.gz]
+[2024-04-16 03:06:51] INFO root fetch - main [MainThread]: End processing [ubo-app]: success
+[2024-04-16 03:06:51] INFO root fetch - processPackages [leafmap]: Remove: archive file [/home/abi/fetcher/tmp/leafmap-0.9.5.tar.gz]
+[2024-04-16 03:06:51] INFO root fetch - processPackages [leafmap]: Remove: archive file [/home/abi/fetcher/tmp/leafmap-0.9.6.tar.gz]
+[2024-04-16 03:06:51] INFO root fetch - main [MainThread]: End processing [leafmap]: success
+[2024-04-16 03:06:51] INFO root fetch - main [MainThread]: Store serial: [22781071]
