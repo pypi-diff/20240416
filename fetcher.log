@@ -18767,3 +18767,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:17:11] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.16-cp38-cp38-manylinux2014_x86_64.whl.zip]
 [2024-04-16 15:17:11] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-04-16 15:17:11] INFO root fetch - main [MainThread]: Store serial: [22788041]
+[2024-04-16 15:19:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788041]
+[2024-04-16 15:19:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-sgis
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlora
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-static-adminlte
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazy-type-hint
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FJFormer
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nstreamai
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yeref
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moler
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sbcli-jm
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arrlio
+[2024-04-16 15:19:20] INFO root fetch - processPackages [lazy-type-hint]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-16 15:19:20] WARNING root fetch - processPackages [nstreamai]: Skipping, unable to determine old version
+[2024-04-16 15:19:20] INFO root fetch - processPackages [nstreamai]: Start processing: convcom
+[2024-04-16 15:19:20] INFO root fetch - main [MainThread]: End processing [nstreamai] error
+[2024-04-16 15:19:20] INFO root fetch - processPackages [arrlio]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 15:19:20] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/61/3c/0f559d87b24ee36ad6ac7c945ae29e777e71d6655ba6daa63593a35212a8/lazy_type_hint-2.0.6.tar.gz
+[2024-04-16 15:19:20] INFO root fetch - processPackages [convcom]: New version: [0.1.1] Old Version: [0.0.0]
+[2024-04-16 15:19:20] INFO root fetch - processPackages [django-static-adminlte]: New version: [3.2.0.2] Old Version: [3.2.0.1]
+[2024-04-16 15:19:20] INFO root fetch - processPackages [sbcli-jm]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-16 15:19:20] INFO root fetch - processPackages [FJFormer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 15:19:20] INFO root fetch - processPackages [mlora]: New version: [0.3.0] Old Version: [0.2.1.post1]
+[2024-04-16 15:19:20] INFO root fetch - processPackages [ssb-sgis]: New version: [1.0.0] Old Version: [0.3.9]
+[2024-04-16 15:19:20] INFO root fetch - processPackages [moler]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-04-16 15:19:20] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 15:19:20] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/81/d8/6c42f081cd00cb49462f25e81a0de0a22435dfffb7ea0599c08fac7cf484/arrlio-0.8.0.tar.gz
+[2024-04-16 15:19:20] INFO root fetch - processPackages [convcom]: Downloading https://files.pythonhosted.org/packages/03/de/f248928e513d90701595b3dfabd96382dcf1fda20dc8c1290da494643d43/convcom-0.0.0.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [django-static-adminlte]: Downloading https://files.pythonhosted.org/packages/f4/3b/a394f33102666618c14f60233e8e1ff2d5addd4299beb068310558ff7b13/django-static-adminlte-3.2.0.1.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [mlora]: Downloading https://files.pythonhosted.org/packages/18/87/c0f46f0fdc50fcb955979ec8376cd1874074b1d6c4875cc69cce58bd4045/mlora-0.2.1.post1.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/ee/a5/987da56134aa85aacad198958fcf7af5c5bbcc4437c57baee2a5dbca99f9/ssb_sgis-0.3.9.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/1a/61/bc3a86a8a28bf1d4d944cdf767e491b5b86fbfea35d7a1506dc8ce0fcfa0/moler-3.4.0.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/31/21/2ad960466a550c7faff4a406c4732eef65bd86fe28d132bea54aefbef44b/sbcli-jm-2.1.2.zip
+[2024-04-16 15:19:21] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/0b/43/850472cfcc60a0b17d735c2f45192f54fa27699e51327cc54c462f338d8b/fjformer-0.0.8.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/75/ab/00e6d9e5834a37b99fddb9f192c46e0a8669d040fb0ad1403cc67ac38322/arrlio-0.9.0.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/6c/b9/cf511ba5d1bedd80fee4463868e55a88392614b156e37a0a5b7b7ce55ea7/lazy_type_hint-2.0.7.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [convcom]: Downloading https://files.pythonhosted.org/packages/54/30/b46f69f746c7db0069f49d1f3175f7dab1bc7d3ba7edf5d2295fbb976ece/convcom-0.1.1.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [arrlio]: executing diffoscope
+[2024-04-16 15:19:21] INFO root fetch - processPackages [arrlio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrlio-0.8.0.tar.gz tmp/arrlio-0.9.0.tar.gz --markdown 20240416/a/arrlio/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 15:19:21] INFO root fetch - processPackages [lazy-type-hint]: executing diffoscope
+[2024-04-16 15:19:21] INFO root fetch - processPackages [lazy-type-hint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_type_hint-2.0.6.tar.gz tmp/lazy_type_hint-2.0.7.tar.gz --markdown 20240416/l/lazy-type-hint/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-04-16 15:19:21] INFO root fetch - processPackages [convcom]: executing diffoscope
+[2024-04-16 15:19:21] INFO root fetch - processPackages [convcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convcom-0.0.0.tar.gz tmp/convcom-0.1.1.tar.gz --markdown 20240416/c/convcom/0.0.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 15:19:21] INFO root fetch - processPackages [django-static-adminlte]: Downloading https://files.pythonhosted.org/packages/f3/38/d1f1bd541a3507f82d8acd57dfabfdf713c13e78e14b9df539bf6d570995/django-static-adminlte-3.2.0.2.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [mlora]: Downloading https://files.pythonhosted.org/packages/d2/92/52cbd5fcaef9af0558b0f08779eba416bb320e8fdc8537f064ae523a3560/mlora-0.3.0.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [ssb-sgis]: Downloading https://files.pythonhosted.org/packages/fb/4c/ca698649fca11f9b57d03a8786883547d00fc24556452167d6c7b158f361/ssb_sgis-1.0.0.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [moler]: Downloading https://files.pythonhosted.org/packages/a6/c7/7b86275d1667949e91a13ead0212b07a9daf5032267703d4f527ffb6aea5/moler-3.5.0.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/8f/ec/c16449606954b352deeb85b070a59df2b7f8672cf157269ebbf120b62e62/fjformer-0.0.9.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/78/b8/ae47fc6a805a17bfae00c5e2079924b74d706496efe968df9a9211fe29d5/sbcli-jm-2.1.3.zip
+[2024-04-16 15:19:21] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-16 15:19:21] INFO root fetch - processPackages [FJFormer]: executing diffoscope
+[2024-04-16 15:19:21] INFO root fetch - processPackages [FJFormer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fjformer-0.0.8.tar.gz tmp/fjformer-0.0.9.tar.gz --markdown 20240416/F/FJFormer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 15:19:21] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-16 15:19:21] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-jm-2.1.2.zip tmp/sbcli-jm-2.1.3.zip --markdown 20240416/s/sbcli-jm/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-16 15:19:21] INFO root fetch - processPackages [mlora]: executing diffoscope
+[2024-04-16 15:19:21] INFO root fetch - processPackages [mlora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlora-0.2.1.post1.tar.gz tmp/mlora-0.3.0.tar.gz --markdown 20240416/m/mlora/0.2.1.post1-0.3.0/README.md --exclude *.pyd
+[2024-04-16 15:19:21] INFO root fetch - processPackages [ssb-sgis]: executing diffoscope
+[2024-04-16 15:19:21] INFO root fetch - processPackages [ssb-sgis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_sgis-0.3.9.tar.gz tmp/ssb_sgis-1.0.0.tar.gz --markdown 20240416/s/ssb-sgis/0.3.9-1.0.0/README.md --exclude *.pyd
+[2024-04-16 15:19:21] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-16 15:19:21] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240416/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 15:19:21] INFO root fetch - processPackages [moler]: executing diffoscope
+[2024-04-16 15:19:21] INFO root fetch - processPackages [moler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moler-3.4.0.tar.gz tmp/moler-3.5.0.tar.gz --markdown 20240416/m/moler/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-04-16 15:19:22] INFO root fetch - processPackages [django-static-adminlte]: executing diffoscope
+[2024-04-16 15:19:22] INFO root fetch - processPackages [django-static-adminlte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-static-adminlte-3.2.0.1.tar.gz tmp/django-static-adminlte-3.2.0.2.tar.gz --markdown 20240416/d/django-static-adminlte/3.2.0.1-3.2.0.2/README.md --exclude *.pyd
+[2024-04-16 15:19:22] INFO root fetch - processPackages [convcom]: Remove: archive file [/home/abi/fetcher/tmp/convcom-0.0.0.tar.gz]
+[2024-04-16 15:19:22] INFO root fetch - processPackages [convcom]: Remove: archive file [/home/abi/fetcher/tmp/convcom-0.1.1.tar.gz]
+[2024-04-16 15:19:22] INFO root fetch - processPackages [convcom]: Start processing: hcube
+[2024-04-16 15:19:22] INFO root fetch - main [MainThread]: End processing [convcom]: success
+[2024-04-16 15:19:22] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 15:19:22] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.0.6.tar.gz]
+[2024-04-16 15:19:22] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.0.7.tar.gz]
+[2024-04-16 15:19:22] INFO root fetch - processPackages [lazy-type-hint]: Start processing: django-log-inspector
+[2024-04-16 15:19:22] INFO root fetch - main [MainThread]: End processing [lazy-type-hint]: success
+[2024-04-16 15:19:22] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.8.0.tar.gz]
+[2024-04-16 15:19:22] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.9.0.tar.gz]
+[2024-04-16 15:19:22] INFO root fetch - main [MainThread]: End processing [arrlio]: success
+[2024-04-16 15:19:23] INFO root fetch - processPackages [django-log-inspector]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 15:19:23] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-04-16 15:19:23] INFO root fetch - processPackages [django-log-inspector]: Downloading https://files.pythonhosted.org/packages/2d/d5/b87e5d8ca4aa9d437e98f160e5278320f34fef4439e3d1c9b94d2a0073b1/django_log_inspector-0.0.4.tar.gz
+[2024-04-16 15:19:23] INFO root fetch - processPackages [mlora]: Remove: archive file [/home/abi/fetcher/tmp/mlora-0.2.1.post1.tar.gz]
+[2024-04-16 15:19:23] INFO root fetch - processPackages [mlora]: Remove: archive file [/home/abi/fetcher/tmp/mlora-0.3.0.tar.gz]
+[2024-04-16 15:19:23] INFO root fetch - main [MainThread]: End processing [mlora]: success
+[2024-04-16 15:19:23] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.8.tar.gz]
+[2024-04-16 15:19:23] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.9.tar.gz]
+[2024-04-16 15:19:23] INFO root fetch - main [MainThread]: End processing [FJFormer]: success
+[2024-04-16 15:19:23] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-16 15:19:23] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-16 15:19:23] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-16 15:19:23] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-04-16 15:19:23] INFO root fetch - processPackages [ssb-sgis]: Remove: archive file [/home/abi/fetcher/tmp/ssb_sgis-0.3.9.tar.gz]
+[2024-04-16 15:19:23] INFO root fetch - processPackages [ssb-sgis]: Remove: archive file [/home/abi/fetcher/tmp/ssb_sgis-1.0.0.tar.gz]
+[2024-04-16 15:19:23] INFO root fetch - main [MainThread]: End processing [ssb-sgis]: success
+[2024-04-16 15:19:23] INFO root fetch - processPackages [django-log-inspector]: Downloading https://files.pythonhosted.org/packages/cb/5b/84d74c782124afff9d7adf03b9d6ee4bec895fac487769f8a8e806200a3a/django_log_inspector-0.0.5.tar.gz
+[2024-04-16 15:19:23] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-jm-2.1.2.zip]
+[2024-04-16 15:19:23] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-jm-2.1.3.zip]
+[2024-04-16 15:19:23] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-16 15:19:23] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-04-16 15:19:23] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240416/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 15:19:24] INFO root fetch - processPackages [django-log-inspector]: executing diffoscope
+[2024-04-16 15:19:24] INFO root fetch - processPackages [django-log-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_log_inspector-0.0.4.tar.gz tmp/django_log_inspector-0.0.5.tar.gz --markdown 20240416/d/django-log-inspector/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 15:19:24] INFO root fetch - processPackages [django-static-adminlte]: Remove: archive file [/home/abi/fetcher/tmp/django-static-adminlte-3.2.0.1.tar.gz]
+[2024-04-16 15:19:24] INFO root fetch - processPackages [django-static-adminlte]: Remove: archive file [/home/abi/fetcher/tmp/django-static-adminlte-3.2.0.2.tar.gz]
+[2024-04-16 15:19:24] INFO root fetch - main [MainThread]: End processing [django-static-adminlte]: success
+[2024-04-16 15:19:24] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-04-16 15:19:24] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-04-16 15:19:24] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-04-16 15:19:24] INFO root fetch - processPackages [moler]: Remove: archive file [/home/abi/fetcher/tmp/moler-3.4.0.tar.gz]
+[2024-04-16 15:19:24] INFO root fetch - processPackages [moler]: Remove: archive file [/home/abi/fetcher/tmp/moler-3.5.0.tar.gz]
+[2024-04-16 15:19:24] INFO root fetch - main [MainThread]: End processing [moler]: success
+[2024-04-16 15:19:25] INFO root fetch - processPackages [django-log-inspector]: Remove: archive file [/home/abi/fetcher/tmp/django_log_inspector-0.0.4.tar.gz]
+[2024-04-16 15:19:25] INFO root fetch - processPackages [django-log-inspector]: Remove: archive file [/home/abi/fetcher/tmp/django_log_inspector-0.0.5.tar.gz]
+[2024-04-16 15:19:25] INFO root fetch - main [MainThread]: End processing [django-log-inspector]: success
+[2024-04-16 15:19:25] INFO root fetch - main [MainThread]: Store serial: [22788083]
