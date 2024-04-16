@@ -4762,3 +4762,42 @@
 [2024-04-16 05:12:34] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-04-16 05:12:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
 [2024-04-16 05:12:34] INFO root fetch - main [MainThread]: Store serial: [22781957]
+[2024-04-16 05:14:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781957]
+[2024-04-16 05:14:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 05:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waitcondition-hook-for-aws-fargate-task
+[2024-04-16 05:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-upcloud
+[2024-04-16 05:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ailist
+[2024-04-16 05:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-okta
+[2024-04-16 05:14:43] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 05:14:43] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Downloading https://files.pythonhosted.org/packages/4c/f2/746ad81dedb3fd545b71113187cb4a3cefc490eb4bc7366c68196313f117/waitcondition-hook-for-aws-fargate-task-1.0.4.tar.gz
+[2024-04-16 05:14:43] INFO root fetch - processPackages [ailist]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-16 05:14:43] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-04-16 05:14:43] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: New version: [9.0.0] Old Version: [8.0.2]
+[2024-04-16 05:14:43] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/c0/3c/af33368b4c7a4b70e95bce5aa26c2a0e4a13891861c926506de5ee00d648/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz
+[2024-04-16 05:14:43] INFO root fetch - processPackages [ailist]: Downloading https://files.pythonhosted.org/packages/30/1e/d992546dc135f9163163bdf60eba66d5d2136af9def2cfbfa4b13e346c05/ailist-2.1.1.tar.gz
+[2024-04-16 05:14:43] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Downloading https://files.pythonhosted.org/packages/02/e7/6848e301045541ddf0732985f768873d979c33ee9136d7df840e129ac407/waitcondition-hook-for-aws-fargate-task-1.0.5.tar.gz
+[2024-04-16 05:14:43] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/1c/18/2a62b6718999fc6b17e0ceab705057b3fb79d734c1a4c1b5591cf6d4ada7/cdktf-cdktf-provider-okta-8.0.2.tar.gz
+[2024-04-16 05:14:43] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: executing diffoscope
+[2024-04-16 05:14:43] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waitcondition-hook-for-aws-fargate-task-1.0.4.tar.gz tmp/waitcondition-hook-for-aws-fargate-task-1.0.5.tar.gz --markdown 20240416/w/waitcondition-hook-for-aws-fargate-task/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-16 05:14:43] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/11/34/e1c239edd060e043f3bda7830f678ebce24c01902bdaeb3e433a968bab0b/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz
+[2024-04-16 05:14:43] INFO root fetch - processPackages [ailist]: Downloading https://files.pythonhosted.org/packages/e2/0b/db5f80d9a5003f5a872f8f13b9f9019d78812b659d844e2f7f1536c906ac/ailist-2.1.2.tar.gz
+[2024-04-16 05:14:44] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: executing diffoscope
+[2024-04-16 05:14:44] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz tmp/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz --markdown 20240416/c/cdktf-cdktf-provider-upcloud/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-04-16 05:14:44] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/0b/d0/a4b8860a54a663d18f37333481694546cc1e870c23aa8abaa96fe8d85d2f/cdktf-cdktf-provider-okta-9.0.0.tar.gz
+[2024-04-16 05:14:44] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Remove: archive file [/home/abi/fetcher/tmp/waitcondition-hook-for-aws-fargate-task-1.0.4.tar.gz]
+[2024-04-16 05:14:44] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Remove: archive file [/home/abi/fetcher/tmp/waitcondition-hook-for-aws-fargate-task-1.0.5.tar.gz]
+[2024-04-16 05:14:44] INFO root fetch - main [MainThread]: End processing [waitcondition-hook-for-aws-fargate-task]: success
+[2024-04-16 05:14:44] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: executing diffoscope
+[2024-04-16 05:14:44] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz tmp/cdktf-cdktf-provider-okta-9.0.0.tar.gz --markdown 20240416/c/cdktf-cdktf-provider-okta/8.0.2-9.0.0/README.md --exclude *.pyd
+[2024-04-16 05:14:44] INFO root fetch - processPackages [ailist]: executing diffoscope
+[2024-04-16 05:14:44] INFO root fetch - processPackages [ailist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailist-2.1.1.tar.gz tmp/ailist-2.1.2.tar.gz --markdown 20240416/a/ailist/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-16 05:14:45] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz]
+[2024-04-16 05:14:45] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz]
+[2024-04-16 05:14:45] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-upcloud]: success
+[2024-04-16 05:14:45] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz]
+[2024-04-16 05:14:45] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-9.0.0.tar.gz]
+[2024-04-16 05:14:45] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-okta]: success
+[2024-04-16 05:14:51] INFO root fetch - processPackages [ailist]: Remove: archive file [/home/abi/fetcher/tmp/ailist-2.1.1.tar.gz]
+[2024-04-16 05:14:51] INFO root fetch - processPackages [ailist]: Remove: archive file [/home/abi/fetcher/tmp/ailist-2.1.2.tar.gz]
+[2024-04-16 05:14:51] INFO root fetch - main [MainThread]: End processing [ailist]: success
+[2024-04-16 05:14:51] INFO root fetch - main [MainThread]: Store serial: [22781966]
