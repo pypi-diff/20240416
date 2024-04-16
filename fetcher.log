@@ -8442,3 +8442,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:04:34] INFO root fetch - processPackages [midas-mosaik]: Remove: archive file [/home/abi/fetcher/tmp/midas-mosaik-1.2.0.tar.gz]
 [2024-04-16 09:04:34] INFO root fetch - main [MainThread]: End processing [midas-mosaik]: success
 [2024-04-16 09:04:34] INFO root fetch - main [MainThread]: Store serial: [22783507]
+[2024-04-16 09:06:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783507]
+[2024-04-16 09:06:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 09:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-schema
+[2024-04-16 09:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libs-zip
+[2024-04-16 09:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lesana
+[2024-04-16 09:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsk-monster
+[2024-04-16 09:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsk-monster
+[2024-04-16 09:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datacube
+[2024-04-16 09:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: html-tree-shaking
+[2024-04-16 09:06:43] INFO root fetch - processPackages [html-tree-shaking]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 09:06:43] INFO root fetch - processPackages [lazy-schema]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-16 09:06:43] WARNING root fetch - processPackages [libs-zip]: Skipping, unable to determine old version
+[2024-04-16 09:06:43] INFO root fetch - main [MainThread]: End processing [libs-zip] error
+[2024-04-16 09:06:43] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/d7/bd/7828b9b477ceb9369f949c1eae55af491da75447b6f89488e4e50c5cb943/lazy_schema-0.1.0.tar.gz
+[2024-04-16 09:06:43] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 09:06:43] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 09:06:43] INFO root fetch - processPackages [lesana]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 09:06:43] INFO root fetch - processPackages [datacube]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2024-04-16 09:06:43] INFO root fetch - processPackages [html-tree-shaking]: Downloading https://files.pythonhosted.org/packages/f7/f7/103833b7387eba4ceffff17bcd8c53f501e9f4968859821d67231c98c0c7/html_tree_shaking-1.0.3-py3-none-any.whl
+[2024-04-16 09:06:43] WARNING root fetch - processPackages [html-tree-shaking]: Skipping package: exceeds size limit 38279517>=10485760
+[2024-04-16 09:06:43] INFO root fetch - main [MainThread]: End processing [html-tree-shaking] error
+[2024-04-16 09:06:43] INFO root fetch - processPackages [lazy-schema]: Downloading https://files.pythonhosted.org/packages/7c/91/563164bf373362cca21e8d1aa26837cf78840e9ccbdd21063686b3b90f84/lazy_schema-0.2.0.tar.gz
+[2024-04-16 09:06:43] INFO root fetch - processPackages [lesana]: Downloading https://files.pythonhosted.org/packages/c6/71/a275cbf5efa005f4c87d1523dd434e0c978bf9b29ab0a844636279056afd/lesana-0.9.0.tar.gz
+[2024-04-16 09:06:43] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-16 09:06:43] INFO root fetch - processPackages [datacube]: Downloading https://files.pythonhosted.org/packages/d6/fc/401cff6c158e4ab22f2e81f0d5b04ecbd1492764f7cbd95f69351eea03fa/datacube-1.9.0rc3.tar.gz
+[2024-04-16 09:06:43] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-16 09:06:43] INFO root fetch - processPackages [lazy-schema]: executing diffoscope
+[2024-04-16 09:06:43] INFO root fetch - processPackages [lazy-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_schema-0.1.0.tar.gz tmp/lazy_schema-0.2.0.tar.gz --markdown 20240416/l/lazy-schema/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-16 09:06:43] INFO root fetch - processPackages [lesana]: Downloading https://files.pythonhosted.org/packages/1a/24/47664c4856aeb80b8ad60eb3bd7f5c9828e2a5edde35c744b5222af2709c/lesana-0.9.1.tar.gz
+[2024-04-16 09:06:44] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-16 09:06:44] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-16 09:06:44] INFO root fetch - processPackages [lesana]: executing diffoscope
+[2024-04-16 09:06:44] INFO root fetch - processPackages [lesana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesana-0.9.0.tar.gz tmp/lesana-0.9.1.tar.gz --markdown 20240416/l/lesana/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 09:06:44] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-16 09:06:44] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240416/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 09:06:44] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-16 09:06:44] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240416/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 09:06:44] INFO root fetch - processPackages [datacube]: Downloading https://files.pythonhosted.org/packages/52/7a/dfd6b3b70f2b9844d9abbdbe5a603854e1a6e0e35d01ebbe58aaf91b7ad3/datacube-1.9.0rc4.tar.gz
+[2024-04-16 09:06:44] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.1.0.tar.gz]
+[2024-04-16 09:06:44] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.0.tar.gz]
+[2024-04-16 09:06:44] INFO root fetch - main [MainThread]: End processing [lazy-schema]: success
+[2024-04-16 09:06:44] INFO root fetch - processPackages [datacube]: executing diffoscope
+[2024-04-16 09:06:44] INFO root fetch - processPackages [datacube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacube-1.9.0rc3.tar.gz tmp/datacube-1.9.0rc4.tar.gz --markdown 20240416/d/datacube/1.9.0rc3-1.9.0rc4/README.md --exclude *.pyd
+[2024-04-16 09:06:44] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-16 09:06:44] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-16 09:06:44] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-16 09:06:44] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-16 09:06:44] INFO root fetch - processPackages [lesana]: Remove: archive file [/home/abi/fetcher/tmp/lesana-0.9.0.tar.gz]
+[2024-04-16 09:06:44] INFO root fetch - processPackages [lesana]: Remove: archive file [/home/abi/fetcher/tmp/lesana-0.9.1.tar.gz]
+[2024-04-16 09:06:44] INFO root fetch - main [MainThread]: End processing [lesana]: success
+[2024-04-16 09:06:46] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.9.0rc3.tar.gz]
+[2024-04-16 09:06:46] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.9.0rc4.tar.gz]
+[2024-04-16 09:06:46] INFO root fetch - main [MainThread]: End processing [datacube]: success
+[2024-04-16 09:06:46] INFO root fetch - main [MainThread]: Store serial: [22783526]
