@@ -20878,3 +20878,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:25:55] INFO root fetch - processPackages [ai-microcore]: Remove: archive file [/home/abi/fetcher/tmp/ai_microcore-3.0.0.tar.gz]
 [2024-04-16 16:25:55] INFO root fetch - main [MainThread]: End processing [ai-microcore]: success
 [2024-04-16 16:25:55] INFO root fetch - main [MainThread]: Store serial: [22788906]
+[2024-04-16 16:27:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788906]
+[2024-04-16 16:28:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lama2923
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2tf
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syntrac-opentelemetry-instrumentation-haystack
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emcee
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccs-digitalmarketplace-apiclient
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nexus-cat
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sunholo
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simfempy
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dagger-io
+[2024-04-16 16:28:04] INFO root fetch - processPackages [simfempy]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [emcee]: New version: [3.1.5rc1] Old Version: [3.1.5]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [nexus-cat]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-haystack]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [lama2923]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [dagger-io]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: New version: [25.6.0] Old Version: [25.5.0]
+[2024-04-16 16:28:04] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/21/ca/cba2fa200f0b86670a711f7499921a1cb6d7f7086eb9e4fc0112010ba5bd/simfempy-2.2.2.tar.gz
+[2024-04-16 16:28:04] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-16 16:28:04] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-04-16 16:28:04] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-16 16:28:04] INFO root fetch - processPackages [emcee]: Downloading https://files.pythonhosted.org/packages/d0/f2/fa3e87ae09c3c7483997e6e92537a14b48c8d4d15523d8f51b1b75d23b8d/emcee-3.1.5.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [nexus-cat]: Downloading https://files.pythonhosted.org/packages/50/c0/2e47609df2168117754cd37a9eb4349b9fecec078a6e6aec163d0cd5f10a/nexus-cat-0.1.6.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-haystack]: Downloading https://files.pythonhosted.org/packages/13/97/5048ffaaea273da5091864b0b448b620042daa71865d01cf4d417eb51d9b/syntrac_opentelemetry_instrumentation_haystack-0.0.1.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/00/b5/b9ffd94b41148f19f21be8872ecbf5e41edd84638dbc7c46f90bc66bfbfb/ccs-digitalmarketplace-apiclient-25.5.0.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/4b/54/86599a2e3af9937cf0a33de01698c88aa2ef3aa0c298a2170df5443d97fd/lama2923-1.0.0.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/e9/d3/a12127507defc646ab3473c8e939bd97d6fbf5d03f96bb50adf54f568b7d/dagger_io-0.9.8.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [simfempy]: Downloading https://files.pythonhosted.org/packages/c6/07/56c29cd62be5b95f7597a08703e1835c554ea5286dd83a9120fcb349e901/simfempy-2.2.3.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-16 16:28:05] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240416/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-16 16:28:05] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-haystack]: Downloading https://files.pythonhosted.org/packages/15/36/76bd8442d0fda06dd368f6faf4744f8ac0004a5b8b84f7c8a791d88945bf/syntrac_opentelemetry_instrumentation_haystack-0.0.2.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/f0/0c/dde00b31e0fce4baba4fdbc7a93fa88801373eea0097a90ba13469ff8805/lama2923-1.0.1.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [nexus-cat]: Downloading https://files.pythonhosted.org/packages/bc/7f/e412b66799d3afc2b32b675780dbe84fbc961e6cace743e9b59044de18ce/nexus-cat-0.1.7.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [simfempy]: executing diffoscope
+[2024-04-16 16:28:05] INFO root fetch - processPackages [simfempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simfempy-2.2.2.tar.gz tmp/simfempy-2.2.3.tar.gz --markdown 20240416/s/simfempy/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-04-16 16:28:05] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Downloading https://files.pythonhosted.org/packages/a2/7c/9ef99d537dd6feb735bfc4206e4d327f67752c434dbf3ec89bd60d07fa10/ccs-digitalmarketplace-apiclient-25.6.0.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [dagger-io]: Downloading https://files.pythonhosted.org/packages/22/da/b1058863686424a36ad9fb7beba1a5ee490b6620adfe4c4b44432bd2a683/dagger_io-0.9.9.tar.gz
+[2024-04-16 16:28:05] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-haystack]: executing diffoscope
+[2024-04-16 16:28:05] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_haystack-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_haystack-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-haystack/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:28:05] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-04-16 16:28:05] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240416/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-16 16:28:05] INFO root fetch - processPackages [lama2923]: executing diffoscope
+[2024-04-16 16:28:05] INFO root fetch - processPackages [lama2923]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama2923-1.0.0.tar.gz tmp/lama2923-1.0.1.tar.gz --markdown 20240416/l/lama2923/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 16:28:06] INFO root fetch - processPackages [nexus-cat]: executing diffoscope
+[2024-04-16 16:28:06] INFO root fetch - processPackages [nexus-cat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus-cat-0.1.6.tar.gz tmp/nexus-cat-0.1.7.tar.gz --markdown 20240416/n/nexus-cat/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-16 16:28:06] INFO root fetch - processPackages [dagger-io]: executing diffoscope
+[2024-04-16 16:28:06] INFO root fetch - processPackages [dagger-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagger_io-0.9.8.tar.gz tmp/dagger_io-0.9.9.tar.gz --markdown 20240416/d/dagger-io/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 16:28:06] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: executing diffoscope
+[2024-04-16 16:28:06] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-apiclient-25.5.0.tar.gz tmp/ccs-digitalmarketplace-apiclient-25.6.0.tar.gz --markdown 20240416/c/ccs-digitalmarketplace-apiclient/25.5.0-25.6.0/README.md --exclude *.pyd
+[2024-04-16 16:28:06] INFO root fetch - processPackages [emcee]: Downloading https://files.pythonhosted.org/packages/f1/3a/644dd43723dc0b7f208f50ca896bf61ff824002450e50ec4bbc88d40b4c7/emcee-3.1.5rc1.tar.gz
+[2024-04-16 16:28:06] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-16 16:28:06] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.2.tar.gz]
+[2024-04-16 16:28:06] INFO root fetch - processPackages [simfempy]: Remove: archive file [/home/abi/fetcher/tmp/simfempy-2.2.3.tar.gz]
+[2024-04-16 16:28:06] INFO root fetch - processPackages [simfempy]: Start processing: python3-capsolver
+[2024-04-16 16:28:06] INFO root fetch - main [MainThread]: End processing [simfempy]: success
+[2024-04-16 16:28:06] INFO root fetch - processPackages [emcee]: executing diffoscope
+[2024-04-16 16:28:06] INFO root fetch - processPackages [emcee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emcee-3.1.5.tar.gz tmp/emcee-3.1.5rc1.tar.gz --markdown 20240416/e/emcee/3.1.5-3.1.5rc1/README.md --exclude *.pyd
+[2024-04-16 16:28:06] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-16 16:28:06] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240416/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-16 16:28:06] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-haystack]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_haystack-0.0.1.tar.gz]
+[2024-04-16 16:28:06] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-haystack]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_haystack-0.0.2.tar.gz]
+[2024-04-16 16:28:06] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-haystack]: success
+[2024-04-16 16:28:06] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-16 16:28:06] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-16 16:28:06] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-16 16:28:06] INFO root fetch - processPackages [python3-capsolver]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-16 16:28:06] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.0.tar.gz]
+[2024-04-16 16:28:06] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.1.tar.gz]
+[2024-04-16 16:28:06] INFO root fetch - main [MainThread]: End processing [lama2923]: success
+[2024-04-16 16:28:07] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.5.0.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - processPackages [ccs-digitalmarketplace-apiclient]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-apiclient-25.6.0.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-apiclient]: success
+[2024-04-16 16:28:07] INFO root fetch - processPackages [nexus-cat]: Remove: archive file [/home/abi/fetcher/tmp/nexus-cat-0.1.6.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - processPackages [nexus-cat]: Remove: archive file [/home/abi/fetcher/tmp/nexus-cat-0.1.7.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - main [MainThread]: End processing [nexus-cat]: success
+[2024-04-16 16:28:07] INFO root fetch - processPackages [python3-capsolver]: Downloading https://files.pythonhosted.org/packages/55/a7/9414eb224f4db2c1f09d3f97955d1fbc62d3fb7964cd58e2004b6ca3eecb/python3-capsolver-0.9.2.tar.gz
+[2024-04-16 16:28:07] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.9.8.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - processPackages [dagger-io]: Remove: archive file [/home/abi/fetcher/tmp/dagger_io-0.9.9.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - main [MainThread]: End processing [dagger-io]: success
+[2024-04-16 16:28:07] INFO root fetch - processPackages [python3-capsolver]: Downloading https://files.pythonhosted.org/packages/6f/50/561147b265496699a479f86f589bb326019f9e5748f838cdf9aa7af14c59/python3_capsolver-0.9.3.tar.gz
+[2024-04-16 16:28:07] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-04-16 16:28:07] INFO root fetch - processPackages [python3-capsolver]: executing diffoscope
+[2024-04-16 16:28:07] INFO root fetch - processPackages [python3-capsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-capsolver-0.9.2.tar.gz tmp/python3_capsolver-0.9.3.tar.gz --markdown 20240416/p/python3-capsolver/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-16 16:28:07] INFO root fetch - processPackages [emcee]: Remove: archive file [/home/abi/fetcher/tmp/emcee-3.1.5.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - processPackages [emcee]: Remove: archive file [/home/abi/fetcher/tmp/emcee-3.1.5rc1.tar.gz]
+[2024-04-16 16:28:07] INFO root fetch - main [MainThread]: End processing [emcee]: success
+[2024-04-16 16:28:08] INFO root fetch - processPackages [python3-capsolver]: Remove: archive file [/home/abi/fetcher/tmp/python3-capsolver-0.9.2.tar.gz]
+[2024-04-16 16:28:08] INFO root fetch - processPackages [python3-capsolver]: Remove: archive file [/home/abi/fetcher/tmp/python3_capsolver-0.9.3.tar.gz]
+[2024-04-16 16:28:08] INFO root fetch - main [MainThread]: End processing [python3-capsolver]: success
+[2024-04-16 16:28:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-16 16:28:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-16 16:28:11] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-16 16:28:11] INFO root fetch - main [MainThread]: Store serial: [22788938]
