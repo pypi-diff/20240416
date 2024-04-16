@@ -2450,3 +2450,62 @@
 [2024-04-16 02:20:15] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
 [2024-04-16 02:20:15] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
 [2024-04-16 02:20:15] INFO root fetch - main [MainThread]: Store serial: [22780846]
+[2024-04-16 02:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780846]
+[2024-04-16 02:22:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 02:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-aurora-globaldatabase
+[2024-04-16 02:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libera_utils
+[2024-04-16 02:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-tweet-queue
+[2024-04-16 02:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: IsoMarker
+[2024-04-16 02:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenGeode-Inspector
+[2024-04-16 02:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fmot
+[2024-04-16 02:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: handwriting-sample
+[2024-04-16 02:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lunaticoastro-dragonfly-controller
+[2024-04-16 02:22:24] INFO root fetch - processPackages [handwriting-sample]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 02:22:24] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-16 02:22:24] INFO root fetch - processPackages [libera_utils]: New version: [2.3.0rc2] Old Version: [2.3.0rc1]
+[2024-04-16 02:22:24] WARNING root fetch - processPackages [IsoMarker]: Skipping, unable to determine old version
+[2024-04-16 02:22:24] INFO root fetch - main [MainThread]: End processing [IsoMarker] error
+[2024-04-16 02:22:24] INFO root fetch - processPackages [fmot]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 02:22:24] WARNING root fetch - processPackages [lunaticoastro-dragonfly-controller]: Skipping, unable to determine old version
+[2024-04-16 02:22:24] INFO root fetch - main [MainThread]: End processing [lunaticoastro-dragonfly-controller] error
+[2024-04-16 02:22:24] INFO root fetch - processPackages [handwriting-sample]: Downloading https://files.pythonhosted.org/packages/38/cf/ca3c90d54cb9e43b4cfd3bf1fd6ec24ec0881509f3105ededc217bdbe686/handwriting-sample-1.0.3.tar.gz
+[2024-04-16 02:22:24] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-16 02:22:24] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [5.1.0rc1] Old Version: [5.1.0]
+[2024-04-16 02:22:25] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-16 02:22:25] INFO root fetch - processPackages [libera_utils]: Downloading https://files.pythonhosted.org/packages/62/b1/495c2050a8e0629cf80b894008c6e06d02723bf7bc663cefb94999cc5112/libera_utils-2.3.0rc1.tar.gz
+[2024-04-16 02:22:25] INFO root fetch - processPackages [fmot]: Downloading https://files.pythonhosted.org/packages/cf/89/6984e168fbfcc32698a38967479169805e2d1d1835285fd62b47c43cc501/fmot-1.9.0-py3-none-any.whl
+[2024-04-16 02:22:25] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/52/89/f366182a7fcd58264f36d3adc9a7fe2e2ed26cc4325ac0f5cc5b1eb10d98/OpenGeode_Inspector-5.1.0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-16 02:22:25] INFO root fetch - processPackages [handwriting-sample]: Downloading https://files.pythonhosted.org/packages/c1/79/7646a043cd83a6c9df088ae6cd72d137f582bfe068bc99572bbc85ec6a8f/handwriting-sample-1.0.4.tar.gz
+[2024-04-16 02:22:25] WARNING root fetch - processPackages [libera_utils]: Skipping package: exceeds size limit 31160620>=10485760
+[2024-04-16 02:22:25] INFO root fetch - main [MainThread]: End processing [libera_utils] error
+[2024-04-16 02:22:25] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-16 02:22:25] INFO root fetch - processPackages [handwriting-sample]: executing diffoscope
+[2024-04-16 02:22:25] INFO root fetch - processPackages [handwriting-sample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handwriting-sample-1.0.3.tar.gz tmp/handwriting-sample-1.0.4.tar.gz --markdown 20240416/h/handwriting-sample/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-16 02:22:25] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-16 02:22:25] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-16 02:22:25] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240416/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-16 02:22:25] INFO root fetch - processPackages [fmot]: Downloading https://files.pythonhosted.org/packages/18/21/759271ffc7601adb73a7348c214b94db8c279f182f727546539d483f201c/fmot-1.9.1-py3-none-any.whl
+[2024-04-16 02:22:25] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-16 02:22:25] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/04/b5/9519153f78d352bc5af88b5d9b731b7dac7fd9a25bbff563a6a5753dcde6/OpenGeode_Inspector-5.1.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-16 02:22:25] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-16 02:22:25] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240416/c/cdk-tweet-queue/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-16 02:22:25] INFO root fetch - processPackages [fmot]: executing diffoscope
+[2024-04-16 02:22:25] INFO root fetch - processPackages [fmot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmot-1.9.0-py3-none-any.whl.zip tmp/fmot-1.9.1-py3-none-any.whl.zip --markdown 20240416/f/fmot/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 02:22:25] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2024-04-16 02:22:25] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-5.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_Inspector-5.1.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240416/O/OpenGeode-Inspector/5.1.0-5.1.0rc1/README.md --exclude *.pyd
+[2024-04-16 02:22:26] INFO root fetch - processPackages [handwriting-sample]: Remove: archive file [/home/abi/fetcher/tmp/handwriting-sample-1.0.3.tar.gz]
+[2024-04-16 02:22:26] INFO root fetch - processPackages [handwriting-sample]: Remove: archive file [/home/abi/fetcher/tmp/handwriting-sample-1.0.4.tar.gz]
+[2024-04-16 02:22:26] INFO root fetch - main [MainThread]: End processing [handwriting-sample]: success
+[2024-04-16 02:22:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-16 02:22:26] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-16 02:22:26] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-16 02:22:26] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-16 02:22:26] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-16 02:22:26] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-16 02:22:26] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-16 02:22:26] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 02:22:26] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2024-04-16 02:22:26] INFO root fetch - processPackages [fmot]: Remove: archive file [/home/abi/fetcher/tmp/fmot-1.9.0-py3-none-any.whl.zip]
+[2024-04-16 02:22:26] INFO root fetch - processPackages [fmot]: Remove: archive file [/home/abi/fetcher/tmp/fmot-1.9.1-py3-none-any.whl.zip]
+[2024-04-16 02:22:26] INFO root fetch - main [MainThread]: End processing [fmot]: success
+[2024-04-16 02:22:26] INFO root fetch - main [MainThread]: Store serial: [22780872]
