@@ -5967,3 +5967,33 @@
 [2024-04-16 06:27:09] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-9.0.9-py3-none-any.whl.zip]
 [2024-04-16 06:27:09] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
 [2024-04-16 06:27:09] INFO root fetch - main [MainThread]: Store serial: [22782525]
+[2024-04-16 06:29:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782525]
+[2024-04-16 06:29:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 06:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funtoo-ramdisk
+[2024-04-16 06:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RedXClient
+[2024-04-16 06:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyminerva
+[2024-04-16 06:29:18] INFO root fetch - processPackages [funtoo-ramdisk]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-16 06:29:18] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 06:29:18] INFO root fetch - processPackages [RedXClient]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 06:29:18] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-16 06:29:18] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/f3/67/b3bf3836d65feca182c4912891b0536f85915d62dc8ac4cd26ddb1504c08/funtoo_ramdisk-1.1.6.tar.gz
+[2024-04-16 06:29:18] INFO root fetch - processPackages [RedXClient]: Downloading https://files.pythonhosted.org/packages/98/e2/862c0e50d3f8161d125fa870756c7a7dbafded4d322809ac4efaaa92697f/redxclient-0.2.2.tar.gz
+[2024-04-16 06:29:18] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-16 06:29:18] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-16 06:29:18] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240416/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 06:29:18] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/10/2f/e2207365cd30d75ed1efbb19f7a991d6dab253a7eb0ad49e8c5a6cf6afd3/funtoo_ramdisk-1.1.7.tar.gz
+[2024-04-16 06:29:18] INFO root fetch - processPackages [RedXClient]: Downloading https://files.pythonhosted.org/packages/4d/9a/92ecbcd1ce3de7f3777704664c981afb83f80b7ce114157e7b41111acb5c/redxclient-0.2.3.tar.gz
+[2024-04-16 06:29:18] INFO root fetch - processPackages [funtoo-ramdisk]: executing diffoscope
+[2024-04-16 06:29:18] INFO root fetch - processPackages [funtoo-ramdisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funtoo_ramdisk-1.1.6.tar.gz tmp/funtoo_ramdisk-1.1.7.tar.gz --markdown 20240416/f/funtoo-ramdisk/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-16 06:29:18] INFO root fetch - processPackages [RedXClient]: executing diffoscope
+[2024-04-16 06:29:18] INFO root fetch - processPackages [RedXClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redxclient-0.2.2.tar.gz tmp/redxclient-0.2.3.tar.gz --markdown 20240416/R/RedXClient/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 06:29:19] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-16 06:29:19] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-16 06:29:19] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-16 06:29:19] INFO root fetch - processPackages [RedXClient]: Remove: archive file [/home/abi/fetcher/tmp/redxclient-0.2.2.tar.gz]
+[2024-04-16 06:29:19] INFO root fetch - processPackages [RedXClient]: Remove: archive file [/home/abi/fetcher/tmp/redxclient-0.2.3.tar.gz]
+[2024-04-16 06:29:19] INFO root fetch - main [MainThread]: End processing [RedXClient]: success
+[2024-04-16 06:29:19] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.6.tar.gz]
+[2024-04-16 06:29:19] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.7.tar.gz]
+[2024-04-16 06:29:19] INFO root fetch - main [MainThread]: End processing [funtoo-ramdisk]: success
+[2024-04-16 06:29:19] INFO root fetch - main [MainThread]: Store serial: [22782533]
