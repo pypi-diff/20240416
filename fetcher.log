@@ -23566,3 +23566,196 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:44:15] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-11.0.19.tar.gz]
 [2024-04-16 17:44:16] INFO root fetch - main [MainThread]: End processing [sourcedefender]: success
 [2024-04-16 17:44:16] INFO root fetch - main [MainThread]: Store serial: [22790055]
+[2024-04-16 17:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22790055]
+[2024-04-16 17:46:28] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wslink
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libera_utils
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mogptk
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pip-check-updates
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RegexFactory
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iotopen-py-lynx
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyguiadapter
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyaro
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyaardvark
+[2024-04-16 17:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lde-online-dep
+[2024-04-16 17:46:28] INFO root fetch - processPackages [libera_utils]: New version: [2.3.0rc2] Old Version: [2.3.0rc1]
+[2024-04-16 17:46:28] WARNING root fetch - processPackages [lde-online-dep]: Skipping, unable to determine old version
+[2024-04-16 17:46:28] INFO root fetch - processPackages [lde-online-dep]: Start processing: Stats-CI
+[2024-04-16 17:46:28] INFO root fetch - main [MainThread]: End processing [lde-online-dep] error
+[2024-04-16 17:46:28] INFO root fetch - processPackages [pyguiadapter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 17:46:28] INFO root fetch - processPackages [RegexFactory]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 17:46:28] INFO root fetch - processPackages [pyaardvark]: New version: [0.8.1] Old Version: [0.7.1]
+[2024-04-16 17:46:28] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/63/70/e1d55956ecbc1c69b82b6b56ac1401fd0767a68b6719791fbc02a0c7f16e/pyguiadapter-0.2.8.tar.gz
+[2024-04-16 17:46:28] INFO root fetch - processPackages [iotopen-py-lynx]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pyaro]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 17:46:29] INFO root fetch - processPackages [mogptk]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-16 17:46:29] INFO root fetch - processPackages [wslink]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pip-check-updates]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-16 17:46:29] WARNING root fetch - processPackages [Stats-CI]: Skipping, unable to determine old version
+[2024-04-16 17:46:29] INFO root fetch - processPackages [Stats-CI]: Start processing: cloud-sql-python-connector
+[2024-04-16 17:46:29] INFO root fetch - main [MainThread]: End processing [Stats-CI] error
+[2024-04-16 17:46:29] INFO root fetch - processPackages [libera_utils]: Downloading https://files.pythonhosted.org/packages/62/b1/495c2050a8e0629cf80b894008c6e06d02723bf7bc663cefb94999cc5112/libera_utils-2.3.0rc1.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [RegexFactory]: Downloading https://files.pythonhosted.org/packages/16/a3/2c392f0b7b0fc92b162abdfd398f86c3127211ed08765f174f7705ef8340/RegexFactory-1.0.0.tar.gz
+[2024-04-16 17:46:29] WARNING root fetch - processPackages [libera_utils]: Skipping package: exceeds size limit 31160620>=10485760
+[2024-04-16 17:46:29] INFO root fetch - processPackages [libera_utils]: Start processing: with-coordination
+[2024-04-16 17:46:29] INFO root fetch - main [MainThread]: End processing [libera_utils] error
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pyaardvark]: Downloading https://files.pythonhosted.org/packages/c0/eb/128a5d1ace67753c5f9e6d9796af43621a4000e8b8efcdec6120b36d4aa7/pyaardvark-0.7.1.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [cloud-sql-python-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pyaro]: Downloading https://files.pythonhosted.org/packages/c9/e5/493c4743cbcd705642079ea57f32e2354f1f1ea8c45dd761aa1033ca4fd9/pyaro-0.0.7.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [iotopen-py-lynx]: Downloading https://files.pythonhosted.org/packages/89/de/cb72844a1ba03a0f99401af42477214ae8fa5e8b7b0b68a662825848264d/iotopen_py_lynx-1.0.3.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [mogptk]: Downloading https://files.pythonhosted.org/packages/f4/cc/5aeebb27221901a27dc1839786193645e5d2a160214ebfb5babbdcb772e3/mogptk-0.5.1.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/70/0c/139e08664e09a36f6be946b9da6bbd901fb3f580d61247274ec28cc5b2e9/pyguiadapter-0.2.9.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pip-check-updates]: Downloading https://files.pythonhosted.org/packages/85/20/7e7fea8d0de41bdb69035605fe440e7be11ec4e84b507c6e6a471e17490c/pip-check-updates-0.9.1.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/01/59/2d8d3a6eb54ea4d7bf53bf7a06bd1d363522b83f323db91b1e5cacf42662/wslink-2.0.0.tar.gz
+[2024-04-16 17:46:29] WARNING root fetch - processPackages [with-coordination]: Skipping, unable to determine old version
+[2024-04-16 17:46:29] INFO root fetch - processPackages [with-coordination]: Start processing: Tailbone
+[2024-04-16 17:46:29] INFO root fetch - main [MainThread]: End processing [with-coordination] error
+[2024-04-16 17:46:29] INFO root fetch - processPackages [cloud-sql-python-connector]: Downloading https://files.pythonhosted.org/packages/97/85/0623f33736c483bf19f2f188febe47e626e78bb3eda59dff288f4cb901db/cloud-sql-python-connector-1.8.0.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.2.8.tar.gz tmp/pyguiadapter-0.2.9.tar.gz --markdown 20240416/p/pyguiadapter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 17:46:29] INFO root fetch - processPackages [Tailbone]: New version: [0.9.91] Old Version: [0.9.90]
+[2024-04-16 17:46:29] INFO root fetch - processPackages [RegexFactory]: Downloading https://files.pythonhosted.org/packages/f4/4d/6f7e066227c0baa97a579595a0af71ac3f414da69aec35792d3cceecd2fa/regexfactory-1.0.1.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pip-check-updates]: Downloading https://files.pythonhosted.org/packages/29/c8/4e1f1e2a2bd66ffa2de78f47b2124b6ae4fa6a4966065efbbb26321d836c/pip-check-updates-0.9.2.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/e7/03/008a89c9a98e93083c946a945a1ddcfa4657f9b8e88d022603267a02d4e4/Tailbone-0.9.90.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [iotopen-py-lynx]: Downloading https://files.pythonhosted.org/packages/2b/81/c2dcca3739c018728ea8de2dd07f8bc0fa1e17c850aae2b1745b106ba600/iotopen_py_lynx-1.0.4.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/37/1c/cecf50a1cc042cbc9c3e18039dd4f6567004ac7071f86595cc8132e1ce9b/wslink-2.0.1.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pyaardvark]: Downloading https://files.pythonhosted.org/packages/91/aa/3fbb02bdb95b676a3a366449fc0c097bfa0158881f1b1cbe20781d2a2f4d/pyaardvark-0.8.1.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pyaro]: Downloading https://files.pythonhosted.org/packages/66/1c/6757cf8b6f0dd1b18366f594d9bfbc90a0d1fcdf6451068ee4b78a9dae34/pyaro-0.0.8.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [mogptk]: Downloading https://files.pythonhosted.org/packages/0a/51/912951e255d5246b9c49871c07f1ebaad440f3acbebd6775ec787f3958ba/mogptk-0.5.2.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pip-check-updates]: executing diffoscope
+[2024-04-16 17:46:29] INFO root fetch - processPackages [pip-check-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-check-updates-0.9.1.tar.gz tmp/pip-check-updates-0.9.2.tar.gz --markdown 20240416/p/pip-check-updates/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-16 17:46:29] INFO root fetch - processPackages [cloud-sql-python-connector]: Downloading https://files.pythonhosted.org/packages/c4/42/7819e358455f1dec57f46e087aeef941ab30eb1ab9cd42ebdef2c302ce8c/cloud-sql-python-connector-1.9.0.tar.gz
+[2024-04-16 17:46:29] INFO root fetch - processPackages [RegexFactory]: executing diffoscope
+[2024-04-16 17:46:29] INFO root fetch - processPackages [RegexFactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegexFactory-1.0.0.tar.gz tmp/regexfactory-1.0.1.tar.gz --markdown 20240416/R/RegexFactory/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 17:46:29] INFO root fetch - processPackages [iotopen-py-lynx]: executing diffoscope
+[2024-04-16 17:46:29] INFO root fetch - processPackages [iotopen-py-lynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotopen_py_lynx-1.0.3.tar.gz tmp/iotopen_py_lynx-1.0.4.tar.gz --markdown 20240416/i/iotopen-py-lynx/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-16 17:46:29] INFO root fetch - processPackages [wslink]: executing diffoscope
+[2024-04-16 17:46:29] INFO root fetch - processPackages [wslink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wslink-2.0.0.tar.gz tmp/wslink-2.0.1.tar.gz --markdown 20240416/w/wslink/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-16 17:46:30] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/3c/8b/36aacb93afa00aa0a78ea24ec6a2ea2c4bf05abff9a3ee4b78fd559ea77b/tailbone-0.9.91.tar.gz
+[2024-04-16 17:46:30] INFO root fetch - processPackages [pyaro]: executing diffoscope
+[2024-04-16 17:46:30] INFO root fetch - processPackages [pyaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaro-0.0.7.tar.gz tmp/pyaro-0.0.8.tar.gz --markdown 20240416/p/pyaro/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 17:46:30] INFO root fetch - processPackages [cloud-sql-python-connector]: executing diffoscope
+[2024-04-16 17:46:30] INFO root fetch - processPackages [cloud-sql-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-sql-python-connector-1.8.0.tar.gz tmp/cloud-sql-python-connector-1.9.0.tar.gz --markdown 20240416/c/cloud-sql-python-connector/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-16 17:46:30] INFO root fetch - processPackages [mogptk]: executing diffoscope
+[2024-04-16 17:46:30] INFO root fetch - processPackages [mogptk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mogptk-0.5.1.tar.gz tmp/mogptk-0.5.2.tar.gz --markdown 20240416/m/mogptk/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-16 17:46:30] INFO root fetch - processPackages [pyaardvark]: executing diffoscope
+[2024-04-16 17:46:30] INFO root fetch - processPackages [pyaardvark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaardvark-0.7.1.tar.gz tmp/pyaardvark-0.8.1.tar.gz --markdown 20240416/p/pyaardvark/0.7.1-0.8.1/README.md --exclude *.pyd
+[2024-04-16 17:46:30] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2024-04-16 17:46:30] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.90.tar.gz tmp/tailbone-0.9.91.tar.gz --markdown 20240416/T/Tailbone/0.9.90-0.9.91/README.md --exclude *.pyd
+[2024-04-16 17:46:30] INFO root fetch - processPackages [RegexFactory]: Remove: archive file [/home/abi/fetcher/tmp/RegexFactory-1.0.0.tar.gz]
+[2024-04-16 17:46:30] INFO root fetch - processPackages [RegexFactory]: Remove: archive file [/home/abi/fetcher/tmp/regexfactory-1.0.1.tar.gz]
+[2024-04-16 17:46:30] INFO root fetch - processPackages [RegexFactory]: Start processing: taskgen-ai
+[2024-04-16 17:46:30] INFO root fetch - main [MainThread]: End processing [RegexFactory]: success
+[2024-04-16 17:46:30] INFO root fetch - processPackages [pip-check-updates]: Remove: archive file [/home/abi/fetcher/tmp/pip-check-updates-0.9.1.tar.gz]
+[2024-04-16 17:46:30] INFO root fetch - processPackages [pip-check-updates]: Remove: archive file [/home/abi/fetcher/tmp/pip-check-updates-0.9.2.tar.gz]
+[2024-04-16 17:46:30] INFO root fetch - processPackages [pip-check-updates]: Start processing: embixtools
+[2024-04-16 17:46:30] INFO root fetch - main [MainThread]: End processing [pip-check-updates]: success
+[2024-04-16 17:46:30] INFO root fetch - processPackages [taskgen-ai]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [embixtools]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.8.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.9.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [pyguiadapter]: Start processing: dvc
+[2024-04-16 17:46:31] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-16 17:46:31] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-2.0.0.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-2.0.1.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [wslink]: Start processing: dtcv2-util
+[2024-04-16 17:46:31] INFO root fetch - main [MainThread]: End processing [wslink]: success
+[2024-04-16 17:46:31] INFO root fetch - processPackages [cloud-sql-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/cloud-sql-python-connector-1.8.0.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [cloud-sql-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/cloud-sql-python-connector-1.9.0.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [cloud-sql-python-connector]: Start processing: surfkit
+[2024-04-16 17:46:31] INFO root fetch - main [MainThread]: End processing [cloud-sql-python-connector]: success
+[2024-04-16 17:46:31] INFO root fetch - processPackages [iotopen-py-lynx]: Remove: archive file [/home/abi/fetcher/tmp/iotopen_py_lynx-1.0.3.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [iotopen-py-lynx]: Remove: archive file [/home/abi/fetcher/tmp/iotopen_py_lynx-1.0.4.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [iotopen-py-lynx]: Start processing: dycw-utilities
+[2024-04-16 17:46:31] INFO root fetch - main [MainThread]: End processing [iotopen-py-lynx]: success
+[2024-04-16 17:46:31] INFO root fetch - processPackages [embixtools]: Downloading https://files.pythonhosted.org/packages/4f/73/2224d7dc1abf6523c9a8e586ff8f2b9f4bfb9387b657f041138c43679084/embixtools-1.1.5.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [dtcv2-util]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [mogptk]: Remove: archive file [/home/abi/fetcher/tmp/mogptk-0.5.1.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [mogptk]: Remove: archive file [/home/abi/fetcher/tmp/mogptk-0.5.2.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [mogptk]: Start processing: django-customvueadmin
+[2024-04-16 17:46:31] INFO root fetch - main [MainThread]: End processing [mogptk]: success
+[2024-04-16 17:46:31] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [taskgen-ai]: Downloading https://files.pythonhosted.org/packages/61/38/a725a7a61e0bc686a80bda3ff92a31c7a873455e641077c04a76eeb99095/taskgen-ai-1.3.0.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [dvc]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [pyaro]: Remove: archive file [/home/abi/fetcher/tmp/pyaro-0.0.7.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [pyaro]: Remove: archive file [/home/abi/fetcher/tmp/pyaro-0.0.8.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [pyaro]: Start processing: ome-model
+[2024-04-16 17:46:31] INFO root fetch - main [MainThread]: End processing [pyaro]: success
+[2024-04-16 17:46:31] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [pyaardvark]: Remove: archive file [/home/abi/fetcher/tmp/pyaardvark-0.7.1.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [pyaardvark]: Remove: archive file [/home/abi/fetcher/tmp/pyaardvark-0.8.1.tar.gz]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [pyaardvark]: Start processing: asleep
+[2024-04-16 17:46:31] INFO root fetch - main [MainThread]: End processing [pyaardvark]: success
+[2024-04-16 17:46:31] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [dtcv2-util]: Downloading https://files.pythonhosted.org/packages/c9/8e/902d9992c91ae973204c3b99b668080dde311302a66f650343b557b467dd/dtcv2_util-0.1.4.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [ome-model]: New version: [6.3.5] Old Version: [6.3.4]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/c5/4d/0d59effed1262f17c1fa142676a62a053cf3bcafbece7f3fdf47d7cb29f3/django-customvueadmin-0.1.8.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [ome-model]: Downloading https://files.pythonhosted.org/packages/d2/41/af55d5f836596f219c2b821e6cd8b4ed377827a2dc5443dbb8a942b751d3/ome-model-6.3.4.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [asleep]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-16 17:46:31] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/bd/2b/d427d0c781a0f09d653c7b90a0d9b792232769c21d0147c154b00cd75a2d/dvc-3.9.0.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [taskgen-ai]: Downloading https://files.pythonhosted.org/packages/70/42/bcda45d957a4cd0e6ad25995e895aadf49c1ac87f38e4d04328216c70688/taskgen_ai-1.3.1.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [embixtools]: Downloading https://files.pythonhosted.org/packages/5b/8f/403b14c7b2b15e08e702907c0609819ec1303fe42cf4396a78a640294509/embixtools-1.1.6.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [embixtools]: executing diffoscope
+[2024-04-16 17:46:31] INFO root fetch - processPackages [embixtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embixtools-1.1.5.tar.gz tmp/embixtools-1.1.6.tar.gz --markdown 20240416/e/embixtools/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-16 17:46:31] INFO root fetch - processPackages [asleep]: Downloading https://files.pythonhosted.org/packages/d5/6c/eb478eab66a918ed76b3fe436aac46ed3766b82d96d0cca1ef6852943bc7/asleep-0.4.8.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [ome-model]: Downloading https://files.pythonhosted.org/packages/83/fb/bd10e56f2f8e3e2db0018a44189d97ca995fceca53d9bd0b94f9bde0a228/ome-model-6.3.5.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [dtcv2-util]: Downloading https://files.pythonhosted.org/packages/dc/9d/f7803d3014d7581643f4b61eb07bf4d90133cb7c539aa1463bd2d6a924b5/dtcv2_util-0.1.5.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-16 17:46:31] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240416/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:46:31] INFO root fetch - processPackages [taskgen-ai]: executing diffoscope
+[2024-04-16 17:46:31] INFO root fetch - processPackages [taskgen-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskgen-ai-1.3.0.tar.gz tmp/taskgen_ai-1.3.1.tar.gz --markdown 20240416/t/taskgen-ai/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-16 17:46:31] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-04-16 17:46:31] INFO root fetch - processPackages [dtcv2-util]: executing diffoscope
+[2024-04-16 17:46:31] INFO root fetch - processPackages [dtcv2-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtcv2_util-0.1.4.tar.gz tmp/dtcv2_util-0.1.5.tar.gz --markdown 20240416/d/dtcv2-util/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 17:46:31] WARNING root fetch - processPackages [asleep]: Skipping package: exceeds size limit 41162047>=10485760
+[2024-04-16 17:46:31] INFO root fetch - processPackages [asleep]: Start processing: mozregression
+[2024-04-16 17:46:31] INFO root fetch - main [MainThread]: End processing [asleep] error
+[2024-04-16 17:46:31] INFO root fetch - processPackages [ome-model]: executing diffoscope
+[2024-04-16 17:46:31] INFO root fetch - processPackages [ome-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome-model-6.3.4.tar.gz tmp/ome-model-6.3.5.tar.gz --markdown 20240416/o/ome-model/6.3.4-6.3.5/README.md --exclude *.pyd
+[2024-04-16 17:46:32] INFO root fetch - processPackages [mozregression]: New version: [6.1.0.dev0] Old Version: [6.0.2]
+[2024-04-16 17:46:32] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-04-16 17:46:32] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.8.tar.gz tmp/django-customvueadmin-0.1.9.tar.gz --markdown 20240416/d/django-customvueadmin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:46:32] INFO root fetch - processPackages [dvc]: Downloading https://files.pythonhosted.org/packages/30/3c/4d47accc46da04fafb05c09836ec780d0c7ca2dcfe17bdd5f659a2e9c9a2/dvc-3.9.1.tar.gz
+[2024-04-16 17:46:32] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-04-16 17:46:32] INFO root fetch - processPackages [mozregression]: Downloading https://files.pythonhosted.org/packages/81/5d/fa3beb203674ab4497b7720539b104de4a5287db6ca5e58b604023ec825b/mozregression-6.0.2.tar.gz
+[2024-04-16 17:46:32] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-04-16 17:46:32] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240416/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-04-16 17:46:32] INFO root fetch - processPackages [dvc]: executing diffoscope
+[2024-04-16 17:46:32] INFO root fetch - processPackages [dvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-3.9.0.tar.gz tmp/dvc-3.9.1.tar.gz --markdown 20240416/d/dvc/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-16 17:46:32] INFO root fetch - processPackages [embixtools]: Remove: archive file [/home/abi/fetcher/tmp/embixtools-1.1.5.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - processPackages [embixtools]: Remove: archive file [/home/abi/fetcher/tmp/embixtools-1.1.6.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - main [MainThread]: End processing [embixtools]: success
+[2024-04-16 17:46:32] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-16 17:46:32] INFO root fetch - processPackages [mozregression]: Downloading https://files.pythonhosted.org/packages/cc/8a/766d38519998fc7080938f93efad455e29241fe239fe3036f35c5edfcf9e/mozregression-6.1.0.dev0.tar.gz
+[2024-04-16 17:46:32] INFO root fetch - processPackages [ome-model]: Remove: archive file [/home/abi/fetcher/tmp/ome-model-6.3.4.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - processPackages [ome-model]: Remove: archive file [/home/abi/fetcher/tmp/ome-model-6.3.5.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - main [MainThread]: End processing [ome-model]: success
+[2024-04-16 17:46:32] INFO root fetch - processPackages [taskgen-ai]: Remove: archive file [/home/abi/fetcher/tmp/taskgen-ai-1.3.0.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - processPackages [taskgen-ai]: Remove: archive file [/home/abi/fetcher/tmp/taskgen_ai-1.3.1.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - main [MainThread]: End processing [taskgen-ai]: success
+[2024-04-16 17:46:32] INFO root fetch - processPackages [dtcv2-util]: Remove: archive file [/home/abi/fetcher/tmp/dtcv2_util-0.1.4.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - processPackages [dtcv2-util]: Remove: archive file [/home/abi/fetcher/tmp/dtcv2_util-0.1.5.tar.gz]
+[2024-04-16 17:46:32] INFO root fetch - main [MainThread]: End processing [dtcv2-util]: success
+[2024-04-16 17:46:32] INFO root fetch - processPackages [mozregression]: executing diffoscope
+[2024-04-16 17:46:32] INFO root fetch - processPackages [mozregression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozregression-6.0.2.tar.gz tmp/mozregression-6.1.0.dev0.tar.gz --markdown 20240416/m/mozregression/6.0.2-6.1.0.dev0/README.md --exclude *.pyd
+[2024-04-16 17:46:33] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.8.tar.gz]
+[2024-04-16 17:46:33] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-04-16 17:46:33] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-04-16 17:46:33] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-04-16 17:46:33] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-04-16 17:46:33] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-04-16 17:46:33] INFO root fetch - processPackages [mozregression]: Remove: archive file [/home/abi/fetcher/tmp/mozregression-6.0.2.tar.gz]
+[2024-04-16 17:46:33] INFO root fetch - processPackages [mozregression]: Remove: archive file [/home/abi/fetcher/tmp/mozregression-6.1.0.dev0.tar.gz]
+[2024-04-16 17:46:33] INFO root fetch - main [MainThread]: End processing [mozregression]: success
+[2024-04-16 17:46:33] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.90.tar.gz]
+[2024-04-16 17:46:33] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/tailbone-0.9.91.tar.gz]
+[2024-04-16 17:46:33] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2024-04-16 17:46:34] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.0.tar.gz]
+[2024-04-16 17:46:34] INFO root fetch - processPackages [dvc]: Remove: archive file [/home/abi/fetcher/tmp/dvc-3.9.1.tar.gz]
+[2024-04-16 17:46:34] INFO root fetch - main [MainThread]: End processing [dvc]: success
+[2024-04-16 17:46:34] INFO root fetch - main [MainThread]: Store serial: [22790128]
