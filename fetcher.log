@@ -6176,3 +6176,42 @@
 [2024-04-16 06:46:42] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.2.0.tar.gz]
 [2024-04-16 06:46:42] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
 [2024-04-16 06:46:42] INFO root fetch - main [MainThread]: Store serial: [22782641]
+[2024-04-16 06:48:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782641]
+[2024-04-16 06:48:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 06:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: collective.listmonk
+[2024-04-16 06:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyminerva
+[2024-04-16 06:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberdrop-dl
+[2024-04-16 06:48:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vs-colabi
+[2024-04-16 06:48:52] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 06:48:52] INFO root fetch - processPackages [cyberdrop-dl]: New version: [5.2.9] Old Version: [5.2.8]
+[2024-04-16 06:48:52] INFO root fetch - processPackages [collective.listmonk]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2024-04-16 06:48:52] INFO root fetch - processPackages [vs-colabi]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-16 06:48:52] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-16 06:48:52] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/d0/4d/1bcce6fd4b01edc3088927c67c6a1f036da4325e2d64f9023ffc785bf41f/cyberdrop_dl-5.2.8.tar.gz
+[2024-04-16 06:48:52] INFO root fetch - processPackages [collective.listmonk]: Downloading https://files.pythonhosted.org/packages/fd/46/558c1e3775135a1af54164ca8342b6a01a86a8a353e2dadacdba70a53fda/collective.listmonk-1.0.0a4.tar.gz
+[2024-04-16 06:48:52] INFO root fetch - processPackages [vs-colabi]: Downloading https://files.pythonhosted.org/packages/8d/24/543b88cab8af317909832cf0bf09bf19cc1015c803da638ee980e0792f4e/vs-colabi-1.1.5.tar.gz
+[2024-04-16 06:48:52] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/a7/7a/092028b397178a9db79ef8faa65d75bf211ee19118810447fad4b661a628/cyberdrop_dl-5.2.9.tar.gz
+[2024-04-16 06:48:52] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-16 06:48:52] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2024-04-16 06:48:52] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop_dl-5.2.8.tar.gz tmp/cyberdrop_dl-5.2.9.tar.gz --markdown 20240416/c/cyberdrop-dl/5.2.8-5.2.9/README.md --exclude *.pyd
+[2024-04-16 06:48:52] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-16 06:48:52] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240416/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 06:48:52] INFO root fetch - processPackages [vs-colabi]: Downloading https://files.pythonhosted.org/packages/10/4a/da336cb472818b4784d3135be797d84962cd335b8210b2cafbaa7cd06d32/vs-colabi-1.1.6.tar.gz
+[2024-04-16 06:48:52] INFO root fetch - processPackages [collective.listmonk]: Downloading https://files.pythonhosted.org/packages/0c/01/1df8651ecb321b493b48d4a5a40034c1155425b743b304d1b68d68c2eba5/collective.listmonk-1.0.0a5.tar.gz
+[2024-04-16 06:48:52] INFO root fetch - processPackages [collective.listmonk]: executing diffoscope
+[2024-04-16 06:48:52] INFO root fetch - processPackages [collective.listmonk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.listmonk-1.0.0a4.tar.gz tmp/collective.listmonk-1.0.0a5.tar.gz --markdown 20240416/c/collective.listmonk/1.0.0a4-1.0.0a5/README.md --exclude *.pyd
+[2024-04-16 06:48:52] INFO root fetch - processPackages [vs-colabi]: executing diffoscope
+[2024-04-16 06:48:52] INFO root fetch - processPackages [vs-colabi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vs-colabi-1.1.5.tar.gz tmp/vs-colabi-1.1.6.tar.gz --markdown 20240416/v/vs-colabi/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-16 06:48:53] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-16 06:48:53] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-16 06:48:53] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-16 06:48:53] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.8.tar.gz]
+[2024-04-16 06:48:53] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop_dl-5.2.9.tar.gz]
+[2024-04-16 06:48:53] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2024-04-16 06:48:53] INFO root fetch - processPackages [vs-colabi]: Remove: archive file [/home/abi/fetcher/tmp/vs-colabi-1.1.5.tar.gz]
+[2024-04-16 06:48:53] INFO root fetch - processPackages [vs-colabi]: Remove: archive file [/home/abi/fetcher/tmp/vs-colabi-1.1.6.tar.gz]
+[2024-04-16 06:48:53] INFO root fetch - main [MainThread]: End processing [vs-colabi]: success
+[2024-04-16 06:48:53] INFO root fetch - processPackages [collective.listmonk]: Remove: archive file [/home/abi/fetcher/tmp/collective.listmonk-1.0.0a4.tar.gz]
+[2024-04-16 06:48:53] INFO root fetch - processPackages [collective.listmonk]: Remove: archive file [/home/abi/fetcher/tmp/collective.listmonk-1.0.0a5.tar.gz]
+[2024-04-16 06:48:53] INFO root fetch - main [MainThread]: End processing [collective.listmonk]: success
+[2024-04-16 06:48:53] INFO root fetch - main [MainThread]: Store serial: [22782659]
