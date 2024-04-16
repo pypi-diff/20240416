@@ -15343,3 +15343,21 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:18:27] INFO root fetch - processPackages [baseapp-comments]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_comments-0.1.2.tar.gz]
 [2024-04-16 13:18:27] INFO root fetch - main [MainThread]: End processing [baseapp-comments]: success
 [2024-04-16 13:18:27] INFO root fetch - main [MainThread]: Store serial: [22786696]
+[2024-04-16 13:20:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786696]
+[2024-04-16 13:20:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 13:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WinManager
+[2024-04-16 13:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web3-model
+[2024-04-16 13:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fritzbox-tray
+[2024-04-16 13:20:36] WARNING root fetch - processPackages [WinManager]: Skipping, unable to determine old version
+[2024-04-16 13:20:36] INFO root fetch - main [MainThread]: End processing [WinManager] error
+[2024-04-16 13:20:36] INFO root fetch - processPackages [fritzbox-tray]: New version: [1.0.69] Old Version: [1.0.68]
+[2024-04-16 13:20:36] WARNING root fetch - processPackages [web3-model]: Skipping, unable to determine old version
+[2024-04-16 13:20:36] INFO root fetch - main [MainThread]: End processing [web3-model] error
+[2024-04-16 13:20:36] INFO root fetch - processPackages [fritzbox-tray]: Downloading https://files.pythonhosted.org/packages/22/4e/1e21546746b15609a650664879ad34aeb5c6add2163aa2fa5a657e3b7648/fritzbox-tray-1.0.68.tar.gz
+[2024-04-16 13:20:37] INFO root fetch - processPackages [fritzbox-tray]: Downloading https://files.pythonhosted.org/packages/9d/fa/6ee44957dfe23398d62d0c815778aa76217c8294ac3275cfbc7c2da6e7b4/fritzbox-tray-1.0.69.tar.gz
+[2024-04-16 13:20:37] INFO root fetch - processPackages [fritzbox-tray]: executing diffoscope
+[2024-04-16 13:20:37] INFO root fetch - processPackages [fritzbox-tray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fritzbox-tray-1.0.68.tar.gz tmp/fritzbox-tray-1.0.69.tar.gz --markdown 20240416/f/fritzbox-tray/1.0.68-1.0.69/README.md --exclude *.pyd
+[2024-04-16 13:20:37] INFO root fetch - processPackages [fritzbox-tray]: Remove: archive file [/home/abi/fetcher/tmp/fritzbox-tray-1.0.68.tar.gz]
+[2024-04-16 13:20:37] INFO root fetch - processPackages [fritzbox-tray]: Remove: archive file [/home/abi/fetcher/tmp/fritzbox-tray-1.0.69.tar.gz]
+[2024-04-16 13:20:37] INFO root fetch - main [MainThread]: End processing [fritzbox-tray]: success
+[2024-04-16 13:20:37] INFO root fetch - main [MainThread]: Store serial: [22786714]
