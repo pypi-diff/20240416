@@ -13742,3 +13742,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:08:05] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-16 12:08:05] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-16 12:08:05] INFO root fetch - main [MainThread]: Store serial: [22785974]
+[2024-04-16 12:10:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785974]
+[2024-04-16 12:10:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 12:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swmm-api
+[2024-04-16 12:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-04-16 12:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-keras-nightly
+[2024-04-16 12:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastdeploy
+[2024-04-16 12:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nuvolos-cli
+[2024-04-16 12:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gurobi-modelanalyzer
+[2024-04-16 12:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embed-anything
+[2024-04-16 12:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foscat
+[2024-04-16 12:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cpmtokenizer
+[2024-04-16 12:10:14] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.85]
+[2024-04-16 12:10:14] INFO root fetch - processPackages [embed-anything]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 12:10:14] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024041509] Old Version: [2.17.0.dev2024041409]
+[2024-04-16 12:10:14] INFO root fetch - processPackages [swmm-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-16 12:10:14] WARNING root fetch - processPackages [cpmtokenizer]: Skipping, unable to determine old version
+[2024-04-16 12:10:14] INFO root fetch - main [MainThread]: End processing [cpmtokenizer] error
+[2024-04-16 12:10:14] INFO root fetch - processPackages [nuvolos-cli]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 12:10:14] INFO root fetch - processPackages [gurobi-modelanalyzer]: New version: [1.0.1] Old Version: [1.0.0rc0]
+[2024-04-16 12:10:14] INFO root fetch - processPackages [foscat]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-16 12:10:14] INFO root fetch - processPackages [fastdeploy]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-16 12:10:14] INFO root fetch - processPackages [embed-anything]: Downloading https://files.pythonhosted.org/packages/0b/de/6833a6f52a083aed0a6903049ddd3a59775dea6d8d49be143fd8e767e2b5/embed_anything-0.1.8.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/2f/9e/6697ff350bb8543e723879bedf9cff42b8448072ab265b0c35a5620bb546/tf_keras_nightly-2.17.0.dev2024041409.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/5f/52/f09b1650399b6023dcbc8c49c8f933116878b9a7c1ba58fbe2343701868b/cdo-sdk-python-1.0.85.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/bc/e3ebd15e10d699ed9b5642a235c414ce84f5f13ee52612c5684521148a71/swmm-api-0.4.8.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [gurobi-modelanalyzer]: Downloading https://files.pythonhosted.org/packages/67/bd/bad8e7b47dcc964aadc43ec39a6d89ea5a60b858a824ac35ec8aa4bd3a6a/gurobi_modelanalyzer-1.0.0rc0.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [nuvolos-cli]: Downloading https://files.pythonhosted.org/packages/3c/de/476c46760bc1ccb477580040ab7532065c3f513b8165d72ce8b7497428e9/nuvolos-cli-1.0.0.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/b6/1a/cff11416f3547c8dc9a5231634209d3692fac4d553dab54be2058eae0087/foscat-3.0.8.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/c6/27/0eef2f3693ada749ce4194963013963c07d1f834d7b719b023e20f20c3a8/fastdeploy-3.0.8.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/e5/98/66657ce08472fd570441b566925db1dd8d6eb604ef22da7395d9a19e076a/tf_keras_nightly-2.17.0.dev2024041509.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [embed-anything]: Downloading https://files.pythonhosted.org/packages/fd/9b/e485e2b774254c26b7fb0ad0b5b4660008adfdb07ec0c23eee84e42cfda9/embed_anything-0.1.9.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [swmm-api]: Downloading https://files.pythonhosted.org/packages/82/5d/df302736e1229719ba97cec4392d0731c337345cca86d512f1f60ffc309c/swmm-api-0.4.9.tar.gz
+[2024-04-16 12:10:14] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-16 12:10:14] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.85.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240416/c/cdo-sdk-python/1.0.85-1.0.9/README.md --exclude *.pyd
+[2024-04-16 12:10:14] INFO root fetch - processPackages [nuvolos-cli]: Downloading https://files.pythonhosted.org/packages/f5/e2/a4e5eabc9f71d598bae041f378e49a6e850748c46bf007c4a878fe7f6f72/nuvolos_cli-1.0.1.tar.gz
+[2024-04-16 12:10:15] INFO root fetch - processPackages [swmm-api]: executing diffoscope
+[2024-04-16 12:10:15] INFO root fetch - processPackages [swmm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swmm-api-0.4.8.tar.gz tmp/swmm-api-0.4.9.tar.gz --markdown 20240416/s/swmm-api/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-16 12:10:15] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-16 12:10:15] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024041409.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024041509.tar.gz --markdown 20240416/t/tf-keras-nightly/2.17.0.dev2024041409-2.17.0.dev2024041509/README.md --exclude *.pyd
+[2024-04-16 12:10:15] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/e7/88/fd7d5a695474e4424c9f8ae46ca7a6a282cc914eca8ac17cd76149013dfe/fastdeploy-3.0.9.tar.gz
+[2024-04-16 12:10:15] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/42/3c/3ec0d9aa38fb2a3152ce79ba0f92a03372e73164626118a07121951ed317/foscat-3.0.9.tar.gz
+[2024-04-16 12:10:15] INFO root fetch - processPackages [nuvolos-cli]: executing diffoscope
+[2024-04-16 12:10:15] INFO root fetch - processPackages [nuvolos-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuvolos-cli-1.0.0.tar.gz tmp/nuvolos_cli-1.0.1.tar.gz --markdown 20240416/n/nuvolos-cli/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 12:10:15] INFO root fetch - processPackages [fastdeploy]: executing diffoscope
+[2024-04-16 12:10:15] INFO root fetch - processPackages [fastdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdeploy-3.0.8.tar.gz tmp/fastdeploy-3.0.9.tar.gz --markdown 20240416/f/fastdeploy/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-16 12:10:15] INFO root fetch - processPackages [embed-anything]: executing diffoscope
+[2024-04-16 12:10:15] INFO root fetch - processPackages [embed-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embed_anything-0.1.8.tar.gz tmp/embed_anything-0.1.9.tar.gz --markdown 20240416/e/embed-anything/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 12:10:15] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2024-04-16 12:10:15] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-3.0.8.tar.gz tmp/foscat-3.0.9.tar.gz --markdown 20240416/f/foscat/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-16 12:10:15] INFO root fetch - processPackages [gurobi-modelanalyzer]: Downloading https://files.pythonhosted.org/packages/81/4e/7b366194b01712466f8b0db67a3bce47e6f9248915631e767fdc6eaf987a/gurobi_modelanalyzer-1.0.1.tar.gz
+[2024-04-16 12:10:16] INFO root fetch - processPackages [gurobi-modelanalyzer]: executing diffoscope
+[2024-04-16 12:10:16] INFO root fetch - processPackages [gurobi-modelanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gurobi_modelanalyzer-1.0.0rc0.tar.gz tmp/gurobi_modelanalyzer-1.0.1.tar.gz --markdown 20240416/g/gurobi-modelanalyzer/1.0.0rc0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 12:10:16] INFO root fetch - processPackages [nuvolos-cli]: Remove: archive file [/home/abi/fetcher/tmp/nuvolos-cli-1.0.0.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - processPackages [nuvolos-cli]: Remove: archive file [/home/abi/fetcher/tmp/nuvolos_cli-1.0.1.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - main [MainThread]: End processing [nuvolos-cli]: success
+[2024-04-16 12:10:16] INFO root fetch - processPackages [fastdeploy]: Remove: archive file [/home/abi/fetcher/tmp/fastdeploy-3.0.8.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - processPackages [fastdeploy]: Remove: archive file [/home/abi/fetcher/tmp/fastdeploy-3.0.9.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - main [MainThread]: End processing [fastdeploy]: success
+[2024-04-16 12:10:16] INFO root fetch - processPackages [swmm-api]: Remove: archive file [/home/abi/fetcher/tmp/swmm-api-0.4.8.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - processPackages [swmm-api]: Remove: archive file [/home/abi/fetcher/tmp/swmm-api-0.4.9.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - main [MainThread]: End processing [swmm-api]: success
+[2024-04-16 12:10:16] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.8.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - processPackages [foscat]: Remove: archive file [/home/abi/fetcher/tmp/foscat-3.0.9.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2024-04-16 12:10:16] INFO root fetch - processPackages [embed-anything]: Remove: archive file [/home/abi/fetcher/tmp/embed_anything-0.1.8.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - processPackages [embed-anything]: Remove: archive file [/home/abi/fetcher/tmp/embed_anything-0.1.9.tar.gz]
+[2024-04-16 12:10:16] INFO root fetch - main [MainThread]: End processing [embed-anything]: success
+[2024-04-16 12:10:17] INFO root fetch - processPackages [gurobi-modelanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/gurobi_modelanalyzer-1.0.0rc0.tar.gz]
+[2024-04-16 12:10:17] INFO root fetch - processPackages [gurobi-modelanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/gurobi_modelanalyzer-1.0.1.tar.gz]
+[2024-04-16 12:10:17] INFO root fetch - main [MainThread]: End processing [gurobi-modelanalyzer]: success
+[2024-04-16 12:10:18] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.85.tar.gz]
+[2024-04-16 12:10:18] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-16 12:10:18] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-16 12:10:18] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041409.tar.gz]
+[2024-04-16 12:10:18] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041509.tar.gz]
+[2024-04-16 12:10:18] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-16 12:10:18] INFO root fetch - main [MainThread]: Store serial: [22786017]
