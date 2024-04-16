@@ -5077,3 +5077,33 @@
 [2024-04-16 05:28:03] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.3.dev20240415090556.tar.gz]
 [2024-04-16 05:28:03] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2024-04-16 05:28:03] INFO root fetch - main [MainThread]: Store serial: [22782128]
+[2024-04-16 05:30:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782128]
+[2024-04-16 05:30:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dic-random
+[2024-04-16 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rcquant-sdk
+[2024-04-16 05:30:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keras-nlp-nightly
+[2024-04-16 05:30:12] INFO root fetch - processPackages [dic-random]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-16 05:30:12] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 05:30:12] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-04-16 05:30:12] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-16 05:30:12] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-04-16 05:30:12] INFO root fetch - processPackages [dic-random]: Downloading https://files.pythonhosted.org/packages/d4/df/182c23aa3d203c603e2b02b1060233d95c068bc7fe3266f34fbcd2c3cc47/dic_random-0.0.0-py3-none-any.whl
+[2024-04-16 05:30:12] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-16 05:30:12] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-04-16 05:30:12] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-16 05:30:12] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240416/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 05:30:12] INFO root fetch - processPackages [dic-random]: Downloading https://files.pythonhosted.org/packages/a6/7d/324431d03a3469eea830e57246c2c5fd79496d24eac05b5287363cc24c75/dic_random-0.0.1-py3-none-any.whl
+[2024-04-16 05:30:12] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-16 05:30:12] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240416/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-04-16 05:30:12] INFO root fetch - processPackages [dic-random]: executing diffoscope
+[2024-04-16 05:30:12] INFO root fetch - processPackages [dic-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dic_random-0.0.0-py3-none-any.whl.zip tmp/dic_random-0.0.1-py3-none-any.whl.zip --markdown 20240416/d/dic-random/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-16 05:30:13] INFO root fetch - processPackages [dic-random]: Remove: archive file [/home/abi/fetcher/tmp/dic_random-0.0.0-py3-none-any.whl.zip]
+[2024-04-16 05:30:13] INFO root fetch - processPackages [dic-random]: Remove: archive file [/home/abi/fetcher/tmp/dic_random-0.0.1-py3-none-any.whl.zip]
+[2024-04-16 05:30:13] INFO root fetch - main [MainThread]: End processing [dic-random]: success
+[2024-04-16 05:30:13] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-16 05:30:13] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-16 05:30:13] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-16 05:30:13] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-04-16 05:30:13] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-04-16 05:30:13] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-16 05:30:13] INFO root fetch - main [MainThread]: Store serial: [22782136]
