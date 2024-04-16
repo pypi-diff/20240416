@@ -7364,3 +7364,24 @@
 [2024-04-16 08:11:15] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
 [2024-04-16 08:11:15] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
 [2024-04-16 08:11:15] INFO root fetch - main [MainThread]: Store serial: [22783104]
+[2024-04-16 08:13:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783104]
+[2024-04-16 08:13:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 08:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shares
+[2024-04-16 08:13:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cumo
+[2024-04-16 08:13:23] INFO root fetch - processPackages [shares]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-04-16 08:13:23] INFO root fetch - processPackages [cumo]: New version: [0.33.2] Old Version: [0.33.1]
+[2024-04-16 08:13:24] INFO root fetch - processPackages [shares]: Downloading https://files.pythonhosted.org/packages/44/8e/1de8a17931dda529bfa6cd9f4866f95dfa141deaef2e8b522eef1910eab5/shares-3.1.8.tar.gz
+[2024-04-16 08:13:24] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/ba/36/c1ecc649f9aeb80c4867f033960af2cbfe9c586a558c3de55f5d48591848/cumo-0.33.1.tar.gz
+[2024-04-16 08:13:24] INFO root fetch - processPackages [shares]: Downloading https://files.pythonhosted.org/packages/7c/2e/1fbf5bef7ff75928f2475c7ca766193a7a028d4c2e39185f46d617e95ee9/shares-3.1.9.tar.gz
+[2024-04-16 08:13:24] INFO root fetch - processPackages [shares]: executing diffoscope
+[2024-04-16 08:13:24] INFO root fetch - processPackages [shares]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shares-3.1.8.tar.gz tmp/shares-3.1.9.tar.gz --markdown 20240416/s/shares/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-04-16 08:13:24] INFO root fetch - processPackages [cumo]: Downloading https://files.pythonhosted.org/packages/d5/65/cd8b932482fcea6a485d58cf70fe206eacf72181c13aedfa8b3796f6c635/cumo-0.33.2.tar.gz
+[2024-04-16 08:13:25] INFO root fetch - processPackages [shares]: Remove: archive file [/home/abi/fetcher/tmp/shares-3.1.8.tar.gz]
+[2024-04-16 08:13:25] INFO root fetch - processPackages [shares]: Remove: archive file [/home/abi/fetcher/tmp/shares-3.1.9.tar.gz]
+[2024-04-16 08:13:25] INFO root fetch - main [MainThread]: End processing [shares]: success
+[2024-04-16 08:13:25] INFO root fetch - processPackages [cumo]: executing diffoscope
+[2024-04-16 08:13:25] INFO root fetch - processPackages [cumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cumo-0.33.1.tar.gz tmp/cumo-0.33.2.tar.gz --markdown 20240416/c/cumo/0.33.1-0.33.2/README.md --exclude *.pyd
+[2024-04-16 08:13:52] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.1.tar.gz]
+[2024-04-16 08:13:52] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.2.tar.gz]
+[2024-04-16 08:13:52] INFO root fetch - main [MainThread]: End processing [cumo]: success
+[2024-04-16 08:13:52] INFO root fetch - main [MainThread]: Store serial: [22783110]
