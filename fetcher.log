@@ -5186,3 +5186,33 @@
 [2024-04-16 05:36:46] INFO root fetch - processPackages [pyiceberg]: Remove: archive file [/home/abi/fetcher/tmp/pyiceberg-0.6.1rc1.tar.gz]
 [2024-04-16 05:36:46] INFO root fetch - main [MainThread]: End processing [pyiceberg]: success
 [2024-04-16 05:36:46] INFO root fetch - main [MainThread]: Store serial: [22782175]
+[2024-04-16 05:38:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782175]
+[2024-04-16 05:38:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 05:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wuji
+[2024-04-16 05:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: postfinancex
+[2024-04-16 05:38:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-pro
+[2024-04-16 05:38:55] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 05:38:55] INFO root fetch - processPackages [postfinancex]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 05:38:55] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 05:38:55] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-16 05:38:55] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/27/9c/cc7e8490dda04564c6f8b61efad4894092b052868fc5205550b199ee77b4/postfinancex-0.0.1.tar.gz
+[2024-04-16 05:38:55] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-04-16 05:38:55] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-16 05:38:55] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-16 05:38:55] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240416/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 05:38:55] INFO root fetch - processPackages [postfinancex]: Downloading https://files.pythonhosted.org/packages/bb/04/12a9324e04e3c6274360700a7efed2cd17fe256a3f35c1ba368b219c38bd/postfinancex-0.0.2.tar.gz
+[2024-04-16 05:38:55] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-04-16 05:38:55] INFO root fetch - processPackages [postfinancex]: executing diffoscope
+[2024-04-16 05:38:55] INFO root fetch - processPackages [postfinancex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postfinancex-0.0.1.tar.gz tmp/postfinancex-0.0.2.tar.gz --markdown 20240416/p/postfinancex/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 05:38:55] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-04-16 05:38:55] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240416/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 05:38:56] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-16 05:38:56] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-16 05:38:56] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-16 05:38:56] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.1.tar.gz]
+[2024-04-16 05:38:56] INFO root fetch - processPackages [postfinancex]: Remove: archive file [/home/abi/fetcher/tmp/postfinancex-0.0.2.tar.gz]
+[2024-04-16 05:38:56] INFO root fetch - main [MainThread]: End processing [postfinancex]: success
+[2024-04-16 05:38:56] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-04-16 05:38:56] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-04-16 05:38:56] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-04-16 05:38:56] INFO root fetch - main [MainThread]: Store serial: [22782220]
