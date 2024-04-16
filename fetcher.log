@@ -14060,3 +14060,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:23:25] INFO root fetch - processPackages [embed-anything]: Remove: archive file [/home/abi/fetcher/tmp/embed_anything-0.1.9.tar.gz]
 [2024-04-16 12:23:25] INFO root fetch - main [MainThread]: End processing [embed-anything]: success
 [2024-04-16 12:23:25] INFO root fetch - main [MainThread]: Store serial: [22786116]
+[2024-04-16 12:25:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786116]
+[2024-04-16 12:25:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 12:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: research-roc-utils
+[2024-04-16 12:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinjected
+[2024-04-16 12:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-parrot-adbcontroller
+[2024-04-16 12:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccdexplorer-schema-parser
+[2024-04-16 12:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-iris
+[2024-04-16 12:25:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcor-shared
+[2024-04-16 12:25:34] INFO root fetch - processPackages [langchain-iris]: New version: [0.1.2b2] Old Version: [0.1.2b1]
+[2024-04-16 12:25:34] INFO root fetch - processPackages [research-roc-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-16 12:25:34] INFO root fetch - processPackages [pinjected]: New version: [0.2.32] Old Version: [0.2.31]
+[2024-04-16 12:25:34] WARNING root fetch - processPackages [robotframework-parrot-adbcontroller]: Skipping, unable to determine old version
+[2024-04-16 12:25:34] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-adbcontroller] error
+[2024-04-16 12:25:34] INFO root fetch - processPackages [langchain-iris]: Downloading https://files.pythonhosted.org/packages/c0/2b/2459b49a22aac4fed0cec9c886d9bcfb87cf4ff7b1ed3f4f5ee29b8c3e41/langchain_iris-0.1.2b1.tar.gz
+[2024-04-16 12:25:34] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/f0/00/3747fa80e3d9a534936426e5c56f4e37181622ac5d34b6c4028a35288d69/research_roc_utils-0.0.5.tar.gz
+[2024-04-16 12:25:34] INFO root fetch - processPackages [dcor-shared]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 12:25:34] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/a5/d2/ea46662ea1cfe75674d2caae6a6fd4d3aa34c5a55a7099872a4f2c189fce/pinjected-0.2.31.tar.gz
+[2024-04-16 12:25:34] INFO root fetch - processPackages [ccdexplorer-schema-parser]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 12:25:34] INFO root fetch - processPackages [dcor-shared]: Downloading https://files.pythonhosted.org/packages/70/5a/0659ee88f2b1b6ebe6f3111624d9ebac2bd047f47ecc7f35fcc2692a0d46/dcor_shared-0.9.0.tar.gz
+[2024-04-16 12:25:34] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/c4/79/832c62d4da19bc635eb84d747be89c13731c78f1962608fdfc0258ba1ab0/ccdexplorer_schema_parser-0.1.4.tar.gz
+[2024-04-16 12:25:34] INFO root fetch - processPackages [langchain-iris]: Downloading https://files.pythonhosted.org/packages/d6/6d/542de3880aaf607e0a60e67a7310880eb29babf37807bd67eb6a3fe3500e/langchain_iris-0.1.2b2.tar.gz
+[2024-04-16 12:25:34] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/aa/64/28d9b3cceab256456f983d6ff6ea84d65eebaf8eb6e02a1ea2fa137e62f0/research_roc_utils-0.0.6.tar.gz
+[2024-04-16 12:25:34] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/b0/ff/af002b004e4338f611132c81cfbc2d9ba94d29da2a6e1c9b031bec4dc242/pinjected-0.2.32.tar.gz
+[2024-04-16 12:25:34] INFO root fetch - processPackages [research-roc-utils]: executing diffoscope
+[2024-04-16 12:25:34] INFO root fetch - processPackages [research-roc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_roc_utils-0.0.5.tar.gz tmp/research_roc_utils-0.0.6.tar.gz --markdown 20240416/r/research-roc-utils/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-16 12:25:34] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-16 12:25:34] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.31.tar.gz tmp/pinjected-0.2.32.tar.gz --markdown 20240416/p/pinjected/0.2.31-0.2.32/README.md --exclude *.pyd
+[2024-04-16 12:25:34] INFO root fetch - processPackages [langchain-iris]: executing diffoscope
+[2024-04-16 12:25:34] INFO root fetch - processPackages [langchain-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_iris-0.1.2b1.tar.gz tmp/langchain_iris-0.1.2b2.tar.gz --markdown 20240416/l/langchain-iris/0.1.2b1-0.1.2b2/README.md --exclude *.pyd
+[2024-04-16 12:25:34] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/9b/8d/90093758cc603eafb17172c8d5f07613801425edb93268b9ceea030d3bf5/ccdexplorer_schema_parser-0.1.5.tar.gz
+[2024-04-16 12:25:35] INFO root fetch - processPackages [ccdexplorer-schema-parser]: executing diffoscope
+[2024-04-16 12:25:35] INFO root fetch - processPackages [ccdexplorer-schema-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdexplorer_schema_parser-0.1.4.tar.gz tmp/ccdexplorer_schema_parser-0.1.5.tar.gz --markdown 20240416/c/ccdexplorer-schema-parser/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 12:25:35] INFO root fetch - processPackages [dcor-shared]: Downloading https://files.pythonhosted.org/packages/ee/cf/b749b180f7423327c9524c4e39795a15647c1fba69587b9f7e756a9b5439/dcor_shared-0.9.1.tar.gz
+[2024-04-16 12:25:35] INFO root fetch - processPackages [langchain-iris]: Remove: archive file [/home/abi/fetcher/tmp/langchain_iris-0.1.2b1.tar.gz]
+[2024-04-16 12:25:35] INFO root fetch - processPackages [langchain-iris]: Remove: archive file [/home/abi/fetcher/tmp/langchain_iris-0.1.2b2.tar.gz]
+[2024-04-16 12:25:35] INFO root fetch - main [MainThread]: End processing [langchain-iris]: success
+[2024-04-16 12:25:35] INFO root fetch - processPackages [dcor-shared]: executing diffoscope
+[2024-04-16 12:25:35] INFO root fetch - processPackages [dcor-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcor_shared-0.9.0.tar.gz tmp/dcor_shared-0.9.1.tar.gz --markdown 20240416/d/dcor-shared/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 12:25:35] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.5.tar.gz]
+[2024-04-16 12:25:35] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.6.tar.gz]
+[2024-04-16 12:25:35] INFO root fetch - main [MainThread]: End processing [research-roc-utils]: success
+[2024-04-16 12:25:35] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.31.tar.gz]
+[2024-04-16 12:25:35] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.32.tar.gz]
+[2024-04-16 12:25:35] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-16 12:25:35] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.4.tar.gz]
+[2024-04-16 12:25:35] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.5.tar.gz]
+[2024-04-16 12:25:35] INFO root fetch - main [MainThread]: End processing [ccdexplorer-schema-parser]: success
+[2024-04-16 12:25:36] INFO root fetch - processPackages [dcor-shared]: Remove: archive file [/home/abi/fetcher/tmp/dcor_shared-0.9.0.tar.gz]
+[2024-04-16 12:25:36] INFO root fetch - processPackages [dcor-shared]: Remove: archive file [/home/abi/fetcher/tmp/dcor_shared-0.9.1.tar.gz]
+[2024-04-16 12:25:36] INFO root fetch - main [MainThread]: End processing [dcor-shared]: success
+[2024-04-16 12:25:36] INFO root fetch - main [MainThread]: Store serial: [22786160]
