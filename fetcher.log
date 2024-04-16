@@ -13694,3 +13694,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:05:47] INFO root fetch - processPackages [pm4pyminimal]: Remove: archive file [/home/abi/fetcher/tmp/pm4pyminimal-2.7.9.4.tar.gz]
 [2024-04-16 12:05:47] INFO root fetch - main [MainThread]: End processing [pm4pyminimal]: success
 [2024-04-16 12:05:47] INFO root fetch - main [MainThread]: Store serial: [22785937]
+[2024-04-16 12:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785937]
+[2024-04-16 12:07:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiqc-sgr
+[2024-04-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capellambse
+[2024-04-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tacrpy
+[2024-04-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccdexplorer-schema-parser
+[2024-04-16 12:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: haruka-parser
+[2024-04-16 12:07:56] INFO root fetch - processPackages [multiqc-sgr]: New version: [1.22.post0] Old Version: [1.21.1]
+[2024-04-16 12:07:56] INFO root fetch - processPackages [ccdexplorer-schema-parser]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-16 12:07:56] INFO root fetch - processPackages [tacrpy]: New version: [1.5.0] Old Version: [1.4.5]
+[2024-04-16 12:07:56] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-16 12:07:56] INFO root fetch - processPackages [haruka-parser]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-04-16 12:07:56] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/7b/ca/b27247e3a52396436e1cb43737bd0990aa379d3733df6b91bfbc6b660b45/ccdexplorer_schema_parser-0.1.2.tar.gz
+[2024-04-16 12:07:56] INFO root fetch - processPackages [tacrpy]: Downloading https://files.pythonhosted.org/packages/37/e4/52d7613dbae0fa8ddd9948952fcdb4b2afb8f6c5ee2bcc318ce3f1b2fd09/tacrpy-1.4.5-py3-none-any.whl
+[2024-04-16 12:07:56] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-16 12:07:56] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/de/ca/86ee0d8a9aaabf4e457a23b706869d8938bccee3c8e6018fdd5ffef30bf6/multiqc_sgr-1.21.1.tar.gz
+[2024-04-16 12:07:56] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/e4/df/f050efac1be94a47e950fcbc82ae7b49344a588e39efdc391f9dfa4b8c81/ccdexplorer_schema_parser-0.1.3.tar.gz
+[2024-04-16 12:07:56] INFO root fetch - processPackages [haruka-parser]: Downloading https://files.pythonhosted.org/packages/1c/21/b62cddb349a000eef051226bb14486f6a68363c615be3b8052a4c199cd54/haruka_parser-0.4.9.tar.gz
+[2024-04-16 12:07:56] INFO root fetch - processPackages [tacrpy]: Downloading https://files.pythonhosted.org/packages/ef/31/4773e5887a57ae9fdf96a3a141e50c0a957c21567c2a02d0bf308a397d66/tacrpy-1.5.0-py3-none-any.whl
+[2024-04-16 12:07:57] INFO root fetch - processPackages [ccdexplorer-schema-parser]: executing diffoscope
+[2024-04-16 12:07:57] INFO root fetch - processPackages [ccdexplorer-schema-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdexplorer_schema_parser-0.1.2.tar.gz tmp/ccdexplorer_schema_parser-0.1.3.tar.gz --markdown 20240416/c/ccdexplorer-schema-parser/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-16 12:07:57] INFO root fetch - processPackages [tacrpy]: executing diffoscope
+[2024-04-16 12:07:57] INFO root fetch - processPackages [tacrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tacrpy-1.4.5-py3-none-any.whl.zip tmp/tacrpy-1.5.0-py3-none-any.whl.zip --markdown 20240416/t/tacrpy/1.4.5-1.5.0/README.md --exclude *.pyd
+[2024-04-16 12:07:57] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-16 12:07:57] INFO root fetch - processPackages [haruka-parser]: Downloading https://files.pythonhosted.org/packages/a5/1f/a87bb707222e1dc23c1e7ffbcac09d1591033f4a9965262f4f15cfc5e87d/haruka_parser-0.5.0.tar.gz
+[2024-04-16 12:07:57] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/7c/6e/d282fd34a6c142f910166e6132b8e59684ee95354c6b8da93c39a1d14b83/multiqc_sgr-1.22.post0.tar.gz
+[2024-04-16 12:07:57] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-16 12:07:57] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240416/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-16 12:07:57] INFO root fetch - processPackages [haruka-parser]: executing diffoscope
+[2024-04-16 12:07:57] INFO root fetch - processPackages [haruka-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haruka_parser-0.4.9.tar.gz tmp/haruka_parser-0.5.0.tar.gz --markdown 20240416/h/haruka-parser/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-04-16 12:07:57] INFO root fetch - processPackages [multiqc-sgr]: executing diffoscope
+[2024-04-16 12:07:57] INFO root fetch - processPackages [multiqc-sgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiqc_sgr-1.21.1.tar.gz tmp/multiqc_sgr-1.22.post0.tar.gz --markdown 20240416/m/multiqc-sgr/1.21.1-1.22.post0/README.md --exclude *.pyd
+[2024-04-16 12:07:57] INFO root fetch - processPackages [tacrpy]: Remove: archive file [/home/abi/fetcher/tmp/tacrpy-1.4.5-py3-none-any.whl.zip]
+[2024-04-16 12:07:57] INFO root fetch - processPackages [tacrpy]: Remove: archive file [/home/abi/fetcher/tmp/tacrpy-1.5.0-py3-none-any.whl.zip]
+[2024-04-16 12:07:58] INFO root fetch - main [MainThread]: End processing [tacrpy]: success
+[2024-04-16 12:07:58] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.2.tar.gz]
+[2024-04-16 12:07:58] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.3.tar.gz]
+[2024-04-16 12:07:58] INFO root fetch - main [MainThread]: End processing [ccdexplorer-schema-parser]: success
+[2024-04-16 12:07:59] INFO root fetch - processPackages [haruka-parser]: Remove: archive file [/home/abi/fetcher/tmp/haruka_parser-0.4.9.tar.gz]
+[2024-04-16 12:07:59] INFO root fetch - processPackages [haruka-parser]: Remove: archive file [/home/abi/fetcher/tmp/haruka_parser-0.5.0.tar.gz]
+[2024-04-16 12:07:59] INFO root fetch - main [MainThread]: End processing [haruka-parser]: success
+[2024-04-16 12:08:04] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.21.1.tar.gz]
+[2024-04-16 12:08:04] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.22.post0.tar.gz]
+[2024-04-16 12:08:04] INFO root fetch - main [MainThread]: End processing [multiqc-sgr]: success
+[2024-04-16 12:08:05] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-16 12:08:05] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-16 12:08:05] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-16 12:08:05] INFO root fetch - main [MainThread]: Store serial: [22785974]
