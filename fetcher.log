@@ -24252,3 +24252,98 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 18:02:11] INFO root fetch - processPackages [iotopen-py-lynx]: Remove: archive file [/home/abi/fetcher/tmp/iotopen_py_lynx-1.0.5.tar.gz]
 [2024-04-16 18:02:11] INFO root fetch - main [MainThread]: End processing [iotopen-py-lynx]: success
 [2024-04-16 18:02:11] INFO root fetch - main [MainThread]: Store serial: [22790337]
+[2024-04-16 18:04:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22790337]
+[2024-04-16 18:04:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surfkit
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betterjson-python
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secure-sedge
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfn-lint
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ximu3
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: khoj-assistant
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cerebras-appliance
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cerebras-pytorch
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cerebras-sdk
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spai
+[2024-04-16 18:04:21] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 18:04:21] WARNING root fetch - processPackages [betterjson-python]: Skipping, unable to determine old version
+[2024-04-16 18:04:21] INFO root fetch - processPackages [betterjson-python]: Start processing: nomnomdata-engine
+[2024-04-16 18:04:21] INFO root fetch - main [MainThread]: End processing [betterjson-python] error
+[2024-04-16 18:04:21] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-16 18:04:21] INFO root fetch - processPackages [cfn-lint]: New version: [1.2.5a5] Old Version: [1.2.5a4]
+[2024-04-16 18:04:21] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-16 18:04:21] INFO root fetch - processPackages [cerebras-appliance]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-16 18:04:21] WARNING root fetch - processPackages [cerebras-sdk]: Skipping, unable to determine old version
+[2024-04-16 18:04:21] INFO root fetch - processPackages [cerebras-sdk]: Start processing: ansys-sherlock-core
+[2024-04-16 18:04:21] INFO root fetch - main [MainThread]: End processing [cerebras-sdk] error
+[2024-04-16 18:04:21] INFO root fetch - processPackages [cerebras-pytorch]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ximu3]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-16 18:04:21] INFO root fetch - processPackages [secure-sedge]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-04-16 18:04:21] INFO root fetch - processPackages [spai]: New version: [2024.4.16] Old Version: [2024.4.15]
+[2024-04-16 18:04:21] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-16 18:04:21] INFO root fetch - processPackages [nomnomdata-engine]: New version: [1.1.99.post2.dev0] Old Version: [1.1.99]
+[2024-04-16 18:04:21] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/d5/e8/6267cb95261d8d92892f415a79071fa75346bcab80410fa09a84d0ccb1ae/cfn-lint-1.2.5a4.tar.gz
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ansys-sherlock-core]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ximu3]: Downloading https://files.pythonhosted.org/packages/82/51/b98b3fdae8751d0aceb24dcd3d7e2568cc0152c018b8a7f2ea6a304529cc/ximu3-1.4.2-cp39-cp39-win_amd64.whl
+[2024-04-16 18:04:21] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-16 18:04:21] INFO root fetch - processPackages [cerebras-appliance]: Downloading https://files.pythonhosted.org/packages/cc/fb/8611098b435452d6791479f65325cac3dfa6fe2b8407004701898d8312f9/cerebras_appliance-2.1.1-cp38-cp38-manylinux2014_x86_64.whl
+[2024-04-16 18:04:21] INFO root fetch - processPackages [cerebras-pytorch]: Downloading https://files.pythonhosted.org/packages/60/a5/7e4e0a577e40c1525079a322b3c723711bc6ac024a026a0a51e7c2eafbab/cerebras_pytorch-2.1.1-cp38-cp38-manylinux2014_x86_64.whl
+[2024-04-16 18:04:21] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/38/f6/a2090a184c0cf211861dfb616c1d2d5f15e9e0c6dab5fbf8ea8cfb1d1ed5/spai-2024.4.15.tar.gz
+[2024-04-16 18:04:21] INFO root fetch - processPackages [nomnomdata-engine]: Downloading https://files.pythonhosted.org/packages/fa/02/262491eb58dc00de3df1d3cec3fb5c8fb04a5827f4564658a67f65624933/nomnomdata_engine-1.1.99.tar.gz
+[2024-04-16 18:04:21] INFO root fetch - processPackages [secure-sedge]: Downloading https://files.pythonhosted.org/packages/cd/f7/62177ac6629e6d147052078bc6ca1aedcd572374d76c2178b2bfc00f7945/secure_sedge-1.8.2.tar.gz
+[2024-04-16 18:04:21] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-16 18:04:21] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240416/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 18:04:21] INFO root fetch - processPackages [ansys-sherlock-core]: Downloading https://files.pythonhosted.org/packages/9d/2d/52fdb35fb6cf207b58033e169120fe5fb211e584ded3dd9c6966ebadb78c/ansys_sherlock_core-0.5.0.tar.gz
+[2024-04-16 18:04:21] WARNING root fetch - processPackages [cerebras-pytorch]: Skipping package: exceeds size limit 97029439>=10485760
+[2024-04-16 18:04:21] INFO root fetch - main [MainThread]: End processing [cerebras-pytorch] error
+[2024-04-16 18:04:21] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-16 18:04:22] INFO root fetch - processPackages [cfn-lint]: Downloading https://files.pythonhosted.org/packages/f2/c3/5c5b2963b3bcedc3d7f4c6163a35265c4cd1c33d1bfd3a24548fb12d4487/cfn-lint-1.2.5a5.tar.gz
+[2024-04-16 18:04:22] INFO root fetch - processPackages [ximu3]: Downloading https://files.pythonhosted.org/packages/a7/dd/eb4bee7654fc05ab537c4f1598fde56e9376cf6686264758de4a0e5d8d80/ximu3-1.4.3-cp39-cp39-win_amd64.whl
+[2024-04-16 18:04:22] INFO root fetch - processPackages [secure-sedge]: Downloading https://files.pythonhosted.org/packages/2f/f2/cd7f0786682daaf2873be8568cc5b80afe21e652109feb57a3fffb750396/secure_sedge-1.8.3.tar.gz
+[2024-04-16 18:04:22] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/ed/fb/c95e8a5b5ce4953f2f85bf5584f0f67ba599013ad43cd5f9ef8cd79b64e5/spai-2024.4.16.tar.gz
+[2024-04-16 18:04:22] INFO root fetch - processPackages [ansys-sherlock-core]: Downloading https://files.pythonhosted.org/packages/a8/a2/4893f98b392e57fb5ce6ce32ce7e8cddc1971b1a60bcac6e1c8e8478593f/ansys_sherlock_core-0.6.0.tar.gz
+[2024-04-16 18:04:22] INFO root fetch - processPackages [nomnomdata-engine]: Downloading https://files.pythonhosted.org/packages/fd/2b/1e05f98e1c6dfcf4b4919066120c885ea5450a76ede8989469c733d31f3f/nomnomdata_engine-1.1.99.post2.dev0.tar.gz
+[2024-04-16 18:04:22] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-16 18:04:22] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240416/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-16 18:04:22] INFO root fetch - processPackages [secure-sedge]: executing diffoscope
+[2024-04-16 18:04:22] INFO root fetch - processPackages [secure-sedge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_sedge-1.8.2.tar.gz tmp/secure_sedge-1.8.3.tar.gz --markdown 20240416/s/secure-sedge/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-04-16 18:04:22] INFO root fetch - processPackages [ansys-sherlock-core]: executing diffoscope
+[2024-04-16 18:04:22] INFO root fetch - processPackages [ansys-sherlock-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_sherlock_core-0.5.0.tar.gz tmp/ansys_sherlock_core-0.6.0.tar.gz --markdown 20240416/a/ansys-sherlock-core/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-16 18:04:22] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-16 18:04:22] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-16 18:04:22] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-16 18:04:22] INFO root fetch - processPackages [nomnomdata-engine]: executing diffoscope
+[2024-04-16 18:04:22] INFO root fetch - processPackages [nomnomdata-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomnomdata_engine-1.1.99.tar.gz tmp/nomnomdata_engine-1.1.99.post2.dev0.tar.gz --markdown 20240416/n/nomnomdata-engine/1.1.99-1.1.99.post2.dev0/README.md --exclude *.pyd
+[2024-04-16 18:04:22] INFO root fetch - processPackages [spai]: executing diffoscope
+[2024-04-16 18:04:22] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2024.4.15.tar.gz tmp/spai-2024.4.16.tar.gz --markdown 20240416/s/spai/2024.4.15-2024.4.16/README.md --exclude *.pyd
+[2024-04-16 18:04:22] INFO root fetch - processPackages [cfn-lint]: executing diffoscope
+[2024-04-16 18:04:22] INFO root fetch - processPackages [cfn-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-lint-1.2.5a4.tar.gz tmp/cfn-lint-1.2.5a5.tar.gz --markdown 20240416/c/cfn-lint/1.2.5a4-1.2.5a5/README.md --exclude *.pyd
+[2024-04-16 18:04:22] INFO root fetch - processPackages [ximu3]: executing diffoscope
+[2024-04-16 18:04:22] INFO root fetch - processPackages [ximu3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ximu3-1.4.2-cp39-cp39-win_amd64.whl.zip tmp/ximu3-1.4.3-cp39-cp39-win_amd64.whl.zip --markdown 20240416/x/ximu3/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-16 18:04:22] INFO root fetch - processPackages [cerebras-appliance]: Downloading https://files.pythonhosted.org/packages/92/de/8adbc0ef70a288834cd9d53a92f71ace08636181e8565b815f6b685dff7c/cerebras_appliance-2.2.0-cp38-cp38-manylinux2014_x86_64.whl
+[2024-04-16 18:04:23] INFO root fetch - processPackages [secure-sedge]: Remove: archive file [/home/abi/fetcher/tmp/secure_sedge-1.8.2.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - processPackages [secure-sedge]: Remove: archive file [/home/abi/fetcher/tmp/secure_sedge-1.8.3.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - main [MainThread]: End processing [secure-sedge]: success
+[2024-04-16 18:04:23] INFO root fetch - processPackages [ansys-sherlock-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_sherlock_core-0.5.0.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - processPackages [ansys-sherlock-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_sherlock_core-0.6.0.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - main [MainThread]: End processing [ansys-sherlock-core]: success
+[2024-04-16 18:04:23] INFO root fetch - processPackages [nomnomdata-engine]: Remove: archive file [/home/abi/fetcher/tmp/nomnomdata_engine-1.1.99.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - processPackages [nomnomdata-engine]: Remove: archive file [/home/abi/fetcher/tmp/nomnomdata_engine-1.1.99.post2.dev0.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - main [MainThread]: End processing [nomnomdata-engine]: success
+[2024-04-16 18:04:23] INFO root fetch - processPackages [ximu3]: Remove: archive file [/home/abi/fetcher/tmp/ximu3-1.4.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 18:04:23] INFO root fetch - processPackages [ximu3]: Remove: archive file [/home/abi/fetcher/tmp/ximu3-1.4.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 18:04:23] INFO root fetch - main [MainThread]: End processing [ximu3]: success
+[2024-04-16 18:04:23] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.15.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.16.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2024-04-16 18:04:23] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-16 18:04:23] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-16 18:04:24] INFO root fetch - processPackages [cerebras-appliance]: executing diffoscope
+[2024-04-16 18:04:24] INFO root fetch - processPackages [cerebras-appliance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerebras_appliance-2.1.1-cp38-cp38-manylinux2014_x86_64.whl.zip tmp/cerebras_appliance-2.2.0-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20240416/c/cerebras-appliance/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-04-16 18:04:50] INFO root fetch - processPackages [cfn-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfn-lint-1.2.5a4.tar.gz]
+[2024-04-16 18:04:50] INFO root fetch - processPackages [cfn-lint]: Remove: archive file [/home/abi/fetcher/tmp/cfn-lint-1.2.5a5.tar.gz]
+[2024-04-16 18:04:50] INFO root fetch - main [MainThread]: End processing [cfn-lint]: success
+[2024-04-16 18:05:45] INFO root fetch - processPackages [cerebras-appliance]: Remove: archive file [/home/abi/fetcher/tmp/cerebras_appliance-2.1.1-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2024-04-16 18:05:45] INFO root fetch - processPackages [cerebras-appliance]: Remove: archive file [/home/abi/fetcher/tmp/cerebras_appliance-2.2.0-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2024-04-16 18:05:45] INFO root fetch - main [MainThread]: End processing [cerebras-appliance]: success
+[2024-04-16 18:05:45] INFO root fetch - main [MainThread]: Store serial: [22790401]
