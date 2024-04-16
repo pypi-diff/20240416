@@ -14686,3 +14686,40 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:45:30] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.0.9.tar.gz]
 [2024-04-16 12:45:30] INFO root fetch - main [MainThread]: End processing [ATL-Tools]: success
 [2024-04-16 12:45:30] INFO root fetch - main [MainThread]: Store serial: [22786411]
+[2024-04-16 12:47:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786411]
+[2024-04-16 12:47:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vessl
+[2024-04-16 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentf-tools-nightly
+[2024-04-16 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gigachat
+[2024-04-16 12:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opentf-tools-nightly
+[2024-04-16 12:47:39] INFO root fetch - processPackages [gigachat]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 12:47:39] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.47.0.dev734] Old Version: [0.47.0.dev730]
+[2024-04-16 12:47:39] INFO root fetch - processPackages [opentf-tools-nightly]: New version: [0.47.0.dev734] Old Version: [0.47.0.dev730]
+[2024-04-16 12:47:39] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 12:47:39] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2024-04-16 12:47:39] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/a9/02/621227a6933bc7309234aa9d3fe5a42c643159ddd61434ec56280a3bc584/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl
+[2024-04-16 12:47:39] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/a9/02/621227a6933bc7309234aa9d3fe5a42c643159ddd61434ec56280a3bc584/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl
+[2024-04-16 12:47:40] INFO root fetch - processPackages [gigachat]: Downloading https://files.pythonhosted.org/packages/17/43/72686c3ff7a5a9dff3e8225d3d2adabd18547a099a44f444fdae75eab89e/gigachat-0.1.8.tar.gz
+[2024-04-16 12:47:40] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2024-04-16 12:47:40] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/4b/62/14960af22b5a480cf3f11ec43848cb41e811e3134d3c8c1af548774c98a3/opentf_tools_nightly-0.47.0.dev734-py3-none-any.whl
+[2024-04-16 12:47:40] INFO root fetch - processPackages [opentf-tools-nightly]: Downloading https://files.pythonhosted.org/packages/4b/62/14960af22b5a480cf3f11ec43848cb41e811e3134d3c8c1af548774c98a3/opentf_tools_nightly-0.47.0.dev734-py3-none-any.whl
+[2024-04-16 12:47:40] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2024-04-16 12:47:40] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20240416/v/vessl/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 12:47:40] INFO root fetch - processPackages [gigachat]: Downloading https://files.pythonhosted.org/packages/66/bf/64825e2a8664391ac440af566d7e0bc086113eb9e01cc3023c46c7652c0c/gigachat-0.1.9.tar.gz
+[2024-04-16 12:47:40] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2024-04-16 12:47:40] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.47.0.dev734-py3-none-any.whl.zip --markdown 20240416/o/opentf-tools-nightly/0.47.0.dev730-0.47.0.dev734/README.md --exclude *.pyd
+[2024-04-16 12:47:40] INFO root fetch - processPackages [opentf-tools-nightly]: executing diffoscope
+[2024-04-16 12:47:40] INFO root fetch - processPackages [opentf-tools-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl.zip tmp/opentf_tools_nightly-0.47.0.dev734-py3-none-any.whl.zip --markdown 20240416/o/opentf-tools-nightly/0.47.0.dev730-0.47.0.dev734/README.md --exclude *.pyd
+[2024-04-16 12:47:40] INFO root fetch - processPackages [gigachat]: executing diffoscope
+[2024-04-16 12:47:40] INFO root fetch - processPackages [gigachat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachat-0.1.8.tar.gz tmp/gigachat-0.1.9.tar.gz --markdown 20240416/g/gigachat/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 12:47:41] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev730-py3-none-any.whl.zip]
+[2024-04-16 12:47:41] INFO root fetch - processPackages [opentf-tools-nightly]: Remove: archive file [/home/abi/fetcher/tmp/opentf_tools_nightly-0.47.0.dev734-py3-none-any.whl.zip]
+[2024-04-16 12:47:41] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2024-04-16 12:47:41] INFO root fetch - main [MainThread]: End processing [opentf-tools-nightly]: success
+[2024-04-16 12:47:41] INFO root fetch - processPackages [gigachat]: Remove: archive file [/home/abi/fetcher/tmp/gigachat-0.1.8.tar.gz]
+[2024-04-16 12:47:41] INFO root fetch - processPackages [gigachat]: Remove: archive file [/home/abi/fetcher/tmp/gigachat-0.1.9.tar.gz]
+[2024-04-16 12:47:41] INFO root fetch - main [MainThread]: End processing [gigachat]: success
+[2024-04-16 12:47:43] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2024-04-16 12:47:43] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2024-04-16 12:47:43] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2024-04-16 12:47:43] INFO root fetch - main [MainThread]: Store serial: [22786424]
