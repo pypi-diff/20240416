@@ -16337,3 +16337,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:59:02] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.503.tar.gz]
 [2024-04-16 13:59:02] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2024-04-16 13:59:02] INFO root fetch - main [MainThread]: Store serial: [22787107]
+[2024-04-16 14:01:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787107]
+[2024-04-16 14:01:10] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitrack
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezside
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aTeam-PySparkLibrary
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymatt
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scematk
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cool-ml
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-istat-italian-places
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythia-client
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: funboost
+[2024-04-16 14:01:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codeforlife-portal
+[2024-04-16 14:01:11] INFO root fetch - processPackages [pythia-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-16 14:01:11] INFO root fetch - processPackages [funboost]: New version: [43.4] Old Version: [43.3]
+[2024-04-16 14:01:11] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-16 14:01:11] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 14:01:11] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 14:01:11] WARNING root fetch - processPackages [pymatt]: Skipping, unable to determine old version
+[2024-04-16 14:01:11] INFO root fetch - processPackages [pymatt]: Start processing: tensorrt-llm
+[2024-04-16 14:01:11] INFO root fetch - main [MainThread]: End processing [pymatt] error
+[2024-04-16 14:01:11] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/bb/05/2977e1e29b4354a8fa7a349adb3ab82d5d6827b9356934b7992c8a77c08c/pythia_client-0.1.6.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [unitrack]: New version: [4.7.2] Old Version: [4.7.0]
+[2024-04-16 14:01:11] INFO root fetch - processPackages [cool-ml]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-16 14:01:11] INFO root fetch - processPackages [django-istat-italian-places]: New version: [0.2.7.8] Old Version: [0.2.7.7]
+[2024-04-16 14:01:11] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-04-16 14:01:11] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/ac/2e/001b5a8da29bf623fd467278d4b28af0b9e9dfb754d076b1e52023254396/funboost-43.3.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [tensorrt-llm]: New version: [0.9.0.dev2024040900] Old Version: [0.9.0.dev2024040200]
+[2024-04-16 14:01:11] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [django-istat-italian-places]: Downloading https://files.pythonhosted.org/packages/b3/35/97fe62efb4e5d081c86a3f4fc2cee67b160820747edc947f28c641676858/django-istat-italian-places-0.2.7.7.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [cool-ml]: Downloading https://files.pythonhosted.org/packages/e7/0c/479fe7972c950a4e07d1bb4ca3ead154322865af9b5c153704c16bffe2eb/cool_ml-0.0.0.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [unitrack]: Downloading https://files.pythonhosted.org/packages/ac/e1/aaed3582ac981736115c4a9037dd8affec47ed39034ff4bf14974b44143a/unitrack-4.7.0.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [tensorrt-llm]: Downloading https://files.pythonhosted.org/packages/2a/c1/a41b5bb3daec8c3058b96bc94726cfe62850a4e86988b5c1791caa30b90c/tensorrt_llm-0.9.0.dev2024040200.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/10/a0/7b7d9fc9873eb9a9f556ee45967895a701f66af4fda9e26c42317792c557/pythia_client-0.1.7.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/3b/a8/d68ff5b214ee4c3bda19b21f8263949a3c3ab0b9f38a104a6c24fe12953c/funboost-43.4.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [cool-ml]: Downloading https://files.pythonhosted.org/packages/33/72/ee6a92f22037c0910792e8cf63d04885f61f7965ebb9a59536ef9f54eac9/cool_ml-0.0.1.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [pythia-client]: executing diffoscope
+[2024-04-16 14:01:11] INFO root fetch - processPackages [pythia-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythia_client-0.1.6.tar.gz tmp/pythia_client-0.1.7.tar.gz --markdown 20240416/p/pythia-client/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-16 14:01:11] INFO root fetch - processPackages [unitrack]: Downloading https://files.pythonhosted.org/packages/9b/20/2ef05aba0d9473c9ce2bf43c14d834a4dd4599cf613670113e0d666099cd/unitrack-4.7.2.tar.gz
+[2024-04-16 14:01:11] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-16 14:01:11] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240416/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-16 14:01:12] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-04-16 14:01:12] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240416/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 14:01:12] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-04-16 14:01:12] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240416/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 14:01:12] INFO root fetch - processPackages [django-istat-italian-places]: Downloading https://files.pythonhosted.org/packages/7c/b2/448cd8d5ae45ce5e2b098ca547076423316a4935b5d428c26bd0e5c6c694/django_istat_italian_places-0.2.7.8-py3-none-any.whl
+[2024-04-16 14:01:12] INFO root fetch - processPackages [cool-ml]: executing diffoscope
+[2024-04-16 14:01:12] INFO root fetch - processPackages [cool-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cool_ml-0.0.0.tar.gz tmp/cool_ml-0.0.1.tar.gz --markdown 20240416/c/cool-ml/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-16 14:01:12] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2024-04-16 14:01:12] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-43.3.tar.gz tmp/funboost-43.4.tar.gz --markdown 20240416/f/funboost/43.3-43.4/README.md --exclude *.pyd
+[2024-04-16 14:01:12] INFO root fetch - processPackages [tensorrt-llm]: Downloading https://files.pythonhosted.org/packages/27/e0/eaf2f17cd0e4a7e8d57054ceeafeaaf86effd6dd0c299ab151cae910420e/tensorrt_llm-0.9.0.dev2024040900.tar.gz
+[2024-04-16 14:01:12] INFO root fetch - processPackages [unitrack]: executing diffoscope
+[2024-04-16 14:01:12] INFO root fetch - processPackages [unitrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitrack-4.7.0.tar.gz tmp/unitrack-4.7.2.tar.gz --markdown 20240416/u/unitrack/4.7.0-4.7.2/README.md --exclude *.pyd
+[2024-04-16 14:01:12] INFO root fetch - processPackages [tensorrt-llm]: executing diffoscope
+[2024-04-16 14:01:12] INFO root fetch - processPackages [tensorrt-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorrt_llm-0.9.0.dev2024040200.tar.gz tmp/tensorrt_llm-0.9.0.dev2024040900.tar.gz --markdown 20240416/t/tensorrt-llm/0.9.0.dev2024040200-0.9.0.dev2024040900/README.md --exclude *.pyd
+[2024-04-16 14:01:12] INFO root fetch - processPackages [django-istat-italian-places]: executing diffoscope
+[2024-04-16 14:01:12] INFO root fetch - processPackages [django-istat-italian-places]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-istat-italian-places-0.2.7.7.tar.gz tmp/django_istat_italian_places-0.2.7.8-py3-none-any.whl.zip --markdown 20240416/d/django-istat-italian-places/0.2.7.7-0.2.7.8/README.md --exclude *.pyd
+[2024-04-16 14:01:13] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2024-04-16 14:01:13] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Start processing: atomID
+[2024-04-16 14:01:13] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-04-16 14:01:13] INFO root fetch - processPackages [cool-ml]: Remove: archive file [/home/abi/fetcher/tmp/cool_ml-0.0.0.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - processPackages [cool-ml]: Remove: archive file [/home/abi/fetcher/tmp/cool_ml-0.0.1.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - processPackages [cool-ml]: Start processing: pinjected
+[2024-04-16 14:01:13] INFO root fetch - main [MainThread]: End processing [cool-ml]: success
+[2024-04-16 14:01:13] WARNING root fetch - processPackages [atomID]: Skipping, unable to determine old version
+[2024-04-16 14:01:13] INFO root fetch - processPackages [atomID]: Start processing: cfl-common
+[2024-04-16 14:01:13] INFO root fetch - main [MainThread]: End processing [atomID] error
+[2024-04-16 14:01:13] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - processPackages [scematk]: Start processing: labgrid
+[2024-04-16 14:01:13] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-16 14:01:13] INFO root fetch - processPackages [pinjected]: New version: [0.2.33] Old Version: [0.2.32]
+[2024-04-16 14:01:13] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-04-16 14:01:13] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.6.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.7.tar.gz]
+[2024-04-16 14:01:13] INFO root fetch - main [MainThread]: End processing [pythia-client]: success
+[2024-04-16 14:01:13] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/b0/ff/af002b004e4338f611132c81cfbc2d9ba94d29da2a6e1c9b031bec4dc242/pinjected-0.2.32.tar.gz
+[2024-04-16 14:01:14] INFO root fetch - processPackages [django-istat-italian-places]: Remove: archive file [/home/abi/fetcher/tmp/django-istat-italian-places-0.2.7.7.tar.gz]
+[2024-04-16 14:01:14] INFO root fetch - processPackages [django-istat-italian-places]: Remove: archive file [/home/abi/fetcher/tmp/django_istat_italian_places-0.2.7.8-py3-none-any.whl.zip]
+[2024-04-16 14:01:14] INFO root fetch - processPackages [unitrack]: Remove: archive file [/home/abi/fetcher/tmp/unitrack-4.7.0.tar.gz]
+[2024-04-16 14:01:14] INFO root fetch - processPackages [unitrack]: Remove: archive file [/home/abi/fetcher/tmp/unitrack-4.7.2.tar.gz]
+[2024-04-16 14:01:14] INFO root fetch - main [MainThread]: End processing [django-istat-italian-places]: success
+[2024-04-16 14:01:14] INFO root fetch - main [MainThread]: End processing [unitrack]: success
+[2024-04-16 14:01:14] INFO root fetch - processPackages [labgrid]: New version: [24.0a1] Old Version: [23.1a2]
+[2024-04-16 14:01:14] INFO root fetch - processPackages [tensorrt-llm]: Remove: archive file [/home/abi/fetcher/tmp/tensorrt_llm-0.9.0.dev2024040200.tar.gz]
+[2024-04-16 14:01:14] INFO root fetch - processPackages [tensorrt-llm]: Remove: archive file [/home/abi/fetcher/tmp/tensorrt_llm-0.9.0.dev2024040900.tar.gz]
+[2024-04-16 14:01:14] INFO root fetch - main [MainThread]: End processing [tensorrt-llm]: success
+[2024-04-16 14:01:14] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-04-16 14:01:14] INFO root fetch - processPackages [labgrid]: Downloading https://files.pythonhosted.org/packages/25/a5/779401d2a1f4d2af32870b3b3076ba6b629b8627eef60e77cfa8be183edf/labgrid-23.1a2.tar.gz
+[2024-04-16 14:01:14] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/b1/da/6d32bf2e018e3db7477348a97433d255490d37c1124a6144e9dbfb5a8d33/pinjected-0.2.33.tar.gz
+[2024-04-16 14:01:14] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-04-16 14:01:14] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-16 14:01:14] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.32.tar.gz tmp/pinjected-0.2.33.tar.gz --markdown 20240416/p/pinjected/0.2.32-0.2.33/README.md --exclude *.pyd
+[2024-04-16 14:01:14] INFO root fetch - processPackages [labgrid]: Downloading https://files.pythonhosted.org/packages/1c/8a/5b1a1b87875889c8181406de4b3ca825bad77b3b2bde7a55ffd28c1e7023/labgrid-24.0a1.tar.gz
+[2024-04-16 14:01:14] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-04-16 14:01:14] INFO root fetch - processPackages [labgrid]: executing diffoscope
+[2024-04-16 14:01:14] INFO root fetch - processPackages [labgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labgrid-23.1a2.tar.gz tmp/labgrid-24.0a1.tar.gz --markdown 20240416/l/labgrid/23.1a2-24.0a1/README.md --exclude *.pyd
+[2024-04-16 14:01:14] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-04-16 14:01:14] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240416/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-04-16 14:01:15] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.3.tar.gz]
+[2024-04-16 14:01:15] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-43.4.tar.gz]
+[2024-04-16 14:01:15] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2024-04-16 14:01:15] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2024-04-16 14:01:15] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20240416/c/codeforlife-portal/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-04-16 14:01:15] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.32.tar.gz]
+[2024-04-16 14:01:15] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.33.tar.gz]
+[2024-04-16 14:01:15] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-16 14:01:15] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-04-16 14:01:15] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-04-16 14:01:15] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-04-16 14:01:17] INFO root fetch - processPackages [labgrid]: Remove: archive file [/home/abi/fetcher/tmp/labgrid-23.1a2.tar.gz]
+[2024-04-16 14:01:17] INFO root fetch - processPackages [labgrid]: Remove: archive file [/home/abi/fetcher/tmp/labgrid-24.0a1.tar.gz]
+[2024-04-16 14:01:17] INFO root fetch - main [MainThread]: End processing [labgrid]: success
+[2024-04-16 14:01:18] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2024-04-16 14:01:18] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2024-04-16 14:01:18] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2024-04-16 14:01:18] INFO root fetch - main [MainThread]: Store serial: [22787163]
