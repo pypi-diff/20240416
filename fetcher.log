@@ -6280,3 +6280,15 @@
 [2024-04-16 06:57:30] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.9.tar.gz]
 [2024-04-16 06:57:30] INFO root fetch - main [MainThread]: End processing [trm-woodburn]: success
 [2024-04-16 06:57:30] INFO root fetch - main [MainThread]: Store serial: [22782696]
+[2024-04-16 06:59:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782696]
+[2024-04-16 06:59:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 06:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hatchling
+[2024-04-16 06:59:40] INFO root fetch - processPackages [hatchling]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-16 06:59:40] INFO root fetch - processPackages [hatchling]: Downloading https://files.pythonhosted.org/packages/a1/e0/e22e343e7e5853b1d10c5f6fb5072ca3d38aa05e51c9920bb373d393e40c/hatchling-1.8.1.tar.gz
+[2024-04-16 06:59:41] INFO root fetch - processPackages [hatchling]: Downloading https://files.pythonhosted.org/packages/0e/7a/bc6679c4c8814b8f09957d255825e75a09220660c272f95719c512538811/hatchling-1.9.0.tar.gz
+[2024-04-16 06:59:41] INFO root fetch - processPackages [hatchling]: executing diffoscope
+[2024-04-16 06:59:41] INFO root fetch - processPackages [hatchling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatchling-1.8.1.tar.gz tmp/hatchling-1.9.0.tar.gz --markdown 20240416/h/hatchling/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-16 06:59:41] INFO root fetch - processPackages [hatchling]: Remove: archive file [/home/abi/fetcher/tmp/hatchling-1.8.1.tar.gz]
+[2024-04-16 06:59:41] INFO root fetch - processPackages [hatchling]: Remove: archive file [/home/abi/fetcher/tmp/hatchling-1.9.0.tar.gz]
+[2024-04-16 06:59:41] INFO root fetch - main [MainThread]: End processing [hatchling]: success
+[2024-04-16 06:59:41] INFO root fetch - main [MainThread]: Store serial: [22782703]
