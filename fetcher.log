@@ -22362,3 +22362,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:07:06] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
 [2024-04-16 17:07:06] INFO root fetch - main [MainThread]: End processing [upgini]: success
 [2024-04-16 17:07:06] INFO root fetch - main [MainThread]: Store serial: [22789624]
+[2024-04-16 17:09:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789624]
+[2024-04-16 17:09:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 17:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyNucleus
+[2024-04-16 17:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyFLAC
+[2024-04-16 17:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-image-pipeline
+[2024-04-16 17:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyhdl-if
+[2024-04-16 17:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: giant-redirect-import
+[2024-04-16 17:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-drive-sdk
+[2024-04-16 17:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: e-models
+[2024-04-16 17:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-drive-sdk-preview
+[2024-04-16 17:09:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyhdl-if
+[2024-04-16 17:09:16] INFO root fetch - processPackages [giant-redirect-import]: New version: [0.7] Old Version: [0.6]
+[2024-04-16 17:09:16] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-16 17:09:16] INFO root fetch - processPackages [PyNucleus]: New version: [0.0.3] Old Version: [0.0.2.3]
+[2024-04-16 17:09:16] INFO root fetch - processPackages [pyFLAC]: New version: [3.0.0] Old Version: [2.2.0]
+[2024-04-16 17:09:16] INFO root fetch - processPackages [pyhdl-if]: New version: [0.0.1.8708037177] Old Version: [0.0.1.8708023220]
+[2024-04-16 17:09:16] INFO root fetch - processPackages [pyhdl-if]: New version: [0.0.1.8708037177] Old Version: [0.0.1.8708023220]
+[2024-04-16 17:09:16] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/e0/b1/965470f0be6c146b106c608dd2bb5e2d46b50823f9b0b7a07dc1b6a98709/giant_redirect_import-0.6.tar.gz
+[2024-04-16 17:09:16] INFO root fetch - processPackages [e-models]: New version: [1.8.7.1] Old Version: [1.8.7]
+[2024-04-16 17:09:16] INFO root fetch - processPackages [lusid-drive-sdk-preview]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-04-16 17:09:16] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-16 17:09:16] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/89/e4/13205ca0899fa56500854db926cce250628dd694b8862db8cc74c53ee463/cdk-image-pipeline-0.5.8.tar.gz
+[2024-04-16 17:09:16] INFO root fetch - processPackages [PyNucleus]: Downloading https://files.pythonhosted.org/packages/00/87/24ae2a006234b6138270ef40eaa8ff2e28794e6b3336aea90737abbd8fad/PyNucleus-0.0.2.3.tar.gz
+[2024-04-16 17:09:16] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/36/7ba764c059e4db444f6cf2e73cd8a04b8f90fa2ed8bc8e663f775912d783/lusid-drive-sdk-preview-0.1.95.tar.gz
+[2024-04-16 17:09:16] INFO root fetch - processPackages [pyFLAC]: Downloading https://files.pythonhosted.org/packages/13/9f/f50a7129c616fbf5b3e6af94742316ce43bcb20abd7478f11aa95616da02/pyFLAC-2.2.0.tar.gz
+[2024-04-16 17:09:16] INFO root fetch - processPackages [pyhdl-if]: Downloading https://files.pythonhosted.org/packages/1c/48/1c4bb74ca1571992f16da544f2301d3227d9b9f34a4b5eb3b66d32668092/pyhdl_if-0.0.1.8708023220-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 17:09:16] INFO root fetch - processPackages [pyhdl-if]: Downloading https://files.pythonhosted.org/packages/1c/48/1c4bb74ca1571992f16da544f2301d3227d9b9f34a4b5eb3b66d32668092/pyhdl_if-0.0.1.8708023220-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 17:09:16] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/86/4f/effae79fe371c584d6dc7cc6332c9178739aacfec3478724a665d1e69ff4/e-models-1.8.7.tar.gz
+[2024-04-16 17:09:16] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/2d/05/645557c73bff21d5897e592cb628bac543157b732cc99c9905fe334695b9/lusid_drive_sdk-2.1.1.tar.gz
+[2024-04-16 17:09:16] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/17/47/3621b859151bcfb29e25014308c3c0e1c4709e1c448cf3119a735d43098a/cdk-image-pipeline-0.5.9.tar.gz
+[2024-04-16 17:09:16] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/a1/46/0f73f2fe9a24fc4ca681fb3656bde59aaa48bb0cb7ef6ff5f958411ebb03/giant_redirect_import-0.7.tar.gz
+[2024-04-16 17:09:17] INFO root fetch - processPackages [PyNucleus]: Downloading https://files.pythonhosted.org/packages/dc/c3/222691cc5050c2f404227082ebe73487d8373e5df27c23b2bdf842c135b4/pynucleus-0.0.3.tar.gz
+[2024-04-16 17:09:17] INFO root fetch - processPackages [giant-redirect-import]: executing diffoscope
+[2024-04-16 17:09:17] INFO root fetch - processPackages [giant-redirect-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant_redirect_import-0.6.tar.gz tmp/giant_redirect_import-0.7.tar.gz --markdown 20240416/g/giant-redirect-import/0.6-0.7/README.md --exclude *.pyd
+[2024-04-16 17:09:17] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2024-04-16 17:09:17] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.5.8.tar.gz tmp/cdk-image-pipeline-0.5.9.tar.gz --markdown 20240416/c/cdk-image-pipeline/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-16 17:09:17] INFO root fetch - processPackages [PyNucleus]: executing diffoscope
+[2024-04-16 17:09:17] INFO root fetch - processPackages [PyNucleus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNucleus-0.0.2.3.tar.gz tmp/pynucleus-0.0.3.tar.gz --markdown 20240416/P/PyNucleus/0.0.2.3-0.0.3/README.md --exclude *.pyd
+[2024-04-16 17:09:17] INFO root fetch - processPackages [e-models]: Downloading https://files.pythonhosted.org/packages/10/df/06e19e46f41f5ad518d34667ffbae94ee71dee128eecfbb1733fe2e7a8d0/e-models-1.8.7.1.tar.gz
+[2024-04-16 17:09:17] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/f8/d24acce70923cfb6b98f767d1ae2f0c298d30f53032363ce65751be8b091/lusid-drive-sdk-preview-0.1.96.tar.gz
+[2024-04-16 17:09:17] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/26/8e/456c23ab94fd2cc9f6ac79d6621fa1cc0bbbafb2ab4ec1b7090eb465328e/lusid_drive_sdk-2.1.2.tar.gz
+[2024-04-16 17:09:17] INFO root fetch - processPackages [pyhdl-if]: Downloading https://files.pythonhosted.org/packages/c2/52/1df95cf2e9366005a941877396b680a36a0a75432cca4ff66be5dd746497/pyhdl_if-0.0.1.8708037177-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 17:09:17] INFO root fetch - processPackages [pyFLAC]: Downloading https://files.pythonhosted.org/packages/2a/83/4f3e184618b1847d3b9905adc134ce016d32712151cc2c478d36f09727ef/pyFLAC-3.0.0.tar.gz
+[2024-04-16 17:09:17] INFO root fetch - processPackages [pyhdl-if]: Downloading https://files.pythonhosted.org/packages/c2/52/1df95cf2e9366005a941877396b680a36a0a75432cca4ff66be5dd746497/pyhdl_if-0.0.1.8708037177-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 17:09:17] INFO root fetch - processPackages [lusid-drive-sdk-preview]: executing diffoscope
+[2024-04-16 17:09:17] INFO root fetch - processPackages [lusid-drive-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-preview-0.1.95.tar.gz tmp/lusid-drive-sdk-preview-0.1.96.tar.gz --markdown 20240416/l/lusid-drive-sdk-preview/0.1.95-0.1.96/README.md --exclude *.pyd
+[2024-04-16 17:09:17] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-04-16 17:09:17] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.1.1.tar.gz tmp/lusid_drive_sdk-2.1.2.tar.gz --markdown 20240416/l/lusid-drive-sdk/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-16 17:09:17] INFO root fetch - processPackages [e-models]: executing diffoscope
+[2024-04-16 17:09:17] INFO root fetch - processPackages [e-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e-models-1.8.7.tar.gz tmp/e-models-1.8.7.1.tar.gz --markdown 20240416/e/e-models/1.8.7-1.8.7.1/README.md --exclude *.pyd
+[2024-04-16 17:09:17] INFO root fetch - processPackages [pyhdl-if]: executing diffoscope
+[2024-04-16 17:09:17] INFO root fetch - processPackages [pyhdl-if]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdl_if-0.0.1.8708023220-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyhdl_if-0.0.1.8708037177-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/p/pyhdl-if/0.0.1.8708023220-0.0.1.8708037177/README.md --exclude *.pyd
+[2024-04-16 17:09:17] INFO root fetch - processPackages [pyhdl-if]: executing diffoscope
+[2024-04-16 17:09:17] INFO root fetch - processPackages [pyhdl-if]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdl_if-0.0.1.8708023220-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyhdl_if-0.0.1.8708037177-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/p/pyhdl-if/0.0.1.8708023220-0.0.1.8708037177/README.md --exclude *.pyd
+[2024-04-16 17:09:17] INFO root fetch - processPackages [pyFLAC]: executing diffoscope
+[2024-04-16 17:09:17] INFO root fetch - processPackages [pyFLAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyFLAC-2.2.0.tar.gz tmp/pyFLAC-3.0.0.tar.gz --markdown 20240416/p/pyFLAC/2.2.0-3.0.0/README.md --exclude *.pyd
+[2024-04-16 17:09:17] INFO root fetch - processPackages [giant-redirect-import]: Remove: archive file [/home/abi/fetcher/tmp/giant_redirect_import-0.6.tar.gz]
+[2024-04-16 17:09:17] INFO root fetch - processPackages [giant-redirect-import]: Remove: archive file [/home/abi/fetcher/tmp/giant_redirect_import-0.7.tar.gz]
+[2024-04-16 17:09:17] INFO root fetch - main [MainThread]: End processing [giant-redirect-import]: success
+[2024-04-16 17:09:18] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.8.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.9.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2024-04-16 17:09:18] INFO root fetch - processPackages [PyNucleus]: Remove: archive file [/home/abi/fetcher/tmp/PyNucleus-0.0.2.3.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - processPackages [PyNucleus]: Remove: archive file [/home/abi/fetcher/tmp/pynucleus-0.0.3.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - main [MainThread]: End processing [PyNucleus]: success
+[2024-04-16 17:09:18] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.8.7.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - processPackages [e-models]: Remove: archive file [/home/abi/fetcher/tmp/e-models-1.8.7.1.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - main [MainThread]: End processing [e-models]: success
+[2024-04-16 17:09:18] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.1.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.1.2.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-04-16 17:09:18] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.95.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
+[2024-04-16 17:09:18] INFO root fetch - processPackages [pyhdl-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_if-0.0.1.8708023220-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 17:09:18] INFO root fetch - processPackages [pyhdl-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_if-0.0.1.8708037177-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 17:09:18] INFO root fetch - main [MainThread]: End processing [pyhdl-if]: success
+[2024-04-16 17:09:18] INFO root fetch - main [MainThread]: End processing [pyhdl-if]: success
+[2024-04-16 17:09:18] INFO root fetch - processPackages [pyFLAC]: Remove: archive file [/home/abi/fetcher/tmp/pyFLAC-2.2.0.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - processPackages [pyFLAC]: Remove: archive file [/home/abi/fetcher/tmp/pyFLAC-3.0.0.tar.gz]
+[2024-04-16 17:09:18] INFO root fetch - main [MainThread]: End processing [pyFLAC]: success
+[2024-04-16 17:09:18] INFO root fetch - main [MainThread]: Store serial: [22789655]
