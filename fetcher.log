@@ -11221,3 +11221,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:37:53] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a1.tar.gz]
 [2024-04-16 10:37:53] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2024-04-16 10:37:53] INFO root fetch - main [MainThread]: Store serial: [22784655]
+[2024-04-16 10:40:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784655]
+[2024-04-16 10:40:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-SPODES-client
+[2024-04-16 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-bootstrap4
+[2024-04-16 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deep-tts
+[2024-04-16 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dvcx
+[2024-04-16 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangocms-aldryn-newsblog
+[2024-04-16 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe-21
+[2024-04-16 10:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: udata-ckan
+[2024-04-16 10:40:05] INFO root fetch - processPackages [deep-tts]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 10:40:05] INFO root fetch - processPackages [django-bootstrap4]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-16 10:40:05] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-04-16 10:40:05] INFO root fetch - processPackages [dvcx]: New version: [0.74.0] Old Version: [0.73.0]
+[2024-04-16 10:40:05] INFO root fetch - processPackages [djangocms-aldryn-newsblog]: New version: [3.1.7] Old Version: [3.1.6]
+[2024-04-16 10:40:05] INFO root fetch - processPackages [udata-ckan]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-16 10:40:05] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-16 10:40:05] INFO root fetch - processPackages [deep-tts]: Downloading https://files.pythonhosted.org/packages/28/a4/dd43f8bc8c698a38adf915d2042367d2f612a281e1f5688f6af706e5c084/deep_tts-0.1.8.tar.gz
+[2024-04-16 10:40:05] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/7d/5a/a5edf5df077a3998a17d31410a73624b1b029845910bcbfa4d53355e6d55/DLMS_SPODES_client-0.7.7.tar.gz
+[2024-04-16 10:40:06] INFO root fetch - processPackages [django-bootstrap4]: Downloading https://files.pythonhosted.org/packages/f6/c9/a41c2c29f619e10549ceb48fb1da55118f22a35c324a3cc84f35457e5bbc/django-bootstrap4-3.0.0.tar.gz
+[2024-04-16 10:40:06] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/2c/38/bf0c1e214d3fc1443e42f374007693d370ce6ce742022eb3bb57549004df/dvcx-0.73.0.tar.gz
+[2024-04-16 10:40:06] INFO root fetch - processPackages [djangocms-aldryn-newsblog]: Downloading https://files.pythonhosted.org/packages/24/41/bd08627d342cc091b190053c076984df4dcaa9d50f1683a5be63f31ffd2a/djangocms-aldryn-newsblog-3.1.6.tar.gz
+[2024-04-16 10:40:06] INFO root fetch - processPackages [udata-ckan]: Downloading https://files.pythonhosted.org/packages/10/bd/a3e9a96ecaed8586de2be36f3ed152d6e72bc2e772e7ff915efaf8a2b46e/udata_ckan-3.0.2-py2.py3-none-any.whl
+[2024-04-16 10:40:06] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/14/f1/68d7fdf01fcd850d74be3518dafe4e07bf480c67ecdafb7811bcabf7859b/bigdl_core_xe_21-2.5.0b20240414-cp39-cp39-win_amd64.whl
+[2024-04-16 10:40:06] INFO root fetch - processPackages [deep-tts]: Downloading https://files.pythonhosted.org/packages/4f/d8/d985574081fe1cc08e5d20d71b03d2528b301fb729ece2cb0558ca028e52/deep_tts-0.1.9.tar.gz
+[2024-04-16 10:40:06] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 25708564>=10485760
+[2024-04-16 10:40:06] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-16 10:40:06] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/94/4b/bcc8809f94aef117e065daedd586f1963efa0e1f05fbe8e6834a2b27634a/DLMS_SPODES_client-0.7.8.tar.gz
+[2024-04-16 10:40:06] INFO root fetch - processPackages [deep-tts]: executing diffoscope
+[2024-04-16 10:40:06] INFO root fetch - processPackages [deep-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_tts-0.1.8.tar.gz tmp/deep_tts-0.1.9.tar.gz --markdown 20240416/d/deep-tts/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 10:40:06] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-16 10:40:06] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.7.tar.gz tmp/DLMS_SPODES_client-0.7.8.tar.gz --markdown 20240416/D/DLMS-SPODES-client/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-04-16 10:40:06] INFO root fetch - processPackages [django-bootstrap4]: Downloading https://files.pythonhosted.org/packages/4b/4f/24d685bc42f2d07a9a08a8be0d813882d20c52a650bc929c1c118780eb3b/django-bootstrap4-3.0.1.tar.gz
+[2024-04-16 10:40:06] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/6f/12/895b837ae9dc7c47a94194764bcd1cb79ade01eaed2be04c7d10d4f35c60/dvcx-0.74.0.tar.gz
+[2024-04-16 10:40:06] INFO root fetch - processPackages [udata-ckan]: Downloading https://files.pythonhosted.org/packages/6f/50/2517eebe3f08325e3ee5541f025a98f296e02c2e34453ada2d9140484810/udata_ckan-3.0.3-py2.py3-none-any.whl
+[2024-04-16 10:40:06] INFO root fetch - processPackages [djangocms-aldryn-newsblog]: Downloading https://files.pythonhosted.org/packages/11/2a/c42fa023d7342b1671fde45323b23e5a4869d6ce29b0ee5041e7fdb22f67/djangocms_aldryn_newsblog-3.1.7.tar.gz
+[2024-04-16 10:40:06] INFO root fetch - processPackages [django-bootstrap4]: executing diffoscope
+[2024-04-16 10:40:06] INFO root fetch - processPackages [django-bootstrap4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bootstrap4-3.0.0.tar.gz tmp/django-bootstrap4-3.0.1.tar.gz --markdown 20240416/d/django-bootstrap4/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-16 10:40:06] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-04-16 10:40:06] INFO root fetch - processPackages [udata-ckan]: executing diffoscope
+[2024-04-16 10:40:06] INFO root fetch - processPackages [udata-ckan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_ckan-3.0.2-py2.py3-none-any.whl.zip tmp/udata_ckan-3.0.3-py2.py3-none-any.whl.zip --markdown 20240416/u/udata-ckan/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-04-16 10:40:06] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.73.0.tar.gz tmp/dvcx-0.74.0.tar.gz --markdown 20240416/d/dvcx/0.73.0-0.74.0/README.md --exclude *.pyd
+[2024-04-16 10:40:06] INFO root fetch - processPackages [djangocms-aldryn-newsblog]: executing diffoscope
+[2024-04-16 10:40:06] INFO root fetch - processPackages [djangocms-aldryn-newsblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-aldryn-newsblog-3.1.6.tar.gz tmp/djangocms_aldryn_newsblog-3.1.7.tar.gz --markdown 20240416/d/djangocms-aldryn-newsblog/3.1.6-3.1.7/README.md --exclude *.pyd
+[2024-04-16 10:40:07] INFO root fetch - processPackages [deep-tts]: Remove: archive file [/home/abi/fetcher/tmp/deep_tts-0.1.8.tar.gz]
+[2024-04-16 10:40:07] INFO root fetch - processPackages [deep-tts]: Remove: archive file [/home/abi/fetcher/tmp/deep_tts-0.1.9.tar.gz]
+[2024-04-16 10:40:07] INFO root fetch - main [MainThread]: End processing [deep-tts]: success
+[2024-04-16 10:40:07] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.7.tar.gz]
+[2024-04-16 10:40:07] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.8.tar.gz]
+[2024-04-16 10:40:07] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-16 10:40:07] INFO root fetch - processPackages [udata-ckan]: Remove: archive file [/home/abi/fetcher/tmp/udata_ckan-3.0.2-py2.py3-none-any.whl.zip]
+[2024-04-16 10:40:07] INFO root fetch - processPackages [udata-ckan]: Remove: archive file [/home/abi/fetcher/tmp/udata_ckan-3.0.3-py2.py3-none-any.whl.zip]
+[2024-04-16 10:40:07] INFO root fetch - main [MainThread]: End processing [udata-ckan]: success
+[2024-04-16 10:40:07] INFO root fetch - processPackages [django-bootstrap4]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap4-3.0.0.tar.gz]
+[2024-04-16 10:40:07] INFO root fetch - processPackages [django-bootstrap4]: Remove: archive file [/home/abi/fetcher/tmp/django-bootstrap4-3.0.1.tar.gz]
+[2024-04-16 10:40:07] INFO root fetch - main [MainThread]: End processing [django-bootstrap4]: success
+[2024-04-16 10:40:07] INFO root fetch - processPackages [djangocms-aldryn-newsblog]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-aldryn-newsblog-3.1.6.tar.gz]
+[2024-04-16 10:40:07] INFO root fetch - processPackages [djangocms-aldryn-newsblog]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_aldryn_newsblog-3.1.7.tar.gz]
+[2024-04-16 10:40:07] INFO root fetch - main [MainThread]: End processing [djangocms-aldryn-newsblog]: success
+[2024-04-16 10:40:08] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.73.0.tar.gz]
+[2024-04-16 10:40:08] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.74.0.tar.gz]
+[2024-04-16 10:40:08] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-04-16 10:40:08] INFO root fetch - main [MainThread]: Store serial: [22784690]
