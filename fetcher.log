@@ -8949,3 +8949,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:23:07] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.8.1.tar.gz]
 [2024-04-16 09:23:07] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
 [2024-04-16 09:23:07] INFO root fetch - main [MainThread]: Store serial: [22783679]
+[2024-04-16 09:25:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783679]
+[2024-04-16 09:25:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 09:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-04-16 09:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anls-star
+[2024-04-16 09:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-04-16 09:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyweatherfr
+[2024-04-16 09:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momoa
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyqqq]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyweatherfr]: New version: [5.2.2] Old Version: [5.2.1]
+[2024-04-16 09:25:16] INFO root fetch - processPackages [momoa]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-04-16 09:25:16] INFO root fetch - processPackages [anls-star]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 09:25:16] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/cd/42/56efe5010381359510f23ab321a35cc8ed1f317b243d5b5aeca5231c8c74/pyqqq-0.8.0.tar.gz
+[2024-04-16 09:25:16] INFO root fetch - processPackages [momoa]: Downloading https://files.pythonhosted.org/packages/58/0b/2643531545f460384e327574a64a2e97417bf3ca6d5ce6892e5752602f37/momoa-0.2.1.tar.gz
+[2024-04-16 09:25:16] INFO root fetch - processPackages [anls-star]: Downloading https://files.pythonhosted.org/packages/71/e0/70bcb979a0d80ee4fe6c97255cdafeefbf4d2670f3eed3a93a3b83242048/anls_star-0.0.6.tar.gz
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyweatherfr]: Downloading https://files.pythonhosted.org/packages/79/ed/5ac4077fce865d6b4d04c8b2198839cb78e52822bd5a80b84d67cfb993fc/pyweatherfr-5.2.1.tar.gz
+[2024-04-16 09:25:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-16 09:25:16] INFO root fetch - processPackages [anls-star]: Downloading https://files.pythonhosted.org/packages/9a/e3/df8227c813d9fb25806b3816e5d714542d7989a31c4eb9b874a78b292773/anls_star-0.0.7.tar.gz
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/6d/03/ccd6029ed380f3708811b51f0586ca2b717891cd02e3f093682cb5e3ee38/pyqqq-0.8.1.tar.gz
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyweatherfr]: Downloading https://files.pythonhosted.org/packages/ad/03/3383bfa3ca9f6763896df8f60f4e10d0cf55ece2769f9583b5c1b530fdde/pyweatherfr-5.2.2.tar.gz
+[2024-04-16 09:25:16] INFO root fetch - processPackages [momoa]: Downloading https://files.pythonhosted.org/packages/47/26/327564787eb63a4e4131363023e8f22c02bf464759ae25524eac039c6464/momoa-0.2.3.tar.gz
+[2024-04-16 09:25:16] INFO root fetch - processPackages [anls-star]: executing diffoscope
+[2024-04-16 09:25:16] INFO root fetch - processPackages [anls-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anls_star-0.0.6.tar.gz tmp/anls_star-0.0.7.tar.gz --markdown 20240416/a/anls-star/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.8.0.tar.gz tmp/pyqqq-0.8.1.tar.gz --markdown 20240416/p/pyqqq/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyweatherfr]: executing diffoscope
+[2024-04-16 09:25:16] INFO root fetch - processPackages [pyweatherfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyweatherfr-5.2.1.tar.gz tmp/pyweatherfr-5.2.2.tar.gz --markdown 20240416/p/pyweatherfr/5.2.1-5.2.2/README.md --exclude *.pyd
+[2024-04-16 09:25:16] INFO root fetch - processPackages [momoa]: executing diffoscope
+[2024-04-16 09:25:16] INFO root fetch - processPackages [momoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momoa-0.2.1.tar.gz tmp/momoa-0.2.3.tar.gz --markdown 20240416/m/momoa/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-04-16 09:25:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-16 09:25:17] INFO root fetch - processPackages [pyweatherfr]: Remove: archive file [/home/abi/fetcher/tmp/pyweatherfr-5.2.1.tar.gz]
+[2024-04-16 09:25:17] INFO root fetch - processPackages [pyweatherfr]: Remove: archive file [/home/abi/fetcher/tmp/pyweatherfr-5.2.2.tar.gz]
+[2024-04-16 09:25:17] INFO root fetch - main [MainThread]: End processing [pyweatherfr]: success
+[2024-04-16 09:25:17] INFO root fetch - processPackages [momoa]: Remove: archive file [/home/abi/fetcher/tmp/momoa-0.2.1.tar.gz]
+[2024-04-16 09:25:17] INFO root fetch - processPackages [momoa]: Remove: archive file [/home/abi/fetcher/tmp/momoa-0.2.3.tar.gz]
+[2024-04-16 09:25:17] INFO root fetch - main [MainThread]: End processing [momoa]: success
+[2024-04-16 09:25:17] INFO root fetch - processPackages [anls-star]: Remove: archive file [/home/abi/fetcher/tmp/anls_star-0.0.6.tar.gz]
+[2024-04-16 09:25:17] INFO root fetch - processPackages [anls-star]: Remove: archive file [/home/abi/fetcher/tmp/anls_star-0.0.7.tar.gz]
+[2024-04-16 09:25:17] INFO root fetch - main [MainThread]: End processing [anls-star]: success
+[2024-04-16 09:25:17] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.8.0.tar.gz]
+[2024-04-16 09:25:17] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.8.1.tar.gz]
+[2024-04-16 09:25:17] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-16 09:25:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-16 09:25:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240416/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-16 09:25:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-16 09:25:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-16 09:25:22] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-16 09:25:22] INFO root fetch - main [MainThread]: Store serial: [22783694]
