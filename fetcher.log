@@ -14849,3 +14849,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:54:24] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2024-04-16 12:54:24] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2024-04-16 12:54:24] INFO root fetch - main [MainThread]: Store serial: [22786481]
+[2024-04-16 12:56:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786481]
+[2024-04-16 12:56:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: darli
+[2024-04-16 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teradatamodelops
+[2024-04-16 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geo-skeletons
+[2024-04-16 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unstract-sdk
+[2024-04-16 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soa-report
+[2024-04-16 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickstart-vdk
+[2024-04-16 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vdk-core
+[2024-04-16 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-product-print-category
+[2024-04-16 12:56:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: VASP2KP
+[2024-04-16 12:56:34] INFO root fetch - processPackages [teradatamodelops]: New version: [7.0.6rc1] Old Version: [7.0.5b5]
+[2024-04-16 12:56:34] INFO root fetch - processPackages [darli]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-16 12:56:34] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 12:56:34] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-16 12:56:34] INFO root fetch - processPackages [teradatamodelops]: Downloading https://files.pythonhosted.org/packages/70/f4/974710430bce4f6fb3deb0e7854e434be96360f580f275df76e93fd81c9b/teradatamodelops-7.0.5b5.tar.gz
+[2024-04-16 12:56:34] INFO root fetch - processPackages [soa-report]: New version: [1.2.5] Old Version: [1.2.0]
+[2024-04-16 12:56:34] INFO root fetch - processPackages [VASP2KP]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-16 12:56:34] INFO root fetch - processPackages [darli]: Downloading https://files.pythonhosted.org/packages/c2/56/7f592e32b535eeb22915b9fdfe02a25f3300fddc779c54db8893267eba0f/darli-0.4.0-py3-none-any.whl
+[2024-04-16 12:56:34] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.20.0]
+[2024-04-16 12:56:34] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-16 12:56:34] INFO root fetch - processPackages [odoo-addon-product-print-category]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3]
+[2024-04-16 12:56:34] INFO root fetch - processPackages [vdk-core]: New version: [0.3.989149860] Old Version: [0.3.988984323]
+[2024-04-16 12:56:34] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-16 12:56:34] INFO root fetch - processPackages [soa-report]: Downloading https://files.pythonhosted.org/packages/91/0a/3ad12b8b7dd8f2c6935b14db5ca00e2ea25078ffed004bb044e80beb2f07/soa_report-1.2.0-py3-none-any.whl
+[2024-04-16 12:56:34] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/96/50/3bb481dd1cbab8f7184ec9e9c6c207bab5b743a550f38705f6a4b87cbe6a/unstract_sdk-0.20.0.tar.gz
+[2024-04-16 12:56:34] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-16 12:56:34] INFO root fetch - processPackages [odoo-addon-product-print-category]: Downloading https://files.pythonhosted.org/packages/c5/1a/9f9592c3b1cdb06d1eea549d58ef5e15ee9b0ea62811bd9f263c3be69827/odoo_addon_product_print_category-16.0.1.0.3-py3-none-any.whl
+[2024-04-16 12:56:34] INFO root fetch - processPackages [darli]: Downloading https://files.pythonhosted.org/packages/50/f1/16e518cfad5ecdba7facd46958fb2036f8682a7e04d8764f2f21dfda8b01/darli-0.4.1-py3-none-any.whl
+[2024-04-16 12:56:34] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/3f/fe/4cb3eeeee48426c4e1ae980622aa89c7626afc7fb6da428386545e548407/vdk-core-0.3.988984323.tar.gz
+[2024-04-16 12:56:34] INFO root fetch - processPackages [teradatamodelops]: Downloading https://files.pythonhosted.org/packages/b9/18/d9231d45aba4bda546277d385cd0b2f0fdbeaad3b9de7c23d4081bd11eb3/teradatamodelops-7.0.6rc1.tar.gz
+[2024-04-16 12:56:34] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-16 12:56:34] INFO root fetch - processPackages [VASP2KP]: Downloading https://files.pythonhosted.org/packages/c2/5f/fd088b07ce7f7a0d134aeb16d3eb364822486828edb1e0f853f67adb0218/VASP2KP-1.1.2.tar.gz
+[2024-04-16 12:56:34] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-16 12:56:34] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240416/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 12:56:34] INFO root fetch - processPackages [darli]: executing diffoscope
+[2024-04-16 12:56:34] INFO root fetch - processPackages [darli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darli-0.4.0-py3-none-any.whl.zip tmp/darli-0.4.1-py3-none-any.whl.zip --markdown 20240416/d/darli/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-16 12:56:34] INFO root fetch - processPackages [teradatamodelops]: executing diffoscope
+[2024-04-16 12:56:34] INFO root fetch - processPackages [teradatamodelops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teradatamodelops-7.0.5b5.tar.gz tmp/teradatamodelops-7.0.6rc1.tar.gz --markdown 20240416/t/teradatamodelops/7.0.5b5-7.0.6rc1/README.md --exclude *.pyd
+[2024-04-16 12:56:34] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-16 12:56:34] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240416/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-16 12:56:34] INFO root fetch - processPackages [soa-report]: Downloading https://files.pythonhosted.org/packages/65/20/25e558d74cc2ae562abcdde0a6ac44f5a98b8410904b89331c5fa5e5c12c/soa_report-1.2.5-py3-none-any.whl
+[2024-04-16 12:56:35] INFO root fetch - processPackages [soa-report]: executing diffoscope
+[2024-04-16 12:56:35] INFO root fetch - processPackages [soa-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soa_report-1.2.0-py3-none-any.whl.zip tmp/soa_report-1.2.5-py3-none-any.whl.zip --markdown 20240416/s/soa-report/1.2.0-1.2.5/README.md --exclude *.pyd
+[2024-04-16 12:56:35] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-04-16 12:56:35] INFO root fetch - processPackages [vdk-core]: Downloading https://files.pythonhosted.org/packages/71/91/d065ea63564ea0325874226e68ffbf93cae09192010dc6ea272193ac705e/vdk-core-0.3.989149860.tar.gz
+[2024-04-16 12:56:35] INFO root fetch - processPackages [odoo-addon-product-print-category]: Downloading https://files.pythonhosted.org/packages/c4/47/db0ad3a996bdebdde4876ff8e386ac0a7c3e087037ae5b21aaa91297710c/odoo_addon_product_print_category-16.0.1.0.4-py3-none-any.whl
+[2024-04-16 12:56:35] INFO root fetch - processPackages [VASP2KP]: Downloading https://files.pythonhosted.org/packages/c2/cf/aaa87743e269a381048315283797e257819c2e293b4f04446bd6fffb8adf/VASP2KP-1.1.3.tar.gz
+[2024-04-16 12:56:35] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-04-16 12:56:35] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.20.0.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240416/u/unstract-sdk/0.20.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 12:56:35] INFO root fetch - processPackages [vdk-core]: executing diffoscope
+[2024-04-16 12:56:35] INFO root fetch - processPackages [vdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-core-0.3.988984323.tar.gz tmp/vdk-core-0.3.989149860.tar.gz --markdown 20240416/v/vdk-core/0.3.988984323-0.3.989149860/README.md --exclude *.pyd
+[2024-04-16 12:56:35] INFO root fetch - processPackages [VASP2KP]: executing diffoscope
+[2024-04-16 12:56:35] INFO root fetch - processPackages [VASP2KP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VASP2KP-1.1.2.tar.gz tmp/VASP2KP-1.1.3.tar.gz --markdown 20240416/V/VASP2KP/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-16 12:56:35] INFO root fetch - processPackages [odoo-addon-product-print-category]: executing diffoscope
+[2024-04-16 12:56:35] INFO root fetch - processPackages [odoo-addon-product-print-category]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_print_category-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_print_category-16.0.1.0.4-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-product-print-category/16.0.1.0.3-16.0.1.0.4/README.md --exclude *.pyd
+[2024-04-16 12:56:35] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-16 12:56:35] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-16 12:56:35] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-16 12:56:35] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-16 12:56:35] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-16 12:56:35] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-16 12:56:35] INFO root fetch - processPackages [teradatamodelops]: Remove: archive file [/home/abi/fetcher/tmp/teradatamodelops-7.0.5b5.tar.gz]
+[2024-04-16 12:56:35] INFO root fetch - processPackages [teradatamodelops]: Remove: archive file [/home/abi/fetcher/tmp/teradatamodelops-7.0.6rc1.tar.gz]
+[2024-04-16 12:56:35] INFO root fetch - main [MainThread]: End processing [teradatamodelops]: success
+[2024-04-16 12:56:36] INFO root fetch - processPackages [darli]: Remove: archive file [/home/abi/fetcher/tmp/darli-0.4.0-py3-none-any.whl.zip]
+[2024-04-16 12:56:36] INFO root fetch - processPackages [darli]: Remove: archive file [/home/abi/fetcher/tmp/darli-0.4.1-py3-none-any.whl.zip]
+[2024-04-16 12:56:36] INFO root fetch - main [MainThread]: End processing [darli]: success
+[2024-04-16 12:56:36] INFO root fetch - processPackages [soa-report]: Remove: archive file [/home/abi/fetcher/tmp/soa_report-1.2.0-py3-none-any.whl.zip]
+[2024-04-16 12:56:36] INFO root fetch - processPackages [soa-report]: Remove: archive file [/home/abi/fetcher/tmp/soa_report-1.2.5-py3-none-any.whl.zip]
+[2024-04-16 12:56:36] INFO root fetch - main [MainThread]: End processing [soa-report]: success
+[2024-04-16 12:56:36] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.20.0.tar.gz]
+[2024-04-16 12:56:36] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-04-16 12:56:36] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-04-16 12:56:36] INFO root fetch - processPackages [VASP2KP]: Remove: archive file [/home/abi/fetcher/tmp/VASP2KP-1.1.2.tar.gz]
+[2024-04-16 12:56:36] INFO root fetch - processPackages [VASP2KP]: Remove: archive file [/home/abi/fetcher/tmp/VASP2KP-1.1.3.tar.gz]
+[2024-04-16 12:56:36] INFO root fetch - main [MainThread]: End processing [VASP2KP]: success
+[2024-04-16 12:56:36] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.988984323.tar.gz]
+[2024-04-16 12:56:36] INFO root fetch - processPackages [vdk-core]: Remove: archive file [/home/abi/fetcher/tmp/vdk-core-0.3.989149860.tar.gz]
+[2024-04-16 12:56:36] INFO root fetch - main [MainThread]: End processing [vdk-core]: success
+[2024-04-16 12:56:36] INFO root fetch - processPackages [odoo-addon-product-print-category]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_print_category-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-16 12:56:36] INFO root fetch - processPackages [odoo-addon-product-print-category]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_print_category-16.0.1.0.4-py3-none-any.whl.zip]
+[2024-04-16 12:56:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-print-category]: success
+[2024-04-16 12:56:36] INFO root fetch - main [MainThread]: Store serial: [22786502]
