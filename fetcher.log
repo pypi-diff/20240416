@@ -11424,3 +11424,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:44:42] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev36.tar.gz]
 [2024-04-16 10:44:42] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-16 10:44:42] INFO root fetch - main [MainThread]: Store serial: [22784774]
+[2024-04-16 10:46:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784774]
+[2024-04-16 10:46:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 10:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tactigon-gear
+[2024-04-16 10:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccdexplorer-schema-parser
+[2024-04-16 10:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fitscube
+[2024-04-16 10:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: selfpkg
+[2024-04-16 10:46:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lidia
+[2024-04-16 10:46:51] INFO root fetch - processPackages [selfpkg]: New version: [0.0.1b2] Old Version: [0.0.1a2]
+[2024-04-16 10:46:51] INFO root fetch - processPackages [tactigon-gear]: New version: [5.0.4.post1] Old Version: [5.0.4]
+[2024-04-16 10:46:51] WARNING root fetch - processPackages [ccdexplorer-schema-parser]: Skipping, unable to determine old version
+[2024-04-16 10:46:51] INFO root fetch - main [MainThread]: End processing [ccdexplorer-schema-parser] error
+[2024-04-16 10:46:51] INFO root fetch - processPackages [lidia]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-16 10:46:51] INFO root fetch - processPackages [fitscube]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-16 10:46:51] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/8a/56/48ea28231d8816de7bf9f55bf428a82cce3540592f1b0f7b9fce1f460b3e/selfpkg-0.0.1a2.tar.gz
+[2024-04-16 10:46:51] INFO root fetch - processPackages [tactigon-gear]: Downloading https://files.pythonhosted.org/packages/17/6d/bfd64e4acbb2a13b9f462ae14bbf08c14908ae777d4b05f4a199228e81d6/tactigon_gear-5.0.4.tar.gz
+[2024-04-16 10:46:51] INFO root fetch - processPackages [fitscube]: Downloading https://files.pythonhosted.org/packages/34/26/c72db26c2ed110910f0a652f22ccaa595308693c99fcaee4fef9e70066f9/fitscube-0.3.0.tar.gz
+[2024-04-16 10:46:51] INFO root fetch - processPackages [selfpkg]: Downloading https://files.pythonhosted.org/packages/58/1d/85f599055ee0520186124271dd0adfec42a9aeed3ce56061611be55b4c5a/selfpkg-0.0.1b2.tar.gz
+[2024-04-16 10:46:51] INFO root fetch - processPackages [lidia]: Downloading https://files.pythonhosted.org/packages/29/52/8f63f6094d340f11e8e93fc7dc800b731e39782f99d07dde94e159d68ab7/lidia-0.9.1.tar.gz
+[2024-04-16 10:46:52] INFO root fetch - processPackages [selfpkg]: executing diffoscope
+[2024-04-16 10:46:52] INFO root fetch - processPackages [selfpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selfpkg-0.0.1a2.tar.gz tmp/selfpkg-0.0.1b2.tar.gz --markdown 20240416/s/selfpkg/0.0.1a2-0.0.1b2/README.md --exclude *.pyd
+[2024-04-16 10:46:52] INFO root fetch - processPackages [fitscube]: Downloading https://files.pythonhosted.org/packages/42/6f/9e9483990968a135fe965b5396424d81ea5b330be96a2bacfd61c553e98d/fitscube-0.3.1.tar.gz
+[2024-04-16 10:46:52] INFO root fetch - processPackages [tactigon-gear]: Downloading https://files.pythonhosted.org/packages/16/34/2be1a15e1527301b783c2d34c41e7a2b6912685750f3412b41fb814264b5/tactigon_gear-5.0.4.post1.tar.gz
+[2024-04-16 10:46:52] INFO root fetch - processPackages [fitscube]: executing diffoscope
+[2024-04-16 10:46:52] INFO root fetch - processPackages [fitscube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fitscube-0.3.0.tar.gz tmp/fitscube-0.3.1.tar.gz --markdown 20240416/f/fitscube/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-16 10:46:52] INFO root fetch - processPackages [lidia]: Downloading https://files.pythonhosted.org/packages/a0/72/d25c5fba000c3c53d7ec35363c54b0a35ee12db437cb1564add48a7683b5/lidia-0.9.2.tar.gz
+[2024-04-16 10:46:52] INFO root fetch - processPackages [tactigon-gear]: executing diffoscope
+[2024-04-16 10:46:52] INFO root fetch - processPackages [tactigon-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tactigon_gear-5.0.4.tar.gz tmp/tactigon_gear-5.0.4.post1.tar.gz --markdown 20240416/t/tactigon-gear/5.0.4-5.0.4.post1/README.md --exclude *.pyd
+[2024-04-16 10:46:52] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.1a2.tar.gz]
+[2024-04-16 10:46:52] INFO root fetch - processPackages [selfpkg]: Remove: archive file [/home/abi/fetcher/tmp/selfpkg-0.0.1b2.tar.gz]
+[2024-04-16 10:46:52] INFO root fetch - main [MainThread]: End processing [selfpkg]: success
+[2024-04-16 10:46:52] INFO root fetch - processPackages [lidia]: executing diffoscope
+[2024-04-16 10:46:52] INFO root fetch - processPackages [lidia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lidia-0.9.1.tar.gz tmp/lidia-0.9.2.tar.gz --markdown 20240416/l/lidia/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-16 10:46:52] INFO root fetch - processPackages [fitscube]: Remove: archive file [/home/abi/fetcher/tmp/fitscube-0.3.0.tar.gz]
+[2024-04-16 10:46:52] INFO root fetch - processPackages [fitscube]: Remove: archive file [/home/abi/fetcher/tmp/fitscube-0.3.1.tar.gz]
+[2024-04-16 10:46:52] INFO root fetch - main [MainThread]: End processing [fitscube]: success
+[2024-04-16 10:46:53] INFO root fetch - processPackages [tactigon-gear]: Remove: archive file [/home/abi/fetcher/tmp/tactigon_gear-5.0.4.tar.gz]
+[2024-04-16 10:46:53] INFO root fetch - processPackages [tactigon-gear]: Remove: archive file [/home/abi/fetcher/tmp/tactigon_gear-5.0.4.post1.tar.gz]
+[2024-04-16 10:46:53] INFO root fetch - main [MainThread]: End processing [tactigon-gear]: success
+[2024-04-16 10:46:53] INFO root fetch - processPackages [lidia]: Remove: archive file [/home/abi/fetcher/tmp/lidia-0.9.1.tar.gz]
+[2024-04-16 10:46:53] INFO root fetch - processPackages [lidia]: Remove: archive file [/home/abi/fetcher/tmp/lidia-0.9.2.tar.gz]
+[2024-04-16 10:46:53] INFO root fetch - main [MainThread]: End processing [lidia]: success
+[2024-04-16 10:46:53] INFO root fetch - main [MainThread]: Store serial: [22784809]
