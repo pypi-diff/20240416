@@ -12476,3 +12476,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:22:52] INFO root fetch - processPackages [nanomotif]: Remove: archive file [/home/abi/fetcher/tmp/nanomotif-0.2.1.tar.gz]
 [2024-04-16 11:22:52] INFO root fetch - main [MainThread]: End processing [nanomotif]: success
 [2024-04-16 11:22:52] INFO root fetch - main [MainThread]: Store serial: [22785315]
+[2024-04-16 11:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785315]
+[2024-04-16 11:25:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjected
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dialogy
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geohash-py
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ydb
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-fastly
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-cli-dev
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rocs-client
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elastic
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: servicefoundry
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: udata-front
+[2024-04-16 11:25:00] INFO root fetch - processPackages [pinjected]: New version: [0.2.30] Old Version: [0.2.29]
+[2024-04-16 11:25:00] INFO root fetch - processPackages [pulumi-fastly]: New version: [8.6.0a1713257333] Old Version: [8.6.0a1712986611]
+[2024-04-16 11:25:00] INFO root fetch - processPackages [elastic]: New version: [5.2.2.7] Old Version: [5.2.2.6]
+[2024-04-16 11:25:00] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ydb]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-16 11:25:00] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/df/88/b363f4b4d09873beaf717a84e848f6803d912ebe773800304c90bfdc812c/pinjected-0.2.29.tar.gz
+[2024-04-16 11:25:00] WARNING root fetch - processPackages [geohash-py]: Skipping, unable to determine old version
+[2024-04-16 11:25:00] INFO root fetch - processPackages [geohash-py]: Start processing: composabl-core-dev
+[2024-04-16 11:25:00] INFO root fetch - main [MainThread]: End processing [geohash-py] error
+[2024-04-16 11:25:00] INFO root fetch - processPackages [rocs-client]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-04-16 11:25:00] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/ab/67/0facbae0fc91adb8c458aeb693093866e575eb003f4c8cc1ee778c425dc8/pulumi_fastly-8.6.0a1712986611.tar.gz
+[2024-04-16 11:25:00] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/3e/eb/18ec4305c1e429f83cb997485c6d1103c4066b766db021c2c796bf476811/elastic-5.2.2.6.tar.gz
+[2024-04-16 11:25:00] INFO root fetch - processPackages [dialogy]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-16 11:25:00] INFO root fetch - processPackages [servicefoundry]: New version: [0.9.9rc2] Old Version: [0.9.9rc1]
+[2024-04-16 11:25:00] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 11:25:00] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-16 11:25:00] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/b9/01/6914767e6ac332bafc20cc175d97bea1f6a557b675fb535b928649f289ed/dialogy-2.1.0.tar.gz
+[2024-04-16 11:25:00] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/22/2b/e63e7ab27d09bb5aa541ce3a6eaded5f840b150a15e16d692b255d41a4b2/ydb-3.9.0.tar.gz
+[2024-04-16 11:25:00] INFO root fetch - processPackages [rocs-client]: Downloading https://files.pythonhosted.org/packages/2c/0c/440cca2dfda4d5eacfcd729891114de3bc1cf2b6bbdc326d93fcb3888734/rocs_client-1.3.6-py3-none-any.whl
+[2024-04-16 11:25:01] INFO root fetch - processPackages [pulumi-fastly]: Downloading https://files.pythonhosted.org/packages/ae/38/4a9d614d3b32a76a463cfc5a32ae71952d16404062d630344e9efd0d9d6e/pulumi_fastly-8.6.0a1713257333.tar.gz
+[2024-04-16 11:25:01] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/d5/b9/11fd9112091b8548d9b8fcbf58f48a6d09c00d9bd49b1c25636873971c2b/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 11:25:01] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 11:25:01] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/02/05/5016312c66b2c7a88f194b61f74c045e7449386ad8b2d1c5248a45a6094f/servicefoundry-0.9.9rc1.tar.gz
+[2024-04-16 11:25:01] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/03/70/99e7e3e179b9dd949b9b89eda2ec86c5899fb2a402080ff0f1598bedfb54/pinjected-0.2.30.tar.gz
+[2024-04-16 11:25:01] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/4a/a0/fae4202dc7e27017437fbafdfdb9257b93f97fc3d65b2bca67f173871cab/composabl_core_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 11:25:01] INFO root fetch - processPackages [pulumi-fastly]: executing diffoscope
+[2024-04-16 11:25:01] INFO root fetch - processPackages [pulumi-fastly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_fastly-8.6.0a1712986611.tar.gz tmp/pulumi_fastly-8.6.0a1713257333.tar.gz --markdown 20240416/p/pulumi-fastly/8.6.0a1712986611-8.6.0a1713257333/README.md --exclude *.pyd
+[2024-04-16 11:25:01] INFO root fetch - processPackages [elastic]: Downloading https://files.pythonhosted.org/packages/4f/4c/b0c2a826b16f44b79105e998b5d73d61475a9af49c5be60108bacec9bf23/elastic-5.2.2.7.tar.gz
+[2024-04-16 11:25:01] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21365442>=10485760
+[2024-04-16 11:25:01] INFO root fetch - processPackages [composabl-core-dev]: Start processing: composabl-train-dev
+[2024-04-16 11:25:01] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-16 11:25:01] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-16 11:25:01] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.29.tar.gz tmp/pinjected-0.2.30.tar.gz --markdown 20240416/p/pinjected/0.2.29-0.2.30/README.md --exclude *.pyd
+[2024-04-16 11:25:01] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 11:25:01] INFO root fetch - processPackages [rocs-client]: Downloading https://files.pythonhosted.org/packages/ff/bd/8bc922b938f1751b74ddadab67ecacfc0653779b1c5d1366dbdaa1f2a252/rocs_client-1.3.7.tar.gz
+[2024-04-16 11:25:01] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/c1/e8/163d96d8b59bd97285b80760b290e09c60137292b65538426d3b9b34df37/dialogy-2.2.0.tar.gz
+[2024-04-16 11:25:01] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/8a/b2/3fe260eb753c63f41a7c1da4478185d8d2a7eee1b69da77fb5277d1e45a5/ydb-3.9.1.tar.gz
+[2024-04-16 11:25:01] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/19/92/d2cc81d1932bc78afddf0cf92c75659eee58d38d34d9e8471d60b63233f7/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 11:25:01] INFO root fetch - processPackages [elastic]: executing diffoscope
+[2024-04-16 11:25:01] INFO root fetch - processPackages [elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-5.2.2.6.tar.gz tmp/elastic-5.2.2.7.tar.gz --markdown 20240416/e/elastic/5.2.2.6-5.2.2.7/README.md --exclude *.pyd
+[2024-04-16 11:25:01] INFO root fetch - processPackages [ydb]: executing diffoscope
+[2024-04-16 11:25:01] INFO root fetch - processPackages [ydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydb-3.9.0.tar.gz tmp/ydb-3.9.1.tar.gz --markdown 20240416/y/ydb/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-16 11:25:01] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-16 11:25:01] INFO root fetch - processPackages [servicefoundry]: Downloading https://files.pythonhosted.org/packages/95/2d/4d48175602335d472c23250316e448a45d05e4002ce13dc0e65cd515514a/servicefoundry-0.9.9rc2.tar.gz
+[2024-04-16 11:25:01] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2024-04-16 11:25:01] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.1.0.tar.gz tmp/dialogy-2.2.0.tar.gz --markdown 20240416/d/dialogy/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-16 11:25:01] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 11:25:01] INFO root fetch - processPackages [rocs-client]: executing diffoscope
+[2024-04-16 11:25:01] INFO root fetch - processPackages [rocs-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocs_client-1.3.6-py3-none-any.whl.zip tmp/rocs_client-1.3.7.tar.gz --markdown 20240416/r/rocs-client/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-04-16 11:25:01] INFO root fetch - processPackages [servicefoundry]: executing diffoscope
+[2024-04-16 11:25:01] INFO root fetch - processPackages [servicefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicefoundry-0.9.9rc1.tar.gz tmp/servicefoundry-0.9.9rc2.tar.gz --markdown 20240416/s/servicefoundry/0.9.9rc1-0.9.9rc2/README.md --exclude *.pyd
+[2024-04-16 11:25:01] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-04-16 11:25:01] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/c/composabl-cli-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-16 11:25:02] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 11:25:02] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-16 11:25:02] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240416/u/udata-front/3.5.5a1-3.5.5a117434/README.md --exclude *.pyd
+[2024-04-16 11:25:02] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.29.tar.gz]
+[2024-04-16 11:25:02] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.30.tar.gz]
+[2024-04-16 11:25:02] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-16 11:25:02] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-04-16 11:25:02] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/c/composabl-train-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-16 11:25:02] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.6.0a1712986611.tar.gz]
+[2024-04-16 11:25:02] INFO root fetch - processPackages [pulumi-fastly]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_fastly-8.6.0a1713257333.tar.gz]
+[2024-04-16 11:25:02] INFO root fetch - main [MainThread]: End processing [pulumi-fastly]: success
+[2024-04-16 11:25:02] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.1.0.tar.gz]
+[2024-04-16 11:25:02] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.2.0.tar.gz]
+[2024-04-16 11:25:02] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2024-04-16 11:25:03] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc1.tar.gz]
+[2024-04-16 11:25:03] INFO root fetch - processPackages [servicefoundry]: Remove: archive file [/home/abi/fetcher/tmp/servicefoundry-0.9.9rc2.tar.gz]
+[2024-04-16 11:25:03] INFO root fetch - main [MainThread]: End processing [servicefoundry]: success
+[2024-04-16 11:25:03] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.6.tar.gz]
+[2024-04-16 11:25:03] INFO root fetch - processPackages [elastic]: Remove: archive file [/home/abi/fetcher/tmp/elastic-5.2.2.7.tar.gz]
+[2024-04-16 11:25:03] INFO root fetch - main [MainThread]: End processing [elastic]: success
+[2024-04-16 11:25:03] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 11:25:03] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 11:25:03] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-04-16 11:25:03] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.0.tar.gz]
+[2024-04-16 11:25:03] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.1.tar.gz]
+[2024-04-16 11:25:03] INFO root fetch - main [MainThread]: End processing [ydb]: success
+[2024-04-16 11:25:04] INFO root fetch - processPackages [rocs-client]: Remove: archive file [/home/abi/fetcher/tmp/rocs_client-1.3.6-py3-none-any.whl.zip]
+[2024-04-16 11:25:04] INFO root fetch - processPackages [rocs-client]: Remove: archive file [/home/abi/fetcher/tmp/rocs_client-1.3.7.tar.gz]
+[2024-04-16 11:25:04] INFO root fetch - main [MainThread]: End processing [rocs-client]: success
+[2024-04-16 11:25:06] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 11:25:06] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 11:25:06] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-04-16 11:26:18] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip]
+[2024-04-16 11:26:18] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-16 11:26:18] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-16 11:26:18] INFO root fetch - main [MainThread]: Store serial: [22785361]
