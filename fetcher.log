@@ -23816,3 +23816,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:48:46] INFO root fetch - processPackages [iLCDirac]: Remove: archive file [/home/abi/fetcher/tmp/ilcdirac-35.0.3.tar.gz]
 [2024-04-16 17:48:46] INFO root fetch - main [MainThread]: End processing [iLCDirac]: success
 [2024-04-16 17:48:46] INFO root fetch - main [MainThread]: Store serial: [22790147]
+[2024-04-16 17:50:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22790147]
+[2024-04-16 17:50:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 17:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-fieldservice-crm
+[2024-04-16 17:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocf-datapipes
+[2024-04-16 17:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exoplanet
+[2024-04-16 17:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fieldservice
+[2024-04-16 17:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cosmix-launcher
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice]: New version: [17.0.1.1.0.5] Old Version: [17.0.1.1.0.4]
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice-crm]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.8]
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/be/12/3c1016e523c877aef225fdfb7c17b3a98a0d93d852a588c869fac27876b6/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl
+[2024-04-16 17:50:56] INFO root fetch - processPackages [exoplanet]: New version: [0.6.0rc2] Old Version: [0.5.3rc1]
+[2024-04-16 17:50:56] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-16 17:50:56] INFO root fetch - processPackages [cosmix-launcher]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice-crm]: Downloading https://files.pythonhosted.org/packages/3b/84/ff78762aa54931a34f59804a6896f5f9c155799f49a8571a1bb1e92e196f/odoo_addon_fieldservice_crm-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-16 17:50:56] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-04-16 17:50:56] INFO root fetch - processPackages [exoplanet]: Downloading https://files.pythonhosted.org/packages/ab/f5/a2e2c0b417f8094eeff4e6c42f3df0b6bc3f065678d06ce6e8dd3273e1a4/exoplanet-0.5.3rc1.tar.gz
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/15/bf/ba4b96242d579d7a225515a46a2a207e6d26e55ef4acaf9c056ac5d3dc9b/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl
+[2024-04-16 17:50:56] INFO root fetch - processPackages [cosmix-launcher]: Downloading https://files.pythonhosted.org/packages/54/26/d94a38b68f124cb6240a99134c27d50b400ebb7d502291e577495924a8dc/cosmix_launcher-1.0.5.tar.gz
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice]: executing diffoscope
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-fieldservice/17.0.1.1.0.4-17.0.1.1.0.5/README.md --exclude *.pyd
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice-crm]: Downloading https://files.pythonhosted.org/packages/e2/b7/523f711ee08aae1fd52516770cab5f497c81ddcb32b1bf020f58ca5fd7b6/odoo_addon_fieldservice_crm-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 17:50:56] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/55/0a/5970538e840540313fb117c6e1f7bad44ee3f3749d076d0440485cc60a89/ocf_datapipes-3.3.9.tar.gz
+[2024-04-16 17:50:56] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-04-16 17:50:56] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.8.tar.gz tmp/ocf_datapipes-3.3.9.tar.gz --markdown 20240416/o/ocf-datapipes/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice-crm]: executing diffoscope
+[2024-04-16 17:50:56] INFO root fetch - processPackages [odoo-addon-fieldservice-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_crm-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_crm-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-fieldservice-crm/16.0.1.0.0.8-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-16 17:50:56] INFO root fetch - processPackages [cosmix-launcher]: Downloading https://files.pythonhosted.org/packages/65/9d/44dfa0353b140668c3db694b74cf717481da589c1c0e86747e1903b0f33b/cosmix_launcher-1.0.6.tar.gz
+[2024-04-16 17:50:56] INFO root fetch - processPackages [exoplanet]: Downloading https://files.pythonhosted.org/packages/d3/6f/942a8970206ae2f750cf6437407900885aac3a45e99abdf5bc90afae6a1e/exoplanet-0.6.0rc2.tar.gz
+[2024-04-16 17:50:57] INFO root fetch - processPackages [cosmix-launcher]: executing diffoscope
+[2024-04-16 17:50:57] INFO root fetch - processPackages [cosmix-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmix_launcher-1.0.5.tar.gz tmp/cosmix_launcher-1.0.6.tar.gz --markdown 20240416/c/cosmix-launcher/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-16 17:50:57] INFO root fetch - processPackages [exoplanet]: executing diffoscope
+[2024-04-16 17:50:57] INFO root fetch - processPackages [exoplanet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exoplanet-0.5.3rc1.tar.gz tmp/exoplanet-0.6.0rc2.tar.gz --markdown 20240416/e/exoplanet/0.5.3rc1-0.6.0rc2/README.md --exclude *.pyd
+[2024-04-16 17:50:57] INFO root fetch - processPackages [odoo-addon-fieldservice-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_crm-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-16 17:50:57] INFO root fetch - processPackages [odoo-addon-fieldservice-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_crm-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 17:50:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-crm]: success
+[2024-04-16 17:50:57] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-04-16 17:50:57] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip]
+[2024-04-16 17:50:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
+[2024-04-16 17:50:57] INFO root fetch - processPackages [cosmix-launcher]: Remove: archive file [/home/abi/fetcher/tmp/cosmix_launcher-1.0.5.tar.gz]
+[2024-04-16 17:50:57] INFO root fetch - processPackages [cosmix-launcher]: Remove: archive file [/home/abi/fetcher/tmp/cosmix_launcher-1.0.6.tar.gz]
+[2024-04-16 17:50:57] INFO root fetch - main [MainThread]: End processing [cosmix-launcher]: success
+[2024-04-16 17:50:57] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-04-16 17:50:57] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
+[2024-04-16 17:50:57] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-04-16 17:50:58] INFO root fetch - processPackages [exoplanet]: Remove: archive file [/home/abi/fetcher/tmp/exoplanet-0.5.3rc1.tar.gz]
+[2024-04-16 17:50:58] INFO root fetch - processPackages [exoplanet]: Remove: archive file [/home/abi/fetcher/tmp/exoplanet-0.6.0rc2.tar.gz]
+[2024-04-16 17:50:58] INFO root fetch - main [MainThread]: End processing [exoplanet]: success
+[2024-04-16 17:50:58] INFO root fetch - main [MainThread]: Store serial: [22790160]
