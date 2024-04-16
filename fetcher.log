@@ -17748,3 +17748,110 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:47:33] INFO root fetch - processPackages [vertex-deployer]: Remove: archive file [/home/abi/fetcher/tmp/vertex_deployer-0.5.0.tar.gz]
 [2024-04-16 14:47:33] INFO root fetch - main [MainThread]: End processing [vertex-deployer]: success
 [2024-04-16 14:47:33] INFO root fetch - main [MainThread]: Store serial: [22787671]
+[2024-04-16 14:49:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787671]
+[2024-04-16 14:49:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composio-core
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slurpit_nautobot
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-langchain
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tacrpy
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-crewai
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-autogen
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-lyzr
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-core-xe-esimd
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: martin-binance
+[2024-04-16 14:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: inu
+[2024-04-16 14:49:42] INFO root fetch - processPackages [slurpit_nautobot]: New version: [0.8.77] Old Version: [0.8.76]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [tacrpy]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [composio-core]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [inu]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/e7/76/5a273eb797eae04cfc3b161a791886e46188921b8f93c4b31292cd8fac38/slurpit_nautobot-0.8.76.tar.gz
+[2024-04-16 14:49:42] INFO root fetch - processPackages [martin-binance]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-16 14:49:42] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/1b/e6/a86b9827ee6f5bf54b5e761fd6e5cb9f7b69b8532fe0503f094b597754f8/composio_autogen-0.2.1.tar.gz
+[2024-04-16 14:49:42] INFO root fetch - processPackages [tacrpy]: Downloading https://files.pythonhosted.org/packages/ef/31/4773e5887a57ae9fdf96a3a141e50c0a957c21567c2a02d0bf308a397d66/tacrpy-1.5.0-py3-none-any.whl
+[2024-04-16 14:49:42] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/0d/a2/f61a091a7a657505bec55ef68428ea37a8200fbecd087090b2f8cfd2e2b0/bigdl_core_xe_esimd-2.5.0b20240414-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/d7/dd/ef7fb80dbc14dcb7655d8efe6694842ac31befb723010bbca26872763e13/composio_lyzr-0.2.1.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/c8/ff/7cb3295a6f27086af9a4e5fe8e258c34b27558734b65b1d65780d5fc4be0/composio_langchain-0.2.1.tar.gz
+[2024-04-16 14:49:43] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61865775>=10485760
+[2024-04-16 14:49:43] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Start processing: anyerplint
+[2024-04-16 14:49:43] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/cf/6d/c95f8c492c0338dc01087908d3aad3baca2f98ed358cceabe5dab3631a68/composio_crewai-0.2.2.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/c7/0d/5ba8c356cf016fcb00e3e236fb133afda58fea61be247632d0d4913e0c7a/composio_core-0.2.2.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/27/80/e5aa6a1aa5b6e91ebd20d67ca0ba397a8c92c1e18d6b08d37cb9504fb611/martin_binance-3.0.4.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [anyerplint]: New version: [0.2.91] Old Version: [0.2.90]
+[2024-04-16 14:49:43] INFO root fetch - processPackages [inu]: Downloading https://files.pythonhosted.org/packages/65/2f/3b70463972425451ace34124bc08da359820c8aab734d7616f40ab356b24/inu-1.0.8.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/99/62/86908d4dd5b8dcacf756869c76c3638b6a003cc37641f61ddd564cf40f2a/composio_autogen-0.2.2.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/12/ab/26894390c91e428cb7fa1a8e4221fade58679945f67ba451c3ba83fd9435/slurpit_nautobot-0.8.77.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [tacrpy]: Downloading https://files.pythonhosted.org/packages/6a/83/fadd40dffd8a2e618519465848eb25d8423a4fe574edb81145b1dfded488/tacrpy-1.6.0-py3-none-any.whl
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/28/87/da7e33ba9dec3bd0e3e9d3ead36012ab96030fb34172f0b6846b53fbfcff/composio_lyzr-0.2.2.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/9c/ba/230da61361bd867222a89e5ac8012c5fd318b31b13c34399cddd288ae0d1/composio_langchain-0.2.2.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/59/53/f600846b33db5f673176406176194a57df8fb68fada8f14b5948b1bc57bd/composio_crewai-0.2.3.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [anyerplint]: Downloading https://files.pythonhosted.org/packages/cf/38/efc53adb5b83b40e2b0aa6e88923b2700a3e24a63025c83e8802df7502a6/anyerplint-0.2.90.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.1.tar.gz tmp/composio_autogen-0.2.2.tar.gz --markdown 20240416/c/composio-autogen/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/73/03/4dd83232c6d1fac5ed7c73e822dcf2115cf2979eef49d4d8cbf55d58c526/composio_core-0.2.3.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [slurpit_nautobot]: executing diffoscope
+[2024-04-16 14:49:43] INFO root fetch - processPackages [slurpit_nautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_nautobot-0.8.76.tar.gz tmp/slurpit_nautobot-0.8.77.tar.gz --markdown 20240416/s/slurpit_nautobot/0.8.76-0.8.77/README.md --exclude *.pyd
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.1.tar.gz tmp/composio_lyzr-0.2.2.tar.gz --markdown 20240416/c/composio-lyzr/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-16 14:49:43] INFO root fetch - processPackages [tacrpy]: executing diffoscope
+[2024-04-16 14:49:43] INFO root fetch - processPackages [tacrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tacrpy-1.5.0-py3-none-any.whl.zip tmp/tacrpy-1.6.0-py3-none-any.whl.zip --markdown 20240416/t/tacrpy/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.1.tar.gz tmp/composio_langchain-0.2.2.tar.gz --markdown 20240416/c/composio-langchain/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-16 14:49:43] INFO root fetch - processPackages [martin-binance]: Downloading https://files.pythonhosted.org/packages/cf/22/58926cc96ca89bdc0cccbb0195f4f080880a30a63fecbf6369e00c525ce3/martin_binance-3.0.5.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [inu]: Downloading https://files.pythonhosted.org/packages/33/69/3079bd1ce522d5b0f42803f001829a7b96debef485b5c665400a81c24d47/inu-1.0.9.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.2.tar.gz tmp/composio_crewai-0.2.3.tar.gz --markdown 20240416/c/composio-crewai/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-16 14:49:43] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.2.tar.gz tmp/composio_core-0.2.3.tar.gz --markdown 20240416/c/composio-core/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 14:49:43] INFO root fetch - processPackages [inu]: executing diffoscope
+[2024-04-16 14:49:43] INFO root fetch - processPackages [inu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inu-1.0.8.tar.gz tmp/inu-1.0.9.tar.gz --markdown 20240416/i/inu/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 14:49:43] INFO root fetch - processPackages [anyerplint]: Downloading https://files.pythonhosted.org/packages/ff/d3/e2c1cd9d5f1ae1b2e78e063849be23eca668c14d256dfc958bc59d135a6b/anyerplint-0.2.91.tar.gz
+[2024-04-16 14:49:43] INFO root fetch - processPackages [martin-binance]: executing diffoscope
+[2024-04-16 14:49:43] INFO root fetch - processPackages [martin-binance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/martin_binance-3.0.4.tar.gz tmp/martin_binance-3.0.5.tar.gz --markdown 20240416/m/martin-binance/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-16 14:49:44] INFO root fetch - processPackages [anyerplint]: executing diffoscope
+[2024-04-16 14:49:44] INFO root fetch - processPackages [anyerplint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyerplint-0.2.90.tar.gz tmp/anyerplint-0.2.91.tar.gz --markdown 20240416/a/anyerplint/0.2.90-0.2.91/README.md --exclude *.pyd
+[2024-04-16 14:49:44] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.1.tar.gz]
+[2024-04-16 14:49:44] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.2.tar.gz]
+[2024-04-16 14:49:44] INFO root fetch - processPackages [composio-autogen]: Start processing: craft-ai-sdk
+[2024-04-16 14:49:44] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-16 14:49:44] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.2.tar.gz]
+[2024-04-16 14:49:44] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.3.tar.gz]
+[2024-04-16 14:49:44] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-16 14:49:44] INFO root fetch - processPackages [craft-ai-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 14:49:44] INFO root fetch - processPackages [tacrpy]: Remove: archive file [/home/abi/fetcher/tmp/tacrpy-1.5.0-py3-none-any.whl.zip]
+[2024-04-16 14:49:44] INFO root fetch - processPackages [tacrpy]: Remove: archive file [/home/abi/fetcher/tmp/tacrpy-1.6.0-py3-none-any.whl.zip]
+[2024-04-16 14:49:44] INFO root fetch - main [MainThread]: End processing [tacrpy]: success
+[2024-04-16 14:49:44] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.1.tar.gz]
+[2024-04-16 14:49:44] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.2.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-16 14:49:45] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.2.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.3.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-16 14:49:45] INFO root fetch - processPackages [inu]: Remove: archive file [/home/abi/fetcher/tmp/inu-1.0.8.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - processPackages [inu]: Remove: archive file [/home/abi/fetcher/tmp/inu-1.0.9.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - main [MainThread]: End processing [inu]: success
+[2024-04-16 14:49:45] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.76.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.77.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - main [MainThread]: End processing [slurpit_nautobot]: success
+[2024-04-16 14:49:45] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/37/9a/425e98770d7c632e8edaa1eda238a5459ba6f00ddc434fcf87962f118a27/craft_ai_sdk-0.9.0.tar.gz
+[2024-04-16 14:49:45] INFO root fetch - processPackages [anyerplint]: Remove: archive file [/home/abi/fetcher/tmp/anyerplint-0.2.90.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - processPackages [anyerplint]: Remove: archive file [/home/abi/fetcher/tmp/anyerplint-0.2.91.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - main [MainThread]: End processing [anyerplint]: success
+[2024-04-16 14:49:45] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.1.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.2.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-16 14:49:45] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin_binance-3.0.4.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - processPackages [martin-binance]: Remove: archive file [/home/abi/fetcher/tmp/martin_binance-3.0.5.tar.gz]
+[2024-04-16 14:49:45] INFO root fetch - main [MainThread]: End processing [martin-binance]: success
+[2024-04-16 14:49:45] INFO root fetch - processPackages [craft-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/d1/169475b438f1184af924d80d3cc7cb68caa2e756a9acb5c8cf6eafc0ca61/craft_ai_sdk-0.9.1.tar.gz
+[2024-04-16 14:49:45] INFO root fetch - processPackages [craft-ai-sdk]: executing diffoscope
+[2024-04-16 14:49:45] INFO root fetch - processPackages [craft-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft_ai_sdk-0.9.0.tar.gz tmp/craft_ai_sdk-0.9.1.tar.gz --markdown 20240416/c/craft-ai-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 14:49:46] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.0.tar.gz]
+[2024-04-16 14:49:46] INFO root fetch - processPackages [craft-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/craft_ai_sdk-0.9.1.tar.gz]
+[2024-04-16 14:49:46] INFO root fetch - main [MainThread]: End processing [craft-ai-sdk]: success
+[2024-04-16 14:49:46] INFO root fetch - main [MainThread]: Store serial: [22787708]
