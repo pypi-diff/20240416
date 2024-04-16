@@ -6726,3 +6726,51 @@
 [2024-04-16 07:27:20] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
 [2024-04-16 07:27:20] INFO root fetch - main [MainThread]: End processing [mpservice]: success
 [2024-04-16 07:27:20] INFO root fetch - main [MainThread]: Store serial: [22782862]
+[2024-04-16 07:29:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782862]
+[2024-04-16 07:29:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 07:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-mxgnxs
+[2024-04-16 07:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xiaobai-config
+[2024-04-16 07:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: setreq
+[2024-04-16 07:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-nai3
+[2024-04-16 07:29:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unstract-adapters
+[2024-04-16 07:29:28] INFO root fetch - processPackages [setreq]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-16 07:29:28] INFO root fetch - processPackages [nonebot-plugin-nai3]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 07:29:28] INFO root fetch - processPackages [example-package-mxgnxs]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 07:29:28] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/82/5c/ed90fb0d887bd0ac6ea8f71d43406508a3dc65226b46d5cb7870ab7573b5/nonebot_plugin_nai3-0.1.4.tar.gz
+[2024-04-16 07:29:28] INFO root fetch - processPackages [xiaobai-config]: New version: [1.1] Old Version: [1.0]
+[2024-04-16 07:29:28] INFO root fetch - processPackages [unstract-adapters]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 07:29:29] INFO root fetch - processPackages [setreq]: Downloading https://files.pythonhosted.org/packages/ac/32/2b2ca6ed8b432fe08d0620d46ed1a50e243b55a5884c76356ea17314ce61/setreq-0.0.5-py3-none-any.whl
+[2024-04-16 07:29:29] INFO root fetch - processPackages [example-package-mxgnxs]: Downloading https://files.pythonhosted.org/packages/67/11/d89996c9f63ae6138d9f662c284c19fa6e411704ca30a48622f03e748e94/example_package_mxgnxs-0.0.1.tar.gz
+[2024-04-16 07:29:29] INFO root fetch - processPackages [xiaobai-config]: Downloading https://files.pythonhosted.org/packages/64/4b/d5a283849af0736b8e8c7ff7efc945ea8743f05fe3f77321fc804ee7e7f5/xiaobai_config-1.0.tar.gz
+[2024-04-16 07:29:29] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e8/8e/065b97ce989e6044404e38526e7f56617c4721e67eb13b24e0b64270bd97/unstract_adapters-0.9.0.tar.gz
+[2024-04-16 07:29:29] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/25/87/093ff855dad6bf80610606d75a8faff0dcfa36cba9828509d6b8ff0a143b/nonebot_plugin_nai3-0.1.5.tar.gz
+[2024-04-16 07:29:29] INFO root fetch - processPackages [setreq]: Downloading https://files.pythonhosted.org/packages/87/f3/928255f5319e367169ef660e11a84add6188b818294d54bd4401b0621f09/setreq-0.0.6-py3-none-any.whl
+[2024-04-16 07:29:29] INFO root fetch - processPackages [example-package-mxgnxs]: Downloading https://files.pythonhosted.org/packages/4b/96/34e43fb140c6668ae3b0b5112e31ee82f6e4cfb35e9503bafbfb77931751/example_package_mxgnxs-0.0.2.tar.gz
+[2024-04-16 07:29:29] INFO root fetch - processPackages [nonebot-plugin-nai3]: executing diffoscope
+[2024-04-16 07:29:29] INFO root fetch - processPackages [nonebot-plugin-nai3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nai3-0.1.4.tar.gz tmp/nonebot_plugin_nai3-0.1.5.tar.gz --markdown 20240416/n/nonebot-plugin-nai3/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 07:29:29] INFO root fetch - processPackages [setreq]: executing diffoscope
+[2024-04-16 07:29:29] INFO root fetch - processPackages [setreq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setreq-0.0.5-py3-none-any.whl.zip tmp/setreq-0.0.6-py3-none-any.whl.zip --markdown 20240416/s/setreq/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-16 07:29:29] INFO root fetch - processPackages [xiaobai-config]: Downloading https://files.pythonhosted.org/packages/48/2d/e0f72ab05543c0b2ebdf585f7366ba3069eb6cd0095d3edebb1217b50430/xiaobai_config-1.1.tar.gz
+[2024-04-16 07:29:29] INFO root fetch - processPackages [example-package-mxgnxs]: executing diffoscope
+[2024-04-16 07:29:29] INFO root fetch - processPackages [example-package-mxgnxs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_mxgnxs-0.0.1.tar.gz tmp/example_package_mxgnxs-0.0.2.tar.gz --markdown 20240416/e/example-package-mxgnxs/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 07:29:29] INFO root fetch - processPackages [xiaobai-config]: executing diffoscope
+[2024-04-16 07:29:29] INFO root fetch - processPackages [xiaobai-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaobai_config-1.0.tar.gz tmp/xiaobai_config-1.1.tar.gz --markdown 20240416/x/xiaobai-config/1.0-1.1/README.md --exclude *.pyd
+[2024-04-16 07:29:29] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/6f/8e/ce2b23e3f8dd41f9d591f7aae8133bb3bff3bf86aa1c663dc8a4ba504c9e/unstract_adapters-0.9.1.tar.gz
+[2024-04-16 07:29:29] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-04-16 07:29:29] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.9.0.tar.gz tmp/unstract_adapters-0.9.1.tar.gz --markdown 20240416/u/unstract-adapters/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 07:29:30] INFO root fetch - processPackages [example-package-mxgnxs]: Remove: archive file [/home/abi/fetcher/tmp/example_package_mxgnxs-0.0.1.tar.gz]
+[2024-04-16 07:29:30] INFO root fetch - processPackages [example-package-mxgnxs]: Remove: archive file [/home/abi/fetcher/tmp/example_package_mxgnxs-0.0.2.tar.gz]
+[2024-04-16 07:29:30] INFO root fetch - main [MainThread]: End processing [example-package-mxgnxs]: success
+[2024-04-16 07:29:30] INFO root fetch - processPackages [setreq]: Remove: archive file [/home/abi/fetcher/tmp/setreq-0.0.5-py3-none-any.whl.zip]
+[2024-04-16 07:29:30] INFO root fetch - processPackages [setreq]: Remove: archive file [/home/abi/fetcher/tmp/setreq-0.0.6-py3-none-any.whl.zip]
+[2024-04-16 07:29:30] INFO root fetch - main [MainThread]: End processing [setreq]: success
+[2024-04-16 07:29:30] INFO root fetch - processPackages [xiaobai-config]: Remove: archive file [/home/abi/fetcher/tmp/xiaobai_config-1.0.tar.gz]
+[2024-04-16 07:29:30] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.4.tar.gz]
+[2024-04-16 07:29:30] INFO root fetch - processPackages [xiaobai-config]: Remove: archive file [/home/abi/fetcher/tmp/xiaobai_config-1.1.tar.gz]
+[2024-04-16 07:29:30] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.5.tar.gz]
+[2024-04-16 07:29:30] INFO root fetch - main [MainThread]: End processing [xiaobai-config]: success
+[2024-04-16 07:29:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nai3]: success
+[2024-04-16 07:29:30] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.0.tar.gz]
+[2024-04-16 07:29:30] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.9.1.tar.gz]
+[2024-04-16 07:29:30] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-04-16 07:29:30] INFO root fetch - main [MainThread]: Store serial: [22782880]
