@@ -5035,3 +5035,45 @@
 [2024-04-16 05:25:52] INFO root fetch - processPackages [torchtune]: Remove: archive file [/home/abi/fetcher/tmp/torchtune-0.1.0-py3-none-any.whl.zip]
 [2024-04-16 05:25:52] INFO root fetch - main [MainThread]: End processing [torchtune]: success
 [2024-04-16 05:25:52] INFO root fetch - main [MainThread]: Store serial: [22782112]
+[2024-04-16 05:27:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782112]
+[2024-04-16 05:28:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 05:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maxwell-utils
+[2024-04-16 05:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbrlabs-pulumi-eks
+[2024-04-16 05:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: konfuzio-sdk
+[2024-04-16 05:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trm-woodburn
+[2024-04-16 05:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rstms-cloudflare
+[2024-04-16 05:28:01] INFO root fetch - processPackages [trm-woodburn]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-16 05:28:01] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/45/36/6bc7650de2c77918bdff545757ca018aa86271ce3e598f9bd12b2c7c0931/trm_woodburn-0.0.6.tar.gz
+[2024-04-16 05:28:01] INFO root fetch - processPackages [maxwell-utils]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-16 05:28:01] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.3.dev20240415090556] Old Version: [0.3.3.dev20240410112634]
+[2024-04-16 05:28:01] WARNING root fetch - processPackages [rstms-cloudflare]: Skipping, unable to determine old version
+[2024-04-16 05:28:01] INFO root fetch - main [MainThread]: End processing [rstms-cloudflare] error
+[2024-04-16 05:28:01] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.9.1a1707243566] Old Version: [0.9.0]
+[2024-04-16 05:28:01] INFO root fetch - processPackages [maxwell-utils]: Downloading https://files.pythonhosted.org/packages/62/f4/910c1fde1a38739b1b1f14c808e17e0d050834555e8d070a37231438c881/maxwell_utils-0.6.4.tar.gz
+[2024-04-16 05:28:01] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/21/d7/aef8d104afe3ce2ea7de7a0d57a6fe58ed7d3eda4674da284fbeaea82f93/lbrlabs_pulumi_eks-0.9.0.tar.gz
+[2024-04-16 05:28:01] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/7f/f4/bfe23d33a6026a75587a9b9eeb6eaf4ffbdad86343fc8c87d61be6f7dfec/konfuzio_sdk-0.3.3.dev20240410112634.tar.gz
+[2024-04-16 05:28:02] INFO root fetch - processPackages [trm-woodburn]: Downloading https://files.pythonhosted.org/packages/49/fb/883b4113d0fda4cbc9e6bda8e78441b469b7442cf45a531488ec2f241500/trm_woodburn-0.0.7.tar.gz
+[2024-04-16 05:28:02] INFO root fetch - processPackages [trm-woodburn]: executing diffoscope
+[2024-04-16 05:28:02] INFO root fetch - processPackages [trm-woodburn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trm_woodburn-0.0.6.tar.gz tmp/trm_woodburn-0.0.7.tar.gz --markdown 20240416/t/trm-woodburn/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-16 05:28:02] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/f3/44/61d0eab4adc9a0cce0c9886829dc5f49c1c49864fc2a85eb3d49ce88bb30/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz
+[2024-04-16 05:28:02] INFO root fetch - processPackages [maxwell-utils]: Downloading https://files.pythonhosted.org/packages/8f/05/f4307445647cd2f55dc4c1f391ab13d6dc7b87037aa8eb395264ed2749ff/maxwell_utils-0.6.5.tar.gz
+[2024-04-16 05:28:02] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2024-04-16 05:28:02] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz --markdown 20240416/l/lbrlabs-pulumi-eks/0.9.0-0.9.1a1707243566/README.md --exclude *.pyd
+[2024-04-16 05:28:02] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/8b/73/a41425221733d80eb6e5839954e262fa024438986df2b507843b31e55e82/konfuzio_sdk-0.3.3.dev20240415090556.tar.gz
+[2024-04-16 05:28:02] INFO root fetch - processPackages [maxwell-utils]: executing diffoscope
+[2024-04-16 05:28:02] INFO root fetch - processPackages [maxwell-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxwell_utils-0.6.4.tar.gz tmp/maxwell_utils-0.6.5.tar.gz --markdown 20240416/m/maxwell-utils/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-04-16 05:28:02] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-04-16 05:28:02] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.3.dev20240410112634.tar.gz tmp/konfuzio_sdk-0.3.3.dev20240415090556.tar.gz --markdown 20240416/k/konfuzio-sdk/0.3.3.dev20240410112634-0.3.3.dev20240415090556/README.md --exclude *.pyd
+[2024-04-16 05:28:02] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz]
+[2024-04-16 05:28:02] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz]
+[2024-04-16 05:28:02] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2024-04-16 05:28:02] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.6.tar.gz]
+[2024-04-16 05:28:02] INFO root fetch - processPackages [trm-woodburn]: Remove: archive file [/home/abi/fetcher/tmp/trm_woodburn-0.0.7.tar.gz]
+[2024-04-16 05:28:02] INFO root fetch - main [MainThread]: End processing [trm-woodburn]: success
+[2024-04-16 05:28:03] INFO root fetch - processPackages [maxwell-utils]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_utils-0.6.4.tar.gz]
+[2024-04-16 05:28:03] INFO root fetch - processPackages [maxwell-utils]: Remove: archive file [/home/abi/fetcher/tmp/maxwell_utils-0.6.5.tar.gz]
+[2024-04-16 05:28:03] INFO root fetch - main [MainThread]: End processing [maxwell-utils]: success
+[2024-04-16 05:28:03] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.3.dev20240410112634.tar.gz]
+[2024-04-16 05:28:03] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.3.dev20240415090556.tar.gz]
+[2024-04-16 05:28:03] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-04-16 05:28:03] INFO root fetch - main [MainThread]: Store serial: [22782128]
