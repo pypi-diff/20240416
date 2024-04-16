@@ -7385,3 +7385,54 @@
 [2024-04-16 08:13:52] INFO root fetch - processPackages [cumo]: Remove: archive file [/home/abi/fetcher/tmp/cumo-0.33.2.tar.gz]
 [2024-04-16 08:13:52] INFO root fetch - main [MainThread]: End processing [cumo]: success
 [2024-04-16 08:13:52] INFO root fetch - main [MainThread]: Store serial: [22783110]
+[2024-04-16 08:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783110]
+[2024-04-16 08:16:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: factory_farm
+[2024-04-16 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qctrl-client
+[2024-04-16 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: therix
+[2024-04-16 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyPowerAutomate
+[2024-04-16 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-page-manager
+[2024-04-16 08:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: infeze
+[2024-04-16 08:16:01] INFO root fetch - processPackages [factory_farm]: New version: [1.2.3] Old Version: [1.2.1]
+[2024-04-16 08:16:01] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/14/fd/12943cb85d27a158b8c65fcc85277d96f617f328275eb2a90725472f9f40/factory_farm-1.2.1.tar.gz
+[2024-04-16 08:16:01] INFO root fetch - processPackages [infeze]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 08:16:01] INFO root fetch - processPackages [therix]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 08:16:01] INFO root fetch - processPackages [qctrl-client]: New version: [9.2.1] Old Version: [9.2.0]
+[2024-04-16 08:16:01] WARNING root fetch - processPackages [PyPowerAutomate]: Skipping, unable to determine old version
+[2024-04-16 08:16:01] INFO root fetch - processPackages [flet-page-manager]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 08:16:01] INFO root fetch - main [MainThread]: End processing [PyPowerAutomate] error
+[2024-04-16 08:16:01] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/72/13/996d3bb4ad206b47433b27eebae11abd4bb9986db24385173003ca9765e8/therix-0.1.1.tar.gz
+[2024-04-16 08:16:01] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/d3/67/b5953645b11ee31cee48b8c0bd793007b99fd7c135b5bde6f7336e603f23/qctrl_client-9.2.0.tar.gz
+[2024-04-16 08:16:01] INFO root fetch - processPackages [flet-page-manager]: Downloading https://files.pythonhosted.org/packages/33/1a/57d6482e3da3524221edb8ccbb91b1c79d3252cc602ed47e3418feb99c2e/flet_page_manager-0.1.8-py312-none-any.whl
+[2024-04-16 08:16:01] INFO root fetch - processPackages [infeze]: Downloading https://files.pythonhosted.org/packages/a4/3e/e2ec557cbbbb8ddbdd0a96820d334fd29338e5ea3ca1722be268175eb81e/infeze-0.0.1-py3-none-any.whl
+[2024-04-16 08:16:01] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/22/da/57a84d99f6a13bf6a15b60f055224ae8df2475ed06a3b3ecddfedc0bca31/factory_farm-1.2.3.tar.gz
+[2024-04-16 08:16:01] INFO root fetch - processPackages [qctrl-client]: Downloading https://files.pythonhosted.org/packages/f6/28/3bba99c177df60fba2b584460d587c711c4bfba604ded10668e1af233d4b/qctrl_client-9.2.1.tar.gz
+[2024-04-16 08:16:01] INFO root fetch - processPackages [infeze]: Downloading https://files.pythonhosted.org/packages/7a/bd/509611c3c20dc2e2a473913caae411c5d9b527899664e60f9865961d9631/infeze-0.0.2-py3-none-any.whl
+[2024-04-16 08:16:01] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/9d/b6/a44cd02de9323c87dd79238c0246e90ec24fca5ecc5d8bee0afbfa0fad90/therix-0.1.2.tar.gz
+[2024-04-16 08:16:02] INFO root fetch - processPackages [qctrl-client]: executing diffoscope
+[2024-04-16 08:16:02] INFO root fetch - processPackages [qctrl-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_client-9.2.0.tar.gz tmp/qctrl_client-9.2.1.tar.gz --markdown 20240416/q/qctrl-client/9.2.0-9.2.1/README.md --exclude *.pyd
+[2024-04-16 08:16:02] INFO root fetch - processPackages [flet-page-manager]: Downloading https://files.pythonhosted.org/packages/49/05/93a453b6e0ac11c58c07ed319d5b7a8329f04cfd69f5dd4c8a71ea9fba5c/flet_page_manager-0.1.9-py312-none-any.whl
+[2024-04-16 08:16:02] INFO root fetch - processPackages [factory_farm]: executing diffoscope
+[2024-04-16 08:16:02] INFO root fetch - processPackages [factory_farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factory_farm-1.2.1.tar.gz tmp/factory_farm-1.2.3.tar.gz --markdown 20240416/f/factory_farm/1.2.1-1.2.3/README.md --exclude *.pyd
+[2024-04-16 08:16:02] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-04-16 08:16:02] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.1.tar.gz tmp/therix-0.1.2.tar.gz --markdown 20240416/t/therix/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 08:16:02] INFO root fetch - processPackages [infeze]: executing diffoscope
+[2024-04-16 08:16:02] INFO root fetch - processPackages [infeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infeze-0.0.1-py3-none-any.whl.zip tmp/infeze-0.0.2-py3-none-any.whl.zip --markdown 20240416/i/infeze/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 08:16:02] INFO root fetch - processPackages [flet-page-manager]: executing diffoscope
+[2024-04-16 08:16:02] INFO root fetch - processPackages [flet-page-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_page_manager-0.1.8-py312-none-any.whl.zip tmp/flet_page_manager-0.1.9-py312-none-any.whl.zip --markdown 20240416/f/flet-page-manager/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 08:16:02] INFO root fetch - processPackages [infeze]: Remove: archive file [/home/abi/fetcher/tmp/infeze-0.0.1-py3-none-any.whl.zip]
+[2024-04-16 08:16:02] INFO root fetch - processPackages [infeze]: Remove: archive file [/home/abi/fetcher/tmp/infeze-0.0.2-py3-none-any.whl.zip]
+[2024-04-16 08:16:02] INFO root fetch - main [MainThread]: End processing [infeze]: success
+[2024-04-16 08:16:02] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-9.2.0.tar.gz]
+[2024-04-16 08:16:02] INFO root fetch - processPackages [qctrl-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_client-9.2.1.tar.gz]
+[2024-04-16 08:16:02] INFO root fetch - main [MainThread]: End processing [qctrl-client]: success
+[2024-04-16 08:16:02] INFO root fetch - processPackages [flet-page-manager]: Remove: archive file [/home/abi/fetcher/tmp/flet_page_manager-0.1.8-py312-none-any.whl.zip]
+[2024-04-16 08:16:02] INFO root fetch - processPackages [flet-page-manager]: Remove: archive file [/home/abi/fetcher/tmp/flet_page_manager-0.1.9-py312-none-any.whl.zip]
+[2024-04-16 08:16:02] INFO root fetch - main [MainThread]: End processing [flet-page-manager]: success
+[2024-04-16 08:16:02] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.1.tar.gz]
+[2024-04-16 08:16:02] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.2.tar.gz]
+[2024-04-16 08:16:02] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-04-16 08:16:05] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.2.1.tar.gz]
+[2024-04-16 08:16:05] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.2.3.tar.gz]
+[2024-04-16 08:16:05] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
+[2024-04-16 08:16:05] INFO root fetch - main [MainThread]: Store serial: [22783129]
