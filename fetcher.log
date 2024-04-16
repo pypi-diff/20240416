@@ -8056,3 +8056,18 @@
 [2024-04-16 08:48:50] INFO root fetch - processPackages [lazy-schema]: Remove: archive file [/home/abi/fetcher/tmp/lazy_schema-0.2.0.tar.gz]
 [2024-04-16 08:48:50] INFO root fetch - main [MainThread]: End processing [lazy-schema]: success
 [2024-04-16 08:48:50] INFO root fetch - main [MainThread]: Store serial: [22783387]
+[2024-04-16 08:50:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783387]
+[2024-04-16 08:51:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 08:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flexible-dict
+[2024-04-16 08:51:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cxzscxiezhifeng1
+[2024-04-16 08:51:00] WARNING root fetch - processPackages [cxzscxiezhifeng1]: Skipping, unable to determine old version
+[2024-04-16 08:51:00] INFO root fetch - main [MainThread]: End processing [cxzscxiezhifeng1] error
+[2024-04-16 08:51:00] INFO root fetch - processPackages [flexible-dict]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-16 08:51:01] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/e3/c6/dd7f0a94c18de9b8227c63ab1a303b0dbe656f9961e44226869faa2d6cb0/flexible_dict-1.2.1.tar.gz
+[2024-04-16 08:51:01] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/17/85/73a4f453ff6b75c2edc357339cc50bd6c4d93cae2ad15d9c4e45945a18ef/flexible_dict-1.2.2.tar.gz
+[2024-04-16 08:51:01] INFO root fetch - processPackages [flexible-dict]: executing diffoscope
+[2024-04-16 08:51:01] INFO root fetch - processPackages [flexible-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_dict-1.2.1.tar.gz tmp/flexible_dict-1.2.2.tar.gz --markdown 20240416/f/flexible-dict/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-16 08:51:01] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.2.1.tar.gz]
+[2024-04-16 08:51:01] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.2.2.tar.gz]
+[2024-04-16 08:51:01] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
+[2024-04-16 08:51:01] INFO root fetch - main [MainThread]: Store serial: [22783393]
