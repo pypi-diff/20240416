@@ -13901,3 +13901,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:14:40] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
 [2024-04-16 12:14:40] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
 [2024-04-16 12:14:40] INFO root fetch - main [MainThread]: Store serial: [22786062]
+[2024-04-16 12:16:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786062]
+[2024-04-16 12:16:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 12:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: research-roc-utils
+[2024-04-16 12:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctm-python-client
+[2024-04-16 12:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superblockify
+[2024-04-16 12:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bmsdna-lakeapi
+[2024-04-16 12:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepeval
+[2024-04-16 12:16:49] INFO root fetch - processPackages [research-roc-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 12:16:49] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 12:16:49] INFO root fetch - processPackages [superblockify]: New version: [1.0.0rc5] Old Version: [1.0.0rc4]
+[2024-04-16 12:16:49] INFO root fetch - processPackages [ctm-python-client]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-04-16 12:16:49] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/ba/5c/f922a71e77bfd0f28f4c7a370775300e8ef18b16554940c6e74646199768/research_roc_utils-0.0.4.tar.gz
+[2024-04-16 12:16:49] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-04-16 12:16:49] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-16 12:16:49] INFO root fetch - processPackages [superblockify]: Downloading https://files.pythonhosted.org/packages/dc/c7/f91dc3ebc66f8b70982d496919815f0aaec2df3e75858cb3b1da8a71d49b/superblockify-1.0.0rc4.tar.gz
+[2024-04-16 12:16:49] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-04-16 12:16:49] INFO root fetch - processPackages [ctm-python-client]: Downloading https://files.pythonhosted.org/packages/75/54/ab1fa074587cfb95b4d4b6cb42f7130e632dc615561bbb82d74f54909b27/ctm-python-client-2.2.4.tar.gz
+[2024-04-16 12:16:49] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/30/97/1247a81c07f22adae3aefb39a4a3b05b4f42bc3a1ee3d5d6b70ef1f952c6/bmsdna_lakeapi-0.9.6.tar.gz
+[2024-04-16 12:16:49] INFO root fetch - processPackages [research-roc-utils]: Downloading https://files.pythonhosted.org/packages/f0/00/3747fa80e3d9a534936426e5c56f4e37181622ac5d34b6c4028a35288d69/research_roc_utils-0.0.5.tar.gz
+[2024-04-16 12:16:49] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-04-16 12:16:49] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240416/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 12:16:49] INFO root fetch - processPackages [research-roc-utils]: executing diffoscope
+[2024-04-16 12:16:49] INFO root fetch - processPackages [research-roc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_roc_utils-0.0.4.tar.gz tmp/research_roc_utils-0.0.5.tar.gz --markdown 20240416/r/research-roc-utils/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 12:16:49] INFO root fetch - processPackages [superblockify]: Downloading https://files.pythonhosted.org/packages/40/f3/2c6c3c1204b5f71904d09e39c72130a5ef0c429f9863debf67bea8db7e90/superblockify-1.0.0rc5.tar.gz
+[2024-04-16 12:16:49] INFO root fetch - processPackages [ctm-python-client]: Downloading https://files.pythonhosted.org/packages/08/20/4bc6ee672f156e41198a86d22a21082cccef256117866b9e5d78e46bcf37/ctm-python-client-2.2.5.tar.gz
+[2024-04-16 12:16:49] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/73/d2/49277a33825c2fbbed400dec012e2410e757f6a5c7ba04608709388615b1/bmsdna_lakeapi-0.9.7.tar.gz
+[2024-04-16 12:16:50] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2024-04-16 12:16:50] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.6.tar.gz tmp/bmsdna_lakeapi-0.9.7.tar.gz --markdown 20240416/b/bmsdna-lakeapi/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-16 12:16:50] INFO root fetch - processPackages [superblockify]: executing diffoscope
+[2024-04-16 12:16:50] INFO root fetch - processPackages [superblockify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblockify-1.0.0rc4.tar.gz tmp/superblockify-1.0.0rc5.tar.gz --markdown 20240416/s/superblockify/1.0.0rc4-1.0.0rc5/README.md --exclude *.pyd
+[2024-04-16 12:16:50] INFO root fetch - processPackages [ctm-python-client]: executing diffoscope
+[2024-04-16 12:16:50] INFO root fetch - processPackages [ctm-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctm-python-client-2.2.4.tar.gz tmp/ctm-python-client-2.2.5.tar.gz --markdown 20240416/c/ctm-python-client/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-04-16 12:16:50] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.4.tar.gz]
+[2024-04-16 12:16:50] INFO root fetch - processPackages [research-roc-utils]: Remove: archive file [/home/abi/fetcher/tmp/research_roc_utils-0.0.5.tar.gz]
+[2024-04-16 12:16:50] INFO root fetch - main [MainThread]: End processing [research-roc-utils]: success
+[2024-04-16 12:16:50] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-04-16 12:16:50] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-04-16 12:16:50] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-04-16 12:16:50] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.6.tar.gz]
+[2024-04-16 12:16:50] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.7.tar.gz]
+[2024-04-16 12:16:50] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2024-04-16 12:16:51] INFO root fetch - processPackages [superblockify]: Remove: archive file [/home/abi/fetcher/tmp/superblockify-1.0.0rc4.tar.gz]
+[2024-04-16 12:16:51] INFO root fetch - processPackages [superblockify]: Remove: archive file [/home/abi/fetcher/tmp/superblockify-1.0.0rc5.tar.gz]
+[2024-04-16 12:16:51] INFO root fetch - main [MainThread]: End processing [superblockify]: success
+[2024-04-16 12:16:53] INFO root fetch - processPackages [ctm-python-client]: Remove: archive file [/home/abi/fetcher/tmp/ctm-python-client-2.2.4.tar.gz]
+[2024-04-16 12:16:53] INFO root fetch - processPackages [ctm-python-client]: Remove: archive file [/home/abi/fetcher/tmp/ctm-python-client-2.2.5.tar.gz]
+[2024-04-16 12:16:53] INFO root fetch - main [MainThread]: End processing [ctm-python-client]: success
+[2024-04-16 12:16:53] INFO root fetch - main [MainThread]: Store serial: [22786078]
