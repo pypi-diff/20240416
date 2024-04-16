@@ -14039,3 +14039,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:21:15] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.504.tar.gz]
 [2024-04-16 12:21:15] INFO root fetch - main [MainThread]: End processing [literalai]: success
 [2024-04-16 12:21:15] INFO root fetch - main [MainThread]: Store serial: [22786108]
+[2024-04-16 12:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786108]
+[2024-04-16 12:23:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 12:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-iris
+[2024-04-16 12:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embed-anything
+[2024-04-16 12:23:23] INFO root fetch - processPackages [langchain-iris]: New version: [0.1.2b1] Old Version: [0.1.1b3]
+[2024-04-16 12:23:23] INFO root fetch - processPackages [embed-anything]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 12:23:23] INFO root fetch - processPackages [langchain-iris]: Downloading https://files.pythonhosted.org/packages/5b/cd/bea7b42a478a547a2617f522baceff09bd2d3bb70901b85b3a7b399cff20/langchain-iris-0.1.1b3.tar.gz
+[2024-04-16 12:23:23] INFO root fetch - processPackages [embed-anything]: Downloading https://files.pythonhosted.org/packages/0b/de/6833a6f52a083aed0a6903049ddd3a59775dea6d8d49be143fd8e767e2b5/embed_anything-0.1.8.tar.gz
+[2024-04-16 12:23:23] INFO root fetch - processPackages [langchain-iris]: Downloading https://files.pythonhosted.org/packages/c0/2b/2459b49a22aac4fed0cec9c886d9bcfb87cf4ff7b1ed3f4f5ee29b8c3e41/langchain_iris-0.1.2b1.tar.gz
+[2024-04-16 12:23:24] INFO root fetch - processPackages [langchain-iris]: executing diffoscope
+[2024-04-16 12:23:24] INFO root fetch - processPackages [langchain-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-iris-0.1.1b3.tar.gz tmp/langchain_iris-0.1.2b1.tar.gz --markdown 20240416/l/langchain-iris/0.1.1b3-0.1.2b1/README.md --exclude *.pyd
+[2024-04-16 12:23:24] INFO root fetch - processPackages [embed-anything]: Downloading https://files.pythonhosted.org/packages/fd/9b/e485e2b774254c26b7fb0ad0b5b4660008adfdb07ec0c23eee84e42cfda9/embed_anything-0.1.9.tar.gz
+[2024-04-16 12:23:24] INFO root fetch - processPackages [embed-anything]: executing diffoscope
+[2024-04-16 12:23:24] INFO root fetch - processPackages [embed-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embed_anything-0.1.8.tar.gz tmp/embed_anything-0.1.9.tar.gz --markdown 20240416/e/embed-anything/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 12:23:24] INFO root fetch - processPackages [langchain-iris]: Remove: archive file [/home/abi/fetcher/tmp/langchain-iris-0.1.1b3.tar.gz]
+[2024-04-16 12:23:24] INFO root fetch - processPackages [langchain-iris]: Remove: archive file [/home/abi/fetcher/tmp/langchain_iris-0.1.2b1.tar.gz]
+[2024-04-16 12:23:24] INFO root fetch - main [MainThread]: End processing [langchain-iris]: success
+[2024-04-16 12:23:25] INFO root fetch - processPackages [embed-anything]: Remove: archive file [/home/abi/fetcher/tmp/embed_anything-0.1.8.tar.gz]
+[2024-04-16 12:23:25] INFO root fetch - processPackages [embed-anything]: Remove: archive file [/home/abi/fetcher/tmp/embed_anything-0.1.9.tar.gz]
+[2024-04-16 12:23:25] INFO root fetch - main [MainThread]: End processing [embed-anything]: success
+[2024-04-16 12:23:25] INFO root fetch - main [MainThread]: Store serial: [22786116]
