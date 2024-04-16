@@ -7980,3 +7980,62 @@
 [2024-04-16 08:44:29] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.5.5-py2.py3-none-any.whl.zip]
 [2024-04-16 08:44:29] INFO root fetch - main [MainThread]: End processing [datarobot-model-metrics]: success
 [2024-04-16 08:44:29] INFO root fetch - main [MainThread]: Store serial: [22783359]
+[2024-04-16 08:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783359]
+[2024-04-16 08:46:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 08:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eclcli
+[2024-04-16 08:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: html-tree-shaking
+[2024-04-16 08:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: limexhub
+[2024-04-16 08:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wikidot
+[2024-04-16 08:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dualPredictor
+[2024-04-16 08:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sophia-opt
+[2024-04-16 08:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sparrowSql
+[2024-04-16 08:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Mycalc2024qq
+[2024-04-16 08:46:37] WARNING root fetch - processPackages [Mycalc2024qq]: Skipping, unable to determine old version
+[2024-04-16 08:46:37] INFO root fetch - main [MainThread]: End processing [Mycalc2024qq] error
+[2024-04-16 08:46:37] INFO root fetch - processPackages [sparrowSql]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 08:46:37] INFO root fetch - processPackages [html-tree-shaking]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-16 08:46:37] WARNING root fetch - processPackages [sophia-opt]: Skipping, unable to determine old version
+[2024-04-16 08:46:37] INFO root fetch - main [MainThread]: End processing [sophia-opt] error
+[2024-04-16 08:46:37] INFO root fetch - processPackages [eclcli]: New version: [3.5.0] Old Version: [3.4.1]
+[2024-04-16 08:46:37] INFO root fetch - processPackages [limexhub]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 08:46:37] INFO root fetch - processPackages [dualPredictor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 08:46:37] INFO root fetch - processPackages [sparrowSql]: Downloading https://files.pythonhosted.org/packages/6c/af/75516d64bd89b5927b19de7bd40e7b0edc211ba3dbb1fb34567c11fb4414/sparrowSql-0.1.1.tar.gz
+[2024-04-16 08:46:37] INFO root fetch - processPackages [wikidot]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-16 08:46:38] INFO root fetch - processPackages [html-tree-shaking]: Downloading https://files.pythonhosted.org/packages/80/54/471c109bc7a7545708c75c6bd4a37ea7d0376d1acfdf681ac3212f312a96/html_tree_shaking-1.0.1-py3-none-any.whl
+[2024-04-16 08:46:38] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/73/9a/b9cbf250c5e85acdc2f225f3bbeb1d731ba523955366d7341b651824bb0a/wikidot-3.0.1.tar.gz
+[2024-04-16 08:46:38] WARNING root fetch - processPackages [html-tree-shaking]: Skipping package: exceeds size limit 38279515>=10485760
+[2024-04-16 08:46:38] INFO root fetch - main [MainThread]: End processing [html-tree-shaking] error
+[2024-04-16 08:46:38] INFO root fetch - processPackages [eclcli]: Downloading https://files.pythonhosted.org/packages/a8/e5/8126d212b267579e35bb35163a732cf015bec412d7c1d76d8396c92c689f/eclcli-3.4.1.tar.gz
+[2024-04-16 08:46:38] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/47/4a/cd1c8cc3ddd55d40f93beca272686ca0f40d322a450119a5287e9fb86f98/limexhub-0.1.8.tar.gz
+[2024-04-16 08:46:38] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/b3/99/b2c5ae81b8c8c7a346d3d6f8192907802692d0c7a72ec5a607adecbd0202/dualPredictor-0.0.8.tar.gz
+[2024-04-16 08:46:38] INFO root fetch - processPackages [sparrowSql]: Downloading https://files.pythonhosted.org/packages/4c/0d/7dbcc0f94098962a744b55640e4fe96f47e813c93b1600766a6d2fd1ad08/sparrowSql-0.1.2.tar.gz
+[2024-04-16 08:46:38] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/9b/9a/893f168aea062d2845b3ae542753818cebdbfd450e76e68dc22116d3fbe9/wikidot-3.0.2.tar.gz
+[2024-04-16 08:46:38] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/34/b1/087f4c17f3cd9425c33cd27043ff8f79129b61098fa9edf0db7b0df343d9/limexhub-0.1.9.tar.gz
+[2024-04-16 08:46:38] INFO root fetch - processPackages [sparrowSql]: executing diffoscope
+[2024-04-16 08:46:38] INFO root fetch - processPackages [sparrowSql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrowSql-0.1.1.tar.gz tmp/sparrowSql-0.1.2.tar.gz --markdown 20240416/s/sparrowSql/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 08:46:38] INFO root fetch - processPackages [eclcli]: Downloading https://files.pythonhosted.org/packages/e2/a7/9da2cfb73707d0fbd24922ec5cc4e4aa643dd5a094f8814f836ee0ba695d/eclcli-3.5.0.tar.gz
+[2024-04-16 08:46:38] INFO root fetch - processPackages [wikidot]: executing diffoscope
+[2024-04-16 08:46:38] INFO root fetch - processPackages [wikidot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikidot-3.0.1.tar.gz tmp/wikidot-3.0.2.tar.gz --markdown 20240416/w/wikidot/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-16 08:46:38] INFO root fetch - processPackages [limexhub]: executing diffoscope
+[2024-04-16 08:46:38] INFO root fetch - processPackages [limexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limexhub-0.1.8.tar.gz tmp/limexhub-0.1.9.tar.gz --markdown 20240416/l/limexhub/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 08:46:38] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/aa/35/aece7cff1e9e7885b4a6cca30122595e0619daf7e03f425ec434392cf6c8/dualPredictor-0.0.9.tar.gz
+[2024-04-16 08:46:38] INFO root fetch - processPackages [dualPredictor]: executing diffoscope
+[2024-04-16 08:46:38] INFO root fetch - processPackages [dualPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualPredictor-0.0.8.tar.gz tmp/dualPredictor-0.0.9.tar.gz --markdown 20240416/d/dualPredictor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 08:46:38] INFO root fetch - processPackages [eclcli]: executing diffoscope
+[2024-04-16 08:46:38] INFO root fetch - processPackages [eclcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eclcli-3.4.1.tar.gz tmp/eclcli-3.5.0.tar.gz --markdown 20240416/e/eclcli/3.4.1-3.5.0/README.md --exclude *.pyd
+[2024-04-16 08:46:39] INFO root fetch - processPackages [sparrowSql]: Remove: archive file [/home/abi/fetcher/tmp/sparrowSql-0.1.1.tar.gz]
+[2024-04-16 08:46:39] INFO root fetch - processPackages [sparrowSql]: Remove: archive file [/home/abi/fetcher/tmp/sparrowSql-0.1.2.tar.gz]
+[2024-04-16 08:46:39] INFO root fetch - main [MainThread]: End processing [sparrowSql]: success
+[2024-04-16 08:46:39] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.1.tar.gz]
+[2024-04-16 08:46:39] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.2.tar.gz]
+[2024-04-16 08:46:39] INFO root fetch - main [MainThread]: End processing [wikidot]: success
+[2024-04-16 08:46:39] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.8.tar.gz]
+[2024-04-16 08:46:39] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.9.tar.gz]
+[2024-04-16 08:46:39] INFO root fetch - main [MainThread]: End processing [limexhub]: success
+[2024-04-16 08:46:39] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.8.tar.gz]
+[2024-04-16 08:46:39] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.9.tar.gz]
+[2024-04-16 08:46:39] INFO root fetch - main [MainThread]: End processing [dualPredictor]: success
+[2024-04-16 08:46:40] INFO root fetch - processPackages [eclcli]: Remove: archive file [/home/abi/fetcher/tmp/eclcli-3.4.1.tar.gz]
+[2024-04-16 08:46:40] INFO root fetch - processPackages [eclcli]: Remove: archive file [/home/abi/fetcher/tmp/eclcli-3.5.0.tar.gz]
+[2024-04-16 08:46:40] INFO root fetch - main [MainThread]: End processing [eclcli]: success
+[2024-04-16 08:46:40] INFO root fetch - main [MainThread]: Store serial: [22783380]
