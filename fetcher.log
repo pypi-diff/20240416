@@ -6081,3 +6081,15 @@
 [2024-04-16 06:35:56] INFO root fetch - processPackages [hidrokit]: Remove: archive file [/home/abi/fetcher/tmp/hidrokit-0.5.0.tar.gz]
 [2024-04-16 06:35:56] INFO root fetch - main [MainThread]: End processing [hidrokit]: success
 [2024-04-16 06:35:56] INFO root fetch - main [MainThread]: Store serial: [22782603]
+[2024-04-16 06:37:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782603]
+[2024-04-16 06:38:04] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 06:38:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dynamizer
+[2024-04-16 06:38:04] INFO root fetch - processPackages [dynamizer]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 06:38:05] INFO root fetch - processPackages [dynamizer]: Downloading https://files.pythonhosted.org/packages/4e/dc/3244b57488da2d173111d167cc8506bc1a7daa659454fdb7ef4a7ef4437b/dynamizer-0.2.8.tar.gz
+[2024-04-16 06:38:05] INFO root fetch - processPackages [dynamizer]: Downloading https://files.pythonhosted.org/packages/35/44/5c9a99cc19d6e64b5c1f7b3e4ea428ba46cdfa4b600219ca677978bf8d22/dynamizer-0.2.9.tar.gz
+[2024-04-16 06:38:05] INFO root fetch - processPackages [dynamizer]: executing diffoscope
+[2024-04-16 06:38:05] INFO root fetch - processPackages [dynamizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamizer-0.2.8.tar.gz tmp/dynamizer-0.2.9.tar.gz --markdown 20240416/d/dynamizer/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 06:38:06] INFO root fetch - processPackages [dynamizer]: Remove: archive file [/home/abi/fetcher/tmp/dynamizer-0.2.8.tar.gz]
+[2024-04-16 06:38:06] INFO root fetch - processPackages [dynamizer]: Remove: archive file [/home/abi/fetcher/tmp/dynamizer-0.2.9.tar.gz]
+[2024-04-16 06:38:06] INFO root fetch - main [MainThread]: End processing [dynamizer]: success
+[2024-04-16 06:38:06] INFO root fetch - main [MainThread]: Store serial: [22782609]
