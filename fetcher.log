@@ -6511,3 +6511,78 @@
 [2024-04-16 07:17:04] INFO root fetch - processPackages [tokive]: Remove: archive file [/home/abi/fetcher/tmp/tokive-1.5.tar.gz]
 [2024-04-16 07:17:04] INFO root fetch - main [MainThread]: End processing [tokive]: success
 [2024-04-16 07:17:04] INFO root fetch - main [MainThread]: Store serial: [22782781]
+[2024-04-16 07:19:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782781]
+[2024-04-16 07:19:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokive
+[2024-04-16 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: burr
+[2024-04-16 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pre5g
+[2024-04-16 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bavisitter
+[2024-04-16 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: countess
+[2024-04-16 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: harry-potter-yonier
+[2024-04-16 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RedXClient
+[2024-04-16 07:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowchat
+[2024-04-16 07:19:13] INFO root fetch - processPackages [tokive]: New version: [1.5] Old Version: [1.4]
+[2024-04-16 07:19:13] INFO root fetch - processPackages [RedXClient]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 07:19:13] INFO root fetch - processPackages [pre5g]: New version: [3.5] Old Version: [3.4]
+[2024-04-16 07:19:13] INFO root fetch - processPackages [harry-potter-yonier]: New version: [1.4] Old Version: [1.3]
+[2024-04-16 07:19:13] INFO root fetch - processPackages [bavisitter]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-16 07:19:13] INFO root fetch - processPackages [flowchat]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-16 07:19:13] INFO root fetch - processPackages [tokive]: Downloading https://files.pythonhosted.org/packages/63/28/fa50b7ee5c310b73e2e327940383df464fc5712d88a3ee6c7cc01931bc90/tokive-1.4.tar.gz
+[2024-04-16 07:19:13] INFO root fetch - processPackages [countess]: New version: [0.0.59] Old Version: [0.0.58]
+[2024-04-16 07:19:13] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-16 07:19:13] INFO root fetch - processPackages [RedXClient]: Downloading https://files.pythonhosted.org/packages/98/e2/862c0e50d3f8161d125fa870756c7a7dbafded4d322809ac4efaaa92697f/redxclient-0.2.2.tar.gz
+[2024-04-16 07:19:13] INFO root fetch - processPackages [harry-potter-yonier]: Downloading https://files.pythonhosted.org/packages/52/e2/51e741b42c5da7e63154568b44f056791b51884e1a2af90081f9451658ad/harry_potter_yonier-1.3.tar.gz
+[2024-04-16 07:19:13] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/75/6d/f19024a75b82e879cc7c6a398381f519cf037623cbc78a89349af091688f/pre5g-3.4.tar.gz
+[2024-04-16 07:19:13] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/b8/3b/913a70bb04abf077eead7a8a7de58e7957f6debc47cd7ccb2792bd29d2c0/bavisitter-0.0.1a0.tar.gz
+[2024-04-16 07:19:13] INFO root fetch - processPackages [flowchat]: Downloading https://files.pythonhosted.org/packages/f7/b2/c5edc2fc08d4a66c00a19541fa1459494923ff261041865af6206a1422fb/flowchat-1.2.1.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/0e/bb/1bd51bc416a389f78675aa766fe60262ec07c49db98c53c3975c32927045/countess-0.0.58.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [tokive]: Downloading https://files.pythonhosted.org/packages/66/c3/ff68f41b5efd2a8e49911312f0174c4dad3adcb1a1c729cbb3a980340ac5/tokive-1.5.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [RedXClient]: Downloading https://files.pythonhosted.org/packages/4d/9a/92ecbcd1ce3de7f3777704664c981afb83f80b7ce114157e7b41111acb5c/redxclient-0.2.3.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [harry-potter-yonier]: Downloading https://files.pythonhosted.org/packages/2b/c8/9897a271d8ee36eb2f4806b0d481348724967c1fb070f01d638db3625d8e/harry_potter_yonier-1.4.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/7f/69/0350e879e87b4a7a8ced490615e119c241f8b6deb259a1d75de09c8a8017/pre5g-3.5.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [tokive]: executing diffoscope
+[2024-04-16 07:19:14] INFO root fetch - processPackages [tokive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokive-1.4.tar.gz tmp/tokive-1.5.tar.gz --markdown 20240416/t/tokive/1.4-1.5/README.md --exclude *.pyd
+[2024-04-16 07:19:14] INFO root fetch - processPackages [RedXClient]: executing diffoscope
+[2024-04-16 07:19:14] INFO root fetch - processPackages [RedXClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redxclient-0.2.2.tar.gz tmp/redxclient-0.2.3.tar.gz --markdown 20240416/R/RedXClient/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 07:19:14] INFO root fetch - processPackages [flowchat]: Downloading https://files.pythonhosted.org/packages/32/05/64b48a50fa5a240461f55d029f12324d49a14715d311439fba7e4c5bac56/flowchat-1.2.2.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [harry-potter-yonier]: executing diffoscope
+[2024-04-16 07:19:14] INFO root fetch - processPackages [harry-potter-yonier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harry_potter_yonier-1.3.tar.gz tmp/harry_potter_yonier-1.4.tar.gz --markdown 20240416/h/harry-potter-yonier/1.3-1.4/README.md --exclude *.pyd
+[2024-04-16 07:19:14] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-16 07:19:14] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-3.4.tar.gz tmp/pre5g-3.5.tar.gz --markdown 20240416/p/pre5g/3.4-3.5/README.md --exclude *.pyd
+[2024-04-16 07:19:14] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/4f/31/fd880c1c28b831194dc5458664ffdb230180209db82b8fc3bb2d8c9aacb8/countess-0.0.59.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [flowchat]: executing diffoscope
+[2024-04-16 07:19:14] INFO root fetch - processPackages [flowchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowchat-1.2.1.tar.gz tmp/flowchat-1.2.2.tar.gz --markdown 20240416/f/flowchat/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-16 07:19:14] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/64/58/bb6aa3566e4f037abb770e60552c969c91a38c78040fa2711bf73c3498b7/bavisitter-0.0.1a1.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [countess]: executing diffoscope
+[2024-04-16 07:19:14] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.58.tar.gz tmp/countess-0.0.59.tar.gz --markdown 20240416/c/countess/0.0.58-0.0.59/README.md --exclude *.pyd
+[2024-04-16 07:19:14] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-04-16 07:19:14] INFO root fetch - processPackages [bavisitter]: executing diffoscope
+[2024-04-16 07:19:14] INFO root fetch - processPackages [bavisitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bavisitter-0.0.1a0.tar.gz tmp/bavisitter-0.0.1a1.tar.gz --markdown 20240416/b/bavisitter/0.0.1a0-0.0.1a1/README.md --exclude *.pyd
+[2024-04-16 07:19:15] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-04-16 07:19:15] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240416/b/burr/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-16 07:19:15] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.4.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.5.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-16 07:19:15] INFO root fetch - processPackages [RedXClient]: Remove: archive file [/home/abi/fetcher/tmp/redxclient-0.2.2.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - processPackages [RedXClient]: Remove: archive file [/home/abi/fetcher/tmp/redxclient-0.2.3.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - main [MainThread]: End processing [RedXClient]: success
+[2024-04-16 07:19:15] INFO root fetch - processPackages [harry-potter-yonier]: Remove: archive file [/home/abi/fetcher/tmp/harry_potter_yonier-1.3.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - processPackages [harry-potter-yonier]: Remove: archive file [/home/abi/fetcher/tmp/harry_potter_yonier-1.4.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - main [MainThread]: End processing [harry-potter-yonier]: success
+[2024-04-16 07:19:15] INFO root fetch - processPackages [tokive]: Remove: archive file [/home/abi/fetcher/tmp/tokive-1.4.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - processPackages [tokive]: Remove: archive file [/home/abi/fetcher/tmp/tokive-1.5.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - main [MainThread]: End processing [tokive]: success
+[2024-04-16 07:19:15] INFO root fetch - processPackages [flowchat]: Remove: archive file [/home/abi/fetcher/tmp/flowchat-1.2.1.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - processPackages [flowchat]: Remove: archive file [/home/abi/fetcher/tmp/flowchat-1.2.2.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - main [MainThread]: End processing [flowchat]: success
+[2024-04-16 07:19:15] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.58.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.59.tar.gz]
+[2024-04-16 07:19:15] INFO root fetch - main [MainThread]: End processing [countess]: success
+[2024-04-16 07:19:36] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1a0.tar.gz]
+[2024-04-16 07:19:36] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1a1.tar.gz]
+[2024-04-16 07:19:36] INFO root fetch - main [MainThread]: End processing [bavisitter]: success
+[2024-04-16 07:19:52] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-04-16 07:19:52] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-04-16 07:19:52] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-04-16 07:19:52] INFO root fetch - main [MainThread]: Store serial: [22782805]
