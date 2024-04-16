@@ -4801,3 +4801,48 @@
 [2024-04-16 05:14:51] INFO root fetch - processPackages [ailist]: Remove: archive file [/home/abi/fetcher/tmp/ailist-2.1.2.tar.gz]
 [2024-04-16 05:14:51] INFO root fetch - main [MainThread]: End processing [ailist]: success
 [2024-04-16 05:14:51] INFO root fetch - main [MainThread]: Store serial: [22781966]
+[2024-04-16 05:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781966]
+[2024-04-16 05:17:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 05:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-okta
+[2024-04-16 05:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dic-random
+[2024-04-16 05:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surfkit
+[2024-04-16 05:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-statement-import-qif
+[2024-04-16 05:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-bank-statement-import
+[2024-04-16 05:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MyRecursion
+[2024-04-16 05:17:04] INFO root fetch - processPackages [MyRecursion]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-16 05:17:04] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 05:17:04] WARNING root fetch - processPackages [dic-random]: Skipping, unable to determine old version
+[2024-04-16 05:17:04] INFO root fetch - main [MainThread]: End processing [dic-random] error
+[2024-04-16 05:17:04] WARNING root fetch - processPackages [odoo-addon-account-statement-import-qif]: Skipping, unable to determine old version
+[2024-04-16 05:17:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-qif] error
+[2024-04-16 05:17:04] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: New version: [9.0.0] Old Version: [8.0.2]
+[2024-04-16 05:17:04] INFO root fetch - processPackages [MyRecursion]: Downloading https://files.pythonhosted.org/packages/ec/af/c0f06231b136a2a64be196678cca6328c501b5560d1fe0ab20cd72edff8b/MyRecursion-0.0.1-py3-none-any.whl
+[2024-04-16 05:17:05] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-16 05:17:05] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: New version: [16.0.20240415.1] Old Version: [16.0.20240227.0]
+[2024-04-16 05:17:05] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/1c/18/2a62b6718999fc6b17e0ceab705057b3fb79d734c1a4c1b5591cf6d4ada7/cdktf-cdktf-provider-okta-8.0.2.tar.gz
+[2024-04-16 05:17:05] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-16 05:17:05] INFO root fetch - processPackages [MyRecursion]: Downloading https://files.pythonhosted.org/packages/b9/2b/98220148eff6a1f46e018eb4b02cc4c01bcd2cacccbd02232b11330de16b/MyRecursion-0.0.3-py3-none-any.whl
+[2024-04-16 05:17:05] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Downloading https://files.pythonhosted.org/packages/3b/42/47c0dccd11dc718ba7a7e503d6c7593f527db16e4da71d71a29dafdfb094/odoo_addons_oca_bank_statement_import-16.0.20240227.0-py3-none-any.whl
+[2024-04-16 05:17:05] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/0b/d0/a4b8860a54a663d18f37333481694546cc1e870c23aa8abaa96fe8d85d2f/cdktf-cdktf-provider-okta-9.0.0.tar.gz
+[2024-04-16 05:17:05] INFO root fetch - processPackages [MyRecursion]: executing diffoscope
+[2024-04-16 05:17:05] INFO root fetch - processPackages [MyRecursion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyRecursion-0.0.1-py3-none-any.whl.zip tmp/MyRecursion-0.0.3-py3-none-any.whl.zip --markdown 20240416/M/MyRecursion/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-16 05:17:05] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-16 05:17:05] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240416/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 05:17:05] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: executing diffoscope
+[2024-04-16 05:17:05] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz tmp/cdktf-cdktf-provider-okta-9.0.0.tar.gz --markdown 20240416/c/cdktf-cdktf-provider-okta/8.0.2-9.0.0/README.md --exclude *.pyd
+[2024-04-16 05:17:05] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Downloading https://files.pythonhosted.org/packages/b9/f2/802701458e8a9b730e3d6e8745306422377235929815cd627ebef4269996/odoo_addons_oca_bank_statement_import-16.0.20240415.1-py3-none-any.whl
+[2024-04-16 05:17:05] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: executing diffoscope
+[2024-04-16 05:17:05] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_bank_statement_import-16.0.20240227.0-py3-none-any.whl.zip tmp/odoo_addons_oca_bank_statement_import-16.0.20240415.1-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-bank-statement-import/16.0.20240227.0-16.0.20240415.1/README.md --exclude *.pyd
+[2024-04-16 05:17:06] INFO root fetch - processPackages [MyRecursion]: Remove: archive file [/home/abi/fetcher/tmp/MyRecursion-0.0.1-py3-none-any.whl.zip]
+[2024-04-16 05:17:06] INFO root fetch - processPackages [MyRecursion]: Remove: archive file [/home/abi/fetcher/tmp/MyRecursion-0.0.3-py3-none-any.whl.zip]
+[2024-04-16 05:17:06] INFO root fetch - main [MainThread]: End processing [MyRecursion]: success
+[2024-04-16 05:17:06] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-16 05:17:06] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-16 05:17:06] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-16 05:17:06] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_bank_statement_import-16.0.20240227.0-py3-none-any.whl.zip]
+[2024-04-16 05:17:06] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_bank_statement_import-16.0.20240415.1-py3-none-any.whl.zip]
+[2024-04-16 05:17:06] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-bank-statement-import]: success
+[2024-04-16 05:17:06] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-8.0.2.tar.gz]
+[2024-04-16 05:17:06] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-9.0.0.tar.gz]
+[2024-04-16 05:17:06] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-okta]: success
+[2024-04-16 05:17:06] INFO root fetch - main [MainThread]: Store serial: [22781980]
