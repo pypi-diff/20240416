@@ -8071,3 +8071,48 @@
 [2024-04-16 08:51:01] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-1.2.2.tar.gz]
 [2024-04-16 08:51:01] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
 [2024-04-16 08:51:01] INFO root fetch - main [MainThread]: Store serial: [22783393]
+[2024-04-16 08:53:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783393]
+[2024-04-16 08:53:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yaclog
+[2024-04-16 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysimmods
+[2024-04-16 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cxzscxiezhifeng1
+[2024-04-16 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iosense-connect
+[2024-04-16 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libs-zip
+[2024-04-16 08:53:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hidiffusion
+[2024-04-16 08:53:10] WARNING root fetch - processPackages [cxzscxiezhifeng1]: Skipping, unable to determine old version
+[2024-04-16 08:53:10] INFO root fetch - main [MainThread]: End processing [cxzscxiezhifeng1] error
+[2024-04-16 08:53:10] INFO root fetch - processPackages [pysimmods]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 08:53:10] INFO root fetch - processPackages [hidiffusion]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 08:53:10] WARNING root fetch - processPackages [libs-zip]: Skipping, unable to determine old version
+[2024-04-16 08:53:10] INFO root fetch - main [MainThread]: End processing [libs-zip] error
+[2024-04-16 08:53:10] INFO root fetch - processPackages [pysimmods]: Downloading https://files.pythonhosted.org/packages/76/58/52e952b0fc9b1c8e0de55a0178f751ff40740803deb75fbadacb32f41507/pysimmods-0.9.0.tar.gz
+[2024-04-16 08:53:10] INFO root fetch - processPackages [iosense-connect]: New version: [4.11.3] Old Version: [4.11.2]
+[2024-04-16 08:53:10] INFO root fetch - processPackages [yaclog]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-16 08:53:10] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/24/10/d27510e29594916c25043c7f9657e0ae58cbd468ca1cc67b770ea5ae0cde/iosense_connect-4.11.2.tar.gz
+[2024-04-16 08:53:10] INFO root fetch - processPackages [hidiffusion]: Downloading https://files.pythonhosted.org/packages/02/e2/b46e9a7eb53634dcf67fe9a4307499c65bb2d4dfd41ced305b1eb4d8b9fd/hidiffusion-0.1.1.tar.gz
+[2024-04-16 08:53:10] INFO root fetch - processPackages [pysimmods]: Downloading https://files.pythonhosted.org/packages/19/37/4317e28c97bb2b6306eb6d4fc24c733fcc27f92f8d63575146a45de6e361/pysimmods-0.9.1.tar.gz
+[2024-04-16 08:53:10] INFO root fetch - processPackages [yaclog]: Downloading https://files.pythonhosted.org/packages/65/e0/b3c3f5b61c320981bca16504300c102505613ca5ba59173f0a672398a288/yaclog-1.1.2.tar.gz
+[2024-04-16 08:53:11] INFO root fetch - processPackages [pysimmods]: executing diffoscope
+[2024-04-16 08:53:11] INFO root fetch - processPackages [pysimmods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysimmods-0.9.0.tar.gz tmp/pysimmods-0.9.1.tar.gz --markdown 20240416/p/pysimmods/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 08:53:11] INFO root fetch - processPackages [iosense-connect]: Downloading https://files.pythonhosted.org/packages/5c/d9/b24a4a596bcda5bc9cbb80d760fff9e6a4be9c396ce37582ab7d502baa17/iosense_connect-4.11.3.tar.gz
+[2024-04-16 08:53:11] INFO root fetch - processPackages [hidiffusion]: Downloading https://files.pythonhosted.org/packages/8b/29/26a94f713ba9e91e4dbfe6f63e7de157297699c0e0435a06e643d572e875/hidiffusion-0.1.2.tar.gz
+[2024-04-16 08:53:11] INFO root fetch - processPackages [yaclog]: Downloading https://files.pythonhosted.org/packages/89/4a/8d8c1f86941365283f4de5b8acd658f29e03a744521b28e51f0257fbdb8b/yaclog-1.2.0.tar.gz
+[2024-04-16 08:53:11] INFO root fetch - processPackages [yaclog]: executing diffoscope
+[2024-04-16 08:53:11] INFO root fetch - processPackages [yaclog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaclog-1.1.2.tar.gz tmp/yaclog-1.2.0.tar.gz --markdown 20240416/y/yaclog/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-16 08:53:11] INFO root fetch - processPackages [iosense-connect]: executing diffoscope
+[2024-04-16 08:53:11] INFO root fetch - processPackages [iosense-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect-4.11.2.tar.gz tmp/iosense_connect-4.11.3.tar.gz --markdown 20240416/i/iosense-connect/4.11.2-4.11.3/README.md --exclude *.pyd
+[2024-04-16 08:53:11] INFO root fetch - processPackages [hidiffusion]: executing diffoscope
+[2024-04-16 08:53:11] INFO root fetch - processPackages [hidiffusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidiffusion-0.1.1.tar.gz tmp/hidiffusion-0.1.2.tar.gz --markdown 20240416/h/hidiffusion/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 08:53:12] INFO root fetch - processPackages [pysimmods]: Remove: archive file [/home/abi/fetcher/tmp/pysimmods-0.9.0.tar.gz]
+[2024-04-16 08:53:12] INFO root fetch - processPackages [pysimmods]: Remove: archive file [/home/abi/fetcher/tmp/pysimmods-0.9.1.tar.gz]
+[2024-04-16 08:53:12] INFO root fetch - main [MainThread]: End processing [pysimmods]: success
+[2024-04-16 08:53:12] INFO root fetch - processPackages [hidiffusion]: Remove: archive file [/home/abi/fetcher/tmp/hidiffusion-0.1.1.tar.gz]
+[2024-04-16 08:53:12] INFO root fetch - processPackages [hidiffusion]: Remove: archive file [/home/abi/fetcher/tmp/hidiffusion-0.1.2.tar.gz]
+[2024-04-16 08:53:12] INFO root fetch - main [MainThread]: End processing [hidiffusion]: success
+[2024-04-16 08:53:12] INFO root fetch - processPackages [yaclog]: Remove: archive file [/home/abi/fetcher/tmp/yaclog-1.1.2.tar.gz]
+[2024-04-16 08:53:12] INFO root fetch - processPackages [yaclog]: Remove: archive file [/home/abi/fetcher/tmp/yaclog-1.2.0.tar.gz]
+[2024-04-16 08:53:12] INFO root fetch - main [MainThread]: End processing [yaclog]: success
+[2024-04-16 08:53:12] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-4.11.2.tar.gz]
+[2024-04-16 08:53:12] INFO root fetch - processPackages [iosense-connect]: Remove: archive file [/home/abi/fetcher/tmp/iosense_connect-4.11.3.tar.gz]
+[2024-04-16 08:53:12] INFO root fetch - main [MainThread]: End processing [iosense-connect]: success
+[2024-04-16 08:53:12] INFO root fetch - main [MainThread]: Store serial: [22783411]
