@@ -15008,3 +15008,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:00:57] INFO root fetch - processPackages [auptitcafe]: Remove: archive file [/home/abi/fetcher/tmp/auptitcafe-0.1.9.tar.gz]
 [2024-04-16 13:00:57] INFO root fetch - main [MainThread]: End processing [auptitcafe]: success
 [2024-04-16 13:00:57] INFO root fetch - main [MainThread]: Store serial: [22786552]
+[2024-04-16 13:03:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786552]
+[2024-04-16 13:03:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 13:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plytonic
+[2024-04-16 13:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rcsb.utils.config
+[2024-04-16 13:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iterdir
+[2024-04-16 13:03:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: webdriver-kaifuku
+[2024-04-16 13:03:06] INFO root fetch - processPackages [iterdir]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 13:03:06] WARNING root fetch - processPackages [plytonic]: Skipping, unable to determine old version
+[2024-04-16 13:03:06] INFO root fetch - main [MainThread]: End processing [plytonic] error
+[2024-04-16 13:03:06] INFO root fetch - processPackages [webdriver-kaifuku]: New version: [24.4.16.0] Old Version: [24.3.25.0]
+[2024-04-16 13:03:06] INFO root fetch - processPackages [rcsb.utils.config]: New version: [0.39] Old Version: [0.38]
+[2024-04-16 13:03:06] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/c8/20/df9682bfb0c651abcfdf4ab1196ea4ececa3986e67c14c692e4920315c07/iterdir-0.0.1.tar.gz
+[2024-04-16 13:03:06] INFO root fetch - processPackages [rcsb.utils.config]: Downloading https://files.pythonhosted.org/packages/8d/8f/d18d2e823a57bf9d3d10ffd23122c76051beab33afc3c322c562c7d37011/rcsb.utils.config-0.38.tar.gz
+[2024-04-16 13:03:06] INFO root fetch - processPackages [webdriver-kaifuku]: Downloading https://files.pythonhosted.org/packages/01/35/cb464037dbc45718bc58a77566ab83f96c1ab919efb8d035f47369eacf1c/webdriver_kaifuku-24.3.25.0.tar.gz
+[2024-04-16 13:03:07] INFO root fetch - processPackages [rcsb.utils.config]: Downloading https://files.pythonhosted.org/packages/b1/77/96bd674099c4ddb5e23367e976fc8a34cc7bee7d82731ce716b46eafb6ff/rcsb_utils_config-0.39.tar.gz
+[2024-04-16 13:03:07] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/bc/88/8f462e4fb6fadcce3523a0058ad4d3e6478f33782b3c05ea879d344707bd/iterdir-0.0.2.tar.gz
+[2024-04-16 13:03:07] INFO root fetch - processPackages [webdriver-kaifuku]: Downloading https://files.pythonhosted.org/packages/96/78/76b7dc882f5c82ccf4c797ce280551aa04ff0b9538ac44fef38efc4ccca0/webdriver_kaifuku-24.4.16.0.tar.gz
+[2024-04-16 13:03:07] INFO root fetch - processPackages [rcsb.utils.config]: executing diffoscope
+[2024-04-16 13:03:07] INFO root fetch - processPackages [rcsb.utils.config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.utils.config-0.38.tar.gz tmp/rcsb_utils_config-0.39.tar.gz --markdown 20240416/r/rcsb.utils.config/0.38-0.39/README.md --exclude *.pyd
+[2024-04-16 13:03:07] INFO root fetch - processPackages [iterdir]: executing diffoscope
+[2024-04-16 13:03:07] INFO root fetch - processPackages [iterdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterdir-0.0.1.tar.gz tmp/iterdir-0.0.2.tar.gz --markdown 20240416/i/iterdir/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 13:03:07] INFO root fetch - processPackages [webdriver-kaifuku]: executing diffoscope
+[2024-04-16 13:03:07] INFO root fetch - processPackages [webdriver-kaifuku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdriver_kaifuku-24.3.25.0.tar.gz tmp/webdriver_kaifuku-24.4.16.0.tar.gz --markdown 20240416/w/webdriver-kaifuku/24.3.25.0-24.4.16.0/README.md --exclude *.pyd
+[2024-04-16 13:03:07] INFO root fetch - processPackages [rcsb.utils.config]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.utils.config-0.38.tar.gz]
+[2024-04-16 13:03:07] INFO root fetch - processPackages [rcsb.utils.config]: Remove: archive file [/home/abi/fetcher/tmp/rcsb_utils_config-0.39.tar.gz]
+[2024-04-16 13:03:07] INFO root fetch - main [MainThread]: End processing [rcsb.utils.config]: success
+[2024-04-16 13:03:07] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.1.tar.gz]
+[2024-04-16 13:03:07] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.2.tar.gz]
+[2024-04-16 13:03:07] INFO root fetch - main [MainThread]: End processing [iterdir]: success
+[2024-04-16 13:03:08] INFO root fetch - processPackages [webdriver-kaifuku]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_kaifuku-24.3.25.0.tar.gz]
+[2024-04-16 13:03:08] INFO root fetch - processPackages [webdriver-kaifuku]: Remove: archive file [/home/abi/fetcher/tmp/webdriver_kaifuku-24.4.16.0.tar.gz]
+[2024-04-16 13:03:08] INFO root fetch - main [MainThread]: End processing [webdriver-kaifuku]: success
+[2024-04-16 13:03:08] INFO root fetch - main [MainThread]: Store serial: [22786565]
