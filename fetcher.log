@@ -9285,3 +9285,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:36:57] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode-gs1]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_input_barcode_gs1-14.0.2.0.1.dev2-py3-none-any.whl.zip]
 [2024-04-16 09:36:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-input-barcode-gs1]: success
 [2024-04-16 09:36:57] INFO root fetch - main [MainThread]: Store serial: [22783818]
+[2024-04-16 09:39:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783818]
+[2024-04-16 09:39:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wxauto
+[2024-04-16 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Jord
+[2024-04-16 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hazwaz
+[2024-04-16 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-location-orderpoint
+[2024-04-16 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: staticjinjaplus
+[2024-04-16 09:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netsome
+[2024-04-16 09:39:07] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: New version: [16.0.2.0.0] Old Version: [16.0.1.1.2]
+[2024-04-16 09:39:07] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/7f/c4/7c557e4ee8cff267eb9758c4d63f3a538a2b89f639c53cecf1516285f32a/odoo_addon_stock_location_orderpoint-16.0.1.1.2-py3-none-any.whl
+[2024-04-16 09:39:07] INFO root fetch - processPackages [staticjinjaplus]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-16 09:39:07] INFO root fetch - processPackages [wxauto]: New version: [3.9.8.15.2] Old Version: [3.9.8.15.1]
+[2024-04-16 09:39:07] INFO root fetch - processPackages [hazwaz]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 09:39:07] INFO root fetch - processPackages [Jord]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-16 09:39:07] INFO root fetch - processPackages [netsome]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-16 09:39:07] INFO root fetch - processPackages [wxauto]: Downloading https://files.pythonhosted.org/packages/37/55/4839ebf0fc4271b784cea33086009a076df1d77b80bea7be6531b22148b9/wxauto-3.9.8.15.1.tar.gz
+[2024-04-16 09:39:07] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/5a/b6/8897e6c45dd4de20ff8f3e2ed326ab11d8c5131ef183e6b601a73346e69d/staticjinjaplus-1.1.1.tar.gz
+[2024-04-16 09:39:07] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/12/79/42696447c233bc6d25df41a0356c0621b381cfae402704900121ac152441/Jord-0.5.0.tar.gz
+[2024-04-16 09:39:07] INFO root fetch - processPackages [hazwaz]: Downloading https://files.pythonhosted.org/packages/c2/97/eae37c9250a704db4265591c4059fd15b80cb26ef94ade45501c683ad309/hazwaz-0.0.2.tar.gz
+[2024-04-16 09:39:07] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/48/d6/c5e6d711848e5c8dce2b7e42e51a4e6b16159a0be48a7f1ecaffdbf55f40/netsome-0.3.1.tar.gz
+[2024-04-16 09:39:07] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/20/21/532cfe950b94cfe165eb579bb9cc382725e1570d9c4eb507c4d0ecda311d/odoo_addon_stock_location_orderpoint-16.0.2.0.0-py3-none-any.whl
+[2024-04-16 09:39:07] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: executing diffoscope
+[2024-04-16 09:39:07] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_location_orderpoint-16.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-stock-location-orderpoint/16.0.1.1.2-16.0.2.0.0/README.md --exclude *.pyd
+[2024-04-16 09:39:07] INFO root fetch - processPackages [staticjinjaplus]: Downloading https://files.pythonhosted.org/packages/7b/d4/4c4d219d196234b2d8e1c099a30e29dd1fb2a1fe36c7379319a602b622e9/staticjinjaplus-1.1.2.tar.gz
+[2024-04-16 09:39:07] INFO root fetch - processPackages [wxauto]: Downloading https://files.pythonhosted.org/packages/13/d8/177dde58f0733ce5b8e1bcb0d3646a8f62cacbf774cacc434ba993c6915d/wxauto-3.9.8.15.2.tar.gz
+[2024-04-16 09:39:08] INFO root fetch - processPackages [netsome]: Downloading https://files.pythonhosted.org/packages/21/35/86e2cc4ca49320d8c33696385f9acd9675bed41a66c1c2433818826e5b6f/netsome-0.3.2.tar.gz
+[2024-04-16 09:39:08] INFO root fetch - processPackages [hazwaz]: Downloading https://files.pythonhosted.org/packages/9c/f0/a7badc8a746f6f759cd3a78a1afc85a4b5be786eeff6c47ca2bf2c4842c7/hazwaz-0.0.3.tar.gz
+[2024-04-16 09:39:08] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/25/79/6959f060fb301e9994a6b045221149467689e6597cf50eb7b09f371e4b9a/jord-0.5.1.tar.gz
+[2024-04-16 09:39:08] INFO root fetch - processPackages [staticjinjaplus]: executing diffoscope
+[2024-04-16 09:39:08] INFO root fetch - processPackages [staticjinjaplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staticjinjaplus-1.1.1.tar.gz tmp/staticjinjaplus-1.1.2.tar.gz --markdown 20240416/s/staticjinjaplus/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-16 09:39:08] INFO root fetch - processPackages [wxauto]: executing diffoscope
+[2024-04-16 09:39:08] INFO root fetch - processPackages [wxauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxauto-3.9.8.15.1.tar.gz tmp/wxauto-3.9.8.15.2.tar.gz --markdown 20240416/w/wxauto/3.9.8.15.1-3.9.8.15.2/README.md --exclude *.pyd
+[2024-04-16 09:39:08] INFO root fetch - processPackages [netsome]: executing diffoscope
+[2024-04-16 09:39:08] INFO root fetch - processPackages [netsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsome-0.3.1.tar.gz tmp/netsome-0.3.2.tar.gz --markdown 20240416/n/netsome/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-16 09:39:08] INFO root fetch - processPackages [hazwaz]: executing diffoscope
+[2024-04-16 09:39:08] INFO root fetch - processPackages [hazwaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazwaz-0.0.2.tar.gz tmp/hazwaz-0.0.3.tar.gz --markdown 20240416/h/hazwaz/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 09:39:08] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2024-04-16 09:39:08] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jord-0.5.0.tar.gz tmp/jord-0.5.1.tar.gz --markdown 20240416/J/Jord/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-16 09:39:08] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.1.tar.gz]
+[2024-04-16 09:39:08] INFO root fetch - processPackages [netsome]: Remove: archive file [/home/abi/fetcher/tmp/netsome-0.3.2.tar.gz]
+[2024-04-16 09:39:08] INFO root fetch - main [MainThread]: End processing [netsome]: success
+[2024-04-16 09:39:09] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-1.1.1.tar.gz]
+[2024-04-16 09:39:09] INFO root fetch - processPackages [staticjinjaplus]: Remove: archive file [/home/abi/fetcher/tmp/staticjinjaplus-1.1.2.tar.gz]
+[2024-04-16 09:39:09] INFO root fetch - main [MainThread]: End processing [staticjinjaplus]: success
+[2024-04-16 09:39:09] INFO root fetch - processPackages [hazwaz]: Remove: archive file [/home/abi/fetcher/tmp/hazwaz-0.0.2.tar.gz]
+[2024-04-16 09:39:09] INFO root fetch - processPackages [hazwaz]: Remove: archive file [/home/abi/fetcher/tmp/hazwaz-0.0.3.tar.gz]
+[2024-04-16 09:39:09] INFO root fetch - main [MainThread]: End processing [hazwaz]: success
+[2024-04-16 09:39:09] INFO root fetch - processPackages [wxauto]: Remove: archive file [/home/abi/fetcher/tmp/wxauto-3.9.8.15.1.tar.gz]
+[2024-04-16 09:39:09] INFO root fetch - processPackages [wxauto]: Remove: archive file [/home/abi/fetcher/tmp/wxauto-3.9.8.15.2.tar.gz]
+[2024-04-16 09:39:09] INFO root fetch - main [MainThread]: End processing [wxauto]: success
+[2024-04-16 09:39:09] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_location_orderpoint-16.0.1.1.2-py3-none-any.whl.zip]
+[2024-04-16 09:39:09] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-16 09:39:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-location-orderpoint]: success
+[2024-04-16 09:39:09] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.5.0.tar.gz]
+[2024-04-16 09:39:09] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.1.tar.gz]
+[2024-04-16 09:39:09] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2024-04-16 09:39:09] INFO root fetch - main [MainThread]: Store serial: [22783835]
