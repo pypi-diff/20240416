@@ -4454,3 +4454,15 @@
 [2024-04-16 04:49:47] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
 [2024-04-16 04:49:47] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
 [2024-04-16 04:49:47] INFO root fetch - main [MainThread]: Store serial: [22781802]
+[2024-04-16 04:51:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781802]
+[2024-04-16 04:51:55] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 04:51:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rcquant-sdk
+[2024-04-16 04:51:56] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 04:51:56] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-16 04:51:56] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-16 04:51:56] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-16 04:51:56] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240416/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 04:51:57] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-16 04:51:57] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-16 04:51:57] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-16 04:51:57] INFO root fetch - main [MainThread]: Store serial: [22781810]
