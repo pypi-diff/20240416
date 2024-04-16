@@ -5667,3 +5667,18 @@
 [2024-04-16 06:07:28] INFO root fetch - processPackages [xy-health-measurement-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xy_health_measurement_sdk-2.0.0rc2.tar.gz]
 [2024-04-16 06:07:28] INFO root fetch - main [MainThread]: End processing [xy-health-measurement-sdk]: success
 [2024-04-16 06:07:28] INFO root fetch - main [MainThread]: Store serial: [22782364]
+[2024-04-16 06:09:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782364]
+[2024-04-16 06:09:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 06:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remindmail
+[2024-04-16 06:09:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: medicafe
+[2024-04-16 06:09:37] INFO root fetch - processPackages [remindmail]: New version: [2024.4.15.1] Old Version: [2024.4.14.3]
+[2024-04-16 06:09:37] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/6d/c0/f452f62c558020f02f778be2cc3be0f6240543a4d485db107c4d2c66f2de/remindmail-2024.4.14.3.tar.gz
+[2024-04-16 06:09:37] WARNING root fetch - processPackages [medicafe]: Skipping, unable to determine old version
+[2024-04-16 06:09:37] INFO root fetch - main [MainThread]: End processing [medicafe] error
+[2024-04-16 06:09:37] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/e2/03/6c9eb65fe2422c1ccb3999552be1d81f937b43a8821b8b18a0fa1ad83ef8/remindmail-2024.4.15.1.tar.gz
+[2024-04-16 06:09:37] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2024-04-16 06:09:37] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2024.4.14.3.tar.gz tmp/remindmail-2024.4.15.1.tar.gz --markdown 20240416/r/remindmail/2024.4.14.3-2024.4.15.1/README.md --exclude *.pyd
+[2024-04-16 06:09:38] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.14.3.tar.gz]
+[2024-04-16 06:09:38] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.15.1.tar.gz]
+[2024-04-16 06:09:38] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2024-04-16 06:09:38] INFO root fetch - main [MainThread]: Store serial: [22782374]
