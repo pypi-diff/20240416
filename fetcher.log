@@ -16954,3 +16954,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:23:05] INFO root fetch - processPackages [zohocrmsdk6-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk6_0-3.0.0.tar.gz]
 [2024-04-16 14:23:05] INFO root fetch - main [MainThread]: End processing [zohocrmsdk6-0]: success
 [2024-04-16 14:23:05] INFO root fetch - main [MainThread]: Store serial: [22787374]
+[2024-04-16 14:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787374]
+[2024-04-16 14:25:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lunaticoastro-dragonfly-controller
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-seleniumlibrary
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvmmlst
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docsCheck
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-airflow-providers-cncf-kubernetes
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apache-airflow-providers-databricks
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apache-airflow-providers-fab
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mrpautofaiss
+[2024-04-16 14:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sysrev
+[2024-04-16 14:25:14] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-16 14:25:14] INFO root fetch - processPackages [sysrev]: New version: [1.3.1] Old Version: [1.2.4]
+[2024-04-16 14:25:14] INFO root fetch - processPackages [robotframework-seleniumlibrary]: New version: [6.3.0rc1] Old Version: [6.2.0rc1]
+[2024-04-16 14:25:14] INFO root fetch - processPackages [cvmmlst]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-16 14:25:14] INFO root fetch - processPackages [docsCheck]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 14:25:14] INFO root fetch - processPackages [apache-airflow-providers-databricks]: New version: [6.3.0rc3] Old Version: [6.3.0rc2]
+[2024-04-16 14:25:14] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/e1/c4/18a5f31b0e1c887995b1fde8f9658ff0bea7d991c3f345d7b220b64df356/lunaticoastro_dragonfly_controller-0.6.0.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240416.9.8.426175] Old Version: [20240416.9.33.376136]
+[2024-04-16 14:25:14] WARNING root fetch - processPackages [mrpautofaiss]: Skipping, unable to determine old version
+[2024-04-16 14:25:14] INFO root fetch - processPackages [apache-airflow-providers-fab]: New version: [1.0.4rc1] Old Version: [1.0.3rc1]
+[2024-04-16 14:25:14] INFO root fetch - main [MainThread]: End processing [mrpautofaiss] error
+[2024-04-16 14:25:14] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/2f/a6/b59a59e6e16925b4c2301111d20a8a84ecb95933089bc7488710a090f727/sysrev-1.2.4.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: New version: [8.1.1rc1] Old Version: [8.1.0rc1]
+[2024-04-16 14:25:14] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/3f/66/00dd720e20fedb499ce6db1609f200a48d0b6b986860a391dc09709b3d37/robotframework-seleniumlibrary-6.2.0rc1.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [cvmmlst]: Downloading https://files.pythonhosted.org/packages/95/e2/d818ae2ffd91458c5e4eb4a3d40a498c8194ce1899b4125022555e6ab2a0/cvmmlst-0.3.0.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [docsCheck]: Downloading https://files.pythonhosted.org/packages/10/a3/d8a509fb99b66c30f9a6b985d1e4e1f02245e50e9886c0253716157f0bac/docscheck-0.1.0.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/02/f5/59d81d7b4a72114ce1ff0d496fdff280286614d26b365247ff8f25a9fd2b/certora-cli-alpha-master-20240416.9.33.376136.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/da/bd/5fa16fcb242ea79366d9a358f12be8b9eb26a3b590be246d74bedf2ba0e0/apache_airflow_providers_cncf_kubernetes-8.1.0rc1.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Downloading https://files.pythonhosted.org/packages/f4/41/11c05401f6612be8516eedc49bab3e94d36919ee2b0bf8ef3d4f8ac93911/apache_airflow_providers_databricks-6.3.0rc2.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [apache-airflow-providers-fab]: Downloading https://files.pythonhosted.org/packages/a0/fa/8f26f3515befa37dfa36f53cfeec9d6292f338f43bd436ace84ff3daa0d1/apache_airflow_providers_fab-1.0.3rc1.tar.gz
+[2024-04-16 14:25:14] WARNING root fetch - processPackages [cvmmlst]: Skipping package: exceeds size limit 15099668>=10485760
+[2024-04-16 14:25:14] INFO root fetch - main [MainThread]: End processing [cvmmlst] error
+[2024-04-16 14:25:14] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14521391>=10485760
+[2024-04-16 14:25:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-16 14:25:14] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/a2/07/619b62429389ec55aff191e1bdb61af2fdd8786b5cdafbbbcf5354c0eefc/lunaticoastro_dragonfly_controller-0.7.0.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/8a/cb/c8212fde0a47683551eb2ce1aa3435fa88c33c54fcf455ae87b509cebd7b/sysrev-1.3.1.tar.gz
+[2024-04-16 14:25:14] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/c4/15/851dd21a840fd1e8f902ded014174ef10bf9b693ee56563921f8bf904f54/robotframework-seleniumlibrary-6.3.0rc1.tar.gz
+[2024-04-16 14:25:15] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: executing diffoscope
+[2024-04-16 14:25:15] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunaticoastro_dragonfly_controller-0.6.0.tar.gz tmp/lunaticoastro_dragonfly_controller-0.7.0.tar.gz --markdown 20240416/l/lunaticoastro-dragonfly-controller/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-16 14:25:15] INFO root fetch - processPackages [docsCheck]: Downloading https://files.pythonhosted.org/packages/f4/44/e09147ff797f0c1c7ac0a4655ce5b58e9cc04fc353c0e4f1f035f624e8e3/docscheck-0.1.1.tar.gz
+[2024-04-16 14:25:15] INFO root fetch - processPackages [robotframework-seleniumlibrary]: executing diffoscope
+[2024-04-16 14:25:15] INFO root fetch - processPackages [robotframework-seleniumlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-seleniumlibrary-6.2.0rc1.tar.gz tmp/robotframework-seleniumlibrary-6.3.0rc1.tar.gz --markdown 20240416/r/robotframework-seleniumlibrary/6.2.0rc1-6.3.0rc1/README.md --exclude *.pyd
+[2024-04-16 14:25:15] INFO root fetch - processPackages [sysrev]: executing diffoscope
+[2024-04-16 14:25:15] INFO root fetch - processPackages [sysrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysrev-1.2.4.tar.gz tmp/sysrev-1.3.1.tar.gz --markdown 20240416/s/sysrev/1.2.4-1.3.1/README.md --exclude *.pyd
+[2024-04-16 14:25:15] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Downloading https://files.pythonhosted.org/packages/09/b2/a4843006fe03726e603d2c8a367aac4ec71c09da6f96ec7afb68849919ce/apache_airflow_providers_databricks-6.3.0rc3.tar.gz
+[2024-04-16 14:25:15] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Downloading https://files.pythonhosted.org/packages/e5/6a/3be1c119fe79159872e9a72fc9e029f6752981d93e9aae1cc54dc1ab3179/apache_airflow_providers_cncf_kubernetes-8.1.1rc1.tar.gz
+[2024-04-16 14:25:15] INFO root fetch - processPackages [apache-airflow-providers-fab]: Downloading https://files.pythonhosted.org/packages/c5/58/87f4ad021704b9d472c4dd33f52dd642f68bfe75504129f2959397f70792/apache_airflow_providers_fab-1.0.4rc1.tar.gz
+[2024-04-16 14:25:15] INFO root fetch - processPackages [docsCheck]: executing diffoscope
+[2024-04-16 14:25:15] INFO root fetch - processPackages [docsCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docscheck-0.1.0.tar.gz tmp/docscheck-0.1.1.tar.gz --markdown 20240416/d/docsCheck/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 14:25:15] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: executing diffoscope
+[2024-04-16 14:25:15] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_cncf_kubernetes-8.1.0rc1.tar.gz tmp/apache_airflow_providers_cncf_kubernetes-8.1.1rc1.tar.gz --markdown 20240416/a/apache-airflow-providers-cncf-kubernetes/8.1.0rc1-8.1.1rc1/README.md --exclude *.pyd
+[2024-04-16 14:25:15] INFO root fetch - processPackages [apache-airflow-providers-databricks]: executing diffoscope
+[2024-04-16 14:25:15] INFO root fetch - processPackages [apache-airflow-providers-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_databricks-6.3.0rc2.tar.gz tmp/apache_airflow_providers_databricks-6.3.0rc3.tar.gz --markdown 20240416/a/apache-airflow-providers-databricks/6.3.0rc2-6.3.0rc3/README.md --exclude *.pyd
+[2024-04-16 14:25:15] INFO root fetch - processPackages [apache-airflow-providers-fab]: executing diffoscope
+[2024-04-16 14:25:15] INFO root fetch - processPackages [apache-airflow-providers-fab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_fab-1.0.3rc1.tar.gz tmp/apache_airflow_providers_fab-1.0.4rc1.tar.gz --markdown 20240416/a/apache-airflow-providers-fab/1.0.3rc1-1.0.4rc1/README.md --exclude *.pyd
+[2024-04-16 14:25:15] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.6.0.tar.gz]
+[2024-04-16 14:25:15] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.7.0.tar.gz]
+[2024-04-16 14:25:15] INFO root fetch - main [MainThread]: End processing [lunaticoastro-dragonfly-controller]: success
+[2024-04-16 14:25:15] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.2.4.tar.gz]
+[2024-04-16 14:25:15] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.3.1.tar.gz]
+[2024-04-16 14:25:15] INFO root fetch - main [MainThread]: End processing [sysrev]: success
+[2024-04-16 14:25:16] INFO root fetch - processPackages [docsCheck]: Remove: archive file [/home/abi/fetcher/tmp/docscheck-0.1.0.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - processPackages [docsCheck]: Remove: archive file [/home/abi/fetcher/tmp/docscheck-0.1.1.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - main [MainThread]: End processing [docsCheck]: success
+[2024-04-16 14:25:16] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-seleniumlibrary-6.2.0rc1.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-seleniumlibrary-6.3.0rc1.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - main [MainThread]: End processing [robotframework-seleniumlibrary]: success
+[2024-04-16 14:25:16] INFO root fetch - processPackages [apache-airflow-providers-fab]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_fab-1.0.3rc1.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - processPackages [apache-airflow-providers-fab]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_fab-1.0.4rc1.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-fab]: success
+[2024-04-16 14:25:16] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_cncf_kubernetes-8.1.0rc1.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - processPackages [apache-airflow-providers-cncf-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_cncf_kubernetes-8.1.1rc1.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-cncf-kubernetes]: success
+[2024-04-16 14:25:16] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_databricks-6.3.0rc2.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - processPackages [apache-airflow-providers-databricks]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_databricks-6.3.0rc3.tar.gz]
+[2024-04-16 14:25:16] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-databricks]: success
+[2024-04-16 14:25:16] INFO root fetch - main [MainThread]: Store serial: [22787404]
