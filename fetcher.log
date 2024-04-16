@@ -15189,3 +15189,70 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:11:52] INFO root fetch - processPackages [openunmix]: Remove: archive file [/home/abi/fetcher/tmp/openunmix-1.3.0.tar.gz]
 [2024-04-16 13:11:52] INFO root fetch - main [MainThread]: End processing [openunmix]: success
 [2024-04-16 13:11:52] INFO root fetch - main [MainThread]: Store serial: [22786645]
+[2024-04-16 13:13:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786645]
+[2024-04-16 13:14:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulpo-dev
+[2024-04-16 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: setech
+[2024-04-16 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2024-04-16 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-cpp
+[2024-04-16 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slurpit_nautobot
+[2024-04-16 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: haruka-parser
+[2024-04-16 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelscope-agent
+[2024-04-16 13:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: baseapp-reactions
+[2024-04-16 13:14:01] INFO root fetch - processPackages [haruka-parser]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-04-16 13:14:01] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-16 13:14:01] INFO root fetch - processPackages [slurpit_nautobot]: New version: [0.8.74] Old Version: [0.8.73]
+[2024-04-16 13:14:01] INFO root fetch - processPackages [haruka-parser]: Downloading https://files.pythonhosted.org/packages/1c/21/b62cddb349a000eef051226bb14486f6a68363c615be3b8052a4c199cd54/haruka_parser-0.4.9.tar.gz
+[2024-04-16 13:14:01] INFO root fetch - processPackages [baseapp-reactions]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-16 13:14:01] INFO root fetch - processPackages [pulpo-dev]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 13:14:01] INFO root fetch - processPackages [setech]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-16 13:14:01] INFO root fetch - processPackages [modelscope-agent]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-16 13:14:01] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/26/3c/fde8535a489e59cc01b0fd6959630d4e35434f9d2d0108bb9447a45f99a5/bigdl_core_cpp-2.5.0b20240414-py3-none-win_amd64.whl
+[2024-04-16 13:14:01] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/4c/ed/4e80cd70057c49a1dd701d35586efe71de555f6be6238fd87ce00dc59be2/slurpit_nautobot-0.8.73.tar.gz
+[2024-04-16 13:14:01] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 54466752>=10485760
+[2024-04-16 13:14:01] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-16 13:14:01] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-16 13:14:01] INFO root fetch - processPackages [baseapp-reactions]: Downloading https://files.pythonhosted.org/packages/92/df/c43ade8fb9ae9cc335e246b4334bb6db74a383423dd23cf5bb99460f1471/baseapp-reactions-0.1.6.tar.gz
+[2024-04-16 13:14:01] INFO root fetch - processPackages [pulpo-dev]: Downloading https://files.pythonhosted.org/packages/26/f0/2a6035042f8f1388999e4dd729fceb195091876dea6990c6f9900ed46015/pulpo-dev-0.0.2.tar.gz
+[2024-04-16 13:14:01] INFO root fetch - processPackages [modelscope-agent]: Downloading https://files.pythonhosted.org/packages/4b/ab/3ba8b28d08876125bf43d4a972241b79828b5b14289464b1d6c3911e2e02/modelscope-agent-0.4.0.tar.gz
+[2024-04-16 13:14:01] INFO root fetch - processPackages [haruka-parser]: Downloading https://files.pythonhosted.org/packages/a5/1f/a87bb707222e1dc23c1e7ffbcac09d1591033f4a9965262f4f15cfc5e87d/haruka_parser-0.5.0.tar.gz
+[2024-04-16 13:14:01] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/66/8b/5e86f242dea0c691739a37a6c1cbacd8694b397aa837d4bb3dc2ed79e913/setech-1.2.0.tar.gz
+[2024-04-16 13:14:01] WARNING root fetch - processPackages [modelscope-agent]: Skipping package: exceeds size limit 23350912>=10485760
+[2024-04-16 13:14:01] INFO root fetch - main [MainThread]: End processing [modelscope-agent] error
+[2024-04-16 13:14:01] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-16 13:14:01] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/91/09/03876e079bc86d7180849a48b72ee6b69250cbb90a39451c1cb29cae28e7/slurpit_nautobot-0.8.74.tar.gz
+[2024-04-16 13:14:02] INFO root fetch - processPackages [baseapp-reactions]: Downloading https://files.pythonhosted.org/packages/27/d3/1467441815b912c2cc1290ef01ee981003ad81be719c044a0f4540f6fe19/baseapp-reactions-0.2.0.tar.gz
+[2024-04-16 13:14:02] INFO root fetch - processPackages [setech]: Downloading https://files.pythonhosted.org/packages/72/56/cf4d991e55b0add8d7d124bd0a3b6b4088c86ea92928ff7b9982d6c22768/setech-1.2.1.tar.gz
+[2024-04-16 13:14:02] INFO root fetch - processPackages [slurpit_nautobot]: executing diffoscope
+[2024-04-16 13:14:02] INFO root fetch - processPackages [slurpit_nautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_nautobot-0.8.73.tar.gz tmp/slurpit_nautobot-0.8.74.tar.gz --markdown 20240416/s/slurpit_nautobot/0.8.73-0.8.74/README.md --exclude *.pyd
+[2024-04-16 13:14:02] INFO root fetch - processPackages [pulpo-dev]: Downloading https://files.pythonhosted.org/packages/a9/bd/221def34d29758028358ed2995abbe8457edba92acd510bcea5a3c3beb96/pulpo-dev-0.0.3.tar.gz
+[2024-04-16 13:14:02] INFO root fetch - processPackages [setech]: executing diffoscope
+[2024-04-16 13:14:02] INFO root fetch - processPackages [setech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setech-1.2.0.tar.gz tmp/setech-1.2.1.tar.gz --markdown 20240416/s/setech/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-16 13:14:02] INFO root fetch - processPackages [baseapp-reactions]: executing diffoscope
+[2024-04-16 13:14:02] INFO root fetch - processPackages [baseapp-reactions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseapp-reactions-0.1.6.tar.gz tmp/baseapp-reactions-0.2.0.tar.gz --markdown 20240416/b/baseapp-reactions/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-04-16 13:14:02] INFO root fetch - processPackages [pulpo-dev]: executing diffoscope
+[2024-04-16 13:14:02] INFO root fetch - processPackages [pulpo-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpo-dev-0.0.2.tar.gz tmp/pulpo-dev-0.0.3.tar.gz --markdown 20240416/p/pulpo-dev/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 13:14:02] INFO root fetch - processPackages [haruka-parser]: executing diffoscope
+[2024-04-16 13:14:02] INFO root fetch - processPackages [haruka-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haruka_parser-0.4.9.tar.gz tmp/haruka_parser-0.5.0.tar.gz --markdown 20240416/h/haruka-parser/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-04-16 13:14:02] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-16 13:14:02] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-16 13:14:02] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240416/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-16 13:14:03] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.2.0.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - processPackages [setech]: Remove: archive file [/home/abi/fetcher/tmp/setech-1.2.1.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - main [MainThread]: End processing [setech]: success
+[2024-04-16 13:14:03] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.73.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.74.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - main [MainThread]: End processing [slurpit_nautobot]: success
+[2024-04-16 13:14:03] INFO root fetch - processPackages [baseapp-reactions]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-reactions-0.1.6.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - processPackages [baseapp-reactions]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-reactions-0.2.0.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - main [MainThread]: End processing [baseapp-reactions]: success
+[2024-04-16 13:14:03] INFO root fetch - processPackages [pulpo-dev]: Remove: archive file [/home/abi/fetcher/tmp/pulpo-dev-0.0.2.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - processPackages [pulpo-dev]: Remove: archive file [/home/abi/fetcher/tmp/pulpo-dev-0.0.3.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - main [MainThread]: End processing [pulpo-dev]: success
+[2024-04-16 13:14:03] INFO root fetch - processPackages [haruka-parser]: Remove: archive file [/home/abi/fetcher/tmp/haruka_parser-0.4.9.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - processPackages [haruka-parser]: Remove: archive file [/home/abi/fetcher/tmp/haruka_parser-0.5.0.tar.gz]
+[2024-04-16 13:14:03] INFO root fetch - main [MainThread]: End processing [haruka-parser]: success
+[2024-04-16 13:14:04] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-16 13:14:04] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-16 13:14:04] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-16 13:14:04] INFO root fetch - main [MainThread]: Store serial: [22786668]
