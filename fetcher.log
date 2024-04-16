@@ -1986,3 +1986,24 @@
 [2024-04-16 02:01:44] INFO root fetch - processPackages [trame-components]: Remove: archive file [/home/abi/fetcher/tmp/trame-components-2.3.0.tar.gz]
 [2024-04-16 02:01:44] INFO root fetch - main [MainThread]: End processing [trame-components]: success
 [2024-04-16 02:01:44] INFO root fetch - main [MainThread]: Store serial: [22780573]
+[2024-04-16 02:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780573]
+[2024-04-16 02:03:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 02:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-deployment
+[2024-04-16 02:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scludam
+[2024-04-16 02:03:52] INFO root fetch - processPackages [sphinx-deployment]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 02:03:52] INFO root fetch - processPackages [sphinx-deployment]: Downloading https://files.pythonhosted.org/packages/12/83/9f4dc763926f91cf7add9d058e1518fc4dc16c973f7f3f70a6fe7e92940b/sphinx-deployment-0.0.8.tar.gz
+[2024-04-16 02:03:52] INFO root fetch - processPackages [scludam]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-16 02:03:52] INFO root fetch - processPackages [scludam]: Downloading https://files.pythonhosted.org/packages/9c/18/4b98852550c2d4965b48883fcf5ed89803d894b944a13ed7b914d01309b8/scludam-1.0.5-py3-none-any.whl
+[2024-04-16 02:03:52] INFO root fetch - processPackages [sphinx-deployment]: Downloading https://files.pythonhosted.org/packages/40/bb/fafac3d74a06527ce2251806cc3dd286da63ba64282466869f14a02a5de5/sphinx-deployment-0.0.9.tar.gz
+[2024-04-16 02:03:53] INFO root fetch - processPackages [sphinx-deployment]: executing diffoscope
+[2024-04-16 02:03:53] INFO root fetch - processPackages [sphinx-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-deployment-0.0.8.tar.gz tmp/sphinx-deployment-0.0.9.tar.gz --markdown 20240416/s/sphinx-deployment/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 02:03:53] INFO root fetch - processPackages [scludam]: Downloading https://files.pythonhosted.org/packages/7f/58/4abf32e8e4e2ea86d6709953cc20d2a3af3440f60cd01c6640a044b44318/scludam-1.0.6-py3-none-any.whl
+[2024-04-16 02:03:53] INFO root fetch - processPackages [scludam]: executing diffoscope
+[2024-04-16 02:03:53] INFO root fetch - processPackages [scludam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scludam-1.0.5-py3-none-any.whl.zip tmp/scludam-1.0.6-py3-none-any.whl.zip --markdown 20240416/s/scludam/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-16 02:03:53] INFO root fetch - processPackages [sphinx-deployment]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-deployment-0.0.8.tar.gz]
+[2024-04-16 02:03:53] INFO root fetch - processPackages [sphinx-deployment]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-deployment-0.0.9.tar.gz]
+[2024-04-16 02:03:53] INFO root fetch - main [MainThread]: End processing [sphinx-deployment]: success
+[2024-04-16 02:03:54] INFO root fetch - processPackages [scludam]: Remove: archive file [/home/abi/fetcher/tmp/scludam-1.0.5-py3-none-any.whl.zip]
+[2024-04-16 02:03:54] INFO root fetch - processPackages [scludam]: Remove: archive file [/home/abi/fetcher/tmp/scludam-1.0.6-py3-none-any.whl.zip]
+[2024-04-16 02:03:54] INFO root fetch - main [MainThread]: End processing [scludam]: success
+[2024-04-16 02:03:54] INFO root fetch - main [MainThread]: Store serial: [22780578]
