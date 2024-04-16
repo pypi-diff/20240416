@@ -11149,3 +11149,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 10:32:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416060436.tar.gz]
 [2024-04-16 10:32:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-16 10:32:59] INFO root fetch - main [MainThread]: Store serial: [22784622]
+[2024-04-16 10:35:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784622]
+[2024-04-16 10:35:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 10:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isagog-ai
+[2024-04-16 10:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-rest-log
+[2024-04-16 10:35:09] INFO root fetch - processPackages [odoo14-addon-rest-log]: New version: [14.0.1.4.0] Old Version: [14.0.1.3.1.dev1]
+[2024-04-16 10:35:09] INFO root fetch - processPackages [isagog-ai]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-16 10:35:09] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/1f/dc/c4eeda9f0f0c6f381ad8d976802d5622f3e34f334ee2b57653ef54f92efc/isagog_ai-0.8.3.tar.gz
+[2024-04-16 10:35:09] INFO root fetch - processPackages [odoo14-addon-rest-log]: Downloading https://files.pythonhosted.org/packages/07/cb/4ed25a52da0a6afa4927eda80b389ae4e7186f71c23586e86204a5a79651/odoo14_addon_rest_log-14.0.1.3.1.dev1-py3-none-any.whl
+[2024-04-16 10:35:09] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/4e/58/ba08e38cbca3d7e14f010533845b652f30777c782eb7847fdf066cb2f258/isagog_ai-0.8.4.tar.gz
+[2024-04-16 10:35:09] INFO root fetch - processPackages [odoo14-addon-rest-log]: Downloading https://files.pythonhosted.org/packages/2e/bf/c244cc3bfe11fed18e802e4eaf9ce720c63068e826985ad4f0551ce7d459/odoo14_addon_rest_log-14.0.1.4.0-py3-none-any.whl
+[2024-04-16 10:35:09] INFO root fetch - processPackages [isagog-ai]: executing diffoscope
+[2024-04-16 10:35:09] INFO root fetch - processPackages [isagog-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isagog_ai-0.8.3.tar.gz tmp/isagog_ai-0.8.4.tar.gz --markdown 20240416/i/isagog-ai/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-16 10:35:09] INFO root fetch - processPackages [odoo14-addon-rest-log]: executing diffoscope
+[2024-04-16 10:35:09] INFO root fetch - processPackages [odoo14-addon-rest-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rest_log-14.0.1.3.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_rest_log-14.0.1.4.0-py3-none-any.whl.zip --markdown 20240416/o/odoo14-addon-rest-log/14.0.1.3.1.dev1-14.0.1.4.0/README.md --exclude *.pyd
+[2024-04-16 10:35:10] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.3.tar.gz]
+[2024-04-16 10:35:10] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.4.tar.gz]
+[2024-04-16 10:35:10] INFO root fetch - main [MainThread]: End processing [isagog-ai]: success
+[2024-04-16 10:35:10] INFO root fetch - processPackages [odoo14-addon-rest-log]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rest_log-14.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2024-04-16 10:35:10] INFO root fetch - processPackages [odoo14-addon-rest-log]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rest_log-14.0.1.4.0-py3-none-any.whl.zip]
+[2024-04-16 10:35:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rest-log]: success
+[2024-04-16 10:35:10] INFO root fetch - main [MainThread]: Store serial: [22784627]
