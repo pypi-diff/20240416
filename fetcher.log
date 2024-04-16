@@ -23094,3 +23094,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:29:33] INFO root fetch - processPackages [saspy]: Remove: archive file [/home/abi/fetcher/tmp/saspy-5.9.0.tar.gz]
 [2024-04-16 17:29:33] INFO root fetch - main [MainThread]: End processing [saspy]: success
 [2024-04-16 17:29:33] INFO root fetch - main [MainThread]: Store serial: [22789885]
+[2024-04-16 17:31:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789885]
+[2024-04-16 17:31:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shinyswatch
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyguiadapter
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-identity-sdk
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raga-llm-eval
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-renamer
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rov-sent-api
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: euclidlib
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bioimageio.spec
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: h5analysis
+[2024-04-16 17:31:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bbb-dl
+[2024-04-16 17:31:44] INFO root fetch - processPackages [shinyswatch]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [rov-sent-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [h5analysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b2] Old Version: [2.1.0b1]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [shinyswatch]: Downloading https://files.pythonhosted.org/packages/da/09/5cac3dc4fe69a34fe44ce50debb9d95d5a606b5a343dbea43d4028eaba70/shinyswatch-0.5.1.tar.gz
+[2024-04-16 17:31:44] INFO root fetch - processPackages [euclidlib]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [python-renamer]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [rov-sent-api]: Downloading https://files.pythonhosted.org/packages/8c/0c/62dbf30f97c19a8a09fccabed8521efa480b6ab3c986806bdef8e89f88bc/rov_sent_api-0.1.8.tar.gz
+[2024-04-16 17:31:44] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/7f/06/223f03a9b5227e2cabcdf1f98cc947fba9598187d96356c06382b85286c8/h5analysis-0.0.8.tar.gz
+[2024-04-16 17:31:44] INFO root fetch - processPackages [bbb-dl]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/be/5e/d7ed3c7234e0e1fc09c02c368e01af4201366f56970772534181c87a3aa3/raga_llm_eval-2.1.0b1.tar.gz
+[2024-04-16 17:31:44] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/bb/9b/e275e68765395b04765ac0328bcd2acc7a1f577193cb30f5a0777c2641f5/finbourne_identity_sdk-2.1.5.tar.gz
+[2024-04-16 17:31:44] INFO root fetch - processPackages [bioimageio.spec]: New version: [0.5.2] Old Version: [0.5.1.post1]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [pyguiadapter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 17:31:44] INFO root fetch - processPackages [euclidlib]: Downloading https://files.pythonhosted.org/packages/60/d6/5fd3c29e54368273f43c298aa328ddbcefe0a51d9e025b9b6b5165e2b6a6/euclidlib-0.0.4.tar.gz
+[2024-04-16 17:31:44] INFO root fetch - processPackages [python-renamer]: Downloading https://files.pythonhosted.org/packages/56/63/cc0550a0e597bd5e20f41b1866303d7c1dd6b6e15ac116610da961dfd357/python_renamer-0.0.0.tar.gz
+[2024-04-16 17:31:44] INFO root fetch - processPackages [bbb-dl]: Downloading https://files.pythonhosted.org/packages/f2/89/f2d8618b61cbac35cf5b6de4621137814497d7adc1c0e8244e8f31b32c09/bbb-dl-1.0.8.tar.gz
+[2024-04-16 17:31:44] INFO root fetch - processPackages [rov-sent-api]: Downloading https://files.pythonhosted.org/packages/5f/7f/9a3c7b196ff72985a4dc11bd1a847f729f3d7a6347011b2c869584fa2758/rov_sent_api-0.1.9.tar.gz
+[2024-04-16 17:31:44] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/87/86/17cc06879d035e5f154ecad9530c7c01df2439dd1eb54378379f99ee122f/h5analysis-0.0.9.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [bioimageio.spec]: Downloading https://files.pythonhosted.org/packages/3b/19/50b708038164f6a30ed9ed7cf4679fcc1e30cb2e9e5a6470c80eded8a413/bioimageio.spec-0.5.1.post1.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [shinyswatch]: Downloading https://files.pythonhosted.org/packages/45/2d/a6e1c1135882b086cbec86c16bbf2f11ad4241c237462759e7246d25197d/shinyswatch-0.6.0.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/63/70/e1d55956ecbc1c69b82b6b56ac1401fd0767a68b6719791fbc02a0c7f16e/pyguiadapter-0.2.8.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/d5/21/2b8e28764308f30d249b41b7b9608787176c7e480bdde0b65d5f945dd7f1/raga_llm_eval-2.1.0b2.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/36/a8/6df0d1eccb540be77d01c73323e0d9186e87451aa33ef5aadbd8236a7d92/finbourne_identity_sdk-2.1.6.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [rov-sent-api]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [rov-sent-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rov_sent_api-0.1.8.tar.gz tmp/rov_sent_api-0.1.9.tar.gz --markdown 20240416/r/rov-sent-api/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [h5analysis]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [h5analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5analysis-0.0.8.tar.gz tmp/h5analysis-0.0.9.tar.gz --markdown 20240416/h/h5analysis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [euclidlib]: Downloading https://files.pythonhosted.org/packages/a4/91/a142d4ed4c658c2ff39177f71efb04c4b23caf0a21185d64cc42443f80c8/euclidlib-0.0.5.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [python-renamer]: Downloading https://files.pythonhosted.org/packages/2e/89/3be76ef66eda06e958267f26301e3519b65eac4d549f67e188888a029f4f/python_renamer-0.0.1.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.5.tar.gz tmp/finbourne_identity_sdk-2.1.6.tar.gz --markdown 20240416/f/finbourne-identity-sdk/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga_llm_eval-2.1.0b1.tar.gz tmp/raga_llm_eval-2.1.0b2.tar.gz --markdown 20240416/r/raga-llm-eval/2.1.0b1-2.1.0b2/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [shinyswatch]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [shinyswatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinyswatch-0.5.1.tar.gz tmp/shinyswatch-0.6.0.tar.gz --markdown 20240416/s/shinyswatch/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [bbb-dl]: Downloading https://files.pythonhosted.org/packages/ad/1b/421d4d54aa306dc05377bb0d67a2c444254bd9e0f4e23685e8250341ddd6/bbb-dl-1.0.9.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [bioimageio.spec]: Downloading https://files.pythonhosted.org/packages/76/1b/18af60f840a750057a9bb138ac109f61fa98056d0841d35f07ddf5be5d74/bioimageio.spec-0.5.2.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/70/0c/139e08664e09a36f6be946b9da6bbd901fb3f580d61247274ec28cc5b2e9/pyguiadapter-0.2.9.tar.gz
+[2024-04-16 17:31:45] INFO root fetch - processPackages [euclidlib]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [euclidlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euclidlib-0.0.4.tar.gz tmp/euclidlib-0.0.5.tar.gz --markdown 20240416/e/euclidlib/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [python-renamer]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [python-renamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_renamer-0.0.0.tar.gz tmp/python_renamer-0.0.1.tar.gz --markdown 20240416/p/python-renamer/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [bbb-dl]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [bbb-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbb-dl-1.0.8.tar.gz tmp/bbb-dl-1.0.9.tar.gz --markdown 20240416/b/bbb-dl/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.2.8.tar.gz tmp/pyguiadapter-0.2.9.tar.gz --markdown 20240416/p/pyguiadapter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [bioimageio.spec]: executing diffoscope
+[2024-04-16 17:31:45] INFO root fetch - processPackages [bioimageio.spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio.spec-0.5.1.post1.tar.gz tmp/bioimageio.spec-0.5.2.tar.gz --markdown 20240416/b/bioimageio.spec/0.5.1.post1-0.5.2/README.md --exclude *.pyd
+[2024-04-16 17:31:45] INFO root fetch - processPackages [rov-sent-api]: Remove: archive file [/home/abi/fetcher/tmp/rov_sent_api-0.1.8.tar.gz]
+[2024-04-16 17:31:45] INFO root fetch - processPackages [rov-sent-api]: Remove: archive file [/home/abi/fetcher/tmp/rov_sent_api-0.1.9.tar.gz]
+[2024-04-16 17:31:45] INFO root fetch - main [MainThread]: End processing [rov-sent-api]: success
+[2024-04-16 17:31:46] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.8.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.9.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - main [MainThread]: End processing [h5analysis]: success
+[2024-04-16 17:31:46] INFO root fetch - processPackages [euclidlib]: Remove: archive file [/home/abi/fetcher/tmp/euclidlib-0.0.4.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - processPackages [euclidlib]: Remove: archive file [/home/abi/fetcher/tmp/euclidlib-0.0.5.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - main [MainThread]: End processing [euclidlib]: success
+[2024-04-16 17:31:46] INFO root fetch - processPackages [python-renamer]: Remove: archive file [/home/abi/fetcher/tmp/python_renamer-0.0.0.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - processPackages [python-renamer]: Remove: archive file [/home/abi/fetcher/tmp/python_renamer-0.0.1.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - main [MainThread]: End processing [python-renamer]: success
+[2024-04-16 17:31:46] INFO root fetch - processPackages [bbb-dl]: Remove: archive file [/home/abi/fetcher/tmp/bbb-dl-1.0.8.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - processPackages [bbb-dl]: Remove: archive file [/home/abi/fetcher/tmp/bbb-dl-1.0.9.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - main [MainThread]: End processing [bbb-dl]: success
+[2024-04-16 17:31:46] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.5.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.6.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-16 17:31:46] INFO root fetch - processPackages [bioimageio.spec]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.spec-0.5.1.post1.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - processPackages [bioimageio.spec]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio.spec-0.5.2.tar.gz]
+[2024-04-16 17:31:46] INFO root fetch - main [MainThread]: End processing [bioimageio.spec]: success
+[2024-04-16 17:31:47] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.8.tar.gz]
+[2024-04-16 17:31:47] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.9.tar.gz]
+[2024-04-16 17:31:47] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-16 17:31:47] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b1.tar.gz]
+[2024-04-16 17:31:47] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b2.tar.gz]
+[2024-04-16 17:31:47] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-16 17:31:47] INFO root fetch - processPackages [shinyswatch]: Remove: archive file [/home/abi/fetcher/tmp/shinyswatch-0.5.1.tar.gz]
+[2024-04-16 17:31:47] INFO root fetch - processPackages [shinyswatch]: Remove: archive file [/home/abi/fetcher/tmp/shinyswatch-0.6.0.tar.gz]
+[2024-04-16 17:31:47] INFO root fetch - main [MainThread]: End processing [shinyswatch]: success
+[2024-04-16 17:31:47] INFO root fetch - main [MainThread]: Store serial: [22789915]
