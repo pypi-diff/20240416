@@ -23488,3 +23488,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:40:40] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-1.3.9.tar.gz]
 [2024-04-16 17:40:40] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2024-04-16 17:40:40] INFO root fetch - main [MainThread]: Store serial: [22790027]
+[2024-04-16 17:42:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22790027]
+[2024-04-16 17:42:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 17:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ryomen
+[2024-04-16 17:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flexible-classifier
+[2024-04-16 17:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sapphire-renderer
+[2024-04-16 17:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-admin-background-task
+[2024-04-16 17:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edx-completion
+[2024-04-16 17:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moderne-visualizations-misc
+[2024-04-16 17:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sourcedefender
+[2024-04-16 17:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: specutils
+[2024-04-16 17:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finch-api
+[2024-04-16 17:42:50] WARNING root fetch - processPackages [ryomen]: Skipping, unable to determine old version
+[2024-04-16 17:42:50] INFO root fetch - main [MainThread]: End processing [ryomen] error
+[2024-04-16 17:42:50] INFO root fetch - processPackages [flexible-classifier]: New version: [0.0.2] Old Version: [0.0.12]
+[2024-04-16 17:42:50] INFO root fetch - processPackages [flexible-classifier]: Downloading https://files.pythonhosted.org/packages/a2/aa/ff440f1244ca2441f2eaa791f4c9293add70cdac9e8ce25503065eeb2aa5/flexible_classifier-0.0.12.tar.gz
+[2024-04-16 17:42:50] INFO root fetch - processPackages [sapphire-renderer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 17:42:50] INFO root fetch - processPackages [sourcedefender]: New version: [11.0.19] Old Version: [11.0.18]
+[2024-04-16 17:42:50] INFO root fetch - processPackages [django-admin-background-task]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-16 17:42:50] INFO root fetch - processPackages [specutils]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 17:42:50] INFO root fetch - processPackages [edx-completion]: New version: [4.6.0] Old Version: [4.5.0]
+[2024-04-16 17:42:50] INFO root fetch - processPackages [finch-api]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-16 17:42:50] INFO root fetch - processPackages [moderne-visualizations-misc]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 17:42:50] INFO root fetch - processPackages [edx-completion]: Downloading https://files.pythonhosted.org/packages/c7/41/419fe54281bb5d772a35602b083b8a5e741ecf66991b7ebb26010c58d845/edx-completion-4.5.0.tar.gz
+[2024-04-16 17:42:50] INFO root fetch - processPackages [sourcedefender]: Downloading https://files.pythonhosted.org/packages/b9/a0/50a9b947db0ce4ff8050e127bdd0d4e62ca401c3a34d65c50be7b1d6aac4/sourcedefender-11.0.18.tar.gz
+[2024-04-16 17:42:50] INFO root fetch - processPackages [django-admin-background-task]: Downloading https://files.pythonhosted.org/packages/31/3c/e425e43624a8bb12bd311ab981edaa7bc9cf52de3e349582f125e56ee186/django_admin_background_task-0.1.0.tar.gz
+[2024-04-16 17:42:50] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/2b/42/94c0538f43a9b8e7cb54f37e97b259fbdd1ec3592931d86660f100f5ce0e/sapphire-renderer-0.0.8.tar.gz
+[2024-04-16 17:42:50] INFO root fetch - processPackages [flexible-classifier]: Downloading https://files.pythonhosted.org/packages/44/53/9d821cc9d710eaac9c060af416e255a8050fae4e20c1a2a53a3c423c40b7/flexible_classifier-0.0.2.tar.gz
+[2024-04-16 17:42:50] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/84/a3/0ce6b68f8a84844fb7f9d1ce0306085829f5698e727733b8146225216785/moderne_visualizations_misc-0.8.0.tar.gz
+[2024-04-16 17:42:50] INFO root fetch - processPackages [specutils]: Downloading https://files.pythonhosted.org/packages/20/d7/3706010f013212bb7fd3001cab3f63baf18e852a991ed62d5860e1d59fb0/specutils-1.9.0.tar.gz
+[2024-04-16 17:42:50] INFO root fetch - processPackages [finch-api]: Downloading https://files.pythonhosted.org/packages/3d/83/67d49a54417f2f4fb7f39eaa7f7d3b0c524160f4c3540dd576224afb685b/finch_api-0.9.4.tar.gz
+[2024-04-16 17:42:51] INFO root fetch - processPackages [edx-completion]: Downloading https://files.pythonhosted.org/packages/71/3c/b801dfaf76b3f98565fa87efb90d3b993c6619a9d4e818ec341075fc516a/edx_completion-4.6.0.tar.gz
+[2024-04-16 17:42:51] INFO root fetch - processPackages [flexible-classifier]: executing diffoscope
+[2024-04-16 17:42:51] INFO root fetch - processPackages [flexible-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_classifier-0.0.12.tar.gz tmp/flexible_classifier-0.0.2.tar.gz --markdown 20240416/f/flexible-classifier/0.0.12-0.0.2/README.md --exclude *.pyd
+[2024-04-16 17:42:51] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/f8/31/8de4b92c9035b28151912286005bd004a22beea4fc1de98c231b009bd2be/sapphire-renderer-0.0.9.tar.gz
+[2024-04-16 17:42:51] INFO root fetch - processPackages [django-admin-background-task]: Downloading https://files.pythonhosted.org/packages/37/c8/7d823bb184202f0760a7f69833931e54beba20db0bdc8551c894a52c28e3/django_admin_background_task-0.2.0.tar.gz
+[2024-04-16 17:42:51] INFO root fetch - processPackages [edx-completion]: executing diffoscope
+[2024-04-16 17:42:51] INFO root fetch - processPackages [edx-completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-completion-4.5.0.tar.gz tmp/edx_completion-4.6.0.tar.gz --markdown 20240416/e/edx-completion/4.5.0-4.6.0/README.md --exclude *.pyd
+[2024-04-16 17:42:51] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/9e/ba/991e48ff0ac8bd8668cff01d2545b2fa617cf367cbfeebcc712835f23665/moderne_visualizations_misc-0.9.0.tar.gz
+[2024-04-16 17:42:51] INFO root fetch - processPackages [finch-api]: Downloading https://files.pythonhosted.org/packages/a7/40/69f973fbe568114c3e198cd4cd3586aedb3c65810d7fb43b1fe366bbead9/finch_api-0.9.5.tar.gz
+[2024-04-16 17:42:51] INFO root fetch - processPackages [sapphire-renderer]: executing diffoscope
+[2024-04-16 17:42:51] INFO root fetch - processPackages [sapphire-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphire-renderer-0.0.8.tar.gz tmp/sapphire-renderer-0.0.9.tar.gz --markdown 20240416/s/sapphire-renderer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 17:42:51] INFO root fetch - processPackages [django-admin-background-task]: executing diffoscope
+[2024-04-16 17:42:51] INFO root fetch - processPackages [django-admin-background-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_admin_background_task-0.1.0.tar.gz tmp/django_admin_background_task-0.2.0.tar.gz --markdown 20240416/d/django-admin-background-task/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-16 17:42:51] INFO root fetch - processPackages [moderne-visualizations-misc]: executing diffoscope
+[2024-04-16 17:42:51] INFO root fetch - processPackages [moderne-visualizations-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moderne_visualizations_misc-0.8.0.tar.gz tmp/moderne_visualizations_misc-0.9.0.tar.gz --markdown 20240416/m/moderne-visualizations-misc/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 17:42:51] INFO root fetch - processPackages [finch-api]: executing diffoscope
+[2024-04-16 17:42:51] INFO root fetch - processPackages [finch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_api-0.9.4.tar.gz tmp/finch_api-0.9.5.tar.gz --markdown 20240416/f/finch-api/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-16 17:42:51] INFO root fetch - processPackages [specutils]: Downloading https://files.pythonhosted.org/packages/ac/e6/8acd02eb25118a56d7048e2c31bae9980c7fe2bab88078036887065ef0b5/specutils-1.9.1.tar.gz
+[2024-04-16 17:42:51] INFO root fetch - processPackages [sourcedefender]: Downloading https://files.pythonhosted.org/packages/65/25/790265ec53408b126c7c12753ddda08dd8d5ccf39ff13cace4fa1ddeeb63/sourcedefender-11.0.19.tar.gz
+[2024-04-16 17:42:51] INFO root fetch - processPackages [specutils]: executing diffoscope
+[2024-04-16 17:42:51] INFO root fetch - processPackages [specutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specutils-1.9.0.tar.gz tmp/specutils-1.9.1.tar.gz --markdown 20240416/s/specutils/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 17:42:52] INFO root fetch - processPackages [sourcedefender]: executing diffoscope
+[2024-04-16 17:42:52] INFO root fetch - processPackages [sourcedefender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourcedefender-11.0.18.tar.gz tmp/sourcedefender-11.0.19.tar.gz --markdown 20240416/s/sourcedefender/11.0.18-11.0.19/README.md --exclude *.pyd
+[2024-04-16 17:42:52] INFO root fetch - processPackages [edx-completion]: Remove: archive file [/home/abi/fetcher/tmp/edx-completion-4.5.0.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - processPackages [edx-completion]: Remove: archive file [/home/abi/fetcher/tmp/edx_completion-4.6.0.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - main [MainThread]: End processing [edx-completion]: success
+[2024-04-16 17:42:52] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.8.0.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.9.0.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - main [MainThread]: End processing [moderne-visualizations-misc]: success
+[2024-04-16 17:42:52] INFO root fetch - processPackages [flexible-classifier]: Remove: archive file [/home/abi/fetcher/tmp/flexible_classifier-0.0.12.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - processPackages [flexible-classifier]: Remove: archive file [/home/abi/fetcher/tmp/flexible_classifier-0.0.2.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - main [MainThread]: End processing [flexible-classifier]: success
+[2024-04-16 17:42:52] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.8.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.9.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - main [MainThread]: End processing [sapphire-renderer]: success
+[2024-04-16 17:42:52] INFO root fetch - processPackages [django-admin-background-task]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_background_task-0.1.0.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - processPackages [django-admin-background-task]: Remove: archive file [/home/abi/fetcher/tmp/django_admin_background_task-0.2.0.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - main [MainThread]: End processing [django-admin-background-task]: success
+[2024-04-16 17:42:52] INFO root fetch - processPackages [finch-api]: Remove: archive file [/home/abi/fetcher/tmp/finch_api-0.9.4.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - processPackages [finch-api]: Remove: archive file [/home/abi/fetcher/tmp/finch_api-0.9.5.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - main [MainThread]: End processing [finch-api]: success
+[2024-04-16 17:42:52] INFO root fetch - processPackages [specutils]: Remove: archive file [/home/abi/fetcher/tmp/specutils-1.9.0.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - processPackages [specutils]: Remove: archive file [/home/abi/fetcher/tmp/specutils-1.9.1.tar.gz]
+[2024-04-16 17:42:52] INFO root fetch - main [MainThread]: End processing [specutils]: success
+[2024-04-16 17:44:15] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-11.0.18.tar.gz]
+[2024-04-16 17:44:15] INFO root fetch - processPackages [sourcedefender]: Remove: archive file [/home/abi/fetcher/tmp/sourcedefender-11.0.19.tar.gz]
+[2024-04-16 17:44:16] INFO root fetch - main [MainThread]: End processing [sourcedefender]: success
+[2024-04-16 17:44:16] INFO root fetch - main [MainThread]: Store serial: [22790055]
