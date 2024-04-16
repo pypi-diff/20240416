@@ -8997,3 +8997,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:25:22] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-16 09:25:22] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-16 09:25:22] INFO root fetch - main [MainThread]: Store serial: [22783694]
+[2024-04-16 09:27:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783694]
+[2024-04-16 09:27:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 09:27:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-airflow-providers-yandex
+[2024-04-16 09:27:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: versol
+[2024-04-16 09:27:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ganga
+[2024-04-16 09:27:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lenstr
+[2024-04-16 09:27:31] WARNING root fetch - processPackages [versol]: Skipping, unable to determine old version
+[2024-04-16 09:27:31] INFO root fetch - main [MainThread]: End processing [versol] error
+[2024-04-16 09:27:31] WARNING root fetch - processPackages [lenstr]: Skipping, unable to determine old version
+[2024-04-16 09:27:31] INFO root fetch - main [MainThread]: End processing [lenstr] error
+[2024-04-16 09:27:31] INFO root fetch - processPackages [ganga]: New version: [8.7.6] Old Version: [8.7.5]
+[2024-04-16 09:27:31] INFO root fetch - processPackages [ganga]: Downloading https://files.pythonhosted.org/packages/b7/8d/7910803a8a9f6d919b3628405d1e00ea1d149c71aaabbf8488dbc04840c4/ganga-8.7.5.tar.gz
+[2024-04-16 09:27:31] INFO root fetch - processPackages [apache-airflow-providers-yandex]: New version: [3.9.1rc1] Old Version: [3.9.0rc1]
+[2024-04-16 09:27:31] INFO root fetch - processPackages [apache-airflow-providers-yandex]: Downloading https://files.pythonhosted.org/packages/74/3a/74696360b5444744e6f48048a534e005565a9f55c462cba67833eff1701c/apache_airflow_providers_yandex-3.9.0rc1.tar.gz
+[2024-04-16 09:27:31] INFO root fetch - processPackages [apache-airflow-providers-yandex]: Downloading https://files.pythonhosted.org/packages/b8/35/427d826572313a744dfe5c9c5f82b2cdbf68a062057912b9a1dd9783753e/apache_airflow_providers_yandex-3.9.1rc1.tar.gz
+[2024-04-16 09:27:32] INFO root fetch - processPackages [ganga]: Downloading https://files.pythonhosted.org/packages/f5/3e/93db9a385b00cc6b794295751c943e2a3c29336e1e8948436a26c49b5e1e/ganga-8.7.6.tar.gz
+[2024-04-16 09:27:32] INFO root fetch - processPackages [apache-airflow-providers-yandex]: executing diffoscope
+[2024-04-16 09:27:32] INFO root fetch - processPackages [apache-airflow-providers-yandex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_yandex-3.9.0rc1.tar.gz tmp/apache_airflow_providers_yandex-3.9.1rc1.tar.gz --markdown 20240416/a/apache-airflow-providers-yandex/3.9.0rc1-3.9.1rc1/README.md --exclude *.pyd
+[2024-04-16 09:27:32] INFO root fetch - processPackages [ganga]: executing diffoscope
+[2024-04-16 09:27:32] INFO root fetch - processPackages [ganga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ganga-8.7.5.tar.gz tmp/ganga-8.7.6.tar.gz --markdown 20240416/g/ganga/8.7.5-8.7.6/README.md --exclude *.pyd
+[2024-04-16 09:27:32] INFO root fetch - processPackages [apache-airflow-providers-yandex]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_yandex-3.9.0rc1.tar.gz]
+[2024-04-16 09:27:32] INFO root fetch - processPackages [apache-airflow-providers-yandex]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_yandex-3.9.1rc1.tar.gz]
+[2024-04-16 09:27:32] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-yandex]: success
+[2024-04-16 09:27:36] INFO root fetch - processPackages [ganga]: Remove: archive file [/home/abi/fetcher/tmp/ganga-8.7.5.tar.gz]
+[2024-04-16 09:27:36] INFO root fetch - processPackages [ganga]: Remove: archive file [/home/abi/fetcher/tmp/ganga-8.7.6.tar.gz]
+[2024-04-16 09:27:36] INFO root fetch - main [MainThread]: End processing [ganga]: success
+[2024-04-16 09:27:36] INFO root fetch - main [MainThread]: Store serial: [22783715]
