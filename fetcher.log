@@ -23187,3 +23187,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:31:47] INFO root fetch - processPackages [shinyswatch]: Remove: archive file [/home/abi/fetcher/tmp/shinyswatch-0.6.0.tar.gz]
 [2024-04-16 17:31:47] INFO root fetch - main [MainThread]: End processing [shinyswatch]: success
 [2024-04-16 17:31:47] INFO root fetch - main [MainThread]: Store serial: [22789915]
+[2024-04-16 17:33:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789915]
+[2024-04-16 17:33:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbb-dl
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotsos
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotsos
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ibm-platform-services
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-alloydb-connector
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flexible-classifier
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: surfkit
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funlib.persistence
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-allspice
+[2024-04-16 17:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyearth
+[2024-04-16 17:33:57] INFO root fetch - processPackages [bbb-dl]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [google-cloud-alloydb-connector]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [bbb-dl]: Downloading https://files.pythonhosted.org/packages/f2/89/f2d8618b61cbac35cf5b6de4621137814497d7adc1c0e8244e8f31b32c09/bbb-dl-1.0.8.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [flexible-classifier]: New version: [0.0.2] Old Version: [0.0.12]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [funlib.persistence]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [py-allspice]: New version: [2.5.0] Old Version: [2.4.0]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [ibm-platform-services]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [google-cloud-alloydb-connector]: Downloading https://files.pythonhosted.org/packages/52/30/e4da2743efadf20dd955c8c18a2933c13435db7241df973355307ca48463/google-cloud-alloydb-connector-1.0.0.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [flexible-classifier]: Downloading https://files.pythonhosted.org/packages/a2/aa/ff440f1244ca2441f2eaa791f4c9293add70cdac9e8ce25503065eeb2aa5/flexible_classifier-0.0.12.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [pyearth]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 17:33:57] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/86/fd/38a583c4bf3803a477a17b9be43e72b393cf8decd9dab05982dda03bd356/ibm-platform-services-0.9.2.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [funlib.persistence]: Downloading https://files.pythonhosted.org/packages/ef/51/39c66e3905c7978457655f5ad54493cc761aaf85c10e6f4327b6f41c9887/funlib.persistence-0.3.0.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [py-allspice]: Downloading https://files.pythonhosted.org/packages/4e/77/bf010716838585e1fccdb8f38092463a5f1e0c38a96e6c2341adaa38a1b3/py-allspice-2.4.0.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [bbb-dl]: Downloading https://files.pythonhosted.org/packages/ad/1b/421d4d54aa306dc05377bb0d67a2c444254bd9e0f4e23685e8250341ddd6/bbb-dl-1.0.9.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [google-cloud-alloydb-connector]: Downloading https://files.pythonhosted.org/packages/fa/77/f9f80d7125230108df3d6b9465e5e3d4893c262609721a8274b47c51294b/google-cloud-alloydb-connector-1.1.0.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [pyearth]: Downloading https://files.pythonhosted.org/packages/0d/54/04bd5854d944e02e902002c16183eeb87107225f89d1541f38377c55d7e5/pyearth-0.1.8.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [bbb-dl]: executing diffoscope
+[2024-04-16 17:33:57] INFO root fetch - processPackages [bbb-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbb-dl-1.0.8.tar.gz tmp/bbb-dl-1.0.9.tar.gz --markdown 20240416/b/bbb-dl/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 17:33:57] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-16 17:33:57] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240416/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:33:57] INFO root fetch - processPackages [flexible-classifier]: Downloading https://files.pythonhosted.org/packages/44/53/9d821cc9d710eaac9c060af416e255a8050fae4e20c1a2a53a3c423c40b7/flexible_classifier-0.0.2.tar.gz
+[2024-04-16 17:33:57] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/eb/cd/ec1224c39d96300a991247d2c33d28366f0f7eb4674391683396e51aa651/ibm-platform-services-0.9.3.tar.gz
+[2024-04-16 17:33:58] INFO root fetch - processPackages [py-allspice]: Downloading https://files.pythonhosted.org/packages/42/24/1de7618e633e5c22c10e6de5a08cd92a4cc0cbd58c8976d2146a8413c3e6/py_allspice-2.5.0.tar.gz
+[2024-04-16 17:33:58] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-16 17:33:58] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-16 17:33:58] INFO root fetch - processPackages [funlib.persistence]: Downloading https://files.pythonhosted.org/packages/c3/ae/5b36178eba684646d552f5e9cd8df86525edb2fbe24cf710ccd881b78855/funlib_persistence-0.4.0.tar.gz
+[2024-04-16 17:33:58] INFO root fetch - processPackages [google-cloud-alloydb-connector]: executing diffoscope
+[2024-04-16 17:33:58] INFO root fetch - processPackages [google-cloud-alloydb-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-alloydb-connector-1.0.0.tar.gz tmp/google-cloud-alloydb-connector-1.1.0.tar.gz --markdown 20240416/g/google-cloud-alloydb-connector/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-16 17:33:58] INFO root fetch - processPackages [funlib.persistence]: executing diffoscope
+[2024-04-16 17:33:58] INFO root fetch - processPackages [funlib.persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funlib.persistence-0.3.0.tar.gz tmp/funlib_persistence-0.4.0.tar.gz --markdown 20240416/f/funlib.persistence/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-16 17:33:58] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-16 17:33:58] INFO root fetch - processPackages [ibm-platform-services]: executing diffoscope
+[2024-04-16 17:33:58] INFO root fetch - processPackages [ibm-platform-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-platform-services-0.9.2.tar.gz tmp/ibm-platform-services-0.9.3.tar.gz --markdown 20240416/i/ibm-platform-services/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-16 17:33:58] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240416/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-16 17:33:58] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-16 17:33:58] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240416/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-16 17:33:58] INFO root fetch - processPackages [py-allspice]: executing diffoscope
+[2024-04-16 17:33:58] INFO root fetch - processPackages [py-allspice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-allspice-2.4.0.tar.gz tmp/py_allspice-2.5.0.tar.gz --markdown 20240416/p/py-allspice/2.4.0-2.5.0/README.md --exclude *.pyd
+[2024-04-16 17:33:58] INFO root fetch - processPackages [pyearth]: Downloading https://files.pythonhosted.org/packages/1e/df/e733f227afb5d49b0fce1b49efaffb5aad11cd15b7c7c330f67092ebbffa/pyearth-0.1.9.tar.gz
+[2024-04-16 17:33:58] INFO root fetch - processPackages [flexible-classifier]: executing diffoscope
+[2024-04-16 17:33:58] INFO root fetch - processPackages [flexible-classifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_classifier-0.0.12.tar.gz tmp/flexible_classifier-0.0.2.tar.gz --markdown 20240416/f/flexible-classifier/0.0.12-0.0.2/README.md --exclude *.pyd
+[2024-04-16 17:33:58] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-16 17:33:58] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-16 17:33:58] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-16 17:33:58] INFO root fetch - processPackages [pyearth]: executing diffoscope
+[2024-04-16 17:33:58] INFO root fetch - processPackages [pyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyearth-0.1.8.tar.gz tmp/pyearth-0.1.9.tar.gz --markdown 20240416/p/pyearth/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 17:33:58] INFO root fetch - processPackages [bbb-dl]: Remove: archive file [/home/abi/fetcher/tmp/bbb-dl-1.0.8.tar.gz]
+[2024-04-16 17:33:58] INFO root fetch - processPackages [bbb-dl]: Remove: archive file [/home/abi/fetcher/tmp/bbb-dl-1.0.9.tar.gz]
+[2024-04-16 17:33:58] INFO root fetch - main [MainThread]: End processing [bbb-dl]: success
+[2024-04-16 17:33:59] INFO root fetch - processPackages [google-cloud-alloydb-connector]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-alloydb-connector-1.0.0.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - processPackages [google-cloud-alloydb-connector]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-alloydb-connector-1.1.0.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - main [MainThread]: End processing [google-cloud-alloydb-connector]: success
+[2024-04-16 17:33:59] INFO root fetch - processPackages [funlib.persistence]: Remove: archive file [/home/abi/fetcher/tmp/funlib.persistence-0.3.0.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - processPackages [funlib.persistence]: Remove: archive file [/home/abi/fetcher/tmp/funlib_persistence-0.4.0.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - main [MainThread]: End processing [funlib.persistence]: success
+[2024-04-16 17:33:59] INFO root fetch - processPackages [py-allspice]: Remove: archive file [/home/abi/fetcher/tmp/py-allspice-2.4.0.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - processPackages [py-allspice]: Remove: archive file [/home/abi/fetcher/tmp/py_allspice-2.5.0.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - main [MainThread]: End processing [py-allspice]: success
+[2024-04-16 17:33:59] INFO root fetch - processPackages [ibm-platform-services]: Remove: archive file [/home/abi/fetcher/tmp/ibm-platform-services-0.9.2.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - processPackages [ibm-platform-services]: Remove: archive file [/home/abi/fetcher/tmp/ibm-platform-services-0.9.3.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - main [MainThread]: End processing [ibm-platform-services]: success
+[2024-04-16 17:33:59] INFO root fetch - processPackages [pyearth]: Remove: archive file [/home/abi/fetcher/tmp/pyearth-0.1.8.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - processPackages [pyearth]: Remove: archive file [/home/abi/fetcher/tmp/pyearth-0.1.9.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - main [MainThread]: End processing [pyearth]: success
+[2024-04-16 17:33:59] INFO root fetch - processPackages [flexible-classifier]: Remove: archive file [/home/abi/fetcher/tmp/flexible_classifier-0.0.12.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - processPackages [flexible-classifier]: Remove: archive file [/home/abi/fetcher/tmp/flexible_classifier-0.0.2.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - main [MainThread]: End processing [flexible-classifier]: success
+[2024-04-16 17:33:59] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-16 17:33:59] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-16 17:34:00] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-16 17:34:00] INFO root fetch - main [MainThread]: Store serial: [22789943]
