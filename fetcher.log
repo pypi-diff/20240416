@@ -7729,3 +7729,45 @@
 [2024-04-16 08:33:28] INFO root fetch - processPackages [aonvif]: Remove: archive file [/home/abi/fetcher/tmp/aonvif-1.0.0rc8.tar.gz]
 [2024-04-16 08:33:28] INFO root fetch - main [MainThread]: End processing [aonvif]: success
 [2024-04-16 08:33:28] INFO root fetch - main [MainThread]: Store serial: [22783258]
+[2024-04-16 08:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783258]
+[2024-04-16 08:35:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 08:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ts-soup
+[2024-04-16 08:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycommons
+[2024-04-16 08:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crawler-analytics
+[2024-04-16 08:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simo-omics
+[2024-04-16 08:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: DXR-BJ
+[2024-04-16 08:35:38] INFO root fetch - processPackages [DXR-BJ]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 08:35:38] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/e9/4e/6de71b9c352c99d7e53c730773fcd989bd427fbee64850c0ae0b30488aee/DXR_BJ-1.0.0.tar.gz
+[2024-04-16 08:35:38] INFO root fetch - processPackages [crawler-analytics]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 08:35:38] WARNING root fetch - processPackages [simo-omics]: Skipping, unable to determine old version
+[2024-04-16 08:35:38] INFO root fetch - main [MainThread]: End processing [simo-omics] error
+[2024-04-16 08:35:39] INFO root fetch - processPackages [ts-soup]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 08:35:39] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-16 08:35:39] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/51/ce/21cccdcc0b7d2cfba058d9eaeb31cc3a3a860260737af842a850caf1a413/ts_soup-0.1.8.tar.gz
+[2024-04-16 08:35:39] INFO root fetch - processPackages [crawler-analytics]: Downloading https://files.pythonhosted.org/packages/51/15/d9d39afbf5373681fc5e3f9b45601bd52294df4d8184f47330857cca8028/crawler_analytics-0.1.8.tar.gz
+[2024-04-16 08:35:39] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-16 08:35:39] INFO root fetch - processPackages [ts-soup]: Downloading https://files.pythonhosted.org/packages/66/5e/d2f785baa90bce498aae1da46a3201b0ba36376e789e3daad4ef599b4e07/ts_soup-0.1.9.tar.gz
+[2024-04-16 08:35:39] INFO root fetch - processPackages [ts-soup]: executing diffoscope
+[2024-04-16 08:35:39] INFO root fetch - processPackages [ts-soup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_soup-0.1.8.tar.gz tmp/ts_soup-0.1.9.tar.gz --markdown 20240416/t/ts-soup/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 08:35:39] INFO root fetch - processPackages [crawler-analytics]: Downloading https://files.pythonhosted.org/packages/6a/87/cb8924b1dad8915cdefa9eb170838c7775b20e1e934ccdd1f3c7640300b8/crawler_analytics-0.1.9.tar.gz
+[2024-04-16 08:35:39] INFO root fetch - processPackages [DXR-BJ]: Downloading https://files.pythonhosted.org/packages/0e/5c/97886f4ff083408a13270e91fe95719f27dc2b6765761ba7bb5310a4dbaf/DXR_BJ-1.0.1.tar.gz
+[2024-04-16 08:35:39] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-16 08:35:39] INFO root fetch - processPackages [crawler-analytics]: executing diffoscope
+[2024-04-16 08:35:39] INFO root fetch - processPackages [crawler-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_analytics-0.1.8.tar.gz tmp/crawler_analytics-0.1.9.tar.gz --markdown 20240416/c/crawler-analytics/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 08:35:39] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-16 08:35:39] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240416/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-16 08:35:39] INFO root fetch - processPackages [DXR-BJ]: executing diffoscope
+[2024-04-16 08:35:39] INFO root fetch - processPackages [DXR-BJ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DXR_BJ-1.0.0.tar.gz tmp/DXR_BJ-1.0.1.tar.gz --markdown 20240416/D/DXR-BJ/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 08:35:40] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts_soup-0.1.8.tar.gz]
+[2024-04-16 08:35:40] INFO root fetch - processPackages [ts-soup]: Remove: archive file [/home/abi/fetcher/tmp/ts_soup-0.1.9.tar.gz]
+[2024-04-16 08:35:40] INFO root fetch - main [MainThread]: End processing [ts-soup]: success
+[2024-04-16 08:35:40] INFO root fetch - processPackages [crawler-analytics]: Remove: archive file [/home/abi/fetcher/tmp/crawler_analytics-0.1.8.tar.gz]
+[2024-04-16 08:35:40] INFO root fetch - processPackages [crawler-analytics]: Remove: archive file [/home/abi/fetcher/tmp/crawler_analytics-0.1.9.tar.gz]
+[2024-04-16 08:35:40] INFO root fetch - main [MainThread]: End processing [crawler-analytics]: success
+[2024-04-16 08:35:40] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-16 08:35:40] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-16 08:35:40] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-16 08:35:41] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.0.tar.gz]
+[2024-04-16 08:35:41] INFO root fetch - processPackages [DXR-BJ]: Remove: archive file [/home/abi/fetcher/tmp/DXR_BJ-1.0.1.tar.gz]
+[2024-04-16 08:35:41] INFO root fetch - main [MainThread]: End processing [DXR-BJ]: success
+[2024-04-16 08:35:41] INFO root fetch - main [MainThread]: Store serial: [22783273]
