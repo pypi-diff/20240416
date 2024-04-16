@@ -17556,3 +17556,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:43:09] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-04-16 14:43:09] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-04-16 14:43:09] INFO root fetch - main [MainThread]: Store serial: [22787588]
+[2024-04-16 14:45:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787588]
+[2024-04-16 14:45:18] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 14:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypcremote
+[2024-04-16 14:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2024-04-16 14:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: altscore
+[2024-04-16 14:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astro-extras
+[2024-04-16 14:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypylib
+[2024-04-16 14:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcor-control
+[2024-04-16 14:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aTeam-PySparkLibrary
+[2024-04-16 14:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vy-lambda-tools
+[2024-04-16 14:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qiskit-scaleway
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypylib]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypcremote]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-16 14:45:19] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 14:45:19] INFO root fetch - processPackages [astro-extras]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 14:45:19] INFO root fetch - processPackages [dcicutils]: New version: [8.8.3.1b9] Old Version: [8.8.3.1b8]
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypcremote]: Downloading https://files.pythonhosted.org/packages/aa/fe/efea7d94687b79a06255124291fb40a85f429b3746836026817b0800446d/mypcremote-0.5.2.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [qiskit-scaleway]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/16/55/90220eec1337456f9f6cedef18ca8eba508f564dc8226170b12a262c0297/mypylib-0.2.3.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [dcor-control]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-16 14:45:19] INFO root fetch - processPackages [altscore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 14:45:19] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/55/29/62f5a247f04b2bf0f9da53bf75c80ebc4731638e110560a1b0c2b690b9e1/dcicutils-8.8.3.1b8.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/ea/80/f4a2841dd56b545e7c7711fcf3d3c029b317f213ec0268d45a43f8aabdad/astro_extras-0.0.8.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [vy-lambda-tools]: New version: [0.4.0b4] Old Version: [0.4.0b3]
+[2024-04-16 14:45:19] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/bc/45/f20a3c1b189888bf66cdf909b207391aba89319a73fe8d27cfbcfbb9a8cb/qiskit_scaleway-0.1.4.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [dcor-control]: Downloading https://files.pythonhosted.org/packages/3f/e0/b529d0b47a5311206f02a4a2afcb79c527dc87c6e48d5502150b3f89c584/dcor_control-0.9.4.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/5f/a6/fb416592a06e3f048aaf0891b596bd989dcd5841cb33ab09db5bb52d0970/altscore-0.1.98.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypcremote]: Downloading https://files.pythonhosted.org/packages/f4/4b/b29c329c32473e7e65cb8e6b67998e85705b9911c206a924feb85e049e74/mypcremote-0.5.3.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/74/08/f3e6582c42c0c952875f3fd4a1071ed15bbc83e1fc3418d62e723496fc59/mypylib-0.2.4.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b0/95/6db1d9193aaea7ab397457bf7e746f08cfefd565b4982b943b44ba844a74/dcicutils-8.8.3.1b9.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/9d/d6/5ce3f9b8ce7a292b21d5746ed5d269fa479ab708cb7d7210ae3143753995/vy_lambda_tools-0.4.0b3.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/58/f6/9fd45c5536eb5a52340a5ab664ae6ac49c5e0460455426cfef38901b5d59/astro_extras-0.0.9.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypcremote]: executing diffoscope
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypcremote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypcremote-0.5.2.tar.gz tmp/mypcremote-0.5.3.tar.gz --markdown 20240416/m/mypcremote/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-16 14:45:19] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-04-16 14:45:19] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240416/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2024-04-16 14:45:19] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.2.3.tar.gz tmp/mypylib-0.2.4.tar.gz --markdown 20240416/m/mypylib/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-16 14:45:19] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-16 14:45:19] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.3.1b8.tar.gz tmp/dcicutils-8.8.3.1b9.tar.gz --markdown 20240416/d/dcicutils/8.8.3.1b8-8.8.3.1b9/README.md --exclude *.pyd
+[2024-04-16 14:45:19] INFO root fetch - processPackages [astro-extras]: executing diffoscope
+[2024-04-16 14:45:19] INFO root fetch - processPackages [astro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_extras-0.0.8.tar.gz tmp/astro_extras-0.0.9.tar.gz --markdown 20240416/a/astro-extras/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 14:45:19] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/e3/b6/865ff08cbdee5b1522cc15ce8760f46380d0a77722135623bdfa5b3ab9f5/altscore-0.1.99.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [qiskit-scaleway]: Downloading https://files.pythonhosted.org/packages/94/85/7bebc5547bca07083640c5ec637a3828952ae2bcdb8ecf7c48b83fe26b85/qiskit_scaleway-0.1.5.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/48/26/31bcc5e5b39a8315870be0340c16c5817a1002f7bdcd2ecec681ec72bc60/vy_lambda_tools-0.4.0b4.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [dcor-control]: Downloading https://files.pythonhosted.org/packages/cd/c1/a7cdfc3e3b4c69171f93c66e26ce8a4d0b4c13c0f47406c81ed0a12433f0/dcor_control-0.9.5.tar.gz
+[2024-04-16 14:45:19] INFO root fetch - processPackages [altscore]: executing diffoscope
+[2024-04-16 14:45:19] INFO root fetch - processPackages [altscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore-0.1.98.tar.gz tmp/altscore-0.1.99.tar.gz --markdown 20240416/a/altscore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 14:45:19] INFO root fetch - processPackages [qiskit-scaleway]: executing diffoscope
+[2024-04-16 14:45:19] INFO root fetch - processPackages [qiskit-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_scaleway-0.1.4.tar.gz tmp/qiskit_scaleway-0.1.5.tar.gz --markdown 20240416/q/qiskit-scaleway/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-16 14:45:20] INFO root fetch - processPackages [vy-lambda-tools]: executing diffoscope
+[2024-04-16 14:45:20] INFO root fetch - processPackages [vy-lambda-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vy_lambda_tools-0.4.0b3.tar.gz tmp/vy_lambda_tools-0.4.0b4.tar.gz --markdown 20240416/v/vy-lambda-tools/0.4.0b3-0.4.0b4/README.md --exclude *.pyd
+[2024-04-16 14:45:20] INFO root fetch - processPackages [dcor-control]: executing diffoscope
+[2024-04-16 14:45:20] INFO root fetch - processPackages [dcor-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcor_control-0.9.4.tar.gz tmp/dcor_control-0.9.5.tar.gz --markdown 20240416/d/dcor-control/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-16 14:45:20] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.2.3.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.2.4.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2024-04-16 14:45:20] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-04-16 14:45:20] INFO root fetch - processPackages [mypcremote]: Remove: archive file [/home/abi/fetcher/tmp/mypcremote-0.5.2.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - processPackages [mypcremote]: Remove: archive file [/home/abi/fetcher/tmp/mypcremote-0.5.3.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - main [MainThread]: End processing [mypcremote]: success
+[2024-04-16 14:45:20] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.0.8.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.0.9.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - main [MainThread]: End processing [astro-extras]: success
+[2024-04-16 14:45:20] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.4.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - processPackages [qiskit-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_scaleway-0.1.5.tar.gz]
+[2024-04-16 14:45:20] INFO root fetch - main [MainThread]: End processing [qiskit-scaleway]: success
+[2024-04-16 14:45:21] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b8.tar.gz]
+[2024-04-16 14:45:21] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b9.tar.gz]
+[2024-04-16 14:45:21] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-16 14:45:21] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.98.tar.gz]
+[2024-04-16 14:45:21] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.99.tar.gz]
+[2024-04-16 14:45:21] INFO root fetch - main [MainThread]: End processing [altscore]: success
+[2024-04-16 14:45:21] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b3.tar.gz]
+[2024-04-16 14:45:21] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b4.tar.gz]
+[2024-04-16 14:45:21] INFO root fetch - main [MainThread]: End processing [vy-lambda-tools]: success
+[2024-04-16 14:45:21] INFO root fetch - processPackages [dcor-control]: Remove: archive file [/home/abi/fetcher/tmp/dcor_control-0.9.4.tar.gz]
+[2024-04-16 14:45:21] INFO root fetch - processPackages [dcor-control]: Remove: archive file [/home/abi/fetcher/tmp/dcor_control-0.9.5.tar.gz]
+[2024-04-16 14:45:21] INFO root fetch - main [MainThread]: End processing [dcor-control]: success
+[2024-04-16 14:45:21] INFO root fetch - main [MainThread]: Store serial: [22787627]
