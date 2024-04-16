@@ -19808,3 +19808,67 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:48:15] INFO root fetch - processPackages [eea.dexterity.indicators]: Remove: archive file [/home/abi/fetcher/tmp/eea.dexterity.indicators-9.6.zip]
 [2024-04-16 15:48:15] INFO root fetch - main [MainThread]: End processing [eea.dexterity.indicators]: success
 [2024-04-16 15:48:15] INFO root fetch - main [MainThread]: Store serial: [22788447]
+[2024-04-16 15:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788447]
+[2024-04-16 15:50:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 15:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crawlab-ai
+[2024-04-16 15:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openeo-pg-parser-networkx
+[2024-04-16 15:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bpkio-cli
+[2024-04-16 15:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crawlab-ai
+[2024-04-16 15:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdfminer.rtl
+[2024-04-16 15:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opensr-model
+[2024-04-16 15:50:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tonic-textual
+[2024-04-16 15:50:23] INFO root fetch - processPackages [pdfminer.rtl]: New version: [0.0.2.dev8] Old Version: [0.0.2.dev7]
+[2024-04-16 15:50:23] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/bd/07/a3ae03d656e5b2c1d4a769924dd52824023bea43ff1b0e48638188911dbc/pdfminer_rtl-0.0.2.dev7.tar.gz
+[2024-04-16 15:50:23] INFO root fetch - processPackages [crawlab-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-16 15:50:23] INFO root fetch - processPackages [crawlab-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-16 15:50:24] INFO root fetch - processPackages [openeo-pg-parser-networkx]: New version: [2024.4.0] Old Version: [2024.3.1]
+[2024-04-16 15:50:24] INFO root fetch - processPackages [bpkio-cli]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 15:50:24] INFO root fetch - processPackages [tonic-textual]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-04-16 15:50:24] INFO root fetch - processPackages [opensr-model]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-16 15:50:24] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/cd/aa/f455e681754051079caad12dad29772aa078ac54af0dff493fdb33ab4668/crawlab-ai-0.0.5.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/cd/aa/f455e681754051079caad12dad29772aa078ac54af0dff493fdb33ab4668/crawlab-ai-0.0.5.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/55/61/35d2bd60fef00e8cdf13a32002a415a3002f36f11f78cfe4a501088a952c/bpkio_cli-1.9.0.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/04/d1/2da23190eb074ef7bbbf187e16b0afd6c024b1787c83abf1236f527e956b/openeo_pg_parser_networkx-2024.3.1.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [tonic-textual]: Downloading https://files.pythonhosted.org/packages/c0/d6/dd3351b83af1323823d87bcd066fcaad5a3df9c5bb52462e2ef68f6efc3c/tonic_textual-1.0.5.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [opensr-model]: Downloading https://files.pythonhosted.org/packages/78/e0/167fb61d475fb7532e42f938ae52ab86347ca699cdbcb82f7cd8bdb06df6/opensr-model-0.2.7.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/54/fc/8cb43325ed7393115924c14441df756d8f31d5e330fae204a95718671e82/crawlab-ai-0.0.6.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/54/fc/8cb43325ed7393115924c14441df756d8f31d5e330fae204a95718671e82/crawlab-ai-0.0.6.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Downloading https://files.pythonhosted.org/packages/39/50/55889669806d5b20f813f2515a83d3a120c0d29d315b4981565c91eadcda/openeo_pg_parser_networkx-2024.4.0.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/93/2d/061c46add6e00f11220006e64d6b62d18e3aeb21eda2eecf195a716159b9/bpkio_cli-1.9.1.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [tonic-textual]: Downloading https://files.pythonhosted.org/packages/29/85/e0075f76eca7318daecc615208eb13f5d77622f03bd93cf8e9186f7d880c/tonic_textual-1.1.0.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [crawlab-ai]: executing diffoscope
+[2024-04-16 15:50:24] INFO root fetch - processPackages [crawlab-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlab-ai-0.0.5.tar.gz tmp/crawlab-ai-0.0.6.tar.gz --markdown 20240416/c/crawlab-ai/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-16 15:50:24] INFO root fetch - processPackages [crawlab-ai]: executing diffoscope
+[2024-04-16 15:50:24] INFO root fetch - processPackages [crawlab-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlab-ai-0.0.5.tar.gz tmp/crawlab-ai-0.0.6.tar.gz --markdown 20240416/c/crawlab-ai/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-16 15:50:24] INFO root fetch - processPackages [opensr-model]: Downloading https://files.pythonhosted.org/packages/d2/39/8c99ea65521f36152ad0e5cc01b2b183973c6680e8fef68e216e830e1b88/opensr_model-0.2.8.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/4b/16/f6d357b26d9ce4546aad1cd8a0ad0392f1ba9061180f28161d74d069b054/pdfminer_rtl-0.0.2.dev8.tar.gz
+[2024-04-16 15:50:24] INFO root fetch - processPackages [openeo-pg-parser-networkx]: executing diffoscope
+[2024-04-16 15:50:24] INFO root fetch - processPackages [openeo-pg-parser-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_pg_parser_networkx-2024.3.1.tar.gz tmp/openeo_pg_parser_networkx-2024.4.0.tar.gz --markdown 20240416/o/openeo-pg-parser-networkx/2024.3.1-2024.4.0/README.md --exclude *.pyd
+[2024-04-16 15:50:24] INFO root fetch - processPackages [bpkio-cli]: executing diffoscope
+[2024-04-16 15:50:24] INFO root fetch - processPackages [bpkio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_cli-1.9.0.tar.gz tmp/bpkio_cli-1.9.1.tar.gz --markdown 20240416/b/bpkio-cli/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 15:50:24] INFO root fetch - processPackages [opensr-model]: executing diffoscope
+[2024-04-16 15:50:24] INFO root fetch - processPackages [opensr-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-model-0.2.7.tar.gz tmp/opensr_model-0.2.8.tar.gz --markdown 20240416/o/opensr-model/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-16 15:50:24] INFO root fetch - processPackages [tonic-textual]: executing diffoscope
+[2024-04-16 15:50:24] INFO root fetch - processPackages [tonic-textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic_textual-1.0.5.tar.gz tmp/tonic_textual-1.1.0.tar.gz --markdown 20240416/t/tonic-textual/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-04-16 15:50:25] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.5.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.6.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - main [MainThread]: End processing [crawlab-ai]: success
+[2024-04-16 15:50:25] INFO root fetch - processPackages [pdfminer.rtl]: executing diffoscope
+[2024-04-16 15:50:25] INFO root fetch - processPackages [pdfminer.rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfminer_rtl-0.0.2.dev7.tar.gz tmp/pdfminer_rtl-0.0.2.dev8.tar.gz --markdown 20240416/p/pdfminer.rtl/0.0.2.dev7-0.0.2.dev8/README.md --exclude *.pyd
+[2024-04-16 15:50:25] INFO root fetch - processPackages [tonic-textual]: Remove: archive file [/home/abi/fetcher/tmp/tonic_textual-1.0.5.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - processPackages [tonic-textual]: Remove: archive file [/home/abi/fetcher/tmp/tonic_textual-1.1.0.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - main [MainThread]: End processing [tonic-textual]: success
+[2024-04-16 15:50:25] INFO root fetch - main [MainThread]: End processing [crawlab-ai]: success
+[2024-04-16 15:50:25] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Remove: archive file [/home/abi/fetcher/tmp/openeo_pg_parser_networkx-2024.3.1.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - processPackages [openeo-pg-parser-networkx]: Remove: archive file [/home/abi/fetcher/tmp/openeo_pg_parser_networkx-2024.4.0.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - main [MainThread]: End processing [openeo-pg-parser-networkx]: success
+[2024-04-16 15:50:25] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.9.0.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.9.1.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - main [MainThread]: End processing [bpkio-cli]: success
+[2024-04-16 15:50:25] INFO root fetch - processPackages [opensr-model]: Remove: archive file [/home/abi/fetcher/tmp/opensr-model-0.2.7.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - processPackages [opensr-model]: Remove: archive file [/home/abi/fetcher/tmp/opensr_model-0.2.8.tar.gz]
+[2024-04-16 15:50:25] INFO root fetch - main [MainThread]: End processing [opensr-model]: success
+[2024-04-16 15:50:27] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev7.tar.gz]
+[2024-04-16 15:50:27] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev8.tar.gz]
+[2024-04-16 15:50:27] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl]: success
+[2024-04-16 15:50:27] INFO root fetch - main [MainThread]: Store serial: [22788470]
