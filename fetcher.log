@@ -4717,3 +4717,24 @@
 [2024-04-16 05:08:12] INFO root fetch - processPackages [alibabacloud-dds20151201]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201-7.0.0.tar.gz]
 [2024-04-16 05:08:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-dds20151201]: success
 [2024-04-16 05:08:12] INFO root fetch - main [MainThread]: Store serial: [22781926]
+[2024-04-16 05:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781926]
+[2024-04-16 05:10:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 05:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MyLLM
+[2024-04-16 05:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MyRecursion
+[2024-04-16 05:10:21] INFO root fetch - processPackages [MyRecursion]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-16 05:10:21] INFO root fetch - processPackages [MyLLM]: New version: [4.8.6] Old Version: [4.8.5]
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/37/18/fa2a086a8970160e235f095b1e8a91ed6a73dfacfe1dc40edbb8944faf32/myllm-4.8.5.tar.gz
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyRecursion]: Downloading https://files.pythonhosted.org/packages/ec/af/c0f06231b136a2a64be196678cca6328c501b5560d1fe0ab20cd72edff8b/MyRecursion-0.0.1-py3-none-any.whl
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/c7/c6/c920ee10bbc80f0364786b20054f2aacda5f0566274bc86bdd1acf55559f/myllm-4.8.6.tar.gz
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyRecursion]: Downloading https://files.pythonhosted.org/packages/b9/2b/98220148eff6a1f46e018eb4b02cc4c01bcd2cacccbd02232b11330de16b/MyRecursion-0.0.3-py3-none-any.whl
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.5.tar.gz tmp/myllm-4.8.6.tar.gz --markdown 20240416/M/MyLLM/4.8.5-4.8.6/README.md --exclude *.pyd
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyRecursion]: executing diffoscope
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyRecursion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyRecursion-0.0.1-py3-none-any.whl.zip tmp/MyRecursion-0.0.3-py3-none-any.whl.zip --markdown 20240416/M/MyRecursion/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyRecursion]: Remove: archive file [/home/abi/fetcher/tmp/MyRecursion-0.0.1-py3-none-any.whl.zip]
+[2024-04-16 05:10:22] INFO root fetch - processPackages [MyRecursion]: Remove: archive file [/home/abi/fetcher/tmp/MyRecursion-0.0.3-py3-none-any.whl.zip]
+[2024-04-16 05:10:22] INFO root fetch - main [MainThread]: End processing [MyRecursion]: success
+[2024-04-16 05:10:23] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.5.tar.gz]
+[2024-04-16 05:10:23] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.6.tar.gz]
+[2024-04-16 05:10:23] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-16 05:10:23] INFO root fetch - main [MainThread]: Store serial: [22781945]
