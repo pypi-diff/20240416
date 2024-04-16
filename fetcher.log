@@ -9494,3 +9494,74 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:44:06] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-16 09:44:06] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-04-16 09:44:06] INFO root fetch - main [MainThread]: Store serial: [22783912]
+[2024-04-16 09:46:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783912]
+[2024-04-16 09:46:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 09:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azureml-designer-classic-modules
+[2024-04-16 09:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-train-dev
+[2024-04-16 09:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-dev
+[2024-04-16 09:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python_dev_utils
+[2024-04-16 09:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-core-dev
+[2024-04-16 09:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qrkey
+[2024-04-16 09:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iter-pipes
+[2024-04-16 09:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-stock-request
+[2024-04-16 09:46:17] INFO root fetch - processPackages [python_dev_utils]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-16 09:46:17] INFO root fetch - processPackages [qrkey]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-16 09:46:18] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/ff/e9/dcb6998fa299933d6c6976afae4d5317679107c880f88bea4b388123622d/python_dev_utils-1.2.0.tar.gz
+[2024-04-16 09:46:18] INFO root fetch - processPackages [iter-pipes]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-16 09:46:18] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/52/a7/eb0f3974aca3b2a2cfdcc4b057ec8db8809e48aa25360ec5219fdd3546e2/qrkey-0.3.0.tar.gz
+[2024-04-16 09:46:18] INFO root fetch - processPackages [odoo14-addon-stock-request]: New version: [14.0.1.7.4.dev3] Old Version: [14.0.1.7.4.dev1]
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-16 09:46:18] INFO root fetch - processPackages [azureml-designer-classic-modules]: New version: [0.0.181] Old Version: [0.0.180]
+[2024-04-16 09:46:18] INFO root fetch - processPackages [iter-pipes]: Downloading https://files.pythonhosted.org/packages/f4/1f/3310ebbc60fe9cf157e1f998114d3d33e9e288b5fa2e7f8f00cb65a3b762/iter_pipes-0.1.6.tar.gz
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/19/92/d2cc81d1932bc78afddf0cf92c75659eee58d38d34d9e8471d60b63233f7/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 09:46:18] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/7e/bd/06329ca288ea0136276b9cf3e94af6befde29e4028db0ae077ea7ed7b54e/odoo14_addon_stock_request-14.0.1.7.4.dev1-py3-none-any.whl
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/3f/87/aeed0c05640a655a9f7a9651405c023e800537ac5400c580f59a119cd1bf/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 09:46:18] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/bf/11/be52b81c9b742a01b8885a67762fff1c208592fd033c769351780945d1bd/qrkey-0.4.0.tar.gz
+[2024-04-16 09:46:18] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/c6/40/ac40330bdb20a31d13f02b1940f6a03c01c18364bc5b61d1eca46ea7009d/python_dev_utils-1.2.1.tar.gz
+[2024-04-16 09:46:18] INFO root fetch - processPackages [azureml-designer-classic-modules]: Downloading https://files.pythonhosted.org/packages/23/17/753b82a597cd2b018c1d4a77e061cbaf683e126b29597c382d689304207a/azureml_designer_classic_modules-0.0.180-py3-none-any.whl
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/4a/a0/fae4202dc7e27017437fbafdfdb9257b93f97fc3d65b2bca67f173871cab/composabl_core_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 09:46:18] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-04-16 09:46:18] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.2.0.tar.gz tmp/python_dev_utils-1.2.1.tar.gz --markdown 20240416/p/python_dev_utils/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-16 09:46:18] INFO root fetch - processPackages [qrkey]: executing diffoscope
+[2024-04-16 09:46:18] INFO root fetch - processPackages [qrkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrkey-0.3.0.tar.gz tmp/qrkey-0.4.0.tar.gz --markdown 20240416/q/qrkey/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-16 09:46:18] INFO root fetch - processPackages [odoo14-addon-stock-request]: Downloading https://files.pythonhosted.org/packages/19/b9/291997998957ca1a7107dbb3caa0a414009bf5c1174c7b676829bb3448eb/odoo14_addon_stock_request-14.0.1.7.4.dev3-py3-none-any.whl
+[2024-04-16 09:46:18] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21365442>=10485760
+[2024-04-16 09:46:18] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-16 09:46:18] INFO root fetch - processPackages [iter-pipes]: Downloading https://files.pythonhosted.org/packages/fd/c3/4ad5746eef084ce37ef69a060094dd20920f0ebb2e49dcd932309dc307e0/iter_pipes-0.1.7.tar.gz
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-16 09:46:18] INFO root fetch - processPackages [odoo14-addon-stock-request]: executing diffoscope
+[2024-04-16 09:46:18] INFO root fetch - processPackages [iter-pipes]: executing diffoscope
+[2024-04-16 09:46:18] INFO root fetch - processPackages [odoo14-addon-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_request-14.0.1.7.4.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_request-14.0.1.7.4.dev3-py3-none-any.whl.zip --markdown 20240416/o/odoo14-addon-stock-request/14.0.1.7.4.dev1-14.0.1.7.4.dev3/README.md --exclude *.pyd
+[2024-04-16 09:46:18] INFO root fetch - processPackages [iter-pipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iter_pipes-0.1.6.tar.gz tmp/iter_pipes-0.1.7.tar.gz --markdown 20240416/i/iter-pipes/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-16 09:46:18] INFO root fetch - processPackages [azureml-designer-classic-modules]: Downloading https://files.pythonhosted.org/packages/3a/33/df737dbcf9cdc2a9e7e76bd3b86a0bff3e0a860afe12e4b38cba2c0db074/azureml_designer_classic_modules-0.0.181-py3-none-any.whl
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-16 09:46:18] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/c/composabl-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-16 09:46:19] INFO root fetch - processPackages [azureml-designer-classic-modules]: executing diffoscope
+[2024-04-16 09:46:19] INFO root fetch - processPackages [azureml-designer-classic-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_designer_classic_modules-0.0.180-py3-none-any.whl.zip tmp/azureml_designer_classic_modules-0.0.181-py3-none-any.whl.zip --markdown 20240416/a/azureml-designer-classic-modules/0.0.180-0.0.181/README.md --exclude *.pyd
+[2024-04-16 09:46:19] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-04-16 09:46:19] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240416/c/composabl-train-dev/0.8.0.dev6-0.8.0.dev9/README.md --exclude *.pyd
+[2024-04-16 09:46:19] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.2.0.tar.gz]
+[2024-04-16 09:46:19] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.2.1.tar.gz]
+[2024-04-16 09:46:19] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-04-16 09:46:19] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 09:46:19] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 09:46:19] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-16 09:46:19] INFO root fetch - processPackages [iter-pipes]: Remove: archive file [/home/abi/fetcher/tmp/iter_pipes-0.1.6.tar.gz]
+[2024-04-16 09:46:19] INFO root fetch - processPackages [iter-pipes]: Remove: archive file [/home/abi/fetcher/tmp/iter_pipes-0.1.7.tar.gz]
+[2024-04-16 09:46:19] INFO root fetch - main [MainThread]: End processing [iter-pipes]: success
+[2024-04-16 09:46:19] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.3.0.tar.gz]
+[2024-04-16 09:46:19] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.4.0.tar.gz]
+[2024-04-16 09:46:19] INFO root fetch - main [MainThread]: End processing [qrkey]: success
+[2024-04-16 09:46:19] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.7.4.dev1-py3-none-any.whl.zip]
+[2024-04-16 09:46:19] INFO root fetch - processPackages [odoo14-addon-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_request-14.0.1.7.4.dev3-py3-none-any.whl.zip]
+[2024-04-16 09:46:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-request]: success
+[2024-04-16 09:46:20] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 09:46:20] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-16 09:46:20] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-04-16 09:46:20] INFO root fetch - processPackages [azureml-designer-classic-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_classic_modules-0.0.180-py3-none-any.whl.zip]
+[2024-04-16 09:46:20] INFO root fetch - processPackages [azureml-designer-classic-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_classic_modules-0.0.181-py3-none-any.whl.zip]
+[2024-04-16 09:46:20] INFO root fetch - main [MainThread]: End processing [azureml-designer-classic-modules]: success
+[2024-04-16 09:46:20] INFO root fetch - main [MainThread]: Store serial: [22783959]
