@@ -17640,3 +17640,111 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:45:21] INFO root fetch - processPackages [dcor-control]: Remove: archive file [/home/abi/fetcher/tmp/dcor_control-0.9.5.tar.gz]
 [2024-04-16 14:45:21] INFO root fetch - main [MainThread]: End processing [dcor-control]: success
 [2024-04-16 14:45:21] INFO root fetch - main [MainThread]: Store serial: [22787627]
+[2024-04-16 14:47:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787627]
+[2024-04-16 14:47:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bpm-ai-inference
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kivymd-utils
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dolphin-anty
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viewser
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smaht-submitr
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dhlab_toolkit
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cud
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infrahub-sync
+[2024-04-16 14:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pylinac
+[2024-04-16 14:47:30] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-16 14:47:30] WARNING root fetch - processPackages [cud]: Skipping, unable to determine old version
+[2024-04-16 14:47:30] INFO root fetch - processPackages [cud]: Start processing: overturemaps
+[2024-04-16 14:47:30] INFO root fetch - main [MainThread]: End processing [cud] error
+[2024-04-16 14:47:30] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-16 14:47:30] INFO root fetch - processPackages [kivymd-utils]: New version: [0.15.3] Old Version: [0.15.2]
+[2024-04-16 14:47:30] INFO root fetch - processPackages [viewser]: New version: [6.3.1] Old Version: [6.3.0]
+[2024-04-16 14:47:30] INFO root fetch - processPackages [dhlab_toolkit]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-16 14:47:30] WARNING root fetch - processPackages [dolphin-anty]: Skipping, unable to determine old version
+[2024-04-16 14:47:30] INFO root fetch - processPackages [dolphin-anty]: Start processing: chsu_schedule_api
+[2024-04-16 14:47:30] INFO root fetch - main [MainThread]: End processing [dolphin-anty] error
+[2024-04-16 14:47:30] INFO root fetch - processPackages [bpm-ai-inference]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-16 14:47:30] INFO root fetch - processPackages [infrahub-sync]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-16 14:47:30] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [pylinac]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-16 14:47:30] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/3e/9b/ade75e0b0806669f7e3884231b3947f1cc22b2e734d47614c3aa7d68b52b/viewser-6.3.0.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [overturemaps]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-16 14:47:30] INFO root fetch - processPackages [kivymd-utils]: Downloading https://files.pythonhosted.org/packages/d6/2c/c8365f0c51fb1a7acb77bd5c4bfd5d451fe978696179d88fcf7f52e00ba2/kivymd_utils-0.15.2.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [dhlab_toolkit]: Downloading https://files.pythonhosted.org/packages/44/80/fc3951087aeae2acb38c229b6967993bb9b45256afbc661ab5db38125acc/dhlab_toolkit-0.2.0.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [chsu_schedule_api]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-16 14:47:30] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/97/c6/d7d36a6df5f44309a7f59548bd68756620c813d75185556e62c936237513/bpm_ai_inference-0.2.5.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [infrahub-sync]: Downloading https://files.pythonhosted.org/packages/08/66/744d0098f4186e24417bd07a4ce86abe1f4a4e9ab084ee026cee5c71a5c9/infrahub_sync-0.3.0.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [pylinac]: Downloading https://files.pythonhosted.org/packages/27/94/8c586685a145da9c1ad7e801ab393e5c0e9a5da43952c4a90a2210355b19/pylinac-3.9.0.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [overturemaps]: Downloading https://files.pythonhosted.org/packages/15/2f/f08358d5728bd13075a3e328727aa46bb9ae817ff944332ad54b1044bd88/overturemaps-0.2.0.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/52/de/59f693e2471f2dae1ea07731d659ff564fd5a5ac70578544ced6c57e0ed2/viewser-6.3.1.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [kivymd-utils]: Downloading https://files.pythonhosted.org/packages/a6/69/62cd51e734b9343c2cbbd514eba9068b2e3cf80b9e93665f0f21b7866a70/kivymd_utils-0.15.3.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [chsu_schedule_api]: Downloading https://files.pythonhosted.org/packages/3f/0b/3e76c7f468d900782bf5e1dffcb47db1ae369fe3f3296006f1a3647f6b3f/chsu_schedule_api-1.2.0.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-16 14:47:30] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240416/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-04-16 14:47:30] INFO root fetch - processPackages [viewser]: executing diffoscope
+[2024-04-16 14:47:30] INFO root fetch - processPackages [viewser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewser-6.3.0.tar.gz tmp/viewser-6.3.1.tar.gz --markdown 20240416/v/viewser/6.3.0-6.3.1/README.md --exclude *.pyd
+[2024-04-16 14:47:30] INFO root fetch - processPackages [dhlab_toolkit]: Downloading https://files.pythonhosted.org/packages/d7/a6/2e63801b95aca0c51b36e283f85686059702123c658857c391d7cc5a06c0/dhlab_toolkit-0.3.0.tar.gz
+[2024-04-16 14:47:30] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-16 14:47:30] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240416/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-16 14:47:30] INFO root fetch - processPackages [kivymd-utils]: executing diffoscope
+[2024-04-16 14:47:30] INFO root fetch - processPackages [kivymd-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivymd_utils-0.15.2.tar.gz tmp/kivymd_utils-0.15.3.tar.gz --markdown 20240416/k/kivymd-utils/0.15.2-0.15.3/README.md --exclude *.pyd
+[2024-04-16 14:47:31] INFO root fetch - processPackages [bpm-ai-inference]: Downloading https://files.pythonhosted.org/packages/d8/30/d2ae8e57771123594c2b4a7cbc74eccddb3c5bdd4c7589fc700f6bc229cd/bpm_ai_inference-0.2.6.tar.gz
+[2024-04-16 14:47:31] INFO root fetch - processPackages [infrahub-sync]: Downloading https://files.pythonhosted.org/packages/aa/88/1c5240b9402405688f15cd893fdefdc0ef4110e882190be0e031abccaea9/infrahub_sync-0.4.0.tar.gz
+[2024-04-16 14:47:31] INFO root fetch - processPackages [overturemaps]: Downloading https://files.pythonhosted.org/packages/6b/48/8d549af8cf7f7c14d421647cd559d5120569d5e845d4638bfdc27dfb3298/overturemaps-0.3.0.tar.gz
+[2024-04-16 14:47:31] INFO root fetch - processPackages [dhlab_toolkit]: executing diffoscope
+[2024-04-16 14:47:31] INFO root fetch - processPackages [dhlab_toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhlab_toolkit-0.2.0.tar.gz tmp/dhlab_toolkit-0.3.0.tar.gz --markdown 20240416/d/dhlab_toolkit/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-16 14:47:31] INFO root fetch - processPackages [pylinac]: Downloading https://files.pythonhosted.org/packages/ae/2e/e27f710bbed4def5b11bb99829f20d669fb9b56532077a74fc0c4d612a66/pylinac-3.9.1.tar.gz
+[2024-04-16 14:47:31] INFO root fetch - processPackages [bpm-ai-inference]: executing diffoscope
+[2024-04-16 14:47:31] INFO root fetch - processPackages [bpm-ai-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_inference-0.2.5.tar.gz tmp/bpm_ai_inference-0.2.6.tar.gz --markdown 20240416/b/bpm-ai-inference/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-16 14:47:31] INFO root fetch - processPackages [infrahub-sync]: executing diffoscope
+[2024-04-16 14:47:31] INFO root fetch - processPackages [infrahub-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahub_sync-0.3.0.tar.gz tmp/infrahub_sync-0.4.0.tar.gz --markdown 20240416/i/infrahub-sync/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-16 14:47:31] INFO root fetch - processPackages [pylinac]: executing diffoscope
+[2024-04-16 14:47:31] INFO root fetch - processPackages [pylinac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinac-3.9.0.tar.gz tmp/pylinac-3.9.1.tar.gz --markdown 20240416/p/pylinac/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-16 14:47:31] INFO root fetch - processPackages [chsu_schedule_api]: Downloading https://files.pythonhosted.org/packages/57/06/53e57801f68b4886d2ab892306261878a2015b25b61fc2e4cbbd520fc656/chsu_schedule_api-1.2.1.tar.gz
+[2024-04-16 14:47:31] INFO root fetch - processPackages [overturemaps]: executing diffoscope
+[2024-04-16 14:47:31] INFO root fetch - processPackages [overturemaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overturemaps-0.2.0.tar.gz tmp/overturemaps-0.3.0.tar.gz --markdown 20240416/o/overturemaps/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-16 14:47:31] INFO root fetch - processPackages [chsu_schedule_api]: executing diffoscope
+[2024-04-16 14:47:31] INFO root fetch - processPackages [chsu_schedule_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chsu_schedule_api-1.2.0.tar.gz tmp/chsu_schedule_api-1.2.1.tar.gz --markdown 20240416/c/chsu_schedule_api/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-16 14:47:31] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-16 14:47:31] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-16 14:47:31] INFO root fetch - processPackages [smaht-submitr]: Start processing: vertex-deployer
+[2024-04-16 14:47:31] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-16 14:47:31] INFO root fetch - processPackages [kivymd-utils]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_utils-0.15.2.tar.gz]
+[2024-04-16 14:47:31] INFO root fetch - processPackages [kivymd-utils]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_utils-0.15.3.tar.gz]
+[2024-04-16 14:47:31] INFO root fetch - main [MainThread]: End processing [kivymd-utils]: success
+[2024-04-16 14:47:32] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.3.0.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.3.1.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - main [MainThread]: End processing [viewser]: success
+[2024-04-16 14:47:32] INFO root fetch - processPackages [vertex-deployer]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-04-16 14:47:32] INFO root fetch - processPackages [infrahub-sync]: Remove: archive file [/home/abi/fetcher/tmp/infrahub_sync-0.3.0.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - processPackages [infrahub-sync]: Remove: archive file [/home/abi/fetcher/tmp/infrahub_sync-0.4.0.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - main [MainThread]: End processing [infrahub-sync]: success
+[2024-04-16 14:47:32] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.2.5.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - processPackages [bpm-ai-inference]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_inference-0.2.6.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - main [MainThread]: End processing [bpm-ai-inference]: success
+[2024-04-16 14:47:32] INFO root fetch - processPackages [dhlab_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dhlab_toolkit-0.2.0.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - processPackages [dhlab_toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dhlab_toolkit-0.3.0.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - main [MainThread]: End processing [dhlab_toolkit]: success
+[2024-04-16 14:47:32] INFO root fetch - processPackages [pylinac]: Remove: archive file [/home/abi/fetcher/tmp/pylinac-3.9.0.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - processPackages [pylinac]: Remove: archive file [/home/abi/fetcher/tmp/pylinac-3.9.1.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - main [MainThread]: End processing [pylinac]: success
+[2024-04-16 14:47:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - processPackages [vertex-deployer]: Downloading https://files.pythonhosted.org/packages/de/02/0fbebcc351a199d29c746d2df6c5798b72fc18cfe7b7d57bb11e297e0d72/vertex_deployer-0.4.4.tar.gz
+[2024-04-16 14:47:32] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-16 14:47:32] INFO root fetch - processPackages [chsu_schedule_api]: Remove: archive file [/home/abi/fetcher/tmp/chsu_schedule_api-1.2.0.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - processPackages [chsu_schedule_api]: Remove: archive file [/home/abi/fetcher/tmp/chsu_schedule_api-1.2.1.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - main [MainThread]: End processing [chsu_schedule_api]: success
+[2024-04-16 14:47:32] INFO root fetch - processPackages [overturemaps]: Remove: archive file [/home/abi/fetcher/tmp/overturemaps-0.2.0.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - processPackages [overturemaps]: Remove: archive file [/home/abi/fetcher/tmp/overturemaps-0.3.0.tar.gz]
+[2024-04-16 14:47:32] INFO root fetch - main [MainThread]: End processing [overturemaps]: success
+[2024-04-16 14:47:32] INFO root fetch - processPackages [vertex-deployer]: Downloading https://files.pythonhosted.org/packages/de/e9/6d0ad7e4fc9a2434771efc1b8bb07d303a761cac59b8d35d8d99131c61ba/vertex_deployer-0.5.0.tar.gz
+[2024-04-16 14:47:32] INFO root fetch - processPackages [vertex-deployer]: executing diffoscope
+[2024-04-16 14:47:32] INFO root fetch - processPackages [vertex-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertex_deployer-0.4.4.tar.gz tmp/vertex_deployer-0.5.0.tar.gz --markdown 20240416/v/vertex-deployer/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-04-16 14:47:33] INFO root fetch - processPackages [vertex-deployer]: Remove: archive file [/home/abi/fetcher/tmp/vertex_deployer-0.4.4.tar.gz]
+[2024-04-16 14:47:33] INFO root fetch - processPackages [vertex-deployer]: Remove: archive file [/home/abi/fetcher/tmp/vertex_deployer-0.5.0.tar.gz]
+[2024-04-16 14:47:33] INFO root fetch - main [MainThread]: End processing [vertex-deployer]: success
+[2024-04-16 14:47:33] INFO root fetch - main [MainThread]: Store serial: [22787671]
