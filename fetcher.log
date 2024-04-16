@@ -17445,3 +17445,114 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:40:44] INFO root fetch - processPackages [alibabacloud-vpc20160428-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_vpc20160428_py2-5.7.1.tar.gz]
 [2024-04-16 14:40:44] INFO root fetch - main [MainThread]: End processing [alibabacloud-vpc20160428-py2]: success
 [2024-04-16 14:40:44] INFO root fetch - main [MainThread]: Store serial: [22787550]
+[2024-04-16 14:42:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787550]
+[2024-04-16 14:42:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-llm
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcicutils
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: greentext-scraper
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: komminarlabs-influxdb
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zohocrmsdk6-0
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sparse
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: manamodeller
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scematk
+[2024-04-16 14:42:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stelar-spatiotemporal
+[2024-04-16 14:42:59] INFO root fetch - processPackages [zohocrmsdk6-0]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-04-16 14:42:59] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-16 14:42:59] INFO root fetch - processPackages [dcicutils]: New version: [8.8.3.1b9] Old Version: [8.8.3.1b8]
+[2024-04-16 14:43:00] WARNING root fetch - processPackages [greentext-scraper]: Skipping, unable to determine old version
+[2024-04-16 14:43:00] INFO root fetch - processPackages [greentext-scraper]: Start processing: flowpyter-task
+[2024-04-16 14:43:00] INFO root fetch - main [MainThread]: End processing [greentext-scraper] error
+[2024-04-16 14:43:00] INFO root fetch - processPackages [manamodeller]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-16 14:43:00] INFO root fetch - processPackages [stelar-spatiotemporal]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-16 14:43:00] INFO root fetch - processPackages [sparse]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-04-16 14:43:00] INFO root fetch - processPackages [komminarlabs-influxdb]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-16 14:43:00] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-16 14:43:00] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-16 14:43:00] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [zohocrmsdk6-0]: Downloading https://files.pythonhosted.org/packages/38/4d/61220f0e871c6ef262e0b278675a58b47b307ea64d2ff5b521e46d75dfb2/zohocrmsdk6_0-2.0.0.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/55/29/62f5a247f04b2bf0f9da53bf75c80ebc4731638e110560a1b0c2b690b9e1/dcicutils-8.8.3.1b8.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [flowpyter-task]: New version: [1.1.4.post0.dev12] Old Version: [1.1.4]
+[2024-04-16 14:43:00] INFO root fetch - processPackages [komminarlabs-influxdb]: Downloading https://files.pythonhosted.org/packages/17/0e/240d06e944955c88c8aefb7981ce282730f115c78caedc363f91044fe561/komminarlabs_influxdb-1.0.2.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [stelar-spatiotemporal]: Downloading https://files.pythonhosted.org/packages/48/03/837b02ff97ec4187e11cc1cfef27b87c7317a285f843ccf738d08651e471/stelar_spatiotemporal-0.0.7.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [manamodeller]: Downloading https://files.pythonhosted.org/packages/14/95/db31f67d36c6da985cfdf711f4e3f0fccae3ffaa053495c8f64b74f93aef/manamodeller-0.1.1.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/5a/8d/6e27d32912c5d05b9d23c10f88de59ecfc2a542e0f7f00d0326a533568e0/bigdl_llm-2.5.0b20240415-py3-none-win_amd64.whl
+[2024-04-16 14:43:00] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/8e/da/cba8e6d14869c1e62251d587332eafec3c92fea9f041e0d5491a634b80d1/sparse-0.8.0.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [zohocrmsdk6-0]: Downloading https://files.pythonhosted.org/packages/21/25/117b022282ce24688b29694b9f86dc8670dc57d8c71d8713c48eae668b36/zohocrmsdk6_0-3.0.0.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [flowpyter-task]: Downloading https://files.pythonhosted.org/packages/e9/a3/bdea8a3588c262c66087c2afd534ff53546fcf21037bc1f17a35e454f452/flowpyter-task-1.1.4.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b0/95/6db1d9193aaea7ab397457bf7e746f08cfefd565b4982b943b44ba844a74/dcicutils-8.8.3.1b9.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-16 14:43:00] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240416/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-16 14:43:00] INFO root fetch - processPackages [komminarlabs-influxdb]: Downloading https://files.pythonhosted.org/packages/57/a2/88a90137dde50095c606acbe354441d60630efa2cfe06fc9b208dc06a66f/komminarlabs_influxdb-1.1.0.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [manamodeller]: Downloading https://files.pythonhosted.org/packages/c5/89/409a447ca3bbd35c4da9ece92db76c9f5395959d3f6e9a6d048f407d545c/manamodeller-0.1.2.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [zohocrmsdk6-0]: executing diffoscope
+[2024-04-16 14:43:00] INFO root fetch - processPackages [zohocrmsdk6-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zohocrmsdk6_0-2.0.0.tar.gz tmp/zohocrmsdk6_0-3.0.0.tar.gz --markdown 20240416/z/zohocrmsdk6-0/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-04-16 14:43:00] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-16 14:43:00] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.3.1b8.tar.gz tmp/dcicutils-8.8.3.1b9.tar.gz --markdown 20240416/d/dcicutils/8.8.3.1b8-8.8.3.1b9/README.md --exclude *.pyd
+[2024-04-16 14:43:00] INFO root fetch - processPackages [stelar-spatiotemporal]: Downloading https://files.pythonhosted.org/packages/e8/18/d6dbdca0339bf82abb1fa6fea6273af226d44273ff7a5313f86609abb560/stelar_spatiotemporal-0.0.9.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/34/99/52ebc6bd4198f1e61e66f04ff1947a27aa8723b974e5d79fde0bb60e784f/sparse-0.9.1.tar.gz
+[2024-04-16 14:43:00] INFO root fetch - processPackages [komminarlabs-influxdb]: executing diffoscope
+[2024-04-16 14:43:00] INFO root fetch - processPackages [komminarlabs-influxdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komminarlabs_influxdb-1.0.2.tar.gz tmp/komminarlabs_influxdb-1.1.0.tar.gz --markdown 20240416/k/komminarlabs-influxdb/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-16 14:43:00] INFO root fetch - processPackages [manamodeller]: executing diffoscope
+[2024-04-16 14:43:00] INFO root fetch - processPackages [manamodeller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manamodeller-0.1.1.tar.gz tmp/manamodeller-0.1.2.tar.gz --markdown 20240416/m/manamodeller/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-16 14:43:01] INFO root fetch - processPackages [flowpyter-task]: Downloading https://files.pythonhosted.org/packages/e0/3f/6a3ab06189855f6b2f1c8561a2250c3e56fb348461e31b64d6e58fa5ff49/flowpyter-task-1.1.4.post0.dev12.tar.gz
+[2024-04-16 14:43:01] INFO root fetch - processPackages [stelar-spatiotemporal]: executing diffoscope
+[2024-04-16 14:43:01] INFO root fetch - processPackages [stelar-spatiotemporal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stelar_spatiotemporal-0.0.7.tar.gz tmp/stelar_spatiotemporal-0.0.9.tar.gz --markdown 20240416/s/stelar-spatiotemporal/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-16 14:43:01] INFO root fetch - processPackages [sparse]: executing diffoscope
+[2024-04-16 14:43:01] INFO root fetch - processPackages [sparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-0.8.0.tar.gz tmp/sparse-0.9.1.tar.gz --markdown 20240416/s/sparse/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 14:43:01] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-16 14:43:01] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240416/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-16 14:43:01] INFO root fetch - processPackages [flowpyter-task]: executing diffoscope
+[2024-04-16 14:43:01] INFO root fetch - processPackages [flowpyter-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowpyter-task-1.1.4.tar.gz tmp/flowpyter-task-1.1.4.post0.dev12.tar.gz --markdown 20240416/f/flowpyter-task/1.1.4-1.1.4.post0.dev12/README.md --exclude *.pyd
+[2024-04-16 14:43:01] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/ad/e0/c085267d44953c2b3f362d90c7cb2babf8961a08e3bcfae8fbe1db588450/bigdl_llm-2.5.0b20240416-py3-none-win_amd64.whl
+[2024-04-16 14:43:01] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-16 14:43:01] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-16 14:43:01] INFO root fetch - processPackages [scematk]: Start processing: geo-skeletons
+[2024-04-16 14:43:01] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-16 14:43:01] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 14:43:01] INFO root fetch - processPackages [komminarlabs-influxdb]: Remove: archive file [/home/abi/fetcher/tmp/komminarlabs_influxdb-1.0.2.tar.gz]
+[2024-04-16 14:43:01] INFO root fetch - processPackages [komminarlabs-influxdb]: Remove: archive file [/home/abi/fetcher/tmp/komminarlabs_influxdb-1.1.0.tar.gz]
+[2024-04-16 14:43:01] INFO root fetch - processPackages [komminarlabs-influxdb]: Start processing: opendaq
+[2024-04-16 14:43:01] INFO root fetch - main [MainThread]: End processing [komminarlabs-influxdb]: success
+[2024-04-16 14:43:01] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-04-16 14:43:01] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240415-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240416-py3-none-win_amd64.whl.zip --markdown 20240416/b/bigdl-llm/2.5.0b20240415-2.5.0b20240416/README.md --exclude *.pyd
+[2024-04-16 14:43:01] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-16 14:43:02] INFO root fetch - processPackages [opendaq]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-04-16 14:43:02] INFO root fetch - processPackages [manamodeller]: Remove: archive file [/home/abi/fetcher/tmp/manamodeller-0.1.1.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - processPackages [manamodeller]: Remove: archive file [/home/abi/fetcher/tmp/manamodeller-0.1.2.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - main [MainThread]: End processing [manamodeller]: success
+[2024-04-16 14:43:02] INFO root fetch - processPackages [flowpyter-task]: Remove: archive file [/home/abi/fetcher/tmp/flowpyter-task-1.1.4.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - processPackages [flowpyter-task]: Remove: archive file [/home/abi/fetcher/tmp/flowpyter-task-1.1.4.post0.dev12.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - main [MainThread]: End processing [flowpyter-task]: success
+[2024-04-16 14:43:02] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-16 14:43:02] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b8.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b9.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-16 14:43:02] INFO root fetch - processPackages [opendaq]: Downloading https://files.pythonhosted.org/packages/8a/35/4e1713a51e24da196c0c2494f93d374fccd61657400ffda7a5a7fe4cd076/opendaq-2.0.0-cp39-cp39-win_amd64.whl
+[2024-04-16 14:43:02] INFO root fetch - processPackages [stelar-spatiotemporal]: Remove: archive file [/home/abi/fetcher/tmp/stelar_spatiotemporal-0.0.7.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - processPackages [stelar-spatiotemporal]: Remove: archive file [/home/abi/fetcher/tmp/stelar_spatiotemporal-0.0.9.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - main [MainThread]: End processing [stelar-spatiotemporal]: success
+[2024-04-16 14:43:02] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-16 14:43:02] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240416/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 14:43:02] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.8.0.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
+[2024-04-16 14:43:02] INFO root fetch - main [MainThread]: End processing [sparse]: success
+[2024-04-16 14:43:03] INFO root fetch - processPackages [opendaq]: Downloading https://files.pythonhosted.org/packages/1a/34/d10e2677329273b32e321d80a2b54c5d7aadda3cbed46d604be7bbbf5b7f/opendaq-3.0.0-cp310-cp310-win_amd64.whl
+[2024-04-16 14:43:03] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-16 14:43:03] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-16 14:43:03] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-16 14:43:03] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240415-py3-none-win_amd64.whl.zip]
+[2024-04-16 14:43:03] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240416-py3-none-win_amd64.whl.zip]
+[2024-04-16 14:43:03] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-04-16 14:43:03] WARNING root fetch - processPackages [opendaq]: Skipping package: exceeds size limit 11748987>=10485760
+[2024-04-16 14:43:03] INFO root fetch - main [MainThread]: End processing [opendaq] error
+[2024-04-16 14:43:08] INFO root fetch - processPackages [zohocrmsdk6-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk6_0-2.0.0.tar.gz]
+[2024-04-16 14:43:08] INFO root fetch - processPackages [zohocrmsdk6-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk6_0-3.0.0.tar.gz]
+[2024-04-16 14:43:08] INFO root fetch - main [MainThread]: End processing [zohocrmsdk6-0]: success
+[2024-04-16 14:43:09] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-16 14:43:09] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-16 14:43:09] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-16 14:43:09] INFO root fetch - main [MainThread]: Store serial: [22787588]
