@@ -5256,3 +5256,33 @@
 [2024-04-16 05:41:07] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.4.tar.gz]
 [2024-04-16 05:41:07] INFO root fetch - main [MainThread]: End processing [pcffont]: success
 [2024-04-16 05:41:07] INFO root fetch - main [MainThread]: Store serial: [22782235]
+[2024-04-16 05:43:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782235]
+[2024-04-16 05:43:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wuji
+[2024-04-16 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: factory_farm
+[2024-04-16 05:43:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rqsdk
+[2024-04-16 05:43:16] INFO root fetch - processPackages [factory_farm]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-16 05:43:16] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 05:43:16] INFO root fetch - processPackages [rqsdk]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-16 05:43:16] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/d8/a5/e9ed97f3f08b7d85a30eed946c710a60223851814433a6895ec6f58fc815/factory_farm-1.1.2-py3-none-any.whl
+[2024-04-16 05:43:16] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-04-16 05:43:16] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-04-16 05:43:16] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/7b/1a/134d912d9139051fcd24cc22eb8a61974e77d7b4afbec6e5c161278e6722/rqsdk-1.5.8.tar.gz
+[2024-04-16 05:43:16] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-04-16 05:43:16] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240416/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 05:43:16] INFO root fetch - processPackages [factory_farm]: Downloading https://files.pythonhosted.org/packages/1b/d9/84488cc6b6e049314a04fb45e71a4e6d6c04ae58af43b8ac6202887d0b8d/factory_farm-1.1.3.tar.gz
+[2024-04-16 05:43:17] INFO root fetch - processPackages [factory_farm]: executing diffoscope
+[2024-04-16 05:43:17] INFO root fetch - processPackages [factory_farm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factory_farm-1.1.2-py3-none-any.whl.zip tmp/factory_farm-1.1.3.tar.gz --markdown 20240416/f/factory_farm/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-16 05:43:17] INFO root fetch - processPackages [rqsdk]: Downloading https://files.pythonhosted.org/packages/01/62/a04c15c64689604d14c46f3bba08eb7dffc5d5fbab17ff20578d5c1fc8e1/rqsdk-1.5.9.tar.gz
+[2024-04-16 05:43:17] INFO root fetch - processPackages [rqsdk]: executing diffoscope
+[2024-04-16 05:43:17] INFO root fetch - processPackages [rqsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqsdk-1.5.8.tar.gz tmp/rqsdk-1.5.9.tar.gz --markdown 20240416/r/rqsdk/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-16 05:43:17] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-04-16 05:43:17] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-04-16 05:43:17] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-04-16 05:43:17] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.8.tar.gz]
+[2024-04-16 05:43:17] INFO root fetch - processPackages [rqsdk]: Remove: archive file [/home/abi/fetcher/tmp/rqsdk-1.5.9.tar.gz]
+[2024-04-16 05:43:17] INFO root fetch - main [MainThread]: End processing [rqsdk]: success
+[2024-04-16 05:43:18] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.1.2-py3-none-any.whl.zip]
+[2024-04-16 05:43:18] INFO root fetch - processPackages [factory_farm]: Remove: archive file [/home/abi/fetcher/tmp/factory_farm-1.1.3.tar.gz]
+[2024-04-16 05:43:18] INFO root fetch - main [MainThread]: End processing [factory_farm]: success
+[2024-04-16 05:43:18] INFO root fetch - main [MainThread]: Store serial: [22782243]
