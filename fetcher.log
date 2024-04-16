@@ -12368,3 +12368,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:18:27] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-04-16 11:18:27] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-04-16 11:18:27] INFO root fetch - main [MainThread]: Store serial: [22785265]
+[2024-04-16 11:20:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785265]
+[2024-04-16 11:20:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 11:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-data-services
+[2024-04-16 11:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chellow
+[2024-04-16 11:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymediawikidocker
+[2024-04-16 11:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: regional-mom6
+[2024-04-16 11:20:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-vocabularies
+[2024-04-16 11:20:36] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev8702438320] Old Version: [2.0.0.dev8702324290]
+[2024-04-16 11:20:36] INFO root fetch - processPackages [pymediawikidocker]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 11:20:36] INFO root fetch - processPackages [regional-mom6]: New version: [0.5.0] Old Version: [0.2.1]
+[2024-04-16 11:20:36] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/aa/7c/251ef8cfa17a0594ba968d250587da7996c66e18b43375d08036c07d2cf4/th2_data_services-2.0.0.dev8702324290.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-04-16 11:20:36] INFO root fetch - processPackages [invenio-vocabularies]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-16 11:20:36] INFO root fetch - processPackages [regional-mom6]: Downloading https://files.pythonhosted.org/packages/7f/4b/24fb9e95f1b13166d517c5e920636f2bcfe1fed30f45e4b2e846a25e004a/regional_mom6-0.2.1.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [pymediawikidocker]: Downloading https://files.pythonhosted.org/packages/25/17/630d58c95b50d2bff1ed2fb160aa5c76672fe50da18c33f14c4307140a91/pymediawikidocker-0.9.8.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [invenio-vocabularies]: Downloading https://files.pythonhosted.org/packages/38/fc/ac9db0aa2ed196dfedb954ef49c1d5cf3f13e27d0192a1bdd07b46f0b917/invenio-vocabularies-3.2.0.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/1c/5e/7c8626ca2dfd4eaf031e13a5ffd7a5704cd36305391e9a0296f9fa9dfad6/th2_data_services-2.0.0.dev8702438320.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-04-16 11:20:36] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev8702324290.tar.gz tmp/th2_data_services-2.0.0.dev8702438320.tar.gz --markdown 20240416/t/th2-data-services/2.0.0.dev8702324290-2.0.0.dev8702438320/README.md --exclude *.pyd
+[2024-04-16 11:20:36] INFO root fetch - processPackages [regional-mom6]: Downloading https://files.pythonhosted.org/packages/3b/a1/64d93236ec23a282404719953e9902e4350a0be773c4e9307ecfc3af49c2/regional_mom6-0.5.0.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [invenio-vocabularies]: Downloading https://files.pythonhosted.org/packages/2a/86/1c30dc100b67a7c24158f959096878a171a1930ca518c2efc369bee91bcb/invenio-vocabularies-3.3.0.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [pymediawikidocker]: Downloading https://files.pythonhosted.org/packages/b2/54/54d00e3c42ba3ab3b75d917ea2ca292a149469d399120315af842983996f/pymediawikidocker-0.9.9.tar.gz
+[2024-04-16 11:20:36] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-04-16 11:20:36] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240416/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-04-16 11:20:36] INFO root fetch - processPackages [regional-mom6]: executing diffoscope
+[2024-04-16 11:20:36] INFO root fetch - processPackages [regional-mom6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/regional_mom6-0.2.1.tar.gz tmp/regional_mom6-0.5.0.tar.gz --markdown 20240416/r/regional-mom6/0.2.1-0.5.0/README.md --exclude *.pyd
+[2024-04-16 11:20:37] INFO root fetch - processPackages [invenio-vocabularies]: executing diffoscope
+[2024-04-16 11:20:37] INFO root fetch - processPackages [invenio-vocabularies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-vocabularies-3.2.0.tar.gz tmp/invenio-vocabularies-3.3.0.tar.gz --markdown 20240416/i/invenio-vocabularies/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-04-16 11:20:37] INFO root fetch - processPackages [pymediawikidocker]: executing diffoscope
+[2024-04-16 11:20:37] INFO root fetch - processPackages [pymediawikidocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediawikidocker-0.9.8.tar.gz tmp/pymediawikidocker-0.9.9.tar.gz --markdown 20240416/p/pymediawikidocker/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 11:20:37] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8702324290.tar.gz]
+[2024-04-16 11:20:37] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev8702438320.tar.gz]
+[2024-04-16 11:20:37] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-04-16 11:20:37] INFO root fetch - processPackages [pymediawikidocker]: Remove: archive file [/home/abi/fetcher/tmp/pymediawikidocker-0.9.8.tar.gz]
+[2024-04-16 11:20:37] INFO root fetch - processPackages [pymediawikidocker]: Remove: archive file [/home/abi/fetcher/tmp/pymediawikidocker-0.9.9.tar.gz]
+[2024-04-16 11:20:37] INFO root fetch - main [MainThread]: End processing [pymediawikidocker]: success
+[2024-04-16 11:20:38] INFO root fetch - processPackages [regional-mom6]: Remove: archive file [/home/abi/fetcher/tmp/regional_mom6-0.2.1.tar.gz]
+[2024-04-16 11:20:38] INFO root fetch - processPackages [regional-mom6]: Remove: archive file [/home/abi/fetcher/tmp/regional_mom6-0.5.0.tar.gz]
+[2024-04-16 11:20:38] INFO root fetch - main [MainThread]: End processing [regional-mom6]: success
+[2024-04-16 11:20:38] INFO root fetch - processPackages [invenio-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/invenio-vocabularies-3.2.0.tar.gz]
+[2024-04-16 11:20:38] INFO root fetch - processPackages [invenio-vocabularies]: Remove: archive file [/home/abi/fetcher/tmp/invenio-vocabularies-3.3.0.tar.gz]
+[2024-04-16 11:20:38] INFO root fetch - main [MainThread]: End processing [invenio-vocabularies]: success
+[2024-04-16 11:20:39] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-04-16 11:20:39] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-04-16 11:20:39] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-04-16 11:20:39] INFO root fetch - main [MainThread]: Store serial: [22785279]
