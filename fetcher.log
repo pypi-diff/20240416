@@ -15495,3 +15495,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:25:14] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.20.9.tar.gz]
 [2024-04-16 13:25:14] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
 [2024-04-16 13:25:14] INFO root fetch - main [MainThread]: Store serial: [22786785]
+[2024-04-16 13:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786785]
+[2024-04-16 13:27:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ixmp4
+[2024-04-16 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchx-nightly
+[2024-04-16 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WindowManager
+[2024-04-16 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astro-provider-databricks
+[2024-04-16 13:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sunholo
+[2024-04-16 13:27:23] WARNING root fetch - processPackages [WindowManager]: Skipping, unable to determine old version
+[2024-04-16 13:27:23] INFO root fetch - main [MainThread]: End processing [WindowManager] error
+[2024-04-16 13:27:23] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-16 13:27:23] INFO root fetch - processPackages [ixmp4]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-16 13:27:23] INFO root fetch - processPackages [astro-provider-databricks]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 13:27:23] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.16] Old Version: [2024.4.15]
+[2024-04-16 13:27:23] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-16 13:27:24] INFO root fetch - processPackages [ixmp4]: Downloading https://files.pythonhosted.org/packages/9d/93/1c49588f1485b42e21737fac6ba9713a9b27b19b7640ba7607537096de1b/ixmp4-0.8.0.tar.gz
+[2024-04-16 13:27:24] INFO root fetch - processPackages [astro-provider-databricks]: Downloading https://files.pythonhosted.org/packages/fe/72/3d3476f697cf96f3b673a100d623fe1ae3b9b7f96bc073b8566866b160dc/astro_provider_databricks-0.2.1.tar.gz
+[2024-04-16 13:27:24] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/c5/ae/0fe38f3b6a832bbc9a29f7259e0235326239a0ca651f36e02030bc9b864d/torchx_nightly-2024.4.15-py3-none-any.whl
+[2024-04-16 13:27:24] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-16 13:27:24] INFO root fetch - processPackages [ixmp4]: Downloading https://files.pythonhosted.org/packages/e3/aa/8ba0eca9943a8b1c17b627d6d0ce07d860d4ffa2b7c717723741440a6741/ixmp4-0.8.1.tar.gz
+[2024-04-16 13:27:24] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/86/f5/0fd170abc287852dd01d7fb8c4043a13c1a5a1ba9fb812def0a93e1d29ac/torchx_nightly-2024.4.16-py3-none-any.whl
+[2024-04-16 13:27:24] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-16 13:27:24] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240416/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-16 13:27:24] INFO root fetch - processPackages [ixmp4]: executing diffoscope
+[2024-04-16 13:27:24] INFO root fetch - processPackages [ixmp4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixmp4-0.8.0.tar.gz tmp/ixmp4-0.8.1.tar.gz --markdown 20240416/i/ixmp4/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-16 13:27:24] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-04-16 13:27:24] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.15-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.16-py3-none-any.whl.zip --markdown 20240416/t/torchx-nightly/2024.4.15-2024.4.16/README.md --exclude *.pyd
+[2024-04-16 13:27:24] INFO root fetch - processPackages [astro-provider-databricks]: Downloading https://files.pythonhosted.org/packages/de/92/eff0c7ab73545129cbd62a7104ff22be04927f91577e781620dff2d4ccbf/astro_provider_databricks-0.2.2.tar.gz
+[2024-04-16 13:27:25] INFO root fetch - processPackages [astro-provider-databricks]: executing diffoscope
+[2024-04-16 13:27:25] INFO root fetch - processPackages [astro-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_provider_databricks-0.2.1.tar.gz tmp/astro_provider_databricks-0.2.2.tar.gz --markdown 20240416/a/astro-provider-databricks/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-16 13:27:25] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-16 13:27:25] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-16 13:27:25] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-16 13:27:25] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.15-py3-none-any.whl.zip]
+[2024-04-16 13:27:25] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.16-py3-none-any.whl.zip]
+[2024-04-16 13:27:25] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-04-16 13:27:25] INFO root fetch - processPackages [ixmp4]: Remove: archive file [/home/abi/fetcher/tmp/ixmp4-0.8.0.tar.gz]
+[2024-04-16 13:27:25] INFO root fetch - processPackages [ixmp4]: Remove: archive file [/home/abi/fetcher/tmp/ixmp4-0.8.1.tar.gz]
+[2024-04-16 13:27:25] INFO root fetch - main [MainThread]: End processing [ixmp4]: success
+[2024-04-16 13:27:26] INFO root fetch - processPackages [astro-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/astro_provider_databricks-0.2.1.tar.gz]
+[2024-04-16 13:27:26] INFO root fetch - processPackages [astro-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/astro_provider_databricks-0.2.2.tar.gz]
+[2024-04-16 13:27:26] INFO root fetch - main [MainThread]: End processing [astro-provider-databricks]: success
+[2024-04-16 13:27:26] INFO root fetch - main [MainThread]: Store serial: [22786802]
