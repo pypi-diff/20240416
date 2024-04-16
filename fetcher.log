@@ -20034,3 +20034,149 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:57:10] INFO root fetch - processPackages [OCX]: Remove: archive file [/home/abi/fetcher/tmp/ocx-3.0.0rc8.tar.gz]
 [2024-04-16 15:57:10] INFO root fetch - main [MainThread]: End processing [OCX]: success
 [2024-04-16 15:57:10] INFO root fetch - main [MainThread]: Store serial: [22788550]
+[2024-04-16 15:59:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788550]
+[2024-04-16 15:59:18] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: collate-sqllineage
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: standardbots
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycityagent
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLMS-SPODES-client
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autosubmitconfigparser
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crawlab-ai
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: giant-redirect-import
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wiwb
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pandas-deepscan-17
+[2024-04-16 15:59:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: komminarlabs-influxdb
+[2024-04-16 15:59:19] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [wiwb]: New version: [2024.4.1] Old Version: [2024.4.0]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [crawlab-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [giant-redirect-import]: New version: [0.5] Old Version: [0.4]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [komminarlabs-influxdb]: New version: [1.2.0] Old Version: [1.0.2]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/94/4b/bcc8809f94aef117e065daedd586f1963efa0e1f05fbe8e6834a2b27634a/DLMS_SPODES_client-0.7.8.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [wiwb]: Downloading https://files.pythonhosted.org/packages/5a/91/2a57567b21d6315ad466de6906f8c6e3e16d14a5df7c8fa6815e1bcef12e/wiwb-2024.4.0.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [autosubmitconfigparser]: New version: [1.0.60] Old Version: [1.0.59]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [collate-sqllineage]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [pandas-deepscan-17]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [pycityagent]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/cd/aa/f455e681754051079caad12dad29772aa078ac54af0dff493fdb33ab4668/crawlab-ai-0.0.5.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [standardbots]: New version: [2.20240401.2] Old Version: [2.20240401.1]
+[2024-04-16 15:59:19] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/8b/3e/e97cefc029df2d543229037184e72ef6985808fc6d438fcb9f4ad98dff9c/giant_redirect_import-0.4.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [komminarlabs-influxdb]: Downloading https://files.pythonhosted.org/packages/17/0e/240d06e944955c88c8aefb7981ce282730f115c78caedc363f91044fe561/komminarlabs_influxdb-1.0.2.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [collate-sqllineage]: Downloading https://files.pythonhosted.org/packages/8b/19/90c7f3a27acbfa7c6c15a93473fb716a1e3256d9aca98e27e5d38603ef0a/collate-sqllineage-1.3.1.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/41/ff/15aa9002068772e3d45e9ed68c258ecd30bac9bdb0863e90e677d1533b96/pycityagent-1.1.8.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [pandas-deepscan-17]: Downloading https://files.pythonhosted.org/packages/56/3e/711a6098e7d661cb3c23f4ddd877d3e1e876ff8cbad4242fc643eeffd86a/pandas-deepscan-17-0.0.1.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/0e/c2/e6f444af5e64d3babe7a41184c46fe037e8bc066f003f980ab6093f2fcfc/standardbots-2.20240401.1.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/83/f9/9678d259fe4bd12ec31c2f644f5ad74413ba249e6debc68bfa1b77c6b46b/autosubmitconfigparser-1.0.59-py3-none-any.whl
+[2024-04-16 15:59:19] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/54/fc/8cb43325ed7393115924c14441df756d8f31d5e330fae204a95718671e82/crawlab-ai-0.0.6.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/24/38/d18fae8d519618ff6a33eb12786c0546068107df16d78e05d0070c3a72af/DLMS_SPODES_client-0.7.9.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [wiwb]: Downloading https://files.pythonhosted.org/packages/41/c3/227f6e3f2fe40d45b7ef787cb51893014bcb076e5228864ad65bd30ef209/wiwb-2024.4.1.tar.gz
+[2024-04-16 15:59:19] INFO root fetch - processPackages [crawlab-ai]: executing diffoscope
+[2024-04-16 15:59:19] INFO root fetch - processPackages [crawlab-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlab-ai-0.0.5.tar.gz tmp/crawlab-ai-0.0.6.tar.gz --markdown 20240416/c/crawlab-ai/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-16 15:59:19] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-16 15:59:19] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.8.tar.gz tmp/DLMS_SPODES_client-0.7.9.tar.gz --markdown 20240416/D/DLMS-SPODES-client/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-16 15:59:20] INFO root fetch - processPackages [wiwb]: executing diffoscope
+[2024-04-16 15:59:20] INFO root fetch - processPackages [wiwb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiwb-2024.4.0.tar.gz tmp/wiwb-2024.4.1.tar.gz --markdown 20240416/w/wiwb/2024.4.0-2024.4.1/README.md --exclude *.pyd
+[2024-04-16 15:59:20] INFO root fetch - processPackages [komminarlabs-influxdb]: Downloading https://files.pythonhosted.org/packages/9f/05/3695ec68eb100729f48fce01ef2b1a9477655818849db18486eda83d4bd9/komminarlabs_influxdb-1.2.0.tar.gz
+[2024-04-16 15:59:20] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/7b/4c/d9489b5151a2aa3b8531c42fded40c7096ea45b1df9eb725dcf4f088e943/giant_redirect_import-0.5.tar.gz
+[2024-04-16 15:59:20] INFO root fetch - processPackages [pandas-deepscan-17]: Downloading https://files.pythonhosted.org/packages/69/64/3546521525d811ca0d1b4a649f8040e578d86fe62e76da39d0fb55ad5389/pandas-deepscan-17-0.0.2.tar.gz
+[2024-04-16 15:59:20] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/78/dc/15c7062d63244da2e1c3d355406154487132decf41fd029e655a7697013a/standardbots-2.20240401.2.tar.gz
+[2024-04-16 15:59:20] INFO root fetch - processPackages [autosubmitconfigparser]: Downloading https://files.pythonhosted.org/packages/e6/88/3780df6aef60754eaae74ecdf93b79f48792ad125ee6a0ba7f1046658d1c/autosubmitconfigparser-1.0.60-py3-none-any.whl
+[2024-04-16 15:59:20] INFO root fetch - processPackages [pycityagent]: Downloading https://files.pythonhosted.org/packages/3e/cb/229561c68d49d6974de1dbd5ec5b8296517932e0e436fbee44b02f9bdd2f/pycityagent-1.1.9.tar.gz
+[2024-04-16 15:59:20] INFO root fetch - processPackages [autosubmitconfigparser]: executing diffoscope
+[2024-04-16 15:59:20] INFO root fetch - processPackages [autosubmitconfigparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmitconfigparser-1.0.59-py3-none-any.whl.zip tmp/autosubmitconfigparser-1.0.60-py3-none-any.whl.zip --markdown 20240416/a/autosubmitconfigparser/1.0.59-1.0.60/README.md --exclude *.pyd
+[2024-04-16 15:59:20] INFO root fetch - processPackages [standardbots]: executing diffoscope
+[2024-04-16 15:59:20] INFO root fetch - processPackages [standardbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/standardbots-2.20240401.1.tar.gz tmp/standardbots-2.20240401.2.tar.gz --markdown 20240416/s/standardbots/2.20240401.1-2.20240401.2/README.md --exclude *.pyd
+[2024-04-16 15:59:20] INFO root fetch - processPackages [komminarlabs-influxdb]: executing diffoscope
+[2024-04-16 15:59:20] INFO root fetch - processPackages [komminarlabs-influxdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komminarlabs_influxdb-1.0.2.tar.gz tmp/komminarlabs_influxdb-1.2.0.tar.gz --markdown 20240416/k/komminarlabs-influxdb/1.0.2-1.2.0/README.md --exclude *.pyd
+[2024-04-16 15:59:20] INFO root fetch - processPackages [pycityagent]: executing diffoscope
+[2024-04-16 15:59:20] INFO root fetch - processPackages [pycityagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycityagent-1.1.8.tar.gz tmp/pycityagent-1.1.9.tar.gz --markdown 20240416/p/pycityagent/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-16 15:59:20] INFO root fetch - processPackages [giant-redirect-import]: executing diffoscope
+[2024-04-16 15:59:20] INFO root fetch - processPackages [giant-redirect-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant_redirect_import-0.4.tar.gz tmp/giant_redirect_import-0.5.tar.gz --markdown 20240416/g/giant-redirect-import/0.4-0.5/README.md --exclude *.pyd
+[2024-04-16 15:59:20] INFO root fetch - processPackages [pandas-deepscan-17]: executing diffoscope
+[2024-04-16 15:59:20] INFO root fetch - processPackages [pandas-deepscan-17]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-deepscan-17-0.0.1.tar.gz tmp/pandas-deepscan-17-0.0.2.tar.gz --markdown 20240416/p/pandas-deepscan-17/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 15:59:20] INFO root fetch - processPackages [collate-sqllineage]: Downloading https://files.pythonhosted.org/packages/d2/0d/b772133fbefbeb5ded19b824cff8210049471814fe05edf3b3870ba7b316/collate_sqllineage-1.3.2.tar.gz
+[2024-04-16 15:59:20] INFO root fetch - processPackages [collate-sqllineage]: executing diffoscope
+[2024-04-16 15:59:20] INFO root fetch - processPackages [collate-sqllineage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collate-sqllineage-1.3.1.tar.gz tmp/collate_sqllineage-1.3.2.tar.gz --markdown 20240416/c/collate-sqllineage/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-16 15:59:20] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.5.tar.gz]
+[2024-04-16 15:59:20] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.6.tar.gz]
+[2024-04-16 15:59:20] INFO root fetch - processPackages [crawlab-ai]: Start processing: qiskit-iqm
+[2024-04-16 15:59:20] INFO root fetch - main [MainThread]: End processing [crawlab-ai]: success
+[2024-04-16 15:59:21] INFO root fetch - processPackages [qiskit-iqm]: New version: [9.0] Old Version: [8.3]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [wiwb]: Remove: archive file [/home/abi/fetcher/tmp/wiwb-2024.4.0.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [wiwb]: Remove: archive file [/home/abi/fetcher/tmp/wiwb-2024.4.1.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [wiwb]: Start processing: raga-llm-eval
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [wiwb]: success
+[2024-04-16 15:59:21] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/6f/9f/9f7666c7e61e4ba8b3f959e0c5eef07e997c7500f0d051b41a202380e0fc/qiskit-iqm-8.3.tar.gz
+[2024-04-16 15:59:21] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.8.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.9.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [DLMS-SPODES-client]: Start processing: SLIP
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-16 15:59:21] INFO root fetch - processPackages [raga-llm-eval]: New version: [2.1.0b0] Old Version: [2.0.0b9]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [pandas-deepscan-17]: Remove: archive file [/home/abi/fetcher/tmp/pandas-deepscan-17-0.0.1.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [pandas-deepscan-17]: Remove: archive file [/home/abi/fetcher/tmp/pandas-deepscan-17-0.0.2.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [pandas-deepscan-17]: Start processing: jgdv
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [pandas-deepscan-17]: success
+[2024-04-16 15:59:21] INFO root fetch - processPackages [SLIP]: New version: [20191113] Old Version: [20171205]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [jgdv]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240401.1.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240401.2.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [standardbots]: Start processing: flake8-no-nesting
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [standardbots]: success
+[2024-04-16 15:59:21] INFO root fetch - processPackages [qiskit-iqm]: Downloading https://files.pythonhosted.org/packages/21/fa/19188be4ca367f4ebaec7bd7ee3b5daab94d4a3a20da3ac629796190e76b/qiskit-iqm-9.0.tar.gz
+[2024-04-16 15:59:21] INFO root fetch - processPackages [giant-redirect-import]: Remove: archive file [/home/abi/fetcher/tmp/giant_redirect_import-0.4.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [giant-redirect-import]: Remove: archive file [/home/abi/fetcher/tmp/giant_redirect_import-0.5.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [giant-redirect-import]: Start processing: crawlab-ai
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [giant-redirect-import]: success
+[2024-04-16 15:59:21] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.59-py3-none-any.whl.zip]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [autosubmitconfigparser]: Remove: archive file [/home/abi/fetcher/tmp/autosubmitconfigparser-1.0.60-py3-none-any.whl.zip]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [autosubmitconfigparser]: Start processing: sbcli-jm
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [autosubmitconfigparser]: success
+[2024-04-16 15:59:21] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.8.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [pycityagent]: Remove: archive file [/home/abi/fetcher/tmp/pycityagent-1.1.9.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [pycityagent]: success
+[2024-04-16 15:59:21] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/ad/78/5728def629549bb553cb0bdcda53b4397cbdee2e8996bb48315245dbfb05/raga-llm-eval-2.0.0b9.tar.gz
+[2024-04-16 15:59:21] INFO root fetch - processPackages [crawlab-ai]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [sbcli-jm]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [komminarlabs-influxdb]: Remove: archive file [/home/abi/fetcher/tmp/komminarlabs_influxdb-1.0.2.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - processPackages [komminarlabs-influxdb]: Remove: archive file [/home/abi/fetcher/tmp/komminarlabs_influxdb-1.2.0.tar.gz]
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [komminarlabs-influxdb]: success
+[2024-04-16 15:59:21] WARNING root fetch - processPackages [flake8-no-nesting]: Skipping, unable to determine old version
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [flake8-no-nesting] error
+[2024-04-16 15:59:21] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2024-04-16 15:59:21] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-8.3.tar.gz tmp/qiskit-iqm-9.0.tar.gz --markdown 20240416/q/qiskit-iqm/8.3-9.0/README.md --exclude *.pyd
+[2024-04-16 15:59:21] INFO root fetch - processPackages [jgdv]: Downloading https://files.pythonhosted.org/packages/5c/12/a45bb81244d1f49a243a1582d64955c0c8d72cbef45c8591785daba49fa0/jgdv-0.1.0.tar.gz
+[2024-04-16 15:59:21] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/31/21/2ad960466a550c7faff4a406c4732eef65bd86fe28d132bea54aefbef44b/sbcli-jm-2.1.2.zip
+[2024-04-16 15:59:21] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/49/32/33ecedcf4a3eee4da00a70d34e902fc6540bab301753819c8a19bb820718/crawlab-ai-0.0.7.tar.gz
+[2024-04-16 15:59:21] INFO root fetch - processPackages [SLIP]: Downloading https://files.pythonhosted.org/packages/5f/65/fd79088e1810675c8934703cfe7d7bd34190c0a5a2a621252e785b8e6802/SLIP-20191113.tar.gz
+[2024-04-16 15:59:21] WARNING root fetch - processPackages [SLIP]: Skipping package: exceeds size limit 17451417>=10485760
+[2024-04-16 15:59:21] INFO root fetch - main [MainThread]: End processing [SLIP] error
+[2024-04-16 15:59:21] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/78/b8/ae47fc6a805a17bfae00c5e2079924b74d706496efe968df9a9211fe29d5/sbcli-jm-2.1.3.zip
+[2024-04-16 15:59:21] INFO root fetch - processPackages [jgdv]: Downloading https://files.pythonhosted.org/packages/23/2f/771d1afd5b590d4c386b5acd6304962b62ec2fcdf5e3e1683552e627601f/jgdv-0.1.1.tar.gz
+[2024-04-16 15:59:22] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-16 15:59:22] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-jm-2.1.2.zip tmp/sbcli-jm-2.1.3.zip --markdown 20240416/s/sbcli-jm/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-16 15:59:22] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/c9/6c/09ea1f68935e0f349aebaf93adc55f8d18eee521b09be0053dbf22e4b5a3/crawlab-ai-0.0.8.tar.gz
+[2024-04-16 15:59:22] INFO root fetch - processPackages [jgdv]: executing diffoscope
+[2024-04-16 15:59:22] INFO root fetch - processPackages [jgdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgdv-0.1.0.tar.gz tmp/jgdv-0.1.1.tar.gz --markdown 20240416/j/jgdv/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 15:59:22] INFO root fetch - processPackages [crawlab-ai]: executing diffoscope
+[2024-04-16 15:59:22] INFO root fetch - processPackages [crawlab-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlab-ai-0.0.7.tar.gz tmp/crawlab-ai-0.0.8.tar.gz --markdown 20240416/c/crawlab-ai/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 15:59:22] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-8.3.tar.gz]
+[2024-04-16 15:59:22] INFO root fetch - processPackages [qiskit-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-iqm-9.0.tar.gz]
+[2024-04-16 15:59:22] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2024-04-16 15:59:22] INFO root fetch - processPackages [raga-llm-eval]: Downloading https://files.pythonhosted.org/packages/90/d1/65eec6bdd807de9349b24992a98a4070c6ea90bfaf76f81bf04cbecef8a3/raga_llm_eval-2.1.0b0.tar.gz
+[2024-04-16 15:59:22] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.7.tar.gz]
+[2024-04-16 15:59:22] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.8.tar.gz]
+[2024-04-16 15:59:22] INFO root fetch - main [MainThread]: End processing [crawlab-ai]: success
+[2024-04-16 15:59:23] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-jm-2.1.2.zip]
+[2024-04-16 15:59:23] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-jm-2.1.3.zip]
+[2024-04-16 15:59:23] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-16 15:59:23] INFO root fetch - processPackages [collate-sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/collate-sqllineage-1.3.1.tar.gz]
+[2024-04-16 15:59:23] INFO root fetch - processPackages [collate-sqllineage]: Remove: archive file [/home/abi/fetcher/tmp/collate_sqllineage-1.3.2.tar.gz]
+[2024-04-16 15:59:23] INFO root fetch - main [MainThread]: End processing [collate-sqllineage]: success
+[2024-04-16 15:59:23] INFO root fetch - processPackages [raga-llm-eval]: executing diffoscope
+[2024-04-16 15:59:23] INFO root fetch - processPackages [raga-llm-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-llm-eval-2.0.0b9.tar.gz tmp/raga_llm_eval-2.1.0b0.tar.gz --markdown 20240416/r/raga-llm-eval/2.0.0b9-2.1.0b0/README.md --exclude *.pyd
+[2024-04-16 15:59:23] INFO root fetch - processPackages [jgdv]: Remove: archive file [/home/abi/fetcher/tmp/jgdv-0.1.0.tar.gz]
+[2024-04-16 15:59:23] INFO root fetch - processPackages [jgdv]: Remove: archive file [/home/abi/fetcher/tmp/jgdv-0.1.1.tar.gz]
+[2024-04-16 15:59:23] INFO root fetch - main [MainThread]: End processing [jgdv]: success
+[2024-04-16 15:59:24] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga-llm-eval-2.0.0b9.tar.gz]
+[2024-04-16 15:59:24] INFO root fetch - processPackages [raga-llm-eval]: Remove: archive file [/home/abi/fetcher/tmp/raga_llm_eval-2.1.0b0.tar.gz]
+[2024-04-16 15:59:24] INFO root fetch - main [MainThread]: End processing [raga-llm-eval]: success
+[2024-04-16 15:59:24] INFO root fetch - main [MainThread]: Store serial: [22788598]
