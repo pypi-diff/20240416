@@ -2569,3 +2569,60 @@
 [2024-04-16 02:26:48] INFO root fetch - processPackages [py-glfw-redux]: Remove: archive file [/home/abi/fetcher/tmp/py_glfw_redux-1.1.0.tar.gz]
 [2024-04-16 02:26:48] INFO root fetch - main [MainThread]: End processing [py-glfw-redux]: success
 [2024-04-16 02:26:48] INFO root fetch - main [MainThread]: Store serial: [22780906]
+[2024-04-16 02:28:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780906]
+[2024-04-16 02:28:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 02:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-04-16 02:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-04-16 02:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: requestrepo
+[2024-04-16 02:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2024-04-16 02:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygmc
+[2024-04-16 02:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cabinet
+[2024-04-16 02:28:58] INFO root fetch - processPackages [requestrepo]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-16 02:28:58] INFO root fetch - processPackages [pygmc]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cabinet]: New version: [2024.4.15.1] Old Version: [2024.3.5.1]
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [requestrepo]: Downloading https://files.pythonhosted.org/packages/9d/81/139c85348593738ad7eae13aa87c21f3cc999c5b69681431d18e700d7e79/requestrepo-0.0.1.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [pygmc]: Downloading https://files.pythonhosted.org/packages/95/ab/a08648d47874dec244d3f2007610446c24b55903170dd3eb490bea95f652/pygmc-0.9.0.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/d4/9b/8a8540213c8579afbbee9b66440689b79cdf1d809a5e783f5b98f7c48bf8/cabinet-2024.3.5.1.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240416/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240416/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-16 02:28:58] INFO root fetch - processPackages [requestrepo]: Downloading https://files.pythonhosted.org/packages/90/1c/6c922b59344908f9d8309542187bb35969c0321d1b05f7ff394e9afe143e/requestrepo-0.0.2.tar.gz
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240416/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-16 02:28:58] INFO root fetch - processPackages [requestrepo]: executing diffoscope
+[2024-04-16 02:28:58] INFO root fetch - processPackages [requestrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestrepo-0.0.1.tar.gz tmp/requestrepo-0.0.2.tar.gz --markdown 20240416/r/requestrepo/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 02:28:58] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/62/c6/94365bd0b066be96ac49e389b822000fb6e954169c7e3f4d9c2e9f33a6a8/cabinet-2024.4.15.1.tar.gz
+[2024-04-16 02:28:59] INFO root fetch - processPackages [pygmc]: Downloading https://files.pythonhosted.org/packages/b8/15/ec925be483dd209edb4e1a7294a0d4c7acb9b20b914b0a53316a74fad651/pygmc-0.9.1.tar.gz
+[2024-04-16 02:28:59] INFO root fetch - processPackages [pygmc]: executing diffoscope
+[2024-04-16 02:28:59] INFO root fetch - processPackages [pygmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmc-0.9.0.tar.gz tmp/pygmc-0.9.1.tar.gz --markdown 20240416/p/pygmc/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2024.3.5.1.tar.gz tmp/cabinet-2024.4.15.1.tar.gz --markdown 20240416/c/cabinet/2024.3.5.1-2024.4.15.1/README.md --exclude *.pyd
+[2024-04-16 02:28:59] INFO root fetch - processPackages [requestrepo]: Remove: archive file [/home/abi/fetcher/tmp/requestrepo-0.0.1.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - processPackages [requestrepo]: Remove: archive file [/home/abi/fetcher/tmp/requestrepo-0.0.2.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - main [MainThread]: End processing [requestrepo]: success
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-16 02:28:59] INFO root fetch - processPackages [pygmc]: Remove: archive file [/home/abi/fetcher/tmp/pygmc-0.9.0.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - processPackages [pygmc]: Remove: archive file [/home/abi/fetcher/tmp/pygmc-0.9.1.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - main [MainThread]: End processing [pygmc]: success
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.3.5.1.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.4.15.1.tar.gz]
+[2024-04-16 02:28:59] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2024-04-16 02:28:59] INFO root fetch - main [MainThread]: Store serial: [22780924]
