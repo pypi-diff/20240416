@@ -13001,3 +13001,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 11:40:50] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
 [2024-04-16 11:40:50] INFO root fetch - main [MainThread]: End processing [capellambse]: success
 [2024-04-16 11:40:50] INFO root fetch - main [MainThread]: Store serial: [22785581]
+[2024-04-16 11:42:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22785581]
+[2024-04-16 11:43:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-16 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-logstash
+[2024-04-16 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: validio-plotting
+[2024-04-16 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emtl
+[2024-04-16 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: HawaData
+[2024-04-16 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymc-experimental
+[2024-04-16 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digiflow
+[2024-04-16 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tej-tool-api
+[2024-04-16 11:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flybrains
+[2024-04-16 11:43:00] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-16 11:43:00] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-16 11:43:01] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [emtl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 11:43:01] INFO root fetch - processPackages [validio-plotting]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-16 11:43:01] INFO root fetch - processPackages [flybrains]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-16 11:43:01] INFO root fetch - processPackages [tej-tool-api]: New version: [1.1.2rc0] Old Version: [1.1.1rc4]
+[2024-04-16 11:43:01] WARNING root fetch - processPackages [easy-logstash]: Skipping, unable to determine old version
+[2024-04-16 11:43:01] INFO root fetch - main [MainThread]: End processing [easy-logstash] error
+[2024-04-16 11:43:01] INFO root fetch - processPackages [pymc-experimental]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-16 11:43:01] INFO root fetch - processPackages [digiflow]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-16 11:43:01] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/dd/30/5b4804f16cf4228e8cc18c5762d416169ce7926a9aabc9cc119080f4458c/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl
+[2024-04-16 11:43:01] INFO root fetch - processPackages [digiflow]: Downloading https://files.pythonhosted.org/packages/e4/18/ec9cb9df4f0d53a7d654c89f35b13652cbff8ad7facae01202cb418d294f/digiflow-3.9.1.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [emtl]: Downloading https://files.pythonhosted.org/packages/e0/db/ed122fd5128efef2c5cb10cb41cc2d2af9fe81720d3ba61335c94f98adde/emtl-0.1.0.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [flybrains]: Downloading https://files.pythonhosted.org/packages/d5/81/b21212afcb13c8f9fc5f6f29ff6292d68bcd5f491668d02f257add3ca706/flybrains-0.2.8.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [validio-plotting]: Downloading https://files.pythonhosted.org/packages/44/c6/c2d9bdf3d81c23867b9a83f1e5e4c4c0122e8f690e51c78c35d9e4d701a6/validio_plotting-0.1.0.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [pymc-experimental]: Downloading https://files.pythonhosted.org/packages/18/b1/98bce132720a93cc049364ba631d0f5dadfa3ef19a3340e3f7b2b738e0c5/pymc-experimental-0.0.9.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/e5/98/03a4d8a68df92d95bb30c2f20ac078a234afe8038e5fe1a689db8ea66d83/tej-tool-api-1.1.1rc4.tar.gz
+[2024-04-16 11:43:01] WARNING root fetch - processPackages [flybrains]: Skipping package: exceeds size limit 11571578>=10485760
+[2024-04-16 11:43:01] INFO root fetch - main [MainThread]: End processing [flybrains] error
+[2024-04-16 11:43:01] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/bc/40/0497a66db52c929f7889f8fea02511b805da52a3820b851a97e1629870d8/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl
+[2024-04-16 11:43:01] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-16 11:43:01] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240416/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-16 11:43:01] INFO root fetch - processPackages [digiflow]: Downloading https://files.pythonhosted.org/packages/71/35/4dbc1d8df5ef2db70991205a7f6b089283fea29b5d113248f031925f6e81/digiflow-3.9.2.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [validio-plotting]: Downloading https://files.pythonhosted.org/packages/9b/e8/8d91f9bc3dc02e39ea123e5eb1c7324924b491b9ffc116ce17b194cfb905/validio_plotting-0.2.0.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [emtl]: Downloading https://files.pythonhosted.org/packages/9a/30/9bda0a701f991c960999eee89be90da371a14ad6c1f7d6aac50fda37d623/emtl-0.1.1.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-16 11:43:01] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl.zip --markdown 20240416/b/bigdl-core-xe-esimd-21/2.5.0b20240414-2.5.0b20240415/README.md --exclude *.pyd
+[2024-04-16 11:43:01] INFO root fetch - processPackages [pymc-experimental]: Downloading https://files.pythonhosted.org/packages/a4/a7/cd23b88b6d19fd31dcc395570c9dfe854939c7823fb1a60a2f26d3dc2816/pymc_experimental-0.1.0.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [tej-tool-api]: Downloading https://files.pythonhosted.org/packages/52/79/cc1730b3765e987cada88296323b586af58551be1304fd65096962878d24/tej_tool_api-1.1.2rc0.tar.gz
+[2024-04-16 11:43:01] INFO root fetch - processPackages [validio-plotting]: executing diffoscope
+[2024-04-16 11:43:01] INFO root fetch - processPackages [validio-plotting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validio_plotting-0.1.0.tar.gz tmp/validio_plotting-0.2.0.tar.gz --markdown 20240416/v/validio-plotting/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-16 11:43:01] INFO root fetch - processPackages [emtl]: executing diffoscope
+[2024-04-16 11:43:01] INFO root fetch - processPackages [emtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emtl-0.1.0.tar.gz tmp/emtl-0.1.1.tar.gz --markdown 20240416/e/emtl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 11:43:01] INFO root fetch - processPackages [digiflow]: executing diffoscope
+[2024-04-16 11:43:01] INFO root fetch - processPackages [digiflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digiflow-3.9.1.tar.gz tmp/digiflow-3.9.2.tar.gz --markdown 20240416/d/digiflow/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-16 11:43:01] INFO root fetch - processPackages [tej-tool-api]: executing diffoscope
+[2024-04-16 11:43:01] INFO root fetch - processPackages [tej-tool-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tej-tool-api-1.1.1rc4.tar.gz tmp/tej_tool_api-1.1.2rc0.tar.gz --markdown 20240416/t/tej-tool-api/1.1.1rc4-1.1.2rc0/README.md --exclude *.pyd
+[2024-04-16 11:43:02] INFO root fetch - processPackages [pymc-experimental]: executing diffoscope
+[2024-04-16 11:43:02] INFO root fetch - processPackages [pymc-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-experimental-0.0.9.tar.gz tmp/pymc_experimental-0.1.0.tar.gz --markdown 20240416/p/pymc-experimental/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-16 11:43:02] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-16 11:43:02] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-16 11:43:02] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-16 11:43:02] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 11:43:02] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240415-cp39-cp39-win_amd64.whl.zip]
+[2024-04-16 11:43:02] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21]: success
+[2024-04-16 11:43:02] INFO root fetch - processPackages [validio-plotting]: Remove: archive file [/home/abi/fetcher/tmp/validio_plotting-0.1.0.tar.gz]
+[2024-04-16 11:43:02] INFO root fetch - processPackages [validio-plotting]: Remove: archive file [/home/abi/fetcher/tmp/validio_plotting-0.2.0.tar.gz]
+[2024-04-16 11:43:02] INFO root fetch - main [MainThread]: End processing [validio-plotting]: success
+[2024-04-16 11:43:02] INFO root fetch - processPackages [emtl]: Remove: archive file [/home/abi/fetcher/tmp/emtl-0.1.0.tar.gz]
+[2024-04-16 11:43:02] INFO root fetch - processPackages [emtl]: Remove: archive file [/home/abi/fetcher/tmp/emtl-0.1.1.tar.gz]
+[2024-04-16 11:43:02] INFO root fetch - main [MainThread]: End processing [emtl]: success
+[2024-04-16 11:43:02] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej-tool-api-1.1.1rc4.tar.gz]
+[2024-04-16 11:43:02] INFO root fetch - processPackages [tej-tool-api]: Remove: archive file [/home/abi/fetcher/tmp/tej_tool_api-1.1.2rc0.tar.gz]
+[2024-04-16 11:43:02] INFO root fetch - main [MainThread]: End processing [tej-tool-api]: success
+[2024-04-16 11:43:03] INFO root fetch - processPackages [pymc-experimental]: Remove: archive file [/home/abi/fetcher/tmp/pymc-experimental-0.0.9.tar.gz]
+[2024-04-16 11:43:03] INFO root fetch - processPackages [pymc-experimental]: Remove: archive file [/home/abi/fetcher/tmp/pymc_experimental-0.1.0.tar.gz]
+[2024-04-16 11:43:03] INFO root fetch - main [MainThread]: End processing [pymc-experimental]: success
+[2024-04-16 11:43:03] INFO root fetch - processPackages [digiflow]: Remove: archive file [/home/abi/fetcher/tmp/digiflow-3.9.1.tar.gz]
+[2024-04-16 11:43:03] INFO root fetch - processPackages [digiflow]: Remove: archive file [/home/abi/fetcher/tmp/digiflow-3.9.2.tar.gz]
+[2024-04-16 11:43:03] INFO root fetch - main [MainThread]: End processing [digiflow]: success
+[2024-04-16 11:43:03] INFO root fetch - main [MainThread]: Store serial: [22785608]
