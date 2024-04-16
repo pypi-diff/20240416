@@ -15957,3 +15957,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:40:35] INFO root fetch - processPackages [textwiz]: Remove: archive file [/home/abi/fetcher/tmp/textwiz-0.6.0.tar.gz]
 [2024-04-16 13:40:35] INFO root fetch - main [MainThread]: End processing [textwiz]: success
 [2024-04-16 13:40:35] INFO root fetch - main [MainThread]: Store serial: [22786938]
+[2024-04-16 13:42:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786938]
+[2024-04-16 13:42:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 13:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypylib
+[2024-04-16 13:42:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ls2d
+[2024-04-16 13:42:44] INFO root fetch - processPackages [ls2d]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-16 13:42:44] INFO root fetch - processPackages [mypylib]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 13:42:45] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/3d/e4/489bfbd911884d65e44567a30f5619dad64fda245ecbfc9d18cd522d642c/mypylib-0.2.2.tar.gz
+[2024-04-16 13:42:45] INFO root fetch - processPackages [ls2d]: Downloading https://files.pythonhosted.org/packages/39/d7/26a8a1c0cf5b8af9c194858f98d657d85f8459c5e56adbcbe02decc5cfe8/ls2d-1.0.3.tar.gz
+[2024-04-16 13:42:45] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/16/55/90220eec1337456f9f6cedef18ca8eba508f564dc8226170b12a262c0297/mypylib-0.2.3.tar.gz
+[2024-04-16 13:42:45] INFO root fetch - processPackages [ls2d]: Downloading https://files.pythonhosted.org/packages/4c/96/90d864c1212644144eb719f64c3e7aad95e85686845b48e858c111a17785/ls2d-1.0.4.tar.gz
+[2024-04-16 13:42:45] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2024-04-16 13:42:45] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.2.2.tar.gz tmp/mypylib-0.2.3.tar.gz --markdown 20240416/m/mypylib/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 13:42:45] INFO root fetch - processPackages [ls2d]: executing diffoscope
+[2024-04-16 13:42:45] INFO root fetch - processPackages [ls2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ls2d-1.0.3.tar.gz tmp/ls2d-1.0.4.tar.gz --markdown 20240416/l/ls2d/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-16 13:42:46] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.2.2.tar.gz]
+[2024-04-16 13:42:46] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.2.3.tar.gz]
+[2024-04-16 13:42:46] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2024-04-16 13:42:46] INFO root fetch - processPackages [ls2d]: Remove: archive file [/home/abi/fetcher/tmp/ls2d-1.0.3.tar.gz]
+[2024-04-16 13:42:46] INFO root fetch - processPackages [ls2d]: Remove: archive file [/home/abi/fetcher/tmp/ls2d-1.0.4.tar.gz]
+[2024-04-16 13:42:46] INFO root fetch - main [MainThread]: End processing [ls2d]: success
+[2024-04-16 13:42:46] INFO root fetch - main [MainThread]: Store serial: [22786944]
