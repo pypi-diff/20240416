@@ -5787,3 +5787,48 @@
 [2024-04-16 06:16:11] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz]
 [2024-04-16 06:16:11] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2024-04-16 06:16:11] INFO root fetch - main [MainThread]: Store serial: [22782447]
+[2024-04-16 06:18:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782447]
+[2024-04-16 06:18:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 06:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vlora
+[2024-04-16 06:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbrlabs-pulumi-eks
+[2024-04-16 06:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bayesian-safety-validation
+[2024-04-16 06:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: translator-testing-model
+[2024-04-16 06:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hiyabofree
+[2024-04-16 06:18:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcqq-tool
+[2024-04-16 06:18:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: New version: [0.9.1a1707243566] Old Version: [0.9.0]
+[2024-04-16 06:18:21] WARNING root fetch - processPackages [bayesian-safety-validation]: Skipping, unable to determine old version
+[2024-04-16 06:18:21] INFO root fetch - main [MainThread]: End processing [bayesian-safety-validation] error
+[2024-04-16 06:18:21] WARNING root fetch - processPackages [hiyabofree]: Skipping, unable to determine old version
+[2024-04-16 06:18:21] INFO root fetch - main [MainThread]: End processing [hiyabofree] error
+[2024-04-16 06:18:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/21/d7/aef8d104afe3ce2ea7de7a0d57a6fe58ed7d3eda4674da284fbeaea82f93/lbrlabs_pulumi_eks-0.9.0.tar.gz
+[2024-04-16 06:18:21] INFO root fetch - processPackages [vlora]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 06:18:21] INFO root fetch - processPackages [translator-testing-model]: New version: [2.3.0] Old Version: [0.3.0]
+[2024-04-16 06:18:21] INFO root fetch - processPackages [mcqq-tool]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-16 06:18:21] INFO root fetch - processPackages [translator-testing-model]: Downloading https://files.pythonhosted.org/packages/db/c7/b126251a60702e47ceade8baf0ee1d42e83782f13b76d15ad55bbba949e7/translator_testing_model-0.3.0.tar.gz
+[2024-04-16 06:18:21] INFO root fetch - processPackages [vlora]: Downloading https://files.pythonhosted.org/packages/3a/8e/b4bb1cd3a18b5e18bf85a2e33c88f519b2f5623add5f171d2ae179af7a46/vlora-0.1.0.tar.gz
+[2024-04-16 06:18:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Downloading https://files.pythonhosted.org/packages/f3/44/61d0eab4adc9a0cce0c9886829dc5f49c1c49864fc2a85eb3d49ce88bb30/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz
+[2024-04-16 06:18:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: executing diffoscope
+[2024-04-16 06:18:21] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz --markdown 20240416/l/lbrlabs-pulumi-eks/0.9.0-0.9.1a1707243566/README.md --exclude *.pyd
+[2024-04-16 06:18:21] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/ae/2c/3676fdb82dd0da5ac46977622b332943ed7b6042b6f62554a84e76c6433c/mcqq_tool-1.1.7.tar.gz
+[2024-04-16 06:18:21] INFO root fetch - processPackages [vlora]: Downloading https://files.pythonhosted.org/packages/d6/d5/be863d8544434b46c4006bc52a875de12669395a7188eac1e751f63681aa/vlora-0.1.1.tar.gz
+[2024-04-16 06:18:21] INFO root fetch - processPackages [translator-testing-model]: Downloading https://files.pythonhosted.org/packages/fd/9b/5839615dc4f9a8232d4e0ea61c408c1feabfe0f57b6f45c4a5a37a71cceb/translator_testing_model-2.3.0.tar.gz
+[2024-04-16 06:18:21] INFO root fetch - processPackages [translator-testing-model]: executing diffoscope
+[2024-04-16 06:18:21] INFO root fetch - processPackages [translator-testing-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translator_testing_model-0.3.0.tar.gz tmp/translator_testing_model-2.3.0.tar.gz --markdown 20240416/t/translator-testing-model/0.3.0-2.3.0/README.md --exclude *.pyd
+[2024-04-16 06:18:21] INFO root fetch - processPackages [vlora]: executing diffoscope
+[2024-04-16 06:18:21] INFO root fetch - processPackages [vlora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vlora-0.1.0.tar.gz tmp/vlora-0.1.1.tar.gz --markdown 20240416/v/vlora/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 06:18:22] INFO root fetch - processPackages [mcqq-tool]: Downloading https://files.pythonhosted.org/packages/f3/22/8505a7e443e97736c695a79ff9d12f021d2a17047e9927ded6dd7d50cef5/mcqq_tool-1.1.8.tar.gz
+[2024-04-16 06:18:22] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.0.tar.gz]
+[2024-04-16 06:18:22] INFO root fetch - processPackages [lbrlabs-pulumi-eks]: Remove: archive file [/home/abi/fetcher/tmp/lbrlabs_pulumi_eks-0.9.1a1707243566.tar.gz]
+[2024-04-16 06:18:22] INFO root fetch - main [MainThread]: End processing [lbrlabs-pulumi-eks]: success
+[2024-04-16 06:18:22] INFO root fetch - processPackages [vlora]: Remove: archive file [/home/abi/fetcher/tmp/vlora-0.1.0.tar.gz]
+[2024-04-16 06:18:22] INFO root fetch - processPackages [vlora]: Remove: archive file [/home/abi/fetcher/tmp/vlora-0.1.1.tar.gz]
+[2024-04-16 06:18:22] INFO root fetch - main [MainThread]: End processing [vlora]: success
+[2024-04-16 06:18:23] INFO root fetch - processPackages [translator-testing-model]: Remove: archive file [/home/abi/fetcher/tmp/translator_testing_model-0.3.0.tar.gz]
+[2024-04-16 06:18:23] INFO root fetch - processPackages [translator-testing-model]: Remove: archive file [/home/abi/fetcher/tmp/translator_testing_model-2.3.0.tar.gz]
+[2024-04-16 06:18:23] INFO root fetch - main [MainThread]: End processing [translator-testing-model]: success
+[2024-04-16 06:18:24] INFO root fetch - processPackages [mcqq-tool]: executing diffoscope
+[2024-04-16 06:18:24] INFO root fetch - processPackages [mcqq-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcqq_tool-1.1.7.tar.gz tmp/mcqq_tool-1.1.8.tar.gz --markdown 20240416/m/mcqq-tool/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-16 06:18:24] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq_tool-1.1.7.tar.gz]
+[2024-04-16 06:18:24] INFO root fetch - processPackages [mcqq-tool]: Remove: archive file [/home/abi/fetcher/tmp/mcqq_tool-1.1.8.tar.gz]
+[2024-04-16 06:18:24] INFO root fetch - main [MainThread]: End processing [mcqq-tool]: success
+[2024-04-16 06:18:24] INFO root fetch - main [MainThread]: Store serial: [22782466]
