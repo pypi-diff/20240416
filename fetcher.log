@@ -9731,3 +9731,73 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:52:53] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.6.tar.gz]
 [2024-04-16 09:52:53] INFO root fetch - main [MainThread]: End processing [speedtab]: success
 [2024-04-16 09:52:53] INFO root fetch - main [MainThread]: Store serial: [22784031]
+[2024-04-16 09:54:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22784031]
+[2024-04-16 09:55:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-16 09:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gmsofttest
+[2024-04-16 09:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-stock-restocking-fee-invoicing
+[2024-04-16 09:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odp-sdk-python-ingest
+[2024-04-16 09:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2024-04-16 09:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plonetheme.deliberations
+[2024-04-16 09:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paicorelib
+[2024-04-16 09:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-customer-deposit
+[2024-04-16 09:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2024-04-16 09:55:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pasta-man
+[2024-04-16 09:55:03] WARNING root fetch - processPackages [odoo-addon-sale-stock-restocking-fee-invoicing]: Skipping, unable to determine old version
+[2024-04-16 09:55:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-restocking-fee-invoicing] error
+[2024-04-16 09:55:03] INFO root fetch - processPackages [pasta-man]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-16 09:55:03] INFO root fetch - processPackages [odp-sdk-python-ingest]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-16 09:55:03] INFO root fetch - processPackages [pasta-man]: Downloading https://files.pythonhosted.org/packages/3a/3e/817f23ea0150433e6deb06b3a34f505525f9ae5dc55393d78eb6f3238b42/pasta_man-1.0.6.tar.gz
+[2024-04-16 09:55:03] ERROR root fetch - processPackages [plonetheme.deliberations]: Unable to get metadata: No such project 'plonetheme.deliberations'
+[2024-04-16 09:55:03] INFO root fetch - main [MainThread]: End processing [plonetheme.deliberations] error
+[2024-04-16 09:55:03] INFO root fetch - processPackages [paicorelib]: New version: [1.0.0rc1] Old Version: [0.0.9]
+[2024-04-16 09:55:03] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20240415.1] Old Version: [16.0.20240411.0]
+[2024-04-16 09:55:03] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20240415.1] Old Version: [16.0.20240411.0]
+[2024-04-16 09:55:03] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-04-16 09:55:03] INFO root fetch - processPackages [gmsofttest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 09:55:03] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/5d/0e/f9afd54a77824088abaaca0cfcd51ff6548c81c144895026889904c1c641/odp_sdk_python_ingest-0.4.8.tar.gz
+[2024-04-16 09:55:03] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/eb/c9/80a2e9566b35349b1eb8378e20b5a4ed2e0f534992281be6f39de2183dfc/gmsofttest-0.0.8.tar.gz
+[2024-04-16 09:55:03] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/f0/75/85c1ae938353fcedad938dcec41e82a784e3566d7e1753a2c22413ef6ea4/odoo_addons_oca_stock_logistics_workflow-16.0.20240411.0-py3-none-any.whl
+[2024-04-16 09:55:03] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/f0/75/85c1ae938353fcedad938dcec41e82a784e3566d7e1753a2c22413ef6ea4/odoo_addons_oca_stock_logistics_workflow-16.0.20240411.0-py3-none-any.whl
+[2024-04-16 09:55:03] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: Downloading https://files.pythonhosted.org/packages/5b/e4/3a744e6d20aaffdbe614cf7ac32921701af5dff295634dc231c54e02ee8f/odoo_addon_stock_customer_deposit-16.0.1.0.1-py3-none-any.whl
+[2024-04-16 09:55:03] INFO root fetch - processPackages [paicorelib]: Downloading https://files.pythonhosted.org/packages/84/44/04b0926b200706a88d0f2f341802394221d549c49b0e6f1e6072153d0227/paicorelib-0.0.9.tar.gz
+[2024-04-16 09:55:03] INFO root fetch - processPackages [pasta-man]: Downloading https://files.pythonhosted.org/packages/10/e3/fa33cb630012c7b1353f334321eedc594fc605a2b45b4dcf8f4173cce4a8/pasta_man-1.0.7.tar.gz
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odp-sdk-python-ingest]: Downloading https://files.pythonhosted.org/packages/01/62/746ccaf558bd8d1acd3b8664ec29d268638a163fdb3748dce63c4d890463/odp_sdk_python_ingest-0.4.9.tar.gz
+[2024-04-16 09:55:04] INFO root fetch - processPackages [pasta-man]: executing diffoscope
+[2024-04-16 09:55:04] INFO root fetch - processPackages [pasta-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_man-1.0.6.tar.gz tmp/pasta_man-1.0.7.tar.gz --markdown 20240416/p/pasta-man/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-16 09:55:04] INFO root fetch - processPackages [gmsofttest]: Downloading https://files.pythonhosted.org/packages/ed/9f/122493f4e3bf0b258a259a6fe55e73fbee9bdfc4fad41c41616c86d64327/gmsofttest-0.0.9.tar.gz
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/d2/0a/672048cd92d73d78c1e9059fdd4862471adfe606c74d4fed445f780d5551/odoo_addons_oca_stock_logistics_workflow-16.0.20240415.1-py3-none-any.whl
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/d2/0a/672048cd92d73d78c1e9059fdd4862471adfe606c74d4fed445f780d5551/odoo_addons_oca_stock_logistics_workflow-16.0.20240415.1-py3-none-any.whl
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: Downloading https://files.pythonhosted.org/packages/07/4f/1c5fdebd6ba87c081e6534cad41479b2134e846c5d3d0c0e88db8fac5f70/odoo_addon_stock_customer_deposit-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odp-sdk-python-ingest]: executing diffoscope
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odp-sdk-python-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk_python_ingest-0.4.8.tar.gz tmp/odp_sdk_python_ingest-0.4.9.tar.gz --markdown 20240416/o/odp-sdk-python-ingest/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-16 09:55:04] INFO root fetch - processPackages [gmsofttest]: executing diffoscope
+[2024-04-16 09:55:04] INFO root fetch - processPackages [gmsofttest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsofttest-0.0.8.tar.gz tmp/gmsofttest-0.0.9.tar.gz --markdown 20240416/g/gmsofttest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 09:55:04] INFO root fetch - processPackages [paicorelib]: Downloading https://files.pythonhosted.org/packages/66/b5/55f8b40d8fc4ce56dcf697da58098faf6d33a680ef8bf71eb24a459542c0/paicorelib-1.0.0rc1.tar.gz
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240411.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240415.1-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-stock-logistics-workflow/16.0.20240411.0-16.0.20240415.1/README.md --exclude *.pyd
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240411.0-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240415.1-py3-none-any.whl.zip --markdown 20240416/o/odoo-addons-oca-stock-logistics-workflow/16.0.20240411.0-16.0.20240415.1/README.md --exclude *.pyd
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: executing diffoscope
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_customer_deposit-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_customer_deposit-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-stock-customer-deposit/16.0.1.0.1-16.0.1.0.1.1/README.md --exclude *.pyd
+[2024-04-16 09:55:04] INFO root fetch - processPackages [paicorelib]: executing diffoscope
+[2024-04-16 09:55:04] INFO root fetch - processPackages [paicorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paicorelib-0.0.9.tar.gz tmp/paicorelib-1.0.0rc1.tar.gz --markdown 20240416/p/paicorelib/0.0.9-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240411.0-py3-none-any.whl.zip]
+[2024-04-16 09:55:04] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240415.1-py3-none-any.whl.zip]
+[2024-04-16 09:55:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2024-04-16 09:55:05] INFO root fetch - processPackages [pasta-man]: Remove: archive file [/home/abi/fetcher/tmp/pasta_man-1.0.6.tar.gz]
+[2024-04-16 09:55:05] INFO root fetch - processPackages [pasta-man]: Remove: archive file [/home/abi/fetcher/tmp/pasta_man-1.0.7.tar.gz]
+[2024-04-16 09:55:05] INFO root fetch - main [MainThread]: End processing [pasta-man]: success
+[2024-04-16 09:55:05] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2024-04-16 09:55:05] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_customer_deposit-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-16 09:55:05] INFO root fetch - processPackages [odoo-addon-stock-customer-deposit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_customer_deposit-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-16 09:55:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-customer-deposit]: success
+[2024-04-16 09:55:05] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.8.tar.gz]
+[2024-04-16 09:55:05] INFO root fetch - processPackages [gmsofttest]: Remove: archive file [/home/abi/fetcher/tmp/gmsofttest-0.0.9.tar.gz]
+[2024-04-16 09:55:05] INFO root fetch - main [MainThread]: End processing [gmsofttest]: success
+[2024-04-16 09:55:05] INFO root fetch - processPackages [paicorelib]: Remove: archive file [/home/abi/fetcher/tmp/paicorelib-0.0.9.tar.gz]
+[2024-04-16 09:55:05] INFO root fetch - processPackages [paicorelib]: Remove: archive file [/home/abi/fetcher/tmp/paicorelib-1.0.0rc1.tar.gz]
+[2024-04-16 09:55:05] INFO root fetch - main [MainThread]: End processing [paicorelib]: success
+[2024-04-16 09:55:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk_python_ingest-0.4.8.tar.gz]
+[2024-04-16 09:55:05] INFO root fetch - processPackages [odp-sdk-python-ingest]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk_python_ingest-0.4.9.tar.gz]
+[2024-04-16 09:55:05] INFO root fetch - main [MainThread]: End processing [odp-sdk-python-ingest]: success
+[2024-04-16 09:55:05] INFO root fetch - main [MainThread]: Store serial: [22784064]
