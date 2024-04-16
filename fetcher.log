@@ -16463,3 +16463,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:01:18] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2024-04-16 14:01:18] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2024-04-16 14:01:18] INFO root fetch - main [MainThread]: Store serial: [22787163]
+[2024-04-16 14:03:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787163]
+[2024-04-16 14:03:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labgrid
+[2024-04-16 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-histogram
+[2024-04-16 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chellow
+[2024-04-16 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-istat-italian-places
+[2024-04-16 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boario
+[2024-04-16 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unstract-dropboxdrivefs
+[2024-04-16 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PYield
+[2024-04-16 14:03:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyaffalddk
+[2024-04-16 14:03:27] INFO root fetch - processPackages [labgrid]: New version: [24.0a1] Old Version: [23.1a2]
+[2024-04-16 14:03:27] INFO root fetch - processPackages [django-istat-italian-places]: New version: [0.2.7.8] Old Version: [0.2.7.7]
+[2024-04-16 14:03:27] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-04-16 14:03:27] INFO root fetch - processPackages [pyaffalddk]: New version: [2.0.23] Old Version: [2.0.22]
+[2024-04-16 14:03:27] INFO root fetch - processPackages [labgrid]: Downloading https://files.pythonhosted.org/packages/25/a5/779401d2a1f4d2af32870b3b3076ba6b629b8627eef60e77cfa8be183edf/labgrid-23.1a2.tar.gz
+[2024-04-16 14:03:27] INFO root fetch - processPackages [boario]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-16 14:03:27] INFO root fetch - processPackages [django-istat-italian-places]: Downloading https://files.pythonhosted.org/packages/b3/35/97fe62efb4e5d081c86a3f4fc2cee67b160820747edc947f28c641676858/django-istat-italian-places-0.2.7.7.tar.gz
+[2024-04-16 14:03:27] INFO root fetch - processPackages [unstract-dropboxdrivefs]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 14:03:27] INFO root fetch - processPackages [PYield]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-16 14:03:27] INFO root fetch - processPackages [fast-histogram]: New version: [0.9] Old Version: [0.8]
+[2024-04-16 14:03:27] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-04-16 14:03:27] INFO root fetch - processPackages [pyaffalddk]: Downloading https://files.pythonhosted.org/packages/9b/86/4d95916587430c7bb22bc00c9c3ea08ab517713b5ac2bc0ef32750ed616a/pyaffalddk-2.0.22.tar.gz
+[2024-04-16 14:03:27] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/5a/20/245754268f0481982ec755c3ea6cea9047a315acb552c43847ee7b12b39d/pyield-0.7.0.tar.gz
+[2024-04-16 14:03:27] INFO root fetch - processPackages [unstract-dropboxdrivefs]: Downloading https://files.pythonhosted.org/packages/4d/bb/5a42498b1fb7c38fb8a462ae5f55686d95572aa18ea1d84b2b54505c15e2/unstract-dropboxdrivefs-1.0.0.tar.gz
+[2024-04-16 14:03:27] INFO root fetch - processPackages [boario]: Downloading https://files.pythonhosted.org/packages/fe/4f/263daffe62f524e49779363d5123fe61f5f4b3c8da46c557b5bbdbd2bab9/boario-0.5.7.tar.gz
+[2024-04-16 14:03:27] INFO root fetch - processPackages [django-istat-italian-places]: Downloading https://files.pythonhosted.org/packages/7c/b2/448cd8d5ae45ce5e2b098ca547076423316a4935b5d428c26bd0e5c6c694/django_istat_italian_places-0.2.7.8-py3-none-any.whl
+[2024-04-16 14:03:27] INFO root fetch - processPackages [labgrid]: Downloading https://files.pythonhosted.org/packages/1c/8a/5b1a1b87875889c8181406de4b3ca825bad77b3b2bde7a55ffd28c1e7023/labgrid-24.0a1.tar.gz
+[2024-04-16 14:03:28] INFO root fetch - processPackages [fast-histogram]: Downloading https://files.pythonhosted.org/packages/08/c5/b02d6966f41d53e75f6847655fb309cffa7cbd31f51181a260cee0b52526/fast-histogram-0.8.tar.gz
+[2024-04-16 14:03:28] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-04-16 14:03:28] INFO root fetch - processPackages [django-istat-italian-places]: executing diffoscope
+[2024-04-16 14:03:28] INFO root fetch - processPackages [django-istat-italian-places]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-istat-italian-places-0.2.7.7.tar.gz tmp/django_istat_italian_places-0.2.7.8-py3-none-any.whl.zip --markdown 20240416/d/django-istat-italian-places/0.2.7.7-0.2.7.8/README.md --exclude *.pyd
+[2024-04-16 14:03:28] INFO root fetch - processPackages [labgrid]: executing diffoscope
+[2024-04-16 14:03:28] INFO root fetch - processPackages [labgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labgrid-23.1a2.tar.gz tmp/labgrid-24.0a1.tar.gz --markdown 20240416/l/labgrid/23.1a2-24.0a1/README.md --exclude *.pyd
+[2024-04-16 14:03:28] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-04-16 14:03:28] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240416/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-04-16 14:03:28] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/f5/37/445448114af0f932e5500ff76e7cafcadf23b76c73e97e89505a0646dd2a/pyield-0.7.1.tar.gz
+[2024-04-16 14:03:28] INFO root fetch - processPackages [unstract-dropboxdrivefs]: Downloading https://files.pythonhosted.org/packages/21/6e/1a265e98dfa2c074913778bdac9e1a0168febb89a7b43e730693d6aad690/unstract-dropboxdrivefs-1.0.1.tar.gz
+[2024-04-16 14:03:28] INFO root fetch - processPackages [pyaffalddk]: Downloading https://files.pythonhosted.org/packages/6e/dc/14fa42936fcfdef2730de61bbb02ba4ad0a4aaaeaff57bba630b161da7bd/pyaffalddk-2.0.23.tar.gz
+[2024-04-16 14:03:28] INFO root fetch - processPackages [boario]: Downloading https://files.pythonhosted.org/packages/86/7b/4eeedbcb99c5a01f529334e11c1d932daad0c3ecb5c8b292e7fbbeabfaeb/boario-0.5.8.tar.gz
+[2024-04-16 14:03:28] INFO root fetch - processPackages [PYield]: executing diffoscope
+[2024-04-16 14:03:28] INFO root fetch - processPackages [PYield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyield-0.7.0.tar.gz tmp/pyield-0.7.1.tar.gz --markdown 20240416/P/PYield/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-16 14:03:28] INFO root fetch - processPackages [unstract-dropboxdrivefs]: executing diffoscope
+[2024-04-16 14:03:28] INFO root fetch - processPackages [unstract-dropboxdrivefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract-dropboxdrivefs-1.0.0.tar.gz tmp/unstract-dropboxdrivefs-1.0.1.tar.gz --markdown 20240416/u/unstract-dropboxdrivefs/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 14:03:28] INFO root fetch - processPackages [fast-histogram]: Downloading https://files.pythonhosted.org/packages/dd/c7/8f6b0748fecd0e002d2c8ca777504ad90777d8877bd1d48a80e71fddeccd/fast-histogram-0.9.tar.gz
+[2024-04-16 14:03:28] INFO root fetch - processPackages [boario]: executing diffoscope
+[2024-04-16 14:03:28] INFO root fetch - processPackages [boario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boario-0.5.7.tar.gz tmp/boario-0.5.8.tar.gz --markdown 20240416/b/boario/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-16 14:03:28] INFO root fetch - processPackages [pyaffalddk]: executing diffoscope
+[2024-04-16 14:03:28] INFO root fetch - processPackages [pyaffalddk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaffalddk-2.0.22.tar.gz tmp/pyaffalddk-2.0.23.tar.gz --markdown 20240416/p/pyaffalddk/2.0.22-2.0.23/README.md --exclude *.pyd
+[2024-04-16 14:03:28] INFO root fetch - processPackages [fast-histogram]: executing diffoscope
+[2024-04-16 14:03:28] INFO root fetch - processPackages [fast-histogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-histogram-0.8.tar.gz tmp/fast-histogram-0.9.tar.gz --markdown 20240416/f/fast-histogram/0.8-0.9/README.md --exclude *.pyd
+[2024-04-16 14:03:29] INFO root fetch - processPackages [django-istat-italian-places]: Remove: archive file [/home/abi/fetcher/tmp/django-istat-italian-places-0.2.7.7.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - processPackages [django-istat-italian-places]: Remove: archive file [/home/abi/fetcher/tmp/django_istat_italian_places-0.2.7.8-py3-none-any.whl.zip]
+[2024-04-16 14:03:29] INFO root fetch - main [MainThread]: End processing [django-istat-italian-places]: success
+[2024-04-16 14:03:29] INFO root fetch - processPackages [unstract-dropboxdrivefs]: Remove: archive file [/home/abi/fetcher/tmp/unstract-dropboxdrivefs-1.0.0.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - processPackages [unstract-dropboxdrivefs]: Remove: archive file [/home/abi/fetcher/tmp/unstract-dropboxdrivefs-1.0.1.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - main [MainThread]: End processing [unstract-dropboxdrivefs]: success
+[2024-04-16 14:03:29] INFO root fetch - processPackages [boario]: Remove: archive file [/home/abi/fetcher/tmp/boario-0.5.7.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - processPackages [boario]: Remove: archive file [/home/abi/fetcher/tmp/boario-0.5.8.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - main [MainThread]: End processing [boario]: success
+[2024-04-16 14:03:29] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.7.0.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.7.1.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - main [MainThread]: End processing [PYield]: success
+[2024-04-16 14:03:29] INFO root fetch - processPackages [fast-histogram]: Remove: archive file [/home/abi/fetcher/tmp/fast-histogram-0.8.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - processPackages [fast-histogram]: Remove: archive file [/home/abi/fetcher/tmp/fast-histogram-0.9.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - main [MainThread]: End processing [fast-histogram]: success
+[2024-04-16 14:03:29] INFO root fetch - processPackages [pyaffalddk]: Remove: archive file [/home/abi/fetcher/tmp/pyaffalddk-2.0.22.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - processPackages [pyaffalddk]: Remove: archive file [/home/abi/fetcher/tmp/pyaffalddk-2.0.23.tar.gz]
+[2024-04-16 14:03:29] INFO root fetch - main [MainThread]: End processing [pyaffalddk]: success
+[2024-04-16 14:03:31] INFO root fetch - processPackages [labgrid]: Remove: archive file [/home/abi/fetcher/tmp/labgrid-23.1a2.tar.gz]
+[2024-04-16 14:03:31] INFO root fetch - processPackages [labgrid]: Remove: archive file [/home/abi/fetcher/tmp/labgrid-24.0a1.tar.gz]
+[2024-04-16 14:03:31] INFO root fetch - main [MainThread]: End processing [labgrid]: success
+[2024-04-16 14:03:31] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-04-16 14:03:31] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-04-16 14:03:31] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-04-16 14:03:31] INFO root fetch - main [MainThread]: Store serial: [22787201]
