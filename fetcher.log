@@ -3018,3 +3018,40 @@
 [2024-04-16 03:06:51] INFO root fetch - processPackages [leafmap]: Remove: archive file [/home/abi/fetcher/tmp/leafmap-0.9.6.tar.gz]
 [2024-04-16 03:06:51] INFO root fetch - main [MainThread]: End processing [leafmap]: success
 [2024-04-16 03:06:51] INFO root fetch - main [MainThread]: Store serial: [22781071]
+[2024-04-16 03:08:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781071]
+[2024-04-16 03:08:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 03:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-awscrt
+[2024-04-16 03:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reka-torch
+[2024-04-16 03:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepeval
+[2024-04-16 03:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: IsoMarker
+[2024-04-16 03:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oursin
+[2024-04-16 03:08:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oursin
+[2024-04-16 03:08:59] WARNING root fetch - processPackages [IsoMarker]: Skipping, unable to determine old version
+[2024-04-16 03:08:59] INFO root fetch - main [MainThread]: End processing [IsoMarker] error
+[2024-04-16 03:08:59] INFO root fetch - processPackages [types-awscrt]: New version: [0.20.9] Old Version: [0.20.7]
+[2024-04-16 03:08:59] INFO root fetch - processPackages [oursin]: New version: [0.6.0] Old Version: [0.5.4]
+[2024-04-16 03:08:59] WARNING root fetch - processPackages [reka-torch]: Skipping, unable to determine old version
+[2024-04-16 03:08:59] INFO root fetch - processPackages [oursin]: New version: [0.6.0] Old Version: [0.5.4]
+[2024-04-16 03:08:59] INFO root fetch - main [MainThread]: End processing [reka-torch] error
+[2024-04-16 03:08:59] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 03:08:59] INFO root fetch - processPackages [types-awscrt]: Downloading https://files.pythonhosted.org/packages/57/e2/fc313ae373273f2881a55d40b8469e7638922125324a740afc0b06a71b94/types_awscrt-0.20.7.tar.gz
+[2024-04-16 03:08:59] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-04-16 03:09:00] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/ed/3c/d767344449f71e4bcce32fbaf1c3635bd17a78830bfa7d578cfe533b4db2/oursin-0.5.4.tar.gz
+[2024-04-16 03:09:00] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/ed/3c/d767344449f71e4bcce32fbaf1c3635bd17a78830bfa7d578cfe533b4db2/oursin-0.5.4.tar.gz
+[2024-04-16 03:09:00] INFO root fetch - processPackages [types-awscrt]: Downloading https://files.pythonhosted.org/packages/de/03/4ef063d908089f54b7cdcde05b53950935fb50f28c62acac8d47aabcfaae/types_awscrt-0.20.9.tar.gz
+[2024-04-16 03:09:00] WARNING root fetch - processPackages [oursin]: Skipping package: exceeds size limit 35219204>=10485760
+[2024-04-16 03:09:00] INFO root fetch - main [MainThread]: End processing [oursin] error
+[2024-04-16 03:09:00] WARNING root fetch - processPackages [oursin]: Skipping package: exceeds size limit 35219204>=10485760
+[2024-04-16 03:09:00] INFO root fetch - main [MainThread]: End processing [oursin] error
+[2024-04-16 03:09:00] INFO root fetch - processPackages [types-awscrt]: executing diffoscope
+[2024-04-16 03:09:00] INFO root fetch - processPackages [types-awscrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types_awscrt-0.20.7.tar.gz tmp/types_awscrt-0.20.9.tar.gz --markdown 20240416/t/types-awscrt/0.20.7-0.20.9/README.md --exclude *.pyd
+[2024-04-16 03:09:00] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-04-16 03:09:00] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-04-16 03:09:00] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240416/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 03:09:00] INFO root fetch - processPackages [types-awscrt]: Remove: archive file [/home/abi/fetcher/tmp/types_awscrt-0.20.7.tar.gz]
+[2024-04-16 03:09:00] INFO root fetch - processPackages [types-awscrt]: Remove: archive file [/home/abi/fetcher/tmp/types_awscrt-0.20.9.tar.gz]
+[2024-04-16 03:09:00] INFO root fetch - main [MainThread]: End processing [types-awscrt]: success
+[2024-04-16 03:09:00] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-04-16 03:09:00] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-04-16 03:09:01] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-04-16 03:09:01] INFO root fetch - main [MainThread]: Store serial: [22781090]
