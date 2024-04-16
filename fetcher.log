@@ -16756,3 +16756,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:14:08] INFO root fetch - processPackages [meshed]: Remove: archive file [/home/abi/fetcher/tmp/meshed-0.1.99.tar.gz]
 [2024-04-16 14:14:08] INFO root fetch - main [MainThread]: End processing [meshed]: success
 [2024-04-16 14:14:08] INFO root fetch - main [MainThread]: Store serial: [22787307]
+[2024-04-16 14:16:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787307]
+[2024-04-16 14:16:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncio-payok
+[2024-04-16 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-tools
+[2024-04-16 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lunaticoastro-dragonfly-controller
+[2024-04-16 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: f-tools-pkg
+[2024-04-16 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kivymd-utils
+[2024-04-16 14:16:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: herschelhelp
+[2024-04-16 14:16:17] INFO root fetch - processPackages [kivymd-utils]: New version: [0.15.1] Old Version: [0.15.0]
+[2024-04-16 14:16:17] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-16 14:16:17] INFO root fetch - processPackages [asyncio-payok]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 14:16:17] INFO root fetch - processPackages [f-tools-pkg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 14:16:17] INFO root fetch - processPackages [kivymd-utils]: Downloading https://files.pythonhosted.org/packages/d4/5c/f78af88540303b786dd310b7cf902945067da2848285cfd134a1082e0fe4/kivymd_utils-0.15.0.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-16 14:16:17] INFO root fetch - processPackages [asyncio-payok]: Downloading https://files.pythonhosted.org/packages/55/ed/363279902da33670b30aff4afb7cf085e2868c53c7253b1c3969ac55b915/asyncio_payok-0.0.2.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/89/1b/678e0dcbaa16bac1d5ec63f00b8906288d7dde9f5f2f12541ab670330885/lunaticoastro_dragonfly_controller-0.5.0.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [f-tools-pkg]: Downloading https://files.pythonhosted.org/packages/69/75/4cde3aa0d5bf396f994e6f06e6ccb8fb22e57277d73a9096fb259a40152e/f_tools_pkg-0.0.8.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [herschelhelp]: New version: [1.0.1] Old Version: [0.0]
+[2024-04-16 14:16:17] INFO root fetch - processPackages [asyncio-payok]: Downloading https://files.pythonhosted.org/packages/df/ef/6d9bd62a2e6728ffeb8f6c05dc4a6825f8e8765fa36d5fa0fe54108c203d/asyncio_payok-0.0.3.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [asyncio-payok]: executing diffoscope
+[2024-04-16 14:16:17] INFO root fetch - processPackages [asyncio-payok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncio_payok-0.0.2.tar.gz tmp/asyncio_payok-0.0.3.tar.gz --markdown 20240416/a/asyncio-payok/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 14:16:17] INFO root fetch - processPackages [kivymd-utils]: Downloading https://files.pythonhosted.org/packages/01/86/e8c0d7635d6224efc7d0dba95659502c88505693ef3314a2490f27d7a6b1/kivymd_utils-0.15.1.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/e1/c4/18a5f31b0e1c887995b1fde8f9658ff0bea7d991c3f345d7b220b64df356/lunaticoastro_dragonfly_controller-0.6.0.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [herschelhelp]: Downloading https://files.pythonhosted.org/packages/d4/6f/99a46c8c265186a7670edb6750149dcea9970ac3cab5b19254499372337c/herschelhelp-0.0.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [kivymd-utils]: executing diffoscope
+[2024-04-16 14:16:17] INFO root fetch - processPackages [kivymd-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivymd_utils-0.15.0.tar.gz tmp/kivymd_utils-0.15.1.tar.gz --markdown 20240416/k/kivymd-utils/0.15.0-0.15.1/README.md --exclude *.pyd
+[2024-04-16 14:16:17] INFO root fetch - processPackages [f-tools-pkg]: Downloading https://files.pythonhosted.org/packages/25/e7/60cb09279e7521f3481ebb479a37807fe115c37360e706f61f2bf8a3390c/f_tools_pkg-0.0.9.tar.gz
+[2024-04-16 14:16:17] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: executing diffoscope
+[2024-04-16 14:16:17] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunaticoastro_dragonfly_controller-0.5.0.tar.gz tmp/lunaticoastro_dragonfly_controller-0.6.0.tar.gz --markdown 20240416/l/lunaticoastro-dragonfly-controller/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-16 14:16:17] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-04-16 14:16:18] INFO root fetch - processPackages [f-tools-pkg]: executing diffoscope
+[2024-04-16 14:16:18] INFO root fetch - processPackages [f-tools-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f_tools_pkg-0.0.8.tar.gz tmp/f_tools_pkg-0.0.9.tar.gz --markdown 20240416/f/f-tools-pkg/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 14:16:18] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-04-16 14:16:18] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240416/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-16 14:16:18] INFO root fetch - processPackages [herschelhelp]: Downloading https://files.pythonhosted.org/packages/3b/fb/813e4ba3a4157da977e26a3d7088682b21d0a97bf50a2a4f4402f2d094cb/herschelhelp-1.0.1.tar.gz
+[2024-04-16 14:16:18] INFO root fetch - processPackages [asyncio-payok]: Remove: archive file [/home/abi/fetcher/tmp/asyncio_payok-0.0.2.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - processPackages [asyncio-payok]: Remove: archive file [/home/abi/fetcher/tmp/asyncio_payok-0.0.3.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - main [MainThread]: End processing [asyncio-payok]: success
+[2024-04-16 14:16:18] INFO root fetch - processPackages [kivymd-utils]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_utils-0.15.0.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - processPackages [kivymd-utils]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_utils-0.15.1.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - main [MainThread]: End processing [kivymd-utils]: success
+[2024-04-16 14:16:18] INFO root fetch - processPackages [f-tools-pkg]: Remove: archive file [/home/abi/fetcher/tmp/f_tools_pkg-0.0.8.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - processPackages [f-tools-pkg]: Remove: archive file [/home/abi/fetcher/tmp/f_tools_pkg-0.0.9.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - main [MainThread]: End processing [f-tools-pkg]: success
+[2024-04-16 14:16:18] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.5.0.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.6.0.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - main [MainThread]: End processing [lunaticoastro-dragonfly-controller]: success
+[2024-04-16 14:16:18] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-04-16 14:16:18] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-04-16 14:16:18] INFO root fetch - processPackages [herschelhelp]: executing diffoscope
+[2024-04-16 14:16:18] INFO root fetch - processPackages [herschelhelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herschelhelp-0.0.tar.gz tmp/herschelhelp-1.0.1.tar.gz --markdown 20240416/h/herschelhelp/0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 14:16:27] INFO root fetch - processPackages [herschelhelp]: Remove: archive file [/home/abi/fetcher/tmp/herschelhelp-0.0.tar.gz]
+[2024-04-16 14:16:27] INFO root fetch - processPackages [herschelhelp]: Remove: archive file [/home/abi/fetcher/tmp/herschelhelp-1.0.1.tar.gz]
+[2024-04-16 14:16:27] INFO root fetch - main [MainThread]: End processing [herschelhelp]: success
+[2024-04-16 14:16:27] INFO root fetch - main [MainThread]: Store serial: [22787324]
