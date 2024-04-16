@@ -18881,3 +18881,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:19:25] INFO root fetch - processPackages [django-log-inspector]: Remove: archive file [/home/abi/fetcher/tmp/django_log_inspector-0.0.5.tar.gz]
 [2024-04-16 15:19:25] INFO root fetch - main [MainThread]: End processing [django-log-inspector]: success
 [2024-04-16 15:19:25] INFO root fetch - main [MainThread]: Store serial: [22788083]
+[2024-04-16 15:21:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788083]
+[2024-04-16 15:21:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 15:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: setnext-ai-metering
+[2024-04-16 15:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nncore
+[2024-04-16 15:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iqrfpy-diagnostics
+[2024-04-16 15:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ondewo-s2t-client
+[2024-04-16 15:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bgutils-hddly
+[2024-04-16 15:21:34] WARNING root fetch - processPackages [setnext-ai-metering]: Skipping, unable to determine old version
+[2024-04-16 15:21:34] INFO root fetch - main [MainThread]: End processing [setnext-ai-metering] error
+[2024-04-16 15:21:34] INFO root fetch - processPackages [nncore]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-16 15:21:34] INFO root fetch - processPackages [ondewo-s2t-client]: New version: [5.7.0] Old Version: [5.6.0]
+[2024-04-16 15:21:34] ERROR root fetch - processPackages [iqrfpy-diagnostics]: Unable to get metadata: No such project 'iqrfpy-diagnostics'
+[2024-04-16 15:21:34] INFO root fetch - main [MainThread]: End processing [iqrfpy-diagnostics] error
+[2024-04-16 15:21:34] INFO root fetch - processPackages [bgutils-hddly]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-16 15:21:34] INFO root fetch - processPackages [ondewo-s2t-client]: Downloading https://files.pythonhosted.org/packages/d4/21/b7d2297541b0d2cfe09b0816cd2764e2c16ec0fb009ddb6a8f1a1a2f53ca/ondewo-s2t-client-5.6.0.tar.gz
+[2024-04-16 15:21:34] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/07/22/a69a45ea0621e457373043238ae8172d597dde38054d258752459d22fd6a/bgutils_hddly-1.1.8-py3-none-any.whl
+[2024-04-16 15:21:34] INFO root fetch - processPackages [nncore]: Downloading https://files.pythonhosted.org/packages/1e/82/0cea34e7a36fac047d1833fab9f15f61d4e60b46998a182428e6c0ec6c4a/nncore-0.4.1.tar.gz
+[2024-04-16 15:21:34] INFO root fetch - processPackages [ondewo-s2t-client]: Downloading https://files.pythonhosted.org/packages/06/06/e98ab8aaa1c04271e630b3c0658fcb535e7c0fb4abda92ff703b47c1a9ff/ondewo-s2t-client-5.7.0.tar.gz
+[2024-04-16 15:21:35] INFO root fetch - processPackages [nncore]: Downloading https://files.pythonhosted.org/packages/43/e7/c10d8362b4e5560a2ca21e3a05f9ba3deca65c64ea61f28f4dfd288eae5c/nncore-0.4.2.tar.gz
+[2024-04-16 15:21:35] INFO root fetch - processPackages [bgutils-hddly]: Downloading https://files.pythonhosted.org/packages/68/b8/73eaefe5a7f9214b0aa5443f4083f56d3a6492768411b1a003302b66bf45/bgutils_hddly-1.1.9.tar.gz
+[2024-04-16 15:21:35] INFO root fetch - processPackages [bgutils-hddly]: executing diffoscope
+[2024-04-16 15:21:35] INFO root fetch - processPackages [bgutils-hddly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip tmp/bgutils_hddly-1.1.9.tar.gz --markdown 20240416/b/bgutils-hddly/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-16 15:21:35] INFO root fetch - processPackages [ondewo-s2t-client]: executing diffoscope
+[2024-04-16 15:21:35] INFO root fetch - processPackages [ondewo-s2t-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ondewo-s2t-client-5.6.0.tar.gz tmp/ondewo-s2t-client-5.7.0.tar.gz --markdown 20240416/o/ondewo-s2t-client/5.6.0-5.7.0/README.md --exclude *.pyd
+[2024-04-16 15:21:35] INFO root fetch - processPackages [nncore]: executing diffoscope
+[2024-04-16 15:21:35] INFO root fetch - processPackages [nncore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nncore-0.4.1.tar.gz tmp/nncore-0.4.2.tar.gz --markdown 20240416/n/nncore/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-16 15:21:35] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.8-py3-none-any.whl.zip]
+[2024-04-16 15:21:35] INFO root fetch - processPackages [bgutils-hddly]: Remove: archive file [/home/abi/fetcher/tmp/bgutils_hddly-1.1.9.tar.gz]
+[2024-04-16 15:21:35] INFO root fetch - main [MainThread]: End processing [bgutils-hddly]: success
+[2024-04-16 15:21:35] INFO root fetch - processPackages [ondewo-s2t-client]: Remove: archive file [/home/abi/fetcher/tmp/ondewo-s2t-client-5.6.0.tar.gz]
+[2024-04-16 15:21:35] INFO root fetch - processPackages [ondewo-s2t-client]: Remove: archive file [/home/abi/fetcher/tmp/ondewo-s2t-client-5.7.0.tar.gz]
+[2024-04-16 15:21:35] INFO root fetch - main [MainThread]: End processing [ondewo-s2t-client]: success
+[2024-04-16 15:21:36] INFO root fetch - processPackages [nncore]: Remove: archive file [/home/abi/fetcher/tmp/nncore-0.4.1.tar.gz]
+[2024-04-16 15:21:36] INFO root fetch - processPackages [nncore]: Remove: archive file [/home/abi/fetcher/tmp/nncore-0.4.2.tar.gz]
+[2024-04-16 15:21:36] INFO root fetch - main [MainThread]: End processing [nncore]: success
+[2024-04-16 15:21:36] INFO root fetch - main [MainThread]: Store serial: [22788102]
