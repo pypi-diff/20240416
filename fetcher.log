@@ -16241,3 +16241,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:52:41] INFO root fetch - processPackages [scisuit]: Remove: archive file [/home/abi/fetcher/tmp/scisuit-1.2.5.tar.gz]
 [2024-04-16 13:52:41] INFO root fetch - main [MainThread]: End processing [scisuit]: success
 [2024-04-16 13:52:41] INFO root fetch - main [MainThread]: Store serial: [22787074]
+[2024-04-16 13:54:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787074]
+[2024-04-16 13:54:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 13:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zalando-cli-bundle
+[2024-04-16 13:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maggma
+[2024-04-16 13:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ailist
+[2024-04-16 13:54:54] INFO root fetch - processPackages [ailist]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-16 13:54:54] INFO root fetch - processPackages [zalando-cli-bundle]: New version: [24.7.0] Old Version: [24.6.0]
+[2024-04-16 13:54:54] INFO root fetch - processPackages [maggma]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 13:54:54] INFO root fetch - processPackages [ailist]: Downloading https://files.pythonhosted.org/packages/30/1e/d992546dc135f9163163bdf60eba66d5d2136af9def2cfbfa4b13e346c05/ailist-2.1.1.tar.gz
+[2024-04-16 13:54:54] INFO root fetch - processPackages [zalando-cli-bundle]: Downloading https://files.pythonhosted.org/packages/68/a2/d1210f2ca787e6658786068e5ebad9f4bd6120fa87c05b92ee4f529706ee/zalando_cli_bundle-24.6.0.tar.gz
+[2024-04-16 13:54:54] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/0b/d5/4bfefd3094fe323ae3b4f6043dd7f75d763cd562d238063c16d1d2f30697/maggma-0.8.0.tar.gz
+[2024-04-16 13:54:54] INFO root fetch - processPackages [ailist]: Downloading https://files.pythonhosted.org/packages/e2/0b/db5f80d9a5003f5a872f8f13b9f9019d78812b659d844e2f7f1536c906ac/ailist-2.1.2.tar.gz
+[2024-04-16 13:54:54] INFO root fetch - processPackages [zalando-cli-bundle]: Downloading https://files.pythonhosted.org/packages/1f/12/71b8c4a9bbf23072a44674e9ceb99038b8346ca01843799d6b599154a0ab/zalando_cli_bundle-24.7.0.tar.gz
+[2024-04-16 13:54:54] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/e3/6f/7133584ec97cb54d2930706c7623e641ac8328cb0b9166e7bc2f9f04616f/maggma-0.9.0.tar.gz
+[2024-04-16 13:54:54] INFO root fetch - processPackages [ailist]: executing diffoscope
+[2024-04-16 13:54:54] INFO root fetch - processPackages [ailist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailist-2.1.1.tar.gz tmp/ailist-2.1.2.tar.gz --markdown 20240416/a/ailist/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-16 13:54:54] INFO root fetch - processPackages [zalando-cli-bundle]: executing diffoscope
+[2024-04-16 13:54:54] INFO root fetch - processPackages [zalando-cli-bundle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando_cli_bundle-24.6.0.tar.gz tmp/zalando_cli_bundle-24.7.0.tar.gz --markdown 20240416/z/zalando-cli-bundle/24.6.0-24.7.0/README.md --exclude *.pyd
+[2024-04-16 13:54:55] INFO root fetch - processPackages [maggma]: executing diffoscope
+[2024-04-16 13:54:55] INFO root fetch - processPackages [maggma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maggma-0.8.0.tar.gz tmp/maggma-0.9.0.tar.gz --markdown 20240416/m/maggma/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 13:54:55] INFO root fetch - processPackages [zalando-cli-bundle]: Remove: archive file [/home/abi/fetcher/tmp/zalando_cli_bundle-24.6.0.tar.gz]
+[2024-04-16 13:54:55] INFO root fetch - processPackages [zalando-cli-bundle]: Remove: archive file [/home/abi/fetcher/tmp/zalando_cli_bundle-24.7.0.tar.gz]
+[2024-04-16 13:54:55] INFO root fetch - main [MainThread]: End processing [zalando-cli-bundle]: success
+[2024-04-16 13:54:55] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.8.0.tar.gz]
+[2024-04-16 13:54:55] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.9.0.tar.gz]
+[2024-04-16 13:54:55] INFO root fetch - main [MainThread]: End processing [maggma]: success
+[2024-04-16 13:55:02] INFO root fetch - processPackages [ailist]: Remove: archive file [/home/abi/fetcher/tmp/ailist-2.1.1.tar.gz]
+[2024-04-16 13:55:02] INFO root fetch - processPackages [ailist]: Remove: archive file [/home/abi/fetcher/tmp/ailist-2.1.2.tar.gz]
+[2024-04-16 13:55:02] INFO root fetch - main [MainThread]: End processing [ailist]: success
+[2024-04-16 13:55:02] INFO root fetch - main [MainThread]: Store serial: [22787082]
