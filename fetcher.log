@@ -3088,3 +3088,36 @@
 [2024-04-16 03:13:39] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.8.tar.gz]
 [2024-04-16 03:13:39] INFO root fetch - main [MainThread]: End processing [tsugu]: success
 [2024-04-16 03:13:39] INFO root fetch - main [MainThread]: Store serial: [22781099]
+[2024-04-16 03:15:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781099]
+[2024-04-16 03:15:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 03:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioregistry
+[2024-04-16 03:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lunary
+[2024-04-16 03:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradio-awsBedrock-multimodalChatbot
+[2024-04-16 03:15:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-mailbox
+[2024-04-16 03:15:48] WARNING root fetch - processPackages [gradio-awsBedrock-multimodalChatbot]: Skipping, unable to determine old version
+[2024-04-16 03:15:48] INFO root fetch - main [MainThread]: End processing [gradio-awsBedrock-multimodalChatbot] error
+[2024-04-16 03:15:48] INFO root fetch - processPackages [lunary]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-16 03:15:48] INFO root fetch - processPackages [django-mailbox]: New version: [4.9.0] Old Version: [4.8.2]
+[2024-04-16 03:15:48] INFO root fetch - processPackages [bioregistry]: New version: [0.9.97] Old Version: [0.9.96]
+[2024-04-16 03:15:48] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/ab/d9/3df893a63a6fb7544f6b9b36785d9152fda51aa6d8a3870efe173b807c0b/lunary-1.0.1.tar.gz
+[2024-04-16 03:15:48] INFO root fetch - processPackages [django-mailbox]: Downloading https://files.pythonhosted.org/packages/91/11/f8dc2a7291f2b6fe104d26bbf52de3e42d0b2e29358fa14e70419a3c72e8/django-mailbox-4.8.2.tar.gz
+[2024-04-16 03:15:48] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/48/3a/7ab0975f6c89bea709b279c9e39ef3be5439cfec168dbf3a614dac397663/bioregistry-0.9.96.tar.gz
+[2024-04-16 03:15:49] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/37/a5/23ac1fbff596fe7be4ae07e26ef22293c258b39e2fc4eb41c6d0b5ace61a/lunary-1.0.2.tar.gz
+[2024-04-16 03:15:49] INFO root fetch - processPackages [lunary]: executing diffoscope
+[2024-04-16 03:15:49] INFO root fetch - processPackages [lunary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunary-1.0.1.tar.gz tmp/lunary-1.0.2.tar.gz --markdown 20240416/l/lunary/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-16 03:15:49] INFO root fetch - processPackages [django-mailbox]: Downloading https://files.pythonhosted.org/packages/08/5e/357bc37c88348cde2fda4b6217d1272b3b4d83682f5b73b5cdc0bd5bd288/django-mailbox-4.9.0.tar.gz
+[2024-04-16 03:15:49] INFO root fetch - processPackages [django-mailbox]: executing diffoscope
+[2024-04-16 03:15:49] INFO root fetch - processPackages [django-mailbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mailbox-4.8.2.tar.gz tmp/django-mailbox-4.9.0.tar.gz --markdown 20240416/d/django-mailbox/4.8.2-4.9.0/README.md --exclude *.pyd
+[2024-04-16 03:15:49] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/57/7b/30897578f436658ac1f334eb6e9f96ad0bacb0a54846670620df53a5a374/bioregistry-0.9.97.tar.gz
+[2024-04-16 03:15:49] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-1.0.1.tar.gz]
+[2024-04-16 03:15:49] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-1.0.2.tar.gz]
+[2024-04-16 03:15:49] INFO root fetch - main [MainThread]: End processing [lunary]: success
+[2024-04-16 03:15:50] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2024-04-16 03:15:50] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.96.tar.gz tmp/bioregistry-0.9.97.tar.gz --markdown 20240416/b/bioregistry/0.9.96-0.9.97/README.md --exclude *.pyd
+[2024-04-16 03:15:50] INFO root fetch - processPackages [django-mailbox]: Remove: archive file [/home/abi/fetcher/tmp/django-mailbox-4.8.2.tar.gz]
+[2024-04-16 03:15:50] INFO root fetch - processPackages [django-mailbox]: Remove: archive file [/home/abi/fetcher/tmp/django-mailbox-4.9.0.tar.gz]
+[2024-04-16 03:15:50] INFO root fetch - main [MainThread]: End processing [django-mailbox]: success
+[2024-04-16 03:16:56] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.96.tar.gz]
+[2024-04-16 03:16:56] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.97.tar.gz]
+[2024-04-16 03:16:56] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2024-04-16 03:16:56] INFO root fetch - main [MainThread]: Store serial: [22781112]
