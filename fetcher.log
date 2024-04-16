@@ -9024,3 +9024,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 09:27:36] INFO root fetch - processPackages [ganga]: Remove: archive file [/home/abi/fetcher/tmp/ganga-8.7.6.tar.gz]
 [2024-04-16 09:27:36] INFO root fetch - main [MainThread]: End processing [ganga]: success
 [2024-04-16 09:27:36] INFO root fetch - main [MainThread]: Store serial: [22783715]
+[2024-04-16 09:29:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783715]
+[2024-04-16 09:29:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 09:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anls-star
+[2024-04-16 09:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boltiotai
+[2024-04-16 09:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygwalker
+[2024-04-16 09:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-tier-validation
+[2024-04-16 09:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-announcement
+[2024-04-16 09:29:46] INFO root fetch - processPackages [anls-star]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 09:29:46] INFO root fetch - processPackages [anls-star]: Downloading https://files.pythonhosted.org/packages/9a/e3/df8227c813d9fb25806b3816e5d714542d7989a31c4eb9b874a78b292773/anls_star-0.0.7.tar.gz
+[2024-04-16 09:29:46] INFO root fetch - processPackages [boltiotai]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 09:29:46] INFO root fetch - processPackages [odoo-addon-announcement]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-16 09:29:46] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [17.0.1.5.0.2] Old Version: [17.0.1.5.0.1]
+[2024-04-16 09:29:46] INFO root fetch - processPackages [pygwalker]: New version: [0.4.9a0] Old Version: [0.4.8a8]
+[2024-04-16 09:29:46] INFO root fetch - processPackages [boltiotai]: Downloading https://files.pythonhosted.org/packages/ed/4b/3d600a89bd381fc80accd764e161f071fed0154dfb71861f2e7c7dead566/boltiotai-0.0.2.tar.gz
+[2024-04-16 09:29:46] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/9d/aa/546e7dbe9c1783ab7dd04f08bb1bc654a0958187aa2c1db4a5dab2785bd4/odoo_addon_announcement-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 09:29:46] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/d6/f5/cffc15895c9b2a85eec556f57c584168314c955ec121163449f202607a57/odoo_addon_base_tier_validation-17.0.1.5.0.1-py3-none-any.whl
+[2024-04-16 09:29:46] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/f6/33/fbf469e43cee79a994a8cec335b8e89c989213e80670880057752b498d80/pygwalker-0.4.8a8.tar.gz
+[2024-04-16 09:29:47] INFO root fetch - processPackages [anls-star]: Downloading https://files.pythonhosted.org/packages/5f/e8/312f745f8669bbf614cfc013dc8e02727c2fa020a90aefbe1633369e5b49/anls_star-0.0.8.tar.gz
+[2024-04-16 09:29:47] INFO root fetch - processPackages [anls-star]: executing diffoscope
+[2024-04-16 09:29:47] INFO root fetch - processPackages [anls-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anls_star-0.0.7.tar.gz tmp/anls_star-0.0.8.tar.gz --markdown 20240416/a/anls-star/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 09:29:47] INFO root fetch - processPackages [boltiotai]: Downloading https://files.pythonhosted.org/packages/a8/e8/495df069bb4296be3bb0b8700f17922711f53734b7444a6028d7cad3ab9f/boltiotai-0.0.3.tar.gz
+[2024-04-16 09:29:47] INFO root fetch - processPackages [odoo-addon-announcement]: Downloading https://files.pythonhosted.org/packages/d6/5e/3b3ef094b2cb3e29325a2d8506a71a41044717edb24117f3d0df13c4d610/odoo_addon_announcement-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-16 09:29:47] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/0c/fd/bdd61ca3ffe36d9b7c38966e345e7c67d9923669e1da7e839f5a765b867e/odoo_addon_base_tier_validation-17.0.1.5.0.2-py3-none-any.whl
+[2024-04-16 09:29:47] INFO root fetch - processPackages [boltiotai]: executing diffoscope
+[2024-04-16 09:29:47] INFO root fetch - processPackages [boltiotai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boltiotai-0.0.2.tar.gz tmp/boltiotai-0.0.3.tar.gz --markdown 20240416/b/boltiotai/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 09:29:47] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2024-04-16 09:29:47] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-17.0.1.5.0.1-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-17.0.1.5.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-base-tier-validation/17.0.1.5.0.1-17.0.1.5.0.2/README.md --exclude *.pyd
+[2024-04-16 09:29:47] INFO root fetch - processPackages [odoo-addon-announcement]: executing diffoscope
+[2024-04-16 09:29:47] INFO root fetch - processPackages [odoo-addon-announcement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_announcement-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_announcement-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-announcement/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-16 09:29:47] INFO root fetch - processPackages [anls-star]: Remove: archive file [/home/abi/fetcher/tmp/anls_star-0.0.7.tar.gz]
+[2024-04-16 09:29:47] INFO root fetch - processPackages [anls-star]: Remove: archive file [/home/abi/fetcher/tmp/anls_star-0.0.8.tar.gz]
+[2024-04-16 09:29:47] INFO root fetch - main [MainThread]: End processing [anls-star]: success
+[2024-04-16 09:29:47] INFO root fetch - processPackages [boltiotai]: Remove: archive file [/home/abi/fetcher/tmp/boltiotai-0.0.2.tar.gz]
+[2024-04-16 09:29:47] INFO root fetch - processPackages [boltiotai]: Remove: archive file [/home/abi/fetcher/tmp/boltiotai-0.0.3.tar.gz]
+[2024-04-16 09:29:47] INFO root fetch - main [MainThread]: End processing [boltiotai]: success
+[2024-04-16 09:29:48] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.0.1-py3-none-any.whl.zip]
+[2024-04-16 09:29:48] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_tier_validation-17.0.1.5.0.2-py3-none-any.whl.zip]
+[2024-04-16 09:29:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2024-04-16 09:29:48] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 09:29:48] INFO root fetch - processPackages [odoo-addon-announcement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_announcement-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-16 09:29:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-announcement]: success
+[2024-04-16 09:29:48] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/0a/2d/8e6258413bdf5d8c7483eb2bf8d838c0da0aac7aefc375f117ae98b13f0f/pygwalker-0.4.9a0.tar.gz
+[2024-04-16 09:29:49] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2024-04-16 09:29:49] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.4.8a8.tar.gz tmp/pygwalker-0.4.9a0.tar.gz --markdown 20240416/p/pygwalker/0.4.8a8-0.4.9a0/README.md --exclude *.pyd
+[2024-04-16 09:30:19] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.8a8.tar.gz]
+[2024-04-16 09:30:19] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a0.tar.gz]
+[2024-04-16 09:30:19] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2024-04-16 09:30:19] INFO root fetch - main [MainThread]: Store serial: [22783728]
