@@ -7317,3 +7317,29 @@
 [2024-04-16 08:06:53] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416055920.tar.gz]
 [2024-04-16 08:06:53] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-16 08:06:53] INFO root fetch - main [MainThread]: Store serial: [22783090]
+[2024-04-16 08:08:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783090]
+[2024-04-16 08:09:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-16 08:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-04-16 08:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclonedx-editor-validator
+[2024-04-16 08:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simo
+[2024-04-16 08:09:02] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-16 08:09:02] INFO root fetch - processPackages [cyclonedx-editor-validator]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-16 08:09:02] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-16 08:09:02] INFO root fetch - processPackages [simo]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-16 08:09:02] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/ed/16/9c89b5a6869bb3d517d714903d957fae7e4d2c4f941b8ed7c65e982738db/simo-2.0.6.tar.gz
+[2024-04-16 08:09:02] INFO root fetch - processPackages [cyclonedx-editor-validator]: Downloading https://files.pythonhosted.org/packages/67/7c/4938535f988f2063c7fa3fa677f0cc414cf52b3f02a6145747d61d7823f2/cyclonedx_editor_validator-0.9.3.tar.gz
+[2024-04-16 08:09:02] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-16 08:09:02] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20556934>=10485760
+[2024-04-16 08:09:02] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-04-16 08:09:03] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-16 08:09:03] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240416/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-16 08:09:03] INFO root fetch - processPackages [cyclonedx-editor-validator]: Downloading https://files.pythonhosted.org/packages/78/42/3f14c75bb3778fd7a0e383f90505f065e368e297727eaf7043b617e3c7c9/cyclonedx_editor_validator-0.9.4.tar.gz
+[2024-04-16 08:09:03] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-16 08:09:03] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-16 08:09:03] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-16 08:09:04] INFO root fetch - processPackages [cyclonedx-editor-validator]: executing diffoscope
+[2024-04-16 08:09:04] INFO root fetch - processPackages [cyclonedx-editor-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_editor_validator-0.9.3.tar.gz tmp/cyclonedx_editor_validator-0.9.4.tar.gz --markdown 20240416/c/cyclonedx-editor-validator/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-16 08:09:04] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.9.3.tar.gz]
+[2024-04-16 08:09:04] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.9.4.tar.gz]
+[2024-04-16 08:09:04] INFO root fetch - main [MainThread]: End processing [cyclonedx-editor-validator]: success
+[2024-04-16 08:09:04] INFO root fetch - main [MainThread]: Store serial: [22783099]
