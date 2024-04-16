@@ -6069,3 +6069,15 @@
 [2024-04-16 06:33:45] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.5.2-py3-none-any.whl.zip]
 [2024-04-16 06:33:45] INFO root fetch - main [MainThread]: End processing [toollib]: success
 [2024-04-16 06:33:45] INFO root fetch - main [MainThread]: Store serial: [22782563]
+[2024-04-16 06:35:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782563]
+[2024-04-16 06:35:54] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 06:35:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hidrokit
+[2024-04-16 06:35:54] INFO root fetch - processPackages [hidrokit]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-16 06:35:54] INFO root fetch - processPackages [hidrokit]: Downloading https://files.pythonhosted.org/packages/a8/53/d464a12ae84c9457262a5771f7f081fc1f07b7389657a7509758d44d6592/hidrokit-0.4.1.tar.gz
+[2024-04-16 06:35:55] INFO root fetch - processPackages [hidrokit]: Downloading https://files.pythonhosted.org/packages/a9/67/94fd4376cf2e297270a39f27bf628489529ba6942b27e6dae9a86825fbda/hidrokit-0.5.0.tar.gz
+[2024-04-16 06:35:55] INFO root fetch - processPackages [hidrokit]: executing diffoscope
+[2024-04-16 06:35:55] INFO root fetch - processPackages [hidrokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidrokit-0.4.1.tar.gz tmp/hidrokit-0.5.0.tar.gz --markdown 20240416/h/hidrokit/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-16 06:35:56] INFO root fetch - processPackages [hidrokit]: Remove: archive file [/home/abi/fetcher/tmp/hidrokit-0.4.1.tar.gz]
+[2024-04-16 06:35:56] INFO root fetch - processPackages [hidrokit]: Remove: archive file [/home/abi/fetcher/tmp/hidrokit-0.5.0.tar.gz]
+[2024-04-16 06:35:56] INFO root fetch - main [MainThread]: End processing [hidrokit]: success
+[2024-04-16 06:35:56] INFO root fetch - main [MainThread]: Store serial: [22782603]
