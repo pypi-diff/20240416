@@ -2509,3 +2509,24 @@
 [2024-04-16 02:22:26] INFO root fetch - processPackages [fmot]: Remove: archive file [/home/abi/fetcher/tmp/fmot-1.9.1-py3-none-any.whl.zip]
 [2024-04-16 02:22:26] INFO root fetch - main [MainThread]: End processing [fmot]: success
 [2024-04-16 02:22:26] INFO root fetch - main [MainThread]: Store serial: [22780872]
+[2024-04-16 02:24:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780872]
+[2024-04-16 02:24:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 02:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-04-16 02:24:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-serverless-clamscan
+[2024-04-16 02:24:35] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-16 02:24:35] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-16 02:24:35] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-16 02:24:35] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-16 02:24:35] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-16 02:24:35] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-16 02:24:35] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240416/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-16 02:24:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-16 02:24:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-16 02:24:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240416/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-04-16 02:24:36] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-16 02:24:36] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-16 02:24:36] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-16 02:24:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-16 02:24:36] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-16 02:24:36] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-16 02:24:36] INFO root fetch - main [MainThread]: Store serial: [22780883]
