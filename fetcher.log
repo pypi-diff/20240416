@@ -16538,3 +16538,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:03:31] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2024-04-16 14:03:31] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2024-04-16 14:03:31] INFO root fetch - main [MainThread]: Store serial: [22787201]
+[2024-04-16 14:05:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787201]
+[2024-04-16 14:05:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 14:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Dall-ALSA
+[2024-04-16 14:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiddler-client
+[2024-04-16 14:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testsolar-testtool-sdk-py2
+[2024-04-16 14:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secretflow
+[2024-04-16 14:05:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secretflow-lite
+[2024-04-16 14:05:40] WARNING root fetch - processPackages [testsolar-testtool-sdk-py2]: Skipping, unable to determine old version
+[2024-04-16 14:05:40] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk-py2] error
+[2024-04-16 14:05:40] WARNING root fetch - processPackages [Dall-ALSA]: Skipping, unable to determine old version
+[2024-04-16 14:05:40] INFO root fetch - main [MainThread]: End processing [Dall-ALSA] error
+[2024-04-16 14:05:40] INFO root fetch - processPackages [secretflow]: New version: [1.5.0b0] Old Version: [1.5.0.dev20240321]
+[2024-04-16 14:05:40] INFO root fetch - processPackages [secretflow-lite]: New version: [1.5.0b0] Old Version: [1.5.0.dev20240321]
+[2024-04-16 14:05:40] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev1] Old Version: [3.0.0.dev9]
+[2024-04-16 14:05:40] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/51/7b/2c08b6c36382640f914c699332a06991e86a5890d88dfcfc35a929575cb8/secretflow-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-16 14:05:40] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/93/1d/0289b18696fd4117863b581e7c2e5235d8278783ce4960c246ab76e8978b/secretflow_lite-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-16 14:05:40] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/ff/e1/4f0bace7747053b705b1b7aae20344f14657b7e98f7742553847e34590cb/fiddler-client-3.0.0.dev9.tar.gz
+[2024-04-16 14:05:40] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/08/ea/1f0e0c4bf6978125bb6d32314f0dcebce3728dfce8fa0ef3106948b4d899/fiddler-client-3.1.0.dev1.tar.gz
+[2024-04-16 14:05:40] INFO root fetch - processPackages [secretflow]: Downloading https://files.pythonhosted.org/packages/d8/da/989cfcc9b5ac5c7a36af6356ec76c749676a0d8f406ee85340f58f0ed2f3/secretflow-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-16 14:05:40] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-04-16 14:05:40] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.0.0.dev9.tar.gz tmp/fiddler-client-3.1.0.dev1.tar.gz --markdown 20240416/f/fiddler-client/3.0.0.dev9-3.1.0.dev1/README.md --exclude *.pyd
+[2024-04-16 14:05:41] INFO root fetch - processPackages [secretflow-lite]: Downloading https://files.pythonhosted.org/packages/c8/3a/6646a8d95de20f2fbc541324f17edd45df9d49c88895fe7902863475df4b/secretflow_lite-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-16 14:05:42] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.0.0.dev9.tar.gz]
+[2024-04-16 14:05:42] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev1.tar.gz]
+[2024-04-16 14:05:42] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-04-16 14:05:50] INFO root fetch - processPackages [secretflow]: executing diffoscope
+[2024-04-16 14:05:50] INFO root fetch - processPackages [secretflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/secretflow-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240416/s/secretflow/1.5.0.dev20240321-1.5.0b0/README.md --exclude *.pyd
+[2024-04-16 14:05:58] INFO root fetch - processPackages [secretflow-lite]: executing diffoscope
+[2024-04-16 14:05:58] INFO root fetch - processPackages [secretflow-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secretflow_lite-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/secretflow_lite-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240416/s/secretflow-lite/1.5.0.dev20240321-1.5.0b0/README.md --exclude *.pyd
+[2024-04-16 14:06:38] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-16 14:06:38] INFO root fetch - processPackages [secretflow]: Remove: archive file [/home/abi/fetcher/tmp/secretflow-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-16 14:06:38] INFO root fetch - main [MainThread]: End processing [secretflow]: success
+[2024-04-16 14:06:46] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.5.0.dev20240321-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-16 14:06:46] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-16 14:06:46] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
+[2024-04-16 14:06:46] INFO root fetch - main [MainThread]: Store serial: [22787227]
