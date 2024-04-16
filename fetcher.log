@@ -4675,3 +4675,45 @@
 [2024-04-16 05:06:00] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201_py2-5.0.0-py3-none-any.whl.zip]
 [2024-04-16 05:06:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-dds20151201-py2]: success
 [2024-04-16 05:06:00] INFO root fetch - main [MainThread]: Store serial: [22781907]
+[2024-04-16 05:08:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781907]
+[2024-04-16 05:08:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 05:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-dds20151201-py2
+[2024-04-16 05:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dds20151201
+[2024-04-16 05:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clishow
+[2024-04-16 05:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-reconciliation-widget
+[2024-04-16 05:08:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-reconciliation-widget
+[2024-04-16 05:08:10] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: New version: [5.0.0] Old Version: [4.4.1]
+[2024-04-16 05:08:10] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Downloading https://files.pythonhosted.org/packages/0e/83/dd07058a16825b1ba86cda1d517ed524720858e262e7eaa1b7c01e147ab1/alibabacloud_dds20151201_py2-4.4.1.tar.gz
+[2024-04-16 05:08:10] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: New version: [15.0.1.2.9.3] Old Version: [15.0.1.2.9.2]
+[2024-04-16 05:08:10] WARNING root fetch - processPackages [clishow]: Skipping, unable to determine old version
+[2024-04-16 05:08:10] INFO root fetch - main [MainThread]: End processing [clishow] error
+[2024-04-16 05:08:10] INFO root fetch - processPackages [alibabacloud-dds20151201]: New version: [7.0.0] Old Version: [6.4.1]
+[2024-04-16 05:08:10] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: New version: [14.0.2.0.8.dev3] Old Version: [14.0.2.0.8.dev2]
+[2024-04-16 05:08:10] INFO root fetch - processPackages [alibabacloud-dds20151201]: Downloading https://files.pythonhosted.org/packages/ce/70/b18cff1d6fab6506f038861b4a2f0c51435732a85713ebca53ee281a8c26/alibabacloud_dds20151201-6.4.1.tar.gz
+[2024-04-16 05:08:10] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Downloading https://files.pythonhosted.org/packages/6f/af/6a3aea54d484b46888648d61e7a14c4a07e495afff45bb2a5d8c36cc5a91/alibabacloud_dds20151201_py2-5.0.0-py3-none-any.whl
+[2024-04-16 05:08:10] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/25/c1/b79af4a07a6bc48d09052dee6f3ebb39a3a70d6224ce931e8eb1163f1a2a/odoo14_addon_account_reconciliation_widget-14.0.2.0.8.dev2-py3-none-any.whl
+[2024-04-16 05:08:10] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/71/c4/d4c7c6ef9afeef19bd7113810fe7dacc25032a1187318863118264bd75b9/odoo_addon_account_reconciliation_widget-15.0.1.2.9.2-py3-none-any.whl
+[2024-04-16 05:08:10] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: executing diffoscope
+[2024-04-16 05:08:10] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dds20151201_py2-4.4.1.tar.gz tmp/alibabacloud_dds20151201_py2-5.0.0-py3-none-any.whl.zip --markdown 20240416/a/alibabacloud-dds20151201-py2/4.4.1-5.0.0/README.md --exclude *.pyd
+[2024-04-16 05:08:11] INFO root fetch - processPackages [alibabacloud-dds20151201]: Downloading https://files.pythonhosted.org/packages/14/f9/ded07da1ffd976c1896c811a8cad55c0432d70379dfca4c4aeeec7524c3c/alibabacloud_dds20151201-7.0.0.tar.gz
+[2024-04-16 05:08:11] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/f2/23/9da2c688050f40cd2b181bfb0610da6722edd0bc7d86fe6ca09522fddd7b/odoo14_addon_account_reconciliation_widget-14.0.2.0.8.dev3-py3-none-any.whl
+[2024-04-16 05:08:11] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/b0/46/8a4baf58f9eff17ee735f82af74d9ca8bb51a66a9957c8331c13a37c93e2/odoo_addon_account_reconciliation_widget-15.0.1.2.9.3-py3-none-any.whl
+[2024-04-16 05:08:11] INFO root fetch - processPackages [alibabacloud-dds20151201]: executing diffoscope
+[2024-04-16 05:08:11] INFO root fetch - processPackages [alibabacloud-dds20151201]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dds20151201-6.4.1.tar.gz tmp/alibabacloud_dds20151201-7.0.0.tar.gz --markdown 20240416/a/alibabacloud-dds20151201/6.4.1-7.0.0/README.md --exclude *.pyd
+[2024-04-16 05:08:11] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: executing diffoscope
+[2024-04-16 05:08:11] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9.2-py3-none-any.whl.zip tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9.3-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-account-reconciliation-widget/15.0.1.2.9.2-15.0.1.2.9.3/README.md --exclude *.pyd
+[2024-04-16 05:08:11] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: executing diffoscope
+[2024-04-16 05:08:11] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_reconciliation_widget-14.0.2.0.8.dev2-py3-none-any.whl.zip tmp/odoo14_addon_account_reconciliation_widget-14.0.2.0.8.dev3-py3-none-any.whl.zip --markdown 20240416/o/odoo14-addon-account-reconciliation-widget/14.0.2.0.8.dev2-14.0.2.0.8.dev3/README.md --exclude *.pyd
+[2024-04-16 05:08:12] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9.2-py3-none-any.whl.zip]
+[2024-04-16 05:08:12] INFO root fetch - processPackages [odoo-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconciliation_widget-15.0.1.2.9.3-py3-none-any.whl.zip]
+[2024-04-16 05:08:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconciliation-widget]: success
+[2024-04-16 05:08:12] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_reconciliation_widget-14.0.2.0.8.dev2-py3-none-any.whl.zip]
+[2024-04-16 05:08:12] INFO root fetch - processPackages [odoo14-addon-account-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_reconciliation_widget-14.0.2.0.8.dev3-py3-none-any.whl.zip]
+[2024-04-16 05:08:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-reconciliation-widget]: success
+[2024-04-16 05:08:12] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201_py2-4.4.1.tar.gz]
+[2024-04-16 05:08:12] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201_py2-5.0.0-py3-none-any.whl.zip]
+[2024-04-16 05:08:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-dds20151201-py2]: success
+[2024-04-16 05:08:12] INFO root fetch - processPackages [alibabacloud-dds20151201]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201-6.4.1.tar.gz]
+[2024-04-16 05:08:12] INFO root fetch - processPackages [alibabacloud-dds20151201]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201-7.0.0.tar.gz]
+[2024-04-16 05:08:12] INFO root fetch - main [MainThread]: End processing [alibabacloud-dds20151201]: success
+[2024-04-16 05:08:12] INFO root fetch - main [MainThread]: Store serial: [22781926]
