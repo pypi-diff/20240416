@@ -2662,3 +2662,15 @@
 [2024-04-16 02:31:09] INFO root fetch - processPackages [ploomber-cloud]: Remove: archive file [/home/abi/fetcher/tmp/ploomber-cloud-0.1.9.tar.gz]
 [2024-04-16 02:31:09] INFO root fetch - main [MainThread]: End processing [ploomber-cloud]: success
 [2024-04-16 02:31:09] INFO root fetch - main [MainThread]: Store serial: [22780938]
+[2024-04-16 02:33:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780938]
+[2024-04-16 02:33:18] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 02:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llvm-installer
+[2024-04-16 02:33:18] INFO root fetch - processPackages [llvm-installer]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-16 02:33:18] INFO root fetch - processPackages [llvm-installer]: Downloading https://files.pythonhosted.org/packages/b1/b9/199ed38d6d2b3498b02d1f19c1857065b6689e55b78616b41aed899206f6/llvm-installer-1.4.1.tar.gz
+[2024-04-16 02:33:18] INFO root fetch - processPackages [llvm-installer]: Downloading https://files.pythonhosted.org/packages/80/7a/fa52dd1b3caad3c49e3b54ad7c88cfc4eeb44f01d01d56dec0f0606e226c/llvm_installer-1.4.2.tar.gz
+[2024-04-16 02:33:19] INFO root fetch - processPackages [llvm-installer]: executing diffoscope
+[2024-04-16 02:33:19] INFO root fetch - processPackages [llvm-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llvm-installer-1.4.1.tar.gz tmp/llvm_installer-1.4.2.tar.gz --markdown 20240416/l/llvm-installer/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-16 02:33:20] INFO root fetch - processPackages [llvm-installer]: Remove: archive file [/home/abi/fetcher/tmp/llvm-installer-1.4.1.tar.gz]
+[2024-04-16 02:33:20] INFO root fetch - processPackages [llvm-installer]: Remove: archive file [/home/abi/fetcher/tmp/llvm_installer-1.4.2.tar.gz]
+[2024-04-16 02:33:20] INFO root fetch - main [MainThread]: End processing [llvm-installer]: success
+[2024-04-16 02:33:20] INFO root fetch - main [MainThread]: Store serial: [22780940]
