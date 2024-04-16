@@ -5712,3 +5712,36 @@
 [2024-04-16 06:11:49] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-04-16 06:11:49] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-04-16 06:11:49] INFO root fetch - main [MainThread]: Store serial: [22782385]
+[2024-04-16 06:13:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782385]
+[2024-04-16 06:13:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 06:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pre5g
+[2024-04-16 06:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dj-rest-auth
+[2024-04-16 06:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: heiwa4126.fizzbuzz
+[2024-04-16 06:13:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pasta-man
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pasta-man]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pre5g]: New version: [3.3] Old Version: [3.2]
+[2024-04-16 06:13:57] INFO root fetch - processPackages [dj-rest-auth]: New version: [5.1.0] Old Version: [5.0.2]
+[2024-04-16 06:13:57] WARNING root fetch - processPackages [heiwa4126.fizzbuzz]: Skipping, unable to determine old version
+[2024-04-16 06:13:57] INFO root fetch - main [MainThread]: End processing [heiwa4126.fizzbuzz] error
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pasta-man]: Downloading https://files.pythonhosted.org/packages/42/e8/4463e0c58eee2bd93485a7ecefc07bb4337ecddf32d314f151a4cf448e3a/pasta_man-1.0.5.tar.gz
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/0e/71/9efbc518a699ca1d0ab40bf265c8182b60fb4bbf84cdd170c3ecdf32f1d0/pre5g-3.2.tar.gz
+[2024-04-16 06:13:57] INFO root fetch - processPackages [dj-rest-auth]: Downloading https://files.pythonhosted.org/packages/60/0b/344743248e8282e4355661d2e136fffbc80ceeeebe47f9c2c10eaf41dbca/dj-rest-auth-5.0.2.tar.gz
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pasta-man]: Downloading https://files.pythonhosted.org/packages/3a/3e/817f23ea0150433e6deb06b3a34f505525f9ae5dc55393d78eb6f3238b42/pasta_man-1.0.6.tar.gz
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/ac/51/5fbdc7d1ab3316562b1ae73dddda78766927da594af9deb1773854aa9dd6/pre5g-3.3.tar.gz
+[2024-04-16 06:13:57] INFO root fetch - processPackages [dj-rest-auth]: Downloading https://files.pythonhosted.org/packages/44/d9/269f5cfbad5adf2644326738d7c338b5af299ce14ca9de7c41ead8515661/dj-rest-auth-5.1.0.tar.gz
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pasta-man]: executing diffoscope
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pasta-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_man-1.0.5.tar.gz tmp/pasta_man-1.0.6.tar.gz --markdown 20240416/p/pasta-man/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-16 06:13:57] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-3.2.tar.gz tmp/pre5g-3.3.tar.gz --markdown 20240416/p/pre5g/3.2-3.3/README.md --exclude *.pyd
+[2024-04-16 06:13:57] INFO root fetch - processPackages [dj-rest-auth]: executing diffoscope
+[2024-04-16 06:13:57] INFO root fetch - processPackages [dj-rest-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj-rest-auth-5.0.2.tar.gz tmp/dj-rest-auth-5.1.0.tar.gz --markdown 20240416/d/dj-rest-auth/5.0.2-5.1.0/README.md --exclude *.pyd
+[2024-04-16 06:13:58] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.2.tar.gz]
+[2024-04-16 06:13:58] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.3.tar.gz]
+[2024-04-16 06:13:58] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-16 06:13:58] INFO root fetch - processPackages [pasta-man]: Remove: archive file [/home/abi/fetcher/tmp/pasta_man-1.0.5.tar.gz]
+[2024-04-16 06:13:58] INFO root fetch - processPackages [pasta-man]: Remove: archive file [/home/abi/fetcher/tmp/pasta_man-1.0.6.tar.gz]
+[2024-04-16 06:13:58] INFO root fetch - main [MainThread]: End processing [pasta-man]: success
+[2024-04-16 06:13:58] INFO root fetch - processPackages [dj-rest-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj-rest-auth-5.0.2.tar.gz]
+[2024-04-16 06:13:58] INFO root fetch - processPackages [dj-rest-auth]: Remove: archive file [/home/abi/fetcher/tmp/dj-rest-auth-5.1.0.tar.gz]
+[2024-04-16 06:13:58] INFO root fetch - main [MainThread]: End processing [dj-rest-auth]: success
+[2024-04-16 06:13:58] INFO root fetch - main [MainThread]: Store serial: [22782400]
