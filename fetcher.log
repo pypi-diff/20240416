@@ -4204,3 +4204,15 @@
 [2024-04-16 04:32:22] INFO root fetch - processPackages [ths-mongo-training-tools]: Remove: archive file [/home/abi/fetcher/tmp/ths_mongo_training_tools-0.1.8.tar.gz]
 [2024-04-16 04:32:22] INFO root fetch - main [MainThread]: End processing [ths-mongo-training-tools]: success
 [2024-04-16 04:32:22] INFO root fetch - main [MainThread]: Store serial: [22781691]
+[2024-04-16 04:34:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781691]
+[2024-04-16 04:34:31] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 04:34:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-utils
+[2024-04-16 04:34:31] INFO root fetch - processPackages [cpg-utils]: New version: [5.0.2] Old Version: [5.0.1]
+[2024-04-16 04:34:31] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/99/0a/7304b3030ca2180bb06d2ce03eefdbee13c5d9177e3ab730a6314683c97a/cpg-utils-5.0.1.tar.gz
+[2024-04-16 04:34:31] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/91/de/1324e3e87922a27bd3405c433faaebf0abb9b8878e19c03d43a7a661a885/cpg-utils-5.0.2.tar.gz
+[2024-04-16 04:34:31] INFO root fetch - processPackages [cpg-utils]: executing diffoscope
+[2024-04-16 04:34:31] INFO root fetch - processPackages [cpg-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-utils-5.0.1.tar.gz tmp/cpg-utils-5.0.2.tar.gz --markdown 20240416/c/cpg-utils/5.0.1-5.0.2/README.md --exclude *.pyd
+[2024-04-16 04:34:32] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.1.tar.gz]
+[2024-04-16 04:34:32] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.2.tar.gz]
+[2024-04-16 04:34:32] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
+[2024-04-16 04:34:32] INFO root fetch - main [MainThread]: Store serial: [22781699]
