@@ -21281,3 +21281,130 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:34:52] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-04-16 16:34:52] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-04-16 16:34:52] INFO root fetch - main [MainThread]: Store serial: [22789122]
+[2024-04-16 16:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789122]
+[2024-04-16 16:37:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyBlindRL
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syntrac-opentelemetry-instrumentation-replicate
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tattler
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bpkio-cli
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syntrac-opentelemetry-instrumentation-transformers
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astro-p3
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syntrac-opentelemetry-instrumentation-vertexai
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lyyprocess
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: find-similar
+[2024-04-16 16:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyBlindRL
+[2024-04-16 16:37:01] INFO root fetch - processPackages [pyBlindRL]: New version: [0.1.0rc78.post1] Old Version: [0.0.3rc77.post1]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [find-similar]: New version: [2.2.0] Old Version: [2.1.0]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-replicate]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [pyBlindRL]: New version: [0.1.0rc78.post1] Old Version: [0.0.3rc77.post1]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [lyyprocess]: New version: [1.6] Old Version: [1.5]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [bpkio-cli]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-vertexai]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [tattler]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-transformers]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [astro-p3]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-16 16:37:01] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/2c/57/b545903cae74f2d9aa03482643b260e03a4a88fa4bb0fd3c8335483d59f5/pyblindrl-0.0.3rc77.post1.tar.gz
+[2024-04-16 16:37:01] INFO root fetch - processPackages [find-similar]: Downloading https://files.pythonhosted.org/packages/c2/d1/014775791bdadff82bd3073c8eddf2417c9bb69ccd68cb998ffcd22c12ae/find-similar-2.1.0.tar.gz
+[2024-04-16 16:37:01] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-replicate]: Downloading https://files.pythonhosted.org/packages/ed/aa/cd426172e307dcdc0369b908726fdb97b8d3b66c4922e0cfa7b801794829/syntrac_opentelemetry_instrumentation_replicate-0.0.1.tar.gz
+[2024-04-16 16:37:01] INFO root fetch - processPackages [lyyprocess]: Downloading https://files.pythonhosted.org/packages/05/05/628c612fbbc698e156bde458e573b679d5bedafa782ff92bfb5fa9a811b8/lyyprocess-1.5.tar.gz
+[2024-04-16 16:37:01] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/2c/57/b545903cae74f2d9aa03482643b260e03a4a88fa4bb0fd3c8335483d59f5/pyblindrl-0.0.3rc77.post1.tar.gz
+[2024-04-16 16:37:01] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/55/61/35d2bd60fef00e8cdf13a32002a415a3002f36f11f78cfe4a501088a952c/bpkio_cli-1.9.0.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-vertexai]: Downloading https://files.pythonhosted.org/packages/cb/58/c47f88ab41f1e9f2b1478de150768b9a1b633d2a908250ccc1de6fd97ea5/syntrac_opentelemetry_instrumentation_vertexai-0.0.1.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-transformers]: Downloading https://files.pythonhosted.org/packages/14/0e/2d2506250cd4487cf3ff7607d1477b2dfd223cd943539b8fae58961155ff/syntrac_opentelemetry_instrumentation_transformers-0.0.1.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [tattler]: Downloading https://files.pythonhosted.org/packages/61/1f/9011bcd2e4f41d572ebb8d017aec9155768af60ec4b0ddf02a59b41c79dd/tattler-1.5.1.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [astro-p3]: Downloading https://files.pythonhosted.org/packages/15/38/5664b288c1c54a958d267c5230e15c2345df0bc0544135fa9ebdf417ff1e/astro-p3-1.2.8.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/15/c7/4ee91bbf6022e69b87c870e4c62949504e77ec350e0564f12deb51a19f32/pyblindrl-0.1.0rc78.post1.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [lyyprocess]: Downloading https://files.pythonhosted.org/packages/68/e8/6673c826d52a31c69ff9039f1e4d49d9bbd61f2dcf8b78ea15c86dbd4e06/lyyprocess-1.6.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-replicate]: Downloading https://files.pythonhosted.org/packages/2f/f0/aa28aed773474409577df9af205cf727752bf214a12acda859d6835bac7b/syntrac_opentelemetry_instrumentation_replicate-0.0.2.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/15/c7/4ee91bbf6022e69b87c870e4c62949504e77ec350e0564f12deb51a19f32/pyblindrl-0.1.0rc78.post1.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [bpkio-cli]: Downloading https://files.pythonhosted.org/packages/93/2d/061c46add6e00f11220006e64d6b62d18e3aeb21eda2eecf195a716159b9/bpkio_cli-1.9.1.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-04-16 16:37:02] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.0.3rc77.post1.tar.gz tmp/pyblindrl-0.1.0rc78.post1.tar.gz --markdown 20240416/p/pyBlindRL/0.0.3rc77.post1-0.1.0rc78.post1/README.md --exclude *.pyd
+[2024-04-16 16:37:02] INFO root fetch - processPackages [find-similar]: Downloading https://files.pythonhosted.org/packages/cb/cc/947cc3748b1ef8be6ce52fea971f3c1d7cab73e5be50ad387d68b9f4c859/find_similar-2.2.0.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [lyyprocess]: executing diffoscope
+[2024-04-16 16:37:02] INFO root fetch - processPackages [lyyprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyyprocess-1.5.tar.gz tmp/lyyprocess-1.6.tar.gz --markdown 20240416/l/lyyprocess/1.5-1.6/README.md --exclude *.pyd
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-vertexai]: Downloading https://files.pythonhosted.org/packages/5e/34/01141adbcd36a74e2c570028c9ad3ea9b917d9ce65036ad8faa6495ba0db/syntrac_opentelemetry_instrumentation_vertexai-0.0.2.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-04-16 16:37:02] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.0.3rc77.post1.tar.gz tmp/pyblindrl-0.1.0rc78.post1.tar.gz --markdown 20240416/p/pyBlindRL/0.0.3rc77.post1-0.1.0rc78.post1/README.md --exclude *.pyd
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-replicate]: executing diffoscope
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-replicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_replicate-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_replicate-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-replicate/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-transformers]: Downloading https://files.pythonhosted.org/packages/98/b2/5af700e33058a86ac361a1f63037e5593d8ae051153331c093bb45e22008/syntrac_opentelemetry_instrumentation_transformers-0.0.2.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [bpkio-cli]: executing diffoscope
+[2024-04-16 16:37:02] INFO root fetch - processPackages [bpkio-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpkio_cli-1.9.0.tar.gz tmp/bpkio_cli-1.9.1.tar.gz --markdown 20240416/b/bpkio-cli/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-vertexai]: executing diffoscope
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-vertexai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_vertexai-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_vertexai-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-vertexai/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:37:02] INFO root fetch - processPackages [find-similar]: executing diffoscope
+[2024-04-16 16:37:02] INFO root fetch - processPackages [find-similar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/find-similar-2.1.0.tar.gz tmp/find_similar-2.2.0.tar.gz --markdown 20240416/f/find-similar/2.1.0-2.2.0/README.md --exclude *.pyd
+[2024-04-16 16:37:02] INFO root fetch - processPackages [tattler]: Downloading https://files.pythonhosted.org/packages/29/74/a3d3955838f7a5e70c71b9905eed485b2d29a3c49b9ccae9bcd1c2b400fa/tattler-1.5.2.tar.gz
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-transformers]: executing diffoscope
+[2024-04-16 16:37:02] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_transformers-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_transformers-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-transformers/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:37:02] INFO root fetch - processPackages [tattler]: executing diffoscope
+[2024-04-16 16:37:02] INFO root fetch - processPackages [tattler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tattler-1.5.1.tar.gz tmp/tattler-1.5.2.tar.gz --markdown 20240416/t/tattler/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-16 16:37:03] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.0.3rc77.post1.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.1.0rc78.post1.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [pyBlindRL]: Start processing: solathon
+[2024-04-16 16:37:03] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-04-16 16:37:03] INFO root fetch - processPackages [lyyprocess]: Remove: archive file [/home/abi/fetcher/tmp/lyyprocess-1.5.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [lyyprocess]: Remove: archive file [/home/abi/fetcher/tmp/lyyprocess-1.6.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [lyyprocess]: Start processing: syntrac-opentelemetry-instrumentation-watsonx
+[2024-04-16 16:37:03] INFO root fetch - main [MainThread]: End processing [lyyprocess]: success
+[2024-04-16 16:37:03] INFO root fetch - processPackages [solathon]: New version: [1.0.0] Old Version: [0.1.9]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-watsonx]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [pyBlindRL]: Start processing: syntrac-opentelemetry-instrumentation-weaviate
+[2024-04-16 16:37:03] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-vertexai]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_vertexai-0.0.1.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-vertexai]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_vertexai-0.0.2.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-vertexai]: Start processing: giant-redirect-import
+[2024-04-16 16:37:03] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-vertexai]: success
+[2024-04-16 16:37:03] INFO root fetch - processPackages [giant-redirect-import]: New version: [0.5] Old Version: [0.4]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-replicate]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_replicate-0.0.1.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-replicate]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_replicate-0.0.2.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-replicate]: success
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-weaviate]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-watsonx]: Downloading https://files.pythonhosted.org/packages/3b/6a/4bb98b5aa6595fc5457b4d401ba28bd33e6bbed80cb6eccbc2e9a660ff8f/syntrac_opentelemetry_instrumentation_watsonx-0.0.1.tar.gz
+[2024-04-16 16:37:03] INFO root fetch - processPackages [find-similar]: Remove: archive file [/home/abi/fetcher/tmp/find-similar-2.1.0.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [find-similar]: Remove: archive file [/home/abi/fetcher/tmp/find_similar-2.2.0.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - main [MainThread]: End processing [find-similar]: success
+[2024-04-16 16:37:03] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/8b/3e/e97cefc029df2d543229037184e72ef6985808fc6d438fcb9f4ad98dff9c/giant_redirect_import-0.4.tar.gz
+[2024-04-16 16:37:03] INFO root fetch - processPackages [solathon]: Downloading https://files.pythonhosted.org/packages/05/0e/4b2d7cd5d5e245da07c07adcba43cd048251f5af35691ca2f0471a503ab4/solathon-0.1.9.tar.gz
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-transformers]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_transformers-0.0.1.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-transformers]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_transformers-0.0.2.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-transformers]: success
+[2024-04-16 16:37:03] INFO root fetch - processPackages [tattler]: Remove: archive file [/home/abi/fetcher/tmp/tattler-1.5.1.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [tattler]: Remove: archive file [/home/abi/fetcher/tmp/tattler-1.5.2.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - main [MainThread]: End processing [tattler]: success
+[2024-04-16 16:37:03] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-weaviate]: Downloading https://files.pythonhosted.org/packages/4b/27/6ed5ce0645458477b55ecc13d447a4254167249f98aef70388871ed5f471/syntrac_opentelemetry_instrumentation_weaviate-0.0.1.tar.gz
+[2024-04-16 16:37:03] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.9.0.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - processPackages [bpkio-cli]: Remove: archive file [/home/abi/fetcher/tmp/bpkio_cli-1.9.1.tar.gz]
+[2024-04-16 16:37:03] INFO root fetch - main [MainThread]: End processing [bpkio-cli]: success
+[2024-04-16 16:37:03] INFO root fetch - processPackages [giant-redirect-import]: Downloading https://files.pythonhosted.org/packages/7b/4c/d9489b5151a2aa3b8531c42fded40c7096ea45b1df9eb725dcf4f088e943/giant_redirect_import-0.5.tar.gz
+[2024-04-16 16:37:04] INFO root fetch - processPackages [astro-p3]: Downloading https://files.pythonhosted.org/packages/c1/51/2886d5a49bc001d577370f969cb0f682974813d03f1c5f0d7b827319d106/astro-p3-1.2.9.tar.gz
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-watsonx]: Downloading https://files.pythonhosted.org/packages/a4/08/600b9a79b7a6fe3e523f2173168fa3b7bec9c503e854e32882b649ca441d/syntrac_opentelemetry_instrumentation_watsonx-0.0.2.tar.gz
+[2024-04-16 16:37:04] INFO root fetch - processPackages [solathon]: Downloading https://files.pythonhosted.org/packages/bf/ca/78931937b4b5000e8269d306ef53acb9c64b0057a1f5616a246666be00b3/solathon-1.0.0.tar.gz
+[2024-04-16 16:37:04] INFO root fetch - processPackages [giant-redirect-import]: executing diffoscope
+[2024-04-16 16:37:04] INFO root fetch - processPackages [giant-redirect-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giant_redirect_import-0.4.tar.gz tmp/giant_redirect_import-0.5.tar.gz --markdown 20240416/g/giant-redirect-import/0.4-0.5/README.md --exclude *.pyd
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-weaviate]: Downloading https://files.pythonhosted.org/packages/82/d0/06958f2095de0ea4ce3cb48116f5d8f79cc9f042ddc6f61f9b250c2db8b4/syntrac_opentelemetry_instrumentation_weaviate-0.0.2.tar.gz
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-watsonx]: executing diffoscope
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-watsonx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_watsonx-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_watsonx-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-watsonx/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:37:04] INFO root fetch - processPackages [solathon]: executing diffoscope
+[2024-04-16 16:37:04] INFO root fetch - processPackages [solathon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solathon-0.1.9.tar.gz tmp/solathon-1.0.0.tar.gz --markdown 20240416/s/solathon/0.1.9-1.0.0/README.md --exclude *.pyd
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-weaviate]: executing diffoscope
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-weaviate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_opentelemetry_instrumentation_weaviate-0.0.1.tar.gz tmp/syntrac_opentelemetry_instrumentation_weaviate-0.0.2.tar.gz --markdown 20240416/s/syntrac-opentelemetry-instrumentation-weaviate/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-16 16:37:04] INFO root fetch - processPackages [giant-redirect-import]: Remove: archive file [/home/abi/fetcher/tmp/giant_redirect_import-0.4.tar.gz]
+[2024-04-16 16:37:04] INFO root fetch - processPackages [giant-redirect-import]: Remove: archive file [/home/abi/fetcher/tmp/giant_redirect_import-0.5.tar.gz]
+[2024-04-16 16:37:04] INFO root fetch - main [MainThread]: End processing [giant-redirect-import]: success
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-watsonx]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_watsonx-0.0.1.tar.gz]
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-watsonx]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_watsonx-0.0.2.tar.gz]
+[2024-04-16 16:37:04] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-watsonx]: success
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_weaviate-0.0.1.tar.gz]
+[2024-04-16 16:37:04] INFO root fetch - processPackages [syntrac-opentelemetry-instrumentation-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_opentelemetry_instrumentation_weaviate-0.0.2.tar.gz]
+[2024-04-16 16:37:04] INFO root fetch - main [MainThread]: End processing [syntrac-opentelemetry-instrumentation-weaviate]: success
+[2024-04-16 16:37:05] INFO root fetch - processPackages [solathon]: Remove: archive file [/home/abi/fetcher/tmp/solathon-0.1.9.tar.gz]
+[2024-04-16 16:37:05] INFO root fetch - processPackages [solathon]: Remove: archive file [/home/abi/fetcher/tmp/solathon-1.0.0.tar.gz]
+[2024-04-16 16:37:05] INFO root fetch - main [MainThread]: End processing [solathon]: success
+[2024-04-16 16:37:05] INFO root fetch - processPackages [astro-p3]: executing diffoscope
+[2024-04-16 16:37:05] INFO root fetch - processPackages [astro-p3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-p3-1.2.8.tar.gz tmp/astro-p3-1.2.9.tar.gz --markdown 20240416/a/astro-p3/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-16 16:37:10] INFO root fetch - processPackages [astro-p3]: Remove: archive file [/home/abi/fetcher/tmp/astro-p3-1.2.8.tar.gz]
+[2024-04-16 16:37:10] INFO root fetch - processPackages [astro-p3]: Remove: archive file [/home/abi/fetcher/tmp/astro-p3-1.2.9.tar.gz]
+[2024-04-16 16:37:10] INFO root fetch - main [MainThread]: End processing [astro-p3]: success
+[2024-04-16 16:37:10] INFO root fetch - main [MainThread]: Store serial: [22789176]
