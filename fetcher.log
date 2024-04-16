@@ -6912,3 +6912,24 @@
 [2024-04-16 07:40:24] INFO root fetch - processPackages [pyiron-potentialfit]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_potentialfit-0.3.0.tar.gz]
 [2024-04-16 07:40:24] INFO root fetch - main [MainThread]: End processing [pyiron-potentialfit]: success
 [2024-04-16 07:40:24] INFO root fetch - main [MainThread]: Store serial: [22782941]
+[2024-04-16 07:42:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782941]
+[2024-04-16 07:42:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 07:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaea-tracker
+[2024-04-16 07:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edit-distance-correction
+[2024-04-16 07:42:33] INFO root fetch - processPackages [gaea-tracker]: New version: [1.2.0.5] Old Version: [1.2.0.4]
+[2024-04-16 07:42:33] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/1c/7f/a8135f0cb59a6c5b025b518236adc9d6a58295a52f758b46414aa589b53e/gaea_tracker-1.2.0.4-py3-none-any.whl
+[2024-04-16 07:42:33] INFO root fetch - processPackages [edit-distance-correction]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-16 07:42:33] INFO root fetch - processPackages [edit-distance-correction]: Downloading https://files.pythonhosted.org/packages/9a/ef/394f79a3abdb35c8a025318b0296417b3e3e579b917268e99b7c9158dbb5/edit_distance_correction-1.1.5-py3-none-any.whl
+[2024-04-16 07:42:33] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/40/d3/9a76bb89c00ed712bc17282ff8e187f3a06872e4d1a64c0fc626c9ca747a/gaea_tracker-1.2.0.5-py3-none-any.whl
+[2024-04-16 07:42:33] INFO root fetch - processPackages [gaea-tracker]: executing diffoscope
+[2024-04-16 07:42:33] INFO root fetch - processPackages [gaea-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_tracker-1.2.0.4-py3-none-any.whl.zip tmp/gaea_tracker-1.2.0.5-py3-none-any.whl.zip --markdown 20240416/g/gaea-tracker/1.2.0.4-1.2.0.5/README.md --exclude *.pyd
+[2024-04-16 07:42:33] INFO root fetch - processPackages [edit-distance-correction]: Downloading https://files.pythonhosted.org/packages/e8/0a/95df8752a8a320e8664fb2fd40efeb06d1f1cdca9ffa77fcceed8baedd63/edit_distance_correction-1.1.6-py3-none-any.whl
+[2024-04-16 07:42:33] INFO root fetch - processPackages [edit-distance-correction]: executing diffoscope
+[2024-04-16 07:42:33] INFO root fetch - processPackages [edit-distance-correction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edit_distance_correction-1.1.5-py3-none-any.whl.zip tmp/edit_distance_correction-1.1.6-py3-none-any.whl.zip --markdown 20240416/e/edit-distance-correction/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-16 07:42:34] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.4-py3-none-any.whl.zip]
+[2024-04-16 07:42:34] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.5-py3-none-any.whl.zip]
+[2024-04-16 07:42:34] INFO root fetch - main [MainThread]: End processing [gaea-tracker]: success
+[2024-04-16 07:42:34] INFO root fetch - processPackages [edit-distance-correction]: Remove: archive file [/home/abi/fetcher/tmp/edit_distance_correction-1.1.5-py3-none-any.whl.zip]
+[2024-04-16 07:42:34] INFO root fetch - processPackages [edit-distance-correction]: Remove: archive file [/home/abi/fetcher/tmp/edit_distance_correction-1.1.6-py3-none-any.whl.zip]
+[2024-04-16 07:42:34] INFO root fetch - main [MainThread]: End processing [edit-distance-correction]: success
+[2024-04-16 07:42:34] INFO root fetch - main [MainThread]: Store serial: [22782946]
