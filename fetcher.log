@@ -14482,3 +14482,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:38:53] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240415.tar.gz]
 [2024-04-16 12:38:53] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-04-16 12:38:53] INFO root fetch - main [MainThread]: Store serial: [22786328]
+[2024-04-16 12:40:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786328]
+[2024-04-16 12:41:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-smartbase-admin
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragelo
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymemgpt-nightly
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-parrot-dtmf
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strauss
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PycWB
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rx-hqm
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cex-adaptors
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ckanext-dcor-theme
+[2024-04-16 12:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hera
+[2024-04-16 12:41:03] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [cex-adaptors]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [ragelo]: New version: [0.1.1] Old Version: [0.0.5]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [rx-hqm]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [cex-adaptors]: Downloading https://files.pythonhosted.org/packages/ce/da/a1f72a249ff1248d3c59eb71e4936368d5f7600fb028b6bc19d49902ea30/cex-adaptors-1.0.4.tar.gz
+[2024-04-16 12:41:03] WARNING root fetch - processPackages [strauss]: Skipping, unable to determine old version
+[2024-04-16 12:41:03] INFO root fetch - processPackages [strauss]: Start processing: streamtape
+[2024-04-16 12:41:03] INFO root fetch - main [MainThread]: End processing [strauss] error
+[2024-04-16 12:41:03] WARNING root fetch - processPackages [robotframework-parrot-dtmf]: Skipping, unable to determine old version
+[2024-04-16 12:41:03] INFO root fetch - processPackages [robotframework-parrot-dtmf]: Start processing: hera-workflows
+[2024-04-16 12:41:03] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-dtmf] error
+[2024-04-16 12:41:03] INFO root fetch - processPackages [PycWB]: New version: [0.22.1] Old Version: [0.22.0]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [ckanext-dcor-theme]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [hera]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [streamtape]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [hera-workflows]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-16 12:41:03] INFO root fetch - processPackages [ragelo]: Downloading https://files.pythonhosted.org/packages/9f/85/0de8deaa01c82ed7737d6e1e0844108910382c726009a0ad027473af75db/ragelo-0.0.5.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [rx-hqm]: Downloading https://files.pythonhosted.org/packages/8e/7c/870b37a202f21d436eae437631f1118f56c0a08a87b2dc242507967c206c/rx_hqm-0.1.3.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [PycWB]: Downloading https://files.pythonhosted.org/packages/d2/8e/64518a7dd09f8e83d65423862bf67c7cbe1d953407839ce85c788813b0e6/PycWB-0.22.0.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [ckanext-dcor-theme]: Downloading https://files.pythonhosted.org/packages/1c/34/ba5b90623cd8adee54edeec2999d88276ca29df898f5be883285ee6121a6/ckanext-dcor_theme-0.7.7.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [cex-adaptors]: Downloading https://files.pythonhosted.org/packages/d0/a3/70443ccff2d28c056735ffeca20f0aea0f7aa806319957add4c6500bf2ed/cex-adaptors-1.0.5.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/d4/33/d7bb7403b9215b43a071fbbc9af830523da1e320b13bde80e5a4e63b908a/hera_workflows-5.8.0.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [streamtape]: Downloading https://files.pythonhosted.org/packages/d3/d8/c992fb33a7e28d3a94bff54bd5fd18a6d33cbb02718a55c84ec547126b46/streamtape-1.0.1.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/ca/21/d8f3d1eec5b426e7787dff4b901f4abf3e38a66c6d65451d0b1d5c8f9ced/hera-5.8.0.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [cex-adaptors]: executing diffoscope
+[2024-04-16 12:41:03] INFO root fetch - processPackages [cex-adaptors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cex-adaptors-1.0.4.tar.gz tmp/cex-adaptors-1.0.5.tar.gz --markdown 20240416/c/cex-adaptors/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-16 12:41:03] INFO root fetch - processPackages [ragelo]: Downloading https://files.pythonhosted.org/packages/09/ca/fac4853c6a7413e33d423df7169c33d336d2c95c11f8740698a748514bc7/ragelo-0.1.1.tar.gz
+[2024-04-16 12:41:03] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-16 12:41:03] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240416/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-16 12:41:03] INFO root fetch - processPackages [ragelo]: executing diffoscope
+[2024-04-16 12:41:03] INFO root fetch - processPackages [ragelo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragelo-0.0.5.tar.gz tmp/ragelo-0.1.1.tar.gz --markdown 20240416/r/ragelo/0.0.5-0.1.1/README.md --exclude *.pyd
+[2024-04-16 12:41:03] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-04-16 12:41:04] INFO root fetch - processPackages [ckanext-dcor-theme]: Downloading https://files.pythonhosted.org/packages/12/95/65963e0eaf9ce92ae06442616785de77f2bbcfaf7692d29d0cb1a369054f/ckanext-dcor_theme-0.7.8.tar.gz
+[2024-04-16 12:41:04] INFO root fetch - processPackages [streamtape]: Downloading https://files.pythonhosted.org/packages/37/18/c01815221a15975ec54a47ff6337fafbf13577ebae024699a8b3fb2138a2/streamtape-1.0.2.tar.gz
+[2024-04-16 12:41:04] INFO root fetch - processPackages [rx-hqm]: Downloading https://files.pythonhosted.org/packages/0c/a7/f9eb848b49beb8cc7db2f93746a534fd258a5aba6f511a55c06b603eb5bf/rx_hqm-0.1.4.tar.gz
+[2024-04-16 12:41:04] INFO root fetch - processPackages [hera-workflows]: Downloading https://files.pythonhosted.org/packages/a7/71/88cd614bcb8a6a185c779001ecf4650401c151690f88f5aa1156c4f20391/hera_workflows-5.9.0.tar.gz
+[2024-04-16 12:41:04] INFO root fetch - processPackages [ckanext-dcor-theme]: executing diffoscope
+[2024-04-16 12:41:04] INFO root fetch - processPackages [ckanext-dcor-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-dcor_theme-0.7.7.tar.gz tmp/ckanext-dcor_theme-0.7.8.tar.gz --markdown 20240416/c/ckanext-dcor-theme/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-04-16 12:41:04] INFO root fetch - processPackages [streamtape]: executing diffoscope
+[2024-04-16 12:41:04] INFO root fetch - processPackages [streamtape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamtape-1.0.1.tar.gz tmp/streamtape-1.0.2.tar.gz --markdown 20240416/s/streamtape/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-16 12:41:04] INFO root fetch - processPackages [PycWB]: Downloading https://files.pythonhosted.org/packages/40/fc/b15ecb511862512e8f7bb337368aa33ac80f1d103a822c4853651a3518fa/pycwb-0.22.1.tar.gz
+[2024-04-16 12:41:04] INFO root fetch - processPackages [hera-workflows]: executing diffoscope
+[2024-04-16 12:41:04] INFO root fetch - processPackages [hera-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_workflows-5.8.0.tar.gz tmp/hera_workflows-5.9.0.tar.gz --markdown 20240416/h/hera-workflows/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-04-16 12:41:04] INFO root fetch - processPackages [cex-adaptors]: Remove: archive file [/home/abi/fetcher/tmp/cex-adaptors-1.0.4.tar.gz]
+[2024-04-16 12:41:04] INFO root fetch - processPackages [cex-adaptors]: Remove: archive file [/home/abi/fetcher/tmp/cex-adaptors-1.0.5.tar.gz]
+[2024-04-16 12:41:04] INFO root fetch - processPackages [cex-adaptors]: Start processing: encord
+[2024-04-16 12:41:04] INFO root fetch - main [MainThread]: End processing [cex-adaptors]: success
+[2024-04-16 12:41:04] INFO root fetch - processPackages [encord]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 12:41:04] INFO root fetch - processPackages [ragelo]: Remove: archive file [/home/abi/fetcher/tmp/ragelo-0.0.5.tar.gz]
+[2024-04-16 12:41:04] INFO root fetch - processPackages [ragelo]: Remove: archive file [/home/abi/fetcher/tmp/ragelo-0.1.1.tar.gz]
+[2024-04-16 12:41:04] INFO root fetch - processPackages [ragelo]: Start processing: khalorg
+[2024-04-16 12:41:04] INFO root fetch - main [MainThread]: End processing [ragelo]: success
+[2024-04-16 12:41:04] INFO root fetch - processPackages [khalorg]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-16 12:41:04] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-04-16 12:41:04] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240416/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-04-16 12:41:04] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/f0/34/d6ab4f7213dd4dd42f226ed7b328ac3ff55006a7b5ce96d4012adeedb08d/encord-0.1.98.tar.gz
+[2024-04-16 12:41:05] INFO root fetch - processPackages [rx-hqm]: executing diffoscope
+[2024-04-16 12:41:05] INFO root fetch - processPackages [rx-hqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rx_hqm-0.1.3.tar.gz tmp/rx_hqm-0.1.4.tar.gz --markdown 20240416/r/rx-hqm/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 12:41:05] INFO root fetch - processPackages [streamtape]: Remove: archive file [/home/abi/fetcher/tmp/streamtape-1.0.1.tar.gz]
+[2024-04-16 12:41:05] INFO root fetch - processPackages [streamtape]: Remove: archive file [/home/abi/fetcher/tmp/streamtape-1.0.2.tar.gz]
+[2024-04-16 12:41:05] INFO root fetch - processPackages [streamtape]: Start processing: sonnia
+[2024-04-16 12:41:05] INFO root fetch - main [MainThread]: End processing [streamtape]: success
+[2024-04-16 12:41:05] INFO root fetch - processPackages [sonnia]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-16 12:41:05] INFO root fetch - processPackages [khalorg]: Downloading https://files.pythonhosted.org/packages/02/e4/7feb69f2a1695ef8d553b37fcac122d8ab52c5975cce80b1be5a987c35b2/khalorg-0.0.2.tar.gz
+[2024-04-16 12:41:05] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-16 12:41:05] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-16 12:41:05] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-16 12:41:05] INFO root fetch - processPackages [sonnia]: Downloading https://files.pythonhosted.org/packages/c3/fc/38ebecf2cb1f884d892965324239a54325b18fe57e8aab18b101c17dfe41/sonnia-0.2.1.tar.gz
+[2024-04-16 12:41:05] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/ec/62/9a0b4770d9ee7f4e82c28b9f55065be20b0b96007b04c6c9c226ceffa842/encord-0.1.99.tar.gz
+[2024-04-16 12:41:05] INFO root fetch - processPackages [PycWB]: executing diffoscope
+[2024-04-16 12:41:05] INFO root fetch - processPackages [PycWB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PycWB-0.22.0.tar.gz tmp/pycwb-0.22.1.tar.gz --markdown 20240416/P/PycWB/0.22.0-0.22.1/README.md --exclude *.pyd
+[2024-04-16 12:41:05] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.8.0.tar.gz]
+[2024-04-16 12:41:05] INFO root fetch - processPackages [hera-workflows]: Remove: archive file [/home/abi/fetcher/tmp/hera_workflows-5.9.0.tar.gz]
+[2024-04-16 12:41:05] INFO root fetch - main [MainThread]: End processing [hera-workflows]: success
+[2024-04-16 12:41:05] INFO root fetch - processPackages [encord]: executing diffoscope
+[2024-04-16 12:41:05] INFO root fetch - processPackages [hera]: Downloading https://files.pythonhosted.org/packages/a1/bd/edecc7df47fbd93b374b88145f3a8f30fb5b314776b3b272c8fbf0f36bae/hera-5.9.0.tar.gz
+[2024-04-16 12:41:05] INFO root fetch - processPackages [encord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-0.1.98.tar.gz tmp/encord-0.1.99.tar.gz --markdown 20240416/e/encord/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 12:41:05] INFO root fetch - processPackages [khalorg]: Downloading https://files.pythonhosted.org/packages/1f/d7/f1fef871c7149bfd87d973ba4772f8183b3c008d5608a0d19e1aa920e997/khalorg-0.0.3.tar.gz
+[2024-04-16 12:41:05] INFO root fetch - processPackages [ckanext-dcor-theme]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dcor_theme-0.7.7.tar.gz]
+[2024-04-16 12:41:05] INFO root fetch - processPackages [ckanext-dcor-theme]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-dcor_theme-0.7.8.tar.gz]
+[2024-04-16 12:41:05] INFO root fetch - main [MainThread]: End processing [ckanext-dcor-theme]: success
+[2024-04-16 12:41:05] INFO root fetch - processPackages [sonnia]: Downloading https://files.pythonhosted.org/packages/96/50/13e4f32e75b2ac4c6d9f60a4d4f2e74242c0256b3e67528cf95aadc26035/sonnia-0.2.2.tar.gz
+[2024-04-16 12:41:05] INFO root fetch - processPackages [hera]: executing diffoscope
+[2024-04-16 12:41:05] INFO root fetch - processPackages [hera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera-5.8.0.tar.gz tmp/hera-5.9.0.tar.gz --markdown 20240416/h/hera/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-04-16 12:41:06] INFO root fetch - processPackages [sonnia]: executing diffoscope
+[2024-04-16 12:41:06] INFO root fetch - processPackages [sonnia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonnia-0.2.1.tar.gz tmp/sonnia-0.2.2.tar.gz --markdown 20240416/s/sonnia/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-16 12:41:06] INFO root fetch - processPackages [khalorg]: executing diffoscope
+[2024-04-16 12:41:06] INFO root fetch - processPackages [khalorg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khalorg-0.0.2.tar.gz tmp/khalorg-0.0.3.tar.gz --markdown 20240416/k/khalorg/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-16 12:41:06] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.98.tar.gz]
+[2024-04-16 12:41:06] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.99.tar.gz]
+[2024-04-16 12:41:06] INFO root fetch - main [MainThread]: End processing [encord]: success
+[2024-04-16 12:41:06] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.8.0.tar.gz]
+[2024-04-16 12:41:06] INFO root fetch - processPackages [hera]: Remove: archive file [/home/abi/fetcher/tmp/hera-5.9.0.tar.gz]
+[2024-04-16 12:41:06] INFO root fetch - main [MainThread]: End processing [hera]: success
+[2024-04-16 12:41:07] INFO root fetch - processPackages [rx-hqm]: Remove: archive file [/home/abi/fetcher/tmp/rx_hqm-0.1.3.tar.gz]
+[2024-04-16 12:41:07] INFO root fetch - processPackages [rx-hqm]: Remove: archive file [/home/abi/fetcher/tmp/rx_hqm-0.1.4.tar.gz]
+[2024-04-16 12:41:07] INFO root fetch - main [MainThread]: End processing [rx-hqm]: success
+[2024-04-16 12:41:07] INFO root fetch - processPackages [sonnia]: Remove: archive file [/home/abi/fetcher/tmp/sonnia-0.2.1.tar.gz]
+[2024-04-16 12:41:07] INFO root fetch - processPackages [sonnia]: Remove: archive file [/home/abi/fetcher/tmp/sonnia-0.2.2.tar.gz]
+[2024-04-16 12:41:07] INFO root fetch - main [MainThread]: End processing [sonnia]: success
+[2024-04-16 12:41:07] INFO root fetch - processPackages [khalorg]: Remove: archive file [/home/abi/fetcher/tmp/khalorg-0.0.2.tar.gz]
+[2024-04-16 12:41:07] INFO root fetch - processPackages [khalorg]: Remove: archive file [/home/abi/fetcher/tmp/khalorg-0.0.3.tar.gz]
+[2024-04-16 12:41:07] INFO root fetch - main [MainThread]: End processing [khalorg]: success
+[2024-04-16 12:41:07] INFO root fetch - processPackages [PycWB]: Remove: archive file [/home/abi/fetcher/tmp/PycWB-0.22.0.tar.gz]
+[2024-04-16 12:41:07] INFO root fetch - processPackages [PycWB]: Remove: archive file [/home/abi/fetcher/tmp/pycwb-0.22.1.tar.gz]
+[2024-04-16 12:41:07] INFO root fetch - main [MainThread]: End processing [PycWB]: success
+[2024-04-16 12:41:10] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-04-16 12:41:10] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-04-16 12:41:10] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-04-16 12:41:10] INFO root fetch - main [MainThread]: Store serial: [22786376]
