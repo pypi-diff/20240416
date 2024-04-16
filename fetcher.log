@@ -24347,3 +24347,207 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 18:05:45] INFO root fetch - processPackages [cerebras-appliance]: Remove: archive file [/home/abi/fetcher/tmp/cerebras_appliance-2.2.0-cp38-cp38-manylinux2014_x86_64.whl.zip]
 [2024-04-16 18:05:45] INFO root fetch - main [MainThread]: End processing [cerebras-appliance]: success
 [2024-04-16 18:05:45] INFO root fetch - main [MainThread]: Store serial: [22790401]
+[2024-04-16 18:08:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22790401]
+[2024-04-16 18:08:17] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iotopen-py-lynx
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyflowline
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyLemur
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dotprompt
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inspect-recursive
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-fieldservice-equipment-stock
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amazon-braket-algorithm-library
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vizibridge
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: conva-ai
+[2024-04-16 18:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-service-client
+[2024-04-16 18:08:17] INFO root fetch - processPackages [iotopen-py-lynx]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-16 18:08:18] INFO root fetch - processPackages [pyflowline]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-16 18:08:18] WARNING root fetch - processPackages [conva-ai]: Skipping, unable to determine old version
+[2024-04-16 18:08:18] INFO root fetch - processPackages [conva-ai]: Start processing: stripe
+[2024-04-16 18:08:18] INFO root fetch - main [MainThread]: End processing [conva-ai] error
+[2024-04-16 18:08:18] WARNING root fetch - processPackages [inspect-recursive]: Skipping, unable to determine old version
+[2024-04-16 18:08:18] INFO root fetch - processPackages [inspect-recursive]: Start processing: assemblyline-service-server
+[2024-04-16 18:08:18] INFO root fetch - main [MainThread]: End processing [inspect-recursive] error
+[2024-04-16 18:08:18] INFO root fetch - processPackages [iotopen-py-lynx]: Downloading https://files.pythonhosted.org/packages/9a/11/1e8d935d9c801bc536564b177f6317b85460a2d622b556edeb4014abc9b4/iotopen_py_lynx-1.0.5.tar.gz
+[2024-04-16 18:08:18] INFO root fetch - processPackages [pyLemur]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-16 18:08:18] INFO root fetch - processPackages [dotprompt]: New version: [0.1.6] Old Version: [0.1.1]
+[2024-04-16 18:08:18] INFO root fetch - processPackages [amazon-braket-algorithm-library]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-16 18:08:18] WARNING root fetch - processPackages [vizibridge]: Skipping, unable to determine old version
+[2024-04-16 18:08:18] INFO root fetch - processPackages [vizibridge]: Start processing: assemblyline-ui
+[2024-04-16 18:08:18] INFO root fetch - main [MainThread]: End processing [vizibridge] error
+[2024-04-16 18:08:18] INFO root fetch - processPackages [odoo-addon-fieldservice-equipment-stock]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.4]
+[2024-04-16 18:08:18] INFO root fetch - processPackages [pyflowline]: Downloading https://files.pythonhosted.org/packages/30/1a/1e6154644b81684a319f50bf5a0689e9d783c99701ea4b683fee45200822/pyflowline-0.3.4.tar.gz
+[2024-04-16 18:08:18] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.5.1.dev86] Old Version: [4.5.1.dev84]
+[2024-04-16 18:08:18] INFO root fetch - processPackages [stripe]: New version: [9.2.0b1] Old Version: [9.2.0]
+[2024-04-16 18:08:18] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.5.1.dev86] Old Version: [4.5.1.dev84]
+[2024-04-16 18:08:18] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.5.1.dev86] Old Version: [4.5.1.dev84]
+[2024-04-16 18:08:18] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Downloading https://files.pythonhosted.org/packages/2f/4d/44ea9c4c860a59c449fb184f583c5654c6b286d9a6a5370fcc9de35bf2c2/amazon-braket-algorithm-library-1.4.8.tar.gz
+[2024-04-16 18:08:18] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/2c/a6/961d666316cb72e8ee6255f2a2dca79824a4c02ca7a5fa351ba3277e7eec/assemblyline_service_client-4.5.1.dev84-py3-none-any.whl
+[2024-04-16 18:08:18] INFO root fetch - processPackages [pyLemur]: Downloading https://files.pythonhosted.org/packages/84/46/f32a53120102ee91312359cc1dfa432769bb2e52876d75fc5095969cf603/pylemur-0.1.0.tar.gz
+[2024-04-16 18:08:18] INFO root fetch - processPackages [dotprompt]: Downloading https://files.pythonhosted.org/packages/9f/84/eaeb80424d88e04de545cef8e773cb3536845b0bc909aa9e90945a30ad55/dotprompt-0.1.1.tar.gz
+[2024-04-16 18:08:18] INFO root fetch - processPackages [odoo-addon-fieldservice-equipment-stock]: Downloading https://files.pythonhosted.org/packages/04/14/c4f867802d8421688a014a354c3576f476b78d5ad58e686bc6194a039e9e/odoo_addon_fieldservice_equipment_stock-15.0.1.0.1.4-py3-none-any.whl
+[2024-04-16 18:08:18] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/60/d6/970ce96ea125853720e840a1d0f62171fc1202c92d9bfdd4d30068a80f00/stripe-9.2.0.tar.gz
+[2024-04-16 18:08:18] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d3/5c/877448fc204e26dd184251f0b8825ebec71509bf9c64cd33e2266da41001/assemblyline_service_server-4.5.1.dev84-py3-none-any.whl
+[2024-04-16 18:08:18] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/3c/eb/92367fd3c4a2180f02fa606c569da78dd1ed01055061f264d9c5a2734e91/assemblyline_ui-4.5.1.dev84-py3-none-any.whl
+[2024-04-16 18:08:19] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/4f/e2/763febd80560649b23f2a2234547d0667c7fc2d4abe277abe5c95a12a907/assemblyline_service_client-4.5.1.dev86-py3-none-any.whl
+[2024-04-16 18:08:19] INFO root fetch - processPackages [iotopen-py-lynx]: Downloading https://files.pythonhosted.org/packages/8d/2c/4bc2d285a7a9bda3af1942046829e6bd0bb35bd6b88289ee3422c778d162/iotopen_py_lynx-1.0.6.tar.gz
+[2024-04-16 18:08:19] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/aa/1b/2a21486607f22c3e74b22b9c7f22b76c167996f4e52cc287459418a703a4/assemblyline_service_server-4.5.1.dev86-py3-none-any.whl
+[2024-04-16 18:08:19] INFO root fetch - processPackages [dotprompt]: Downloading https://files.pythonhosted.org/packages/09/5f/4f48a8b3cf3097912c6fef99b2af95b62d20f6673de73a408a1eca402d73/dotprompt-0.1.6.tar.gz
+[2024-04-16 18:08:19] INFO root fetch - processPackages [odoo-addon-fieldservice-equipment-stock]: Downloading https://files.pythonhosted.org/packages/74/31/b071ce9a12bd6928b0c23407b629e07dc6fe6b95b7986e037dff86dad90e/odoo_addon_fieldservice_equipment_stock-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-16 18:08:19] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Downloading https://files.pythonhosted.org/packages/75/52/f68fbb9cf47822f980d807095bf1e211ad01f862c48dfe8a47f371ababca/amazon-braket-algorithm-library-1.4.9.tar.gz
+[2024-04-16 18:08:19] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/71/22/bd9c83d22a998a3e10f557730e3f07d8ccdf42c8344abd1b477904fbbe74/assemblyline_ui-4.5.1.dev86-py3-none-any.whl
+[2024-04-16 18:08:19] INFO root fetch - processPackages [iotopen-py-lynx]: executing diffoscope
+[2024-04-16 18:08:19] INFO root fetch - processPackages [iotopen-py-lynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotopen_py_lynx-1.0.5.tar.gz tmp/iotopen_py_lynx-1.0.6.tar.gz --markdown 20240416/i/iotopen-py-lynx/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-16 18:08:19] INFO root fetch - processPackages [pyLemur]: Downloading https://files.pythonhosted.org/packages/88/26/fe38348393fc6d3d46933ffd6662473e912ee7fac1fd562e9eb9e8d05e3c/pylemur-0.2.0.tar.gz
+[2024-04-16 18:08:19] INFO root fetch - processPackages [pyflowline]: Downloading https://files.pythonhosted.org/packages/a4/57/90a4480bbde5a1bd4f75c9ece1fd79567020bd95f7c6354691d60ec0f405/pyflowline-0.3.5.tar.gz
+[2024-04-16 18:08:20] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2024-04-16 18:08:20] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.5.1.dev84-py3-none-any.whl.zip tmp/assemblyline_service_client-4.5.1.dev86-py3-none-any.whl.zip --markdown 20240416/a/assemblyline-service-client/4.5.1.dev84-4.5.1.dev86/README.md --exclude *.pyd
+[2024-04-16 18:08:20] INFO root fetch - processPackages [amazon-braket-algorithm-library]: executing diffoscope
+[2024-04-16 18:08:20] INFO root fetch - processPackages [amazon-braket-algorithm-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-algorithm-library-1.4.8.tar.gz tmp/amazon-braket-algorithm-library-1.4.9.tar.gz --markdown 20240416/a/amazon-braket-algorithm-library/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-16 18:08:20] INFO root fetch - processPackages [dotprompt]: executing diffoscope
+[2024-04-16 18:08:20] INFO root fetch - processPackages [dotprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotprompt-0.1.1.tar.gz tmp/dotprompt-0.1.6.tar.gz --markdown 20240416/d/dotprompt/0.1.1-0.1.6/README.md --exclude *.pyd
+[2024-04-16 18:08:20] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2024-04-16 18:08:20] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.5.1.dev84-py3-none-any.whl.zip tmp/assemblyline_service_server-4.5.1.dev86-py3-none-any.whl.zip --markdown 20240416/a/assemblyline-service-server/4.5.1.dev84-4.5.1.dev86/README.md --exclude *.pyd
+[2024-04-16 18:08:20] INFO root fetch - processPackages [odoo-addon-fieldservice-equipment-stock]: executing diffoscope
+[2024-04-16 18:08:20] INFO root fetch - processPackages [odoo-addon-fieldservice-equipment-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_equipment_stock-15.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_equipment_stock-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-fieldservice-equipment-stock/15.0.1.0.1.4-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-16 18:08:20] INFO root fetch - processPackages [stripe]: Downloading https://files.pythonhosted.org/packages/b9/98/588fabc22c32f64f5a3de63af90709915023f15bb27ec7229dcde3018062/stripe-9.2.0b1.tar.gz
+[2024-04-16 18:08:20] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2024-04-16 18:08:20] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.5.1.dev84-py3-none-any.whl.zip tmp/assemblyline_ui-4.5.1.dev86-py3-none-any.whl.zip --markdown 20240416/a/assemblyline-ui/4.5.1.dev84-4.5.1.dev86/README.md --exclude *.pyd
+[2024-04-16 18:08:20] INFO root fetch - processPackages [pyLemur]: executing diffoscope
+[2024-04-16 18:08:20] INFO root fetch - processPackages [pyLemur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylemur-0.1.0.tar.gz tmp/pylemur-0.2.0.tar.gz --markdown 20240416/p/pyLemur/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-16 18:08:20] INFO root fetch - processPackages [stripe]: executing diffoscope
+[2024-04-16 18:08:20] INFO root fetch - processPackages [stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stripe-9.2.0.tar.gz tmp/stripe-9.2.0b1.tar.gz --markdown 20240416/s/stripe/9.2.0-9.2.0b1/README.md --exclude *.pyd
+[2024-04-16 18:08:20] INFO root fetch - processPackages [pyflowline]: executing diffoscope
+[2024-04-16 18:08:20] INFO root fetch - processPackages [pyflowline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflowline-0.3.4.tar.gz tmp/pyflowline-0.3.5.tar.gz --markdown 20240416/p/pyflowline/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-16 18:08:21] INFO root fetch - processPackages [dotprompt]: Remove: archive file [/home/abi/fetcher/tmp/dotprompt-0.1.1.tar.gz]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [dotprompt]: Remove: archive file [/home/abi/fetcher/tmp/dotprompt-0.1.6.tar.gz]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [dotprompt]: Start processing: assemblyline-v4-service
+[2024-04-16 18:08:21] INFO root fetch - main [MainThread]: End processing [dotprompt]: success
+[2024-04-16 18:08:21] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-algorithm-library-1.4.8.tar.gz]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-algorithm-library-1.4.9.tar.gz]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Start processing: assemblyline
+[2024-04-16 18:08:21] INFO root fetch - main [MainThread]: End processing [amazon-braket-algorithm-library]: success
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev84-py3-none-any.whl.zip]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev86-py3-none-any.whl.zip]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: Files.com
+[2024-04-16 18:08:21] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev84-py3-none-any.whl.zip]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev86-py3-none-any.whl.zip]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: custom-card-metric-component
+[2024-04-16 18:08:21] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.5.1.dev86] Old Version: [4.5.1.dev84]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [iotopen-py-lynx]: Remove: archive file [/home/abi/fetcher/tmp/iotopen_py_lynx-1.0.5.tar.gz]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [iotopen-py-lynx]: Remove: archive file [/home/abi/fetcher/tmp/iotopen_py_lynx-1.0.6.tar.gz]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [iotopen-py-lynx]: Start processing: caikit
+[2024-04-16 18:08:21] INFO root fetch - main [MainThread]: End processing [iotopen-py-lynx]: success
+[2024-04-16 18:08:21] INFO root fetch - processPackages [odoo-addon-fieldservice-equipment-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_equipment_stock-15.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [odoo-addon-fieldservice-equipment-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_equipment_stock-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [odoo-addon-fieldservice-equipment-stock]: Start processing: assemblyline-core
+[2024-04-16 18:08:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-equipment-stock]: success
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline]: New version: [4.5.1.dev86] Old Version: [4.5.1.dev84]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [Files.com]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-16 18:08:21] WARNING root fetch - processPackages [custom-card-metric-component]: Skipping, unable to determine old version
+[2024-04-16 18:08:21] INFO root fetch - processPackages [custom-card-metric-component]: Start processing: embixtools
+[2024-04-16 18:08:21] INFO root fetch - main [MainThread]: End processing [custom-card-metric-component] error
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev84-py3-none-any.whl.zip]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev86-py3-none-any.whl.zip]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-ui]: Start processing: irispie
+[2024-04-16 18:08:21] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2024-04-16 18:08:21] INFO root fetch - processPackages [pyLemur]: Remove: archive file [/home/abi/fetcher/tmp/pylemur-0.1.0.tar.gz]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [embixtools]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [caikit]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [pyLemur]: Remove: archive file [/home/abi/fetcher/tmp/pylemur-0.2.0.tar.gz]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [pyLemur]: Start processing: platform-plugin-aspects
+[2024-04-16 18:08:21] INFO root fetch - main [MainThread]: End processing [pyLemur]: success
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-core]: New version: [4.5.1.dev86] Old Version: [4.5.1.dev84]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/93/ab/bb9ee702638e22707e0dd8a4dbb8ff35fbb4ce5bcb593c87df54e39e44e6/assemblyline_v4_service-4.5.1.dev84-py3-none-any.whl
+[2024-04-16 18:08:21] INFO root fetch - processPackages [embixtools]: Downloading https://files.pythonhosted.org/packages/4f/73/2224d7dc1abf6523c9a8e586ff8f2b9f4bfb9387b657f041138c43679084/embixtools-1.1.5.tar.gz
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/c5/46/df3cdb3928284007ed718d4de79505338f008936bffed9e75d5c64313f26/assemblyline-4.5.1.dev84.tar.gz
+[2024-04-16 18:08:21] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/fe/9f/8654a34abe6ed4232708475bb6c7dd30b128ab68594cd684d58e72375385/Files.com-1.4.8.tar.gz
+[2024-04-16 18:08:21] INFO root fetch - processPackages [platform-plugin-aspects]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-16 18:08:21] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-16 18:08:21] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/e2/64/eb5a4e4c43b7c18533482debb3623aa0d86cc59d03ae98e99c75208feaa4/caikit-0.9.3.tar.gz
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/db/e0/99b7844f589b9c4ae05576a6924fc1d647ba8b833db6b2bb876e78b7e80a/assemblyline-core-4.5.1.dev84.tar.gz
+[2024-04-16 18:08:21] INFO root fetch - processPackages [embixtools]: Downloading https://files.pythonhosted.org/packages/5b/8f/403b14c7b2b15e08e702907c0609819ec1303fe42cf4396a78a640294509/embixtools-1.1.6.tar.gz
+[2024-04-16 18:08:21] INFO root fetch - processPackages [platform-plugin-aspects]: Downloading https://files.pythonhosted.org/packages/a8/e6/54bcbd589ac7014c9a8c1d8042a06fd30e048a409a55f6670462a7942ecc/platform-plugin-aspects-0.6.0.tar.gz
+[2024-04-16 18:08:21] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/55/ab/e0eaced70e2a31818ce45c8d8cc05bc33c6268bd4c67dca06e0285c5830e/assemblyline_v4_service-4.5.1.dev86-py3-none-any.whl
+[2024-04-16 18:08:21] INFO root fetch - processPackages [embixtools]: executing diffoscope
+[2024-04-16 18:08:21] INFO root fetch - processPackages [embixtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embixtools-1.1.5.tar.gz tmp/embixtools-1.1.6.tar.gz --markdown 20240416/e/embixtools/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-16 18:08:21] INFO root fetch - processPackages [Files.com]: Downloading https://files.pythonhosted.org/packages/50/2a/081bc12536110f3d42e66312b9c23d07fc87bd3eafaaa4b731c3a21d1660/Files.com-1.4.9.tar.gz
+[2024-04-16 18:08:22] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/ad/fb/1a20f7334669804d67d1f0e27983dc60ab36d129ad236ff417bfeacaa542/assemblyline-4.5.1.dev86.tar.gz
+[2024-04-16 18:08:22] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/38/8d/b4e8c090e308059d0cb331bce72447e8c450b78a3773e2ca66d9e6201ea6/assemblyline-core-4.5.1.dev86.tar.gz
+[2024-04-16 18:08:22] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/1d/9c/5ee666bbd25d2499e43903b58fd64c37feba1404ab96c754cb4d50439bee/caikit-0.9.4.tar.gz
+[2024-04-16 18:08:22] INFO root fetch - processPackages [Files.com]: executing diffoscope
+[2024-04-16 18:08:22] INFO root fetch - processPackages [Files.com]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Files.com-1.4.8.tar.gz tmp/Files.com-1.4.9.tar.gz --markdown 20240416/F/Files.com/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-16 18:08:22] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2024-04-16 18:08:22] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.5.1.dev84-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.5.1.dev86-py3-none-any.whl.zip --markdown 20240416/a/assemblyline-v4-service/4.5.1.dev84-4.5.1.dev86/README.md --exclude *.pyd
+[2024-04-16 18:08:22] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-16 18:08:22] INFO root fetch - processPackages [platform-plugin-aspects]: Downloading https://files.pythonhosted.org/packages/8f/49/d42a1b8f4b7d9e50de47f39c53ba5894317d80d45210f2b4b49cb5d3d954/platform_plugin_aspects-0.7.0.tar.gz
+[2024-04-16 18:08:22] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2024-04-16 18:08:22] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.9.3.tar.gz tmp/caikit-0.9.4.tar.gz --markdown 20240416/c/caikit/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-16 18:08:22] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2024-04-16 18:08:22] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.5.1.dev84.tar.gz tmp/assemblyline-core-4.5.1.dev86.tar.gz --markdown 20240416/a/assemblyline-core/4.5.1.dev84-4.5.1.dev86/README.md --exclude *.pyd
+[2024-04-16 18:08:22] INFO root fetch - processPackages [pyflowline]: Remove: archive file [/home/abi/fetcher/tmp/pyflowline-0.3.4.tar.gz]
+[2024-04-16 18:08:22] INFO root fetch - processPackages [pyflowline]: Remove: archive file [/home/abi/fetcher/tmp/pyflowline-0.3.5.tar.gz]
+[2024-04-16 18:08:22] INFO root fetch - processPackages [pyflowline]: Start processing: sapphire-renderer
+[2024-04-16 18:08:22] INFO root fetch - main [MainThread]: End processing [pyflowline]: success
+[2024-04-16 18:08:22] INFO root fetch - processPackages [sapphire-renderer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 18:08:22] INFO root fetch - processPackages [platform-plugin-aspects]: executing diffoscope
+[2024-04-16 18:08:22] INFO root fetch - processPackages [platform-plugin-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform-plugin-aspects-0.6.0.tar.gz tmp/platform_plugin_aspects-0.7.0.tar.gz --markdown 20240416/p/platform-plugin-aspects/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-04-16 18:08:22] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/2b/42/94c0538f43a9b8e7cb54f37e97b259fbdd1ec3592931d86660f100f5ce0e/sapphire-renderer-0.0.8.tar.gz
+[2024-04-16 18:08:22] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-16 18:08:22] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240416/i/irispie/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-16 18:08:22] INFO root fetch - processPackages [embixtools]: Remove: archive file [/home/abi/fetcher/tmp/embixtools-1.1.5.tar.gz]
+[2024-04-16 18:08:22] INFO root fetch - processPackages [embixtools]: Remove: archive file [/home/abi/fetcher/tmp/embixtools-1.1.6.tar.gz]
+[2024-04-16 18:08:22] INFO root fetch - processPackages [embixtools]: Start processing: streamlit-pyvista
+[2024-04-16 18:08:22] INFO root fetch - main [MainThread]: End processing [embixtools]: success
+[2024-04-16 18:08:22] INFO root fetch - processPackages [sapphire-renderer]: Downloading https://files.pythonhosted.org/packages/f8/31/8de4b92c9035b28151912286005bd004a22beea4fc1de98c231b009bd2be/sapphire-renderer-0.0.9.tar.gz
+[2024-04-16 18:08:22] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2024-04-16 18:08:22] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.5.1.dev84.tar.gz tmp/assemblyline-4.5.1.dev86.tar.gz --markdown 20240416/a/assemblyline/4.5.1.dev84-4.5.1.dev86/README.md --exclude *.pyd
+[2024-04-16 18:08:22] INFO root fetch - processPackages [streamlit-pyvista]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 18:08:22] INFO root fetch - processPackages [sapphire-renderer]: executing diffoscope
+[2024-04-16 18:08:22] INFO root fetch - processPackages [sapphire-renderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphire-renderer-0.0.8.tar.gz tmp/sapphire-renderer-0.0.9.tar.gz --markdown 20240416/s/sapphire-renderer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 18:08:23] INFO root fetch - processPackages [streamlit-pyvista]: Downloading https://files.pythonhosted.org/packages/7e/3c/820fd975f1565d05cecec7823e3ae8d46e8c69fd1575372eb8991f800f0d/streamlit_pyvista-0.0.4.tar.gz
+[2024-04-16 18:08:23] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev84-py3-none-any.whl.zip]
+[2024-04-16 18:08:23] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev86-py3-none-any.whl.zip]
+[2024-04-16 18:08:23] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: ATH
+[2024-04-16 18:08:23] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2024-04-16 18:08:23] INFO root fetch - processPackages [ATH]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-16 18:08:23] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.8.tar.gz]
+[2024-04-16 18:08:23] INFO root fetch - processPackages [Files.com]: Remove: archive file [/home/abi/fetcher/tmp/Files.com-1.4.9.tar.gz]
+[2024-04-16 18:08:23] INFO root fetch - main [MainThread]: End processing [Files.com]: success
+[2024-04-16 18:08:23] INFO root fetch - processPackages [streamlit-pyvista]: Downloading https://files.pythonhosted.org/packages/27/12/d7d99b0270248e496d6d93ed8231aeffa851db872053fe67a1d65eb724a9/streamlit_pyvista-0.0.5.tar.gz
+[2024-04-16 18:08:23] INFO root fetch - processPackages [ATH]: Downloading https://files.pythonhosted.org/packages/35/80/6398ab5afc606f977a7332a1232a6ef2a8b04b32b010ce7d3e8ee372b5f2/ATH-0.4.7.tar.gz
+[2024-04-16 18:08:23] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev84.tar.gz]
+[2024-04-16 18:08:23] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev86.tar.gz]
+[2024-04-16 18:08:23] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2024-04-16 18:08:23] INFO root fetch - processPackages [platform-plugin-aspects]: Remove: archive file [/home/abi/fetcher/tmp/platform-plugin-aspects-0.6.0.tar.gz]
+[2024-04-16 18:08:23] INFO root fetch - processPackages [platform-plugin-aspects]: Remove: archive file [/home/abi/fetcher/tmp/platform_plugin_aspects-0.7.0.tar.gz]
+[2024-04-16 18:08:23] INFO root fetch - main [MainThread]: End processing [platform-plugin-aspects]: success
+[2024-04-16 18:08:23] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.8.tar.gz]
+[2024-04-16 18:08:23] INFO root fetch - processPackages [sapphire-renderer]: Remove: archive file [/home/abi/fetcher/tmp/sapphire-renderer-0.0.9.tar.gz]
+[2024-04-16 18:08:23] INFO root fetch - main [MainThread]: End processing [sapphire-renderer]: success
+[2024-04-16 18:08:23] INFO root fetch - processPackages [streamlit-pyvista]: executing diffoscope
+[2024-04-16 18:08:23] INFO root fetch - processPackages [streamlit-pyvista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_pyvista-0.0.4.tar.gz tmp/streamlit_pyvista-0.0.5.tar.gz --markdown 20240416/s/streamlit-pyvista/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 18:08:23] INFO root fetch - processPackages [ATH]: Downloading https://files.pythonhosted.org/packages/d7/35/ad2b265510d174f883e113abc4325a528cb5d21118f16290da0761bcc05a/ATH-0.4.8.tar.gz
+[2024-04-16 18:08:24] INFO root fetch - processPackages [ATH]: executing diffoscope
+[2024-04-16 18:08:24] INFO root fetch - processPackages [ATH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ATH-0.4.7.tar.gz tmp/ATH-0.4.8.tar.gz --markdown 20240416/A/ATH/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-04-16 18:08:24] INFO root fetch - processPackages [streamlit-pyvista]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pyvista-0.0.4.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - processPackages [streamlit-pyvista]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pyvista-0.0.5.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - main [MainThread]: End processing [streamlit-pyvista]: success
+[2024-04-16 18:08:24] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.3.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.4.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2024-04-16 18:08:24] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev84.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev86.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2024-04-16 18:08:24] INFO root fetch - processPackages [ATH]: Remove: archive file [/home/abi/fetcher/tmp/ATH-0.4.7.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - processPackages [ATH]: Remove: archive file [/home/abi/fetcher/tmp/ATH-0.4.8.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - main [MainThread]: End processing [ATH]: success
+[2024-04-16 18:08:24] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-16 18:08:24] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-16 18:08:27] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.2.0.tar.gz]
+[2024-04-16 18:08:27] INFO root fetch - processPackages [stripe]: Remove: archive file [/home/abi/fetcher/tmp/stripe-9.2.0b1.tar.gz]
+[2024-04-16 18:08:27] INFO root fetch - main [MainThread]: End processing [stripe]: success
+[2024-04-16 18:08:27] INFO root fetch - main [MainThread]: Store serial: [22790477]
