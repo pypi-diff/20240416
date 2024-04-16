@@ -4846,3 +4846,42 @@
 [2024-04-16 05:17:06] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-okta-9.0.0.tar.gz]
 [2024-04-16 05:17:06] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-okta]: success
 [2024-04-16 05:17:06] INFO root fetch - main [MainThread]: Store serial: [22781980]
+[2024-04-16 05:19:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781980]
+[2024-04-16 05:19:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intervalframe
+[2024-04-16 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afeng-py-tools
+[2024-04-16 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cabinet
+[2024-04-16 05:19:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nyctibius
+[2024-04-16 05:19:15] INFO root fetch - processPackages [nyctibius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 05:19:15] INFO root fetch - processPackages [cabinet]: New version: [2024.4.15.1] Old Version: [2024.3.5.1]
+[2024-04-16 05:19:15] INFO root fetch - processPackages [nyctibius]: Downloading https://files.pythonhosted.org/packages/db/5c/8a79abbeee72a42e3ebc19d89b5c212c05a75fd32792e0220a4456117cfc/nyctibius-0.0.8.tar.gz
+[2024-04-16 05:19:15] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/d4/9b/8a8540213c8579afbbee9b66440689b79cdf1d809a5e783f5b98f7c48bf8/cabinet-2024.3.5.1.tar.gz
+[2024-04-16 05:19:15] INFO root fetch - processPackages [intervalframe]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-16 05:19:15] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 05:19:15] INFO root fetch - processPackages [nyctibius]: Downloading https://files.pythonhosted.org/packages/1a/2d/a4698cc2fead01307a312fa46b714fc67cc2af1f6639e7012bebb4e3b09e/nyctibius-0.0.9.tar.gz
+[2024-04-16 05:19:15] INFO root fetch - processPackages [intervalframe]: Downloading https://files.pythonhosted.org/packages/04/bd/430be51bfb447a1f32b765d94cafdbc4aa4f26deaf9b96f1eb5b3eb2a001/intervalframe-1.1.4.tar.gz
+[2024-04-16 05:19:15] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-16 05:19:15] INFO root fetch - processPackages [cabinet]: Downloading https://files.pythonhosted.org/packages/62/c6/94365bd0b066be96ac49e389b822000fb6e954169c7e3f4d9c2e9f33a6a8/cabinet-2024.4.15.1.tar.gz
+[2024-04-16 05:19:15] INFO root fetch - processPackages [nyctibius]: executing diffoscope
+[2024-04-16 05:19:15] INFO root fetch - processPackages [nyctibius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyctibius-0.0.8.tar.gz tmp/nyctibius-0.0.9.tar.gz --markdown 20240416/n/nyctibius/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 05:19:15] INFO root fetch - processPackages [cabinet]: executing diffoscope
+[2024-04-16 05:19:15] INFO root fetch - processPackages [cabinet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabinet-2024.3.5.1.tar.gz tmp/cabinet-2024.4.15.1.tar.gz --markdown 20240416/c/cabinet/2024.3.5.1-2024.4.15.1/README.md --exclude *.pyd
+[2024-04-16 05:19:15] INFO root fetch - processPackages [intervalframe]: Downloading https://files.pythonhosted.org/packages/08/03/66cb61ddb98fe853bf14cd51560b41cbc2d3626a061a47de2e233cae17db/intervalframe-1.1.5.tar.gz
+[2024-04-16 05:19:15] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-16 05:19:15] INFO root fetch - processPackages [intervalframe]: executing diffoscope
+[2024-04-16 05:19:15] INFO root fetch - processPackages [intervalframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intervalframe-1.1.4.tar.gz tmp/intervalframe-1.1.5.tar.gz --markdown 20240416/i/intervalframe/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-16 05:19:15] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-16 05:19:15] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240416/a/afeng-py-tools/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 05:19:16] INFO root fetch - processPackages [nyctibius]: Remove: archive file [/home/abi/fetcher/tmp/nyctibius-0.0.8.tar.gz]
+[2024-04-16 05:19:16] INFO root fetch - processPackages [nyctibius]: Remove: archive file [/home/abi/fetcher/tmp/nyctibius-0.0.9.tar.gz]
+[2024-04-16 05:19:16] INFO root fetch - main [MainThread]: End processing [nyctibius]: success
+[2024-04-16 05:19:16] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.3.5.1.tar.gz]
+[2024-04-16 05:19:16] INFO root fetch - processPackages [cabinet]: Remove: archive file [/home/abi/fetcher/tmp/cabinet-2024.4.15.1.tar.gz]
+[2024-04-16 05:19:16] INFO root fetch - main [MainThread]: End processing [cabinet]: success
+[2024-04-16 05:19:16] INFO root fetch - processPackages [intervalframe]: Remove: archive file [/home/abi/fetcher/tmp/intervalframe-1.1.4.tar.gz]
+[2024-04-16 05:19:16] INFO root fetch - processPackages [intervalframe]: Remove: archive file [/home/abi/fetcher/tmp/intervalframe-1.1.5.tar.gz]
+[2024-04-16 05:19:16] INFO root fetch - main [MainThread]: End processing [intervalframe]: success
+[2024-04-16 05:19:16] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-16 05:19:16] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-16 05:19:16] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-16 05:19:16] INFO root fetch - main [MainThread]: Store serial: [22781992]
