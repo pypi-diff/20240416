@@ -15826,3 +15826,92 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:36:13] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.36.tar.gz]
 [2024-04-16 13:36:13] INFO root fetch - main [MainThread]: End processing [sampa]: success
 [2024-04-16 13:36:13] INFO root fetch - main [MainThread]: Store serial: [22786896]
+[2024-04-16 13:38:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786896]
+[2024-04-16 13:38:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scmopy
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ATL-Tools
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: baseapp-notifications
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecbdata
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tdim
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slurpit_nautobot
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-ed25519-blake2b
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bamboo-pipeline
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccdexplorer-fundamentals
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ATL-Tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [scmopy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ecbdata]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [slurpit_nautobot]: New version: [0.8.76] Old Version: [0.8.75]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/fc/4c/96f1577bdcff2055d984bd88a78974fcfcee8e8d357c9568879c08a94d8d/atl_tools-1.0.8.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [baseapp-notifications]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ecbdata]: Downloading https://files.pythonhosted.org/packages/54/0e/672058e61e1c1c65a97739a64e3a0cd020100fc6a6cd5fe10a39f0b8d0ec/ecbdata-0.0.5.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [tdim]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [scmopy]: Downloading https://files.pythonhosted.org/packages/c5/12/959cab57d339c2a4bab335c6705a06927dd6070ac87fbb0650dace1768c7/scmopy-0.1.3.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [py-ed25519-blake2b]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240416] Old Version: [2.5.0b20240415]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/8f/ac/4d6f82bd6ef188b108b7dea428dad5af7b1be53c528a3f1d1e26ada26ce2/slurpit_nautobot-0.8.75.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ccdexplorer-fundamentals]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [bamboo-pipeline]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-16 13:38:22] INFO root fetch - processPackages [baseapp-notifications]: Downloading https://files.pythonhosted.org/packages/a8/77/ca3b79a0bd7ca9399e70a1c516d9673ce805cdf6365722aaa0f6446f6922/baseapp-notifications-0.2.4.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [tdim]: Downloading https://files.pythonhosted.org/packages/77/ca/4d58b6558c8d0de462f623fb1021d9ae756d193a93ea10199b56f59adc12/tdim-0.2.9.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/68/3a/6c09ee693dbd4afd02135765ac85807af7cf6b7d54307a834d98507a0345/bigdl_core_xe-2.5.0b20240415-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-16 13:38:22] INFO root fetch - processPackages [py-ed25519-blake2b]: Downloading https://files.pythonhosted.org/packages/f3/26/67e09c346aad9cf5ebb4bcd0f71a3a76a2711c72f4e46f3f466d000b4329/py_ed25519_blake2b-0.1.0-cp39-cp39-macosx_10_9_universal2.whl
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/25/3c/39a03cfd10f44986d5dd21ce1762105fa538eb798a21c008d83792494c22/atl_tools-1.0.9.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Downloading https://files.pythonhosted.org/packages/52/02/a5c251ac5e1a440603b68c45850830f0430f35764fea52457239ad31da29/ccdexplorer-fundamentals-0.1.9.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/cb/a1/e46878c1a6b435969d65265f995a2459ffb09ce5484f4c21422152bec6f0/bamboo-pipeline-3.9.0.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ecbdata]: Downloading https://files.pythonhosted.org/packages/d8/d6/a199d2e7f75ba864f9ae39b327e4041824366a718d30ae2030a089708bc7/ecbdata-0.0.6.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [scmopy]: Downloading https://files.pythonhosted.org/packages/53/04/ac4ef959a1cff605f301097f466d9bcda1ea0303d26e60d6468f60963ffc/scmopy-0.1.4.tar.gz
+[2024-04-16 13:38:22] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105244719>=10485760
+[2024-04-16 13:38:22] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-16 13:38:22] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/e7/76/5a273eb797eae04cfc3b161a791886e46188921b8f93c4b31292cd8fac38/slurpit_nautobot-0.8.76.tar.gz
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ATL-Tools]: executing diffoscope
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ATL-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atl_tools-1.0.8.tar.gz tmp/atl_tools-1.0.9.tar.gz --markdown 20240416/A/ATL-Tools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ecbdata]: executing diffoscope
+[2024-04-16 13:38:22] INFO root fetch - processPackages [ecbdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecbdata-0.0.5.tar.gz tmp/ecbdata-0.0.6.tar.gz --markdown 20240416/e/ecbdata/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-16 13:38:23] INFO root fetch - processPackages [baseapp-notifications]: Downloading https://files.pythonhosted.org/packages/0f/d3/5aff94ed3a5f9e327d1805d3634afe4063c7d2faa48c22f26a76dfc7658f/baseapp-notifications-0.2.5.tar.gz
+[2024-04-16 13:38:23] INFO root fetch - processPackages [scmopy]: executing diffoscope
+[2024-04-16 13:38:23] INFO root fetch - processPackages [scmopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmopy-0.1.3.tar.gz tmp/scmopy-0.1.4.tar.gz --markdown 20240416/s/scmopy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-16 13:38:23] INFO root fetch - processPackages [slurpit_nautobot]: executing diffoscope
+[2024-04-16 13:38:23] INFO root fetch - processPackages [slurpit_nautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_nautobot-0.8.75.tar.gz tmp/slurpit_nautobot-0.8.76.tar.gz --markdown 20240416/s/slurpit_nautobot/0.8.75-0.8.76/README.md --exclude *.pyd
+[2024-04-16 13:38:23] INFO root fetch - processPackages [tdim]: Downloading https://files.pythonhosted.org/packages/3f/80/eacd95f4b42182daade61b2f0ad607868c7db1aab54852e5dc8d39f1c0f4/tdim-0.3.0.tar.gz
+[2024-04-16 13:38:23] INFO root fetch - processPackages [baseapp-notifications]: executing diffoscope
+[2024-04-16 13:38:23] INFO root fetch - processPackages [baseapp-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseapp-notifications-0.2.4.tar.gz tmp/baseapp-notifications-0.2.5.tar.gz --markdown 20240416/b/baseapp-notifications/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-16 13:38:23] INFO root fetch - processPackages [tdim]: executing diffoscope
+[2024-04-16 13:38:23] INFO root fetch - processPackages [tdim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdim-0.2.9.tar.gz tmp/tdim-0.3.0.tar.gz --markdown 20240416/t/tdim/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-16 13:38:23] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Downloading https://files.pythonhosted.org/packages/2f/97/ed91e1fb88072b20a702846da2b19fef05989bdacb2792d8f0b4e9075395/ccdexplorer_fundamentals-0.2.0.tar.gz
+[2024-04-16 13:38:23] INFO root fetch - processPackages [py-ed25519-blake2b]: Downloading https://files.pythonhosted.org/packages/60/95/7556bb87c1ecf850cddd43b17082bb5cae33094fb6241ba9835a078e737b/py_ed25519_blake2b-0.1.1-cp39-cp39-macosx_10_9_universal2.whl
+[2024-04-16 13:38:23] INFO root fetch - processPackages [bamboo-pipeline]: Downloading https://files.pythonhosted.org/packages/b0/27/cdec0ebe98fcd2295d04a6e01415de51666143e8424c3063c27d8f56d3f3/bamboo-pipeline-3.9.1.tar.gz
+[2024-04-16 13:38:23] INFO root fetch - processPackages [bamboo-pipeline]: executing diffoscope
+[2024-04-16 13:38:23] INFO root fetch - processPackages [bamboo-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboo-pipeline-3.9.0.tar.gz tmp/bamboo-pipeline-3.9.1.tar.gz --markdown 20240416/b/bamboo-pipeline/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-16 13:38:23] INFO root fetch - processPackages [py-ed25519-blake2b]: executing diffoscope
+[2024-04-16 13:38:23] INFO root fetch - processPackages [py-ed25519-blake2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ed25519_blake2b-0.1.0-cp39-cp39-macosx_10_9_universal2.whl.zip tmp/py_ed25519_blake2b-0.1.1-cp39-cp39-macosx_10_9_universal2.whl.zip --markdown 20240416/p/py-ed25519-blake2b/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 13:38:23] INFO root fetch - processPackages [ccdexplorer-fundamentals]: executing diffoscope
+[2024-04-16 13:38:23] INFO root fetch - processPackages [ccdexplorer-fundamentals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdexplorer-fundamentals-0.1.9.tar.gz tmp/ccdexplorer_fundamentals-0.2.0.tar.gz --markdown 20240416/c/ccdexplorer-fundamentals/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-16 13:38:23] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.0.8.tar.gz]
+[2024-04-16 13:38:23] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.0.9.tar.gz]
+[2024-04-16 13:38:23] INFO root fetch - main [MainThread]: End processing [ATL-Tools]: success
+[2024-04-16 13:38:23] INFO root fetch - processPackages [ecbdata]: Remove: archive file [/home/abi/fetcher/tmp/ecbdata-0.0.5.tar.gz]
+[2024-04-16 13:38:23] INFO root fetch - processPackages [ecbdata]: Remove: archive file [/home/abi/fetcher/tmp/ecbdata-0.0.6.tar.gz]
+[2024-04-16 13:38:23] INFO root fetch - main [MainThread]: End processing [ecbdata]: success
+[2024-04-16 13:38:23] INFO root fetch - processPackages [scmopy]: Remove: archive file [/home/abi/fetcher/tmp/scmopy-0.1.3.tar.gz]
+[2024-04-16 13:38:23] INFO root fetch - processPackages [scmopy]: Remove: archive file [/home/abi/fetcher/tmp/scmopy-0.1.4.tar.gz]
+[2024-04-16 13:38:23] INFO root fetch - main [MainThread]: End processing [scmopy]: success
+[2024-04-16 13:38:23] INFO root fetch - processPackages [tdim]: Remove: archive file [/home/abi/fetcher/tmp/tdim-0.2.9.tar.gz]
+[2024-04-16 13:38:23] INFO root fetch - processPackages [tdim]: Remove: archive file [/home/abi/fetcher/tmp/tdim-0.3.0.tar.gz]
+[2024-04-16 13:38:24] INFO root fetch - main [MainThread]: End processing [tdim]: success
+[2024-04-16 13:38:24] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.75.tar.gz]
+[2024-04-16 13:38:24] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.76.tar.gz]
+[2024-04-16 13:38:24] INFO root fetch - main [MainThread]: End processing [slurpit_nautobot]: success
+[2024-04-16 13:38:24] INFO root fetch - processPackages [py-ed25519-blake2b]: Remove: archive file [/home/abi/fetcher/tmp/py_ed25519_blake2b-0.1.0-cp39-cp39-macosx_10_9_universal2.whl.zip]
+[2024-04-16 13:38:24] INFO root fetch - processPackages [py-ed25519-blake2b]: Remove: archive file [/home/abi/fetcher/tmp/py_ed25519_blake2b-0.1.1-cp39-cp39-macosx_10_9_universal2.whl.zip]
+[2024-04-16 13:38:24] INFO root fetch - main [MainThread]: End processing [py-ed25519-blake2b]: success
+[2024-04-16 13:38:24] INFO root fetch - processPackages [baseapp-notifications]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-notifications-0.2.4.tar.gz]
+[2024-04-16 13:38:24] INFO root fetch - processPackages [baseapp-notifications]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-notifications-0.2.5.tar.gz]
+[2024-04-16 13:38:24] INFO root fetch - main [MainThread]: End processing [baseapp-notifications]: success
+[2024-04-16 13:38:24] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer-fundamentals-0.1.9.tar.gz]
+[2024-04-16 13:38:24] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_fundamentals-0.2.0.tar.gz]
+[2024-04-16 13:38:24] INFO root fetch - main [MainThread]: End processing [ccdexplorer-fundamentals]: success
+[2024-04-16 13:38:25] INFO root fetch - processPackages [bamboo-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/bamboo-pipeline-3.9.0.tar.gz]
+[2024-04-16 13:38:25] INFO root fetch - processPackages [bamboo-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/bamboo-pipeline-3.9.1.tar.gz]
+[2024-04-16 13:38:25] INFO root fetch - main [MainThread]: End processing [bamboo-pipeline]: success
+[2024-04-16 13:38:25] INFO root fetch - main [MainThread]: Store serial: [22786921]
