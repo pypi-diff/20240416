@@ -5997,3 +5997,45 @@
 [2024-04-16 06:29:19] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.7.tar.gz]
 [2024-04-16 06:29:19] INFO root fetch - main [MainThread]: End processing [funtoo-ramdisk]: success
 [2024-04-16 06:29:19] INFO root fetch - main [MainThread]: Store serial: [22782533]
+[2024-04-16 06:31:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782533]
+[2024-04-16 06:31:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 06:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-mcqq
+[2024-04-16 06:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhdl-if
+[2024-04-16 06:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: album-of-the-year-api
+[2024-04-16 06:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pre5g
+[2024-04-16 06:31:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlflow-oidc-auth
+[2024-04-16 06:31:28] INFO root fetch - processPackages [pre5g]: New version: [3.4] Old Version: [3.3]
+[2024-04-16 06:31:28] WARNING root fetch - processPackages [pyhdl-if]: Skipping, unable to determine old version
+[2024-04-16 06:31:28] INFO root fetch - main [MainThread]: End processing [pyhdl-if] error
+[2024-04-16 06:31:28] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/ac/51/5fbdc7d1ab3316562b1ae73dddda78766927da594af9deb1773854aa9dd6/pre5g-3.3.tar.gz
+[2024-04-16 06:31:28] INFO root fetch - processPackages [album-of-the-year-api]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-16 06:31:28] INFO root fetch - processPackages [mlflow-oidc-auth]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-16 06:31:28] INFO root fetch - processPackages [nonebot-plugin-mcqq]: New version: [2.5.6] Old Version: [2.5.5]
+[2024-04-16 06:31:28] INFO root fetch - processPackages [album-of-the-year-api]: Downloading https://files.pythonhosted.org/packages/20/02/5839fef377a9e28008d9660d255229851000b2c31c3124a904d09758017a/album-of-the-year-api-0.2.5.tar.gz
+[2024-04-16 06:31:28] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/89/de/f50fe27261aa3c76b579151ee4a151303393dc862ed310582ceddb68347c/nonebot_plugin_mcqq-2.5.5.tar.gz
+[2024-04-16 06:31:28] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/42/af/60728b164dbc32bc8005dbac2f859554c18f0bbd156d9c5a1bade6f799c5/mlflow-oidc-auth-1.1.2.tar.gz
+[2024-04-16 06:31:28] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/75/6d/f19024a75b82e879cc7c6a398381f519cf037623cbc78a89349af091688f/pre5g-3.4.tar.gz
+[2024-04-16 06:31:28] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-16 06:31:28] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-3.3.tar.gz tmp/pre5g-3.4.tar.gz --markdown 20240416/p/pre5g/3.3-3.4/README.md --exclude *.pyd
+[2024-04-16 06:31:28] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/af/27/30fc000232e151bc1d799074d72b22e2ff6e18b4adce31f734edb302c8c3/nonebot_plugin_mcqq-2.5.6.tar.gz
+[2024-04-16 06:31:28] INFO root fetch - processPackages [album-of-the-year-api]: Downloading https://files.pythonhosted.org/packages/14/de/e6daa0748e1123600afe0c2cd5c25e39ebbc6d379e39ae1535ca44e9a1af/album-of-the-year-api-0.2.6.tar.gz
+[2024-04-16 06:31:28] INFO root fetch - processPackages [mlflow-oidc-auth]: Downloading https://files.pythonhosted.org/packages/48/d6/56872ff61d2ded5256e80c2a1b0699d23ed0a29500610f233bcec60f1927/mlflow_oidc_auth-1.2.0.tar.gz
+[2024-04-16 06:31:28] INFO root fetch - processPackages [nonebot-plugin-mcqq]: executing diffoscope
+[2024-04-16 06:31:28] INFO root fetch - processPackages [nonebot-plugin-mcqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_mcqq-2.5.5.tar.gz tmp/nonebot_plugin_mcqq-2.5.6.tar.gz --markdown 20240416/n/nonebot-plugin-mcqq/2.5.5-2.5.6/README.md --exclude *.pyd
+[2024-04-16 06:31:29] INFO root fetch - processPackages [album-of-the-year-api]: executing diffoscope
+[2024-04-16 06:31:29] INFO root fetch - processPackages [album-of-the-year-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/album-of-the-year-api-0.2.5.tar.gz tmp/album-of-the-year-api-0.2.6.tar.gz --markdown 20240416/a/album-of-the-year-api/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-16 06:31:29] INFO root fetch - processPackages [mlflow-oidc-auth]: executing diffoscope
+[2024-04-16 06:31:29] INFO root fetch - processPackages [mlflow-oidc-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-oidc-auth-1.1.2.tar.gz tmp/mlflow_oidc_auth-1.2.0.tar.gz --markdown 20240416/m/mlflow-oidc-auth/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-16 06:31:29] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.3.tar.gz]
+[2024-04-16 06:31:29] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.4.tar.gz]
+[2024-04-16 06:31:29] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-16 06:31:29] INFO root fetch - processPackages [album-of-the-year-api]: Remove: archive file [/home/abi/fetcher/tmp/album-of-the-year-api-0.2.5.tar.gz]
+[2024-04-16 06:31:29] INFO root fetch - processPackages [album-of-the-year-api]: Remove: archive file [/home/abi/fetcher/tmp/album-of-the-year-api-0.2.6.tar.gz]
+[2024-04-16 06:31:29] INFO root fetch - main [MainThread]: End processing [album-of-the-year-api]: success
+[2024-04-16 06:31:29] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mcqq-2.5.5.tar.gz]
+[2024-04-16 06:31:29] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mcqq-2.5.6.tar.gz]
+[2024-04-16 06:31:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcqq]: success
+[2024-04-16 06:31:35] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-oidc-auth-1.1.2.tar.gz]
+[2024-04-16 06:31:35] INFO root fetch - processPackages [mlflow-oidc-auth]: Remove: archive file [/home/abi/fetcher/tmp/mlflow_oidc_auth-1.2.0.tar.gz]
+[2024-04-16 06:31:35] INFO root fetch - main [MainThread]: End processing [mlflow-oidc-auth]: success
+[2024-04-16 06:31:35] INFO root fetch - main [MainThread]: Store serial: [22782551]
