@@ -17266,3 +17266,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:31:57] INFO root fetch - processPackages [hypermea]: Remove: archive file [/home/abi/fetcher/tmp/hypermea-0.9.9-py3-none-any.whl.zip]
 [2024-04-16 14:31:57] INFO root fetch - main [MainThread]: End processing [hypermea]: success
 [2024-04-16 14:31:57] INFO root fetch - main [MainThread]: Store serial: [22787484]
+[2024-04-16 14:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787484]
+[2024-04-16 14:34:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 14:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjected
+[2024-04-16 14:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbr-devkit
+[2024-04-16 14:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vistutils
+[2024-04-16 14:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiddler-client
+[2024-04-16 14:34:06] INFO root fetch - processPackages [pinjected]: New version: [0.2.36] Old Version: [0.2.35]
+[2024-04-16 14:34:06] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev1] Old Version: [3.0.0.dev9]
+[2024-04-16 14:34:06] WARNING root fetch - processPackages [vbr-devkit]: Skipping, unable to determine old version
+[2024-04-16 14:34:06] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/70/cb/433fde51a3760939151ceae608544eeb91ed412ac7096f09b67dacde5b40/pinjected-0.2.35.tar.gz
+[2024-04-16 14:34:06] INFO root fetch - main [MainThread]: End processing [vbr-devkit] error
+[2024-04-16 14:34:06] INFO root fetch - processPackages [vistutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 14:34:06] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/ff/e1/4f0bace7747053b705b1b7aae20344f14657b7e98f7742553847e34590cb/fiddler-client-3.0.0.dev9.tar.gz
+[2024-04-16 14:34:07] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/08/ea/1f0e0c4bf6978125bb6d32314f0dcebce3728dfce8fa0ef3106948b4d899/fiddler-client-3.1.0.dev1.tar.gz
+[2024-04-16 14:34:07] INFO root fetch - processPackages [vistutils]: Downloading https://files.pythonhosted.org/packages/03/ab/4cec8e0c3fdfbe38de2cf19925a3540bca6347e9df74b83c06d7ef70bf56/vistutils-0.1.8.tar.gz
+[2024-04-16 14:34:07] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/c1/62/60dadeb0d3f381e2bb0017794363761024302a8f721c9b4d4df52204a8fb/pinjected-0.2.36.tar.gz
+[2024-04-16 14:34:07] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-04-16 14:34:07] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.0.0.dev9.tar.gz tmp/fiddler-client-3.1.0.dev1.tar.gz --markdown 20240416/f/fiddler-client/3.0.0.dev9-3.1.0.dev1/README.md --exclude *.pyd
+[2024-04-16 14:34:07] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-04-16 14:34:07] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.35.tar.gz tmp/pinjected-0.2.36.tar.gz --markdown 20240416/p/pinjected/0.2.35-0.2.36/README.md --exclude *.pyd
+[2024-04-16 14:34:07] INFO root fetch - processPackages [vistutils]: Downloading https://files.pythonhosted.org/packages/b6/b2/2ba6145790f8f33dc77703df6cfa0dbe27354032a5e534b93d69337ca6c7/vistutils-0.1.9.tar.gz
+[2024-04-16 14:34:07] INFO root fetch - processPackages [vistutils]: executing diffoscope
+[2024-04-16 14:34:07] INFO root fetch - processPackages [vistutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vistutils-0.1.8.tar.gz tmp/vistutils-0.1.9.tar.gz --markdown 20240416/v/vistutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 14:34:08] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.35.tar.gz]
+[2024-04-16 14:34:08] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.36.tar.gz]
+[2024-04-16 14:34:08] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-04-16 14:34:08] INFO root fetch - processPackages [vistutils]: Remove: archive file [/home/abi/fetcher/tmp/vistutils-0.1.8.tar.gz]
+[2024-04-16 14:34:08] INFO root fetch - processPackages [vistutils]: Remove: archive file [/home/abi/fetcher/tmp/vistutils-0.1.9.tar.gz]
+[2024-04-16 14:34:08] INFO root fetch - main [MainThread]: End processing [vistutils]: success
+[2024-04-16 14:34:08] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.0.0.dev9.tar.gz]
+[2024-04-16 14:34:08] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev1.tar.gz]
+[2024-04-16 14:34:08] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-04-16 14:34:08] INFO root fetch - main [MainThread]: Store serial: [22787494]
