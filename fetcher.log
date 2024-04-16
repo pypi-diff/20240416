@@ -19127,3 +19127,92 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:28:14] INFO root fetch - processPackages [zohocrmsdk2-0]: Remove: archive file [/home/abi/fetcher/tmp/zohocrmsdk2_0-6.0.0.tar.gz]
 [2024-04-16 15:28:14] INFO root fetch - main [MainThread]: End processing [zohocrmsdk2-0]: success
 [2024-04-16 15:28:14] INFO root fetch - main [MainThread]: Store serial: [22788205]
+[2024-04-16 15:30:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788205]
+[2024-04-16 15:30:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lddya
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataflows-ckan
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sts-lib
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xklb
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yeref
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hdn-research-environment
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyCEPS
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ryght-platform-sdk
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LogGabor
+[2024-04-16 15:30:24] INFO root fetch - processPackages [sts-lib]: New version: [0.24.1] Old Version: [0.24.0]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [lddya]: New version: [4.1.0] Old Version: [4.0.2]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240416083129] Old Version: [3.3.1.dev20240416060436]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [dataflows-ckan]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/bb/e9/19b2cb359cca720b65d55fdb1501a7880f36937394e46784101506e09437/sts_lib-0.24.0.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [lddya]: Downloading https://files.pythonhosted.org/packages/41/7d/9087257c89974d0d7e8be0da8d4f40be43006f94c90dc5340c0c9096ce33/lddya-4.0.2.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [pyCEPS]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [hdn-research-environment]: New version: [3.0.7rc0] Old Version: [3.0.6rc1]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ryght-platform-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [LogGabor]: New version: [20240419] Old Version: [20191113]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [xklb]: New version: [2.6.9] Old Version: [2.6.7]
+[2024-04-16 15:30:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/9c/6b/b88c981126b60a2d5d79be48cd3aa90ccfa3ba9800dce91c343c558dca27/localstack_core-3.3.1.dev20240416060436.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [dataflows-ckan]: Downloading https://files.pythonhosted.org/packages/15/e5/a6c556e9b0d681c2bc81b7e5aa767a540deaaf18cb5c70b9585b07c171ee/dataflows_ckan-0.3.8.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/3a/eb/9a03e2dd9cd2062b91f09e385e1eec9d55ce1a790f1cd0d9443cd28c9265/hdn-research-environment-3.0.6rc1.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [pyCEPS]: Downloading https://files.pythonhosted.org/packages/5f/21/f7636118e2cf40cb1e349858de7c203e99b3cdb11b03d97a9e80aa06de41/pyCEPS-1.0.0.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [lddya]: Downloading https://files.pythonhosted.org/packages/f1/c9/9011e60ed4f89a4d55ac773b998a3531922a4eb6377004a178cf86982e6c/lddya-4.1.0.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [ryght-platform-sdk]: Downloading https://files.pythonhosted.org/packages/2b/66/1affb9a6f153378b4a6d5945e02328fb080815a58791b686c26fa196eb3d/ryght_platform_sdk-0.3.8.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [LogGabor]: Downloading https://files.pythonhosted.org/packages/1f/cd/83ba211d84ae54353bfe4973b88007c6ba4a082b5a8558852986fcf91e09/LogGabor-20191113.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/c0/69/2094cbc3ea1d5a61a495e8303da8cddfa7571c720b175d62baf286a00111/xklb-2.6.7.tar.gz
+[2024-04-16 15:30:24] WARNING root fetch - processPackages [LogGabor]: Skipping package: exceeds size limit 28160227>=10485760
+[2024-04-16 15:30:24] INFO root fetch - main [MainThread]: End processing [LogGabor] error
+[2024-04-16 15:30:24] INFO root fetch - processPackages [lddya]: executing diffoscope
+[2024-04-16 15:30:24] INFO root fetch - processPackages [lddya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lddya-4.0.2.tar.gz tmp/lddya-4.1.0.tar.gz --markdown 20240416/l/lddya/4.0.2-4.1.0/README.md --exclude *.pyd
+[2024-04-16 15:30:24] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [sts-lib]: Downloading https://files.pythonhosted.org/packages/49/ba/3d539f9995ed315334147d614a242949268ce1a0e8703fa1e7aa9ca21ddc/sts_lib-0.24.1.tar.gz
+[2024-04-16 15:30:24] INFO root fetch - processPackages [dataflows-ckan]: Downloading https://files.pythonhosted.org/packages/11/d3/6e846210efd9ccce0586403846e09e4c3899c0995d3aeee4850b6f2e03a6/dataflows_ckan-0.3.9.tar.gz
+[2024-04-16 15:30:25] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-04-16 15:30:25] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240416/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 15:30:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/68/0d/0c0a8eb05a4398bc5fe0ae57772253322da33575a76be17f7abca21e23ae/localstack_core-3.3.1.dev20240416083129.tar.gz
+[2024-04-16 15:30:25] INFO root fetch - processPackages [pyCEPS]: Downloading https://files.pythonhosted.org/packages/7a/90/fac8d67c5ccd73da0bdd2cecf8808f8d506f83609d8124f90d19d9b95d2c/pyceps-1.0.1.tar.gz
+[2024-04-16 15:30:25] INFO root fetch - processPackages [sts-lib]: executing diffoscope
+[2024-04-16 15:30:25] INFO root fetch - processPackages [sts-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sts_lib-0.24.0.tar.gz tmp/sts_lib-0.24.1.tar.gz --markdown 20240416/s/sts-lib/0.24.0-0.24.1/README.md --exclude *.pyd
+[2024-04-16 15:30:25] INFO root fetch - processPackages [ryght-platform-sdk]: Downloading https://files.pythonhosted.org/packages/34/43/6feec924f7903a6cac196b8652681a41b540008288a7647e8420b4554257/ryght_platform_sdk-0.3.9.tar.gz
+[2024-04-16 15:30:25] INFO root fetch - processPackages [hdn-research-environment]: Downloading https://files.pythonhosted.org/packages/b0/e8/a2e77f18206f465ec2cf20c049c6a261c27baa8bbdf52c92a58ff7b6248d/hdn-research-environment-3.0.7rc0.tar.gz
+[2024-04-16 15:30:25] INFO root fetch - processPackages [dataflows-ckan]: executing diffoscope
+[2024-04-16 15:30:25] INFO root fetch - processPackages [dataflows-ckan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataflows_ckan-0.3.8.tar.gz tmp/dataflows_ckan-0.3.9.tar.gz --markdown 20240416/d/dataflows-ckan/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-16 15:30:25] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/38/2a/2958f5a1fedda07c3aa6cb197a1270734f34698793fb935ae5debd5e8c0c/xklb-2.6.9.tar.gz
+[2024-04-16 15:30:25] INFO root fetch - processPackages [hdn-research-environment]: executing diffoscope
+[2024-04-16 15:30:25] INFO root fetch - processPackages [hdn-research-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdn-research-environment-3.0.6rc1.tar.gz tmp/hdn-research-environment-3.0.7rc0.tar.gz --markdown 20240416/h/hdn-research-environment/3.0.6rc1-3.0.7rc0/README.md --exclude *.pyd
+[2024-04-16 15:30:25] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-16 15:30:25] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.3.1.dev20240416060436.tar.gz tmp/localstack_core-3.3.1.dev20240416083129.tar.gz --markdown 20240416/l/localstack-core/3.3.1.dev20240416060436-3.3.1.dev20240416083129/README.md --exclude *.pyd
+[2024-04-16 15:30:25] INFO root fetch - processPackages [pyCEPS]: executing diffoscope
+[2024-04-16 15:30:25] INFO root fetch - processPackages [pyCEPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCEPS-1.0.0.tar.gz tmp/pyceps-1.0.1.tar.gz --markdown 20240416/p/pyCEPS/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-16 15:30:25] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-04-16 15:30:25] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.6.7.tar.gz tmp/xklb-2.6.9.tar.gz --markdown 20240416/x/xklb/2.6.7-2.6.9/README.md --exclude *.pyd
+[2024-04-16 15:30:25] INFO root fetch - processPackages [ryght-platform-sdk]: executing diffoscope
+[2024-04-16 15:30:25] INFO root fetch - processPackages [ryght-platform-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryght_platform_sdk-0.3.8.tar.gz tmp/ryght_platform_sdk-0.3.9.tar.gz --markdown 20240416/r/ryght-platform-sdk/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-16 15:30:25] INFO root fetch - processPackages [lddya]: Remove: archive file [/home/abi/fetcher/tmp/lddya-4.0.2.tar.gz]
+[2024-04-16 15:30:25] INFO root fetch - processPackages [lddya]: Remove: archive file [/home/abi/fetcher/tmp/lddya-4.1.0.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - main [MainThread]: End processing [lddya]: success
+[2024-04-16 15:30:26] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-04-16 15:30:26] INFO root fetch - processPackages [dataflows-ckan]: Remove: archive file [/home/abi/fetcher/tmp/dataflows_ckan-0.3.8.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - processPackages [dataflows-ckan]: Remove: archive file [/home/abi/fetcher/tmp/dataflows_ckan-0.3.9.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - main [MainThread]: End processing [dataflows-ckan]: success
+[2024-04-16 15:30:26] INFO root fetch - processPackages [pyCEPS]: Remove: archive file [/home/abi/fetcher/tmp/pyCEPS-1.0.0.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - processPackages [pyCEPS]: Remove: archive file [/home/abi/fetcher/tmp/pyceps-1.0.1.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - main [MainThread]: End processing [pyCEPS]: success
+[2024-04-16 15:30:26] INFO root fetch - processPackages [ryght-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ryght_platform_sdk-0.3.8.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - processPackages [ryght-platform-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ryght_platform_sdk-0.3.9.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - main [MainThread]: End processing [ryght-platform-sdk]: success
+[2024-04-16 15:30:26] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.6rc1.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - processPackages [hdn-research-environment]: Remove: archive file [/home/abi/fetcher/tmp/hdn-research-environment-3.0.7rc0.tar.gz]
+[2024-04-16 15:30:26] INFO root fetch - main [MainThread]: End processing [hdn-research-environment]: success
+[2024-04-16 15:30:27] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.24.0.tar.gz]
+[2024-04-16 15:30:27] INFO root fetch - processPackages [sts-lib]: Remove: archive file [/home/abi/fetcher/tmp/sts_lib-0.24.1.tar.gz]
+[2024-04-16 15:30:27] INFO root fetch - main [MainThread]: End processing [sts-lib]: success
+[2024-04-16 15:30:27] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.7.tar.gz]
+[2024-04-16 15:30:27] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.9.tar.gz]
+[2024-04-16 15:30:27] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-04-16 15:30:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416060436.tar.gz]
+[2024-04-16 15:30:30] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240416083129.tar.gz]
+[2024-04-16 15:30:30] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-16 15:30:30] INFO root fetch - main [MainThread]: Store serial: [22788230]
