@@ -15915,3 +15915,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 13:38:25] INFO root fetch - processPackages [bamboo-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/bamboo-pipeline-3.9.1.tar.gz]
 [2024-04-16 13:38:25] INFO root fetch - main [MainThread]: End processing [bamboo-pipeline]: success
 [2024-04-16 13:38:25] INFO root fetch - main [MainThread]: Store serial: [22786921]
+[2024-04-16 13:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786921]
+[2024-04-16 13:40:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccdexplorer-fundamentals
+[2024-04-16 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kivymd-utils
+[2024-04-16 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xboc
+[2024-04-16 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybiolib
+[2024-04-16 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: textwiz
+[2024-04-16 13:40:34] INFO root fetch - processPackages [ccdexplorer-fundamentals]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-16 13:40:34] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-16 13:40:34] INFO root fetch - processPackages [kivymd-utils]: New version: [0.15.0] Old Version: [0.14.1]
+[2024-04-16 13:40:34] WARNING root fetch - processPackages [xboc]: Skipping, unable to determine old version
+[2024-04-16 13:40:34] INFO root fetch - main [MainThread]: End processing [xboc] error
+[2024-04-16 13:40:34] INFO root fetch - processPackages [textwiz]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-16 13:40:34] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Downloading https://files.pythonhosted.org/packages/52/02/a5c251ac5e1a440603b68c45850830f0430f35764fea52457239ad31da29/ccdexplorer-fundamentals-0.1.9.tar.gz
+[2024-04-16 13:40:34] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-16 13:40:34] INFO root fetch - processPackages [kivymd-utils]: Downloading https://files.pythonhosted.org/packages/2d/aa/6f4f2666e6b113239566bc668ebfb66bb9c5e99a48a7acba8ba3991bd19c/kivymd_utils-0.14.1.tar.gz
+[2024-04-16 13:40:34] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Downloading https://files.pythonhosted.org/packages/2f/97/ed91e1fb88072b20a702846da2b19fef05989bdacb2792d8f0b4e9075395/ccdexplorer_fundamentals-0.2.0.tar.gz
+[2024-04-16 13:40:34] INFO root fetch - processPackages [textwiz]: Downloading https://files.pythonhosted.org/packages/e5/ab/4159b9590ade8fd00e825d129680e08fb5037745c6b3f16100f9d7142672/textwiz-0.5.0.tar.gz
+[2024-04-16 13:40:34] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-16 13:40:34] INFO root fetch - processPackages [ccdexplorer-fundamentals]: executing diffoscope
+[2024-04-16 13:40:34] INFO root fetch - processPackages [ccdexplorer-fundamentals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdexplorer-fundamentals-0.1.9.tar.gz tmp/ccdexplorer_fundamentals-0.2.0.tar.gz --markdown 20240416/c/ccdexplorer-fundamentals/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-16 13:40:34] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-16 13:40:34] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240416/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-04-16 13:40:34] INFO root fetch - processPackages [kivymd-utils]: Downloading https://files.pythonhosted.org/packages/d4/5c/f78af88540303b786dd310b7cf902945067da2848285cfd134a1082e0fe4/kivymd_utils-0.15.0.tar.gz
+[2024-04-16 13:40:34] INFO root fetch - processPackages [kivymd-utils]: executing diffoscope
+[2024-04-16 13:40:34] INFO root fetch - processPackages [kivymd-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivymd_utils-0.14.1.tar.gz tmp/kivymd_utils-0.15.0.tar.gz --markdown 20240416/k/kivymd-utils/0.14.1-0.15.0/README.md --exclude *.pyd
+[2024-04-16 13:40:34] INFO root fetch - processPackages [textwiz]: Downloading https://files.pythonhosted.org/packages/9e/f6/00ce3fb27b4f3a1d9293b7df29b287ebb6fbb9beb16ce670cf1fb8e825cd/textwiz-0.6.0.tar.gz
+[2024-04-16 13:40:34] INFO root fetch - processPackages [textwiz]: executing diffoscope
+[2024-04-16 13:40:34] INFO root fetch - processPackages [textwiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textwiz-0.5.0.tar.gz tmp/textwiz-0.6.0.tar.gz --markdown 20240416/t/textwiz/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-16 13:40:35] INFO root fetch - processPackages [kivymd-utils]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_utils-0.14.1.tar.gz]
+[2024-04-16 13:40:35] INFO root fetch - processPackages [kivymd-utils]: Remove: archive file [/home/abi/fetcher/tmp/kivymd_utils-0.15.0.tar.gz]
+[2024-04-16 13:40:35] INFO root fetch - main [MainThread]: End processing [kivymd-utils]: success
+[2024-04-16 13:40:35] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer-fundamentals-0.1.9.tar.gz]
+[2024-04-16 13:40:35] INFO root fetch - processPackages [ccdexplorer-fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_fundamentals-0.2.0.tar.gz]
+[2024-04-16 13:40:35] INFO root fetch - main [MainThread]: End processing [ccdexplorer-fundamentals]: success
+[2024-04-16 13:40:35] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-16 13:40:35] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-16 13:40:35] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-16 13:40:35] INFO root fetch - processPackages [textwiz]: Remove: archive file [/home/abi/fetcher/tmp/textwiz-0.5.0.tar.gz]
+[2024-04-16 13:40:35] INFO root fetch - processPackages [textwiz]: Remove: archive file [/home/abi/fetcher/tmp/textwiz-0.6.0.tar.gz]
+[2024-04-16 13:40:35] INFO root fetch - main [MainThread]: End processing [textwiz]: success
+[2024-04-16 13:40:35] INFO root fetch - main [MainThread]: Store serial: [22786938]
