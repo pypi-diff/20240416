@@ -20378,3 +20378,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 16:08:10] INFO root fetch - processPackages [PseudoNetCDF]: Remove: archive file [/home/abi/fetcher/tmp/pseudonetcdf-3.4.0.tar.gz]
 [2024-04-16 16:08:10] INFO root fetch - main [MainThread]: End processing [PseudoNetCDF]: success
 [2024-04-16 16:08:10] INFO root fetch - main [MainThread]: Store serial: [22788711]
+[2024-04-16 16:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788711]
+[2024-04-16 16:10:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PseudoNetCDF
+[2024-04-16 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nkululeko
+[2024-04-16 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jgdv
+[2024-04-16 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-command
+[2024-04-16 16:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utubes
+[2024-04-16 16:10:20] INFO root fetch - processPackages [utubes]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-16 16:10:20] INFO root fetch - processPackages [PseudoNetCDF]: New version: [3.4.0] Old Version: [3.2.3]
+[2024-04-16 16:10:20] INFO root fetch - processPackages [jgdv]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 16:10:20] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-04-16 16:10:20] INFO root fetch - processPackages [nkululeko]: New version: [0.81.3] Old Version: [0.81.2]
+[2024-04-16 16:10:20] INFO root fetch - processPackages [PseudoNetCDF]: Downloading https://files.pythonhosted.org/packages/95/e4/f16c773e6283c7193c1d89ae39656d2b8506f8e29de7a7431514ce6703d6/PseudoNetCDF-3.2.3.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/d9/77/2f88eb20ff75526f9d02a6c1304673f71bbb522f12e09b9b98b37ba09a91/utubes-0.0.4.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [jgdv]: Downloading https://files.pythonhosted.org/packages/5c/12/a45bb81244d1f49a243a1582d64955c0c8d72cbef45c8591785daba49fa0/jgdv-0.1.0.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/6f/cf/f5a24fdc065d9e0496a39244444262b0bc23985c52ceead0f7bd6ce6fa2e/nkululeko-0.81.2.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/13/28/36f54e1fe793c6dbcb8c95cf17892a28f4ceeae1bdc675df1c455d917386/utubes-0.0.5.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [jgdv]: Downloading https://files.pythonhosted.org/packages/23/2f/771d1afd5b590d4c386b5acd6304962b62ec2fcdf5e3e1683552e627601f/jgdv-0.1.1.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [PseudoNetCDF]: Downloading https://files.pythonhosted.org/packages/09/d4/7fa8c708f6c8ccaa4fa7212b15eaf01baab0a718d1e20b7ba6c8441883ce/pseudonetcdf-3.4.0.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [utubes]: executing diffoscope
+[2024-04-16 16:10:20] INFO root fetch - processPackages [utubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utubes-0.0.4.tar.gz tmp/utubes-0.0.5.tar.gz --markdown 20240416/u/utubes/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-16 16:10:20] INFO root fetch - processPackages [jgdv]: executing diffoscope
+[2024-04-16 16:10:20] INFO root fetch - processPackages [jgdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgdv-0.1.0.tar.gz tmp/jgdv-0.1.1.tar.gz --markdown 20240416/j/jgdv/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 16:10:20] INFO root fetch - processPackages [PseudoNetCDF]: executing diffoscope
+[2024-04-16 16:10:20] INFO root fetch - processPackages [PseudoNetCDF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PseudoNetCDF-3.2.3.tar.gz tmp/pseudonetcdf-3.4.0.tar.gz --markdown 20240416/P/PseudoNetCDF/3.2.3-3.4.0/README.md --exclude *.pyd
+[2024-04-16 16:10:20] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-04-16 16:10:20] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240416/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-04-16 16:10:20] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/01/fc/b697dfbe7268ec3a31687875aa70ce4b1acdaa1ff8e4dbed12effd8afb44/nkululeko-0.81.3.tar.gz
+[2024-04-16 16:10:20] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-04-16 16:10:20] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.81.2.tar.gz tmp/nkululeko-0.81.3.tar.gz --markdown 20240416/n/nkululeko/0.81.2-0.81.3/README.md --exclude *.pyd
+[2024-04-16 16:10:21] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.4.tar.gz]
+[2024-04-16 16:10:21] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.5.tar.gz]
+[2024-04-16 16:10:21] INFO root fetch - main [MainThread]: End processing [utubes]: success
+[2024-04-16 16:10:21] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-04-16 16:10:21] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-04-16 16:10:21] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-04-16 16:10:22] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.81.2.tar.gz]
+[2024-04-16 16:10:22] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.81.3.tar.gz]
+[2024-04-16 16:10:22] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-04-16 16:10:22] INFO root fetch - processPackages [PseudoNetCDF]: Remove: archive file [/home/abi/fetcher/tmp/PseudoNetCDF-3.2.3.tar.gz]
+[2024-04-16 16:10:22] INFO root fetch - processPackages [PseudoNetCDF]: Remove: archive file [/home/abi/fetcher/tmp/pseudonetcdf-3.4.0.tar.gz]
+[2024-04-16 16:10:22] INFO root fetch - main [MainThread]: End processing [PseudoNetCDF]: success
+[2024-04-16 16:10:22] INFO root fetch - processPackages [jgdv]: Remove: archive file [/home/abi/fetcher/tmp/jgdv-0.1.0.tar.gz]
+[2024-04-16 16:10:22] INFO root fetch - processPackages [jgdv]: Remove: archive file [/home/abi/fetcher/tmp/jgdv-0.1.1.tar.gz]
+[2024-04-16 16:10:22] INFO root fetch - main [MainThread]: End processing [jgdv]: success
+[2024-04-16 16:10:22] INFO root fetch - main [MainThread]: Store serial: [22788727]
