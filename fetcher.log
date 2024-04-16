@@ -6697,3 +6697,32 @@
 [2024-04-16 07:25:03] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.2a0.tar.gz]
 [2024-04-16 07:25:03] INFO root fetch - main [MainThread]: End processing [bavisitter]: success
 [2024-04-16 07:25:03] INFO root fetch - main [MainThread]: Store serial: [22782849]
+[2024-04-16 07:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782849]
+[2024-04-16 07:27:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lense
+[2024-04-16 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: breeze-connect
+[2024-04-16 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylance
+[2024-04-16 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mpservice
+[2024-04-16 07:27:17] INFO root fetch - processPackages [breeze-connect]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-16 07:27:17] WARNING root fetch - processPackages [lense]: Skipping, unable to determine old version
+[2024-04-16 07:27:17] INFO root fetch - main [MainThread]: End processing [lense] error
+[2024-04-16 07:27:17] INFO root fetch - processPackages [pylance]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 07:27:17] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2024-04-16 07:27:17] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/eb/38/10bd4db4bbc0b15976ae792c12746686d284a9fc380eb2e473a18c8cf40a/breeze_connect-1.0.8.tar.gz
+[2024-04-16 07:27:17] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/df/e7/efb74c945b018c4703636b6208241b70437285a0d8367da60323f5d78563/pylance-0.9.8-cp38-abi3-win_amd64.whl
+[2024-04-16 07:27:17] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2024-04-16 07:27:17] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/4c/42/710b1f5e8f9fd52127641623d4bd1c641247bcf346c97a3bb5c022588e32/breeze_connect-1.0.9.tar.gz
+[2024-04-16 07:27:17] INFO root fetch - processPackages [breeze-connect]: executing diffoscope
+[2024-04-16 07:27:17] INFO root fetch - processPackages [breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_connect-1.0.8.tar.gz tmp/breeze_connect-1.0.9.tar.gz --markdown 20240416/b/breeze-connect/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-16 07:27:18] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 19067957>=10485760
+[2024-04-16 07:27:18] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2024-04-16 07:27:18] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.8.tar.gz]
+[2024-04-16 07:27:18] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.9.tar.gz]
+[2024-04-16 07:27:18] INFO root fetch - main [MainThread]: End processing [breeze-connect]: success
+[2024-04-16 07:27:18] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2024-04-16 07:27:19] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2024-04-16 07:27:19] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20240416/m/mpservice/0.9.9-0.9.9.post1/README.md --exclude *.pyd
+[2024-04-16 07:27:20] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2024-04-16 07:27:20] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2024-04-16 07:27:20] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2024-04-16 07:27:20] INFO root fetch - main [MainThread]: Store serial: [22782862]
