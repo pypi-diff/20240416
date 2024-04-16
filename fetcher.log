@@ -6331,3 +6331,15 @@
 [2024-04-16 07:01:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.17a1713237060.tar.gz]
 [2024-04-16 07:01:51] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-04-16 07:01:51] INFO root fetch - main [MainThread]: Store serial: [22782727]
+[2024-04-16 07:03:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782727]
+[2024-04-16 07:04:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 07:04:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyminerva
+[2024-04-16 07:04:01] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-16 07:04:01] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-16 07:04:01] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-16 07:04:01] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-16 07:04:01] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240416/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-16 07:04:02] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-16 07:04:02] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-16 07:04:02] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-16 07:04:02] INFO root fetch - main [MainThread]: Store serial: [22782731]
