@@ -5533,3 +5533,45 @@
 [2024-04-16 06:01:38] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
 [2024-04-16 06:01:38] INFO root fetch - main [MainThread]: End processing [coretex]: success
 [2024-04-16 06:01:38] INFO root fetch - main [MainThread]: Store serial: [22782321]
+[2024-04-16 06:03:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782321]
+[2024-04-16 06:03:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-16 06:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-dms-user-role
+[2024-04-16 06:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cpg-utils
+[2024-04-16 06:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyacp
+[2024-04-16 06:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harry-potter-yonier
+[2024-04-16 06:03:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml4co-kit
+[2024-04-16 06:03:47] INFO root fetch - processPackages [cpg-utils]: New version: [5.0.3] Old Version: [5.0.2]
+[2024-04-16 06:03:47] WARNING root fetch - processPackages [harry-potter-yonier]: Skipping, unable to determine old version
+[2024-04-16 06:03:47] INFO root fetch - main [MainThread]: End processing [harry-potter-yonier] error
+[2024-04-16 06:03:47] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/91/de/1324e3e87922a27bd3405c433faaebf0abb9b8878e19c03d43a7a661a885/cpg-utils-5.0.2.tar.gz
+[2024-04-16 06:03:47] INFO root fetch - processPackages [pyacp]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-16 06:03:47] INFO root fetch - processPackages [odoo-addon-dms-user-role]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.1]
+[2024-04-16 06:03:47] INFO root fetch - processPackages [ml4co-kit]: New version: [0.0.1a1] Old Version: [0.0.1]
+[2024-04-16 06:03:47] INFO root fetch - processPackages [pyacp]: Downloading https://files.pythonhosted.org/packages/bd/7f/65d316d66a83526c74a70b2b7374ddb6b1d93ad95bc00b11749b2d11c773/pyacp-0.1.4.tar.gz
+[2024-04-16 06:03:47] INFO root fetch - processPackages [odoo-addon-dms-user-role]: Downloading https://files.pythonhosted.org/packages/b8/da/085213ad73d15a633d131a2427fc25afb73e0abada1308dbaa6c0aa52784/odoo_addon_dms_user_role-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-16 06:03:47] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/69/3e/40c0c0349d911fa24167acfd4529801c42592672c0fa5a6959c1298a00c4/cpg-utils-5.0.3.tar.gz
+[2024-04-16 06:03:47] INFO root fetch - processPackages [ml4co-kit]: Downloading https://files.pythonhosted.org/packages/ca/fc/245301272c91ca03b88e85691200ff8d1f0453bd66da55cbbea6480855e9/ml4co_kit-0.0.1.tar.gz
+[2024-04-16 06:03:47] INFO root fetch - processPackages [cpg-utils]: executing diffoscope
+[2024-04-16 06:03:47] INFO root fetch - processPackages [cpg-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-utils-5.0.2.tar.gz tmp/cpg-utils-5.0.3.tar.gz --markdown 20240416/c/cpg-utils/5.0.2-5.0.3/README.md --exclude *.pyd
+[2024-04-16 06:03:47] INFO root fetch - processPackages [odoo-addon-dms-user-role]: Downloading https://files.pythonhosted.org/packages/dd/67/380082055b5cc2dfb3bb97a10099e3ae106bb7b03a857b88db6b78c90b0d/odoo_addon_dms_user_role-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-16 06:03:47] INFO root fetch - processPackages [odoo-addon-dms-user-role]: executing diffoscope
+[2024-04-16 06:03:47] INFO root fetch - processPackages [odoo-addon-dms-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_user_role-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_dms_user_role-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-dms-user-role/16.0.1.0.0.1-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-16 06:03:48] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.2.tar.gz]
+[2024-04-16 06:03:48] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.3.tar.gz]
+[2024-04-16 06:03:48] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
+[2024-04-16 06:03:48] INFO root fetch - processPackages [odoo-addon-dms-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_user_role-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-16 06:03:48] INFO root fetch - processPackages [odoo-addon-dms-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_user_role-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-16 06:03:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-user-role]: success
+[2024-04-16 06:03:48] INFO root fetch - processPackages [pyacp]: Downloading https://files.pythonhosted.org/packages/d7/c8/9eab63faeda22c2bb32cf9fd31763609b6257043fb5ed1d4e5716da596db/pyacp-0.2.0.tar.gz
+[2024-04-16 06:03:48] INFO root fetch - processPackages [pyacp]: executing diffoscope
+[2024-04-16 06:03:48] INFO root fetch - processPackages [pyacp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyacp-0.1.4.tar.gz tmp/pyacp-0.2.0.tar.gz --markdown 20240416/p/pyacp/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-04-16 06:03:48] INFO root fetch - processPackages [ml4co-kit]: Downloading https://files.pythonhosted.org/packages/d5/de/8aff04b1624d31068d00a478b3ef5a5cf630e9ee4af8352774209d3af8e7/ml4co_kit-0.0.1a1.tar.gz
+[2024-04-16 06:03:48] INFO root fetch - processPackages [ml4co-kit]: executing diffoscope
+[2024-04-16 06:03:48] INFO root fetch - processPackages [ml4co-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml4co_kit-0.0.1.tar.gz tmp/ml4co_kit-0.0.1a1.tar.gz --markdown 20240416/m/ml4co-kit/0.0.1-0.0.1a1/README.md --exclude *.pyd
+[2024-04-16 06:03:50] INFO root fetch - processPackages [ml4co-kit]: Remove: archive file [/home/abi/fetcher/tmp/ml4co_kit-0.0.1.tar.gz]
+[2024-04-16 06:03:50] INFO root fetch - processPackages [ml4co-kit]: Remove: archive file [/home/abi/fetcher/tmp/ml4co_kit-0.0.1a1.tar.gz]
+[2024-04-16 06:03:50] INFO root fetch - main [MainThread]: End processing [ml4co-kit]: success
+[2024-04-16 06:05:01] INFO root fetch - processPackages [pyacp]: Remove: archive file [/home/abi/fetcher/tmp/pyacp-0.1.4.tar.gz]
+[2024-04-16 06:05:01] INFO root fetch - processPackages [pyacp]: Remove: archive file [/home/abi/fetcher/tmp/pyacp-0.2.0.tar.gz]
+[2024-04-16 06:05:01] INFO root fetch - main [MainThread]: End processing [pyacp]: success
+[2024-04-16 06:05:01] INFO root fetch - main [MainThread]: Store serial: [22782332]
