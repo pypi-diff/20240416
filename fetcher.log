@@ -16574,3 +16574,70 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 14:06:46] INFO root fetch - processPackages [secretflow-lite]: Remove: archive file [/home/abi/fetcher/tmp/secretflow_lite-1.5.0b0-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-16 14:06:46] INFO root fetch - main [MainThread]: End processing [secretflow-lite]: success
 [2024-04-16 14:06:46] INFO root fetch - main [MainThread]: Store serial: [22787227]
+[2024-04-16 14:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22787227]
+[2024-04-16 14:09:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgtg
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: figeno
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haruka-parser
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezside
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lunaticoastro-dragonfly-controller
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isobuilder
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torcheval-nightly
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trycicle
+[2024-04-16 14:09:01] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: New version: [0.5.0] Old Version: [0.3.0]
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ezside]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-16 14:09:01] INFO root fetch - processPackages [haruka-parser]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-16 14:09:01] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-16 14:09:01] INFO root fetch - processPackages [pgtg]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-16 14:09:01] INFO root fetch - processPackages [haruka-parser]: Downloading https://files.pythonhosted.org/packages/a5/1f/a87bb707222e1dc23c1e7ffbcac09d1591033f4a9965262f4f15cfc5e87d/haruka_parser-0.5.0.tar.gz
+[2024-04-16 14:09:01] INFO root fetch - processPackages [figeno]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/5a/d4/1810386c07f848c78c2e8b15144f22482295b4040d1283a67e6675563952/ezside-0.1.8.tar.gz
+[2024-04-16 14:09:01] INFO root fetch - processPackages [trycicle]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-16 14:09:01] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-16 14:09:01] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/31/f6/95770f23a6e5bf9aa0aeb66ed9906adb45abff795b2ecd976ed7aeb81a53/lunaticoastro_dragonfly_controller-0.3.0.tar.gz
+[2024-04-16 14:09:01] INFO root fetch - processPackages [isobuilder]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-16 14:09:01] INFO root fetch - processPackages [pgtg]: Downloading https://files.pythonhosted.org/packages/1e/be/c8431b2972f2f79ce4c5bc1d2f06adc89694b0ec55095ce7e37446ab957c/pgtg-0.2.0.tar.gz
+[2024-04-16 14:09:01] INFO root fetch - processPackages [figeno]: Downloading https://files.pythonhosted.org/packages/85/a8/ce9638df997fafdc18b8207556ae4dcdd50c919205eac37f64acdbb11c63/figeno-1.0.7.tar.gz
+[2024-04-16 14:09:01] INFO root fetch - processPackages [ezside]: Downloading https://files.pythonhosted.org/packages/f1/e0/2cae952d702515bb0e82f0bacbe379367f4a416b2a3928f33850e21ae823/ezside-0.1.9.tar.gz
+[2024-04-16 14:09:01] INFO root fetch - processPackages [trycicle]: Downloading https://files.pythonhosted.org/packages/e4/85/63f922d0ba06d0d7d2196a578147e0c1f974535641078a7091a82fed2868/trycicle-0.2.2.tar.gz
+[2024-04-16 14:09:02] WARNING root fetch - processPackages [figeno]: Skipping package: exceeds size limit 14354497>=10485760
+[2024-04-16 14:09:02] INFO root fetch - main [MainThread]: End processing [figeno] error
+[2024-04-16 14:09:02] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-16 14:09:02] INFO root fetch - processPackages [ezside]: executing diffoscope
+[2024-04-16 14:09:02] INFO root fetch - processPackages [ezside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezside-0.1.8.tar.gz tmp/ezside-0.1.9.tar.gz --markdown 20240416/e/ezside/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-16 14:09:02] INFO root fetch - processPackages [isobuilder]: Downloading https://files.pythonhosted.org/packages/f8/e3/42f94fbbaddcdc2385354b370ad7237f401c6234eac6b7cb01932d06ec0b/isobuilder-0.4.6.tar.gz
+[2024-04-16 14:09:02] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/89/1b/678e0dcbaa16bac1d5ec63f00b8906288d7dde9f5f2f12541ab670330885/lunaticoastro_dragonfly_controller-0.5.0.tar.gz
+[2024-04-16 14:09:02] WARNING root fetch - processPackages [isobuilder]: Skipping package: exceeds size limit 20503081>=10485760
+[2024-04-16 14:09:02] INFO root fetch - main [MainThread]: End processing [isobuilder] error
+[2024-04-16 14:09:02] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-16 14:09:02] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240416/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-16 14:09:02] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: executing diffoscope
+[2024-04-16 14:09:02] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunaticoastro_dragonfly_controller-0.3.0.tar.gz tmp/lunaticoastro_dragonfly_controller-0.5.0.tar.gz --markdown 20240416/l/lunaticoastro-dragonfly-controller/0.3.0-0.5.0/README.md --exclude *.pyd
+[2024-04-16 14:09:02] INFO root fetch - processPackages [haruka-parser]: Downloading https://files.pythonhosted.org/packages/53/40/2c10911963aac0d562f4cb767a1d95adca7c5a9cb4a049ff424597a296fd/haruka_parser-0.5.1.tar.gz
+[2024-04-16 14:09:02] INFO root fetch - processPackages [trycicle]: Downloading https://files.pythonhosted.org/packages/da/41/4f853cfda663724ab124b69b1d0d3154c5dd4f519c7f7e99d48a1b6dbb6a/trycicle-0.3.0.tar.gz
+[2024-04-16 14:09:02] INFO root fetch - processPackages [pgtg]: Downloading https://files.pythonhosted.org/packages/fc/24/e74cb2ad985fe0f269e1191d74e8add68f87324080841e9964e0756cb687/pgtg-0.3.0.tar.gz
+[2024-04-16 14:09:02] INFO root fetch - processPackages [pgtg]: executing diffoscope
+[2024-04-16 14:09:02] INFO root fetch - processPackages [pgtg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgtg-0.2.0.tar.gz tmp/pgtg-0.3.0.tar.gz --markdown 20240416/p/pgtg/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-16 14:09:02] INFO root fetch - processPackages [trycicle]: executing diffoscope
+[2024-04-16 14:09:02] INFO root fetch - processPackages [trycicle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycicle-0.2.2.tar.gz tmp/trycicle-0.3.0.tar.gz --markdown 20240416/t/trycicle/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-16 14:09:02] INFO root fetch - processPackages [haruka-parser]: executing diffoscope
+[2024-04-16 14:09:02] INFO root fetch - processPackages [haruka-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haruka_parser-0.5.0.tar.gz tmp/haruka_parser-0.5.1.tar.gz --markdown 20240416/h/haruka-parser/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-16 14:09:03] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.3.0.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.5.0.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - main [MainThread]: End processing [lunaticoastro-dragonfly-controller]: success
+[2024-04-16 14:09:03] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.8.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - processPackages [ezside]: Remove: archive file [/home/abi/fetcher/tmp/ezside-0.1.9.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - main [MainThread]: End processing [ezside]: success
+[2024-04-16 14:09:03] INFO root fetch - processPackages [pgtg]: Remove: archive file [/home/abi/fetcher/tmp/pgtg-0.2.0.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - processPackages [pgtg]: Remove: archive file [/home/abi/fetcher/tmp/pgtg-0.3.0.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - main [MainThread]: End processing [pgtg]: success
+[2024-04-16 14:09:03] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-16 14:09:03] INFO root fetch - processPackages [trycicle]: Remove: archive file [/home/abi/fetcher/tmp/trycicle-0.2.2.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - processPackages [trycicle]: Remove: archive file [/home/abi/fetcher/tmp/trycicle-0.3.0.tar.gz]
+[2024-04-16 14:09:03] INFO root fetch - main [MainThread]: End processing [trycicle]: success
+[2024-04-16 14:09:36] INFO root fetch - processPackages [haruka-parser]: Remove: archive file [/home/abi/fetcher/tmp/haruka_parser-0.5.0.tar.gz]
+[2024-04-16 14:09:36] INFO root fetch - processPackages [haruka-parser]: Remove: archive file [/home/abi/fetcher/tmp/haruka_parser-0.5.1.tar.gz]
+[2024-04-16 14:09:36] INFO root fetch - main [MainThread]: End processing [haruka-parser]: success
+[2024-04-16 14:09:36] INFO root fetch - main [MainThread]: Store serial: [22787252]
