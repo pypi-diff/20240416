@@ -18917,3 +18917,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:21:36] INFO root fetch - processPackages [nncore]: Remove: archive file [/home/abi/fetcher/tmp/nncore-0.4.2.tar.gz]
 [2024-04-16 15:21:36] INFO root fetch - main [MainThread]: End processing [nncore]: success
 [2024-04-16 15:21:36] INFO root fetch - main [MainThread]: Store serial: [22788102]
+[2024-04-16 15:23:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788102]
+[2024-04-16 15:23:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PolicyEngine-UK
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: function2widgets
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: africanwhisper
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ocx-databinding
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lstosa
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hipersim
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: falcon-toolkit
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: REHO
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nakivo-prometheus-exporter
+[2024-04-16 15:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: joptional
+[2024-04-16 15:23:44] INFO root fetch - processPackages [REHO]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-16 15:23:45] INFO root fetch - processPackages [function2widgets]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-16 15:23:45] INFO root fetch - processPackages [falcon-toolkit]: New version: [3.4.0] Old Version: [3.3.1]
+[2024-04-16 15:23:45] INFO root fetch - processPackages [REHO]: Downloading https://files.pythonhosted.org/packages/40/e8/9e6b952ba9b48eca9d98c408c9f9a629737b3304d51e56a97cad687b63bf/REHO-1.0.2.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [PolicyEngine-UK]: New version: [0.73.1] Old Version: [0.73.0]
+[2024-04-16 15:23:45] INFO root fetch - processPackages [lstosa]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-16 15:23:45] INFO root fetch - processPackages [hipersim]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-16 15:23:45] INFO root fetch - processPackages [ocx-databinding]: New version: [2.7.0] Old Version: [2.6.3]
+[2024-04-16 15:23:45] INFO root fetch - processPackages [africanwhisper]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-16 15:23:45] INFO root fetch - processPackages [nakivo-prometheus-exporter]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 15:23:45] WARNING root fetch - processPackages [joptional]: Skipping, unable to determine old version
+[2024-04-16 15:23:45] INFO root fetch - processPackages [joptional]: Start processing: pslines
+[2024-04-16 15:23:45] INFO root fetch - main [MainThread]: End processing [joptional] error
+[2024-04-16 15:23:45] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/8d/1f/9c80cc0aab57113a16bdbcc707f880482de6978e247d641da138c8c8c73d/function2widgets-0.6.8.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [pslines]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-16 15:23:45] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/92/25/715cdbc792162e86f38c3b166eb4a7cb00eb3d1bc8ea27fd87e5ed7df3b8/PolicyEngine-UK-0.73.0.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [falcon-toolkit]: Downloading https://files.pythonhosted.org/packages/87/8a/27f7505006636b60b5a87e06553e11f7515fe9a94dc41517cb26b4e6dca5/falcon_toolkit-3.3.1.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [ocx-databinding]: Downloading https://files.pythonhosted.org/packages/26/03/c2246d9627edca2a46299b07f9aee06aa2a3336a291e8ee30c5c97b2ec84/ocx_databinding-2.6.3.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [africanwhisper]: Downloading https://files.pythonhosted.org/packages/08/7f/a21f943b2901b2b08d81d33e0b4c9bb59c1758ec129da782313048a7c727/africanwhisper-0.8.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [nakivo-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/19/5f/0bc96852328696a5499ae0baf59c5aef571d55bc68ed2e1bc020b67687a6/nakivo_prometheus_exporter-0.2.2.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [lstosa]: Downloading https://files.pythonhosted.org/packages/31/fd/e4390bfdab9f6505a2ef038b7262f7fc9d593192eb3bba4afcd734e76ba4/lstosa-0.9.4.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [hipersim]: Downloading https://files.pythonhosted.org/packages/18/89/b9562c361f30f76ab658c01e3a16dcae9a1d93935f12ae2c1343f44c952b/hipersim-0.1.3.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [pslines]: Downloading https://files.pythonhosted.org/packages/d8/28/e3e11fcd656d6c10fd3574eafae760d3803cbfe447a01b5598ce3ce113d5/pslines-0.1.0.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/33/ed/124419d49f595a1f7fda6ac265ce6834078b604e525ad52a5c3168e69ad1/function2widgets-0.6.9.tar.gz
+[2024-04-16 15:23:45] WARNING root fetch - processPackages [hipersim]: Skipping package: exceeds size limit 41256135>=10485760
+[2024-04-16 15:23:45] INFO root fetch - main [MainThread]: End processing [hipersim] error
+[2024-04-16 15:23:45] INFO root fetch - processPackages [function2widgets]: executing diffoscope
+[2024-04-16 15:23:45] INFO root fetch - processPackages [function2widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function2widgets-0.6.8.tar.gz tmp/function2widgets-0.6.9.tar.gz --markdown 20240416/f/function2widgets/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-16 15:23:45] INFO root fetch - processPackages [REHO]: Downloading https://files.pythonhosted.org/packages/05/7b/9dd6f99a0a3b17bd46638f8a93205fa17b19c4223117f41dde9a4069ca21/reho-1.0.3.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [falcon-toolkit]: Downloading https://files.pythonhosted.org/packages/f6/a4/881768623b7f64b5bd90d5765d49b352789f61eb9da363ebf959b5eb1607/falcon_toolkit-3.4.0.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [PolicyEngine-UK]: Downloading https://files.pythonhosted.org/packages/9c/bb/0e8fbf2fa0a144b0f28b0b6a60cbe94cb94ec27ecd03a1957c200d257b29/PolicyEngine-UK-0.73.1.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [ocx-databinding]: Downloading https://files.pythonhosted.org/packages/7c/95/99ad54c86d1eddee6f7d6b6f4233d166693b2004887da8df5476ee527561/ocx_databinding-2.7.0.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [africanwhisper]: Downloading https://files.pythonhosted.org/packages/80/29/82ecf3fb1c8b04d428ca33b874dfd61947d74aab72cd6eb48dfdfc9d3370/africanwhisper-0.9.0.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [pslines]: Downloading https://files.pythonhosted.org/packages/c5/13/60707eca11ce03b099205561a39274df51659e8556a2d382269dfea2c3a0/pslines-0.1.1.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [REHO]: executing diffoscope
+[2024-04-16 15:23:45] INFO root fetch - processPackages [REHO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/REHO-1.0.2.tar.gz tmp/reho-1.0.3.tar.gz --markdown 20240416/R/REHO/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-16 15:23:45] INFO root fetch - processPackages [nakivo-prometheus-exporter]: Downloading https://files.pythonhosted.org/packages/bd/5d/c8aa329043a1063db11c0a3d3f015d4f81a83134ab4aea4e5501181dbd95/nakivo_prometheus_exporter-0.2.3.tar.gz
+[2024-04-16 15:23:45] INFO root fetch - processPackages [falcon-toolkit]: executing diffoscope
+[2024-04-16 15:23:45] INFO root fetch - processPackages [falcon-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_toolkit-3.3.1.tar.gz tmp/falcon_toolkit-3.4.0.tar.gz --markdown 20240416/f/falcon-toolkit/3.3.1-3.4.0/README.md --exclude *.pyd
+[2024-04-16 15:23:45] INFO root fetch - processPackages [pslines]: executing diffoscope
+[2024-04-16 15:23:45] INFO root fetch - processPackages [pslines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pslines-0.1.0.tar.gz tmp/pslines-0.1.1.tar.gz --markdown 20240416/p/pslines/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-16 15:23:45] INFO root fetch - processPackages [ocx-databinding]: executing diffoscope
+[2024-04-16 15:23:45] INFO root fetch - processPackages [ocx-databinding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocx_databinding-2.6.3.tar.gz tmp/ocx_databinding-2.7.0.tar.gz --markdown 20240416/o/ocx-databinding/2.6.3-2.7.0/README.md --exclude *.pyd
+[2024-04-16 15:23:45] INFO root fetch - processPackages [africanwhisper]: executing diffoscope
+[2024-04-16 15:23:45] INFO root fetch - processPackages [africanwhisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/africanwhisper-0.8.tar.gz tmp/africanwhisper-0.9.0.tar.gz --markdown 20240416/a/africanwhisper/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-16 15:23:46] INFO root fetch - processPackages [nakivo-prometheus-exporter]: executing diffoscope
+[2024-04-16 15:23:46] INFO root fetch - processPackages [nakivo-prometheus-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nakivo_prometheus_exporter-0.2.2.tar.gz tmp/nakivo_prometheus_exporter-0.2.3.tar.gz --markdown 20240416/n/nakivo-prometheus-exporter/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 15:23:46] INFO root fetch - processPackages [PolicyEngine-UK]: executing diffoscope
+[2024-04-16 15:23:46] INFO root fetch - processPackages [PolicyEngine-UK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PolicyEngine-UK-0.73.0.tar.gz tmp/PolicyEngine-UK-0.73.1.tar.gz --markdown 20240416/P/PolicyEngine-UK/0.73.0-0.73.1/README.md --exclude *.pyd
+[2024-04-16 15:23:46] INFO root fetch - processPackages [lstosa]: Downloading https://files.pythonhosted.org/packages/d9/dc/d8663f782ac68e662163f5bed97336cb6b768ac45060ea93fbf5278bec32/lstosa-0.9.5.tar.gz
+[2024-04-16 15:23:46] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.8.tar.gz]
+[2024-04-16 15:23:46] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.9.tar.gz]
+[2024-04-16 15:23:46] INFO root fetch - main [MainThread]: End processing [function2widgets]: success
+[2024-04-16 15:23:46] INFO root fetch - processPackages [pslines]: Remove: archive file [/home/abi/fetcher/tmp/pslines-0.1.0.tar.gz]
+[2024-04-16 15:23:46] INFO root fetch - processPackages [pslines]: Remove: archive file [/home/abi/fetcher/tmp/pslines-0.1.1.tar.gz]
+[2024-04-16 15:23:46] INFO root fetch - main [MainThread]: End processing [pslines]: success
+[2024-04-16 15:23:46] INFO root fetch - processPackages [ocx-databinding]: Remove: archive file [/home/abi/fetcher/tmp/ocx_databinding-2.6.3.tar.gz]
+[2024-04-16 15:23:46] INFO root fetch - processPackages [ocx-databinding]: Remove: archive file [/home/abi/fetcher/tmp/ocx_databinding-2.7.0.tar.gz]
+[2024-04-16 15:23:47] INFO root fetch - main [MainThread]: End processing [ocx-databinding]: success
+[2024-04-16 15:23:47] INFO root fetch - processPackages [falcon-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/falcon_toolkit-3.3.1.tar.gz]
+[2024-04-16 15:23:47] INFO root fetch - processPackages [falcon-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/falcon_toolkit-3.4.0.tar.gz]
+[2024-04-16 15:23:47] INFO root fetch - main [MainThread]: End processing [falcon-toolkit]: success
+[2024-04-16 15:23:47] INFO root fetch - processPackages [africanwhisper]: Remove: archive file [/home/abi/fetcher/tmp/africanwhisper-0.8.tar.gz]
+[2024-04-16 15:23:47] INFO root fetch - processPackages [africanwhisper]: Remove: archive file [/home/abi/fetcher/tmp/africanwhisper-0.9.0.tar.gz]
+[2024-04-16 15:23:47] INFO root fetch - main [MainThread]: End processing [africanwhisper]: success
+[2024-04-16 15:23:47] INFO root fetch - processPackages [lstosa]: executing diffoscope
+[2024-04-16 15:23:47] INFO root fetch - processPackages [lstosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lstosa-0.9.4.tar.gz tmp/lstosa-0.9.5.tar.gz --markdown 20240416/l/lstosa/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-16 15:23:47] INFO root fetch - processPackages [nakivo-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/nakivo_prometheus_exporter-0.2.2.tar.gz]
+[2024-04-16 15:23:47] INFO root fetch - processPackages [nakivo-prometheus-exporter]: Remove: archive file [/home/abi/fetcher/tmp/nakivo_prometheus_exporter-0.2.3.tar.gz]
+[2024-04-16 15:23:47] INFO root fetch - main [MainThread]: End processing [nakivo-prometheus-exporter]: success
+[2024-04-16 15:23:48] INFO root fetch - processPackages [REHO]: Remove: archive file [/home/abi/fetcher/tmp/REHO-1.0.2.tar.gz]
+[2024-04-16 15:23:48] INFO root fetch - processPackages [REHO]: Remove: archive file [/home/abi/fetcher/tmp/reho-1.0.3.tar.gz]
+[2024-04-16 15:23:48] INFO root fetch - main [MainThread]: End processing [REHO]: success
+[2024-04-16 15:23:48] INFO root fetch - processPackages [lstosa]: Remove: archive file [/home/abi/fetcher/tmp/lstosa-0.9.4.tar.gz]
+[2024-04-16 15:23:48] INFO root fetch - processPackages [lstosa]: Remove: archive file [/home/abi/fetcher/tmp/lstosa-0.9.5.tar.gz]
+[2024-04-16 15:23:48] INFO root fetch - main [MainThread]: End processing [lstosa]: success
+[2024-04-16 15:23:48] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.73.0.tar.gz]
+[2024-04-16 15:23:48] INFO root fetch - processPackages [PolicyEngine-UK]: Remove: archive file [/home/abi/fetcher/tmp/PolicyEngine-UK-0.73.1.tar.gz]
+[2024-04-16 15:23:48] INFO root fetch - main [MainThread]: End processing [PolicyEngine-UK]: success
+[2024-04-16 15:23:48] INFO root fetch - main [MainThread]: Store serial: [22788142]
