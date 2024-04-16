@@ -19555,3 +19555,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 15:39:26] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.5.1.tar.gz]
 [2024-04-16 15:39:26] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
 [2024-04-16 15:39:26] INFO root fetch - main [MainThread]: Store serial: [22788349]
+[2024-04-16 15:41:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22788349]
+[2024-04-16 15:41:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gref4hsi
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sneakpeek
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycloudlab1
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: casa-formats-io
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synch2jira
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ebtorch
+[2024-04-16 15:41:35] WARNING root fetch - processPackages [mycloudlab1]: Skipping, unable to determine old version
+[2024-04-16 15:41:35] INFO root fetch - main [MainThread]: End processing [mycloudlab1] error
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ebtorch]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-16 15:41:35] INFO root fetch - processPackages [synch2jira]: New version: [0.0.92] Old Version: [0.0.90]
+[2024-04-16 15:41:35] INFO root fetch - processPackages [gref4hsi]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/f6/0b/a141fd3156848e8d2e2fc182cbf6bf93f48c8fe81f58d13605672b1a15c6/ebtorch-0.9.8.tar.gz
+[2024-04-16 15:41:35] INFO root fetch - processPackages [sneakpeek]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-16 15:41:35] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/ac/89/8b516eb18c22325b081189904047384452a9632613ff3239bed0f9af7f0c/synch2jira-0.0.90.tar.gz
+[2024-04-16 15:41:35] INFO root fetch - processPackages [casa-formats-io]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-16 15:41:35] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/fc/15/98463226a9236dd2907e0546e39570a0d15c293b077c48a44d68c6fb9869/gref4hsi-0.1.9.tar.gz
+[2024-04-16 15:41:35] INFO root fetch - processPackages [sneakpeek]: Downloading https://files.pythonhosted.org/packages/e4/c8/4d3747d40b8282575dae1736803f6694d93e38266e389eedb4425b72e05c/sneakpeek-0.8.2.tar.gz
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/de/e0/a625d79a43753923a509b28ef3011cc592fc185573d78146dda1a45d149a/ebtorch-0.9.9.tar.gz
+[2024-04-16 15:41:35] INFO root fetch - processPackages [synch2jira]: Downloading https://files.pythonhosted.org/packages/43/14/6f75dbd556e30e1e676db4cf124487a7b6c686c6daec58b5cbd03ac827b9/synch2jira-0.0.92.tar.gz
+[2024-04-16 15:41:35] INFO root fetch - processPackages [casa-formats-io]: Downloading https://files.pythonhosted.org/packages/93/34/a8f7ea7afd8936aef7e2623daea174accaee8785f164bed0a495aa591727/casa-formats-io-0.2.2.tar.gz
+[2024-04-16 15:41:35] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/3c/92/6fc1634f42eac02df38da040e9004caf7d7b93929e7c3481484817853e0d/gref4hsi-0.2.0.tar.gz
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2024-04-16 15:41:35] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.8.tar.gz tmp/ebtorch-0.9.9.tar.gz --markdown 20240416/e/ebtorch/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-16 15:41:35] INFO root fetch - processPackages [synch2jira]: executing diffoscope
+[2024-04-16 15:41:35] INFO root fetch - processPackages [synch2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synch2jira-0.0.90.tar.gz tmp/synch2jira-0.0.92.tar.gz --markdown 20240416/s/synch2jira/0.0.90-0.0.92/README.md --exclude *.pyd
+[2024-04-16 15:41:35] INFO root fetch - processPackages [gref4hsi]: executing diffoscope
+[2024-04-16 15:41:35] INFO root fetch - processPackages [gref4hsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gref4hsi-0.1.9.tar.gz tmp/gref4hsi-0.2.0.tar.gz --markdown 20240416/g/gref4hsi/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-16 15:41:35] INFO root fetch - processPackages [sneakpeek]: Downloading https://files.pythonhosted.org/packages/7c/65/bf7562f3405ca6e3dcda1ae2d97db2772136250b5495c5ab8cf1fc848fc0/sneakpeek-0.8.3.tar.gz
+[2024-04-16 15:41:36] INFO root fetch - processPackages [casa-formats-io]: Downloading https://files.pythonhosted.org/packages/65/75/59b964d068b11faac6727ec6ca5ab26fbb7b12200f743b752333027d53e4/casa_formats_io-0.2.3.tar.gz
+[2024-04-16 15:41:36] INFO root fetch - processPackages [sneakpeek]: executing diffoscope
+[2024-04-16 15:41:36] INFO root fetch - processPackages [sneakpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sneakpeek-0.8.2.tar.gz tmp/sneakpeek-0.8.3.tar.gz --markdown 20240416/s/sneakpeek/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-16 15:41:36] INFO root fetch - processPackages [casa-formats-io]: executing diffoscope
+[2024-04-16 15:41:36] INFO root fetch - processPackages [casa-formats-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casa-formats-io-0.2.2.tar.gz tmp/casa_formats_io-0.2.3.tar.gz --markdown 20240416/c/casa-formats-io/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-16 15:41:36] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.90.tar.gz]
+[2024-04-16 15:41:36] INFO root fetch - processPackages [synch2jira]: Remove: archive file [/home/abi/fetcher/tmp/synch2jira-0.0.92.tar.gz]
+[2024-04-16 15:41:36] INFO root fetch - main [MainThread]: End processing [synch2jira]: success
+[2024-04-16 15:41:36] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.8.tar.gz]
+[2024-04-16 15:41:36] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.9.tar.gz]
+[2024-04-16 15:41:36] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2024-04-16 15:41:36] INFO root fetch - processPackages [sneakpeek]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek-0.8.2.tar.gz]
+[2024-04-16 15:41:36] INFO root fetch - processPackages [sneakpeek]: Remove: archive file [/home/abi/fetcher/tmp/sneakpeek-0.8.3.tar.gz]
+[2024-04-16 15:41:36] INFO root fetch - main [MainThread]: End processing [sneakpeek]: success
+[2024-04-16 15:41:36] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.1.9.tar.gz]
+[2024-04-16 15:41:36] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.2.0.tar.gz]
+[2024-04-16 15:41:36] INFO root fetch - main [MainThread]: End processing [gref4hsi]: success
+[2024-04-16 15:41:37] INFO root fetch - processPackages [casa-formats-io]: Remove: archive file [/home/abi/fetcher/tmp/casa-formats-io-0.2.2.tar.gz]
+[2024-04-16 15:41:37] INFO root fetch - processPackages [casa-formats-io]: Remove: archive file [/home/abi/fetcher/tmp/casa_formats_io-0.2.3.tar.gz]
+[2024-04-16 15:41:37] INFO root fetch - main [MainThread]: End processing [casa-formats-io]: success
+[2024-04-16 15:41:37] INFO root fetch - main [MainThread]: Store serial: [22788376]
