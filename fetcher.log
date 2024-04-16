@@ -2073,3 +2073,66 @@
 [2024-04-16 02:06:07] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2024-04-16 02:06:07] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2024-04-16 02:06:07] INFO root fetch - main [MainThread]: Store serial: [22780609]
+[2024-04-16 02:08:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22780609]
+[2024-04-16 02:08:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oaklib
+[2024-04-16 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2024-04-16 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEMO-reports
+[2024-04-16 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai
+[2024-04-16 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant-frontend
+[2024-04-16 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CryptMaster
+[2024-04-16 02:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raphtory
+[2024-04-16 02:08:16] INFO root fetch - processPackages [CryptMaster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240415] Old Version: [0.0.8.dev20240414]
+[2024-04-16 02:08:16] INFO root fetch - processPackages [openai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-16 02:08:16] INFO root fetch - processPackages [NEMO-reports]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-16 02:08:16] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-16 02:08:16] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/00/5b/344d3f3e7e7b15554555f36b02ff4f0ccf56a264fa8ce5db1b2f5e0e6138/CryptMaster-0.0.8.tar.gz
+[2024-04-16 02:08:16] INFO root fetch - processPackages [oaklib]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-16 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/3c/86/48b75f021ef7dd86ace7a9414724572111022d4db20c24b85a805df08077/jaxutils-nightly-0.0.8.dev20240414.tar.gz
+[2024-04-16 02:08:16] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/9a/25/578115b5b9cf35478ce098a8242ed82741e56b3452ebc171f7dc7b77c433/openai-1.8.0.tar.gz
+[2024-04-16 02:08:16] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/5b/10/d9023bb530ecf18d09d5b08e3a9cf8b8ca9893391a5998b42db7cd72f599/NEMO_reports-1.7.0-py3-none-any.whl
+[2024-04-16 02:08:16] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/ab/77/a2363691355bea70f2facd7e1cdfdd8ddee05bf912f723d3b26e2a57c2da/music-assistant-frontend-2.4.1.tar.gz
+[2024-04-16 02:08:16] INFO root fetch - processPackages [raphtory]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-16 02:08:16] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/8f/6f/fb2d102e32f3b90a4477996afc6d7d70ce66d66c01273a964ba76f3301ae/oaklib-0.6.2.tar.gz
+[2024-04-16 02:08:16] INFO root fetch - processPackages [CryptMaster]: Downloading https://files.pythonhosted.org/packages/ae/93/b56af5b58735ce04ca79a7da306ce097cb4f71a16fa57a0e35c03d900086/CryptMaster-0.0.9.tar.gz
+[2024-04-16 02:08:16] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/98/0d/d97f8c264ba77978754751a83e5e27a7783a5389b8f18da384f616a43bb8/openai-1.9.0.tar.gz
+[2024-04-16 02:08:16] INFO root fetch - processPackages [CryptMaster]: executing diffoscope
+[2024-04-16 02:08:16] INFO root fetch - processPackages [CryptMaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptMaster-0.0.8.tar.gz tmp/CryptMaster-0.0.9.tar.gz --markdown 20240416/C/CryptMaster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 02:08:16] INFO root fetch - processPackages [raphtory]: Downloading https://files.pythonhosted.org/packages/e9/7f/75d6b2431cbfaeb6dd820c493adc89e0b741e7cb011df8ee836ec9521b8c/raphtory-0.7.0-cp39-none-win_amd64.whl
+[2024-04-16 02:08:16] INFO root fetch - processPackages [openai]: executing diffoscope
+[2024-04-16 02:08:16] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-1.8.0.tar.gz tmp/openai-1.9.0.tar.gz --markdown 20240416/o/openai/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-16 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/7e/e0/f7133d86029911b1b07a3156cdd81547914131273ddd13f7aab1214ecb64/jaxutils-nightly-0.0.8.dev20240415.tar.gz
+[2024-04-16 02:08:16] INFO root fetch - processPackages [NEMO-reports]: Downloading https://files.pythonhosted.org/packages/d2/d1/d43d58f52750b2ad759fec9a05faf640d014141b53eed351e4d93d37d1d9/NEMO_reports-1.7.1-py3-none-any.whl
+[2024-04-16 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-16 02:08:16] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240414.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240415.tar.gz --markdown 20240416/j/jaxutils-nightly/0.0.8.dev20240414-0.0.8.dev20240415/README.md --exclude *.pyd
+[2024-04-16 02:08:16] INFO root fetch - processPackages [oaklib]: Downloading https://files.pythonhosted.org/packages/38/ac/3bbbe238fdb511d909226d6bda0b58878559c78b6caec6604e3b81d7415a/oaklib-0.6.3.tar.gz
+[2024-04-16 02:08:16] INFO root fetch - processPackages [NEMO-reports]: executing diffoscope
+[2024-04-16 02:08:16] INFO root fetch - processPackages [NEMO-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_reports-1.7.0-py3-none-any.whl.zip tmp/NEMO_reports-1.7.1-py3-none-any.whl.zip --markdown 20240416/N/NEMO-reports/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-04-16 02:08:17] INFO root fetch - processPackages [oaklib]: executing diffoscope
+[2024-04-16 02:08:17] INFO root fetch - processPackages [oaklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaklib-0.6.2.tar.gz tmp/oaklib-0.6.3.tar.gz --markdown 20240416/o/oaklib/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-16 02:08:17] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/03/55/4707abb2fd0afdd2015956196b4e89c67b9c9ffb3450aa17f0972b2aa934/music-assistant-frontend-2.4.2.tar.gz
+[2024-04-16 02:08:17] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2024-04-16 02:08:17] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.4.1.tar.gz tmp/music-assistant-frontend-2.4.2.tar.gz --markdown 20240416/m/music-assistant-frontend/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-04-16 02:08:17] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.8.tar.gz]
+[2024-04-16 02:08:17] INFO root fetch - processPackages [CryptMaster]: Remove: archive file [/home/abi/fetcher/tmp/CryptMaster-0.0.9.tar.gz]
+[2024-04-16 02:08:17] INFO root fetch - main [MainThread]: End processing [CryptMaster]: success
+[2024-04-16 02:08:17] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240414.tar.gz]
+[2024-04-16 02:08:17] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240415.tar.gz]
+[2024-04-16 02:08:17] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-16 02:08:17] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.7.0-py3-none-any.whl.zip]
+[2024-04-16 02:08:17] INFO root fetch - processPackages [NEMO-reports]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_reports-1.7.1-py3-none-any.whl.zip]
+[2024-04-16 02:08:17] INFO root fetch - main [MainThread]: End processing [NEMO-reports]: success
+[2024-04-16 02:08:17] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.8.0.tar.gz]
+[2024-04-16 02:08:17] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
+[2024-04-16 02:08:17] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2024-04-16 02:08:18] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.6.2.tar.gz]
+[2024-04-16 02:08:18] INFO root fetch - processPackages [oaklib]: Remove: archive file [/home/abi/fetcher/tmp/oaklib-0.6.3.tar.gz]
+[2024-04-16 02:08:18] INFO root fetch - main [MainThread]: End processing [oaklib]: success
+[2024-04-16 02:08:19] INFO root fetch - processPackages [raphtory]: Downloading https://files.pythonhosted.org/packages/5d/ff/a0d5b04504077637e882d15d5cbb189694794128f4a14a4954add4d0b455/raphtory-0.8.0-cp311-none-win_amd64.whl
+[2024-04-16 02:08:20] WARNING root fetch - processPackages [raphtory]: Skipping package: exceeds size limit 10622316>=10485760
+[2024-04-16 02:08:20] INFO root fetch - main [MainThread]: End processing [raphtory] error
+[2024-04-16 02:08:35] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.4.1.tar.gz]
+[2024-04-16 02:08:35] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.4.2.tar.gz]
+[2024-04-16 02:08:35] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2024-04-16 02:08:35] INFO root fetch - main [MainThread]: Store serial: [22780636]
