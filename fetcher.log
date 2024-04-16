@@ -6472,3 +6472,18 @@
 [2024-04-16 07:12:44] INFO root fetch - processPackages [onnxsharp]: Remove: archive file [/home/abi/fetcher/tmp/onnxsharp-0.0.2-py2.py3-none-any.whl.zip]
 [2024-04-16 07:12:44] INFO root fetch - main [MainThread]: End processing [onnxsharp]: success
 [2024-04-16 07:12:44] INFO root fetch - main [MainThread]: Store serial: [22782770]
+[2024-04-16 07:14:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22782770]
+[2024-04-16 07:14:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-16 07:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-04-16 07:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-package-mxgnxs
+[2024-04-16 07:14:53] INFO root fetch - processPackages [pyqqq]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-16 07:14:53] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/51/37/a80fb0a720f85254660cda974ffc51d4f93373ce9c92583eb84bbf546d91/pyqqq-0.7.8.tar.gz
+[2024-04-16 07:14:53] WARNING root fetch - processPackages [example-package-mxgnxs]: Skipping, unable to determine old version
+[2024-04-16 07:14:53] INFO root fetch - main [MainThread]: End processing [example-package-mxgnxs] error
+[2024-04-16 07:14:53] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/1a/10/946e5154b1400e87ef3b47c1368cbd609c8198d534a4b2220ae3196bed51/pyqqq-0.7.9.tar.gz
+[2024-04-16 07:14:54] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-16 07:14:54] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.7.8.tar.gz tmp/pyqqq-0.7.9.tar.gz --markdown 20240416/p/pyqqq/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-16 07:14:54] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.8.tar.gz]
+[2024-04-16 07:14:54] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.9.tar.gz]
+[2024-04-16 07:14:54] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-16 07:14:54] INFO root fetch - main [MainThread]: Store serial: [22782773]
