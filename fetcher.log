@@ -3949,3 +3949,42 @@
 [2024-04-16 04:14:39] INFO root fetch - processPackages [iac-init]: Remove: archive file [/home/abi/fetcher/tmp/iac_init-0.2.7.tar.gz]
 [2024-04-16 04:14:39] INFO root fetch - main [MainThread]: End processing [iac-init]: success
 [2024-04-16 04:14:39] INFO root fetch - main [MainThread]: Store serial: [22781531]
+[2024-04-16 04:16:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781531]
+[2024-04-16 04:16:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 04:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: termichat
+[2024-04-16 04:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ths-mongo-training-tools
+[2024-04-16 04:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turbobus
+[2024-04-16 04:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MultiGATE
+[2024-04-16 04:16:47] INFO root fetch - processPackages [ths-mongo-training-tools]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-16 04:16:47] INFO root fetch - processPackages [termichat]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-16 04:16:48] INFO root fetch - processPackages [termichat]: Downloading https://files.pythonhosted.org/packages/95/d1/d68c381e5e94cf5c2bb822a84960d9ad16a39fdef760a59cdd4180771a4e/termichat-0.0.3.tar.gz
+[2024-04-16 04:16:48] INFO root fetch - processPackages [turbobus]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-16 04:16:48] INFO root fetch - processPackages [MultiGATE]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-16 04:16:48] INFO root fetch - processPackages [ths-mongo-training-tools]: Downloading https://files.pythonhosted.org/packages/29/02/5e3520e80a4e1d0a52ba13d70117a359807e81f5aebb9b836ffbc6f872ec/ths_mongo_training_tools-0.1.6.tar.gz
+[2024-04-16 04:16:48] INFO root fetch - processPackages [turbobus]: Downloading https://files.pythonhosted.org/packages/b5/9a/7055074c325d1d6f4038f6c19cc15b66d3861de94c162c9ebc4ca3e989b1/turbobus-1.0.0a8.tar.gz
+[2024-04-16 04:16:48] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/6d/b6/1cb873f18fe05021c33b90cd610970779199199a253b4cbb55371f036fe2/MultiGATE-0.0.8.tar.gz
+[2024-04-16 04:16:48] INFO root fetch - processPackages [termichat]: Downloading https://files.pythonhosted.org/packages/c7/d7/f65ec146d6afea9697b6e093a82885a59916736209868e7970249e5efe3f/termichat-0.0.4.tar.gz
+[2024-04-16 04:16:48] INFO root fetch - processPackages [ths-mongo-training-tools]: Downloading https://files.pythonhosted.org/packages/52/95/6fb0102cfae25541348f2776898df591567882931a2fde6dbf4dfa5935e1/ths_mongo_training_tools-0.1.7.tar.gz
+[2024-04-16 04:16:48] INFO root fetch - processPackages [termichat]: executing diffoscope
+[2024-04-16 04:16:48] INFO root fetch - processPackages [termichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termichat-0.0.3.tar.gz tmp/termichat-0.0.4.tar.gz --markdown 20240416/t/termichat/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-16 04:16:48] INFO root fetch - processPackages [ths-mongo-training-tools]: executing diffoscope
+[2024-04-16 04:16:48] INFO root fetch - processPackages [ths-mongo-training-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ths_mongo_training_tools-0.1.6.tar.gz tmp/ths_mongo_training_tools-0.1.7.tar.gz --markdown 20240416/t/ths-mongo-training-tools/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-16 04:16:48] INFO root fetch - processPackages [turbobus]: Downloading https://files.pythonhosted.org/packages/d0/97/b52586992acfb9498c9ee77bd7139774af6fe36ec1a679aa509484808f58/turbobus-1.0.0a9.tar.gz
+[2024-04-16 04:16:48] INFO root fetch - processPackages [MultiGATE]: Downloading https://files.pythonhosted.org/packages/20/4c/6b22d9812f15243cb7946fb4baccba7279fef354e1e3455d1c55f58cecff/MultiGATE-0.0.9.tar.gz
+[2024-04-16 04:16:48] INFO root fetch - processPackages [MultiGATE]: executing diffoscope
+[2024-04-16 04:16:48] INFO root fetch - processPackages [MultiGATE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MultiGATE-0.0.8.tar.gz tmp/MultiGATE-0.0.9.tar.gz --markdown 20240416/M/MultiGATE/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-16 04:16:48] INFO root fetch - processPackages [turbobus]: executing diffoscope
+[2024-04-16 04:16:48] INFO root fetch - processPackages [turbobus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbobus-1.0.0a8.tar.gz tmp/turbobus-1.0.0a9.tar.gz --markdown 20240416/t/turbobus/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-04-16 04:16:49] INFO root fetch - processPackages [ths-mongo-training-tools]: Remove: archive file [/home/abi/fetcher/tmp/ths_mongo_training_tools-0.1.6.tar.gz]
+[2024-04-16 04:16:49] INFO root fetch - processPackages [ths-mongo-training-tools]: Remove: archive file [/home/abi/fetcher/tmp/ths_mongo_training_tools-0.1.7.tar.gz]
+[2024-04-16 04:16:49] INFO root fetch - main [MainThread]: End processing [ths-mongo-training-tools]: success
+[2024-04-16 04:16:49] INFO root fetch - processPackages [termichat]: Remove: archive file [/home/abi/fetcher/tmp/termichat-0.0.3.tar.gz]
+[2024-04-16 04:16:49] INFO root fetch - processPackages [termichat]: Remove: archive file [/home/abi/fetcher/tmp/termichat-0.0.4.tar.gz]
+[2024-04-16 04:16:49] INFO root fetch - main [MainThread]: End processing [termichat]: success
+[2024-04-16 04:16:49] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.8.tar.gz]
+[2024-04-16 04:16:49] INFO root fetch - processPackages [MultiGATE]: Remove: archive file [/home/abi/fetcher/tmp/MultiGATE-0.0.9.tar.gz]
+[2024-04-16 04:16:49] INFO root fetch - main [MainThread]: End processing [MultiGATE]: success
+[2024-04-16 04:16:49] INFO root fetch - processPackages [turbobus]: Remove: archive file [/home/abi/fetcher/tmp/turbobus-1.0.0a8.tar.gz]
+[2024-04-16 04:16:49] INFO root fetch - processPackages [turbobus]: Remove: archive file [/home/abi/fetcher/tmp/turbobus-1.0.0a9.tar.gz]
+[2024-04-16 04:16:49] INFO root fetch - main [MainThread]: End processing [turbobus]: success
+[2024-04-16 04:16:49] INFO root fetch - main [MainThread]: Store serial: [22781541]
