@@ -22851,3 +22851,105 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:20:49] INFO root fetch - processPackages [shinywidgets]: Remove: archive file [/home/abi/fetcher/tmp/shinywidgets-0.3.2.tar.gz]
 [2024-04-16 17:20:49] INFO root fetch - main [MainThread]: End processing [shinywidgets]: success
 [2024-04-16 17:20:49] INFO root fetch - main [MainThread]: Store serial: [22789807]
+[2024-04-16 17:22:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789807]
+[2024-04-16 17:22:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scwrypts
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PycWB
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lottokit
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: power-grid-model
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ilcdlib
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: merlin
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: healpix-alchemy
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: life360
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: All-in-one-chay
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lunaticoastro-dragonfly-controller
+[2024-04-16 17:22:58] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [PycWB]: New version: [0.22.1] Old Version: [0.22.0]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [healpix-alchemy]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [scwrypts]: New version: [4.3.0] Old Version: [4.2.6]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [merlin]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [ilcdlib]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [lottokit]: New version: [0.9] Old Version: [0.8]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [All-in-one-chay]: New version: [2.4.7] Old Version: [2.4.6]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [life360]: New version: [7.0.0b1] Old Version: [7.0.0b0]
+[2024-04-16 17:22:58] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/a2/07/619b62429389ec55aff191e1bdb61af2fdd8786b5cdafbbbcf5354c0eefc/lunaticoastro_dragonfly_controller-0.7.0.tar.gz
+[2024-04-16 17:22:58] INFO root fetch - processPackages [PycWB]: Downloading https://files.pythonhosted.org/packages/d2/8e/64518a7dd09f8e83d65423862bf67c7cbe1d953407839ce85c788813b0e6/PycWB-0.22.0.tar.gz
+[2024-04-16 17:22:58] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-04-16 17:22:58] INFO root fetch - processPackages [merlin]: Downloading https://files.pythonhosted.org/packages/53/33/e3838e965bff5b0bdd75533e335aa049eed7d3c3d8df9f7a52c9e15a6714/merlin-1.9.0.tar.gz
+[2024-04-16 17:22:58] INFO root fetch - processPackages [All-in-one-chay]: Downloading https://files.pythonhosted.org/packages/09/4a/830dc52e60a37b4dedbece72e876ecba9b9e89334ddc31533c5a7524f605/All-in-one-chay-2.4.6.tar.gz
+[2024-04-16 17:22:58] INFO root fetch - processPackages [scwrypts]: Downloading https://files.pythonhosted.org/packages/d9/99/955e0a7c1e6ebc61541eceee73ae500ef7e7198e133e278ccdd30cb413d8/scwrypts-4.2.6.tar.gz
+[2024-04-16 17:22:58] INFO root fetch - processPackages [life360]: Downloading https://files.pythonhosted.org/packages/a6/e3/07dfdcdac7cac4295068c4b723ed48a9df65462f371abaed52872eed26c4/life360-7.0.0b0.tar.gz
+[2024-04-16 17:22:58] INFO root fetch - processPackages [healpix-alchemy]: Downloading https://files.pythonhosted.org/packages/f6/cb/28b3af44a879225c310c81ba38c0ea3693f2cfe34dbca0af379c9050f3b2/healpix_alchemy-1.0.2.tar.gz
+[2024-04-16 17:22:58] INFO root fetch - processPackages [lottokit]: Downloading https://files.pythonhosted.org/packages/bb/93/d0649f04201dd1ddbd8f60fa5be839c57960f0a9d0e06da7ff96075a9a79/lottokit-0.8.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/88/b5/7e6a98c6cdd5f56a3253a0e7b492cff3881da6a0b3645c552517cedff53e/ilcdlib-4.0.0.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Downloading https://files.pythonhosted.org/packages/d2/d2/5cf9929d873d9b9ed43d00cd9199775f245b90b9ea5f6fdb2cac2f8d1bc3/lunaticoastro_dragonfly_controller-0.7.1.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: executing diffoscope
+[2024-04-16 17:22:59] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunaticoastro_dragonfly_controller-0.7.0.tar.gz tmp/lunaticoastro_dragonfly_controller-0.7.1.tar.gz --markdown 20240416/l/lunaticoastro-dragonfly-controller/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-16 17:22:59] INFO root fetch - processPackages [PycWB]: Downloading https://files.pythonhosted.org/packages/40/fc/b15ecb511862512e8f7bb337368aa33ac80f1d103a822c4853651a3518fa/pycwb-0.22.1.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [All-in-one-chay]: Downloading https://files.pythonhosted.org/packages/be/ab/df8f4dc7b5ab5ebfe28cfb6a3b7481f6807ecf1f247e5e506ef6620e2b4a/all_in_one_chay-2.4.7.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [scwrypts]: Downloading https://files.pythonhosted.org/packages/68/aa/4f8fa44fdf84fdf6a97adabebd90c8a6714d19a315c185166487b0c0fc2b/scwrypts-4.3.0.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [lottokit]: Downloading https://files.pythonhosted.org/packages/9e/41/5128d72f8829c26594f51a83a49c255dde0a402ae03681afff0fddb11a8b/lottokit-0.9.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [life360]: Downloading https://files.pythonhosted.org/packages/86/a1/4de95b5afc49ad548d813511d8657e374b2da8499254bf820f8d1bdca7af/life360-7.0.0b1.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-04-16 17:22:59] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240416/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-04-16 17:22:59] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/18/f1/79ea39c2a4520c82f1a678c92bb5fc6fcdea2a2b772909aab256a1c61aeb/ilcdlib-4.1.0.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [lottokit]: executing diffoscope
+[2024-04-16 17:22:59] INFO root fetch - processPackages [lottokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lottokit-0.8.tar.gz tmp/lottokit-0.9.tar.gz --markdown 20240416/l/lottokit/0.8-0.9/README.md --exclude *.pyd
+[2024-04-16 17:22:59] INFO root fetch - processPackages [scwrypts]: executing diffoscope
+[2024-04-16 17:22:59] INFO root fetch - processPackages [scwrypts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scwrypts-4.2.6.tar.gz tmp/scwrypts-4.3.0.tar.gz --markdown 20240416/s/scwrypts/4.2.6-4.3.0/README.md --exclude *.pyd
+[2024-04-16 17:22:59] INFO root fetch - processPackages [healpix-alchemy]: Downloading https://files.pythonhosted.org/packages/bd/bf/1dee55e69397604df0ed5ee809d1ffb8913532d6e15c3b94e1ddd5f1ddb3/healpix_alchemy-1.1.0.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2024-04-16 17:22:59] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-4.0.0.tar.gz tmp/ilcdlib-4.1.0.tar.gz --markdown 20240416/i/ilcdlib/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-16 17:22:59] INFO root fetch - processPackages [life360]: executing diffoscope
+[2024-04-16 17:22:59] INFO root fetch - processPackages [life360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/life360-7.0.0b0.tar.gz tmp/life360-7.0.0b1.tar.gz --markdown 20240416/l/life360/7.0.0b0-7.0.0b1/README.md --exclude *.pyd
+[2024-04-16 17:22:59] INFO root fetch - processPackages [merlin]: Downloading https://files.pythonhosted.org/packages/45/29/69bd6d6b904811709161999ddf83b711ccebca43082b40a37f6f7e7ff208/merlin-1.9.1.tar.gz
+[2024-04-16 17:22:59] INFO root fetch - processPackages [PycWB]: executing diffoscope
+[2024-04-16 17:22:59] INFO root fetch - processPackages [PycWB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PycWB-0.22.0.tar.gz tmp/pycwb-0.22.1.tar.gz --markdown 20240416/P/PycWB/0.22.0-0.22.1/README.md --exclude *.pyd
+[2024-04-16 17:22:59] INFO root fetch - processPackages [healpix-alchemy]: executing diffoscope
+[2024-04-16 17:22:59] INFO root fetch - processPackages [healpix-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/healpix_alchemy-1.0.2.tar.gz tmp/healpix_alchemy-1.1.0.tar.gz --markdown 20240416/h/healpix-alchemy/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-16 17:22:59] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.7.0.tar.gz]
+[2024-04-16 17:22:59] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Remove: archive file [/home/abi/fetcher/tmp/lunaticoastro_dragonfly_controller-0.7.1.tar.gz]
+[2024-04-16 17:22:59] INFO root fetch - processPackages [lunaticoastro-dragonfly-controller]: Start processing: bec-widgets
+[2024-04-16 17:22:59] INFO root fetch - main [MainThread]: End processing [lunaticoastro-dragonfly-controller]: success
+[2024-04-16 17:23:00] INFO root fetch - processPackages [bec-widgets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-16 17:23:00] INFO root fetch - processPackages [lottokit]: Remove: archive file [/home/abi/fetcher/tmp/lottokit-0.8.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - processPackages [lottokit]: Remove: archive file [/home/abi/fetcher/tmp/lottokit-0.9.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - main [MainThread]: End processing [lottokit]: success
+[2024-04-16 17:23:00] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/d4/a4/036c9cedb9f9879c6b5fee42a6aa51583c18be1eaa61ffbad1171b243b07/bec_widgets-0.8.1.tar.gz
+[2024-04-16 17:23:00] INFO root fetch - processPackages [scwrypts]: Remove: archive file [/home/abi/fetcher/tmp/scwrypts-4.2.6.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - processPackages [scwrypts]: Remove: archive file [/home/abi/fetcher/tmp/scwrypts-4.3.0.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - main [MainThread]: End processing [scwrypts]: success
+[2024-04-16 17:23:00] INFO root fetch - processPackages [life360]: Remove: archive file [/home/abi/fetcher/tmp/life360-7.0.0b0.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - processPackages [life360]: Remove: archive file [/home/abi/fetcher/tmp/life360-7.0.0b1.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - main [MainThread]: End processing [life360]: success
+[2024-04-16 17:23:00] INFO root fetch - processPackages [healpix-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/healpix_alchemy-1.0.2.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - processPackages [healpix-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/healpix_alchemy-1.1.0.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - main [MainThread]: End processing [healpix-alchemy]: success
+[2024-04-16 17:23:00] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/7b/e6/68a9811ec8510a320cd3cd5f47b87f8dd777a4f16143aeb7bd115645485b/bec_widgets-0.9.0.tar.gz
+[2024-04-16 17:23:00] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-4.0.0.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-4.1.0.tar.gz]
+[2024-04-16 17:23:00] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2024-04-16 17:23:00] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2024-04-16 17:23:00] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.8.1.tar.gz tmp/bec_widgets-0.9.0.tar.gz --markdown 20240416/b/bec-widgets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-16 17:23:01] INFO root fetch - processPackages [merlin]: executing diffoscope
+[2024-04-16 17:23:01] INFO root fetch - processPackages [merlin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-1.9.0.tar.gz tmp/merlin-1.9.1.tar.gz --markdown 20240416/m/merlin/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-16 17:23:01] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.8.1.tar.gz]
+[2024-04-16 17:23:01] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.9.0.tar.gz]
+[2024-04-16 17:23:01] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2024-04-16 17:23:01] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-04-16 17:23:01] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-04-16 17:23:01] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-04-16 17:23:02] INFO root fetch - processPackages [PycWB]: Remove: archive file [/home/abi/fetcher/tmp/PycWB-0.22.0.tar.gz]
+[2024-04-16 17:23:02] INFO root fetch - processPackages [PycWB]: Remove: archive file [/home/abi/fetcher/tmp/pycwb-0.22.1.tar.gz]
+[2024-04-16 17:23:02] INFO root fetch - main [MainThread]: End processing [PycWB]: success
+[2024-04-16 17:23:02] INFO root fetch - processPackages [All-in-one-chay]: executing diffoscope
+[2024-04-16 17:23:02] INFO root fetch - processPackages [All-in-one-chay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/All-in-one-chay-2.4.6.tar.gz tmp/all_in_one_chay-2.4.7.tar.gz --markdown 20240416/A/All-in-one-chay/2.4.6-2.4.7/README.md --exclude *.pyd
+[2024-04-16 17:23:02] INFO root fetch - processPackages [merlin]: Remove: archive file [/home/abi/fetcher/tmp/merlin-1.9.0.tar.gz]
+[2024-04-16 17:23:02] INFO root fetch - processPackages [merlin]: Remove: archive file [/home/abi/fetcher/tmp/merlin-1.9.1.tar.gz]
+[2024-04-16 17:23:02] INFO root fetch - main [MainThread]: End processing [merlin]: success
+[2024-04-16 17:23:02] INFO root fetch - processPackages [All-in-one-chay]: Remove: archive file [/home/abi/fetcher/tmp/All-in-one-chay-2.4.6.tar.gz]
+[2024-04-16 17:23:02] INFO root fetch - processPackages [All-in-one-chay]: Remove: archive file [/home/abi/fetcher/tmp/all_in_one_chay-2.4.7.tar.gz]
+[2024-04-16 17:23:02] INFO root fetch - main [MainThread]: End processing [All-in-one-chay]: success
+[2024-04-16 17:23:02] INFO root fetch - main [MainThread]: Store serial: [22789844]
