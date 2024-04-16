@@ -7095,3 +7095,24 @@
 [2024-04-16 07:51:16] INFO root fetch - processPackages [rai-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/rai_test_utils-0.4.2.tar.gz]
 [2024-04-16 07:51:16] INFO root fetch - main [MainThread]: End processing [rai-test-utils]: success
 [2024-04-16 07:51:16] INFO root fetch - main [MainThread]: Store serial: [22783009]
+[2024-04-16 07:53:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22783009]
+[2024-04-16 07:53:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-16 07:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-product-company
+[2024-04-16 07:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Mojo2py
+[2024-04-16 07:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conscience
+[2024-04-16 07:53:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json_write
+[2024-04-16 07:53:26] WARNING root fetch - processPackages [Mojo2py]: Skipping, unable to determine old version
+[2024-04-16 07:53:26] INFO root fetch - main [MainThread]: End processing [Mojo2py] error
+[2024-04-16 07:53:26] INFO root fetch - processPackages [odoo-addon-sale-product-company]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2024-04-16 07:53:26] WARNING root fetch - processPackages [json_write]: Skipping, unable to determine old version
+[2024-04-16 07:53:26] WARNING root fetch - processPackages [conscience]: Skipping, unable to determine old version
+[2024-04-16 07:53:26] INFO root fetch - main [MainThread]: End processing [json_write] error
+[2024-04-16 07:53:26] INFO root fetch - main [MainThread]: End processing [conscience] error
+[2024-04-16 07:53:26] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Downloading https://files.pythonhosted.org/packages/57/cf/9595dfc3273b217ee5d644465f204f9a9085d0b3b5e022c2e0c4ee6ebb24/odoo_addon_sale_product_company-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-16 07:53:27] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Downloading https://files.pythonhosted.org/packages/ff/c0/48b4a8012b28cbacab1c6872bcd54cbe327b615759cc9440597246328c85/odoo_addon_sale_product_company-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-16 07:53:27] INFO root fetch - processPackages [odoo-addon-sale-product-company]: executing diffoscope
+[2024-04-16 07:53:27] INFO root fetch - processPackages [odoo-addon-sale-product-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_product_company-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_product_company-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-sale-product-company/16.0.1.0.0.3-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-16 07:53:28] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_company-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-16 07:53:28] INFO root fetch - processPackages [odoo-addon-sale-product-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_company-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-16 07:53:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-product-company]: success
+[2024-04-16 07:53:28] INFO root fetch - main [MainThread]: Store serial: [22783023]
