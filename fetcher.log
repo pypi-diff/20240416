@@ -22141,3 +22141,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 17:02:41] INFO root fetch - processPackages [pymonday]: Remove: archive file [/home/abi/fetcher/tmp/pymonday-2.1.2.tar.gz]
 [2024-04-16 17:02:41] INFO root fetch - main [MainThread]: End processing [pymonday]: success
 [2024-04-16 17:02:41] INFO root fetch - main [MainThread]: Store serial: [22789514]
+[2024-04-16 17:04:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22789514]
+[2024-04-16 17:04:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymonday
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: falcon-toolkit
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peaka
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: figeno
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyreqwest-impersonate
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: permit
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tldraw
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finbourne-access-sdk
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: furthrmind
+[2024-04-16 17:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-id-python
+[2024-04-16 17:04:50] INFO root fetch - processPackages [figeno]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [pymonday]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-16 17:04:50] WARNING root fetch - processPackages [peaka]: Skipping, unable to determine old version
+[2024-04-16 17:04:50] INFO root fetch - processPackages [peaka]: Start processing: crawlab-ai
+[2024-04-16 17:04:50] INFO root fetch - main [MainThread]: End processing [peaka] error
+[2024-04-16 17:04:50] INFO root fetch - processPackages [furthrmind]: New version: [0.1b5] Old Version: [0.1b4]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [falcon-toolkit]: New version: [3.4.0] Old Version: [3.3.1]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [tldraw]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [crawlab-ai]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [pyreqwest-impersonate]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [permit]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [figeno]: Downloading https://files.pythonhosted.org/packages/85/a8/ce9638df997fafdc18b8207556ae4dcdd50c919205eac37f64acdbb11c63/figeno-1.0.7.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [pymonday]: Downloading https://files.pythonhosted.org/packages/df/bd/e5702f528a54b217be55e8415e4a4113da717d21209b67e6760606af8996/pymonday-2.1.1.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [tldraw]: Downloading https://files.pythonhosted.org/packages/38/88/e98905647fe7ae9c1f691a4199a7e8fac97249af81fa0504066dee65da4c/tldraw-2.0.8.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/95/84/beff2931fc8094984167b4188810541d3a6643c0c52373c9e340bee08303/furthrmind-0.1b4.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [falcon-toolkit]: Downloading https://files.pythonhosted.org/packages/87/8a/27f7505006636b60b5a87e06553e11f7515fe9a94dc41517cb26b4e6dca5/falcon_toolkit-3.3.1.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-16 17:04:50] WARNING root fetch - processPackages [figeno]: Skipping package: exceeds size limit 14354497>=10485760
+[2024-04-16 17:04:50] INFO root fetch - processPackages [figeno]: Start processing: cybrid-api-bank-python
+[2024-04-16 17:04:50] INFO root fetch - main [MainThread]: End processing [figeno] error
+[2024-04-16 17:04:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/49/32/33ecedcf4a3eee4da00a70d34e902fc6540bab301753819c8a19bb820718/crawlab-ai-0.0.7.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-16 17:04:50] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/a0/4b/b3592e6f231e1f97ff4b2d7b53e5c96d5a7d95b3933966389399348698eb/permit-2.4.0.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/c4/8d/de9d490bdd5d96a7c6325dccdbfdc7e64e78ac1a6989fa9dff64abc776a4/pyreqwest_impersonate-0.1.3.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [pymonday]: Downloading https://files.pythonhosted.org/packages/c8/37/cb698033398adf67c129940affe6f4ac7beb4bad1baf270c7031c0b94a11/pymonday-2.1.2.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [falcon-toolkit]: Downloading https://files.pythonhosted.org/packages/f6/a4/881768623b7f64b5bd90d5765d49b352789f61eb9da363ebf959b5eb1607/falcon_toolkit-3.4.0.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [crawlab-ai]: Downloading https://files.pythonhosted.org/packages/c9/6c/09ea1f68935e0f349aebaf93adc55f8d18eee521b09be0053dbf22e4b5a3/crawlab-ai-0.0.8.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [pymonday]: executing diffoscope
+[2024-04-16 17:04:50] INFO root fetch - processPackages [pymonday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonday-2.1.1.tar.gz tmp/pymonday-2.1.2.tar.gz --markdown 20240416/p/pymonday/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-16 17:04:50] INFO root fetch - processPackages [furthrmind]: Downloading https://files.pythonhosted.org/packages/6a/1a/7b4c8ee310606732f4deccc622d41bb4dc88ba1b564afd36cfb97a825878/furthrmind-0.1b5.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [falcon-toolkit]: executing diffoscope
+[2024-04-16 17:04:50] INFO root fetch - processPackages [falcon-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/falcon_toolkit-3.3.1.tar.gz tmp/falcon_toolkit-3.4.0.tar.gz --markdown 20240416/f/falcon-toolkit/3.3.1-3.4.0/README.md --exclude *.pyd
+[2024-04-16 17:04:50] INFO root fetch - processPackages [crawlab-ai]: executing diffoscope
+[2024-04-16 17:04:50] INFO root fetch - processPackages [crawlab-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlab-ai-0.0.7.tar.gz tmp/crawlab-ai-0.0.8.tar.gz --markdown 20240416/c/crawlab-ai/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-16 17:04:50] INFO root fetch - processPackages [tldraw]: Downloading https://files.pythonhosted.org/packages/84/c9/551763075c818744f792fe7b2b4b3c7098a18191128a7677de55dbddec6f/tldraw-2.0.9.tar.gz
+[2024-04-16 17:04:50] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-16 17:04:50] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240416/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-16 17:04:50] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-16 17:04:50] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240416/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-16 17:04:50] INFO root fetch - processPackages [permit]: Downloading https://files.pythonhosted.org/packages/a2/cb/ca84cd1e9af7995ab326a6d233f40924b99b227b3889c1c31b29009323a4/permit-2.4.1.tar.gz
+[2024-04-16 17:04:51] INFO root fetch - processPackages [furthrmind]: executing diffoscope
+[2024-04-16 17:04:51] INFO root fetch - processPackages [furthrmind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furthrmind-0.1b4.tar.gz tmp/furthrmind-0.1b5.tar.gz --markdown 20240416/f/furthrmind/0.1b4-0.1b5/README.md --exclude *.pyd
+[2024-04-16 17:04:51] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-16 17:04:51] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/78/4e/1e5cd3b8fa778d427804b53610ef3693cda64854d6cd2e4e122afead817b/pyreqwest_impersonate-0.2.0.tar.gz
+[2024-04-16 17:04:51] INFO root fetch - processPackages [permit]: executing diffoscope
+[2024-04-16 17:04:51] INFO root fetch - processPackages [permit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/permit-2.4.0.tar.gz tmp/permit-2.4.1.tar.gz --markdown 20240416/p/permit/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-04-16 17:04:51] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-16 17:04:51] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240416/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-16 17:04:51] INFO root fetch - processPackages [pyreqwest-impersonate]: executing diffoscope
+[2024-04-16 17:04:51] INFO root fetch - processPackages [pyreqwest-impersonate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreqwest_impersonate-0.1.3.tar.gz tmp/pyreqwest_impersonate-0.2.0.tar.gz --markdown 20240416/p/pyreqwest-impersonate/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-04-16 17:04:51] INFO root fetch - processPackages [tldraw]: executing diffoscope
+[2024-04-16 17:04:51] INFO root fetch - processPackages [tldraw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tldraw-2.0.8.tar.gz tmp/tldraw-2.0.9.tar.gz --markdown 20240416/t/tldraw/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-16 17:04:51] INFO root fetch - processPackages [pymonday]: Remove: archive file [/home/abi/fetcher/tmp/pymonday-2.1.1.tar.gz]
+[2024-04-16 17:04:51] INFO root fetch - processPackages [pymonday]: Remove: archive file [/home/abi/fetcher/tmp/pymonday-2.1.2.tar.gz]
+[2024-04-16 17:04:51] INFO root fetch - main [MainThread]: End processing [pymonday]: success
+[2024-04-16 17:04:51] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.7.tar.gz]
+[2024-04-16 17:04:51] INFO root fetch - processPackages [crawlab-ai]: Remove: archive file [/home/abi/fetcher/tmp/crawlab-ai-0.0.8.tar.gz]
+[2024-04-16 17:04:51] INFO root fetch - main [MainThread]: End processing [crawlab-ai]: success
+[2024-04-16 17:04:51] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b4.tar.gz]
+[2024-04-16 17:04:51] INFO root fetch - processPackages [furthrmind]: Remove: archive file [/home/abi/fetcher/tmp/furthrmind-0.1b5.tar.gz]
+[2024-04-16 17:04:51] INFO root fetch - main [MainThread]: End processing [furthrmind]: success
+[2024-04-16 17:04:52] INFO root fetch - processPackages [falcon-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/falcon_toolkit-3.3.1.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - processPackages [falcon-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/falcon_toolkit-3.4.0.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - main [MainThread]: End processing [falcon-toolkit]: success
+[2024-04-16 17:04:52] INFO root fetch - processPackages [permit]: Remove: archive file [/home/abi/fetcher/tmp/permit-2.4.0.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - processPackages [permit]: Remove: archive file [/home/abi/fetcher/tmp/permit-2.4.1.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - main [MainThread]: End processing [permit]: success
+[2024-04-16 17:04:52] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-16 17:04:52] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.1.3.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.2.0.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - main [MainThread]: End processing [pyreqwest-impersonate]: success
+[2024-04-16 17:04:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-16 17:04:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-16 17:04:53] INFO root fetch - processPackages [tldraw]: Remove: archive file [/home/abi/fetcher/tmp/tldraw-2.0.8.tar.gz]
+[2024-04-16 17:04:53] INFO root fetch - processPackages [tldraw]: Remove: archive file [/home/abi/fetcher/tmp/tldraw-2.0.9.tar.gz]
+[2024-04-16 17:04:53] INFO root fetch - main [MainThread]: End processing [tldraw]: success
+[2024-04-16 17:04:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-16 17:04:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-16 17:04:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-16 17:04:53] INFO root fetch - main [MainThread]: Store serial: [22789573]
