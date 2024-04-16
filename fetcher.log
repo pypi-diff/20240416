@@ -13949,3 +13949,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2024-04-16 12:16:53] INFO root fetch - processPackages [ctm-python-client]: Remove: archive file [/home/abi/fetcher/tmp/ctm-python-client-2.2.5.tar.gz]
 [2024-04-16 12:16:53] INFO root fetch - main [MainThread]: End processing [ctm-python-client]: success
 [2024-04-16 12:16:53] INFO root fetch - main [MainThread]: Store serial: [22786078]
+[2024-04-16 12:18:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22786078]
+[2024-04-16 12:19:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-16 12:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dhi-platform
+[2024-04-16 12:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat
+[2024-04-16 12:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bridgecrew
+[2024-04-16 12:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: q2gui
+[2024-04-16 12:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-fedit
+[2024-04-16 12:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anylearn
+[2024-04-16 12:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bias-detection-tool
+[2024-04-16 12:19:02] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.5.0a3] Old Version: [1.5.0a2]
+[2024-04-16 12:19:02] INFO root fetch - processPackages [anylearn]: New version: [0.20.2rc1] Old Version: [0.20.1rc1]
+[2024-04-16 12:19:02] INFO root fetch - processPackages [dhi-platform]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-16 12:19:02] WARNING root fetch - processPackages [bias-detection-tool]: Skipping, unable to determine old version
+[2024-04-16 12:19:02] INFO root fetch - main [MainThread]: End processing [bias-detection-tool] error
+[2024-04-16 12:19:02] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-16 12:19:02] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/a4/ec/f4033f7b10ad1c2f4b326163f7ce8f0d2c4994388551c1f2f4fb3d04a0b2/wagtail_fedit-1.5.0a2.tar.gz
+[2024-04-16 12:19:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [17.0.1.0.0.9] Old Version: [17.0.1.0.0.7]
+[2024-04-16 12:19:02] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-16 12:19:02] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/9e/8a/d7c16ca63a2e43d978cfe9562f3e42b90ba141a1f3920cff474c16431fbd/anylearn-0.20.1rc1.tar.gz
+[2024-04-16 12:19:02] INFO root fetch - processPackages [dhi-platform]: Downloading https://files.pythonhosted.org/packages/c3/cd/bbbbfe5e9a181e0216bc8c95a6d602ee4db62fdf37e7abc1cc4fd05bcb52/dhi-platform-1.0.7.tar.gz
+[2024-04-16 12:19:02] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-04-16 12:19:02] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/a3/0e/971b5bb399651275e946193c067df3ee65fb59d0107157b5ba33e2bf1a1c/odoo_addon_l10n_es_aeat-17.0.1.0.0.7-py3-none-any.whl
+[2024-04-16 12:19:02] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/37/66/fbb185b49ea3c6f609e0de202c89b4337ba8cdab4c873860d2aa7b98e317/wagtail_fedit-1.5.0a3.tar.gz
+[2024-04-16 12:19:02] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2024-04-16 12:19:02] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/3e/52/984d6bada77751b470871843f5ac3f60b9c8a4fda8312040a9a03e3ca36b/anylearn-0.20.2rc1.tar.gz
+[2024-04-16 12:19:02] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-16 12:19:02] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.5.0a2.tar.gz tmp/wagtail_fedit-1.5.0a3.tar.gz --markdown 20240416/w/wagtail-fedit/1.5.0a2-1.5.0a3/README.md --exclude *.pyd
+[2024-04-16 12:19:02] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2024-04-16 12:19:02] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.20.1rc1.tar.gz tmp/anylearn-0.20.2rc1.tar.gz --markdown 20240416/a/anylearn/0.20.1rc1-0.20.2rc1/README.md --exclude *.pyd
+[2024-04-16 12:19:03] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-04-16 12:19:03] INFO root fetch - processPackages [dhi-platform]: Downloading https://files.pythonhosted.org/packages/c2/12/024389e8cee04abd043a3bef7e128a9bb2be5a219e5c5c7bd0d7646e6ff6/dhi-platform-1.0.8.tar.gz
+[2024-04-16 12:19:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/8e/72/b92ca93688dbd7a2a8c429ed7eabd09a92b0cebf383e2d045a11d622ec92/odoo_addon_l10n_es_aeat-17.0.1.0.0.9-py3-none-any.whl
+[2024-04-16 12:19:03] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-04-16 12:19:03] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240416/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-16 12:19:03] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2024-04-16 12:19:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2024-04-16 12:19:03] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-17.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-17.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240416/o/odoo-addon-l10n-es-aeat/17.0.1.0.0.7-17.0.1.0.0.9/README.md --exclude *.pyd
+[2024-04-16 12:19:03] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2024-04-16 12:19:03] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20240416/q/q2gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-16 12:19:03] INFO root fetch - processPackages [dhi-platform]: executing diffoscope
+[2024-04-16 12:19:03] INFO root fetch - processPackages [dhi-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhi-platform-1.0.7.tar.gz tmp/dhi-platform-1.0.8.tar.gz --markdown 20240416/d/dhi-platform/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-16 12:19:03] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-04-16 12:19:03] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-04-16 12:19:03] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-04-16 12:19:03] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.20.1rc1.tar.gz]
+[2024-04-16 12:19:03] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.20.2rc1.tar.gz]
+[2024-04-16 12:19:03] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2024-04-16 12:19:03] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.0a2.tar.gz]
+[2024-04-16 12:19:03] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.0a3.tar.gz]
+[2024-04-16 12:19:03] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-16 12:19:04] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2024-04-16 12:19:04] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2024-04-16 12:19:04] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2024-04-16 12:19:04] INFO root fetch - processPackages [dhi-platform]: Remove: archive file [/home/abi/fetcher/tmp/dhi-platform-1.0.7.tar.gz]
+[2024-04-16 12:19:04] INFO root fetch - processPackages [dhi-platform]: Remove: archive file [/home/abi/fetcher/tmp/dhi-platform-1.0.8.tar.gz]
+[2024-04-16 12:19:04] INFO root fetch - main [MainThread]: End processing [dhi-platform]: success
+[2024-04-16 12:19:04] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-16 12:19:04] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-16 12:19:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2024-04-16 12:19:04] INFO root fetch - main [MainThread]: Store serial: [22786100]
