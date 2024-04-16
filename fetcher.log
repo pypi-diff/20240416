@@ -4035,3 +4035,15 @@
 [2024-04-16 04:19:01] INFO root fetch - processPackages [rqalpha]: Remove: archive file [/home/abi/fetcher/tmp/rqalpha-5.3.9.tar.gz]
 [2024-04-16 04:19:01] INFO root fetch - main [MainThread]: End processing [rqalpha]: success
 [2024-04-16 04:19:01] INFO root fetch - main [MainThread]: Store serial: [22781560]
+[2024-04-16 04:21:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22781560]
+[2024-04-16 04:21:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-16 04:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LabGym
+[2024-04-16 04:21:12] INFO root fetch - processPackages [LabGym]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-04-16 04:21:12] INFO root fetch - processPackages [LabGym]: Downloading https://files.pythonhosted.org/packages/49/79/8cfcf45de2b19a7cb62fa96f7a699d5ed51588b3109a4941465ef1e33e48/labgym-2.4.3.tar.gz
+[2024-04-16 04:21:12] INFO root fetch - processPackages [LabGym]: Downloading https://files.pythonhosted.org/packages/b3/7f/8e5c18c3413bfb2b540910a586babfac4b3bd10e78b9e227d15667333ffe/labgym-2.4.4.tar.gz
+[2024-04-16 04:21:12] INFO root fetch - processPackages [LabGym]: executing diffoscope
+[2024-04-16 04:21:12] INFO root fetch - processPackages [LabGym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240416:/home/abi/fetcher/20240416:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labgym-2.4.3.tar.gz tmp/labgym-2.4.4.tar.gz --markdown 20240416/L/LabGym/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-04-16 04:21:13] INFO root fetch - processPackages [LabGym]: Remove: archive file [/home/abi/fetcher/tmp/labgym-2.4.3.tar.gz]
+[2024-04-16 04:21:13] INFO root fetch - processPackages [LabGym]: Remove: archive file [/home/abi/fetcher/tmp/labgym-2.4.4.tar.gz]
+[2024-04-16 04:21:13] INFO root fetch - main [MainThread]: End processing [LabGym]: success
+[2024-04-16 04:21:13] INFO root fetch - main [MainThread]: Store serial: [22781565]
